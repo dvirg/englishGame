@@ -1,0 +1,6205 @@
+{
+  "meta": {
+    "title": "Magic Academy: English Quest",
+    "tagline": "Learn English the fun way!",
+    "gamesPerSession": 10,
+    "maxSessionScore": 100,
+    "unlockScore": 95,
+    "totalLevels": 100,
+    "audio": "Web Speech API (en-US / American accent)"
+  },
+  "praise": [
+    "Well done!",
+    "Great job!",
+    "Fabulous!",
+    "Superb!",
+    "Amazing!",
+    "Excellent!",
+    "You did it!",
+    "Brilliant!",
+    "Awesome!",
+    "Perfect!",
+    "Very good!",
+    "Fantastic!",
+    "Wonderful!",
+    "Way to go!"
+  ],
+  "tryAgain": [
+    "Try again!",
+    "Almost!",
+    "Oops, try again!",
+    "Not quite!",
+    "Have another go!"
+  ],
+  "mascots": [
+    "🦸",
+    "🧙",
+    "🚀",
+    "🌟",
+    "🦄",
+    "🐯",
+    "🦉",
+    "🤖"
+  ],
+  "gameTypes": [
+    {
+      "id": "listen_pick_picture",
+      "name": "Listen & Find",
+      "instruction": "Listen, then tap the right picture!"
+    },
+    {
+      "id": "look_pick_word",
+      "name": "What is it?",
+      "instruction": "Look and tap the right word!"
+    },
+    {
+      "id": "look_pick_sound",
+      "name": "Find the Sound",
+      "instruction": "Tap each speaker. Which one is the picture?"
+    },
+    {
+      "id": "match_pairs",
+      "name": "Match It",
+      "instruction": "Match every picture to its word!"
+    },
+    {
+      "id": "sort_it",
+      "name": "Sort It",
+      "instruction": "Put each word in the right box!"
+    },
+    {
+      "id": "say_it",
+      "name": "Say It",
+      "instruction": "Tap the microphone and say the word!"
+    },
+    {
+      "id": "build_sentence",
+      "name": "Build a Sentence",
+      "instruction": "Tap the words in the right order!"
+    },
+    {
+      "id": "spell_it",
+      "name": "Spell It",
+      "instruction": "Tap the letters to spell the word!"
+    },
+    {
+      "id": "true_false",
+      "name": "Yes or No?",
+      "instruction": "Is it right? Tap yes or no!"
+    },
+    {
+      "id": "listen_pick_word",
+      "name": "Listen & Read",
+      "instruction": "Listen, then tap the right word!"
+    }
+  ],
+  "levels": [
+    {
+      "id": "L00",
+      "index": 0,
+      "world": "Pre-K Planet",
+      "worldSubtitle": "First tiny words",
+      "worldIndex": 0,
+      "name": "Colours",
+      "category": "L00",
+      "color": "#FFE7A8",
+      "items": [
+        {
+          "word": "red",
+          "emoji": "🔴",
+          "slug": "red",
+          "image": "images/red.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "blue",
+          "emoji": "🔵",
+          "slug": "blue",
+          "image": "images/blue.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "green",
+          "emoji": "🟢",
+          "slug": "green",
+          "image": "images/green.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "yellow",
+          "emoji": "🟡",
+          "slug": "yellow",
+          "image": "images/yellow.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "orange",
+          "emoji": "🟠",
+          "slug": "orange",
+          "image": "images/orange.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "purple",
+          "emoji": "🟣",
+          "slug": "purple",
+          "image": "images/purple.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "pink",
+          "emoji": "🩷",
+          "slug": "pink",
+          "image": "images/pink.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "black",
+          "emoji": "⚫",
+          "slug": "black",
+          "image": "images/black.svg",
+          "color": "#FFE7A8"
+        }
+      ],
+      "sentences": [
+        "I like the red.",
+        "This is my blue.",
+        "I can see the green.",
+        "Look at the yellow!",
+        "I have the orange."
+      ]
+    },
+    {
+      "id": "L01",
+      "index": 1,
+      "world": "Pre-K Planet",
+      "worldSubtitle": "First tiny words",
+      "worldIndex": 0,
+      "name": "Numbers 1-5",
+      "category": "L01",
+      "color": "#DCC9FF",
+      "items": [
+        {
+          "word": "one",
+          "emoji": "1️⃣",
+          "slug": "one",
+          "image": "images/one.svg",
+          "color": "#DCC9FF"
+        },
+        {
+          "word": "two",
+          "emoji": "2️⃣",
+          "slug": "two",
+          "image": "images/two.svg",
+          "color": "#DCC9FF"
+        },
+        {
+          "word": "three",
+          "emoji": "3️⃣",
+          "slug": "three",
+          "image": "images/three.svg",
+          "color": "#DCC9FF"
+        },
+        {
+          "word": "four",
+          "emoji": "4️⃣",
+          "slug": "four",
+          "image": "images/four.svg",
+          "color": "#DCC9FF"
+        },
+        {
+          "word": "five",
+          "emoji": "5️⃣",
+          "slug": "five",
+          "image": "images/five.svg",
+          "color": "#DCC9FF"
+        }
+      ],
+      "sentences": [
+        "I like the one.",
+        "This is my two.",
+        "I can see the three.",
+        "Look at the four!",
+        "I have the five."
+      ]
+    },
+    {
+      "id": "L02",
+      "index": 2,
+      "world": "Pre-K Planet",
+      "worldSubtitle": "First tiny words",
+      "worldIndex": 0,
+      "name": "Numbers 6-10",
+      "category": "L02",
+      "color": "#FFD0DE",
+      "items": [
+        {
+          "word": "six",
+          "emoji": "6️⃣",
+          "slug": "six",
+          "image": "images/six.svg",
+          "color": "#FFD0DE"
+        },
+        {
+          "word": "seven",
+          "emoji": "7️⃣",
+          "slug": "seven",
+          "image": "images/seven.svg",
+          "color": "#FFD0DE"
+        },
+        {
+          "word": "eight",
+          "emoji": "8️⃣",
+          "slug": "eight",
+          "image": "images/eight.svg",
+          "color": "#FFD0DE"
+        },
+        {
+          "word": "nine",
+          "emoji": "9️⃣",
+          "slug": "nine",
+          "image": "images/nine.svg",
+          "color": "#FFD0DE"
+        },
+        {
+          "word": "ten",
+          "emoji": "🔟",
+          "slug": "ten",
+          "image": "images/ten.svg",
+          "color": "#FFD0DE"
+        }
+      ],
+      "sentences": [
+        "I like the six.",
+        "This is my seven.",
+        "I can see the eight.",
+        "Look at the nine!",
+        "I have the ten."
+      ]
+    },
+    {
+      "id": "L03",
+      "index": 3,
+      "world": "Pre-K Planet",
+      "worldSubtitle": "First tiny words",
+      "worldIndex": 0,
+      "name": "Shapes",
+      "category": "L03",
+      "color": "#C6F0CE",
+      "items": [
+        {
+          "word": "star",
+          "emoji": "⭐",
+          "slug": "star",
+          "image": "images/star.svg",
+          "color": "#C6F0CE"
+        },
+        {
+          "word": "heart",
+          "emoji": "❤️",
+          "slug": "heart",
+          "image": "images/heart.svg",
+          "color": "#C6F0CE"
+        },
+        {
+          "word": "circle",
+          "emoji": "⚪",
+          "slug": "circle",
+          "image": "images/circle.svg",
+          "color": "#C6F0CE"
+        },
+        {
+          "word": "square",
+          "emoji": "🟦",
+          "slug": "square",
+          "image": "images/square.svg",
+          "color": "#C6F0CE"
+        },
+        {
+          "word": "diamond",
+          "emoji": "💎",
+          "slug": "diamond",
+          "image": "images/diamond.svg",
+          "color": "#C6F0CE"
+        },
+        {
+          "word": "moon",
+          "emoji": "🌙",
+          "slug": "moon",
+          "image": "images/moon.svg",
+          "color": "#C6F0CE"
+        }
+      ],
+      "sentences": [
+        "I like the star.",
+        "This is my heart.",
+        "I can see the circle.",
+        "Look at the square!",
+        "I have the diamond."
+      ]
+    },
+    {
+      "id": "L04",
+      "index": 4,
+      "world": "Pre-K Planet",
+      "worldSubtitle": "First tiny words",
+      "worldIndex": 0,
+      "name": "Pets",
+      "category": "L04",
+      "color": "#BFE2FF",
+      "items": [
+        {
+          "word": "cat",
+          "emoji": "🐱",
+          "slug": "cat",
+          "image": "images/cat.svg",
+          "color": "#BFE2FF"
+        },
+        {
+          "word": "dog",
+          "emoji": "🐶",
+          "slug": "dog",
+          "image": "images/dog.svg",
+          "color": "#BFE2FF"
+        },
+        {
+          "word": "fish",
+          "emoji": "🐟",
+          "slug": "fish",
+          "image": "images/fish.svg",
+          "color": "#BFE2FF"
+        },
+        {
+          "word": "rabbit",
+          "emoji": "🐰",
+          "slug": "rabbit",
+          "image": "images/rabbit.svg",
+          "color": "#BFE2FF"
+        },
+        {
+          "word": "bird",
+          "emoji": "🐦",
+          "slug": "bird",
+          "image": "images/bird.svg",
+          "color": "#BFE2FF"
+        },
+        {
+          "word": "mouse",
+          "emoji": "🐭",
+          "slug": "mouse",
+          "image": "images/mouse.svg",
+          "color": "#BFE2FF"
+        }
+      ],
+      "sentences": [
+        "I like the cat.",
+        "This is my dog.",
+        "I can see the fish.",
+        "Look at the rabbit!",
+        "I have the bird."
+      ]
+    },
+    {
+      "id": "L05",
+      "index": 5,
+      "world": "Pre-K Planet",
+      "worldSubtitle": "First tiny words",
+      "worldIndex": 0,
+      "name": "Farm Animals",
+      "category": "L05",
+      "color": "#FFE0C4",
+      "items": [
+        {
+          "word": "cow",
+          "emoji": "🐮",
+          "slug": "cow",
+          "image": "images/cow.svg",
+          "color": "#FFE0C4"
+        },
+        {
+          "word": "pig",
+          "emoji": "🐷",
+          "slug": "pig",
+          "image": "images/pig.svg",
+          "color": "#FFE0C4"
+        },
+        {
+          "word": "horse",
+          "emoji": "🐴",
+          "slug": "horse",
+          "image": "images/horse.svg",
+          "color": "#FFE0C4"
+        },
+        {
+          "word": "sheep",
+          "emoji": "🐑",
+          "slug": "sheep",
+          "image": "images/sheep.svg",
+          "color": "#FFE0C4"
+        },
+        {
+          "word": "duck",
+          "emoji": "🦆",
+          "slug": "duck",
+          "image": "images/duck.svg",
+          "color": "#FFE0C4"
+        },
+        {
+          "word": "hen",
+          "emoji": "🐔",
+          "slug": "hen",
+          "image": "images/hen.svg",
+          "color": "#FFE0C4"
+        }
+      ],
+      "sentences": [
+        "I like the cow.",
+        "This is my pig.",
+        "I can see the horse.",
+        "Look at the sheep!",
+        "I have the duck."
+      ]
+    },
+    {
+      "id": "L06",
+      "index": 6,
+      "world": "Pre-K Planet",
+      "worldSubtitle": "First tiny words",
+      "worldIndex": 0,
+      "name": "My Body",
+      "category": "L06",
+      "color": "#CDEBFF",
+      "items": [
+        {
+          "word": "hand",
+          "emoji": "✋",
+          "slug": "hand",
+          "image": "images/hand.svg",
+          "color": "#CDEBFF"
+        },
+        {
+          "word": "eye",
+          "emoji": "👁️",
+          "slug": "eye",
+          "image": "images/eye.svg",
+          "color": "#CDEBFF"
+        },
+        {
+          "word": "nose",
+          "emoji": "👃",
+          "slug": "nose",
+          "image": "images/nose.svg",
+          "color": "#CDEBFF"
+        },
+        {
+          "word": "ear",
+          "emoji": "👂",
+          "slug": "ear",
+          "image": "images/ear.svg",
+          "color": "#CDEBFF"
+        },
+        {
+          "word": "mouth",
+          "emoji": "👄",
+          "slug": "mouth",
+          "image": "images/mouth.svg",
+          "color": "#CDEBFF"
+        },
+        {
+          "word": "foot",
+          "emoji": "🦶",
+          "slug": "foot",
+          "image": "images/foot.svg",
+          "color": "#CDEBFF"
+        }
+      ],
+      "sentences": [
+        "I like the hand.",
+        "This is my eye.",
+        "I can see the nose.",
+        "Look at the ear!",
+        "I have the mouth."
+      ]
+    },
+    {
+      "id": "L07",
+      "index": 7,
+      "world": "Pre-K Planet",
+      "worldSubtitle": "First tiny words",
+      "worldIndex": 0,
+      "name": "Fruit",
+      "category": "L07",
+      "color": "#CBF3E1",
+      "items": [
+        {
+          "word": "apple",
+          "emoji": "🍎",
+          "slug": "apple",
+          "image": "images/apple.svg",
+          "color": "#CBF3E1"
+        },
+        {
+          "word": "banana",
+          "emoji": "🍌",
+          "slug": "banana",
+          "image": "images/banana.svg",
+          "color": "#CBF3E1"
+        },
+        {
+          "word": "orange",
+          "emoji": "🍊",
+          "slug": "orange",
+          "image": "images/orange.svg",
+          "color": "#CBF3E1"
+        },
+        {
+          "word": "grapes",
+          "emoji": "🍇",
+          "slug": "grapes",
+          "image": "images/grapes.svg",
+          "color": "#CBF3E1"
+        },
+        {
+          "word": "strawberry",
+          "emoji": "🍓",
+          "slug": "strawberry",
+          "image": "images/strawberry.svg",
+          "color": "#CBF3E1"
+        },
+        {
+          "word": "melon",
+          "emoji": "🍉",
+          "slug": "melon",
+          "image": "images/melon.svg",
+          "color": "#CBF3E1"
+        }
+      ],
+      "sentences": [
+        "I like the apple.",
+        "This is my banana.",
+        "I can see the orange.",
+        "Look at the grapes!",
+        "I have the strawberry."
+      ]
+    },
+    {
+      "id": "L08",
+      "index": 8,
+      "world": "Pre-K Planet",
+      "worldSubtitle": "First tiny words",
+      "worldIndex": 0,
+      "name": "Toys",
+      "category": "L08",
+      "color": "#FFE0D5",
+      "items": [
+        {
+          "word": "ball",
+          "emoji": "⚽",
+          "slug": "ball",
+          "image": "images/ball.svg",
+          "color": "#FFE0D5"
+        },
+        {
+          "word": "teddy",
+          "emoji": "🧸",
+          "slug": "teddy",
+          "image": "images/teddy.svg",
+          "color": "#FFE0D5"
+        },
+        {
+          "word": "doll",
+          "emoji": "🪆",
+          "slug": "doll",
+          "image": "images/doll.svg",
+          "color": "#FFE0D5"
+        },
+        {
+          "word": "car",
+          "emoji": "🚗",
+          "slug": "car",
+          "image": "images/car.svg",
+          "color": "#FFE0D5"
+        },
+        {
+          "word": "kite",
+          "emoji": "🪁",
+          "slug": "kite",
+          "image": "images/kite.svg",
+          "color": "#FFE0D5"
+        },
+        {
+          "word": "blocks",
+          "emoji": "🧱",
+          "slug": "blocks",
+          "image": "images/blocks.svg",
+          "color": "#FFE0D5"
+        }
+      ],
+      "sentences": [
+        "I like the ball.",
+        "This is my teddy.",
+        "I can see the doll.",
+        "Look at the car!",
+        "I have the kite."
+      ]
+    },
+    {
+      "id": "L09",
+      "index": 9,
+      "world": "Pre-K Planet",
+      "worldSubtitle": "First tiny words",
+      "worldIndex": 0,
+      "name": "Family",
+      "category": "L09",
+      "color": "#E9DDFF",
+      "items": [
+        {
+          "word": "mum",
+          "emoji": "👩",
+          "slug": "mum",
+          "image": "images/mum.svg",
+          "color": "#E9DDFF"
+        },
+        {
+          "word": "dad",
+          "emoji": "👨",
+          "slug": "dad",
+          "image": "images/dad.svg",
+          "color": "#E9DDFF"
+        },
+        {
+          "word": "baby",
+          "emoji": "👶",
+          "slug": "baby",
+          "image": "images/baby.svg",
+          "color": "#E9DDFF"
+        },
+        {
+          "word": "brother",
+          "emoji": "👦",
+          "slug": "brother",
+          "image": "images/brother.svg",
+          "color": "#E9DDFF"
+        },
+        {
+          "word": "sister",
+          "emoji": "👧",
+          "slug": "sister",
+          "image": "images/sister.svg",
+          "color": "#E9DDFF"
+        },
+        {
+          "word": "grandma",
+          "emoji": "👵",
+          "slug": "grandma",
+          "image": "images/grandma.svg",
+          "color": "#E9DDFF"
+        },
+        {
+          "word": "grandpa",
+          "emoji": "👴",
+          "slug": "grandpa",
+          "image": "images/grandpa.svg",
+          "color": "#E9DDFF"
+        }
+      ],
+      "sentences": [
+        "I like the mum.",
+        "This is my dad.",
+        "I can see the baby.",
+        "Look at the brother!",
+        "I have the sister."
+      ]
+    },
+    {
+      "id": "L10",
+      "index": 10,
+      "world": "Pre-K Planet",
+      "worldSubtitle": "First tiny words",
+      "worldIndex": 0,
+      "name": "Faces",
+      "category": "L10",
+      "color": "#FDE2B3",
+      "items": [
+        {
+          "word": "smile",
+          "emoji": "😊",
+          "slug": "smile",
+          "image": "images/smile.svg",
+          "color": "#FDE2B3"
+        },
+        {
+          "word": "cry",
+          "emoji": "😭",
+          "slug": "cry",
+          "image": "images/cry.svg",
+          "color": "#FDE2B3"
+        },
+        {
+          "word": "laugh",
+          "emoji": "😂",
+          "slug": "laugh",
+          "image": "images/laugh.svg",
+          "color": "#FDE2B3"
+        },
+        {
+          "word": "wink",
+          "emoji": "😉",
+          "slug": "wink",
+          "image": "images/wink.svg",
+          "color": "#FDE2B3"
+        },
+        {
+          "word": "yawn",
+          "emoji": "🥱",
+          "slug": "yawn",
+          "image": "images/yawn.svg",
+          "color": "#FDE2B3"
+        },
+        {
+          "word": "angry",
+          "emoji": "😠",
+          "slug": "angry",
+          "image": "images/angry.svg",
+          "color": "#FDE2B3"
+        }
+      ],
+      "sentences": [
+        "I like the smile.",
+        "This is my cry.",
+        "I can see the laugh.",
+        "Look at the wink!",
+        "I have the yawn."
+      ]
+    },
+    {
+      "id": "L11",
+      "index": 11,
+      "world": "Pre-K Planet",
+      "worldSubtitle": "First tiny words",
+      "worldIndex": 0,
+      "name": "Snacks",
+      "category": "L11",
+      "color": "#D8F0FF",
+      "items": [
+        {
+          "word": "cookie",
+          "emoji": "🍪",
+          "slug": "cookie",
+          "image": "images/cookie.svg",
+          "color": "#D8F0FF"
+        },
+        {
+          "word": "candy",
+          "emoji": "🍬",
+          "slug": "candy",
+          "image": "images/candy.svg",
+          "color": "#D8F0FF"
+        },
+        {
+          "word": "popcorn",
+          "emoji": "🍿",
+          "slug": "popcorn",
+          "image": "images/popcorn.svg",
+          "color": "#D8F0FF"
+        },
+        {
+          "word": "lollipop",
+          "emoji": "🍭",
+          "slug": "lollipop",
+          "image": "images/lollipop.svg",
+          "color": "#D8F0FF"
+        },
+        {
+          "word": "chocolate",
+          "emoji": "🍫",
+          "slug": "chocolate",
+          "image": "images/chocolate.svg",
+          "color": "#D8F0FF"
+        },
+        {
+          "word": "cupcake",
+          "emoji": "🧁",
+          "slug": "cupcake",
+          "image": "images/cupcake.svg",
+          "color": "#D8F0FF"
+        }
+      ],
+      "sentences": [
+        "I like the cookie.",
+        "This is my candy.",
+        "I can see the popcorn.",
+        "Look at the lollipop!",
+        "I have the chocolate."
+      ]
+    },
+    {
+      "id": "L12",
+      "index": 12,
+      "world": "Juniors Jungle",
+      "worldSubtitle": "Lots of first words",
+      "worldIndex": 1,
+      "name": "Wild Animals",
+      "category": "L12",
+      "color": "#FFD6C9",
+      "items": [
+        {
+          "word": "lion",
+          "emoji": "🦁",
+          "slug": "lion",
+          "image": "images/lion.svg",
+          "color": "#FFD6C9"
+        },
+        {
+          "word": "tiger",
+          "emoji": "🐯",
+          "slug": "tiger",
+          "image": "images/tiger.svg",
+          "color": "#FFD6C9"
+        },
+        {
+          "word": "elephant",
+          "emoji": "🐘",
+          "slug": "elephant",
+          "image": "images/elephant.svg",
+          "color": "#FFD6C9"
+        },
+        {
+          "word": "monkey",
+          "emoji": "🐵",
+          "slug": "monkey",
+          "image": "images/monkey.svg",
+          "color": "#FFD6C9"
+        },
+        {
+          "word": "bear",
+          "emoji": "🐻",
+          "slug": "bear",
+          "image": "images/bear.svg",
+          "color": "#FFD6C9"
+        },
+        {
+          "word": "zebra",
+          "emoji": "🦓",
+          "slug": "zebra",
+          "image": "images/zebra.svg",
+          "color": "#FFD6C9"
+        }
+      ],
+      "sentences": [
+        "I like the lion.",
+        "This is my tiger.",
+        "I can see the elephant.",
+        "Look at the monkey!",
+        "I have the bear."
+      ]
+    },
+    {
+      "id": "L13",
+      "index": 13,
+      "world": "Juniors Jungle",
+      "worldSubtitle": "Lots of first words",
+      "worldIndex": 1,
+      "name": "Sea Animals",
+      "category": "L13",
+      "color": "#D6F5C9",
+      "items": [
+        {
+          "word": "whale",
+          "emoji": "🐳",
+          "slug": "whale",
+          "image": "images/whale.svg",
+          "color": "#D6F5C9"
+        },
+        {
+          "word": "dolphin",
+          "emoji": "🐬",
+          "slug": "dolphin",
+          "image": "images/dolphin.svg",
+          "color": "#D6F5C9"
+        },
+        {
+          "word": "octopus",
+          "emoji": "🐙",
+          "slug": "octopus",
+          "image": "images/octopus.svg",
+          "color": "#D6F5C9"
+        },
+        {
+          "word": "crab",
+          "emoji": "🦀",
+          "slug": "crab",
+          "image": "images/crab.svg",
+          "color": "#D6F5C9"
+        },
+        {
+          "word": "shark",
+          "emoji": "🦈",
+          "slug": "shark",
+          "image": "images/shark.svg",
+          "color": "#D6F5C9"
+        },
+        {
+          "word": "fish",
+          "emoji": "🐟",
+          "slug": "fish",
+          "image": "images/fish.svg",
+          "color": "#D6F5C9"
+        }
+      ],
+      "sentences": [
+        "I like the whale.",
+        "This is my dolphin.",
+        "I can see the octopus.",
+        "Look at the crab!",
+        "I have the shark."
+      ]
+    },
+    {
+      "id": "L14",
+      "index": 14,
+      "world": "Juniors Jungle",
+      "worldSubtitle": "Lots of first words",
+      "worldIndex": 1,
+      "name": "Birds",
+      "category": "L14",
+      "color": "#E6D3FF",
+      "items": [
+        {
+          "word": "owl",
+          "emoji": "🦉",
+          "slug": "owl",
+          "image": "images/owl.svg",
+          "color": "#E6D3FF"
+        },
+        {
+          "word": "duck",
+          "emoji": "🦆",
+          "slug": "duck",
+          "image": "images/duck.svg",
+          "color": "#E6D3FF"
+        },
+        {
+          "word": "chicken",
+          "emoji": "🐔",
+          "slug": "chicken",
+          "image": "images/chicken.svg",
+          "color": "#E6D3FF"
+        },
+        {
+          "word": "penguin",
+          "emoji": "🐧",
+          "slug": "penguin",
+          "image": "images/penguin.svg",
+          "color": "#E6D3FF"
+        },
+        {
+          "word": "eagle",
+          "emoji": "🦅",
+          "slug": "eagle",
+          "image": "images/eagle.svg",
+          "color": "#E6D3FF"
+        },
+        {
+          "word": "parrot",
+          "emoji": "🦜",
+          "slug": "parrot",
+          "image": "images/parrot.svg",
+          "color": "#E6D3FF"
+        }
+      ],
+      "sentences": [
+        "I like the owl.",
+        "This is my duck.",
+        "I can see the chicken.",
+        "Look at the penguin!",
+        "I have the eagle."
+      ]
+    },
+    {
+      "id": "L15",
+      "index": 15,
+      "world": "Juniors Jungle",
+      "worldSubtitle": "Lots of first words",
+      "worldIndex": 1,
+      "name": "Bugs",
+      "category": "L15",
+      "color": "#C9F0EC",
+      "items": [
+        {
+          "word": "bee",
+          "emoji": "🐝",
+          "slug": "bee",
+          "image": "images/bee.svg",
+          "color": "#C9F0EC"
+        },
+        {
+          "word": "ant",
+          "emoji": "🐜",
+          "slug": "ant",
+          "image": "images/ant.svg",
+          "color": "#C9F0EC"
+        },
+        {
+          "word": "butterfly",
+          "emoji": "🦋",
+          "slug": "butterfly",
+          "image": "images/butterfly.svg",
+          "color": "#C9F0EC"
+        },
+        {
+          "word": "spider",
+          "emoji": "🕷️",
+          "slug": "spider",
+          "image": "images/spider.svg",
+          "color": "#C9F0EC"
+        },
+        {
+          "word": "ladybug",
+          "emoji": "🐞",
+          "slug": "ladybug",
+          "image": "images/ladybug.svg",
+          "color": "#C9F0EC"
+        },
+        {
+          "word": "snail",
+          "emoji": "🐌",
+          "slug": "snail",
+          "image": "images/snail.svg",
+          "color": "#C9F0EC"
+        }
+      ],
+      "sentences": [
+        "I like the bee.",
+        "This is my ant.",
+        "I can see the butterfly.",
+        "Look at the spider!",
+        "I have the ladybug."
+      ]
+    },
+    {
+      "id": "L16",
+      "index": 16,
+      "world": "Juniors Jungle",
+      "worldSubtitle": "Lots of first words",
+      "worldIndex": 1,
+      "name": "Vegetables",
+      "category": "L16",
+      "color": "#FFE7A8",
+      "items": [
+        {
+          "word": "carrot",
+          "emoji": "🥕",
+          "slug": "carrot",
+          "image": "images/carrot.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "tomato",
+          "emoji": "🍅",
+          "slug": "tomato",
+          "image": "images/tomato.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "potato",
+          "emoji": "🥔",
+          "slug": "potato",
+          "image": "images/potato.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "corn",
+          "emoji": "🌽",
+          "slug": "corn",
+          "image": "images/corn.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "broccoli",
+          "emoji": "🥦",
+          "slug": "broccoli",
+          "image": "images/broccoli.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "pepper",
+          "emoji": "🫑",
+          "slug": "pepper",
+          "image": "images/pepper.svg",
+          "color": "#FFE7A8"
+        }
+      ],
+      "sentences": [
+        "I like the carrot.",
+        "This is my tomato.",
+        "I can see the potato.",
+        "Look at the corn!",
+        "I have the broccoli."
+      ]
+    },
+    {
+      "id": "L17",
+      "index": 17,
+      "world": "Juniors Jungle",
+      "worldSubtitle": "Lots of first words",
+      "worldIndex": 1,
+      "name": "Food",
+      "category": "L17",
+      "color": "#DCC9FF",
+      "items": [
+        {
+          "word": "bread",
+          "emoji": "🍞",
+          "slug": "bread",
+          "image": "images/bread.svg",
+          "color": "#DCC9FF"
+        },
+        {
+          "word": "cheese",
+          "emoji": "🧀",
+          "slug": "cheese",
+          "image": "images/cheese.svg",
+          "color": "#DCC9FF"
+        },
+        {
+          "word": "egg",
+          "emoji": "🥚",
+          "slug": "egg",
+          "image": "images/egg.svg",
+          "color": "#DCC9FF"
+        },
+        {
+          "word": "rice",
+          "emoji": "🍚",
+          "slug": "rice",
+          "image": "images/rice.svg",
+          "color": "#DCC9FF"
+        },
+        {
+          "word": "meat",
+          "emoji": "🍖",
+          "slug": "meat",
+          "image": "images/meat.svg",
+          "color": "#DCC9FF"
+        },
+        {
+          "word": "soup",
+          "emoji": "🍲",
+          "slug": "soup",
+          "image": "images/soup.svg",
+          "color": "#DCC9FF"
+        }
+      ],
+      "sentences": [
+        "I like the bread.",
+        "This is my cheese.",
+        "I can see the egg.",
+        "Look at the rice!",
+        "I have the meat."
+      ]
+    },
+    {
+      "id": "L18",
+      "index": 18,
+      "world": "Juniors Jungle",
+      "worldSubtitle": "Lots of first words",
+      "worldIndex": 1,
+      "name": "Drinks",
+      "category": "L18",
+      "color": "#FFD0DE",
+      "items": [
+        {
+          "word": "water",
+          "emoji": "💧",
+          "slug": "water",
+          "image": "images/water.svg",
+          "color": "#FFD0DE"
+        },
+        {
+          "word": "milk",
+          "emoji": "🥛",
+          "slug": "milk",
+          "image": "images/milk.svg",
+          "color": "#FFD0DE"
+        },
+        {
+          "word": "juice",
+          "emoji": "🧃",
+          "slug": "juice",
+          "image": "images/juice.svg",
+          "color": "#FFD0DE"
+        },
+        {
+          "word": "tea",
+          "emoji": "🍵",
+          "slug": "tea",
+          "image": "images/tea.svg",
+          "color": "#FFD0DE"
+        },
+        {
+          "word": "coffee",
+          "emoji": "☕",
+          "slug": "coffee",
+          "image": "images/coffee.svg",
+          "color": "#FFD0DE"
+        },
+        {
+          "word": "soda",
+          "emoji": "🥤",
+          "slug": "soda",
+          "image": "images/soda.svg",
+          "color": "#FFD0DE"
+        }
+      ],
+      "sentences": [
+        "I like the water.",
+        "This is my milk.",
+        "I can see the juice.",
+        "Look at the tea!",
+        "I have the coffee."
+      ]
+    },
+    {
+      "id": "L19",
+      "index": 19,
+      "world": "Juniors Jungle",
+      "worldSubtitle": "Lots of first words",
+      "worldIndex": 1,
+      "name": "Sweets",
+      "category": "L19",
+      "color": "#C6F0CE",
+      "items": [
+        {
+          "word": "cake",
+          "emoji": "🍰",
+          "slug": "cake",
+          "image": "images/cake.svg",
+          "color": "#C6F0CE"
+        },
+        {
+          "word": "ice cream",
+          "emoji": "🍦",
+          "slug": "ice-cream",
+          "image": "images/ice-cream.svg",
+          "color": "#C6F0CE"
+        },
+        {
+          "word": "cookie",
+          "emoji": "🍪",
+          "slug": "cookie",
+          "image": "images/cookie.svg",
+          "color": "#C6F0CE"
+        },
+        {
+          "word": "candy",
+          "emoji": "🍬",
+          "slug": "candy",
+          "image": "images/candy.svg",
+          "color": "#C6F0CE"
+        },
+        {
+          "word": "chocolate",
+          "emoji": "🍫",
+          "slug": "chocolate",
+          "image": "images/chocolate.svg",
+          "color": "#C6F0CE"
+        },
+        {
+          "word": "donut",
+          "emoji": "🍩",
+          "slug": "donut",
+          "image": "images/donut.svg",
+          "color": "#C6F0CE"
+        }
+      ],
+      "sentences": [
+        "I like the cake.",
+        "This is my ice cream.",
+        "I can see the cookie.",
+        "Look at the candy!",
+        "I have the chocolate."
+      ]
+    },
+    {
+      "id": "L20",
+      "index": 20,
+      "world": "Juniors Jungle",
+      "worldSubtitle": "Lots of first words",
+      "worldIndex": 1,
+      "name": "Clothes",
+      "category": "L20",
+      "color": "#BFE2FF",
+      "items": [
+        {
+          "word": "shirt",
+          "emoji": "👕",
+          "slug": "shirt",
+          "image": "images/shirt.svg",
+          "color": "#BFE2FF"
+        },
+        {
+          "word": "pants",
+          "emoji": "👖",
+          "slug": "pants",
+          "image": "images/pants.svg",
+          "color": "#BFE2FF"
+        },
+        {
+          "word": "dress",
+          "emoji": "👗",
+          "slug": "dress",
+          "image": "images/dress.svg",
+          "color": "#BFE2FF"
+        },
+        {
+          "word": "shoes",
+          "emoji": "👟",
+          "slug": "shoes",
+          "image": "images/shoes.svg",
+          "color": "#BFE2FF"
+        },
+        {
+          "word": "hat",
+          "emoji": "🎩",
+          "slug": "hat",
+          "image": "images/hat.svg",
+          "color": "#BFE2FF"
+        },
+        {
+          "word": "socks",
+          "emoji": "🧦",
+          "slug": "socks",
+          "image": "images/socks.svg",
+          "color": "#BFE2FF"
+        }
+      ],
+      "sentences": [
+        "I like the shirt.",
+        "This is my pants.",
+        "I can see the dress.",
+        "Look at the shoes!",
+        "I have the hat."
+      ]
+    },
+    {
+      "id": "L21",
+      "index": 21,
+      "world": "Juniors Jungle",
+      "worldSubtitle": "Lots of first words",
+      "worldIndex": 1,
+      "name": "Weather",
+      "category": "L21",
+      "color": "#FFE0C4",
+      "items": [
+        {
+          "word": "sun",
+          "emoji": "☀️",
+          "slug": "sun",
+          "image": "images/sun.svg",
+          "color": "#FFE0C4"
+        },
+        {
+          "word": "rain",
+          "emoji": "🌧️",
+          "slug": "rain",
+          "image": "images/rain.svg",
+          "color": "#FFE0C4"
+        },
+        {
+          "word": "snow",
+          "emoji": "❄️",
+          "slug": "snow",
+          "image": "images/snow.svg",
+          "color": "#FFE0C4"
+        },
+        {
+          "word": "cloud",
+          "emoji": "☁️",
+          "slug": "cloud",
+          "image": "images/cloud.svg",
+          "color": "#FFE0C4"
+        },
+        {
+          "word": "wind",
+          "emoji": "🌬️",
+          "slug": "wind",
+          "image": "images/wind.svg",
+          "color": "#FFE0C4"
+        },
+        {
+          "word": "rainbow",
+          "emoji": "🌈",
+          "slug": "rainbow",
+          "image": "images/rainbow.svg",
+          "color": "#FFE0C4"
+        }
+      ],
+      "sentences": [
+        "I like the sun.",
+        "This is my rain.",
+        "I can see the snow.",
+        "Look at the cloud!",
+        "I have the wind."
+      ]
+    },
+    {
+      "id": "L22",
+      "index": 22,
+      "world": "Juniors Jungle",
+      "worldSubtitle": "Lots of first words",
+      "worldIndex": 1,
+      "name": "Home",
+      "category": "L22",
+      "color": "#CDEBFF",
+      "items": [
+        {
+          "word": "house",
+          "emoji": "🏠",
+          "slug": "house",
+          "image": "images/house.svg",
+          "color": "#CDEBFF"
+        },
+        {
+          "word": "door",
+          "emoji": "🚪",
+          "slug": "door",
+          "image": "images/door.svg",
+          "color": "#CDEBFF"
+        },
+        {
+          "word": "window",
+          "emoji": "🪟",
+          "slug": "window",
+          "image": "images/window.svg",
+          "color": "#CDEBFF"
+        },
+        {
+          "word": "bed",
+          "emoji": "🛏️",
+          "slug": "bed",
+          "image": "images/bed.svg",
+          "color": "#CDEBFF"
+        },
+        {
+          "word": "chair",
+          "emoji": "🪑",
+          "slug": "chair",
+          "image": "images/chair.svg",
+          "color": "#CDEBFF"
+        },
+        {
+          "word": "clock",
+          "emoji": "🕐",
+          "slug": "clock",
+          "image": "images/clock.svg",
+          "color": "#CDEBFF"
+        }
+      ],
+      "sentences": [
+        "I like the house.",
+        "This is my door.",
+        "I can see the window.",
+        "Look at the bed!",
+        "I have the chair."
+      ]
+    },
+    {
+      "id": "L23",
+      "index": 23,
+      "world": "Juniors Jungle",
+      "worldSubtitle": "Lots of first words",
+      "worldIndex": 1,
+      "name": "Kitchen",
+      "category": "L23",
+      "color": "#CBF3E1",
+      "items": [
+        {
+          "word": "cup",
+          "emoji": "☕",
+          "slug": "cup",
+          "image": "images/cup.svg",
+          "color": "#CBF3E1"
+        },
+        {
+          "word": "plate",
+          "emoji": "🍽️",
+          "slug": "plate",
+          "image": "images/plate.svg",
+          "color": "#CBF3E1"
+        },
+        {
+          "word": "fork",
+          "emoji": "🍴",
+          "slug": "fork",
+          "image": "images/fork.svg",
+          "color": "#CBF3E1"
+        },
+        {
+          "word": "spoon",
+          "emoji": "🥄",
+          "slug": "spoon",
+          "image": "images/spoon.svg",
+          "color": "#CBF3E1"
+        },
+        {
+          "word": "knife",
+          "emoji": "🔪",
+          "slug": "knife",
+          "image": "images/knife.svg",
+          "color": "#CBF3E1"
+        },
+        {
+          "word": "pot",
+          "emoji": "🍲",
+          "slug": "pot",
+          "image": "images/pot.svg",
+          "color": "#CBF3E1"
+        }
+      ],
+      "sentences": [
+        "I like the cup.",
+        "This is my plate.",
+        "I can see the fork.",
+        "Look at the spoon!",
+        "I have the knife."
+      ]
+    },
+    {
+      "id": "L24",
+      "index": 24,
+      "world": "Juniors Jungle",
+      "worldSubtitle": "Lots of first words",
+      "worldIndex": 1,
+      "name": "Garden",
+      "category": "L24",
+      "color": "#FFE0D5",
+      "items": [
+        {
+          "word": "flower",
+          "emoji": "🌸",
+          "slug": "flower",
+          "image": "images/flower.svg",
+          "color": "#FFE0D5"
+        },
+        {
+          "word": "tree",
+          "emoji": "🌳",
+          "slug": "tree",
+          "image": "images/tree.svg",
+          "color": "#FFE0D5"
+        },
+        {
+          "word": "grass",
+          "emoji": "🌿",
+          "slug": "grass",
+          "image": "images/grass.svg",
+          "color": "#FFE0D5"
+        },
+        {
+          "word": "leaf",
+          "emoji": "🍃",
+          "slug": "leaf",
+          "image": "images/leaf.svg",
+          "color": "#FFE0D5"
+        },
+        {
+          "word": "seed",
+          "emoji": "🌱",
+          "slug": "seed",
+          "image": "images/seed.svg",
+          "color": "#FFE0D5"
+        },
+        {
+          "word": "bug",
+          "emoji": "🐛",
+          "slug": "bug",
+          "image": "images/bug.svg",
+          "color": "#FFE0D5"
+        }
+      ],
+      "sentences": [
+        "I like the flower.",
+        "This is my tree.",
+        "I can see the grass.",
+        "Look at the leaf!",
+        "I have the seed."
+      ]
+    },
+    {
+      "id": "L25",
+      "index": 25,
+      "world": "Juniors Jungle",
+      "worldSubtitle": "Lots of first words",
+      "worldIndex": 1,
+      "name": "Nature",
+      "category": "L25",
+      "color": "#E9DDFF",
+      "items": [
+        {
+          "word": "mountain",
+          "emoji": "⛰️",
+          "slug": "mountain",
+          "image": "images/mountain.svg",
+          "color": "#E9DDFF"
+        },
+        {
+          "word": "river",
+          "emoji": "🏞️",
+          "slug": "river",
+          "image": "images/river.svg",
+          "color": "#E9DDFF"
+        },
+        {
+          "word": "beach",
+          "emoji": "🏖️",
+          "slug": "beach",
+          "image": "images/beach.svg",
+          "color": "#E9DDFF"
+        },
+        {
+          "word": "forest",
+          "emoji": "🌲",
+          "slug": "forest",
+          "image": "images/forest.svg",
+          "color": "#E9DDFF"
+        },
+        {
+          "word": "sky",
+          "emoji": "🌌",
+          "slug": "sky",
+          "image": "images/sky.svg",
+          "color": "#E9DDFF"
+        },
+        {
+          "word": "fire",
+          "emoji": "🔥",
+          "slug": "fire",
+          "image": "images/fire.svg",
+          "color": "#E9DDFF"
+        }
+      ],
+      "sentences": [
+        "I like the mountain.",
+        "This is my river.",
+        "I can see the beach.",
+        "Look at the forest!",
+        "I have the sky."
+      ]
+    },
+    {
+      "id": "L26",
+      "index": 26,
+      "world": "Juniors Jungle",
+      "worldSubtitle": "Lots of first words",
+      "worldIndex": 1,
+      "name": "Colours 2",
+      "category": "L26",
+      "color": "#FDE2B3",
+      "items": [
+        {
+          "word": "pink",
+          "emoji": "🩷",
+          "slug": "pink",
+          "image": "images/pink.svg",
+          "color": "#FDE2B3"
+        },
+        {
+          "word": "brown",
+          "emoji": "🤎",
+          "slug": "brown",
+          "image": "images/brown.svg",
+          "color": "#FDE2B3"
+        },
+        {
+          "word": "white",
+          "emoji": "⚪",
+          "slug": "white",
+          "image": "images/white.svg",
+          "color": "#FDE2B3"
+        },
+        {
+          "word": "black",
+          "emoji": "⚫",
+          "slug": "black",
+          "image": "images/black.svg",
+          "color": "#FDE2B3"
+        },
+        {
+          "word": "grey",
+          "emoji": "🩶",
+          "slug": "grey",
+          "image": "images/grey.svg",
+          "color": "#FDE2B3"
+        },
+        {
+          "word": "blue",
+          "emoji": "🔵",
+          "slug": "blue",
+          "image": "images/blue.svg",
+          "color": "#FDE2B3"
+        }
+      ],
+      "sentences": [
+        "I like the pink.",
+        "This is my brown.",
+        "I can see the white.",
+        "Look at the black!",
+        "I have the grey."
+      ]
+    },
+    {
+      "id": "L27",
+      "index": 27,
+      "world": "Juniors Jungle",
+      "worldSubtitle": "Lots of first words",
+      "worldIndex": 1,
+      "name": "In the Sky",
+      "category": "L27",
+      "color": "#D8F0FF",
+      "items": [
+        {
+          "word": "sun",
+          "emoji": "☀️",
+          "slug": "sun",
+          "image": "images/sun.svg",
+          "color": "#D8F0FF"
+        },
+        {
+          "word": "moon",
+          "emoji": "🌙",
+          "slug": "moon",
+          "image": "images/moon.svg",
+          "color": "#D8F0FF"
+        },
+        {
+          "word": "star",
+          "emoji": "⭐",
+          "slug": "star",
+          "image": "images/star.svg",
+          "color": "#D8F0FF"
+        },
+        {
+          "word": "cloud",
+          "emoji": "☁️",
+          "slug": "cloud",
+          "image": "images/cloud.svg",
+          "color": "#D8F0FF"
+        },
+        {
+          "word": "rainbow",
+          "emoji": "🌈",
+          "slug": "rainbow",
+          "image": "images/rainbow.svg",
+          "color": "#D8F0FF"
+        },
+        {
+          "word": "kite",
+          "emoji": "🪁",
+          "slug": "kite",
+          "image": "images/kite.svg",
+          "color": "#D8F0FF"
+        }
+      ],
+      "sentences": [
+        "I like the sun.",
+        "This is my moon.",
+        "I can see the star.",
+        "Look at the cloud!",
+        "I have the rainbow."
+      ]
+    },
+    {
+      "id": "L28",
+      "index": 28,
+      "world": "Juniors Jungle",
+      "worldSubtitle": "Lots of first words",
+      "worldIndex": 1,
+      "name": "Water Fun",
+      "category": "L28",
+      "color": "#FFD6C9",
+      "items": [
+        {
+          "word": "fish",
+          "emoji": "🐟",
+          "slug": "fish",
+          "image": "images/fish.svg",
+          "color": "#FFD6C9"
+        },
+        {
+          "word": "boat",
+          "emoji": "⛵",
+          "slug": "boat",
+          "image": "images/boat.svg",
+          "color": "#FFD6C9"
+        },
+        {
+          "word": "duck",
+          "emoji": "🦆",
+          "slug": "duck",
+          "image": "images/duck.svg",
+          "color": "#FFD6C9"
+        },
+        {
+          "word": "wave",
+          "emoji": "🌊",
+          "slug": "wave",
+          "image": "images/wave.svg",
+          "color": "#FFD6C9"
+        },
+        {
+          "word": "shell",
+          "emoji": "🐚",
+          "slug": "shell",
+          "image": "images/shell.svg",
+          "color": "#FFD6C9"
+        },
+        {
+          "word": "crab",
+          "emoji": "🦀",
+          "slug": "crab",
+          "image": "images/crab.svg",
+          "color": "#FFD6C9"
+        }
+      ],
+      "sentences": [
+        "I like the fish.",
+        "This is my boat.",
+        "I can see the duck.",
+        "Look at the wave!",
+        "I have the shell."
+      ]
+    },
+    {
+      "id": "L29",
+      "index": 29,
+      "world": "Starters Station",
+      "worldSubtitle": "Tzofia's Magic Academy",
+      "worldIndex": 2,
+      "name": "Classroom",
+      "category": "L29",
+      "color": "#D6F5C9",
+      "items": [
+        {
+          "word": "pen",
+          "emoji": "🖊️",
+          "slug": "pen",
+          "image": "images/pen.svg",
+          "color": "#D6F5C9"
+        },
+        {
+          "word": "pencil",
+          "emoji": "✏️",
+          "slug": "pencil",
+          "image": "images/pencil.svg",
+          "color": "#D6F5C9"
+        },
+        {
+          "word": "book",
+          "emoji": "📚",
+          "slug": "book",
+          "image": "images/book.svg",
+          "color": "#D6F5C9"
+        },
+        {
+          "word": "bag",
+          "emoji": "🎒",
+          "slug": "bag",
+          "image": "images/bag.svg",
+          "color": "#D6F5C9"
+        },
+        {
+          "word": "ruler",
+          "emoji": "📏",
+          "slug": "ruler",
+          "image": "images/ruler.svg",
+          "color": "#D6F5C9"
+        },
+        {
+          "word": "crayon",
+          "emoji": "🖍️",
+          "slug": "crayon",
+          "image": "images/crayon.svg",
+          "color": "#D6F5C9"
+        }
+      ],
+      "sentences": [
+        "I like the pen.",
+        "This is my pencil.",
+        "I can see the book.",
+        "Look at the bag!",
+        "I have the ruler."
+      ]
+    },
+    {
+      "id": "L30",
+      "index": 30,
+      "world": "Starters Station",
+      "worldSubtitle": "Tzofia's Magic Academy",
+      "worldIndex": 2,
+      "name": "At School",
+      "category": "L30",
+      "color": "#E6D3FF",
+      "items": [
+        {
+          "word": "school",
+          "emoji": "🏫",
+          "slug": "school",
+          "image": "images/school.svg",
+          "color": "#E6D3FF"
+        },
+        {
+          "word": "teacher",
+          "emoji": "🧑‍🏫",
+          "slug": "teacher",
+          "image": "images/teacher.svg",
+          "color": "#E6D3FF"
+        },
+        {
+          "word": "student",
+          "emoji": "🧑‍🎓",
+          "slug": "student",
+          "image": "images/student.svg",
+          "color": "#E6D3FF"
+        },
+        {
+          "word": "desk",
+          "emoji": "🪑",
+          "slug": "desk",
+          "image": "images/desk.svg",
+          "color": "#E6D3FF"
+        },
+        {
+          "word": "board",
+          "emoji": "🖼️",
+          "slug": "board",
+          "image": "images/board.svg",
+          "color": "#E6D3FF"
+        },
+        {
+          "word": "clock",
+          "emoji": "🕐",
+          "slug": "clock",
+          "image": "images/clock.svg",
+          "color": "#E6D3FF"
+        }
+      ],
+      "sentences": [
+        "I like the school.",
+        "This is my teacher.",
+        "I can see the student.",
+        "Look at the desk!",
+        "I have the board."
+      ]
+    },
+    {
+      "id": "L31",
+      "index": 31,
+      "world": "Starters Station",
+      "worldSubtitle": "Tzofia's Magic Academy",
+      "worldIndex": 2,
+      "name": "Feelings",
+      "category": "L31",
+      "color": "#C9F0EC",
+      "items": [
+        {
+          "word": "happy",
+          "emoji": "😀",
+          "slug": "happy",
+          "image": "images/happy.svg",
+          "color": "#C9F0EC"
+        },
+        {
+          "word": "sad",
+          "emoji": "😢",
+          "slug": "sad",
+          "image": "images/sad.svg",
+          "color": "#C9F0EC"
+        },
+        {
+          "word": "angry",
+          "emoji": "😠",
+          "slug": "angry",
+          "image": "images/angry.svg",
+          "color": "#C9F0EC"
+        },
+        {
+          "word": "sleepy",
+          "emoji": "😪",
+          "slug": "sleepy",
+          "image": "images/sleepy.svg",
+          "color": "#C9F0EC"
+        },
+        {
+          "word": "scared",
+          "emoji": "😨",
+          "slug": "scared",
+          "image": "images/scared.svg",
+          "color": "#C9F0EC"
+        },
+        {
+          "word": "surprised",
+          "emoji": "😮",
+          "slug": "surprised",
+          "image": "images/surprised.svg",
+          "color": "#C9F0EC"
+        }
+      ],
+      "sentences": [
+        "I like the happy.",
+        "This is my sad.",
+        "I can see the angry.",
+        "Look at the sleepy!",
+        "I have the scared."
+      ]
+    },
+    {
+      "id": "L32",
+      "index": 32,
+      "world": "Starters Station",
+      "worldSubtitle": "Tzofia's Magic Academy",
+      "worldIndex": 2,
+      "name": "Action Words",
+      "category": "L32",
+      "color": "#FFE7A8",
+      "items": [
+        {
+          "word": "run",
+          "emoji": "🏃",
+          "slug": "run",
+          "image": "images/run.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "jump",
+          "emoji": "🤸",
+          "slug": "jump",
+          "image": "images/jump.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "walk",
+          "emoji": "🚶",
+          "slug": "walk",
+          "image": "images/walk.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "swim",
+          "emoji": "🏊",
+          "slug": "swim",
+          "image": "images/swim.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "climb",
+          "emoji": "🧗",
+          "slug": "climb",
+          "image": "images/climb.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "dance",
+          "emoji": "💃",
+          "slug": "dance",
+          "image": "images/dance.svg",
+          "color": "#FFE7A8"
+        }
+      ],
+      "sentences": [
+        "I like the run.",
+        "This is my jump.",
+        "I can see the walk.",
+        "Look at the swim!",
+        "I have the climb."
+      ]
+    },
+    {
+      "id": "L33",
+      "index": 33,
+      "world": "Starters Station",
+      "worldSubtitle": "Tzofia's Magic Academy",
+      "worldIndex": 2,
+      "name": "Zoo Animals",
+      "category": "L33",
+      "color": "#DCC9FF",
+      "items": [
+        {
+          "word": "giraffe",
+          "emoji": "🦒",
+          "slug": "giraffe",
+          "image": "images/giraffe.svg",
+          "color": "#DCC9FF"
+        },
+        {
+          "word": "kangaroo",
+          "emoji": "🦘",
+          "slug": "kangaroo",
+          "image": "images/kangaroo.svg",
+          "color": "#DCC9FF"
+        },
+        {
+          "word": "panda",
+          "emoji": "🐼",
+          "slug": "panda",
+          "image": "images/panda.svg",
+          "color": "#DCC9FF"
+        },
+        {
+          "word": "koala",
+          "emoji": "🐨",
+          "slug": "koala",
+          "image": "images/koala.svg",
+          "color": "#DCC9FF"
+        },
+        {
+          "word": "hippo",
+          "emoji": "🦛",
+          "slug": "hippo",
+          "image": "images/hippo.svg",
+          "color": "#DCC9FF"
+        },
+        {
+          "word": "camel",
+          "emoji": "🐫",
+          "slug": "camel",
+          "image": "images/camel.svg",
+          "color": "#DCC9FF"
+        }
+      ],
+      "sentences": [
+        "I like the giraffe.",
+        "This is my kangaroo.",
+        "I can see the panda.",
+        "Look at the koala!",
+        "I have the hippo."
+      ]
+    },
+    {
+      "id": "L34",
+      "index": 34,
+      "world": "Starters Station",
+      "worldSubtitle": "Tzofia's Magic Academy",
+      "worldIndex": 2,
+      "name": "Toys & Hobbies",
+      "category": "L34",
+      "color": "#FFD0DE",
+      "items": [
+        {
+          "word": "bike",
+          "emoji": "🚲",
+          "slug": "bike",
+          "image": "images/bike.svg",
+          "color": "#FFD0DE"
+        },
+        {
+          "word": "guitar",
+          "emoji": "🎸",
+          "slug": "guitar",
+          "image": "images/guitar.svg",
+          "color": "#FFD0DE"
+        },
+        {
+          "word": "puzzle",
+          "emoji": "🧩",
+          "slug": "puzzle",
+          "image": "images/puzzle.svg",
+          "color": "#FFD0DE"
+        },
+        {
+          "word": "game",
+          "emoji": "🎮",
+          "slug": "game",
+          "image": "images/game.svg",
+          "color": "#FFD0DE"
+        },
+        {
+          "word": "kite",
+          "emoji": "🪁",
+          "slug": "kite",
+          "image": "images/kite.svg",
+          "color": "#FFD0DE"
+        },
+        {
+          "word": "ball",
+          "emoji": "⚽",
+          "slug": "ball",
+          "image": "images/ball.svg",
+          "color": "#FFD0DE"
+        }
+      ],
+      "sentences": [
+        "I like the bike.",
+        "This is my guitar.",
+        "I can see the puzzle.",
+        "Look at the game!",
+        "I have the kite."
+      ]
+    },
+    {
+      "id": "L35",
+      "index": 35,
+      "world": "Starters Station",
+      "worldSubtitle": "Tzofia's Magic Academy",
+      "worldIndex": 2,
+      "name": "Yummy Food",
+      "category": "L35",
+      "color": "#C6F0CE",
+      "items": [
+        {
+          "word": "pizza",
+          "emoji": "🍕",
+          "slug": "pizza",
+          "image": "images/pizza.svg",
+          "color": "#C6F0CE"
+        },
+        {
+          "word": "sandwich",
+          "emoji": "🥪",
+          "slug": "sandwich",
+          "image": "images/sandwich.svg",
+          "color": "#C6F0CE"
+        },
+        {
+          "word": "salad",
+          "emoji": "🥗",
+          "slug": "salad",
+          "image": "images/salad.svg",
+          "color": "#C6F0CE"
+        },
+        {
+          "word": "pasta",
+          "emoji": "🍝",
+          "slug": "pasta",
+          "image": "images/pasta.svg",
+          "color": "#C6F0CE"
+        },
+        {
+          "word": "burger",
+          "emoji": "🍔",
+          "slug": "burger",
+          "image": "images/burger.svg",
+          "color": "#C6F0CE"
+        },
+        {
+          "word": "fries",
+          "emoji": "🍟",
+          "slug": "fries",
+          "image": "images/fries.svg",
+          "color": "#C6F0CE"
+        }
+      ],
+      "sentences": [
+        "I like the pizza.",
+        "This is my sandwich.",
+        "I can see the salad.",
+        "Look at the pasta!",
+        "I have the burger."
+      ]
+    },
+    {
+      "id": "L36",
+      "index": 36,
+      "world": "Starters Station",
+      "worldSubtitle": "Tzofia's Magic Academy",
+      "worldIndex": 2,
+      "name": "Daily Routine",
+      "category": "L36",
+      "color": "#BFE2FF",
+      "items": [
+        {
+          "word": "wake",
+          "emoji": "⏰",
+          "slug": "wake",
+          "image": "images/wake.svg",
+          "color": "#BFE2FF"
+        },
+        {
+          "word": "eat",
+          "emoji": "🍽️",
+          "slug": "eat",
+          "image": "images/eat.svg",
+          "color": "#BFE2FF"
+        },
+        {
+          "word": "wash",
+          "emoji": "🧼",
+          "slug": "wash",
+          "image": "images/wash.svg",
+          "color": "#BFE2FF"
+        },
+        {
+          "word": "sleep",
+          "emoji": "😴",
+          "slug": "sleep",
+          "image": "images/sleep.svg",
+          "color": "#BFE2FF"
+        },
+        {
+          "word": "read",
+          "emoji": "📖",
+          "slug": "read",
+          "image": "images/read.svg",
+          "color": "#BFE2FF"
+        },
+        {
+          "word": "play",
+          "emoji": "🎮",
+          "slug": "play",
+          "image": "images/play.svg",
+          "color": "#BFE2FF"
+        }
+      ],
+      "sentences": [
+        "I like the wake.",
+        "This is my eat.",
+        "I can see the wash.",
+        "Look at the sleep!",
+        "I have the read."
+      ]
+    },
+    {
+      "id": "L37",
+      "index": 37,
+      "world": "Starters Station",
+      "worldSubtitle": "Tzofia's Magic Academy",
+      "worldIndex": 2,
+      "name": "Time of Day",
+      "category": "L37",
+      "color": "#FFE0C4",
+      "items": [
+        {
+          "word": "morning",
+          "emoji": "🌅",
+          "slug": "morning",
+          "image": "images/morning.svg",
+          "color": "#FFE0C4"
+        },
+        {
+          "word": "afternoon",
+          "emoji": "🌤️",
+          "slug": "afternoon",
+          "image": "images/afternoon.svg",
+          "color": "#FFE0C4"
+        },
+        {
+          "word": "evening",
+          "emoji": "🌆",
+          "slug": "evening",
+          "image": "images/evening.svg",
+          "color": "#FFE0C4"
+        },
+        {
+          "word": "night",
+          "emoji": "🌙",
+          "slug": "night",
+          "image": "images/night.svg",
+          "color": "#FFE0C4"
+        },
+        {
+          "word": "clock",
+          "emoji": "🕐",
+          "slug": "clock",
+          "image": "images/clock.svg",
+          "color": "#FFE0C4"
+        },
+        {
+          "word": "watch",
+          "emoji": "⌚",
+          "slug": "watch",
+          "image": "images/watch.svg",
+          "color": "#FFE0C4"
+        }
+      ],
+      "sentences": [
+        "I like the morning.",
+        "This is my afternoon.",
+        "I can see the evening.",
+        "Look at the night!",
+        "I have the clock."
+      ]
+    },
+    {
+      "id": "L38",
+      "index": 38,
+      "world": "Starters Station",
+      "worldSubtitle": "Tzofia's Magic Academy",
+      "worldIndex": 2,
+      "name": "Seasons",
+      "category": "L38",
+      "color": "#CDEBFF",
+      "items": [
+        {
+          "word": "spring",
+          "emoji": "🌷",
+          "slug": "spring",
+          "image": "images/spring.svg",
+          "color": "#CDEBFF"
+        },
+        {
+          "word": "summer",
+          "emoji": "☀️",
+          "slug": "summer",
+          "image": "images/summer.svg",
+          "color": "#CDEBFF"
+        },
+        {
+          "word": "autumn",
+          "emoji": "🍂",
+          "slug": "autumn",
+          "image": "images/autumn.svg",
+          "color": "#CDEBFF"
+        },
+        {
+          "word": "winter",
+          "emoji": "❄️",
+          "slug": "winter",
+          "image": "images/winter.svg",
+          "color": "#CDEBFF"
+        },
+        {
+          "word": "rain",
+          "emoji": "🌧️",
+          "slug": "rain",
+          "image": "images/rain.svg",
+          "color": "#CDEBFF"
+        },
+        {
+          "word": "snow",
+          "emoji": "⛄",
+          "slug": "snow",
+          "image": "images/snow.svg",
+          "color": "#CDEBFF"
+        }
+      ],
+      "sentences": [
+        "I like the spring.",
+        "This is my summer.",
+        "I can see the autumn.",
+        "Look at the winter!",
+        "I have the rain."
+      ]
+    },
+    {
+      "id": "L39",
+      "index": 39,
+      "world": "Starters Station",
+      "worldSubtitle": "Tzofia's Magic Academy",
+      "worldIndex": 2,
+      "name": "Camping Trip",
+      "category": "L39",
+      "color": "#CBF3E1",
+      "items": [
+        {
+          "word": "tent",
+          "emoji": "⛺",
+          "slug": "tent",
+          "image": "images/tent.svg",
+          "color": "#CBF3E1"
+        },
+        {
+          "word": "fire",
+          "emoji": "🔥",
+          "slug": "fire",
+          "image": "images/fire.svg",
+          "color": "#CBF3E1"
+        },
+        {
+          "word": "backpack",
+          "emoji": "🎒",
+          "slug": "backpack",
+          "image": "images/backpack.svg",
+          "color": "#CBF3E1"
+        },
+        {
+          "word": "map",
+          "emoji": "🗺️",
+          "slug": "map",
+          "image": "images/map.svg",
+          "color": "#CBF3E1"
+        },
+        {
+          "word": "torch",
+          "emoji": "🔦",
+          "slug": "torch",
+          "image": "images/torch.svg",
+          "color": "#CBF3E1"
+        },
+        {
+          "word": "boots",
+          "emoji": "🥾",
+          "slug": "boots",
+          "image": "images/boots.svg",
+          "color": "#CBF3E1"
+        }
+      ],
+      "sentences": [
+        "I like the tent.",
+        "This is my fire.",
+        "I can see the backpack.",
+        "Look at the map!",
+        "I have the torch."
+      ]
+    },
+    {
+      "id": "L40",
+      "index": 40,
+      "world": "Starters Station",
+      "worldSubtitle": "Tzofia's Magic Academy",
+      "worldIndex": 2,
+      "name": "Picnic",
+      "category": "L40",
+      "color": "#FFE0D5",
+      "items": [
+        {
+          "word": "apple",
+          "emoji": "🍎",
+          "slug": "apple",
+          "image": "images/apple.svg",
+          "color": "#FFE0D5"
+        },
+        {
+          "word": "juice",
+          "emoji": "🧃",
+          "slug": "juice",
+          "image": "images/juice.svg",
+          "color": "#FFE0D5"
+        },
+        {
+          "word": "cake",
+          "emoji": "🍰",
+          "slug": "cake",
+          "image": "images/cake.svg",
+          "color": "#FFE0D5"
+        },
+        {
+          "word": "sandwich",
+          "emoji": "🥪",
+          "slug": "sandwich",
+          "image": "images/sandwich.svg",
+          "color": "#FFE0D5"
+        },
+        {
+          "word": "banana",
+          "emoji": "🍌",
+          "slug": "banana",
+          "image": "images/banana.svg",
+          "color": "#FFE0D5"
+        },
+        {
+          "word": "water",
+          "emoji": "💧",
+          "slug": "water",
+          "image": "images/water.svg",
+          "color": "#FFE0D5"
+        }
+      ],
+      "sentences": [
+        "I like the apple.",
+        "This is my juice.",
+        "I can see the cake.",
+        "Look at the sandwich!",
+        "I have the banana."
+      ]
+    },
+    {
+      "id": "L41",
+      "index": 41,
+      "world": "Starters Station",
+      "worldSubtitle": "Tzofia's Magic Academy",
+      "worldIndex": 2,
+      "name": "Opposites",
+      "category": "L41",
+      "color": "#E9DDFF",
+      "items": [
+        {
+          "word": "big",
+          "emoji": "🐘",
+          "slug": "big",
+          "image": "images/big.svg",
+          "color": "#E9DDFF"
+        },
+        {
+          "word": "small",
+          "emoji": "🐜",
+          "slug": "small",
+          "image": "images/small.svg",
+          "color": "#E9DDFF"
+        },
+        {
+          "word": "fast",
+          "emoji": "🚀",
+          "slug": "fast",
+          "image": "images/fast.svg",
+          "color": "#E9DDFF"
+        },
+        {
+          "word": "slow",
+          "emoji": "🐌",
+          "slug": "slow",
+          "image": "images/slow.svg",
+          "color": "#E9DDFF"
+        },
+        {
+          "word": "hot",
+          "emoji": "🔥",
+          "slug": "hot",
+          "image": "images/hot.svg",
+          "color": "#E9DDFF"
+        },
+        {
+          "word": "cold",
+          "emoji": "🧊",
+          "slug": "cold",
+          "image": "images/cold.svg",
+          "color": "#E9DDFF"
+        }
+      ],
+      "sentences": [
+        "I like the big.",
+        "This is my small.",
+        "I can see the fast.",
+        "Look at the slow!",
+        "I have the hot."
+      ]
+    },
+    {
+      "id": "L42",
+      "index": 42,
+      "world": "Starters Station",
+      "worldSubtitle": "Tzofia's Magic Academy",
+      "worldIndex": 2,
+      "name": "Transport",
+      "category": "L42",
+      "color": "#FDE2B3",
+      "items": [
+        {
+          "word": "car",
+          "emoji": "🚗",
+          "slug": "car",
+          "image": "images/car.svg",
+          "color": "#FDE2B3"
+        },
+        {
+          "word": "bus",
+          "emoji": "🚌",
+          "slug": "bus",
+          "image": "images/bus.svg",
+          "color": "#FDE2B3"
+        },
+        {
+          "word": "train",
+          "emoji": "🚆",
+          "slug": "train",
+          "image": "images/train.svg",
+          "color": "#FDE2B3"
+        },
+        {
+          "word": "plane",
+          "emoji": "✈️",
+          "slug": "plane",
+          "image": "images/plane.svg",
+          "color": "#FDE2B3"
+        },
+        {
+          "word": "boat",
+          "emoji": "⛵",
+          "slug": "boat",
+          "image": "images/boat.svg",
+          "color": "#FDE2B3"
+        },
+        {
+          "word": "bike",
+          "emoji": "🚲",
+          "slug": "bike",
+          "image": "images/bike.svg",
+          "color": "#FDE2B3"
+        }
+      ],
+      "sentences": [
+        "I like the car.",
+        "This is my bus.",
+        "I can see the train.",
+        "Look at the plane!",
+        "I have the boat."
+      ]
+    },
+    {
+      "id": "L43",
+      "index": 43,
+      "world": "Starters Station",
+      "worldSubtitle": "Tzofia's Magic Academy",
+      "worldIndex": 2,
+      "name": "Places in Town",
+      "category": "L43",
+      "color": "#D8F0FF",
+      "items": [
+        {
+          "word": "shop",
+          "emoji": "🏪",
+          "slug": "shop",
+          "image": "images/shop.svg",
+          "color": "#D8F0FF"
+        },
+        {
+          "word": "school",
+          "emoji": "🏫",
+          "slug": "school",
+          "image": "images/school.svg",
+          "color": "#D8F0FF"
+        },
+        {
+          "word": "park",
+          "emoji": "🏞️",
+          "slug": "park",
+          "image": "images/park.svg",
+          "color": "#D8F0FF"
+        },
+        {
+          "word": "hospital",
+          "emoji": "🏥",
+          "slug": "hospital",
+          "image": "images/hospital.svg",
+          "color": "#D8F0FF"
+        },
+        {
+          "word": "house",
+          "emoji": "🏠",
+          "slug": "house",
+          "image": "images/house.svg",
+          "color": "#D8F0FF"
+        },
+        {
+          "word": "castle",
+          "emoji": "🏰",
+          "slug": "castle",
+          "image": "images/castle.svg",
+          "color": "#D8F0FF"
+        }
+      ],
+      "sentences": [
+        "I like the shop.",
+        "This is my school.",
+        "I can see the park.",
+        "Look at the hospital!",
+        "I have the house."
+      ]
+    },
+    {
+      "id": "L44",
+      "index": 44,
+      "world": "Starters Station",
+      "worldSubtitle": "Tzofia's Magic Academy",
+      "worldIndex": 2,
+      "name": "Days & Time",
+      "category": "L44",
+      "color": "#FFD6C9",
+      "items": [
+        {
+          "word": "clock",
+          "emoji": "🕐",
+          "slug": "clock",
+          "image": "images/clock.svg",
+          "color": "#FFD6C9"
+        },
+        {
+          "word": "alarm",
+          "emoji": "⏰",
+          "slug": "alarm",
+          "image": "images/alarm.svg",
+          "color": "#FFD6C9"
+        },
+        {
+          "word": "calendar",
+          "emoji": "📅",
+          "slug": "calendar",
+          "image": "images/calendar.svg",
+          "color": "#FFD6C9"
+        },
+        {
+          "word": "watch",
+          "emoji": "⌚",
+          "slug": "watch",
+          "image": "images/watch.svg",
+          "color": "#FFD6C9"
+        },
+        {
+          "word": "day",
+          "emoji": "☀️",
+          "slug": "day",
+          "image": "images/day.svg",
+          "color": "#FFD6C9"
+        },
+        {
+          "word": "night",
+          "emoji": "🌙",
+          "slug": "night",
+          "image": "images/night.svg",
+          "color": "#FFD6C9"
+        }
+      ],
+      "sentences": [
+        "I like the clock.",
+        "This is my alarm.",
+        "I can see the calendar.",
+        "Look at the watch!",
+        "I have the day."
+      ]
+    },
+    {
+      "id": "L45",
+      "index": 45,
+      "world": "Starters Station",
+      "worldSubtitle": "Tzofia's Magic Academy",
+      "worldIndex": 2,
+      "name": "My Week",
+      "category": "L45",
+      "color": "#D6F5C9",
+      "items": [
+        {
+          "word": "school",
+          "emoji": "🏫",
+          "slug": "school",
+          "image": "images/school.svg",
+          "color": "#D6F5C9"
+        },
+        {
+          "word": "home",
+          "emoji": "🏠",
+          "slug": "home",
+          "image": "images/home.svg",
+          "color": "#D6F5C9"
+        },
+        {
+          "word": "park",
+          "emoji": "🏞️",
+          "slug": "park",
+          "image": "images/park.svg",
+          "color": "#D6F5C9"
+        },
+        {
+          "word": "shop",
+          "emoji": "🏪",
+          "slug": "shop",
+          "image": "images/shop.svg",
+          "color": "#D6F5C9"
+        },
+        {
+          "word": "play",
+          "emoji": "🎮",
+          "slug": "play",
+          "image": "images/play.svg",
+          "color": "#D6F5C9"
+        },
+        {
+          "word": "sleep",
+          "emoji": "😴",
+          "slug": "sleep",
+          "image": "images/sleep.svg",
+          "color": "#D6F5C9"
+        }
+      ],
+      "sentences": [
+        "I like the school.",
+        "This is my home.",
+        "I can see the park.",
+        "Look at the shop!",
+        "I have the play."
+      ]
+    },
+    {
+      "id": "L46",
+      "index": 46,
+      "world": "Starters Station",
+      "worldSubtitle": "Tzofia's Magic Academy",
+      "worldIndex": 2,
+      "name": "Feelings 2",
+      "category": "L46",
+      "color": "#E6D3FF",
+      "items": [
+        {
+          "word": "excited",
+          "emoji": "🤩",
+          "slug": "excited",
+          "image": "images/excited.svg",
+          "color": "#E6D3FF"
+        },
+        {
+          "word": "tired",
+          "emoji": "😫",
+          "slug": "tired",
+          "image": "images/tired.svg",
+          "color": "#E6D3FF"
+        },
+        {
+          "word": "hungry",
+          "emoji": "😋",
+          "slug": "hungry",
+          "image": "images/hungry.svg",
+          "color": "#E6D3FF"
+        },
+        {
+          "word": "thirsty",
+          "emoji": "🥤",
+          "slug": "thirsty",
+          "image": "images/thirsty.svg",
+          "color": "#E6D3FF"
+        },
+        {
+          "word": "love",
+          "emoji": "❤️",
+          "slug": "love",
+          "image": "images/love.svg",
+          "color": "#E6D3FF"
+        },
+        {
+          "word": "bored",
+          "emoji": "😑",
+          "slug": "bored",
+          "image": "images/bored.svg",
+          "color": "#E6D3FF"
+        }
+      ],
+      "sentences": [
+        "I like the excited.",
+        "This is my tired.",
+        "I can see the hungry.",
+        "Look at the thirsty!",
+        "I have the love."
+      ]
+    },
+    {
+      "id": "L47",
+      "index": 47,
+      "world": "Starters Station",
+      "worldSubtitle": "Tzofia's Magic Academy",
+      "worldIndex": 2,
+      "name": "Weather Today",
+      "category": "L47",
+      "color": "#C9F0EC",
+      "items": [
+        {
+          "word": "sunny",
+          "emoji": "☀️",
+          "slug": "sunny",
+          "image": "images/sunny.svg",
+          "color": "#C9F0EC"
+        },
+        {
+          "word": "rainy",
+          "emoji": "🌧️",
+          "slug": "rainy",
+          "image": "images/rainy.svg",
+          "color": "#C9F0EC"
+        },
+        {
+          "word": "snowy",
+          "emoji": "❄️",
+          "slug": "snowy",
+          "image": "images/snowy.svg",
+          "color": "#C9F0EC"
+        },
+        {
+          "word": "cloudy",
+          "emoji": "☁️",
+          "slug": "cloudy",
+          "image": "images/cloudy.svg",
+          "color": "#C9F0EC"
+        },
+        {
+          "word": "windy",
+          "emoji": "🌬️",
+          "slug": "windy",
+          "image": "images/windy.svg",
+          "color": "#C9F0EC"
+        },
+        {
+          "word": "stormy",
+          "emoji": "⛈️",
+          "slug": "stormy",
+          "image": "images/stormy.svg",
+          "color": "#C9F0EC"
+        }
+      ],
+      "sentences": [
+        "I like the sunny.",
+        "This is my rainy.",
+        "I can see the snowy.",
+        "Look at the cloudy!",
+        "I have the windy."
+      ]
+    },
+    {
+      "id": "L48",
+      "index": 48,
+      "world": "Starters Station",
+      "worldSubtitle": "Tzofia's Magic Academy",
+      "worldIndex": 2,
+      "name": "In the City",
+      "category": "L48",
+      "color": "#FFE7A8",
+      "items": [
+        {
+          "word": "car",
+          "emoji": "🚗",
+          "slug": "car",
+          "image": "images/car.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "bus",
+          "emoji": "🚌",
+          "slug": "bus",
+          "image": "images/bus.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "shop",
+          "emoji": "🏪",
+          "slug": "shop",
+          "image": "images/shop.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "park",
+          "emoji": "🏞️",
+          "slug": "park",
+          "image": "images/park.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "road",
+          "emoji": "🛣️",
+          "slug": "road",
+          "image": "images/road.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "light",
+          "emoji": "🚦",
+          "slug": "light",
+          "image": "images/light.svg",
+          "color": "#FFE7A8"
+        }
+      ],
+      "sentences": [
+        "I like the car.",
+        "This is my bus.",
+        "I can see the shop.",
+        "Look at the park!",
+        "I have the road."
+      ]
+    },
+    {
+      "id": "L49",
+      "index": 49,
+      "world": "Movers Mountain",
+      "worldSubtitle": "Bigger words & ideas",
+      "worldIndex": 3,
+      "name": "Jobs",
+      "category": "L49",
+      "color": "#DCC9FF",
+      "items": [
+        {
+          "word": "doctor",
+          "emoji": "🧑‍⚕️",
+          "slug": "doctor",
+          "image": "images/doctor.svg",
+          "color": "#DCC9FF"
+        },
+        {
+          "word": "teacher",
+          "emoji": "🧑‍🏫",
+          "slug": "teacher",
+          "image": "images/teacher.svg",
+          "color": "#DCC9FF"
+        },
+        {
+          "word": "chef",
+          "emoji": "👨‍🍳",
+          "slug": "chef",
+          "image": "images/chef.svg",
+          "color": "#DCC9FF"
+        },
+        {
+          "word": "police",
+          "emoji": "👮",
+          "slug": "police",
+          "image": "images/police.svg",
+          "color": "#DCC9FF"
+        },
+        {
+          "word": "farmer",
+          "emoji": "🧑‍🌾",
+          "slug": "farmer",
+          "image": "images/farmer.svg",
+          "color": "#DCC9FF"
+        },
+        {
+          "word": "pilot",
+          "emoji": "🧑‍✈️",
+          "slug": "pilot",
+          "image": "images/pilot.svg",
+          "color": "#DCC9FF"
+        }
+      ],
+      "sentences": [
+        "I like the doctor.",
+        "This is my teacher.",
+        "I can see the chef.",
+        "Look at the police!",
+        "I have the farmer."
+      ]
+    },
+    {
+      "id": "L50",
+      "index": 50,
+      "world": "Movers Mountain",
+      "worldSubtitle": "Bigger words & ideas",
+      "worldIndex": 3,
+      "name": "Sports",
+      "category": "L50",
+      "color": "#FFD0DE",
+      "items": [
+        {
+          "word": "soccer",
+          "emoji": "⚽",
+          "slug": "soccer",
+          "image": "images/soccer.svg",
+          "color": "#FFD0DE"
+        },
+        {
+          "word": "basketball",
+          "emoji": "🏀",
+          "slug": "basketball",
+          "image": "images/basketball.svg",
+          "color": "#FFD0DE"
+        },
+        {
+          "word": "tennis",
+          "emoji": "🎾",
+          "slug": "tennis",
+          "image": "images/tennis.svg",
+          "color": "#FFD0DE"
+        },
+        {
+          "word": "baseball",
+          "emoji": "⚾",
+          "slug": "baseball",
+          "image": "images/baseball.svg",
+          "color": "#FFD0DE"
+        },
+        {
+          "word": "swimming",
+          "emoji": "🏊",
+          "slug": "swimming",
+          "image": "images/swimming.svg",
+          "color": "#FFD0DE"
+        },
+        {
+          "word": "running",
+          "emoji": "🏃",
+          "slug": "running",
+          "image": "images/running.svg",
+          "color": "#FFD0DE"
+        }
+      ],
+      "sentences": [
+        "I like the soccer.",
+        "This is my basketball.",
+        "I can see the tennis.",
+        "Look at the baseball!",
+        "I have the swimming."
+      ]
+    },
+    {
+      "id": "L51",
+      "index": 51,
+      "world": "Movers Mountain",
+      "worldSubtitle": "Bigger words & ideas",
+      "worldIndex": 3,
+      "name": "Music",
+      "category": "L51",
+      "color": "#C6F0CE",
+      "items": [
+        {
+          "word": "guitar",
+          "emoji": "🎸",
+          "slug": "guitar",
+          "image": "images/guitar.svg",
+          "color": "#C6F0CE"
+        },
+        {
+          "word": "piano",
+          "emoji": "🎹",
+          "slug": "piano",
+          "image": "images/piano.svg",
+          "color": "#C6F0CE"
+        },
+        {
+          "word": "drums",
+          "emoji": "🥁",
+          "slug": "drums",
+          "image": "images/drums.svg",
+          "color": "#C6F0CE"
+        },
+        {
+          "word": "violin",
+          "emoji": "🎻",
+          "slug": "violin",
+          "image": "images/violin.svg",
+          "color": "#C6F0CE"
+        },
+        {
+          "word": "trumpet",
+          "emoji": "🎺",
+          "slug": "trumpet",
+          "image": "images/trumpet.svg",
+          "color": "#C6F0CE"
+        },
+        {
+          "word": "microphone",
+          "emoji": "🎤",
+          "slug": "microphone",
+          "image": "images/microphone.svg",
+          "color": "#C6F0CE"
+        }
+      ],
+      "sentences": [
+        "I like the guitar.",
+        "This is my piano.",
+        "I can see the drums.",
+        "Look at the violin!",
+        "I have the trumpet."
+      ]
+    },
+    {
+      "id": "L52",
+      "index": 52,
+      "world": "Movers Mountain",
+      "worldSubtitle": "Bigger words & ideas",
+      "worldIndex": 3,
+      "name": "Space",
+      "category": "L52",
+      "color": "#BFE2FF",
+      "items": [
+        {
+          "word": "sun",
+          "emoji": "☀️",
+          "slug": "sun",
+          "image": "images/sun.svg",
+          "color": "#BFE2FF"
+        },
+        {
+          "word": "moon",
+          "emoji": "🌙",
+          "slug": "moon",
+          "image": "images/moon.svg",
+          "color": "#BFE2FF"
+        },
+        {
+          "word": "star",
+          "emoji": "⭐",
+          "slug": "star",
+          "image": "images/star.svg",
+          "color": "#BFE2FF"
+        },
+        {
+          "word": "planet",
+          "emoji": "🪐",
+          "slug": "planet",
+          "image": "images/planet.svg",
+          "color": "#BFE2FF"
+        },
+        {
+          "word": "rocket",
+          "emoji": "🚀",
+          "slug": "rocket",
+          "image": "images/rocket.svg",
+          "color": "#BFE2FF"
+        },
+        {
+          "word": "astronaut",
+          "emoji": "🧑‍🚀",
+          "slug": "astronaut",
+          "image": "images/astronaut.svg",
+          "color": "#BFE2FF"
+        }
+      ],
+      "sentences": [
+        "I like the sun.",
+        "This is my moon.",
+        "I can see the star.",
+        "Look at the planet!",
+        "I have the rocket."
+      ]
+    },
+    {
+      "id": "L53",
+      "index": 53,
+      "world": "Movers Mountain",
+      "worldSubtitle": "Bigger words & ideas",
+      "worldIndex": 3,
+      "name": "Big Vehicles",
+      "category": "L53",
+      "color": "#FFE0C4",
+      "items": [
+        {
+          "word": "helicopter",
+          "emoji": "🚁",
+          "slug": "helicopter",
+          "image": "images/helicopter.svg",
+          "color": "#FFE0C4"
+        },
+        {
+          "word": "ship",
+          "emoji": "🚢",
+          "slug": "ship",
+          "image": "images/ship.svg",
+          "color": "#FFE0C4"
+        },
+        {
+          "word": "truck",
+          "emoji": "🚚",
+          "slug": "truck",
+          "image": "images/truck.svg",
+          "color": "#FFE0C4"
+        },
+        {
+          "word": "taxi",
+          "emoji": "🚕",
+          "slug": "taxi",
+          "image": "images/taxi.svg",
+          "color": "#FFE0C4"
+        },
+        {
+          "word": "motorbike",
+          "emoji": "🏍️",
+          "slug": "motorbike",
+          "image": "images/motorbike.svg",
+          "color": "#FFE0C4"
+        },
+        {
+          "word": "tractor",
+          "emoji": "🚜",
+          "slug": "tractor",
+          "image": "images/tractor.svg",
+          "color": "#FFE0C4"
+        }
+      ],
+      "sentences": [
+        "I like the helicopter.",
+        "This is my ship.",
+        "I can see the truck.",
+        "Look at the taxi!",
+        "I have the motorbike."
+      ]
+    },
+    {
+      "id": "L54",
+      "index": 54,
+      "world": "Movers Mountain",
+      "worldSubtitle": "Bigger words & ideas",
+      "worldIndex": 3,
+      "name": "Wild Weather",
+      "category": "L54",
+      "color": "#CDEBFF",
+      "items": [
+        {
+          "word": "storm",
+          "emoji": "⛈️",
+          "slug": "storm",
+          "image": "images/storm.svg",
+          "color": "#CDEBFF"
+        },
+        {
+          "word": "fog",
+          "emoji": "🌫️",
+          "slug": "fog",
+          "image": "images/fog.svg",
+          "color": "#CDEBFF"
+        },
+        {
+          "word": "lightning",
+          "emoji": "⚡",
+          "slug": "lightning",
+          "image": "images/lightning.svg",
+          "color": "#CDEBFF"
+        },
+        {
+          "word": "tornado",
+          "emoji": "🌪️",
+          "slug": "tornado",
+          "image": "images/tornado.svg",
+          "color": "#CDEBFF"
+        },
+        {
+          "word": "sunny",
+          "emoji": "☀️",
+          "slug": "sunny",
+          "image": "images/sunny.svg",
+          "color": "#CDEBFF"
+        },
+        {
+          "word": "windy",
+          "emoji": "🌬️",
+          "slug": "windy",
+          "image": "images/windy.svg",
+          "color": "#CDEBFF"
+        }
+      ],
+      "sentences": [
+        "I like the storm.",
+        "This is my fog.",
+        "I can see the lightning.",
+        "Look at the tornado!",
+        "I have the sunny."
+      ]
+    },
+    {
+      "id": "L55",
+      "index": 55,
+      "world": "Movers Mountain",
+      "worldSubtitle": "Bigger words & ideas",
+      "worldIndex": 3,
+      "name": "More Feelings",
+      "category": "L55",
+      "color": "#CBF3E1",
+      "items": [
+        {
+          "word": "excited",
+          "emoji": "🤩",
+          "slug": "excited",
+          "image": "images/excited.svg",
+          "color": "#CBF3E1"
+        },
+        {
+          "word": "bored",
+          "emoji": "😑",
+          "slug": "bored",
+          "image": "images/bored.svg",
+          "color": "#CBF3E1"
+        },
+        {
+          "word": "shy",
+          "emoji": "😳",
+          "slug": "shy",
+          "image": "images/shy.svg",
+          "color": "#CBF3E1"
+        },
+        {
+          "word": "proud",
+          "emoji": "😌",
+          "slug": "proud",
+          "image": "images/proud.svg",
+          "color": "#CBF3E1"
+        },
+        {
+          "word": "nervous",
+          "emoji": "😰",
+          "slug": "nervous",
+          "image": "images/nervous.svg",
+          "color": "#CBF3E1"
+        },
+        {
+          "word": "silly",
+          "emoji": "🤪",
+          "slug": "silly",
+          "image": "images/silly.svg",
+          "color": "#CBF3E1"
+        }
+      ],
+      "sentences": [
+        "I like the excited.",
+        "This is my bored.",
+        "I can see the shy.",
+        "Look at the proud!",
+        "I have the nervous."
+      ]
+    },
+    {
+      "id": "L56",
+      "index": 56,
+      "world": "Movers Mountain",
+      "worldSubtitle": "Bigger words & ideas",
+      "worldIndex": 3,
+      "name": "House Rooms",
+      "category": "L56",
+      "color": "#FFE0D5",
+      "items": [
+        {
+          "word": "kitchen",
+          "emoji": "🍳",
+          "slug": "kitchen",
+          "image": "images/kitchen.svg",
+          "color": "#FFE0D5"
+        },
+        {
+          "word": "bedroom",
+          "emoji": "🛏️",
+          "slug": "bedroom",
+          "image": "images/bedroom.svg",
+          "color": "#FFE0D5"
+        },
+        {
+          "word": "bathroom",
+          "emoji": "🛁",
+          "slug": "bathroom",
+          "image": "images/bathroom.svg",
+          "color": "#FFE0D5"
+        },
+        {
+          "word": "garden",
+          "emoji": "🌳",
+          "slug": "garden",
+          "image": "images/garden.svg",
+          "color": "#FFE0D5"
+        },
+        {
+          "word": "garage",
+          "emoji": "🚗",
+          "slug": "garage",
+          "image": "images/garage.svg",
+          "color": "#FFE0D5"
+        },
+        {
+          "word": "sofa",
+          "emoji": "🛋️",
+          "slug": "sofa",
+          "image": "images/sofa.svg",
+          "color": "#FFE0D5"
+        }
+      ],
+      "sentences": [
+        "I like the kitchen.",
+        "This is my bedroom.",
+        "I can see the bathroom.",
+        "Look at the garden!",
+        "I have the garage."
+      ]
+    },
+    {
+      "id": "L57",
+      "index": 57,
+      "world": "Movers Mountain",
+      "worldSubtitle": "Bigger words & ideas",
+      "worldIndex": 3,
+      "name": "Shopping",
+      "category": "L57",
+      "color": "#E9DDFF",
+      "items": [
+        {
+          "word": "money",
+          "emoji": "💵",
+          "slug": "money",
+          "image": "images/money.svg",
+          "color": "#E9DDFF"
+        },
+        {
+          "word": "coin",
+          "emoji": "🪙",
+          "slug": "coin",
+          "image": "images/coin.svg",
+          "color": "#E9DDFF"
+        },
+        {
+          "word": "shop",
+          "emoji": "🏪",
+          "slug": "shop",
+          "image": "images/shop.svg",
+          "color": "#E9DDFF"
+        },
+        {
+          "word": "bag",
+          "emoji": "🛍️",
+          "slug": "bag",
+          "image": "images/bag.svg",
+          "color": "#E9DDFF"
+        },
+        {
+          "word": "card",
+          "emoji": "💳",
+          "slug": "card",
+          "image": "images/card.svg",
+          "color": "#E9DDFF"
+        },
+        {
+          "word": "gift",
+          "emoji": "🎁",
+          "slug": "gift",
+          "image": "images/gift.svg",
+          "color": "#E9DDFF"
+        }
+      ],
+      "sentences": [
+        "I like the money.",
+        "This is my coin.",
+        "I can see the shop.",
+        "Look at the bag!",
+        "I have the card."
+      ]
+    },
+    {
+      "id": "L58",
+      "index": 58,
+      "world": "Movers Mountain",
+      "worldSubtitle": "Bigger words & ideas",
+      "worldIndex": 3,
+      "name": "At the Doctor",
+      "category": "L58",
+      "color": "#FDE2B3",
+      "items": [
+        {
+          "word": "doctor",
+          "emoji": "🧑‍⚕️",
+          "slug": "doctor",
+          "image": "images/doctor.svg",
+          "color": "#FDE2B3"
+        },
+        {
+          "word": "medicine",
+          "emoji": "💊",
+          "slug": "medicine",
+          "image": "images/medicine.svg",
+          "color": "#FDE2B3"
+        },
+        {
+          "word": "hospital",
+          "emoji": "🏥",
+          "slug": "hospital",
+          "image": "images/hospital.svg",
+          "color": "#FDE2B3"
+        },
+        {
+          "word": "sick",
+          "emoji": "🤒",
+          "slug": "sick",
+          "image": "images/sick.svg",
+          "color": "#FDE2B3"
+        },
+        {
+          "word": "bandage",
+          "emoji": "🩹",
+          "slug": "bandage",
+          "image": "images/bandage.svg",
+          "color": "#FDE2B3"
+        },
+        {
+          "word": "tooth",
+          "emoji": "🦷",
+          "slug": "tooth",
+          "image": "images/tooth.svg",
+          "color": "#FDE2B3"
+        }
+      ],
+      "sentences": [
+        "I like the doctor.",
+        "This is my medicine.",
+        "I can see the hospital.",
+        "Look at the sick!",
+        "I have the bandage."
+      ]
+    },
+    {
+      "id": "L59",
+      "index": 59,
+      "world": "Movers Mountain",
+      "worldSubtitle": "Bigger words & ideas",
+      "worldIndex": 3,
+      "name": "Party Time",
+      "category": "L59",
+      "color": "#D8F0FF",
+      "items": [
+        {
+          "word": "cake",
+          "emoji": "🎂",
+          "slug": "cake",
+          "image": "images/cake.svg",
+          "color": "#D8F0FF"
+        },
+        {
+          "word": "balloon",
+          "emoji": "🎈",
+          "slug": "balloon",
+          "image": "images/balloon.svg",
+          "color": "#D8F0FF"
+        },
+        {
+          "word": "gift",
+          "emoji": "🎁",
+          "slug": "gift",
+          "image": "images/gift.svg",
+          "color": "#D8F0FF"
+        },
+        {
+          "word": "candle",
+          "emoji": "🕯️",
+          "slug": "candle",
+          "image": "images/candle.svg",
+          "color": "#D8F0FF"
+        },
+        {
+          "word": "music",
+          "emoji": "🎵",
+          "slug": "music",
+          "image": "images/music.svg",
+          "color": "#D8F0FF"
+        },
+        {
+          "word": "party",
+          "emoji": "🥳",
+          "slug": "party",
+          "image": "images/party.svg",
+          "color": "#D8F0FF"
+        }
+      ],
+      "sentences": [
+        "I like the cake.",
+        "This is my balloon.",
+        "I can see the gift.",
+        "Look at the candle!",
+        "I have the music."
+      ]
+    },
+    {
+      "id": "L60",
+      "index": 60,
+      "world": "Movers Mountain",
+      "worldSubtitle": "Bigger words & ideas",
+      "worldIndex": 3,
+      "name": "At the Ocean",
+      "category": "L60",
+      "color": "#FFD6C9",
+      "items": [
+        {
+          "word": "wave",
+          "emoji": "🌊",
+          "slug": "wave",
+          "image": "images/wave.svg",
+          "color": "#FFD6C9"
+        },
+        {
+          "word": "boat",
+          "emoji": "⛵",
+          "slug": "boat",
+          "image": "images/boat.svg",
+          "color": "#FFD6C9"
+        },
+        {
+          "word": "shell",
+          "emoji": "🐚",
+          "slug": "shell",
+          "image": "images/shell.svg",
+          "color": "#FFD6C9"
+        },
+        {
+          "word": "sand",
+          "emoji": "🏖️",
+          "slug": "sand",
+          "image": "images/sand.svg",
+          "color": "#FFD6C9"
+        },
+        {
+          "word": "island",
+          "emoji": "🏝️",
+          "slug": "island",
+          "image": "images/island.svg",
+          "color": "#FFD6C9"
+        },
+        {
+          "word": "fish",
+          "emoji": "🐟",
+          "slug": "fish",
+          "image": "images/fish.svg",
+          "color": "#FFD6C9"
+        }
+      ],
+      "sentences": [
+        "I like the wave.",
+        "This is my boat.",
+        "I can see the shell.",
+        "Look at the sand!",
+        "I have the island."
+      ]
+    },
+    {
+      "id": "L61",
+      "index": 61,
+      "world": "Movers Mountain",
+      "worldSubtitle": "Bigger words & ideas",
+      "worldIndex": 3,
+      "name": "More Fruit",
+      "category": "L61",
+      "color": "#D6F5C9",
+      "items": [
+        {
+          "word": "pineapple",
+          "emoji": "🍍",
+          "slug": "pineapple",
+          "image": "images/pineapple.svg",
+          "color": "#D6F5C9"
+        },
+        {
+          "word": "mango",
+          "emoji": "🥭",
+          "slug": "mango",
+          "image": "images/mango.svg",
+          "color": "#D6F5C9"
+        },
+        {
+          "word": "cherry",
+          "emoji": "🍒",
+          "slug": "cherry",
+          "image": "images/cherry.svg",
+          "color": "#D6F5C9"
+        },
+        {
+          "word": "peach",
+          "emoji": "🍑",
+          "slug": "peach",
+          "image": "images/peach.svg",
+          "color": "#D6F5C9"
+        },
+        {
+          "word": "lemon",
+          "emoji": "🍋",
+          "slug": "lemon",
+          "image": "images/lemon.svg",
+          "color": "#D6F5C9"
+        },
+        {
+          "word": "kiwi",
+          "emoji": "🥝",
+          "slug": "kiwi",
+          "image": "images/kiwi.svg",
+          "color": "#D6F5C9"
+        }
+      ],
+      "sentences": [
+        "I like the pineapple.",
+        "This is my mango.",
+        "I can see the cherry.",
+        "Look at the peach!",
+        "I have the lemon."
+      ]
+    },
+    {
+      "id": "L62",
+      "index": 62,
+      "world": "Movers Mountain",
+      "worldSubtitle": "Bigger words & ideas",
+      "worldIndex": 3,
+      "name": "More Veggies",
+      "category": "L62",
+      "color": "#E6D3FF",
+      "items": [
+        {
+          "word": "onion",
+          "emoji": "🧅",
+          "slug": "onion",
+          "image": "images/onion.svg",
+          "color": "#E6D3FF"
+        },
+        {
+          "word": "garlic",
+          "emoji": "🧄",
+          "slug": "garlic",
+          "image": "images/garlic.svg",
+          "color": "#E6D3FF"
+        },
+        {
+          "word": "mushroom",
+          "emoji": "🍄",
+          "slug": "mushroom",
+          "image": "images/mushroom.svg",
+          "color": "#E6D3FF"
+        },
+        {
+          "word": "cucumber",
+          "emoji": "🥒",
+          "slug": "cucumber",
+          "image": "images/cucumber.svg",
+          "color": "#E6D3FF"
+        },
+        {
+          "word": "eggplant",
+          "emoji": "🍆",
+          "slug": "eggplant",
+          "image": "images/eggplant.svg",
+          "color": "#E6D3FF"
+        },
+        {
+          "word": "lettuce",
+          "emoji": "🥬",
+          "slug": "lettuce",
+          "image": "images/lettuce.svg",
+          "color": "#E6D3FF"
+        }
+      ],
+      "sentences": [
+        "I like the onion.",
+        "This is my garlic.",
+        "I can see the mushroom.",
+        "Look at the cucumber!",
+        "I have the eggplant."
+      ]
+    },
+    {
+      "id": "L63",
+      "index": 63,
+      "world": "Movers Mountain",
+      "worldSubtitle": "Bigger words & ideas",
+      "worldIndex": 3,
+      "name": "Forest Animals",
+      "category": "L63",
+      "color": "#C9F0EC",
+      "items": [
+        {
+          "word": "fox",
+          "emoji": "🦊",
+          "slug": "fox",
+          "image": "images/fox.svg",
+          "color": "#C9F0EC"
+        },
+        {
+          "word": "wolf",
+          "emoji": "🐺",
+          "slug": "wolf",
+          "image": "images/wolf.svg",
+          "color": "#C9F0EC"
+        },
+        {
+          "word": "deer",
+          "emoji": "🦌",
+          "slug": "deer",
+          "image": "images/deer.svg",
+          "color": "#C9F0EC"
+        },
+        {
+          "word": "raccoon",
+          "emoji": "🦝",
+          "slug": "raccoon",
+          "image": "images/raccoon.svg",
+          "color": "#C9F0EC"
+        },
+        {
+          "word": "hedgehog",
+          "emoji": "🦔",
+          "slug": "hedgehog",
+          "image": "images/hedgehog.svg",
+          "color": "#C9F0EC"
+        },
+        {
+          "word": "bat",
+          "emoji": "🦇",
+          "slug": "bat",
+          "image": "images/bat.svg",
+          "color": "#C9F0EC"
+        }
+      ],
+      "sentences": [
+        "I like the fox.",
+        "This is my wolf.",
+        "I can see the deer.",
+        "Look at the raccoon!",
+        "I have the hedgehog."
+      ]
+    },
+    {
+      "id": "L64",
+      "index": 64,
+      "world": "Movers Mountain",
+      "worldSubtitle": "Bigger words & ideas",
+      "worldIndex": 3,
+      "name": "More Farm",
+      "category": "L64",
+      "color": "#FFE7A8",
+      "items": [
+        {
+          "word": "goat",
+          "emoji": "🐐",
+          "slug": "goat",
+          "image": "images/goat.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "rooster",
+          "emoji": "🐓",
+          "slug": "rooster",
+          "image": "images/rooster.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "llama",
+          "emoji": "🦙",
+          "slug": "llama",
+          "image": "images/llama.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "turkey",
+          "emoji": "🦃",
+          "slug": "turkey",
+          "image": "images/turkey.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "rabbit",
+          "emoji": "🐰",
+          "slug": "rabbit",
+          "image": "images/rabbit.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "mouse",
+          "emoji": "🐭",
+          "slug": "mouse",
+          "image": "images/mouse.svg",
+          "color": "#FFE7A8"
+        }
+      ],
+      "sentences": [
+        "I like the goat.",
+        "This is my rooster.",
+        "I can see the llama.",
+        "Look at the turkey!",
+        "I have the rabbit."
+      ]
+    },
+    {
+      "id": "L65",
+      "index": 65,
+      "world": "Movers Mountain",
+      "worldSubtitle": "Bigger words & ideas",
+      "worldIndex": 3,
+      "name": "Around the World",
+      "category": "L65",
+      "color": "#DCC9FF",
+      "items": [
+        {
+          "word": "map",
+          "emoji": "🗺️",
+          "slug": "map",
+          "image": "images/map.svg",
+          "color": "#DCC9FF"
+        },
+        {
+          "word": "globe",
+          "emoji": "🌍",
+          "slug": "globe",
+          "image": "images/globe.svg",
+          "color": "#DCC9FF"
+        },
+        {
+          "word": "flag",
+          "emoji": "🚩",
+          "slug": "flag",
+          "image": "images/flag.svg",
+          "color": "#DCC9FF"
+        },
+        {
+          "word": "plane",
+          "emoji": "✈️",
+          "slug": "plane",
+          "image": "images/plane.svg",
+          "color": "#DCC9FF"
+        },
+        {
+          "word": "luggage",
+          "emoji": "🧳",
+          "slug": "luggage",
+          "image": "images/luggage.svg",
+          "color": "#DCC9FF"
+        },
+        {
+          "word": "camera",
+          "emoji": "📷",
+          "slug": "camera",
+          "image": "images/camera.svg",
+          "color": "#DCC9FF"
+        }
+      ],
+      "sentences": [
+        "I like the map.",
+        "This is my globe.",
+        "I can see the flag.",
+        "Look at the plane!",
+        "I have the luggage."
+      ]
+    },
+    {
+      "id": "L66",
+      "index": 66,
+      "world": "Movers Mountain",
+      "worldSubtitle": "Bigger words & ideas",
+      "worldIndex": 3,
+      "name": "Feeling Faces",
+      "category": "L66",
+      "color": "#FFD0DE",
+      "items": [
+        {
+          "word": "smile",
+          "emoji": "😊",
+          "slug": "smile",
+          "image": "images/smile.svg",
+          "color": "#FFD0DE"
+        },
+        {
+          "word": "frown",
+          "emoji": "☹️",
+          "slug": "frown",
+          "image": "images/frown.svg",
+          "color": "#FFD0DE"
+        },
+        {
+          "word": "cry",
+          "emoji": "😭",
+          "slug": "cry",
+          "image": "images/cry.svg",
+          "color": "#FFD0DE"
+        },
+        {
+          "word": "laugh",
+          "emoji": "😂",
+          "slug": "laugh",
+          "image": "images/laugh.svg",
+          "color": "#FFD0DE"
+        },
+        {
+          "word": "shocked",
+          "emoji": "😲",
+          "slug": "shocked",
+          "image": "images/shocked.svg",
+          "color": "#FFD0DE"
+        },
+        {
+          "word": "sleepy",
+          "emoji": "😴",
+          "slug": "sleepy",
+          "image": "images/sleepy.svg",
+          "color": "#FFD0DE"
+        }
+      ],
+      "sentences": [
+        "I like the smile.",
+        "This is my frown.",
+        "I can see the cry.",
+        "Look at the laugh!",
+        "I have the shocked."
+      ]
+    },
+    {
+      "id": "L67",
+      "index": 67,
+      "world": "Movers Mountain",
+      "worldSubtitle": "Bigger words & ideas",
+      "worldIndex": 3,
+      "name": "Garden Friends",
+      "category": "L67",
+      "color": "#C6F0CE",
+      "items": [
+        {
+          "word": "bee",
+          "emoji": "🐝",
+          "slug": "bee",
+          "image": "images/bee.svg",
+          "color": "#C6F0CE"
+        },
+        {
+          "word": "sunflower",
+          "emoji": "🌻",
+          "slug": "sunflower",
+          "image": "images/sunflower.svg",
+          "color": "#C6F0CE"
+        },
+        {
+          "word": "butterfly",
+          "emoji": "🦋",
+          "slug": "butterfly",
+          "image": "images/butterfly.svg",
+          "color": "#C6F0CE"
+        },
+        {
+          "word": "tree",
+          "emoji": "🌳",
+          "slug": "tree",
+          "image": "images/tree.svg",
+          "color": "#C6F0CE"
+        },
+        {
+          "word": "bird",
+          "emoji": "🐦",
+          "slug": "bird",
+          "image": "images/bird.svg",
+          "color": "#C6F0CE"
+        },
+        {
+          "word": "sun",
+          "emoji": "☀️",
+          "slug": "sun",
+          "image": "images/sun.svg",
+          "color": "#C6F0CE"
+        }
+      ],
+      "sentences": [
+        "I like the bee.",
+        "This is my sunflower.",
+        "I can see the butterfly.",
+        "Look at the tree!",
+        "I have the bird."
+      ]
+    },
+    {
+      "id": "L68",
+      "index": 68,
+      "world": "Flyers Forest",
+      "worldSubtitle": "Clever explorer words",
+      "worldIndex": 4,
+      "name": "Reptiles",
+      "category": "L68",
+      "color": "#BFE2FF",
+      "items": [
+        {
+          "word": "snake",
+          "emoji": "🐍",
+          "slug": "snake",
+          "image": "images/snake.svg",
+          "color": "#BFE2FF"
+        },
+        {
+          "word": "turtle",
+          "emoji": "🐢",
+          "slug": "turtle",
+          "image": "images/turtle.svg",
+          "color": "#BFE2FF"
+        },
+        {
+          "word": "lizard",
+          "emoji": "🦎",
+          "slug": "lizard",
+          "image": "images/lizard.svg",
+          "color": "#BFE2FF"
+        },
+        {
+          "word": "crocodile",
+          "emoji": "🐊",
+          "slug": "crocodile",
+          "image": "images/crocodile.svg",
+          "color": "#BFE2FF"
+        },
+        {
+          "word": "frog",
+          "emoji": "🐸",
+          "slug": "frog",
+          "image": "images/frog.svg",
+          "color": "#BFE2FF"
+        },
+        {
+          "word": "dinosaur",
+          "emoji": "🦕",
+          "slug": "dinosaur",
+          "image": "images/dinosaur.svg",
+          "color": "#BFE2FF"
+        }
+      ],
+      "sentences": [
+        "I like the snake.",
+        "This is my turtle.",
+        "I can see the lizard.",
+        "Look at the crocodile!",
+        "I have the frog."
+      ]
+    },
+    {
+      "id": "L69",
+      "index": 69,
+      "world": "Flyers Forest",
+      "worldSubtitle": "Clever explorer words",
+      "worldIndex": 4,
+      "name": "Big Nature",
+      "category": "L69",
+      "color": "#FFE0C4",
+      "items": [
+        {
+          "word": "volcano",
+          "emoji": "🌋",
+          "slug": "volcano",
+          "image": "images/volcano.svg",
+          "color": "#FFE0C4"
+        },
+        {
+          "word": "desert",
+          "emoji": "🏜️",
+          "slug": "desert",
+          "image": "images/desert.svg",
+          "color": "#FFE0C4"
+        },
+        {
+          "word": "forest",
+          "emoji": "🌲",
+          "slug": "forest",
+          "image": "images/forest.svg",
+          "color": "#FFE0C4"
+        },
+        {
+          "word": "waterfall",
+          "emoji": "🏞️",
+          "slug": "waterfall",
+          "image": "images/waterfall.svg",
+          "color": "#FFE0C4"
+        },
+        {
+          "word": "cave",
+          "emoji": "🕳️",
+          "slug": "cave",
+          "image": "images/cave.svg",
+          "color": "#FFE0C4"
+        },
+        {
+          "word": "ocean",
+          "emoji": "🌊",
+          "slug": "ocean",
+          "image": "images/ocean.svg",
+          "color": "#FFE0C4"
+        }
+      ],
+      "sentences": [
+        "I like the volcano.",
+        "This is my desert.",
+        "I can see the forest.",
+        "Look at the waterfall!",
+        "I have the cave."
+      ]
+    },
+    {
+      "id": "L70",
+      "index": 70,
+      "world": "Flyers Forest",
+      "worldSubtitle": "Clever explorer words",
+      "worldIndex": 4,
+      "name": "The Sky",
+      "category": "L70",
+      "color": "#CDEBFF",
+      "items": [
+        {
+          "word": "lightning",
+          "emoji": "⚡",
+          "slug": "lightning",
+          "image": "images/lightning.svg",
+          "color": "#CDEBFF"
+        },
+        {
+          "word": "tornado",
+          "emoji": "🌪️",
+          "slug": "tornado",
+          "image": "images/tornado.svg",
+          "color": "#CDEBFF"
+        },
+        {
+          "word": "snowflake",
+          "emoji": "❄️",
+          "slug": "snowflake",
+          "image": "images/snowflake.svg",
+          "color": "#CDEBFF"
+        },
+        {
+          "word": "sunrise",
+          "emoji": "🌅",
+          "slug": "sunrise",
+          "image": "images/sunrise.svg",
+          "color": "#CDEBFF"
+        },
+        {
+          "word": "sunset",
+          "emoji": "🌇",
+          "slug": "sunset",
+          "image": "images/sunset.svg",
+          "color": "#CDEBFF"
+        },
+        {
+          "word": "stars",
+          "emoji": "🌌",
+          "slug": "stars",
+          "image": "images/stars.svg",
+          "color": "#CDEBFF"
+        }
+      ],
+      "sentences": [
+        "I like the lightning.",
+        "This is my tornado.",
+        "I can see the snowflake.",
+        "Look at the sunrise!",
+        "I have the sunset."
+      ]
+    },
+    {
+      "id": "L71",
+      "index": 71,
+      "world": "Flyers Forest",
+      "worldSubtitle": "Clever explorer words",
+      "worldIndex": 4,
+      "name": "Technology",
+      "category": "L71",
+      "color": "#CBF3E1",
+      "items": [
+        {
+          "word": "phone",
+          "emoji": "📱",
+          "slug": "phone",
+          "image": "images/phone.svg",
+          "color": "#CBF3E1"
+        },
+        {
+          "word": "computer",
+          "emoji": "💻",
+          "slug": "computer",
+          "image": "images/computer.svg",
+          "color": "#CBF3E1"
+        },
+        {
+          "word": "tv",
+          "emoji": "📺",
+          "slug": "tv",
+          "image": "images/tv.svg",
+          "color": "#CBF3E1"
+        },
+        {
+          "word": "camera",
+          "emoji": "📷",
+          "slug": "camera",
+          "image": "images/camera.svg",
+          "color": "#CBF3E1"
+        },
+        {
+          "word": "robot",
+          "emoji": "🤖",
+          "slug": "robot",
+          "image": "images/robot.svg",
+          "color": "#CBF3E1"
+        },
+        {
+          "word": "game",
+          "emoji": "🎮",
+          "slug": "game",
+          "image": "images/game.svg",
+          "color": "#CBF3E1"
+        }
+      ],
+      "sentences": [
+        "I like the phone.",
+        "This is my computer.",
+        "I can see the tv.",
+        "Look at the camera!",
+        "I have the robot."
+      ]
+    },
+    {
+      "id": "L72",
+      "index": 72,
+      "world": "Flyers Forest",
+      "worldSubtitle": "Clever explorer words",
+      "worldIndex": 4,
+      "name": "School Subjects",
+      "category": "L72",
+      "color": "#FFE0D5",
+      "items": [
+        {
+          "word": "math",
+          "emoji": "➕",
+          "slug": "math",
+          "image": "images/math.svg",
+          "color": "#FFE0D5"
+        },
+        {
+          "word": "science",
+          "emoji": "🔬",
+          "slug": "science",
+          "image": "images/science.svg",
+          "color": "#FFE0D5"
+        },
+        {
+          "word": "art",
+          "emoji": "🎨",
+          "slug": "art",
+          "image": "images/art.svg",
+          "color": "#FFE0D5"
+        },
+        {
+          "word": "music",
+          "emoji": "🎵",
+          "slug": "music",
+          "image": "images/music.svg",
+          "color": "#FFE0D5"
+        },
+        {
+          "word": "reading",
+          "emoji": "📖",
+          "slug": "reading",
+          "image": "images/reading.svg",
+          "color": "#FFE0D5"
+        },
+        {
+          "word": "sport",
+          "emoji": "⚽",
+          "slug": "sport",
+          "image": "images/sport.svg",
+          "color": "#FFE0D5"
+        }
+      ],
+      "sentences": [
+        "I like the math.",
+        "This is my science.",
+        "I can see the art.",
+        "Look at the music!",
+        "I have the reading."
+      ]
+    },
+    {
+      "id": "L73",
+      "index": 73,
+      "world": "Flyers Forest",
+      "worldSubtitle": "Clever explorer words",
+      "worldIndex": 4,
+      "name": "Winter Clothes",
+      "category": "L73",
+      "color": "#E9DDFF",
+      "items": [
+        {
+          "word": "coat",
+          "emoji": "🧥",
+          "slug": "coat",
+          "image": "images/coat.svg",
+          "color": "#E9DDFF"
+        },
+        {
+          "word": "scarf",
+          "emoji": "🧣",
+          "slug": "scarf",
+          "image": "images/scarf.svg",
+          "color": "#E9DDFF"
+        },
+        {
+          "word": "gloves",
+          "emoji": "🧤",
+          "slug": "gloves",
+          "image": "images/gloves.svg",
+          "color": "#E9DDFF"
+        },
+        {
+          "word": "boots",
+          "emoji": "🥾",
+          "slug": "boots",
+          "image": "images/boots.svg",
+          "color": "#E9DDFF"
+        },
+        {
+          "word": "cap",
+          "emoji": "🧢",
+          "slug": "cap",
+          "image": "images/cap.svg",
+          "color": "#E9DDFF"
+        },
+        {
+          "word": "tie",
+          "emoji": "👔",
+          "slug": "tie",
+          "image": "images/tie.svg",
+          "color": "#E9DDFF"
+        }
+      ],
+      "sentences": [
+        "I like the coat.",
+        "This is my scarf.",
+        "I can see the gloves.",
+        "Look at the boots!",
+        "I have the cap."
+      ]
+    },
+    {
+      "id": "L74",
+      "index": 74,
+      "world": "Flyers Forest",
+      "worldSubtitle": "Clever explorer words",
+      "worldIndex": 4,
+      "name": "More Jobs",
+      "category": "L74",
+      "color": "#FDE2B3",
+      "items": [
+        {
+          "word": "artist",
+          "emoji": "🧑‍🎨",
+          "slug": "artist",
+          "image": "images/artist.svg",
+          "color": "#FDE2B3"
+        },
+        {
+          "word": "singer",
+          "emoji": "🧑‍🎤",
+          "slug": "singer",
+          "image": "images/singer.svg",
+          "color": "#FDE2B3"
+        },
+        {
+          "word": "scientist",
+          "emoji": "🧑‍🔬",
+          "slug": "scientist",
+          "image": "images/scientist.svg",
+          "color": "#FDE2B3"
+        },
+        {
+          "word": "astronaut",
+          "emoji": "🧑‍🚀",
+          "slug": "astronaut",
+          "image": "images/astronaut.svg",
+          "color": "#FDE2B3"
+        },
+        {
+          "word": "firefighter",
+          "emoji": "🧑‍🚒",
+          "slug": "firefighter",
+          "image": "images/firefighter.svg",
+          "color": "#FDE2B3"
+        },
+        {
+          "word": "builder",
+          "emoji": "👷",
+          "slug": "builder",
+          "image": "images/builder.svg",
+          "color": "#FDE2B3"
+        }
+      ],
+      "sentences": [
+        "I like the artist.",
+        "This is my singer.",
+        "I can see the scientist.",
+        "Look at the astronaut!",
+        "I have the firefighter."
+      ]
+    },
+    {
+      "id": "L75",
+      "index": 75,
+      "world": "Flyers Forest",
+      "worldSubtitle": "Clever explorer words",
+      "worldIndex": 4,
+      "name": "World Food",
+      "category": "L75",
+      "color": "#D8F0FF",
+      "items": [
+        {
+          "word": "sushi",
+          "emoji": "🍣",
+          "slug": "sushi",
+          "image": "images/sushi.svg",
+          "color": "#D8F0FF"
+        },
+        {
+          "word": "taco",
+          "emoji": "🌮",
+          "slug": "taco",
+          "image": "images/taco.svg",
+          "color": "#D8F0FF"
+        },
+        {
+          "word": "noodles",
+          "emoji": "🍜",
+          "slug": "noodles",
+          "image": "images/noodles.svg",
+          "color": "#D8F0FF"
+        },
+        {
+          "word": "pancake",
+          "emoji": "🥞",
+          "slug": "pancake",
+          "image": "images/pancake.svg",
+          "color": "#D8F0FF"
+        },
+        {
+          "word": "popcorn",
+          "emoji": "🍿",
+          "slug": "popcorn",
+          "image": "images/popcorn.svg",
+          "color": "#D8F0FF"
+        },
+        {
+          "word": "pretzel",
+          "emoji": "🥨",
+          "slug": "pretzel",
+          "image": "images/pretzel.svg",
+          "color": "#D8F0FF"
+        }
+      ],
+      "sentences": [
+        "I like the sushi.",
+        "This is my taco.",
+        "I can see the noodles.",
+        "Look at the pancake!",
+        "I have the popcorn."
+      ]
+    },
+    {
+      "id": "L76",
+      "index": 76,
+      "world": "Flyers Forest",
+      "worldSubtitle": "Clever explorer words",
+      "worldIndex": 4,
+      "name": "Cool Drinks",
+      "category": "L76",
+      "color": "#FFD6C9",
+      "items": [
+        {
+          "word": "smoothie",
+          "emoji": "🥤",
+          "slug": "smoothie",
+          "image": "images/smoothie.svg",
+          "color": "#FFD6C9"
+        },
+        {
+          "word": "lemonade",
+          "emoji": "🍋",
+          "slug": "lemonade",
+          "image": "images/lemonade.svg",
+          "color": "#FFD6C9"
+        },
+        {
+          "word": "milkshake",
+          "emoji": "🥛",
+          "slug": "milkshake",
+          "image": "images/milkshake.svg",
+          "color": "#FFD6C9"
+        },
+        {
+          "word": "tea",
+          "emoji": "🍵",
+          "slug": "tea",
+          "image": "images/tea.svg",
+          "color": "#FFD6C9"
+        },
+        {
+          "word": "water",
+          "emoji": "💧",
+          "slug": "water",
+          "image": "images/water.svg",
+          "color": "#FFD6C9"
+        },
+        {
+          "word": "juice",
+          "emoji": "🧃",
+          "slug": "juice",
+          "image": "images/juice.svg",
+          "color": "#FFD6C9"
+        }
+      ],
+      "sentences": [
+        "I like the smoothie.",
+        "This is my lemonade.",
+        "I can see the milkshake.",
+        "Look at the tea!",
+        "I have the water."
+      ]
+    },
+    {
+      "id": "L77",
+      "index": 77,
+      "world": "Flyers Forest",
+      "worldSubtitle": "Clever explorer words",
+      "worldIndex": 4,
+      "name": "Halloween",
+      "category": "L77",
+      "color": "#D6F5C9",
+      "items": [
+        {
+          "word": "pumpkin",
+          "emoji": "🎃",
+          "slug": "pumpkin",
+          "image": "images/pumpkin.svg",
+          "color": "#D6F5C9"
+        },
+        {
+          "word": "ghost",
+          "emoji": "👻",
+          "slug": "ghost",
+          "image": "images/ghost.svg",
+          "color": "#D6F5C9"
+        },
+        {
+          "word": "bat",
+          "emoji": "🦇",
+          "slug": "bat",
+          "image": "images/bat.svg",
+          "color": "#D6F5C9"
+        },
+        {
+          "word": "spider",
+          "emoji": "🕷️",
+          "slug": "spider",
+          "image": "images/spider.svg",
+          "color": "#D6F5C9"
+        },
+        {
+          "word": "witch",
+          "emoji": "🧙",
+          "slug": "witch",
+          "image": "images/witch.svg",
+          "color": "#D6F5C9"
+        },
+        {
+          "word": "skeleton",
+          "emoji": "💀",
+          "slug": "skeleton",
+          "image": "images/skeleton.svg",
+          "color": "#D6F5C9"
+        }
+      ],
+      "sentences": [
+        "I like the pumpkin.",
+        "This is my ghost.",
+        "I can see the bat.",
+        "Look at the spider!",
+        "I have the witch."
+      ]
+    },
+    {
+      "id": "L78",
+      "index": 78,
+      "world": "Flyers Forest",
+      "worldSubtitle": "Clever explorer words",
+      "worldIndex": 4,
+      "name": "Christmas",
+      "category": "L78",
+      "color": "#E6D3FF",
+      "items": [
+        {
+          "word": "tree",
+          "emoji": "🎄",
+          "slug": "tree",
+          "image": "images/tree.svg",
+          "color": "#E6D3FF"
+        },
+        {
+          "word": "gift",
+          "emoji": "🎁",
+          "slug": "gift",
+          "image": "images/gift.svg",
+          "color": "#E6D3FF"
+        },
+        {
+          "word": "santa",
+          "emoji": "🎅",
+          "slug": "santa",
+          "image": "images/santa.svg",
+          "color": "#E6D3FF"
+        },
+        {
+          "word": "snowman",
+          "emoji": "⛄",
+          "slug": "snowman",
+          "image": "images/snowman.svg",
+          "color": "#E6D3FF"
+        },
+        {
+          "word": "bell",
+          "emoji": "🔔",
+          "slug": "bell",
+          "image": "images/bell.svg",
+          "color": "#E6D3FF"
+        },
+        {
+          "word": "star",
+          "emoji": "⭐",
+          "slug": "star",
+          "image": "images/star.svg",
+          "color": "#E6D3FF"
+        }
+      ],
+      "sentences": [
+        "I like the tree.",
+        "This is my gift.",
+        "I can see the santa.",
+        "Look at the snowman!",
+        "I have the bell."
+      ]
+    },
+    {
+      "id": "L79",
+      "index": 79,
+      "world": "Flyers Forest",
+      "worldSubtitle": "Clever explorer words",
+      "worldIndex": 4,
+      "name": "At the Beach",
+      "category": "L79",
+      "color": "#C9F0EC",
+      "items": [
+        {
+          "word": "umbrella",
+          "emoji": "⛱️",
+          "slug": "umbrella",
+          "image": "images/umbrella.svg",
+          "color": "#C9F0EC"
+        },
+        {
+          "word": "sandcastle",
+          "emoji": "🏰",
+          "slug": "sandcastle",
+          "image": "images/sandcastle.svg",
+          "color": "#C9F0EC"
+        },
+        {
+          "word": "shell",
+          "emoji": "🐚",
+          "slug": "shell",
+          "image": "images/shell.svg",
+          "color": "#C9F0EC"
+        },
+        {
+          "word": "wave",
+          "emoji": "🌊",
+          "slug": "wave",
+          "image": "images/wave.svg",
+          "color": "#C9F0EC"
+        },
+        {
+          "word": "sun",
+          "emoji": "☀️",
+          "slug": "sun",
+          "image": "images/sun.svg",
+          "color": "#C9F0EC"
+        },
+        {
+          "word": "crab",
+          "emoji": "🦀",
+          "slug": "crab",
+          "image": "images/crab.svg",
+          "color": "#C9F0EC"
+        }
+      ],
+      "sentences": [
+        "I like the umbrella.",
+        "This is my sandcastle.",
+        "I can see the shell.",
+        "Look at the wave!",
+        "I have the sun."
+      ]
+    },
+    {
+      "id": "L80",
+      "index": 80,
+      "world": "Flyers Forest",
+      "worldSubtitle": "Clever explorer words",
+      "worldIndex": 4,
+      "name": "City Vehicles",
+      "category": "L80",
+      "color": "#FFE7A8",
+      "items": [
+        {
+          "word": "police car",
+          "emoji": "🚓",
+          "slug": "police-car",
+          "image": "images/police-car.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "ambulance",
+          "emoji": "🚑",
+          "slug": "ambulance",
+          "image": "images/ambulance.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "fire truck",
+          "emoji": "🚒",
+          "slug": "fire-truck",
+          "image": "images/fire-truck.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "subway",
+          "emoji": "🚇",
+          "slug": "subway",
+          "image": "images/subway.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "scooter",
+          "emoji": "🛴",
+          "slug": "scooter",
+          "image": "images/scooter.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "skateboard",
+          "emoji": "🛹",
+          "slug": "skateboard",
+          "image": "images/skateboard.svg",
+          "color": "#FFE7A8"
+        }
+      ],
+      "sentences": [
+        "I like the police car.",
+        "This is my ambulance.",
+        "I can see the fire truck.",
+        "Look at the subway!",
+        "I have the scooter."
+      ]
+    },
+    {
+      "id": "L81",
+      "index": 81,
+      "world": "Flyers Forest",
+      "worldSubtitle": "Clever explorer words",
+      "worldIndex": 4,
+      "name": "Tropical Fruit",
+      "category": "L81",
+      "color": "#DCC9FF",
+      "items": [
+        {
+          "word": "coconut",
+          "emoji": "🥥",
+          "slug": "coconut",
+          "image": "images/coconut.svg",
+          "color": "#DCC9FF"
+        },
+        {
+          "word": "avocado",
+          "emoji": "🥑",
+          "slug": "avocado",
+          "image": "images/avocado.svg",
+          "color": "#DCC9FF"
+        },
+        {
+          "word": "blueberry",
+          "emoji": "🫐",
+          "slug": "blueberry",
+          "image": "images/blueberry.svg",
+          "color": "#DCC9FF"
+        },
+        {
+          "word": "pear",
+          "emoji": "🍐",
+          "slug": "pear",
+          "image": "images/pear.svg",
+          "color": "#DCC9FF"
+        },
+        {
+          "word": "cherry",
+          "emoji": "🍒",
+          "slug": "cherry",
+          "image": "images/cherry.svg",
+          "color": "#DCC9FF"
+        },
+        {
+          "word": "kiwi",
+          "emoji": "🥝",
+          "slug": "kiwi",
+          "image": "images/kiwi.svg",
+          "color": "#DCC9FF"
+        }
+      ],
+      "sentences": [
+        "I like the coconut.",
+        "This is my avocado.",
+        "I can see the blueberry.",
+        "Look at the pear!",
+        "I have the cherry."
+      ]
+    },
+    {
+      "id": "L82",
+      "index": 82,
+      "world": "Flyers Forest",
+      "worldSubtitle": "Clever explorer words",
+      "worldIndex": 4,
+      "name": "Royal Jobs",
+      "category": "L82",
+      "color": "#FFD0DE",
+      "items": [
+        {
+          "word": "king",
+          "emoji": "🤴",
+          "slug": "king",
+          "image": "images/king.svg",
+          "color": "#FFD0DE"
+        },
+        {
+          "word": "queen",
+          "emoji": "👸",
+          "slug": "queen",
+          "image": "images/queen.svg",
+          "color": "#FFD0DE"
+        },
+        {
+          "word": "guard",
+          "emoji": "💂",
+          "slug": "guard",
+          "image": "images/guard.svg",
+          "color": "#FFD0DE"
+        },
+        {
+          "word": "prince",
+          "emoji": "🧑‍🦰",
+          "slug": "prince",
+          "image": "images/prince.svg",
+          "color": "#FFD0DE"
+        },
+        {
+          "word": "knight",
+          "emoji": "🛡️",
+          "slug": "knight",
+          "image": "images/knight.svg",
+          "color": "#FFD0DE"
+        },
+        {
+          "word": "crown",
+          "emoji": "👑",
+          "slug": "crown",
+          "image": "images/crown.svg",
+          "color": "#FFD0DE"
+        }
+      ],
+      "sentences": [
+        "I like the king.",
+        "This is my queen.",
+        "I can see the guard.",
+        "Look at the prince!",
+        "I have the knight."
+      ]
+    },
+    {
+      "id": "L83",
+      "index": 83,
+      "world": "Flyers Forest",
+      "worldSubtitle": "Clever explorer words",
+      "worldIndex": 4,
+      "name": "Camping Gear",
+      "category": "L83",
+      "color": "#C6F0CE",
+      "items": [
+        {
+          "word": "compass",
+          "emoji": "🧭",
+          "slug": "compass",
+          "image": "images/compass.svg",
+          "color": "#C6F0CE"
+        },
+        {
+          "word": "tent",
+          "emoji": "⛺",
+          "slug": "tent",
+          "image": "images/tent.svg",
+          "color": "#C6F0CE"
+        },
+        {
+          "word": "fire",
+          "emoji": "🔥",
+          "slug": "fire",
+          "image": "images/fire.svg",
+          "color": "#C6F0CE"
+        },
+        {
+          "word": "map",
+          "emoji": "🗺️",
+          "slug": "map",
+          "image": "images/map.svg",
+          "color": "#C6F0CE"
+        },
+        {
+          "word": "backpack",
+          "emoji": "🎒",
+          "slug": "backpack",
+          "image": "images/backpack.svg",
+          "color": "#C6F0CE"
+        },
+        {
+          "word": "flashlight",
+          "emoji": "🔦",
+          "slug": "flashlight",
+          "image": "images/flashlight.svg",
+          "color": "#C6F0CE"
+        }
+      ],
+      "sentences": [
+        "I like the compass.",
+        "This is my tent.",
+        "I can see the fire.",
+        "Look at the map!",
+        "I have the backpack."
+      ]
+    },
+    {
+      "id": "L84",
+      "index": 84,
+      "world": "Flyers Forest",
+      "worldSubtitle": "Clever explorer words",
+      "worldIndex": 4,
+      "name": "Desserts 2",
+      "category": "L84",
+      "color": "#BFE2FF",
+      "items": [
+        {
+          "word": "pie",
+          "emoji": "🥧",
+          "slug": "pie",
+          "image": "images/pie.svg",
+          "color": "#BFE2FF"
+        },
+        {
+          "word": "honey",
+          "emoji": "🍯",
+          "slug": "honey",
+          "image": "images/honey.svg",
+          "color": "#BFE2FF"
+        },
+        {
+          "word": "pudding",
+          "emoji": "🍮",
+          "slug": "pudding",
+          "image": "images/pudding.svg",
+          "color": "#BFE2FF"
+        },
+        {
+          "word": "cupcake",
+          "emoji": "🧁",
+          "slug": "cupcake",
+          "image": "images/cupcake.svg",
+          "color": "#BFE2FF"
+        },
+        {
+          "word": "lollipop",
+          "emoji": "🍭",
+          "slug": "lollipop",
+          "image": "images/lollipop.svg",
+          "color": "#BFE2FF"
+        },
+        {
+          "word": "waffle",
+          "emoji": "🧇",
+          "slug": "waffle",
+          "image": "images/waffle.svg",
+          "color": "#BFE2FF"
+        }
+      ],
+      "sentences": [
+        "I like the pie.",
+        "This is my honey.",
+        "I can see the pudding.",
+        "Look at the cupcake!",
+        "I have the lollipop."
+      ]
+    },
+    {
+      "id": "L85",
+      "index": 85,
+      "world": "Explorers Galaxy",
+      "worldSubtitle": "Master challenges",
+      "worldIndex": 5,
+      "name": "Tools",
+      "category": "L85",
+      "color": "#FFE0C4",
+      "items": [
+        {
+          "word": "hammer",
+          "emoji": "🔨",
+          "slug": "hammer",
+          "image": "images/hammer.svg",
+          "color": "#FFE0C4"
+        },
+        {
+          "word": "wrench",
+          "emoji": "🔧",
+          "slug": "wrench",
+          "image": "images/wrench.svg",
+          "color": "#FFE0C4"
+        },
+        {
+          "word": "screwdriver",
+          "emoji": "🪛",
+          "slug": "screwdriver",
+          "image": "images/screwdriver.svg",
+          "color": "#FFE0C4"
+        },
+        {
+          "word": "saw",
+          "emoji": "🪚",
+          "slug": "saw",
+          "image": "images/saw.svg",
+          "color": "#FFE0C4"
+        },
+        {
+          "word": "pin",
+          "emoji": "📌",
+          "slug": "pin",
+          "image": "images/pin.svg",
+          "color": "#FFE0C4"
+        },
+        {
+          "word": "ruler",
+          "emoji": "📏",
+          "slug": "ruler",
+          "image": "images/ruler.svg",
+          "color": "#FFE0C4"
+        }
+      ],
+      "sentences": [
+        "I like the hammer.",
+        "This is my wrench.",
+        "I can see the screwdriver.",
+        "Look at the saw!",
+        "I have the pin."
+      ]
+    },
+    {
+      "id": "L86",
+      "index": 86,
+      "world": "Explorers Galaxy",
+      "worldSubtitle": "Master challenges",
+      "worldIndex": 5,
+      "name": "Music 2",
+      "category": "L86",
+      "color": "#CDEBFF",
+      "items": [
+        {
+          "word": "headphones",
+          "emoji": "🎧",
+          "slug": "headphones",
+          "image": "images/headphones.svg",
+          "color": "#CDEBFF"
+        },
+        {
+          "word": "note",
+          "emoji": "🎵",
+          "slug": "note",
+          "image": "images/note.svg",
+          "color": "#CDEBFF"
+        },
+        {
+          "word": "saxophone",
+          "emoji": "🎷",
+          "slug": "saxophone",
+          "image": "images/saxophone.svg",
+          "color": "#CDEBFF"
+        },
+        {
+          "word": "bell",
+          "emoji": "🔔",
+          "slug": "bell",
+          "image": "images/bell.svg",
+          "color": "#CDEBFF"
+        },
+        {
+          "word": "speaker",
+          "emoji": "🔊",
+          "slug": "speaker",
+          "image": "images/speaker.svg",
+          "color": "#CDEBFF"
+        },
+        {
+          "word": "piano",
+          "emoji": "🎹",
+          "slug": "piano",
+          "image": "images/piano.svg",
+          "color": "#CDEBFF"
+        }
+      ],
+      "sentences": [
+        "I like the headphones.",
+        "This is my note.",
+        "I can see the saxophone.",
+        "Look at the bell!",
+        "I have the speaker."
+      ]
+    },
+    {
+      "id": "L87",
+      "index": 87,
+      "world": "Explorers Galaxy",
+      "worldSubtitle": "Master challenges",
+      "worldIndex": 5,
+      "name": "Sports 2",
+      "category": "L87",
+      "color": "#CBF3E1",
+      "items": [
+        {
+          "word": "golf",
+          "emoji": "⛳",
+          "slug": "golf",
+          "image": "images/golf.svg",
+          "color": "#CBF3E1"
+        },
+        {
+          "word": "boxing",
+          "emoji": "🥊",
+          "slug": "boxing",
+          "image": "images/boxing.svg",
+          "color": "#CBF3E1"
+        },
+        {
+          "word": "skiing",
+          "emoji": "🎿",
+          "slug": "skiing",
+          "image": "images/skiing.svg",
+          "color": "#CBF3E1"
+        },
+        {
+          "word": "skating",
+          "emoji": "⛸️",
+          "slug": "skating",
+          "image": "images/skating.svg",
+          "color": "#CBF3E1"
+        },
+        {
+          "word": "cycling",
+          "emoji": "🚴",
+          "slug": "cycling",
+          "image": "images/cycling.svg",
+          "color": "#CBF3E1"
+        },
+        {
+          "word": "surfing",
+          "emoji": "🏄",
+          "slug": "surfing",
+          "image": "images/surfing.svg",
+          "color": "#CBF3E1"
+        }
+      ],
+      "sentences": [
+        "I like the golf.",
+        "This is my boxing.",
+        "I can see the skiing.",
+        "Look at the skating!",
+        "I have the cycling."
+      ]
+    },
+    {
+      "id": "L88",
+      "index": 88,
+      "world": "Explorers Galaxy",
+      "worldSubtitle": "Master challenges",
+      "worldIndex": 5,
+      "name": "Big Zoo",
+      "category": "L88",
+      "color": "#FFE0D5",
+      "items": [
+        {
+          "word": "rhino",
+          "emoji": "🦏",
+          "slug": "rhino",
+          "image": "images/rhino.svg",
+          "color": "#FFE0D5"
+        },
+        {
+          "word": "peacock",
+          "emoji": "🦚",
+          "slug": "peacock",
+          "image": "images/peacock.svg",
+          "color": "#FFE0D5"
+        },
+        {
+          "word": "gorilla",
+          "emoji": "🦍",
+          "slug": "gorilla",
+          "image": "images/gorilla.svg",
+          "color": "#FFE0D5"
+        },
+        {
+          "word": "flamingo",
+          "emoji": "🦩",
+          "slug": "flamingo",
+          "image": "images/flamingo.svg",
+          "color": "#FFE0D5"
+        },
+        {
+          "word": "sloth",
+          "emoji": "🦥",
+          "slug": "sloth",
+          "image": "images/sloth.svg",
+          "color": "#FFE0D5"
+        },
+        {
+          "word": "otter",
+          "emoji": "🦦",
+          "slug": "otter",
+          "image": "images/otter.svg",
+          "color": "#FFE0D5"
+        }
+      ],
+      "sentences": [
+        "I like the rhino.",
+        "This is my peacock.",
+        "I can see the gorilla.",
+        "Look at the flamingo!",
+        "I have the sloth."
+      ]
+    },
+    {
+      "id": "L89",
+      "index": 89,
+      "world": "Explorers Galaxy",
+      "worldSubtitle": "Master challenges",
+      "worldIndex": 5,
+      "name": "Baby Animals",
+      "category": "L89",
+      "color": "#E9DDFF",
+      "items": [
+        {
+          "word": "puppy",
+          "emoji": "🐶",
+          "slug": "puppy",
+          "image": "images/puppy.svg",
+          "color": "#E9DDFF"
+        },
+        {
+          "word": "kitten",
+          "emoji": "🐱",
+          "slug": "kitten",
+          "image": "images/kitten.svg",
+          "color": "#E9DDFF"
+        },
+        {
+          "word": "chick",
+          "emoji": "🐤",
+          "slug": "chick",
+          "image": "images/chick.svg",
+          "color": "#E9DDFF"
+        },
+        {
+          "word": "piglet",
+          "emoji": "🐷",
+          "slug": "piglet",
+          "image": "images/piglet.svg",
+          "color": "#E9DDFF"
+        },
+        {
+          "word": "bunny",
+          "emoji": "🐰",
+          "slug": "bunny",
+          "image": "images/bunny.svg",
+          "color": "#E9DDFF"
+        },
+        {
+          "word": "duckling",
+          "emoji": "🐥",
+          "slug": "duckling",
+          "image": "images/duckling.svg",
+          "color": "#E9DDFF"
+        }
+      ],
+      "sentences": [
+        "I like the puppy.",
+        "This is my kitten.",
+        "I can see the chick.",
+        "Look at the piglet!",
+        "I have the bunny."
+      ]
+    },
+    {
+      "id": "L90",
+      "index": 90,
+      "world": "Explorers Galaxy",
+      "worldSubtitle": "Master challenges",
+      "worldIndex": 5,
+      "name": "Ocean Deep",
+      "category": "L90",
+      "color": "#FDE2B3",
+      "items": [
+        {
+          "word": "jellyfish",
+          "emoji": "🪼",
+          "slug": "jellyfish",
+          "image": "images/jellyfish.svg",
+          "color": "#FDE2B3"
+        },
+        {
+          "word": "lobster",
+          "emoji": "🦞",
+          "slug": "lobster",
+          "image": "images/lobster.svg",
+          "color": "#FDE2B3"
+        },
+        {
+          "word": "seal",
+          "emoji": "🦭",
+          "slug": "seal",
+          "image": "images/seal.svg",
+          "color": "#FDE2B3"
+        },
+        {
+          "word": "shrimp",
+          "emoji": "🦐",
+          "slug": "shrimp",
+          "image": "images/shrimp.svg",
+          "color": "#FDE2B3"
+        },
+        {
+          "word": "turtle",
+          "emoji": "🐢",
+          "slug": "turtle",
+          "image": "images/turtle.svg",
+          "color": "#FDE2B3"
+        },
+        {
+          "word": "squid",
+          "emoji": "🦑",
+          "slug": "squid",
+          "image": "images/squid.svg",
+          "color": "#FDE2B3"
+        }
+      ],
+      "sentences": [
+        "I like the jellyfish.",
+        "This is my lobster.",
+        "I can see the seal.",
+        "Look at the shrimp!",
+        "I have the turtle."
+      ]
+    },
+    {
+      "id": "L91",
+      "index": 91,
+      "world": "Explorers Galaxy",
+      "worldSubtitle": "Master challenges",
+      "worldIndex": 5,
+      "name": "More Bugs",
+      "category": "L91",
+      "color": "#D8F0FF",
+      "items": [
+        {
+          "word": "grasshopper",
+          "emoji": "🦗",
+          "slug": "grasshopper",
+          "image": "images/grasshopper.svg",
+          "color": "#D8F0FF"
+        },
+        {
+          "word": "mosquito",
+          "emoji": "🦟",
+          "slug": "mosquito",
+          "image": "images/mosquito.svg",
+          "color": "#D8F0FF"
+        },
+        {
+          "word": "beetle",
+          "emoji": "🪲",
+          "slug": "beetle",
+          "image": "images/beetle.svg",
+          "color": "#D8F0FF"
+        },
+        {
+          "word": "fly",
+          "emoji": "🪰",
+          "slug": "fly",
+          "image": "images/fly.svg",
+          "color": "#D8F0FF"
+        },
+        {
+          "word": "worm",
+          "emoji": "🪱",
+          "slug": "worm",
+          "image": "images/worm.svg",
+          "color": "#D8F0FF"
+        },
+        {
+          "word": "cricket",
+          "emoji": "🦗",
+          "slug": "cricket",
+          "image": "images/cricket.svg",
+          "color": "#D8F0FF"
+        }
+      ],
+      "sentences": [
+        "I like the grasshopper.",
+        "This is my mosquito.",
+        "I can see the beetle.",
+        "Look at the fly!",
+        "I have the worm."
+      ]
+    },
+    {
+      "id": "L92",
+      "index": 92,
+      "world": "Explorers Galaxy",
+      "worldSubtitle": "Master challenges",
+      "worldIndex": 5,
+      "name": "Dinosaurs",
+      "category": "L92",
+      "color": "#FFD6C9",
+      "items": [
+        {
+          "word": "dinosaur",
+          "emoji": "🦕",
+          "slug": "dinosaur",
+          "image": "images/dinosaur.svg",
+          "color": "#FFD6C9"
+        },
+        {
+          "word": "t-rex",
+          "emoji": "🦖",
+          "slug": "t-rex",
+          "image": "images/t-rex.svg",
+          "color": "#FFD6C9"
+        },
+        {
+          "word": "dragon",
+          "emoji": "🐉",
+          "slug": "dragon",
+          "image": "images/dragon.svg",
+          "color": "#FFD6C9"
+        },
+        {
+          "word": "lizard",
+          "emoji": "🦎",
+          "slug": "lizard",
+          "image": "images/lizard.svg",
+          "color": "#FFD6C9"
+        },
+        {
+          "word": "egg",
+          "emoji": "🥚",
+          "slug": "egg",
+          "image": "images/egg.svg",
+          "color": "#FFD6C9"
+        },
+        {
+          "word": "bone",
+          "emoji": "🦴",
+          "slug": "bone",
+          "image": "images/bone.svg",
+          "color": "#FFD6C9"
+        }
+      ],
+      "sentences": [
+        "I like the dinosaur.",
+        "This is my t-rex.",
+        "I can see the dragon.",
+        "Look at the lizard!",
+        "I have the egg."
+      ]
+    },
+    {
+      "id": "L93",
+      "index": 93,
+      "world": "Explorers Galaxy",
+      "worldSubtitle": "Master challenges",
+      "worldIndex": 5,
+      "name": "Fantasy",
+      "category": "L93",
+      "color": "#D6F5C9",
+      "items": [
+        {
+          "word": "fairy",
+          "emoji": "🧚",
+          "slug": "fairy",
+          "image": "images/fairy.svg",
+          "color": "#D6F5C9"
+        },
+        {
+          "word": "wizard",
+          "emoji": "🧙",
+          "slug": "wizard",
+          "image": "images/wizard.svg",
+          "color": "#D6F5C9"
+        },
+        {
+          "word": "unicorn",
+          "emoji": "🦄",
+          "slug": "unicorn",
+          "image": "images/unicorn.svg",
+          "color": "#D6F5C9"
+        },
+        {
+          "word": "dragon",
+          "emoji": "🐉",
+          "slug": "dragon",
+          "image": "images/dragon.svg",
+          "color": "#D6F5C9"
+        },
+        {
+          "word": "crown",
+          "emoji": "👑",
+          "slug": "crown",
+          "image": "images/crown.svg",
+          "color": "#D6F5C9"
+        },
+        {
+          "word": "magic",
+          "emoji": "✨",
+          "slug": "magic",
+          "image": "images/magic.svg",
+          "color": "#D6F5C9"
+        }
+      ],
+      "sentences": [
+        "I like the fairy.",
+        "This is my wizard.",
+        "I can see the unicorn.",
+        "Look at the dragon!",
+        "I have the crown."
+      ]
+    },
+    {
+      "id": "L94",
+      "index": 94,
+      "world": "Explorers Galaxy",
+      "worldSubtitle": "Master challenges",
+      "worldIndex": 5,
+      "name": "Buildings",
+      "category": "L94",
+      "color": "#E6D3FF",
+      "items": [
+        {
+          "word": "castle",
+          "emoji": "🏰",
+          "slug": "castle",
+          "image": "images/castle.svg",
+          "color": "#E6D3FF"
+        },
+        {
+          "word": "tower",
+          "emoji": "🗼",
+          "slug": "tower",
+          "image": "images/tower.svg",
+          "color": "#E6D3FF"
+        },
+        {
+          "word": "church",
+          "emoji": "⛪",
+          "slug": "church",
+          "image": "images/church.svg",
+          "color": "#E6D3FF"
+        },
+        {
+          "word": "factory",
+          "emoji": "🏭",
+          "slug": "factory",
+          "image": "images/factory.svg",
+          "color": "#E6D3FF"
+        },
+        {
+          "word": "stadium",
+          "emoji": "🏟️",
+          "slug": "stadium",
+          "image": "images/stadium.svg",
+          "color": "#E6D3FF"
+        },
+        {
+          "word": "house",
+          "emoji": "🏠",
+          "slug": "house",
+          "image": "images/house.svg",
+          "color": "#E6D3FF"
+        }
+      ],
+      "sentences": [
+        "I like the castle.",
+        "This is my tower.",
+        "I can see the church.",
+        "Look at the factory!",
+        "I have the stadium."
+      ]
+    },
+    {
+      "id": "L95",
+      "index": 95,
+      "world": "Explorers Galaxy",
+      "worldSubtitle": "Master challenges",
+      "worldIndex": 5,
+      "name": "Deep Space",
+      "category": "L95",
+      "color": "#C9F0EC",
+      "items": [
+        {
+          "word": "earth",
+          "emoji": "🌍",
+          "slug": "earth",
+          "image": "images/earth.svg",
+          "color": "#C9F0EC"
+        },
+        {
+          "word": "saturn",
+          "emoji": "🪐",
+          "slug": "saturn",
+          "image": "images/saturn.svg",
+          "color": "#C9F0EC"
+        },
+        {
+          "word": "comet",
+          "emoji": "☄️",
+          "slug": "comet",
+          "image": "images/comet.svg",
+          "color": "#C9F0EC"
+        },
+        {
+          "word": "galaxy",
+          "emoji": "🌌",
+          "slug": "galaxy",
+          "image": "images/galaxy.svg",
+          "color": "#C9F0EC"
+        },
+        {
+          "word": "telescope",
+          "emoji": "🔭",
+          "slug": "telescope",
+          "image": "images/telescope.svg",
+          "color": "#C9F0EC"
+        },
+        {
+          "word": "ufo",
+          "emoji": "🛸",
+          "slug": "ufo",
+          "image": "images/ufo.svg",
+          "color": "#C9F0EC"
+        }
+      ],
+      "sentences": [
+        "I like the earth.",
+        "This is my saturn.",
+        "I can see the comet.",
+        "Look at the galaxy!",
+        "I have the telescope."
+      ]
+    },
+    {
+      "id": "L96",
+      "index": 96,
+      "world": "Explorers Galaxy",
+      "worldSubtitle": "Master challenges",
+      "worldIndex": 5,
+      "name": "Meals",
+      "category": "L96",
+      "color": "#FFE7A8",
+      "items": [
+        {
+          "word": "breakfast",
+          "emoji": "🍳",
+          "slug": "breakfast",
+          "image": "images/breakfast.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "lunch",
+          "emoji": "🍱",
+          "slug": "lunch",
+          "image": "images/lunch.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "dinner",
+          "emoji": "🍽️",
+          "slug": "dinner",
+          "image": "images/dinner.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "snack",
+          "emoji": "🍿",
+          "slug": "snack",
+          "image": "images/snack.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "salad",
+          "emoji": "🥗",
+          "slug": "salad",
+          "image": "images/salad.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "fruit",
+          "emoji": "🍎",
+          "slug": "fruit",
+          "image": "images/fruit.svg",
+          "color": "#FFE7A8"
+        }
+      ],
+      "sentences": [
+        "I like the breakfast.",
+        "This is my lunch.",
+        "I can see the dinner.",
+        "Look at the snack!",
+        "I have the salad."
+      ]
+    },
+    {
+      "id": "L97",
+      "index": 97,
+      "world": "Explorers Galaxy",
+      "worldSubtitle": "Master challenges",
+      "worldIndex": 5,
+      "name": "Body 2",
+      "category": "L97",
+      "color": "#DCC9FF",
+      "items": [
+        {
+          "word": "arm",
+          "emoji": "💪",
+          "slug": "arm",
+          "image": "images/arm.svg",
+          "color": "#DCC9FF"
+        },
+        {
+          "word": "leg",
+          "emoji": "🦵",
+          "slug": "leg",
+          "image": "images/leg.svg",
+          "color": "#DCC9FF"
+        },
+        {
+          "word": "hair",
+          "emoji": "💇",
+          "slug": "hair",
+          "image": "images/hair.svg",
+          "color": "#DCC9FF"
+        },
+        {
+          "word": "teeth",
+          "emoji": "🦷",
+          "slug": "teeth",
+          "image": "images/teeth.svg",
+          "color": "#DCC9FF"
+        },
+        {
+          "word": "tongue",
+          "emoji": "👅",
+          "slug": "tongue",
+          "image": "images/tongue.svg",
+          "color": "#DCC9FF"
+        },
+        {
+          "word": "finger",
+          "emoji": "👆",
+          "slug": "finger",
+          "image": "images/finger.svg",
+          "color": "#DCC9FF"
+        }
+      ],
+      "sentences": [
+        "I like the arm.",
+        "This is my leg.",
+        "I can see the hair.",
+        "Look at the teeth!",
+        "I have the tongue."
+      ]
+    },
+    {
+      "id": "L98",
+      "index": 98,
+      "world": "Explorers Galaxy",
+      "worldSubtitle": "Master challenges",
+      "worldIndex": 5,
+      "name": "Champions",
+      "category": "L98",
+      "color": "#FFD0DE",
+      "items": [
+        {
+          "word": "star",
+          "emoji": "⭐",
+          "slug": "star",
+          "image": "images/star.svg",
+          "color": "#FFD0DE"
+        },
+        {
+          "word": "trophy",
+          "emoji": "🏆",
+          "slug": "trophy",
+          "image": "images/trophy.svg",
+          "color": "#FFD0DE"
+        },
+        {
+          "word": "medal",
+          "emoji": "🏅",
+          "slug": "medal",
+          "image": "images/medal.svg",
+          "color": "#FFD0DE"
+        },
+        {
+          "word": "balloon",
+          "emoji": "🎈",
+          "slug": "balloon",
+          "image": "images/balloon.svg",
+          "color": "#FFD0DE"
+        },
+        {
+          "word": "party",
+          "emoji": "🥳",
+          "slug": "party",
+          "image": "images/party.svg",
+          "color": "#FFD0DE"
+        },
+        {
+          "word": "gift",
+          "emoji": "🎁",
+          "slug": "gift",
+          "image": "images/gift.svg",
+          "color": "#FFD0DE"
+        }
+      ],
+      "sentences": [
+        "I like the star.",
+        "This is my trophy.",
+        "I can see the medal.",
+        "Look at the balloon!",
+        "I have the party."
+      ]
+    },
+    {
+      "id": "L99",
+      "index": 99,
+      "world": "Explorers Galaxy",
+      "worldSubtitle": "Master challenges",
+      "worldIndex": 5,
+      "name": "Grand Finale",
+      "category": "L99",
+      "color": "#C6F0CE",
+      "items": [
+        {
+          "word": "trophy",
+          "emoji": "🏆",
+          "slug": "trophy",
+          "image": "images/trophy.svg",
+          "color": "#C6F0CE"
+        },
+        {
+          "word": "medal",
+          "emoji": "🏅",
+          "slug": "medal",
+          "image": "images/medal.svg",
+          "color": "#C6F0CE"
+        },
+        {
+          "word": "crown",
+          "emoji": "👑",
+          "slug": "crown",
+          "image": "images/crown.svg",
+          "color": "#C6F0CE"
+        },
+        {
+          "word": "star",
+          "emoji": "🌟",
+          "slug": "star",
+          "image": "images/star.svg",
+          "color": "#C6F0CE"
+        },
+        {
+          "word": "fireworks",
+          "emoji": "🎆",
+          "slug": "fireworks",
+          "image": "images/fireworks.svg",
+          "color": "#C6F0CE"
+        },
+        {
+          "word": "rocket",
+          "emoji": "🚀",
+          "slug": "rocket",
+          "image": "images/rocket.svg",
+          "color": "#C6F0CE"
+        }
+      ],
+      "sentences": [
+        "I like the trophy.",
+        "This is my medal.",
+        "I can see the crown.",
+        "Look at the star!",
+        "I have the fireworks."
+      ]
+    }
+  ]
+}
