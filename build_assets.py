@@ -35,6 +35,7 @@ Media
 
 import json
 import os
+import random
 import re
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -177,7 +178,23 @@ WORLDS = [
     ]),
 ]
 
-SENTENCE_TEMPLATES = ["I like the {w}.", "This is my {w}.", "I can see the {w}.", "Look at the {w}!", "I have the {w}."]
+SENTENCE_TEMPLATES = [
+    "I like the {w}.",
+    "This is my {w}.",
+    "I can see the {w}.",
+    "Look at the {w}!",
+    "I have the {w}.",
+    "The {w} is fun.",
+    "My {w} is cool.",
+    "Can you find the {w}?",
+    "The {w} is big.",
+    "I love the {w}.",
+    "We have a {w}.",
+    "Let's play with the {w}!",
+    "I want the {w}.",
+    "The {w} is nice.",
+    "This is a {w}.",
+]
 
 GAME_TYPES = [
     {"id": "listen_pick_picture", "name": "Listen & Find", "instruction": "Listen, then tap the right picture!"},
@@ -194,7 +211,8 @@ GAME_TYPES = [
 
 PRAISE = ["Well done!", "Great job!", "Fabulous!", "Superb!", "Amazing!",
           "Excellent!", "You did it!", "Brilliant!", "Awesome!", "Perfect!",
-          "Very good!", "Fantastic!", "Wonderful!", "Way to go!"]
+          "Very good!", "Fantastic!", "Wonderful!", "Way to go!", "You nailed it!",
+          "Incredible!", "Outstanding!", "You are awesome!", "So smart!", "Phenomenal!"]
 TRY_AGAIN = ["Try again!", "Almost!", "Oops, try again!", "Not quite!", "Have another go!"]
 MASCOTS = ["🦸", "🧙", "🚀", "🌟", "🦄", "🐯", "🦉", "🤖"]
 
@@ -222,9 +240,10 @@ def build():
                 })
             # auto-generate short, valid sentences from the first words
             sentences = []
-            for i, it in enumerate(items[:len(SENTENCE_TEMPLATES)]):
-                s = SENTENCE_TEMPLATES[i].format(w=it["word"])
-                sentences.append(s)
+            rng = random.Random((index + 1) * 17 + (ti + 1) * 7)
+            for it in items[:min(len(items), 8)]:
+                template = rng.choice(SENTENCE_TEMPLATES)
+                sentences.append(template.format(w=it["word"]))
             levels_out.append({
                 "id": level_id,
                 "index": index,

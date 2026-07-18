@@ -121,7 +121,7 @@
     // to the browser's speech engine. Pre-recorded files (in ./audio) mean the
     // game does NOT depend on the browser having text-to-speech voices.
     speak: function (text, opts) {
-      opts = opts || {}; var done = opts.onend || function () {};
+      opts = opts || {}; var done = opts.onend || function () { };
       if (FAST) { setTimeout(done, 0); return; }
       if (opts.mute) { setTimeout(done, 10); return; }
       var file = this.manifest[normText(text)];
@@ -132,7 +132,7 @@
       var self = this, called = false;
       function fin() { if (!called) { called = true; done(); } }
       try {
-        if (this.current) { try { this.current.pause(); } catch (e) {} this.current.onended = null; this.current = null; }
+        if (this.current) { try { this.current.pause(); } catch (e) { } this.current.onended = null; this.current = null; }
         var a = new window.Audio(path);
         this.current = a;
         a.onended = fin; a.onerror = fin;
@@ -148,10 +148,10 @@
       var self = this;
       if (window.speechSynthesis.onvoiceschanged === null)
         window.speechSynthesis.onvoiceschanged = function () { self._pickVoice(); };
-      try { window.speechSynthesis.resume(); } catch (e) {}
+      try { window.speechSynthesis.resume(); } catch (e) { }
       // Chrome quietly pauses speech synthesis after a while; nudge it awake.
       if (!this._ka) this._ka = setInterval(function () {
-        try { if (window.speechSynthesis.paused) window.speechSynthesis.resume(); } catch (e) {}
+        try { if (window.speechSynthesis.paused) window.speechSynthesis.resume(); } catch (e) { }
       }, 8000);
     },
     _pickVoice: function () {
@@ -164,13 +164,13 @@
       var byName = null;
       for (var i = 0; i < prefer.length && !byName; i++) {
         byName = us.filter(function (v) { return v.name.indexOf(prefer[i]) >= 0; })[0] ||
-                 voices.filter(function (v) { return v.name.indexOf(prefer[i]) >= 0; })[0];
+          voices.filter(function (v) { return v.name.indexOf(prefer[i]) >= 0; })[0];
       }
       this.voice = byName || us[0] || voices.filter(function (v) { return /^en/i.test(v.lang); })[0] || voices[0];
       this._ready = true;
     },
     _speakSynth: function (text, opts, done) {
-      opts = opts || {}; done = done || function () {};
+      opts = opts || {}; done = done || function () { };
       if (!this.supported || !text) { setTimeout(done, 10); return; }
       var self = this, synth = window.speechSynthesis;
       try {
@@ -186,15 +186,15 @@
         function doSpeak() {
           if (token !== self._token) { finish(); return; }   // superseded by a newer speak()
           if (!self.voice) { self._pickVoice(); if (self.voice) u.voice = self.voice; }
-          try { synth.resume(); } catch (e) {}
+          try { synth.resume(); } catch (e) { }
           try { synth.speak(u); } catch (e) { finish(); }
         }
         var busy = false;
-        try { busy = synth.speaking || synth.pending; } catch (e) {}
+        try { busy = synth.speaking || synth.pending; } catch (e) { }
         if (busy) {
           // Interrupting speech: Chrome/Safari DROP an utterance if speak() runs in
           // the same tick as cancel(), so cancel now and speak after a short gap.
-          try { synth.cancel(); } catch (e) {}
+          try { synth.cancel(); } catch (e) { }
           setTimeout(doSpeak, 60);
         } else {
           // Idle: speak immediately so the call stays inside the user gesture
@@ -245,16 +245,22 @@
 
   /* ==================== 5. Picture / prompt builders ================== */
   // A picture ALWAYS speaks its word when tapped (learning aid, everywhere).
-  function picNode(item) {
+  function picNode(item, opts) {
+    opts = opts || {};
+    var speak = opts.speak !== false;
     var img = document.createElement("img");
     img.src = item.image; img.alt = item.word; img.draggable = false;
-    img.style.cursor = "pointer";
-    img.title = "Tap to hear";
-    img.addEventListener("click", function () { Audio.speak(item.word); });
+    if (speak) {
+      img.style.cursor = "pointer";
+      img.title = "Tap to hear";
+      img.addEventListener("click", function () { Audio.speak(item.word); });
+    }
     img.onerror = function () {
       var span = el("div", { class: "emoji-pic" }, item.emoji);
-      span.style.cursor = "pointer";
-      span.addEventListener("click", function () { Audio.speak(item.word); });
+      if (speak) {
+        span.style.cursor = "pointer";
+        span.addEventListener("click", function () { Audio.speak(item.word); });
+      }
       if (img.parentNode) img.parentNode.replaceChild(span, img);
     };
     return img;
@@ -270,7 +276,9 @@
   function flashcard(item, o) {
     o = o || {};
     var fc = el("div", { class: "flashcard" });
-    if (o.speak !== false) {
+    var cardSpeak = o.speak !== false;
+    var pictureSpeak = o.pictureSpeak !== false;
+    if (cardSpeak) {
       // Tapping ANYWHERE on the card (emoji, word, or padding) says the word.
       fc.style.cursor = "pointer";
       fc.title = "Tap to hear";
@@ -279,7 +287,7 @@
       sp.addEventListener("click", function (e) { e.stopPropagation(); Audio.speak(o.spokenText || item.word); });
       fc.appendChild(sp);
     }
-    fc.appendChild(picNode(item));
+    fc.appendChild(picNode(item, { speak: pictureSpeak }));
     if (o.label) fc.appendChild(el("div", { class: "word-label" }, o.labelText || item.word));
     return fc;
   }
@@ -405,7 +413,7 @@
       this.root.appendChild(screen);
       // bring the current level into view
       var cur = $(".level-chip.current");
-      if (cur && cur.scrollIntoView) try { cur.scrollIntoView({ block: "center" }); } catch (e) {}
+      if (cur && cur.scrollIntoView) try { cur.scrollIntoView({ block: "center" }); } catch (e) { }
       Audio.speak("Pick a level to play!");
     },
 
@@ -457,8 +465,12 @@
         return false;
       }
       var pool = level.items.slice();
-      var order = shuffle(DATA.gameTypes.map(function (g) { return g.id; }));
-      this.session = { level: level, pool: pool, sentences: level.sentences, order: order, index: 0, mistakes: 0, results: [] };
+      var order = DATA.gameTypes.map(function (g) { return g.id; }).filter(function (id) { return id !== "say_it"; });
+      var spellIndex = order.indexOf("spell_it");
+      if (spellIndex >= 0) order.splice(spellIndex + 1, 0, "spell_it");
+      else order.push("spell_it");
+      order = shuffle(order);
+      this.session = { level: level, pool: pool, sentences: level.sentences, order: order, index: 0, mistakes: 0, results: [], spellWordsUsed: [] };
       this.renderGame();
       return true;
     },
@@ -493,6 +505,12 @@
         addMistake: function () { self._mistakes++; if (self.session) self.session.mistakes++; },
         wrong: function () { FX.banner(pick(DATA.tryAgain), false); Audio.speak(pick(DATA.tryAgain)); },
         nudge: function () { Audio.speak("Choose an answer!"); },
+        session: s,
+        markSpellWordUsed: function (word) {
+          if (!s || !word) return;
+          var key = String(word).toLowerCase();
+          if (s.spellWordsUsed.indexOf(key) < 0) s.spellWordsUsed.push(key);
+        },
         finish: function () { self.completeGame(false); },
         registerSolver: function (fn) { self._solver = fn; },
         registerWrongSolver: function (fn) { self._wrongSolver = fn; },
@@ -638,10 +656,10 @@
       o.addEventListener("click", function () {
         if (solved || o.classList.contains("correct")) return;
         if (cfg.onSelect) cfg.onSelect(data);
-        if (instant) { judge(i); return; }
-        selected = i;
         nodes.forEach(function (nn) { nn.classList.remove("selected"); });
         o.classList.add("selected");
+        if (instant) { judge(i); return; }
+        selected = i;
         api.enableAnswer(true);
       });
       grid.appendChild(o); nodes.push(o);
@@ -668,8 +686,8 @@
       var opts = api.shuffle([target].concat(api.distractors(api.pool, [target.word], 3)));
       api.setInstruction("👂 Listen and tap the picture");
       singleChoice(host, api, {
-        promptNode: api.speakerPrompt(target.word), options: opts, correct: opts.indexOf(target),
-        renderOption: function (d) { return api.picNode(d); }   // pictures speak on tap
+        promptNode: api.speakerPrompt(target.word), options: opts, correct: opts.indexOf(target), instant: true,
+        renderOption: function (d) { return api.picNode(d, { speak: false }); }
       });
       api.speak(target.word);
     },
@@ -691,7 +709,7 @@
       var opts = api.shuffle([target].concat(api.distractors(api.pool, [target.word], 3)));
       api.setInstruction("🔊 Tap the sounds. Which one is it?");
       singleChoice(host, api, {
-        promptNode: api.flashcard(target, { speak: false }), options: opts, correct: opts.indexOf(target),
+        promptNode: api.flashcard(target, { speak: false, pictureSpeak: false }), options: opts, correct: opts.indexOf(target),
         onSelect: function (d) { api.speak(d.word); },
         renderOption: function () { return el("span", { class: "speaker-inner" }, "🔊"); }
       });
@@ -703,7 +721,6 @@
       api.setInstruction("👂 Listen and tap the word");
       singleChoice(host, api, {
         promptNode: api.speakerPrompt(target.word), options: opts, correct: opts.indexOf(target),
-        onSelect: function (d) { api.speak(d.word); },
         renderOption: function (d) { return el("span", {}, d.word); }
       });
       api.speak(target.word);
@@ -715,16 +732,12 @@
       var spoken = truth ? item : api.distractors(api.pool, [item.word], 1)[0];
       var isMatch = spoken.word === item.word;
       api.setInstruction("🤔 Is this right?");
-      var prompt = api.flashcard(item, { speak: false });
-      prompt.appendChild(el("div", { class: "word-label" },
-        el("button", { class: "corner-speaker", style: { position: "static" }, "aria-label": "Listen", onclick: function () { api.speak(spoken.word); } }, "🔊 "),
-        spoken.word + "?"));
+      var prompt = api.flashcard(item, { speak: false, pictureSpeak: true, spokenText: item.word });
+      prompt.appendChild(el("div", { class: "word-label" }, spoken.word + "?"));
       singleChoice(host, api, {
-        promptNode: prompt, twoUp: true, options: [{ v: "yes" }, { v: "no" }], correct: isMatch ? 0 : 1,
-        onSelect: function (d) { api.speak(d.v === "yes" ? "Yes" : "No"); },
+        promptNode: prompt, twoUp: true, options: [{ v: "yes" }, { v: "no" }], correct: isMatch ? 0 : 1, instant: true,
         renderOption: function (d) { return el("span", { style: { fontSize: "2em" } }, d.v === "yes" ? "✅" : "❌"); }
       });
-      api.speak(spoken.word);
     },
 
     match_pairs: function (host, api) {
@@ -752,7 +765,7 @@
         var a = selected, b = entry; selected.el.classList.remove("selected"); selected = null; tryPair(a, b);
       }
       api.shuffle(pairs).forEach(function (it) {
-        var node = el("div", { class: "match-item", role: "button" }); node.appendChild(api.picNode(it));
+        var node = el("div", { class: "match-item", role: "button" }); node.appendChild(api.picNode(it, { speak: false }));
         var entry = { el: node, word: it.word, col: "L" };
         node.addEventListener("click", function () { handler(entry); });
         colL.appendChild(node); leftNodes[it.word] = entry;
@@ -796,7 +809,7 @@
         current.innerHTML = "";
         if (idx >= tokens.length) return;
         var t = tokens[idx];
-        var tok = el("div", { class: "sort-token", role: "button", title: "Tap to hear" }, api.picNode(t.it), el("span", {}, t.it.word));
+        var tok = el("div", { class: "sort-token", role: "button", title: "Tap to hear" }, el("span", {}, t.it.word));
         tok.addEventListener("click", function (e) { if (e.target === tok || e.target.tagName === "SPAN") api.speak(t.it.word); });
         current.appendChild(tok);
         api.speak(t.it.word);
@@ -806,7 +819,7 @@
         if (idx >= tokens.length) return;
         var t = tokens[idx];
         if (cat === t.cat) {
-          var chip = el("div", { class: "sort-token" }, api.picNode(t.it), el("span", {}, t.it.word));
+          var chip = el("div", { class: "sort-token" }, el("span", {}, t.it.word));
           binFor(t.cat).items.appendChild(chip); idx++;
           if (idx >= tokens.length) { current.innerHTML = ""; setTimeout(function () { api.finish(); }, FAST ? 0 : 250); }
           else renderCurrent();
@@ -844,7 +857,7 @@
         rec.onerror = function () { mic.classList.remove("recording"); setTimeout(function () { heard.textContent = "Good try! 👍"; succeed(); }, 400); };
         rec.onend = function () { mic.classList.remove("recording"); if (!got) setTimeout(function () { if (!done) succeed(); }, 300); };
         try { rec.start(); } catch (e) { setTimeout(succeed, 600); }
-        setTimeout(function () { if (!done && !got) { try { rec.stop(); } catch (e) {} } }, 3500);
+        setTimeout(function () { if (!done && !got) { try { rec.stop(); } catch (e) { } } }, 3500);
       });
       api.registerSolver(function () { succeed(); });
     },
@@ -863,46 +876,68 @@
 
       var tileRow = el("div", { class: "tile-row" }); host.appendChild(tileRow);
       var tiles = api.shuffle(words.map(function (w, i) { return { w: w, i: i }; })), filled = 0;
+      function resetBoard() {
+        slots.forEach(function (sl) {
+          if (sl.tileRef) { sl.tileRef.classList.remove("used"); sl.tileRef = null; }
+          sl.node.textContent = ""; sl.node.classList.remove("filled", "bad", "ok"); sl.word = null;
+        });
+        filled = 0;
+      }
       tiles.forEach(function (t) {
         var tile = el("button", { class: "tile" }, t.w); t.tile = tile;
         tile.addEventListener("click", function () {
           if (tile.classList.contains("used") || filled >= slots.length) return;
           slots[filled].node.textContent = t.w; slots[filled].node.classList.add("filled");
           slots[filled].tileRef = tile; slots[filled].word = t.w; tile.classList.add("used"); filled++;
-          api.speak(t.w); if (filled === slots.length) check();
+          if (filled === slots.length) check();
         });
         tileRow.appendChild(tile);
       });
       slots.forEach(function (sl, i) {
         sl.node.addEventListener("click", function () {
-          if (!sl.tileRef || i !== filled - 1) return;
-          sl.tileRef.classList.remove("used"); sl.node.textContent = ""; sl.node.classList.remove("filled");
-          sl.tileRef = null; sl.word = null; filled--;
+          if (!sl.tileRef) return;
+          var removeFrom = i;
+          for (var j = removeFrom; j < slots.length; j++) {
+            var cur = slots[j];
+            if (cur.tileRef) {
+              cur.tileRef.classList.remove("used"); cur.tileRef = null;
+            }
+            cur.node.textContent = ""; cur.node.classList.remove("filled", "bad", "ok"); cur.word = null;
+          }
+          filled = removeFrom;
         });
       });
       function check() {
         var ok = slots.every(function (sl, i) { return sl.word === words[i]; });
         if (ok) { slots.forEach(function (sl) { sl.node.classList.add("ok"); }); api.speak(sentence); setTimeout(function () { api.finish(); }, FAST ? 0 : 350); }
         else {
-          slots.forEach(function (sl) { sl.node.classList.add("bad"); }); api.addMistake(); api.wrong();
-          setTimeout(function () {
-            slots.forEach(function (sl) { sl.node.classList.remove("bad", "filled"); sl.node.textContent = ""; if (sl.tileRef) sl.tileRef.classList.remove("used"); sl.tileRef = null; sl.word = null; });
-            filled = 0;
-          }, 700);
+          slots.forEach(function (sl, i) { sl.node.classList.remove("bad", "ok"); if (sl.word != null && sl.word === words[i]) sl.node.classList.add("ok"); else if (sl.word != null) sl.node.classList.add("bad"); }); api.addMistake(); api.wrong();
         }
       }
       function clickInOrder() {
+        resetBoard();
         for (var i = 0; i < words.length; i++) {
           for (var j = 0; j < tiles.length; j++) if (tiles[j].w === words[i] && !tiles[j].tile.classList.contains("used")) { tiles[j].tile.click(); break; }
         }
       }
-      api.registerSolver(clickInOrder);
+      api.registerSolver(function () {
+        var wrongTile = tiles.filter(function (t) { return t.w !== words[0] && !t.tile.classList.contains("used"); })[0];
+        if (wrongTile) { wrongTile.tile.click(); setTimeout(function () { resetBoard(); clickInOrder(); }, 0); }
+        else clickInOrder();
+      });
+      api.registerWrongSolver(function () {
+        var wrongTile = tiles.filter(function (t) { return t.w !== words[0] && !t.tile.classList.contains("used"); })[0];
+        if (wrongTile) wrongTile.tile.click();
+      });
     },
 
     spell_it: function (host, api) {
+      var used = api.session && api.session.spellWordsUsed ? api.session.spellWordsUsed : [];
       var choices = api.pool.filter(function (it) { return /^[a-z]+$/i.test(it.word) && it.word.length >= 3 && it.word.length <= 7; });
-      var item = api.pick(choices.length ? choices : api.pool);
+      var available = choices.filter(function (it) { return used.indexOf(String(it.word).toLowerCase()) < 0; });
+      var item = api.pick(available.length ? available : choices.length ? choices : api.pool);
       var word = item.word.replace(/[^a-z]/gi, "");
+      api.markSpellWordUsed(item.word);
       api.setInstruction("🔤 Tap the letters to spell it");
       host.appendChild(api.flashcard(item, { speak: true, spokenText: item.word }));
 

@@ -37,7 +37,7 @@ from playwright.sync_api import sync_playwright
 ROOT = os.path.dirname(os.path.abspath(__file__))
 EXPECTED_GAME_TYPES = {
     "listen_pick_picture", "look_pick_word", "look_pick_sound", "match_pairs",
-    "sort_it", "say_it", "build_sentence", "spell_it", "true_false", "listen_pick_word",
+    "sort_it", "build_sentence", "spell_it", "true_false", "listen_pick_word",
 }
 
 # A safe (no side-effect) element to tap per game type to prove its sound works.

@@ -23,7 +23,13 @@ window.GAME_DATA = {
     "Very good!",
     "Fantastic!",
     "Wonderful!",
-    "Way to go!"
+    "Way to go!",
+    "You nailed it!",
+    "Incredible!",
+    "Outstanding!",
+    "You are awesome!",
+    "So smart!",
+    "Phenomenal!"
   ],
   "tryAgain": [
     "Try again!",
@@ -163,11 +169,14 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the red.",
-        "This is my blue.",
-        "I can see the green.",
-        "Look at the yellow!",
-        "I have the orange."
+        "Let's play with the red!",
+        "My blue is cool.",
+        "The green is nice.",
+        "I love the yellow.",
+        "I can see the orange.",
+        "Look at the purple!",
+        "I can see the pink.",
+        "Look at the black!"
       ]
     },
     {
@@ -217,11 +226,11 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the one.",
-        "This is my two.",
+        "The one is big.",
+        "The two is fun.",
         "I can see the three.",
-        "Look at the four!",
-        "I have the five."
+        "The four is big.",
+        "Let's play with the five!"
       ]
     },
     {
@@ -271,11 +280,11 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the six.",
-        "This is my seven.",
-        "I can see the eight.",
-        "Look at the nine!",
-        "I have the ten."
+        "This is my six.",
+        "I want the seven.",
+        "I love the eight.",
+        "Let's play with the nine!",
+        "I can see the ten."
       ]
     },
     {
@@ -332,11 +341,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the star.",
-        "This is my heart.",
-        "I can see the circle.",
-        "Look at the square!",
-        "I have the diamond."
+        "The star is fun.",
+        "The heart is fun.",
+        "This is a circle.",
+        "We have a square.",
+        "My diamond is cool.",
+        "This is a moon."
       ]
     },
     {
@@ -393,11 +403,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the cat.",
-        "This is my dog.",
-        "I can see the fish.",
-        "Look at the rabbit!",
-        "I have the bird."
+        "The cat is big.",
+        "Look at the dog!",
+        "Look at the fish!",
+        "This is a rabbit.",
+        "We have a bird.",
+        "Let's play with the mouse!"
       ]
     },
     {
@@ -454,11 +465,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the cow.",
-        "This is my pig.",
-        "I can see the horse.",
-        "Look at the sheep!",
-        "I have the duck."
+        "Can you find the cow?",
+        "I like the pig.",
+        "Can you find the horse?",
+        "This is my sheep.",
+        "The duck is nice.",
+        "Let's play with the hen!"
       ]
     },
     {
@@ -515,11 +527,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the hand.",
+        "Let's play with the hand!",
         "This is my eye.",
-        "I can see the nose.",
-        "Look at the ear!",
-        "I have the mouth."
+        "The nose is big.",
+        "The ear is fun.",
+        "My mouth is cool.",
+        "I can see the foot."
       ]
     },
     {
@@ -576,11 +589,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the apple.",
-        "This is my banana.",
-        "I can see the orange.",
-        "Look at the grapes!",
-        "I have the strawberry."
+        "The apple is fun.",
+        "The banana is nice.",
+        "I have the orange.",
+        "This is my grapes.",
+        "Can you find the strawberry?",
+        "I have the melon."
       ]
     },
     {
@@ -637,11 +651,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the ball.",
-        "This is my teddy.",
-        "I can see the doll.",
-        "Look at the car!",
-        "I have the kite."
+        "The ball is nice.",
+        "Look at the teddy!",
+        "We have a doll.",
+        "I can see the car.",
+        "Let's play with the kite!",
+        "Can you find the blocks?"
       ]
     },
     {
@@ -705,11 +720,13 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the mum.",
-        "This is my dad.",
-        "I can see the baby.",
-        "Look at the brother!",
-        "I have the sister."
+        "The mum is nice.",
+        "I love the dad.",
+        "I like the baby.",
+        "I like the brother.",
+        "The sister is fun.",
+        "I can see the grandma.",
+        "I love the grandpa."
       ]
     },
     {
@@ -766,11 +783,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the smile.",
-        "This is my cry.",
-        "I can see the laugh.",
-        "Look at the wink!",
-        "I have the yawn."
+        "I love the smile.",
+        "I want the cry.",
+        "We have a laugh.",
+        "I have the wink.",
+        "The yawn is big.",
+        "Look at the angry!"
       ]
     },
     {
@@ -827,11 +845,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the cookie.",
-        "This is my candy.",
-        "I can see the popcorn.",
-        "Look at the lollipop!",
-        "I have the chocolate."
+        "This is a cookie.",
+        "The candy is nice.",
+        "I have the popcorn.",
+        "Can you find the lollipop?",
+        "I want the chocolate.",
+        "Let's play with the cupcake!"
       ]
     },
     {
@@ -888,11 +907,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the lion.",
-        "This is my tiger.",
-        "I can see the elephant.",
-        "Look at the monkey!",
-        "I have the bear."
+        "This is a lion.",
+        "I want the tiger.",
+        "Let's play with the elephant!",
+        "We have a monkey.",
+        "Look at the bear!",
+        "I love the zebra."
       ]
     },
     {
@@ -949,11 +969,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the whale.",
-        "This is my dolphin.",
-        "I can see the octopus.",
-        "Look at the crab!",
-        "I have the shark."
+        "I want the whale.",
+        "I love the dolphin.",
+        "I like the octopus.",
+        "We have a crab.",
+        "I have the shark.",
+        "The fish is big."
       ]
     },
     {
@@ -1010,11 +1031,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the owl.",
+        "The owl is fun.",
         "This is my duck.",
-        "I can see the chicken.",
-        "Look at the penguin!",
-        "I have the eagle."
+        "Look at the chicken!",
+        "I want the penguin.",
+        "I want the eagle.",
+        "This is a parrot."
       ]
     },
     {
@@ -1071,11 +1093,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the bee.",
-        "This is my ant.",
-        "I can see the butterfly.",
-        "Look at the spider!",
-        "I have the ladybug."
+        "I love the bee.",
+        "The ant is fun.",
+        "The butterfly is fun.",
+        "I like the spider.",
+        "Can you find the ladybug?",
+        "The snail is fun."
       ]
     },
     {
@@ -1132,11 +1155,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the carrot.",
-        "This is my tomato.",
-        "I can see the potato.",
-        "Look at the corn!",
-        "I have the broccoli."
+        "I love the carrot.",
+        "I can see the tomato.",
+        "Let's play with the potato!",
+        "The corn is nice.",
+        "Let's play with the broccoli!",
+        "Can you find the pepper?"
       ]
     },
     {
@@ -1193,11 +1217,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the bread.",
-        "This is my cheese.",
-        "I can see the egg.",
-        "Look at the rice!",
-        "I have the meat."
+        "The bread is nice.",
+        "The cheese is fun.",
+        "I want the egg.",
+        "This is a rice.",
+        "I can see the meat.",
+        "Look at the soup!"
       ]
     },
     {
@@ -1254,11 +1279,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the water.",
-        "This is my milk.",
-        "I can see the juice.",
-        "Look at the tea!",
-        "I have the coffee."
+        "This is my water.",
+        "Let's play with the milk!",
+        "The juice is nice.",
+        "Let's play with the tea!",
+        "The coffee is fun.",
+        "Look at the soda!"
       ]
     },
     {
@@ -1316,10 +1342,11 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "I like the cake.",
-        "This is my ice cream.",
-        "I can see the cookie.",
-        "Look at the candy!",
-        "I have the chocolate."
+        "I have the ice cream.",
+        "We have a cookie.",
+        "I have the candy.",
+        "The chocolate is big.",
+        "I want the donut."
       ]
     },
     {
@@ -1377,10 +1404,11 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "I like the shirt.",
-        "This is my pants.",
-        "I can see the dress.",
-        "Look at the shoes!",
-        "I have the hat."
+        "We have a pants.",
+        "I want the dress.",
+        "The shoes is fun.",
+        "I have the hat.",
+        "My socks is cool."
       ]
     },
     {
@@ -1437,11 +1465,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the sun.",
-        "This is my rain.",
-        "I can see the snow.",
-        "Look at the cloud!",
-        "I have the wind."
+        "I have the sun.",
+        "I have the rain.",
+        "I like the snow.",
+        "I have the cloud.",
+        "Can you find the wind?",
+        "I have the rainbow."
       ]
     },
     {
@@ -1498,11 +1527,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the house.",
-        "This is my door.",
-        "I can see the window.",
-        "Look at the bed!",
-        "I have the chair."
+        "Look at the house!",
+        "My door is cool.",
+        "I like the window.",
+        "I love the bed.",
+        "This is my chair.",
+        "I can see the clock."
       ]
     },
     {
@@ -1559,11 +1589,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the cup.",
-        "This is my plate.",
-        "I can see the fork.",
-        "Look at the spoon!",
-        "I have the knife."
+        "I want the cup.",
+        "I love the plate.",
+        "I want the fork.",
+        "This is my spoon.",
+        "The knife is nice.",
+        "The pot is fun."
       ]
     },
     {
@@ -1620,11 +1651,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the flower.",
-        "This is my tree.",
-        "I can see the grass.",
+        "The flower is nice.",
+        "Let's play with the tree!",
+        "The grass is nice.",
         "Look at the leaf!",
-        "I have the seed."
+        "The seed is big.",
+        "I want the bug."
       ]
     },
     {
@@ -1681,11 +1713,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the mountain.",
-        "This is my river.",
-        "I can see the beach.",
-        "Look at the forest!",
-        "I have the sky."
+        "I love the mountain.",
+        "I love the river.",
+        "We have a beach.",
+        "The forest is fun.",
+        "I like the sky.",
+        "Can you find the fire?"
       ]
     },
     {
@@ -1742,11 +1775,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the pink.",
-        "This is my brown.",
-        "I can see the white.",
-        "Look at the black!",
-        "I have the grey."
+        "This is a pink.",
+        "I have the brown.",
+        "Look at the white!",
+        "Let's play with the black!",
+        "The grey is fun.",
+        "I like the blue."
       ]
     },
     {
@@ -1803,11 +1837,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the sun.",
-        "This is my moon.",
-        "I can see the star.",
-        "Look at the cloud!",
-        "I have the rainbow."
+        "Let's play with the sun!",
+        "This is a moon.",
+        "This is a star.",
+        "The cloud is nice.",
+        "My rainbow is cool.",
+        "I have the kite."
       ]
     },
     {
@@ -1864,11 +1899,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the fish.",
-        "This is my boat.",
-        "I can see the duck.",
+        "The fish is nice.",
+        "The boat is nice.",
+        "Look at the duck!",
         "Look at the wave!",
-        "I have the shell."
+        "I want the shell.",
+        "The crab is big."
       ]
     },
     {
@@ -1925,11 +1961,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the pen.",
-        "This is my pencil.",
-        "I can see the book.",
-        "Look at the bag!",
-        "I have the ruler."
+        "I want the pen.",
+        "My pencil is cool.",
+        "Let's play with the book!",
+        "We have a bag.",
+        "My ruler is cool.",
+        "The crayon is nice."
       ]
     },
     {
@@ -1986,11 +2023,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the school.",
-        "This is my teacher.",
-        "I can see the student.",
-        "Look at the desk!",
-        "I have the board."
+        "The school is fun.",
+        "I like the teacher.",
+        "Can you find the student?",
+        "My desk is cool.",
+        "I can see the board.",
+        "This is a clock."
       ]
     },
     {
@@ -2047,11 +2085,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the happy.",
-        "This is my sad.",
-        "I can see the angry.",
-        "Look at the sleepy!",
-        "I have the scared."
+        "We have a happy.",
+        "I want the sad.",
+        "I want the angry.",
+        "Can you find the sleepy?",
+        "I want the scared.",
+        "The surprised is fun."
       ]
     },
     {
@@ -2108,11 +2147,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the run.",
-        "This is my jump.",
-        "I can see the walk.",
+        "This is my run.",
+        "The jump is fun.",
+        "We have a walk.",
         "Look at the swim!",
-        "I have the climb."
+        "I have the climb.",
+        "Let's play with the dance!"
       ]
     },
     {
@@ -2169,11 +2209,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the giraffe.",
-        "This is my kangaroo.",
-        "I can see the panda.",
-        "Look at the koala!",
-        "I have the hippo."
+        "I have the giraffe.",
+        "I can see the kangaroo.",
+        "I want the panda.",
+        "This is my koala.",
+        "I want the hippo.",
+        "The camel is big."
       ]
     },
     {
@@ -2230,11 +2271,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the bike.",
-        "This is my guitar.",
-        "I can see the puzzle.",
-        "Look at the game!",
-        "I have the kite."
+        "Can you find the bike?",
+        "Look at the guitar!",
+        "I have the puzzle.",
+        "The game is nice.",
+        "I can see the kite.",
+        "I like the ball."
       ]
     },
     {
@@ -2291,11 +2333,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the pizza.",
-        "This is my sandwich.",
-        "I can see the salad.",
-        "Look at the pasta!",
-        "I have the burger."
+        "This is a pizza.",
+        "I can see the sandwich.",
+        "The salad is nice.",
+        "My pasta is cool.",
+        "I have the burger.",
+        "The fries is nice."
       ]
     },
     {
@@ -2352,11 +2395,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the wake.",
-        "This is my eat.",
-        "I can see the wash.",
-        "Look at the sleep!",
-        "I have the read."
+        "I have the wake.",
+        "I want the eat.",
+        "This is a wash.",
+        "This is my sleep.",
+        "Look at the read!",
+        "I like the play."
       ]
     },
     {
@@ -2413,11 +2457,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the morning.",
-        "This is my afternoon.",
-        "I can see the evening.",
-        "Look at the night!",
-        "I have the clock."
+        "The morning is big.",
+        "Let's play with the afternoon!",
+        "I have the evening.",
+        "I like the night.",
+        "Look at the clock!",
+        "This is my watch."
       ]
     },
     {
@@ -2474,11 +2519,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the spring.",
-        "This is my summer.",
-        "I can see the autumn.",
-        "Look at the winter!",
-        "I have the rain."
+        "My spring is cool.",
+        "This is a summer.",
+        "We have a autumn.",
+        "Can you find the winter?",
+        "I can see the rain.",
+        "I want the snow."
       ]
     },
     {
@@ -2535,11 +2581,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the tent.",
-        "This is my fire.",
+        "My tent is cool.",
+        "The fire is big.",
         "I can see the backpack.",
-        "Look at the map!",
-        "I have the torch."
+        "Can you find the map?",
+        "Look at the torch!",
+        "Can you find the boots?"
       ]
     },
     {
@@ -2596,11 +2643,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the apple.",
-        "This is my juice.",
-        "I can see the cake.",
-        "Look at the sandwich!",
-        "I have the banana."
+        "Look at the apple!",
+        "Look at the juice!",
+        "My cake is cool.",
+        "I can see the sandwich.",
+        "This is a banana.",
+        "The water is fun."
       ]
     },
     {
@@ -2657,11 +2705,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the big.",
-        "This is my small.",
-        "I can see the fast.",
-        "Look at the slow!",
-        "I have the hot."
+        "Can you find the big?",
+        "Look at the small!",
+        "The fast is nice.",
+        "The slow is nice.",
+        "This is my hot.",
+        "Let's play with the cold!"
       ]
     },
     {
@@ -2718,11 +2767,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the car.",
-        "This is my bus.",
-        "I can see the train.",
-        "Look at the plane!",
-        "I have the boat."
+        "Look at the car!",
+        "I have the bus.",
+        "Can you find the train?",
+        "The plane is nice.",
+        "Look at the boat!",
+        "I love the bike."
       ]
     },
     {
@@ -2779,11 +2829,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the shop.",
-        "This is my school.",
-        "I can see the park.",
-        "Look at the hospital!",
-        "I have the house."
+        "My shop is cool.",
+        "I have the school.",
+        "The park is nice.",
+        "I have the hospital.",
+        "Let's play with the house!",
+        "The castle is nice."
       ]
     },
     {
@@ -2840,11 +2891,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the clock.",
-        "This is my alarm.",
-        "I can see the calendar.",
-        "Look at the watch!",
-        "I have the day."
+        "Look at the clock!",
+        "I want the alarm.",
+        "The calendar is nice.",
+        "My watch is cool.",
+        "The day is nice.",
+        "I can see the night."
       ]
     },
     {
@@ -2901,11 +2953,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the school.",
-        "This is my home.",
-        "I can see the park.",
-        "Look at the shop!",
-        "I have the play."
+        "My school is cool.",
+        "We have a home.",
+        "I have the park.",
+        "This is my shop.",
+        "I love the play.",
+        "I can see the sleep."
       ]
     },
     {
@@ -2962,11 +3015,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the excited.",
+        "This is a excited.",
         "This is my tired.",
-        "I can see the hungry.",
-        "Look at the thirsty!",
-        "I have the love."
+        "I like the hungry.",
+        "The thirsty is nice.",
+        "Let's play with the love!",
+        "I have the bored."
       ]
     },
     {
@@ -3023,11 +3077,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the sunny.",
-        "This is my rainy.",
-        "I can see the snowy.",
-        "Look at the cloudy!",
-        "I have the windy."
+        "The sunny is fun.",
+        "We have a rainy.",
+        "The snowy is fun.",
+        "We have a cloudy.",
+        "The windy is nice.",
+        "The stormy is fun."
       ]
     },
     {
@@ -3084,11 +3139,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the car.",
-        "This is my bus.",
-        "I can see the shop.",
-        "Look at the park!",
-        "I have the road."
+        "I can see the car.",
+        "I love the bus.",
+        "I like the shop.",
+        "This is a park.",
+        "My road is cool.",
+        "Let's play with the light!"
       ]
     },
     {
@@ -3145,11 +3201,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the doctor.",
-        "This is my teacher.",
-        "I can see the chef.",
-        "Look at the police!",
-        "I have the farmer."
+        "Can you find the doctor?",
+        "We have a teacher.",
+        "Let's play with the chef!",
+        "My police is cool.",
+        "I want the farmer.",
+        "The pilot is nice."
       ]
     },
     {
@@ -3206,11 +3263,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the soccer.",
-        "This is my basketball.",
+        "We have a soccer.",
+        "The basketball is fun.",
         "I can see the tennis.",
-        "Look at the baseball!",
-        "I have the swimming."
+        "The baseball is nice.",
+        "Can you find the swimming?",
+        "We have a running."
       ]
     },
     {
@@ -3267,11 +3325,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the guitar.",
-        "This is my piano.",
-        "I can see the drums.",
-        "Look at the violin!",
-        "I have the trumpet."
+        "We have a guitar.",
+        "The piano is fun.",
+        "The drums is fun.",
+        "The violin is nice.",
+        "The trumpet is big.",
+        "Can you find the microphone?"
       ]
     },
     {
@@ -3328,11 +3387,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the sun.",
-        "This is my moon.",
-        "I can see the star.",
-        "Look at the planet!",
-        "I have the rocket."
+        "Look at the sun!",
+        "The moon is big.",
+        "This is my star.",
+        "The planet is nice.",
+        "I want the rocket.",
+        "I have the astronaut."
       ]
     },
     {
@@ -3390,10 +3450,11 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "I like the helicopter.",
-        "This is my ship.",
-        "I can see the truck.",
-        "Look at the taxi!",
-        "I have the motorbike."
+        "Look at the ship!",
+        "My truck is cool.",
+        "Let's play with the taxi!",
+        "I have the motorbike.",
+        "Let's play with the tractor!"
       ]
     },
     {
@@ -3450,11 +3511,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the storm.",
-        "This is my fog.",
-        "I can see the lightning.",
-        "Look at the tornado!",
-        "I have the sunny."
+        "We have a storm.",
+        "I want the fog.",
+        "I like the lightning.",
+        "We have a tornado.",
+        "The sunny is big.",
+        "I have the windy."
       ]
     },
     {
@@ -3511,11 +3573,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the excited.",
-        "This is my bored.",
-        "I can see the shy.",
-        "Look at the proud!",
-        "I have the nervous."
+        "I want the excited.",
+        "This is a bored.",
+        "I like the shy.",
+        "I want the proud.",
+        "I want the nervous.",
+        "Look at the silly!"
       ]
     },
     {
@@ -3572,11 +3635,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the kitchen.",
-        "This is my bedroom.",
-        "I can see the bathroom.",
+        "Look at the kitchen!",
+        "I like the bedroom.",
+        "I like the bathroom.",
         "Look at the garden!",
-        "I have the garage."
+        "The garage is fun.",
+        "Look at the sofa!"
       ]
     },
     {
@@ -3633,11 +3697,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the money.",
-        "This is my coin.",
-        "I can see the shop.",
-        "Look at the bag!",
-        "I have the card."
+        "We have a money.",
+        "We have a coin.",
+        "I love the shop.",
+        "This is a bag.",
+        "Can you find the card?",
+        "I want the gift."
       ]
     },
     {
@@ -3694,11 +3759,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the doctor.",
-        "This is my medicine.",
-        "I can see the hospital.",
-        "Look at the sick!",
-        "I have the bandage."
+        "The doctor is fun.",
+        "Let's play with the medicine!",
+        "I like the hospital.",
+        "The sick is fun.",
+        "The bandage is nice.",
+        "I love the tooth."
       ]
     },
     {
@@ -3755,11 +3821,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the cake.",
+        "The cake is big.",
         "This is my balloon.",
-        "I can see the gift.",
-        "Look at the candle!",
-        "I have the music."
+        "I like the gift.",
+        "I want the candle.",
+        "The music is nice.",
+        "My party is cool."
       ]
     },
     {
@@ -3816,11 +3883,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the wave.",
-        "This is my boat.",
-        "I can see the shell.",
-        "Look at the sand!",
-        "I have the island."
+        "I love the wave.",
+        "I love the boat.",
+        "Look at the shell!",
+        "I want the sand.",
+        "I love the island.",
+        "The fish is nice."
       ]
     },
     {
@@ -3877,11 +3945,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the pineapple.",
-        "This is my mango.",
-        "I can see the cherry.",
-        "Look at the peach!",
-        "I have the lemon."
+        "Look at the pineapple!",
+        "I love the mango.",
+        "I have the cherry.",
+        "I love the peach.",
+        "The lemon is fun.",
+        "This is a kiwi."
       ]
     },
     {
@@ -3938,11 +4007,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the onion.",
-        "This is my garlic.",
-        "I can see the mushroom.",
-        "Look at the cucumber!",
-        "I have the eggplant."
+        "The onion is nice.",
+        "I like the garlic.",
+        "The mushroom is big.",
+        "This is my cucumber.",
+        "The eggplant is fun.",
+        "The lettuce is nice."
       ]
     },
     {
@@ -3999,11 +4069,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the fox.",
-        "This is my wolf.",
-        "I can see the deer.",
-        "Look at the raccoon!",
-        "I have the hedgehog."
+        "I have the fox.",
+        "I love the wolf.",
+        "I love the deer.",
+        "My raccoon is cool.",
+        "My hedgehog is cool.",
+        "The bat is big."
       ]
     },
     {
@@ -4060,11 +4131,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the goat.",
-        "This is my rooster.",
-        "I can see the llama.",
-        "Look at the turkey!",
-        "I have the rabbit."
+        "This is a goat.",
+        "I like the rooster.",
+        "The llama is nice.",
+        "The turkey is big.",
+        "The rabbit is nice.",
+        "I can see the mouse."
       ]
     },
     {
@@ -4121,11 +4193,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the map.",
-        "This is my globe.",
-        "I can see the flag.",
-        "Look at the plane!",
-        "I have the luggage."
+        "I love the map.",
+        "I love the globe.",
+        "Can you find the flag?",
+        "I want the plane.",
+        "Look at the luggage!",
+        "I have the camera."
       ]
     },
     {
@@ -4184,9 +4257,10 @@ window.GAME_DATA = {
       "sentences": [
         "I like the smile.",
         "This is my frown.",
-        "I can see the cry.",
-        "Look at the laugh!",
-        "I have the shocked."
+        "I love the cry.",
+        "This is a laugh.",
+        "Let's play with the shocked!",
+        "The sleepy is fun."
       ]
     },
     {
@@ -4243,11 +4317,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the bee.",
-        "This is my sunflower.",
-        "I can see the butterfly.",
+        "I love the bee.",
+        "Can you find the sunflower?",
+        "We have a butterfly.",
         "Look at the tree!",
-        "I have the bird."
+        "My bird is cool.",
+        "The sun is fun."
       ]
     },
     {
@@ -4304,11 +4379,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the snake.",
-        "This is my turtle.",
-        "I can see the lizard.",
-        "Look at the crocodile!",
-        "I have the frog."
+        "My snake is cool.",
+        "We have a turtle.",
+        "My lizard is cool.",
+        "My crocodile is cool.",
+        "I have the frog.",
+        "The dinosaur is fun."
       ]
     },
     {
@@ -4365,11 +4441,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the volcano.",
-        "This is my desert.",
-        "I can see the forest.",
-        "Look at the waterfall!",
-        "I have the cave."
+        "My volcano is cool.",
+        "We have a desert.",
+        "My forest is cool.",
+        "The waterfall is big.",
+        "I have the cave.",
+        "Look at the ocean!"
       ]
     },
     {
@@ -4426,11 +4503,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the lightning.",
-        "This is my tornado.",
+        "This is my lightning.",
+        "The tornado is fun.",
         "I can see the snowflake.",
-        "Look at the sunrise!",
-        "I have the sunset."
+        "The sunrise is fun.",
+        "My sunset is cool.",
+        "Let's play with the stars!"
       ]
     },
     {
@@ -4487,11 +4565,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the phone.",
-        "This is my computer.",
-        "I can see the tv.",
-        "Look at the camera!",
-        "I have the robot."
+        "I want the phone.",
+        "I want the computer.",
+        "I have the tv.",
+        "I love the camera.",
+        "Can you find the robot?",
+        "I like the game."
       ]
     },
     {
@@ -4548,11 +4627,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the math.",
-        "This is my science.",
+        "Look at the math!",
+        "The science is nice.",
         "I can see the art.",
-        "Look at the music!",
-        "I have the reading."
+        "The music is fun.",
+        "I love the reading.",
+        "I can see the sport."
       ]
     },
     {
@@ -4609,11 +4689,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the coat.",
-        "This is my scarf.",
-        "I can see the gloves.",
-        "Look at the boots!",
-        "I have the cap."
+        "The coat is fun.",
+        "I have the scarf.",
+        "My gloves is cool.",
+        "I like the boots.",
+        "We have a cap.",
+        "I love the tie."
       ]
     },
     {
@@ -4670,11 +4751,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the artist.",
-        "This is my singer.",
-        "I can see the scientist.",
-        "Look at the astronaut!",
-        "I have the firefighter."
+        "Can you find the artist?",
+        "Can you find the singer?",
+        "My scientist is cool.",
+        "The astronaut is nice.",
+        "The firefighter is nice.",
+        "The builder is fun."
       ]
     },
     {
@@ -4731,11 +4813,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the sushi.",
-        "This is my taco.",
-        "I can see the noodles.",
-        "Look at the pancake!",
-        "I have the popcorn."
+        "My sushi is cool.",
+        "I can see the taco.",
+        "Look at the noodles!",
+        "Can you find the pancake?",
+        "Look at the popcorn!",
+        "This is my pretzel."
       ]
     },
     {
@@ -4792,11 +4875,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the smoothie.",
+        "Let's play with the smoothie!",
         "This is my lemonade.",
-        "I can see the milkshake.",
-        "Look at the tea!",
-        "I have the water."
+        "We have a milkshake.",
+        "This is a tea.",
+        "I have the water.",
+        "We have a juice."
       ]
     },
     {
@@ -4853,11 +4937,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the pumpkin.",
-        "This is my ghost.",
-        "I can see the bat.",
+        "This is my pumpkin.",
+        "Can you find the ghost?",
+        "Let's play with the bat!",
         "Look at the spider!",
-        "I have the witch."
+        "This is a witch.",
+        "I like the skeleton."
       ]
     },
     {
@@ -4914,11 +4999,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the tree.",
-        "This is my gift.",
-        "I can see the santa.",
-        "Look at the snowman!",
-        "I have the bell."
+        "This is a tree.",
+        "Let's play with the gift!",
+        "My santa is cool.",
+        "The snowman is nice.",
+        "I want the bell.",
+        "The star is fun."
       ]
     },
     {
@@ -4975,11 +5061,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the umbrella.",
-        "This is my sandcastle.",
-        "I can see the shell.",
-        "Look at the wave!",
-        "I have the sun."
+        "We have a umbrella.",
+        "I can see the sandcastle.",
+        "This is a shell.",
+        "My wave is cool.",
+        "We have a sun.",
+        "Can you find the crab?"
       ]
     },
     {
@@ -5036,11 +5123,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the police car.",
-        "This is my ambulance.",
-        "I can see the fire truck.",
-        "Look at the subway!",
-        "I have the scooter."
+        "The police car is nice.",
+        "The ambulance is nice.",
+        "This is a fire truck.",
+        "We have a subway.",
+        "I can see the scooter.",
+        "I have the skateboard."
       ]
     },
     {
@@ -5097,11 +5185,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the coconut.",
-        "This is my avocado.",
+        "This is a coconut.",
+        "I love the avocado.",
         "I can see the blueberry.",
-        "Look at the pear!",
-        "I have the cherry."
+        "My pear is cool.",
+        "The cherry is nice.",
+        "The kiwi is big."
       ]
     },
     {
@@ -5158,11 +5247,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the king.",
-        "This is my queen.",
+        "Look at the king!",
+        "I like the queen.",
         "I can see the guard.",
-        "Look at the prince!",
-        "I have the knight."
+        "The prince is fun.",
+        "Can you find the knight?",
+        "Can you find the crown?"
       ]
     },
     {
@@ -5220,10 +5310,11 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "I like the compass.",
-        "This is my tent.",
-        "I can see the fire.",
-        "Look at the map!",
-        "I have the backpack."
+        "The tent is fun.",
+        "The fire is big.",
+        "I love the map.",
+        "This is my backpack.",
+        "I can see the flashlight."
       ]
     },
     {
@@ -5280,11 +5371,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the pie.",
-        "This is my honey.",
-        "I can see the pudding.",
-        "Look at the cupcake!",
-        "I have the lollipop."
+        "This is my pie.",
+        "This is a honey.",
+        "This is my pudding.",
+        "I love the cupcake.",
+        "I can see the lollipop.",
+        "I can see the waffle."
       ]
     },
     {
@@ -5342,10 +5434,11 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "I like the hammer.",
-        "This is my wrench.",
+        "The wrench is nice.",
         "I can see the screwdriver.",
-        "Look at the saw!",
-        "I have the pin."
+        "The saw is nice.",
+        "Can you find the pin?",
+        "Can you find the ruler?"
       ]
     },
     {
@@ -5402,11 +5495,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the headphones.",
-        "This is my note.",
-        "I can see the saxophone.",
-        "Look at the bell!",
-        "I have the speaker."
+        "I want the headphones.",
+        "Look at the note!",
+        "Look at the saxophone!",
+        "My bell is cool.",
+        "I can see the speaker.",
+        "This is my piano."
       ]
     },
     {
@@ -5463,11 +5557,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the golf.",
-        "This is my boxing.",
-        "I can see the skiing.",
-        "Look at the skating!",
-        "I have the cycling."
+        "My golf is cool.",
+        "Can you find the boxing?",
+        "I like the skiing.",
+        "I have the skating.",
+        "This is a cycling.",
+        "Look at the surfing!"
       ]
     },
     {
@@ -5524,11 +5619,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the rhino.",
-        "This is my peacock.",
-        "I can see the gorilla.",
-        "Look at the flamingo!",
-        "I have the sloth."
+        "The rhino is fun.",
+        "I love the peacock.",
+        "The gorilla is fun.",
+        "The flamingo is nice.",
+        "This is a sloth.",
+        "The otter is nice."
       ]
     },
     {
@@ -5585,11 +5681,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the puppy.",
-        "This is my kitten.",
-        "I can see the chick.",
-        "Look at the piglet!",
-        "I have the bunny."
+        "The puppy is nice.",
+        "I love the kitten.",
+        "I have the chick.",
+        "Let's play with the piglet!",
+        "This is a bunny.",
+        "The duckling is big."
       ]
     },
     {
@@ -5647,10 +5744,11 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "I like the jellyfish.",
-        "This is my lobster.",
-        "I can see the seal.",
-        "Look at the shrimp!",
-        "I have the turtle."
+        "I love the lobster.",
+        "This is a seal.",
+        "I can see the shrimp.",
+        "Can you find the turtle?",
+        "Let's play with the squid!"
       ]
     },
     {
@@ -5707,11 +5805,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the grasshopper.",
-        "This is my mosquito.",
-        "I can see the beetle.",
-        "Look at the fly!",
-        "I have the worm."
+        "The grasshopper is fun.",
+        "Let's play with the mosquito!",
+        "This is my beetle.",
+        "The fly is nice.",
+        "My worm is cool.",
+        "I love the cricket."
       ]
     },
     {
@@ -5768,11 +5867,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the dinosaur.",
-        "This is my t-rex.",
-        "I can see the dragon.",
-        "Look at the lizard!",
-        "I have the egg."
+        "This is a dinosaur.",
+        "I want the t-rex.",
+        "The dragon is fun.",
+        "This is my lizard.",
+        "Look at the egg!",
+        "I love the bone."
       ]
     },
     {
@@ -5829,11 +5929,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the fairy.",
-        "This is my wizard.",
-        "I can see the unicorn.",
-        "Look at the dragon!",
-        "I have the crown."
+        "This is a fairy.",
+        "Can you find the wizard?",
+        "I want the unicorn.",
+        "Let's play with the dragon!",
+        "This is my crown.",
+        "We have a magic."
       ]
     },
     {
@@ -5890,11 +5991,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the castle.",
-        "This is my tower.",
-        "I can see the church.",
-        "Look at the factory!",
-        "I have the stadium."
+        "The castle is big.",
+        "I can see the tower.",
+        "I want the church.",
+        "We have a factory.",
+        "This is a stadium.",
+        "Let's play with the house!"
       ]
     },
     {
@@ -5951,11 +6053,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the earth.",
-        "This is my saturn.",
-        "I can see the comet.",
-        "Look at the galaxy!",
-        "I have the telescope."
+        "The earth is nice.",
+        "I love the saturn.",
+        "The comet is nice.",
+        "This is a galaxy.",
+        "This is a telescope.",
+        "I like the ufo."
       ]
     },
     {
@@ -6012,11 +6115,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the breakfast.",
-        "This is my lunch.",
-        "I can see the dinner.",
-        "Look at the snack!",
-        "I have the salad."
+        "I can see the breakfast.",
+        "The lunch is big.",
+        "The dinner is big.",
+        "I like the snack.",
+        "I like the salad.",
+        "This is a fruit."
       ]
     },
     {
@@ -6073,11 +6177,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the arm.",
-        "This is my leg.",
-        "I can see the hair.",
-        "Look at the teeth!",
-        "I have the tongue."
+        "We have a arm.",
+        "The leg is nice.",
+        "We have a hair.",
+        "The teeth is big.",
+        "My tongue is cool.",
+        "The finger is nice."
       ]
     },
     {
@@ -6134,11 +6239,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the star.",
-        "This is my trophy.",
-        "I can see the medal.",
-        "Look at the balloon!",
-        "I have the party."
+        "This is my star.",
+        "Can you find the trophy?",
+        "This is a medal.",
+        "I have the balloon.",
+        "I want the party.",
+        "Look at the gift!"
       ]
     },
     {
@@ -6195,11 +6301,12 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the trophy.",
-        "This is my medal.",
-        "I can see the crown.",
-        "Look at the star!",
-        "I have the fireworks."
+        "The trophy is nice.",
+        "The medal is fun.",
+        "I love the crown.",
+        "This is a star.",
+        "Let's play with the fireworks!",
+        "Look at the rocket!"
       ]
     }
   ]
