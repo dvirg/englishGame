@@ -465,11 +465,10 @@
         return false;
       }
       var pool = level.items.slice();
-      var order = DATA.gameTypes.map(function (g) { return g.id; }).filter(function (id) { return id !== "say_it"; });
-      var spellIndex = order.indexOf("spell_it");
-      if (spellIndex >= 0) order.splice(spellIndex + 1, 0, "spell_it");
-      else order.push("spell_it");
-      order = shuffle(order);
+      var typeIds = (level.gameTypes && level.gameTypes.length)
+        ? level.gameTypes.slice()
+        : DATA.gameTypes.map(function (g) { return g.id; });
+      var order = shuffle(typeIds);
       this.session = { level: level, pool: pool, sentences: level.sentences, order: order, index: 0, mistakes: 0, results: [], spellWordsUsed: [] };
       this.renderGame();
       return true;
@@ -485,7 +484,7 @@
 
       var top = el("div", { class: "topbar" },
         el("button", { class: "circle-btn", "aria-label": "Home", onclick: function () { self.renderHome(); } }, "‹"),
-        el("div", { class: "title-mid" }, gt.name + "  ·  " + s.level.name),
+        el("div", { class: "title-mid" }, "Level " + (s.level.index + 1) + " · " + gt.name + " · " + s.level.name),
         this.starBadge());
 
       var dots = el("div", { class: "progress" });
@@ -780,6 +779,7 @@
     },
 
     sort_it: function (host, api) {
+      if (api.level.grammar && api.level.grammar.sort) return GAMES.sort_rule(host, api);
       // category A = this level; category B = a different level's items
       var others = api.allLevels.filter(function (l) { return l.id !== api.level.id && l.items.length >= 2; });
       var B = api.pick(others);
@@ -821,6 +821,113 @@
         if (cat === t.cat) {
           var chip = el("div", { class: "sort-token" }, el("span", {}, t.it.word));
           binFor(t.cat).items.appendChild(chip); idx++;
+          if (idx >= tokens.length) { current.innerHTML = ""; setTimeout(function () { api.finish(); }, FAST ? 0 : 250); }
+          else renderCurrent();
+        } else { node.classList.add("wrong"); api.addMistake(); api.wrong(); setTimeout(function () { node.classList.remove("wrong"); }, 450); }
+      }
+      renderCurrent();
+      api.registerSolver(function () { var g = 0; while (idx < tokens.length && g < 60) { binFor(tokens[idx].cat).node.click(); g++; } });
+      api.registerWrongSolver(function () { if (idx < tokens.length) binFor(tokens[idx].cat === "A" ? "B" : "A").node.click(); });
+    },
+
+    pick_word_gap: function (host, api) {
+      var grammar = api.level.grammar || {};
+      var gap = api.pick(grammar.gap || []);
+      if (!gap) { api.finish(); return; }
+      var promptText = gap.text.replace("___", "____");
+      api.setInstruction("🧩 Tap the missing word");
+      var prompt = el("div", { class: "flashcard" });
+      prompt.appendChild(el("div", { class: "word-label" }, promptText));
+      if (gap.emoji) prompt.appendChild(el("div", { class: "emoji-pic" }, gap.emoji));
+      singleChoice(host, api, {
+        promptNode: prompt,
+        options: gap.options.map(function (o) { return { text: o }; }),
+        correct: gap.correct || 0,
+        instant: true,
+        onSelect: function (d) { api.speak(d.text); },
+        renderOption: function (d) { return el("span", {}, d.text); }
+      });
+      api.speak(gap.text.replace("___", gap.options[gap.correct || 0]));
+    },
+
+    transform: function (host, api) {
+      var grammar = api.level.grammar || {};
+      var item = api.pick(grammar.transform || []);
+      if (!item) { api.finish(); return; }
+      api.setInstruction("🔧 Make the right word");
+      var prompt = el("div", { class: "flashcard" });
+      prompt.appendChild(el("div", { class: "word-label" }, item.prompt));
+      singleChoice(host, api, {
+        promptNode: prompt,
+        options: item.options.map(function (o) { return { text: o }; }),
+        correct: item.correct || 0,
+        instant: true,
+        onSelect: function (d) { api.speak(d.text); },
+        renderOption: function (d) { return el("span", {}, d.text); }
+      });
+      api.speak(item.base);
+    },
+
+    fix_sentence: function (host, api) {
+      var grammar = api.level.grammar || {};
+      var item = api.pick(grammar.fix || []);
+      if (!item) { api.finish(); return; }
+      api.setInstruction("🕵️ Which one is right?");
+      var prompt = null;
+      if (item.emoji) prompt = el("div", { class: "flashcard" });
+      if (prompt) { prompt.appendChild(el("div", { class: "emoji-pic" }, item.emoji)); }
+      var options = [{ text: item.right }, { text: item.wrong }];
+      var shuffled = api.shuffle(options.slice());
+      var correct = shuffled.findIndex(function (o) { return o.text === item.right; });
+      singleChoice(host, api, {
+        promptNode: prompt,
+        twoUp: true,
+        options: shuffled,
+        correct: correct,
+        instant: true,
+        onSelect: function (d) { api.speak(d.text); },
+        renderOption: function (d) { return el("div", { class: "word-label" }, d.text); }
+      });
+      api.registerSolver(function () { var node = host.querySelectorAll(".option")[correct]; if (node) node.click(); });
+      api.registerWrongSolver(function () { var node = host.querySelectorAll(".option")[correct === 0 ? 1 : 0]; if (node) node.click(); });
+      api.speak(item.right);
+    },
+
+    sort_rule: function (host, api) {
+      if (!api.level.grammar || !api.level.grammar.sort) return GAMES.sort_it(host, api);
+      var sort = api.level.grammar.sort;
+      api.setInstruction("📦 Put each one in the right box");
+      var tokens = api.shuffle(sort.tokens.slice());
+      var idx = 0;
+      var current = el("div", { class: "sort-current" });
+      var binsRow = el("div", { class: "sort-wrap" });
+      var binA = makeBin(sort.binA || "A", "A");
+      var binB = makeBin(sort.binB || "B", "B");
+      binsRow.appendChild(binA.node); binsRow.appendChild(binB.node);
+      host.appendChild(current); host.appendChild(binsRow);
+
+      function makeBin(title, cat) {
+        var items = el("div", { class: "bin-items" });
+        var node = el("div", { class: "bin", role: "button" }, el("div", { class: "bin-title" }, el("span", {}, title)), items);
+        node.addEventListener("click", function () { place(cat, node); });
+        return { node: node, items: items };
+      }
+      function renderCurrent() {
+        current.innerHTML = "";
+        if (idx >= tokens.length) return;
+        var token = tokens[idx];
+        var tok = el("div", { class: "sort-token", role: "button", title: "Tap to hear" }, el("span", {}, token.t));
+        tok.addEventListener("click", function (e) { if (e.target === tok || e.target.tagName === "SPAN") api.speak(token.t); });
+        current.appendChild(tok);
+        api.speak(token.t);
+      }
+      function binFor(cat) { return cat === "A" ? binA : binB; }
+      function place(cat, node) {
+        if (idx >= tokens.length) return;
+        var token = tokens[idx];
+        if (cat === token.cat) {
+          var chip = el("div", { class: "sort-token" }, el("span", {}, token.t));
+          binFor(token.cat).items.appendChild(chip); idx++;
           if (idx >= tokens.length) { current.innerHTML = ""; setTimeout(function () { api.finish(); }, FAST ? 0 : 250); }
           else renderCurrent();
         } else { node.classList.add("wrong"); api.addMistake(); api.wrong(); setTimeout(function () { node.classList.remove("wrong"); }, 450); }

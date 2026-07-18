@@ -29,15 +29,27 @@ import functools
 import http.server
 import json
 import os
+import re
 import socketserver
 import threading
 
 from playwright.sync_api import sync_playwright
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-EXPECTED_GAME_TYPES = {
+ALL_GAME_TYPES = {
     "listen_pick_picture", "look_pick_word", "look_pick_sound", "match_pairs",
     "sort_it", "build_sentence", "spell_it", "true_false", "listen_pick_word",
+    "pick_word_gap", "transform", "fix_sentence", "sort_rule",
+}
+
+BASE_GAME_TYPES = {
+    "listen_pick_picture", "look_pick_word", "look_pick_sound", "match_pairs",
+    "sort_it", "build_sentence", "spell_it", "true_false", "listen_pick_word",
+}
+
+GRAMMAR_GAME_TYPES = {
+    "listen_pick_picture", "look_pick_word", "pick_word_gap", "build_sentence",
+    "sort_rule", "transform", "fix_sentence", "true_false", "spell_it",
 }
 
 # A safe (no side-effect) element to tap per game type to prove its sound works.
@@ -45,7 +57,8 @@ SOUND_SOURCE = {
     "listen_pick_picture": ".speaker-big", "listen_pick_word": ".speaker-big",
     "build_sentence": ".speaker-big", "look_pick_sound": ".options .option",
     "look_pick_word": ".flashcard", "say_it": ".flashcard", "spell_it": ".flashcard",
-    "sort_it": ".sort-token", "true_false": ".flashcard img",
+    "sort_it": ".sort-token", "sort_rule": ".sort-token", "true_false": ".flashcard img",
+    "pick_word_gap": ".option", "transform": ".option", "fix_sentence": ".option",
 }
 
 # Record every sound the game plays — BOTH pre-recorded audio files (the primary
@@ -93,6 +106,40 @@ def _check_audio_files():
     missing = [p for p in paths if not os.path.exists(os.path.join(ROOT, p))]
     assert not missing, "missing %d audio files, e.g. %s" % (len(missing), missing[:5])
     return len(paths)
+
+
+def _check_image_assets():
+    """Confirm every image path referenced by the generated content exists on disk."""
+    refs = []
+    for rel in ("content.json", "data.js", "index.html", "app.js"):
+        path = os.path.join(ROOT, rel)
+        if not os.path.exists(path):
+            continue
+        with open(path, encoding="utf-8") as f:
+            refs.extend(re.findall(r'images/([A-Za-z0-9._/-]+\.(?:svg|png|jpg|jpeg|gif|webp))', f.read()))
+    missing = sorted({r for r in refs if not os.path.exists(os.path.join(ROOT, "images", r))})
+    assert not missing, "missing %d image files, e.g. %s" % (len(missing), missing[:10])
+    return len(refs)
+
+
+def _check_page_images(page, step, label):
+    """Assert that every currently rendered image on the page has actually loaded."""
+    page.wait_for_timeout(250)
+    try:
+        page.wait_for_function("() => Array.from(document.images).every(img => img.complete)", timeout=8000)
+    except Exception:
+        pass
+    broken = page.evaluate("""() => {
+      const out = [];
+      Array.from(document.images).forEach((img) => {
+        const src = img.getAttribute('src') || '';
+        const ok = img.complete && img.naturalWidth > 0 && img.naturalHeight > 0;
+        if (!ok) out.push({ src, complete: img.complete, naturalWidth: img.naturalWidth, naturalHeight: img.naturalHeight });
+      });
+      return out;
+    }""")
+    assert not broken, "broken images on %s: %s" % (label, broken[:10])
+    step("Image check OK: %s (%d visible images)" % (label, page.locator("img").count()))
 
 
 class _Server:
@@ -192,9 +239,9 @@ def _sound_check(page, step):
     if voices > 0:
         assert started >= measured - 1, \
             "audio not playing: only %d/%d words actually spoke (voices=%d)" % (started, measured, voices)
-        step("🔊 SOUND WORKS: %d/%d words spoke ALOUD in en-US (voices=%d)" % (started, measured, voices))
+        step("SOUND WORKS: %d/%d words spoke ALOUD in en-US (voices=%d)" % (started, measured, voices))
     else:
-        step("⚠ This browser has no TTS voices — nothing audible, wiring OK. Use real Chrome to hear it.")
+        step("This browser has no TTS voices; nothing audible, wiring OK. Use real Chrome to hear it.")
     return voices
 
 
@@ -221,6 +268,7 @@ def _play_session_dom(page, step, mistakes=0, validate=False):
             page.wait_for_function(
                 "() => { const im=document.querySelector('#play-host img');"
                 " return im && im.complete && im.naturalWidth>0; }", timeout=6000)
+        _check_page_images(page, step, "game %s" % gtype)
 
         if validate:
             page.wait_for_timeout(250)
@@ -270,10 +318,11 @@ def _sweep_all_levels(page, step):
             u_before = _state(page)["unlocked"]
 
             # --- WRONG run: must not unlock the next level ---
+            expected_types = page.evaluate("(i) => { const level = window.GAME_DATA.levels[i]; return (level && level.gameTypes) ? level.gameTypes : []; }", i)
             wrong = page.evaluate("(m) => window.GilorTest.playSession(m)", 1)
             assert not wrong.get("error"), "level %d WRONG-run error: %s" % (i, wrong.get("error"))
-            assert set(wrong.get("types", [])) == EXPECTED_GAME_TYPES, \
-                "level %d missing game types: %s" % (i, EXPECTED_GAME_TYPES - set(wrong.get("types", [])))
+            assert set(wrong.get("types", [])) == set(expected_types), \
+                "level %d missing game types: %s" % (i, set(expected_types) - set(wrong.get("types", [])))
             assert wrong["score"] < 95, "level %d wrong run should be <95, got %d" % (i, wrong["score"])
             assert wrong["minStars"] < 3, "level %d wrong run should lose stars" % i
             assert _state(page)["unlocked"] == u_before, \
@@ -283,7 +332,7 @@ def _sweep_all_levels(page, step):
             assert page.evaluate("(i) => window.GilorTest.startLevel(i)", i) is True
             correct = page.evaluate("(m) => window.GilorTest.playSession(m)", 0)
             assert not correct.get("error"), "level %d CORRECT-run error: %s" % (i, correct.get("error"))
-            assert set(correct.get("types", [])) == EXPECTED_GAME_TYPES, \
+            assert set(correct.get("types", [])) == set(expected_types), \
                 "level %d missing game types on correct run" % i
             assert correct["score"] == 100, "level %d correct run should be 100, got %d" % (i, correct["score"])
             if i < total - 1:
@@ -310,7 +359,9 @@ def run_full_flow(page, base_url, username):
         print("  •", msg)
 
     n_audio = _check_audio_files()
+    n_images = _check_image_assets()
     step("Audio pack present: %d pre-recorded clips on disk (browser-independent)" % n_audio)
+    step("Image asset inventory present: %d referenced image paths on disk" % n_images)
 
     page.goto(base_url)
     page.wait_for_function("() => window.GilorTest && window.GilorTest.ready")
@@ -322,14 +373,15 @@ def run_full_flow(page, base_url, username):
     page.fill("#p", "secret1")
     page.click("#login-btn")
     page.wait_for_selector(".world-map")
+    _check_page_images(page, step, "home screen")
     st = _state(page)
     total = st["totalLevels"]
     assert st["user"] == username and st["unlocked"] == 0 and st["totalStars"] == 0
-    assert total == 100, "expected 100 levels, got %s" % total
+    assert total == 200, "expected 200 levels, got %s" % total
     step("Registered new user '%s'; %d-level map, only Level 1 open" % (username, total))
 
     # ---- AUDIBLE sound check FIRST, on a clean audio state right after the login gesture ----
-    step("🔊 TURN YOUR VOLUME UP — speaking words aloud now …")
+    step("SOUND CHECK: speaking words aloud now")
     _sound_check(page, step)
 
     chips = page.eval_on_selector_all(".level-chip", "els => els.length")
@@ -344,7 +396,7 @@ def run_full_flow(page, base_url, username):
     page.wait_for_selector("#play-host")
     step("Checking every in-game sound button on Level 1 (also audible) …")
     seen, score = _play_session_dom(page, step, mistakes=0, validate=True)
-    assert seen == EXPECTED_GAME_TYPES and score == 100
+    assert seen == BASE_GAME_TYPES and score == 100
 
     # THE FULL LADDER
     _sweep_all_levels(page, step)
@@ -397,16 +449,26 @@ def _make_page(pw):
     page = context.new_page()
     page.set_default_timeout(15000)
     errors = []
+
+    def _record_error(msg):
+        errors.append(msg)
+
+    def _is_image_request(url):
+        url = (url or "").lower()
+        return "/images/" in url or url.endswith((".svg", ".png", ".jpg", ".jpeg", ".gif", ".webp"))
+
     # Real JS exceptions fail the run.
-    page.on("pageerror", lambda e: errors.append("pageerror: " + str(e)))
+    page.on("pageerror", lambda e: _record_error("pageerror: " + str(e)))
     # console.error, but ignore the generic resource-load message (covered precisely
     # by the response listener below, which knows the URL).
-    page.on("console", lambda m: errors.append("console.error: " + m.text)
+    page.on("console", lambda m: _record_error("console.error: " + m.text)
             if (m.type == "error" and "Failed to load resource" not in m.text) else None)
     # A 4xx/5xx for any real asset fails the run — but the browser's automatic
     # /favicon.ico probe is harmless and ignored.
-    page.on("response", lambda r: errors.append("HTTP %d: %s" % (r.status, r.url))
+    page.on("response", lambda r: _record_error("HTTP %d: %s" % (r.status, r.url))
             if (r.status >= 400 and not r.url.rstrip("/").endswith("favicon.ico")) else None)
+    page.on("requestfailed", lambda req: _record_error("requestfailed: %s [%s]" % (req.url, req.failure.error_text))
+            if req.failure and _is_image_request(req.url) else None)
     return browser, context, page, errors
 
 

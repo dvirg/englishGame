@@ -71,6 +71,21 @@ def collect_texts():
             add(it["word"])
         for s in lv["sentences"]:
             add(s)
+        g = lv.get("grammar") or {}
+        if g:
+            add(g.get("target", ""))
+            for e in g.get("gap", []):
+                add(e.get("text", "").replace("___", e.get("options", [""])[e.get("correct", 0)]))
+                for o in e.get("options", []): add(o)
+            for e in g.get("transform", []):
+                add(e.get("prompt", "")); add(e.get("base", ""))
+                for o in e.get("options", []): add(o)
+            for e in g.get("fix", []):
+                add(e.get("right", "")); add(e.get("wrong", ""))
+            s = g.get("sort")
+            if s:
+                add(s.get("binA", "")); add(s.get("binB", ""))
+                for t in s.get("tokens", []): add(t.get("t", ""))
     for p in data.get("praise", []):
         add(p)
     for p in data.get("tryAgain", []):
