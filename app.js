@@ -720,7 +720,7 @@
       var opts = api.shuffle([target].concat(api.distractors(api.pool, [target.word], 3)));
       api.setInstruction("👂 Listen and tap the word");
       singleChoice(host, api, {
-        promptNode: api.speakerPrompt(target.word), options: opts, correct: opts.indexOf(target),
+        promptNode: api.speakerPrompt(target.word), options: opts, correct: opts.indexOf(target), instant: true,
         renderOption: function (d) { return el("span", {}, d.word); }
       });
       api.speak(target.word);
