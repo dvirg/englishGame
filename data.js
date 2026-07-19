@@ -122,7 +122,7 @@ window.GAME_DATA = {
       "world": "Pre-K Planet",
       "worldSubtitle": "First tiny words",
       "worldIndex": 0,
-      "name": "Colours",
+      "name": "Colors",
       "category": "L00",
       "color": "#FFE7A8",
       "items": [
@@ -793,10 +793,10 @@ window.GAME_DATA = {
       "color": "#E9DDFF",
       "items": [
         {
-          "word": "mum",
+          "word": "mom",
           "emoji": "👩",
-          "slug": "mum",
-          "image": "images/mum.svg",
+          "slug": "mom",
+          "image": "images/mom.svg",
           "color": "#E9DDFF"
         },
         {
@@ -843,7 +843,7 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The mum is nice.",
+        "The mom is nice.",
         "I love the dad.",
         "I like the baby.",
         "I like the brother.",
@@ -2054,7 +2054,7 @@ window.GAME_DATA = {
       "world": "Juniors Jungle",
       "worldSubtitle": "Lots of first words",
       "worldIndex": 1,
-      "name": "Colours 2",
+      "name": "Colors 2",
       "category": "L26",
       "color": "#FDE2B3",
       "items": [
@@ -2087,10 +2087,10 @@ window.GAME_DATA = {
           "color": "#FDE2B3"
         },
         {
-          "word": "grey",
+          "word": "gray",
           "emoji": "🔘",
-          "slug": "grey",
-          "image": "images/grey.svg",
+          "slug": "gray",
+          "image": "images/gray.svg",
           "color": "#FDE2B3"
         },
         {
@@ -2106,7 +2106,7 @@ window.GAME_DATA = {
         "I have the brown.",
         "Look at the white!",
         "Let's play with the black!",
-        "The grey is fun.",
+        "The gray is fun.",
         "I like the blue."
       ],
       "gameTypes": [
@@ -9395,10 +9395,10 @@ window.GAME_DATA = {
       "color": "#E6D3FF",
       "items": [
         {
-          "word": "mum",
+          "word": "mom",
           "emoji": "👩",
-          "slug": "mum",
-          "image": "images/mum.svg",
+          "slug": "mom",
+          "image": "images/mom.svg",
           "color": "#E6D3FF"
         },
         {
@@ -9438,7 +9438,7 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a mum.",
+        "This is a mom.",
         "This is a dad.",
         "This is a brother.",
         "This is a sister.",
@@ -9584,10 +9584,10 @@ window.GAME_DATA = {
       "color": "#C9F0EC",
       "items": [
         {
-          "word": "mum",
+          "word": "mom",
           "emoji": "👩",
-          "slug": "mum",
-          "image": "images/mum.svg",
+          "slug": "mom",
+          "image": "images/mom.svg",
           "color": "#C9F0EC"
         },
         {
@@ -9627,7 +9627,7 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a mum.",
+        "This is a mom.",
         "This is a dad.",
         "This is a grandma.",
         "This is a grandpa.",
@@ -10718,10 +10718,10 @@ window.GAME_DATA = {
       "color": "#FFE0C4",
       "items": [
         {
-          "word": "mum",
+          "word": "mom",
           "emoji": "👩",
-          "slug": "mum",
-          "image": "images/mum.svg",
+          "slug": "mom",
+          "image": "images/mom.svg",
           "color": "#FFE0C4"
         },
         {
@@ -10761,7 +10761,7 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a mum.",
+        "This is a mom.",
         "This is a dad.",
         "This is a brother.",
         "This is a sister.",
@@ -11096,10 +11096,10 @@ window.GAME_DATA = {
       "color": "#CBF3E1",
       "items": [
         {
-          "word": "mum",
+          "word": "mom",
           "emoji": "👩",
-          "slug": "mum",
-          "image": "images/mum.svg",
+          "slug": "mom",
+          "image": "images/mom.svg",
           "color": "#CBF3E1"
         },
         {
@@ -11139,7 +11139,7 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a mum.",
+        "This is a mom.",
         "This is a dad.",
         "This is a brother.",
         "This is a sister.",
@@ -21931,10 +21931,10 @@ window.GAME_DATA = {
           "color": "#DCC9FF"
         },
         {
-          "word": "Mum",
+          "word": "Mom",
           "emoji": "👩",
-          "slug": "mum",
-          "image": "images/mum.svg",
+          "slug": "mom",
+          "image": "images/mom.svg",
           "color": "#DCC9FF"
         },
         {
@@ -21962,10 +21962,10 @@ window.GAME_DATA = {
       "sentences": [
         "This is a Tel Aviv.",
         "This is a Mina.",
-        "This is a Mum.",
+        "This is a Mom.",
         "This is a Lila.",
         "These are minas.",
-        "I like the Mum."
+        "I like the Mom."
       ],
       "grammar": {
         "target": "How much / how many",
@@ -26882,10 +26882,10 @@ window.GAME_DATA = {
           "color": "#DCC9FF"
         },
         {
-          "word": "travelling",
+          "word": "traveling",
           "emoji": "✈️",
-          "slug": "travelling",
-          "image": "images/travelling.svg",
+          "slug": "traveling",
+          "image": "images/traveling.svg",
           "color": "#DCC9FF"
         },
         {
@@ -26907,7 +26907,7 @@ window.GAME_DATA = {
         "My playing is cool.",
         "Let's play with the cooking!",
         "I can see the sleeping.",
-        "We have a travelling.",
+        "We have a traveling.",
         "I want the reading.",
         "Look at the watching!"
       ],

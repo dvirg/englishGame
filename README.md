@@ -1,7 +1,7 @@
 # 🚀 Magic Academy: English Quest
 
-A colourful, fully-working web game that helps a young beginner (built for
-8-year-old **Tzofia**, Novakid **Level 2 – Starters**) practise English through
+A colorful, fully-working web game that helps a young beginner (built for
+8-year-old **Tzofia**, Novakid **Level 2 – Starters**) practice English through
 **100 levels** of 10 different mini-games each. Inspired by the Novakid
 "Magic Academy" screens and curriculum.
 
@@ -74,7 +74,7 @@ ladder, each covering a topic extracted from the reference curriculum:
 
 | World | Feel | Example topics |
 |-------|------|----------------|
-| **Pre-K Planet** | first tiny words | Colours, Numbers, Shapes, Pets, Family |
+| **Pre-K Planet** | first tiny words | Colors, Numbers, Shapes, Pets, Family |
 | **Juniors Jungle** | lots of first words | Wild/Sea animals, Food, Clothes, Weather |
 | **Starters Station** | Tzofia's Magic Academy | Classroom, Feelings, Daily routine, Transport, Opposites |
 | **Movers Mountain** | bigger ideas | Jobs, Sports, Space, House rooms, Shopping |
@@ -103,7 +103,7 @@ Gilor/
 ├── app.js              # game engine, auth, scoring, persistence, 10 games
 ├── data.js             # window.GAME_DATA  (loaded by the browser)
 ├── content.json        # the same curriculum data, as a clean JSON file
-├── images/             # one small colourful <slug>.svg picture per word (~470)
+├── images/             # one small colorful <slug>.svg picture per word (~470)
 ├── audio/              # ~980 pre-recorded .m4a clips (words, sentences, praise…)
 ├── audio_manifest.js   # window.AUDIO_MANIFEST — text -> audio file
 ├── build_assets.py     # regenerates content.json, data.js and images/
@@ -134,7 +134,7 @@ python3 build_assets.py     # rewrites content.json, data.js and images/*.svg
 Two deliberate, robust choices so the game **always works offline and never
 shows a broken asset** — while still meeting every requirement:
 
-* **Pictures** are delivered as small, colourful **SVG files** in `images/`
+* **Pictures** are delivered as small, colorful **SVG files** in `images/`
   (real files, referenced by the data's `image` field). Each renders a themed
   card with the matching emoji, so they are crisp at any size, tiny, and
   license-free. If a file is ever missing, the app instantly falls back to a

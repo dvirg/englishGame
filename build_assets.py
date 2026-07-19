@@ -9,11 +9,11 @@ Single source of truth for ALL game content (now ~100 levels).
 Outputs (next to this file):
     content.json      Pretty structured data file (the canonical curriculum).
     data.js           `window.GAME_DATA = {...}` — loaded by the browser.
-    images/<slug>.svg One small, colourful picture per vocabulary word.
+    images/<slug>.svg One small, colorful picture per vocabulary word.
 
 Curriculum
 ----------
-Content is organised into "worlds" that mirror the real Novakid ladder
+Content is organized into "worlds" that mirror the real Novakid ladder
 (Pre-K -> Juniors -> Starters -> Movers -> Flyers -> Explorers). Each world
 holds several **levels**; a level is one playable topic (a 10-game session).
 Levels are numbered globally and are unlocked in order: the next level opens
@@ -26,9 +26,9 @@ routine, Activities I love, Food quantity, Let's compare, Places & past).
 Media
 -----
 * Pictures: real, small SVG files in ./images (one per word) that render the
-  matching emoji on a coloured card, referenced by each item's `image` field.
+  matching emoji on a colored card, referenced by each item's `image` field.
   The app falls back to a live emoji if a file is missing, so pictures never
-  break. Colours cycle per level for variety.
+  break. Colors cycle per level for variety.
 * Audio: generated live in the browser by the Web Speech API with an en-US
   (American) voice — see app.js. No audio files are shipped.
 """
@@ -339,7 +339,7 @@ def make_grammar(theme, items):
 # ---------------------------------------------------------------------------
 WORLDS = [
     ("Pre-K Planet", "First tiny words", [
-        ("Colours", [("red", "🔴"), ("blue", "🔵"), ("green", "🟢"), ("yellow", "🟡"), ("orange", "🟠"), ("purple", "🟣"), ("pink", "�"), ("black", "⚫")]),
+        ("Colors", [("red", "🔴"), ("blue", "🔵"), ("green", "🟢"), ("yellow", "🟡"), ("orange", "🟠"), ("purple", "🟣"), ("pink", "�"), ("black", "⚫")]),
         ("Numbers 1-5", [("one", "1️⃣"), ("two", "2️⃣"), ("three", "3️⃣"), ("four", "4️⃣"), ("five", "5️⃣")]),
         ("Numbers 6-10", [("six", "6️⃣"), ("seven", "7️⃣"), ("eight", "8️⃣"), ("nine", "9️⃣"), ("ten", "🔟")]),
         ("Shapes", [("star", "⭐"), ("heart", "❤️"), ("circle", "⚪"), ("square", "🟦"), ("diamond", "💎"), ("moon", "🌙")]),
@@ -348,7 +348,7 @@ WORLDS = [
         ("My Body", [("hand", "✋"), ("eye", "👁️"), ("nose", "👃"), ("ear", "👂"), ("mouth", "👄"), ("foot", "🦶")]),
         ("Fruit", [("apple", "🍎"), ("banana", "🍌"), ("orange", "🍊"), ("grapes", "🍇"), ("strawberry", "🍓"), ("melon", "🍉")]),
         ("Toys", [("ball", "⚽"), ("teddy", "🧸"), ("doll", "🪆"), ("car", "🚗"), ("kite", "🪁"), ("blocks", "🧱")]),
-        ("Family", [("mum", "👩"), ("dad", "👨"), ("baby", "👶"), ("brother", "👦"), ("sister", "👧"), ("grandma", "👵"), ("grandpa", "👴")]),
+        ("Family", [("mom", "👩"), ("dad", "👨"), ("baby", "👶"), ("brother", "👦"), ("sister", "👧"), ("grandma", "👵"), ("grandpa", "👴")]),
         ("Faces", [("smile", "😊"), ("cry", "😭"), ("laugh", "😂"), ("wink", "😉"), ("yawn", "🥱"), ("angry", "😠")]),
         ("Snacks", [("cookie", "🍪"), ("candy", "🍬"), ("popcorn", "🍿"), ("lollipop", "🍭"), ("chocolate", "🍫"), ("cupcake", "🧁")]),
     ]),
@@ -368,7 +368,7 @@ WORLDS = [
         ("Kitchen", [("cup", "☕"), ("plate", "🍽️"), ("fork", "🍴"), ("spoon", "🥄"), ("knife", "🔪"), ("pot", "🍲")]),
         ("Garden", [("flower", "🌸"), ("tree", "🌳"), ("grass", "🌿"), ("leaf", "🍃"), ("seed", "🌱"), ("bug", "🐛")]),
         ("Nature", [("mountain", "⛰️"), ("river", "🏞️"), ("beach", "🏖️"), ("forest", "🌲"), ("sky", "🌌"), ("fire", "🔥")]),
-        ("Colours 2", [("pink", "�"), ("brown", "🤎"), ("white", "⚪"), ("black", "⚫"), ("grey", "🔘"), ("blue", "🔵")]),
+        ("Colors 2", [("pink", "�"), ("brown", "🤎"), ("white", "⚪"), ("black", "⚫"), ("gray", "🔘"), ("blue", "🔵")]),
         ("In the Sky", [("sun", "☀️"), ("moon", "🌙"), ("star", "⭐"), ("cloud", "☁️"), ("rainbow", "🌈"), ("kite", "🪁")]),
         ("Water Fun", [("fish", "🐟"), ("boat", "⛵"), ("duck", "🦆"), ("wave", "🌊"), ("shell", "🐚"), ("crab", "🦀")]),
     ]),
@@ -471,16 +471,16 @@ GRAMMAR_WORLDS = [
         ("Classroom Champion", [("pen", "🖊️"), ("book", "📚"), ("bag", "🎒"), ("desk", "🪑"), ("ruler", "📏"), ("tablet", "📱")], "this-an"),
     ]),
     ("Family & Feelings", "To be — Magic Academy Unit 2", [
-        ("Gondax Castle", [("mum", "👩"), ("dad", "👨"), ("brother", "👦"), ("sister", "👧"), ("baby", "👶"), ("friend", "🤝")], "to-be"),
-        ("The Royal Boat", [("mum", "👩"), ("dad", "👨"), ("grandma", "👵"), ("grandpa", "👴"), ("sister", "👧"), ("brother", "👦")], "to-be"),
+        ("Gondax Castle", [("mom", "👩"), ("dad", "👨"), ("brother", "👦"), ("sister", "👧"), ("baby", "👶"), ("friend", "🤝")], "to-be"),
+        ("The Royal Boat", [("mom", "👩"), ("dad", "👨"), ("grandma", "👵"), ("grandpa", "👴"), ("sister", "👧"), ("brother", "👦")], "to-be"),
         ("The Whole Family", [("family", "👨‍👩‍👧"), ("grandma", "👵"), ("grandpa", "👴"), ("baby", "👶"), ("sister", "👧"), ("brother", "👦")], "to-be"),
         ("Not True!", [("happy", "😀"), ("sad", "😢"), ("angry", "😠"), ("scared", "😨"), ("tired", "😫"), ("excited", "🤩")], "to-be"),
         ("The Giant Eagle", [("happy", "😀"), ("sad", "😢"), ("angry", "😠"), ("scared", "😨"), ("tired", "😫"), ("excited", "🤩")], "to-be"),
         ("How do you feel?", [("happy", "😀"), ("sad", "😢"), ("angry", "😠"), ("scared", "😨"), ("tired", "😫"), ("excited", "🤩")], "to-be"),
         ("Grandma's Chip", [("man", "🧔"), ("woman", "👩"), ("child", "🧒"), ("foot", "🦶"), ("tooth", "🦷"), ("mouse", "🐭")], "to-be"),
-        ("This is my family", [("mum", "👩"), ("dad", "👨"), ("brother", "👦"), ("sister", "👧"), ("baby", "👶"), ("grandma", "👵")], "to-be"),
+        ("This is my family", [("mom", "👩"), ("dad", "👨"), ("brother", "👦"), ("sister", "👧"), ("baby", "👶"), ("grandma", "👵")], "to-be"),
         ("Sound Lab", [("bear", "🐻"), ("chair", "🪑"), ("clear", "🔦"), ("near", "🏠"), ("year", "📅"), ("hear", "👂")], "to-be"),
-        ("Family Champion", [("mum", "👩"), ("dad", "👨"), ("brother", "👦"), ("sister", "👧"), ("baby", "👶"), ("happy", "😀")], "to-be"),
+        ("Family Champion", [("mom", "👩"), ("dad", "👨"), ("brother", "👦"), ("sister", "👧"), ("baby", "👶"), ("happy", "😀")], "to-be"),
     ]),
     ("Activities", "Can / can't — Magic Academy Unit 3", [
         ("The Trampoline", [("run", "🏃"), ("jump", "🤸"), ("swim", "🏊"), ("dance", "💃"), ("sing", "🎤"), ("draw", "🎨")], "can"),
@@ -550,7 +550,7 @@ GRAMMAR_WORLDS = [
         ("Some or Any?", [("apples", "🍎"), ("rice", "🍚"), ("juice", "🧃"), ("eggs", "🥚"), ("sugar", "🍬"), ("milk", "🥛")], "quantity"),
         ("Wake the Plopster", [("juice", "🧃"), ("water", "💧"), ("milk", "🥛"), ("sugar", "🍬"), ("rice", "🍚"), ("bread", "🍞")], "quantity"),
         ("Where's the Egg?", [("egg", "🥚"), ("box", "📦"), ("cup", "☕"), ("bag", "🎒"), ("table", "🪑"), ("chair", "🪑")], "quantity"),
-        ("Big Letters", [("Tel Aviv", "🌆"), ("Mina", "👧"), ("Mum", "👩"), ("Lila", "🌸"), ("school", "🏫"), ("home", "🏠")], "quantity"),
+        ("Big Letters", [("Tel Aviv", "🌆"), ("Mina", "👧"), ("Mom", "👩"), ("Lila", "🌸"), ("school", "🏫"), ("home", "🏠")], "quantity"),
         ("Sound Lab", [("blonde", "💛"), ("flower", "🌸"), ("glove", "🧤"), ("plate", "🍽️"), ("glass", "🫙"), ("clock", "🕐")], "quantity"),
         ("Quantity Champion", [("apples", "🍎"), ("water", "💧"), ("eggs", "🥚"), ("rice", "🍚"), ("juice", "🧃"), ("sugar", "🍬")], "quantity"),
     ]),
@@ -591,7 +591,7 @@ ADVANCED_WORLDS = [
         ("Future with going to", [("going", "🚗"), ("planning", "🧭"), ("traveling", "🌍"), ("saving", "💰"), ("joining", "🤝"), ("building", "🏗️")]),
         ("Present perfect continuous", [("been", "🧑‍🏫"), ("working", "💼"), ("studying", "📚"), ("waiting", "⏳"), ("playing", "🎮"), ("living", "🏠")]),
         ("Past perfect continuous", [("had", "🍎"), ("been", "🧑‍🏫"), ("sleeping", "😴"), ("running", "🏃"), ("practicing", "🎹"), ("looking", "🔍")]),
-        ("Future continuous tense", [("playing", "🎾"), ("cooking", "🍳"), ("sleeping", "😴"), ("travelling", "✈️"), ("reading", "📖"), ("watching", "🎬")]),
+        ("Future continuous tense", [("playing", "🎾"), ("cooking", "🍳"), ("sleeping", "😴"), ("traveling", "✈️"), ("reading", "📖"), ("watching", "🎬")]),
     ]),
     ("Modal Mountain", "Can, may, must and more", [
         ("Ability: can / could", [("can", "✅"), ("could", "🤔"), ("run", "🏃"), ("jump", "🤾"), ("sing", "🎤"), ("swim", "🏊")]),
@@ -747,7 +747,7 @@ MASCOTS = ["🦸", "🧙", "🚀", "🌟", "🦄", "🐯", "🦉", "🤖"]
 
 def build():
     os.makedirs(IMAGES_DIR, exist_ok=True)
-    images = {}  # slug -> (emoji, color)  (first level to use a slug wins its colour)
+    images = {}  # slug -> (emoji, color)  (first level to use a slug wins its color)
 
     levels_out = []
     index = 0

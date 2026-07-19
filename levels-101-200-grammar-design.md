@@ -141,7 +141,7 @@ Vocab: classroom objects (pen, book, desk, bag, ruler, tablet, board, chair).
 
 ### World 12 — Unit 2 · Family & Feelings  (L110–L119)
 *Grammar arc: verb **to be** (am/is/are), personal pronouns, irregular plurals, demonstratives.*
-Vocab: family (mum, dad, brother, sister, grandma, grandpa, baby) + feelings (happy, sad, tired, angry, scared, excited).
+Vocab: family (mom, dad, brother, sister, grandma, grandpa, baby) + feelings (happy, sad, tired, angry, scared, excited).
 
 | Lvl | id | Quest / focus | Grammar target | Example |
 |----|-----|----|----|----|
@@ -152,7 +152,7 @@ Vocab: family (mum, dad, brother, sister, grandma, grandpa, baby) + feelings (ha
 |115|L114|The Giant Eagle|to be **questions**|"Are you happy?"|
 |116|L115|How do you feel?|feelings + to be|"I am excited."|
 |117|L116|Grandma's Chip|**irregular plurals**|man→men, child→children, foot→feet|
-|118|L117|This is my family|demonstratives + to be|"This is my mum. These are my brothers."|
+|118|L117|This is my family|demonstratives + to be|"This is my mom. These are my brothers."|
 |119|L118|Sound Lab: air/ear/er|phonics + reading|—|
 |120|L119|Family Champion|**Unit 2 review**|—|
 
@@ -439,7 +439,7 @@ vocab.
 - **Preferred:** generalise the existing `sort_it`: **if `api.level.grammar.sort` exists,
   build bins from `binA`/`binB` and tokens from `grammar.sort.tokens`** (each token:
   render `api.picNode`-style card from `emoji` + `t`, category `cat`); **else** keep the
-  current behaviour (this level's items vs a random other level's). This keeps levels
+  current behavior (this level's items vs a random other level's). This keeps levels
   0–99 identical and needs no new registered type — but you **should still register a
   distinct `sort_rule` id** in `GAME_TYPES` (its own instruction) and route it to the
   same renderer so the recipe can request it explicitly. Simplest: `sort_rule` and
@@ -553,7 +553,7 @@ a `fix_sentence`, assert the wrong card does not finish. Keep the fast automatio
 - [ ] Home map shows 16 worlds; L100 unlocks after L99 scores ≥ 95; chain runs to L199.
 - [ ] `build_audio.py` produces clips for all new text (or Web-Speech fallback verified).
 - [ ] `python test_e2e.py` passes start-to-finish across all 200 levels.
-- [ ] Levels 0–99 are byte-for-byte unchanged in behaviour (same 10 games, same scores).
+- [ ] Levels 0–99 are byte-for-byte unchanged in behavior (same 10 games, same scores).
 
 ---
 

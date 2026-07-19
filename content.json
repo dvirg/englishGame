@@ -121,7 +121,7 @@
       "world": "Pre-K Planet",
       "worldSubtitle": "First tiny words",
       "worldIndex": 0,
-      "name": "Colours",
+      "name": "Colors",
       "category": "L00",
       "color": "#FFE7A8",
       "items": [
@@ -792,10 +792,10 @@
       "color": "#E9DDFF",
       "items": [
         {
-          "word": "mum",
+          "word": "mom",
           "emoji": "👩",
-          "slug": "mum",
-          "image": "images/mum.svg",
+          "slug": "mom",
+          "image": "images/mom.svg",
           "color": "#E9DDFF"
         },
         {
@@ -842,7 +842,7 @@
         }
       ],
       "sentences": [
-        "The mum is nice.",
+        "The mom is nice.",
         "I love the dad.",
         "I like the baby.",
         "I like the brother.",
@@ -2053,7 +2053,7 @@
       "world": "Juniors Jungle",
       "worldSubtitle": "Lots of first words",
       "worldIndex": 1,
-      "name": "Colours 2",
+      "name": "Colors 2",
       "category": "L26",
       "color": "#FDE2B3",
       "items": [
@@ -2086,10 +2086,10 @@
           "color": "#FDE2B3"
         },
         {
-          "word": "grey",
+          "word": "gray",
           "emoji": "🔘",
-          "slug": "grey",
-          "image": "images/grey.svg",
+          "slug": "gray",
+          "image": "images/gray.svg",
           "color": "#FDE2B3"
         },
         {
@@ -2105,7 +2105,7 @@
         "I have the brown.",
         "Look at the white!",
         "Let's play with the black!",
-        "The grey is fun.",
+        "The gray is fun.",
         "I like the blue."
       ],
       "gameTypes": [
@@ -9394,10 +9394,10 @@
       "color": "#E6D3FF",
       "items": [
         {
-          "word": "mum",
+          "word": "mom",
           "emoji": "👩",
-          "slug": "mum",
-          "image": "images/mum.svg",
+          "slug": "mom",
+          "image": "images/mom.svg",
           "color": "#E6D3FF"
         },
         {
@@ -9437,7 +9437,7 @@
         }
       ],
       "sentences": [
-        "This is a mum.",
+        "This is a mom.",
         "This is a dad.",
         "This is a brother.",
         "This is a sister.",
@@ -9583,10 +9583,10 @@
       "color": "#C9F0EC",
       "items": [
         {
-          "word": "mum",
+          "word": "mom",
           "emoji": "👩",
-          "slug": "mum",
-          "image": "images/mum.svg",
+          "slug": "mom",
+          "image": "images/mom.svg",
           "color": "#C9F0EC"
         },
         {
@@ -9626,7 +9626,7 @@
         }
       ],
       "sentences": [
-        "This is a mum.",
+        "This is a mom.",
         "This is a dad.",
         "This is a grandma.",
         "This is a grandpa.",
@@ -10717,10 +10717,10 @@
       "color": "#FFE0C4",
       "items": [
         {
-          "word": "mum",
+          "word": "mom",
           "emoji": "👩",
-          "slug": "mum",
-          "image": "images/mum.svg",
+          "slug": "mom",
+          "image": "images/mom.svg",
           "color": "#FFE0C4"
         },
         {
@@ -10760,7 +10760,7 @@
         }
       ],
       "sentences": [
-        "This is a mum.",
+        "This is a mom.",
         "This is a dad.",
         "This is a brother.",
         "This is a sister.",
@@ -11095,10 +11095,10 @@
       "color": "#CBF3E1",
       "items": [
         {
-          "word": "mum",
+          "word": "mom",
           "emoji": "👩",
-          "slug": "mum",
-          "image": "images/mum.svg",
+          "slug": "mom",
+          "image": "images/mom.svg",
           "color": "#CBF3E1"
         },
         {
@@ -11138,7 +11138,7 @@
         }
       ],
       "sentences": [
-        "This is a mum.",
+        "This is a mom.",
         "This is a dad.",
         "This is a brother.",
         "This is a sister.",
@@ -21930,10 +21930,10 @@
           "color": "#DCC9FF"
         },
         {
-          "word": "Mum",
+          "word": "Mom",
           "emoji": "👩",
-          "slug": "mum",
-          "image": "images/mum.svg",
+          "slug": "mom",
+          "image": "images/mom.svg",
           "color": "#DCC9FF"
         },
         {
@@ -21961,10 +21961,10 @@
       "sentences": [
         "This is a Tel Aviv.",
         "This is a Mina.",
-        "This is a Mum.",
+        "This is a Mom.",
         "This is a Lila.",
         "These are minas.",
-        "I like the Mum."
+        "I like the Mom."
       ],
       "grammar": {
         "target": "How much / how many",
@@ -26881,10 +26881,10 @@
           "color": "#DCC9FF"
         },
         {
-          "word": "travelling",
+          "word": "traveling",
           "emoji": "✈️",
-          "slug": "travelling",
-          "image": "images/travelling.svg",
+          "slug": "traveling",
+          "image": "images/traveling.svg",
           "color": "#DCC9FF"
         },
         {
@@ -26906,7 +26906,7 @@
         "My playing is cool.",
         "Let's play with the cooking!",
         "I can see the sleeping.",
-        "We have a travelling.",
+        "We have a traveling.",
         "I want the reading.",
         "Look at the watching!"
       ],
