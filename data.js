@@ -666,8 +666,8 @@ window.GAME_DATA = {
         {
           "word": "orange",
           "emoji": "🍊",
-          "slug": "orange",
-          "image": "images/orange.svg",
+          "slug": "orange-fruit",
+          "image": "images/orange-fruit.svg",
           "color": "#CBF3E1"
         },
         {
@@ -2989,8 +2989,8 @@ window.GAME_DATA = {
         {
           "word": "snow",
           "emoji": "⛄",
-          "slug": "snow",
-          "image": "images/snow.svg",
+          "slug": "snow-seasons",
+          "image": "images/snow-seasons.svg",
           "color": "#CDEBFF"
         }
       ],
@@ -4381,8 +4381,8 @@ window.GAME_DATA = {
         {
           "word": "bag",
           "emoji": "🛍️",
-          "slug": "bag",
-          "image": "images/bag.svg",
+          "slug": "bag-shopping",
+          "image": "images/bag-shopping.svg",
           "color": "#E9DDFF"
         },
         {
@@ -4508,8 +4508,8 @@ window.GAME_DATA = {
         {
           "word": "cake",
           "emoji": "🎂",
-          "slug": "cake",
-          "image": "images/cake.svg",
+          "slug": "cake-party-time",
+          "image": "images/cake-party-time.svg",
           "color": "#D8F0FF"
         },
         {
@@ -5061,8 +5061,8 @@ window.GAME_DATA = {
         {
           "word": "sleepy",
           "emoji": "😴",
-          "slug": "sleepy",
-          "image": "images/sleepy.svg",
+          "slug": "sleepy-feeling-faces",
+          "image": "images/sleepy-feeling-faces.svg",
           "color": "#FFD0DE"
         }
       ],
@@ -5914,8 +5914,8 @@ window.GAME_DATA = {
         {
           "word": "tree",
           "emoji": "🎄",
-          "slug": "tree",
-          "image": "images/tree.svg",
+          "slug": "tree-christmas",
+          "image": "images/tree-christmas.svg",
           "color": "#E6D3FF"
         },
         {
@@ -7489,8 +7489,8 @@ window.GAME_DATA = {
         {
           "word": "star",
           "emoji": "🌟",
-          "slug": "star",
-          "image": "images/star.svg",
+          "slug": "star-grand-finale",
+          "image": "images/star-grand-finale.svg",
           "color": "#C6F0CE"
         },
         {
@@ -7742,15 +7742,15 @@ window.GAME_DATA = {
         {
           "word": "orange",
           "emoji": "🍊",
-          "slug": "orange",
-          "image": "images/orange.svg",
+          "slug": "orange-a-or-an",
+          "image": "images/orange-a-or-an.svg",
           "color": "#FFE0C4"
         },
         {
           "word": "umbrella",
           "emoji": "☔",
-          "slug": "umbrella",
-          "image": "images/umbrella.svg",
+          "slug": "umbrella-a-or-an",
+          "image": "images/umbrella-a-or-an.svg",
           "color": "#FFE0C4"
         },
         {
@@ -11499,8 +11499,8 @@ window.GAME_DATA = {
         {
           "word": "fly",
           "emoji": "🦅",
-          "slug": "fly",
-          "image": "images/fly.svg",
+          "slug": "fly-astro-gets-a-sticker",
+          "image": "images/fly-astro-gets-a-sticker.svg",
           "color": "#E9DDFF"
         },
         {
@@ -12415,8 +12415,8 @@ window.GAME_DATA = {
         {
           "word": "fly",
           "emoji": "🦅",
-          "slug": "fly",
-          "image": "images/fly.svg",
+          "slug": "fly-can-or-can-t",
+          "image": "images/fly-can-or-can-t.svg",
           "color": "#E6D3FF"
         },
         {
@@ -13173,8 +13173,8 @@ window.GAME_DATA = {
         {
           "word": "doll",
           "emoji": "🧸",
-          "slug": "doll",
-          "image": "images/doll.svg",
+          "slug": "doll-astro-gets-wings",
+          "image": "images/doll-astro-gets-wings.svg",
           "color": "#FFD0DE"
         },
         {
@@ -13359,8 +13359,8 @@ window.GAME_DATA = {
         {
           "word": "doll",
           "emoji": "🧸",
-          "slug": "doll",
-          "image": "images/doll.svg",
+          "slug": "doll-chewing-gum",
+          "image": "images/doll-chewing-gum.svg",
           "color": "#C6F0CE"
         },
         {
@@ -13545,8 +13545,8 @@ window.GAME_DATA = {
         {
           "word": "doll",
           "emoji": "🧸",
-          "slug": "doll",
-          "image": "images/doll.svg",
+          "slug": "doll-nothing-left",
+          "image": "images/doll-nothing-left.svg",
           "color": "#BFE2FF"
         },
         {
@@ -13724,8 +13724,8 @@ window.GAME_DATA = {
         {
           "word": "doll",
           "emoji": "🧸",
-          "slug": "doll",
-          "image": "images/doll.svg",
+          "slug": "doll-have-you-got",
+          "image": "images/doll-have-you-got.svg",
           "color": "#FFE0C4"
         },
         {
@@ -13917,8 +13917,8 @@ window.GAME_DATA = {
         {
           "word": "doll",
           "emoji": "🧸",
-          "slug": "doll",
-          "image": "images/doll.svg",
+          "slug": "doll-whose-is-it",
+          "image": "images/doll-whose-is-it.svg",
           "color": "#CDEBFF"
         },
         {
@@ -14096,8 +14096,8 @@ window.GAME_DATA = {
         {
           "word": "doll",
           "emoji": "🧸",
-          "slug": "doll",
-          "image": "images/doll.svg",
+          "slug": "doll-astro-s-ball",
+          "image": "images/doll-astro-s-ball.svg",
           "color": "#CBF3E1"
         },
         {
@@ -14289,8 +14289,8 @@ window.GAME_DATA = {
         {
           "word": "doll",
           "emoji": "🧸",
-          "slug": "doll",
-          "image": "images/doll.svg",
+          "slug": "doll-mine-yours",
+          "image": "images/doll-mine-yours.svg",
           "color": "#FFE0D5"
         },
         {
@@ -14468,8 +14468,8 @@ window.GAME_DATA = {
         {
           "word": "doll",
           "emoji": "🧸",
-          "slug": "doll",
-          "image": "images/doll.svg",
+          "slug": "doll-toy-box",
+          "image": "images/doll-toy-box.svg",
           "color": "#E9DDFF"
         },
         {
@@ -14654,8 +14654,8 @@ window.GAME_DATA = {
         {
           "word": "doll",
           "emoji": "🧸",
-          "slug": "doll",
-          "image": "images/doll.svg",
+          "slug": "doll-sound-review",
+          "image": "images/doll-sound-review.svg",
           "color": "#FDE2B3"
         },
         {
@@ -14840,8 +14840,8 @@ window.GAME_DATA = {
         {
           "word": "doll",
           "emoji": "🧸",
-          "slug": "doll",
-          "image": "images/doll.svg",
+          "slug": "doll-things-champion",
+          "image": "images/doll-things-champion.svg",
           "color": "#D8F0FF"
         },
         {
@@ -26290,8 +26290,8 @@ window.GAME_DATA = {
         {
           "word": "saw",
           "emoji": "👁️",
-          "slug": "saw",
-          "image": "images/saw.svg",
+          "slug": "saw-past-simple-irregular-verbs",
+          "image": "images/saw-past-simple-irregular-verbs.svg",
           "color": "#E9DDFF"
         },
         {
@@ -26868,8 +26868,8 @@ window.GAME_DATA = {
         {
           "word": "playing",
           "emoji": "🎾",
-          "slug": "playing",
-          "image": "images/playing.svg",
+          "slug": "playing-future-continuous-tense",
+          "image": "images/playing-future-continuous-tense.svg",
           "color": "#DCC9FF"
         },
         {
@@ -26889,8 +26889,8 @@ window.GAME_DATA = {
         {
           "word": "traveling",
           "emoji": "✈️",
-          "slug": "traveling",
-          "image": "images/traveling.svg",
+          "slug": "traveling-future-continuous-tense",
+          "image": "images/traveling-future-continuous-tense.svg",
           "color": "#DCC9FF"
         },
         {
@@ -26963,8 +26963,8 @@ window.GAME_DATA = {
         {
           "word": "jump",
           "emoji": "🤾",
-          "slug": "jump",
-          "image": "images/jump.svg",
+          "slug": "jump-ability-can-could",
+          "image": "images/jump-ability-can-could.svg",
           "color": "#FFD0DE"
         },
         {
@@ -27319,8 +27319,8 @@ window.GAME_DATA = {
         {
           "word": "may",
           "emoji": "🟦",
-          "slug": "may",
-          "image": "images/may.svg",
+          "slug": "may-permission-and-request-phrases",
+          "image": "images/may-permission-and-request-phrases.svg",
           "color": "#CBF3E1"
         },
         {
@@ -27608,8 +27608,8 @@ window.GAME_DATA = {
         {
           "word": "may",
           "emoji": "🌦️",
-          "slug": "may",
-          "image": "images/may.svg",
+          "slug": "may-mixed-modal-review",
+          "image": "images/may-mixed-modal-review.svg",
           "color": "#D8F0FF"
         },
         {
@@ -27703,8 +27703,8 @@ window.GAME_DATA = {
         {
           "word": "cold",
           "emoji": "❄️",
-          "slug": "cold",
-          "image": "images/cold.svg",
+          "slug": "cold-zero-conditional-facts",
+          "image": "images/cold-zero-conditional-facts.svg",
           "color": "#FFD6C9"
         },
         {
@@ -29560,15 +29560,15 @@ window.GAME_DATA = {
         {
           "word": "right",
           "emoji": "👍",
-          "slug": "right",
-          "image": "images/right.svg",
+          "slug": "right-tag-questions",
+          "image": "images/right-tag-questions.svg",
           "color": "#FFE0C4"
         },
         {
           "word": "yes",
           "emoji": "✅",
-          "slug": "yes",
-          "image": "images/yes.svg",
+          "slug": "yes-tag-questions",
+          "image": "images/yes-tag-questions.svg",
           "color": "#FFE0C4"
         }
       ],
@@ -29680,8 +29680,8 @@ window.GAME_DATA = {
         {
           "word": "playing",
           "emoji": "🎾",
-          "slug": "playing",
-          "image": "images/playing.svg",
+          "slug": "playing-gerunds-and-infinitives",
+          "image": "images/playing-gerunds-and-infinitives.svg",
           "color": "#CBF3E1"
         },
         {
@@ -29923,8 +29923,8 @@ window.GAME_DATA = {
         {
           "word": "on",
           "emoji": "🟢",
-          "slug": "on",
-          "image": "images/on.svg",
+          "slug": "on-phrasal-verbs-with-get",
+          "image": "images/on-phrasal-verbs-with-get.svg",
           "color": "#FDE2B3"
         },
         {
@@ -29997,8 +29997,8 @@ window.GAME_DATA = {
         {
           "word": "in",
           "emoji": "⬇️",
-          "slug": "in",
-          "image": "images/in.svg",
+          "slug": "in-phrasal-verbs-with-take",
+          "image": "images/in-phrasal-verbs-with-take.svg",
           "color": "#D8F0FF"
         },
         {
@@ -30057,8 +30057,8 @@ window.GAME_DATA = {
         {
           "word": "on",
           "emoji": "🟢",
-          "slug": "on",
-          "image": "images/on.svg",
+          "slug": "on-phrasal-verbs-with-put",
+          "image": "images/on-phrasal-verbs-with-put.svg",
           "color": "#FFD6C9"
         },
         {
@@ -30071,8 +30071,8 @@ window.GAME_DATA = {
         {
           "word": "in",
           "emoji": "⬇️",
-          "slug": "in",
-          "image": "images/in.svg",
+          "slug": "in-phrasal-verbs-with-put",
+          "image": "images/in-phrasal-verbs-with-put.svg",
           "color": "#FFD6C9"
         },
         {
@@ -30205,8 +30205,8 @@ window.GAME_DATA = {
         {
           "word": "after",
           "emoji": "🛟",
-          "slug": "after",
-          "image": "images/after.svg",
+          "slug": "after-phrasal-verbs-with-look",
+          "image": "images/after-phrasal-verbs-with-look.svg",
           "color": "#E6D3FF"
         },
         {
@@ -30279,8 +30279,8 @@ window.GAME_DATA = {
         {
           "word": "fast",
           "emoji": "⚡",
-          "slug": "fast",
-          "image": "images/fast.svg",
+          "slug": "fast-common-idioms-and-expressions",
+          "image": "images/fast-common-idioms-and-expressions.svg",
           "color": "#C9F0EC"
         },
         {
@@ -30575,15 +30575,15 @@ window.GAME_DATA = {
         {
           "word": "on",
           "emoji": "🟦",
-          "slug": "on",
-          "image": "images/on.svg",
+          "slug": "on-prepositions-of-time",
+          "image": "images/on-prepositions-of-time.svg",
           "color": "#C6F0CE"
         },
         {
           "word": "in",
           "emoji": "🟪",
-          "slug": "in",
-          "image": "images/in.svg",
+          "slug": "in-prepositions-of-time",
+          "image": "images/in-prepositions-of-time.svg",
           "color": "#C6F0CE"
         },
         {
@@ -30656,8 +30656,8 @@ window.GAME_DATA = {
         {
           "word": "under",
           "emoji": "⬇️",
-          "slug": "under",
-          "image": "images/under.svg",
+          "slug": "under-prepositions-of-place",
+          "image": "images/under-prepositions-of-place.svg",
           "color": "#BFE2FF"
         },
         {
@@ -30737,8 +30737,8 @@ window.GAME_DATA = {
         {
           "word": "into",
           "emoji": "🕳️",
-          "slug": "into",
-          "image": "images/into.svg",
+          "slug": "into-prepositions-of-movement",
+          "image": "images/into-prepositions-of-movement.svg",
           "color": "#FFE0C4"
         },
         {
@@ -30811,8 +30811,8 @@ window.GAME_DATA = {
         {
           "word": "turn",
           "emoji": "↪️",
-          "slug": "turn",
-          "image": "images/turn.svg",
+          "slug": "turn-directions-and-giving-instructions",
+          "image": "images/turn-directions-and-giving-instructions.svg",
           "color": "#CDEBFF"
         },
         {
@@ -30825,8 +30825,8 @@ window.GAME_DATA = {
         {
           "word": "go",
           "emoji": "🏃",
-          "slug": "go",
-          "image": "images/go.svg",
+          "slug": "go-directions-and-giving-instructions",
+          "image": "images/go-directions-and-giving-instructions.svg",
           "color": "#CDEBFF"
         }
       ],
@@ -30878,8 +30878,8 @@ window.GAME_DATA = {
         {
           "word": "hate",
           "emoji": "👎",
-          "slug": "hate",
-          "image": "images/hate.svg",
+          "slug": "hate-expressing-likes-and-dislikes",
+          "image": "images/hate-expressing-likes-and-dislikes.svg",
           "color": "#CBF3E1"
         },
         {
@@ -31174,8 +31174,8 @@ window.GAME_DATA = {
         {
           "word": "doctor",
           "emoji": "🩺",
-          "slug": "doctor",
-          "image": "images/doctor.svg",
+          "slug": "doctor-talking-about-health-and-illnesses",
+          "image": "images/doctor-talking-about-health-and-illnesses.svg",
           "color": "#D8F0FF"
         },
         {
@@ -31491,8 +31491,8 @@ window.GAME_DATA = {
         {
           "word": "save",
           "emoji": "💰",
-          "slug": "save",
-          "image": "images/save.svg",
+          "slug": "save-money-prices-and-currency",
+          "image": "images/save-money-prices-and-currency.svg",
           "color": "#C9F0EC"
         }
       ],
@@ -31530,8 +31530,8 @@ window.GAME_DATA = {
         {
           "word": "doctor",
           "emoji": "🩺",
-          "slug": "doctor",
-          "image": "images/doctor.svg",
+          "slug": "doctor-jobs-and-occupations",
+          "image": "images/doctor-jobs-and-occupations.svg",
           "color": "#FFE7A8"
         },
         {
@@ -31639,8 +31639,8 @@ window.GAME_DATA = {
         {
           "word": "break",
           "emoji": "☕",
-          "slug": "break",
-          "image": "images/break.svg",
+          "slug": "break-work-and-workplace-vocabulary",
+          "image": "images/break-work-and-workplace-vocabulary.svg",
           "color": "#DCC9FF"
         }
       ],
@@ -31854,8 +31854,8 @@ window.GAME_DATA = {
         {
           "word": "hate",
           "emoji": "👎",
-          "slug": "hate",
-          "image": "images/hate.svg",
+          "slug": "hate-expressing-preferences",
+          "image": "images/hate-expressing-preferences.svg",
           "color": "#BFE2FF"
         },
         {
@@ -31907,8 +31907,8 @@ window.GAME_DATA = {
         {
           "word": "may",
           "emoji": "🔵",
-          "slug": "may",
-          "image": "images/may.svg",
+          "slug": "may-asking-for-and-giving-permission",
+          "image": "images/may-asking-for-and-giving-permission.svg",
           "color": "#FFE0C4"
         },
         {
@@ -32439,15 +32439,15 @@ window.GAME_DATA = {
         {
           "word": "yes",
           "emoji": "✅",
-          "slug": "yes",
-          "image": "images/yes.svg",
+          "slug": "yes-social-expressions-and-small-talk",
+          "image": "images/yes-social-expressions-and-small-talk.svg",
           "color": "#FFD6C9"
         },
         {
           "word": "no",
           "emoji": "❌",
-          "slug": "no",
-          "image": "images/no.svg",
+          "slug": "no-social-expressions-and-small-talk",
+          "image": "images/no-social-expressions-and-small-talk.svg",
           "color": "#FFD6C9"
         },
         {
@@ -32492,15 +32492,15 @@ window.GAME_DATA = {
         {
           "word": "tall",
           "emoji": "📏",
-          "slug": "tall",
-          "image": "images/tall.svg",
+          "slug": "tall-describing-people-appearance-and-personality",
+          "image": "images/tall-describing-people-appearance-and-personality.svg",
           "color": "#D6F5C9"
         },
         {
           "word": "short",
           "emoji": "📏",
-          "slug": "short",
-          "image": "images/short.svg",
+          "slug": "short-describing-people-appearance-and-personality",
+          "image": "images/short-describing-people-appearance-and-personality.svg",
           "color": "#D6F5C9"
         },
         {
@@ -32520,8 +32520,8 @@ window.GAME_DATA = {
         {
           "word": "friendly",
           "emoji": "😊",
-          "slug": "friendly",
-          "image": "images/friendly.svg",
+          "slug": "friendly-describing-people-appearance-and-personality",
+          "image": "images/friendly-describing-people-appearance-and-personality.svg",
           "color": "#D6F5C9"
         },
         {
@@ -32721,15 +32721,15 @@ window.GAME_DATA = {
         {
           "word": "room",
           "emoji": "🛏️",
-          "slug": "room",
-          "image": "images/room.svg",
+          "slug": "room-hotel-and-accommodation-phrases",
+          "image": "images/room-hotel-and-accommodation-phrases.svg",
           "color": "#FFE7A8"
         },
         {
           "word": "bed",
           "emoji": "🛌",
-          "slug": "bed",
-          "image": "images/bed.svg",
+          "slug": "bed-hotel-and-accommodation-phrases",
+          "image": "images/bed-hotel-and-accommodation-phrases.svg",
           "color": "#FFE7A8"
         },
         {
@@ -32749,8 +32749,8 @@ window.GAME_DATA = {
         {
           "word": "desk",
           "emoji": "🛋️",
-          "slug": "desk",
-          "image": "images/desk.svg",
+          "slug": "desk-hotel-and-accommodation-phrases",
+          "image": "images/desk-hotel-and-accommodation-phrases.svg",
           "color": "#FFE7A8"
         }
       ],
@@ -32809,8 +32809,8 @@ window.GAME_DATA = {
         {
           "word": "stop",
           "emoji": "🛑",
-          "slug": "stop",
-          "image": "images/stop.svg",
+          "slug": "stop-transportation-and-directions",
+          "image": "images/stop-transportation-and-directions.svg",
           "color": "#DCC9FF"
         },
         {
@@ -33119,8 +33119,8 @@ window.GAME_DATA = {
         {
           "word": "garden",
           "emoji": "🌻",
-          "slug": "garden",
-          "image": "images/garden.svg",
+          "slug": "garden-hobbies-and-free-time-activities",
+          "image": "images/garden-hobbies-and-free-time-activities.svg",
           "color": "#FFE0C4"
         }
       ],
@@ -33528,8 +33528,8 @@ window.GAME_DATA = {
         {
           "word": "happy",
           "emoji": "😊",
-          "slug": "happy",
-          "image": "images/happy.svg",
+          "slug": "happy-emotions-and-feelings-vocabulary",
+          "image": "images/happy-emotions-and-feelings-vocabulary.svg",
           "color": "#D8F0FF"
         },
         {

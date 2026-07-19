@@ -799,8 +799,8 @@
       var B = api.pick(others);
       var A = api.level;
       var tokens = api.shuffle(
-        api.sample(A.items, 3).map(function (x) { return { it: x, cat: "A" }; })
-          .concat(api.sample(B.items, 2).map(function (x) { return { it: x, cat: "B" }; })));
+        A.items.map(function (x) { return { it: x, cat: "A" }; })
+          .concat(B.items.map(function (x) { return { it: x, cat: "B" }; })));
       api.setInstruction("📦 Put each word in the right box");
 
       var idx = 0;

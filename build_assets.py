@@ -53,6 +53,37 @@ def slugify(word):
     return re.sub(r"[^a-z0-9]+", "-", word.lower()).strip("-")
 
 
+def make_asset_slug(word, emoji, context, used_slugs):
+    base = slugify(word)
+    if not base:
+        base = "item"
+
+    if base not in used_slugs:
+        used_slugs[base] = (emoji, context)
+        return base
+
+    if used_slugs[base][0] == emoji:
+        return base
+
+    candidate = slugify("%s-%s" % (word, context)) or "%s-%s" % (base, "item")
+    if candidate not in used_slugs:
+        used_slugs[candidate] = (emoji, context)
+        return candidate
+
+    if used_slugs[candidate][0] == emoji:
+        return candidate
+
+    n = 2
+    while True:
+        alt = "%s-%d" % (candidate, n)
+        if alt not in used_slugs:
+            used_slugs[alt] = (emoji, context)
+            return alt
+        if used_slugs[alt][0] == emoji:
+            return alt
+        n += 1
+
+
 def plural_for(word):
     w = word.lower().rstrip()
     if w.endswith(("s", "x", "z", "ch", "sh")):
@@ -749,6 +780,7 @@ MASCOTS = ["🦸", "🧙", "🚀", "🌟", "🦄", "🐯", "🦉", "🤖"]
 def build():
     os.makedirs(IMAGES_DIR, exist_ok=True)
     images = {}  # slug -> (emoji, color)  (first level to use a slug wins its color)
+    used_asset_slugs = {}
 
     levels_out = []
     index = 0
@@ -763,7 +795,7 @@ def build():
             level_id = "L%02d" % index
             items = []
             for word, emoji in words:
-                slug = slugify(word)
+                slug = make_asset_slug(word, emoji, topic, used_asset_slugs)
                 images.setdefault(slug, (emoji, color))
                 items.append({
                     "word": word,
@@ -798,7 +830,7 @@ def build():
             level_id = "L%02d" % index
             items = []
             for word, emoji in words:
-                slug = slugify(word)
+                slug = make_asset_slug(word, emoji, topic, used_asset_slugs)
                 images.setdefault(slug, (emoji, color))
                 items.append({
                     "word": word,
@@ -841,7 +873,7 @@ def build():
             level_id = "L%02d" % index
             items = []
             for word, emoji in words:
-                slug = slugify(word)
+                slug = make_asset_slug(word, emoji, topic, used_asset_slugs)
                 images.setdefault(slug, (emoji, color))
                 items.append({
                     "word": word,
