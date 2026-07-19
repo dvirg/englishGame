@@ -122,6 +122,40 @@ def _check_image_assets():
     return len(refs)
 
 
+def _check_image_emoji_matches():
+    """Confirm every generated SVG image contains the expected emoji character."""
+    with open(os.path.join(ROOT, "content.json"), encoding="utf-8") as f:
+        data = json.load(f)
+
+    errors = []
+    seen = set()
+    for level in data.get("levels", []):
+        for item in level.get("items", []):
+            image = item.get("image")
+            emoji = item.get("emoji")
+            if not image or not emoji or not image.endswith(".svg"):
+                continue
+            key = (image, emoji)
+            if key in seen:
+                continue
+            seen.add(key)
+            path = os.path.join(ROOT, image)
+            if not os.path.exists(path):
+                errors.append("missing image file: %s" % image)
+                continue
+            with open(path, encoding="utf-8") as imgf:
+                svg = imgf.read()
+            m = re.search(r'<text[^>]*>(.*?)</text>', svg, re.S)
+            if not m:
+                errors.append("no text element in %s" % image)
+                continue
+            actual = m.group(1).strip()
+            if actual != emoji:
+                errors.append("emoji mismatch in %s: expected %r, found %r" % (image, emoji, actual))
+    assert not errors, "emoji image validation failed:\n" + "\n".join(errors)
+    return len(seen)
+
+
 def _check_page_images(page, step, label):
     """Assert that every currently rendered image on the page has actually loaded."""
     page.wait_for_timeout(250)
@@ -360,8 +394,10 @@ def run_full_flow(page, base_url, username):
 
     n_audio = _check_audio_files()
     n_images = _check_image_assets()
+    n_image_emoji = _check_image_emoji_matches()
     step("Audio pack present: %d pre-recorded clips on disk (browser-independent)" % n_audio)
     step("Image asset inventory present: %d referenced image paths on disk" % n_images)
+    step("SVG emoji assets validated: %d image files contain expected emoji" % n_image_emoji)
 
     page.goto(base_url)
     page.wait_for_function("() => window.GilorTest && window.GilorTest.ready")
@@ -377,7 +413,7 @@ def run_full_flow(page, base_url, username):
     st = _state(page)
     total = st["totalLevels"]
     assert st["user"] == username and st["unlocked"] == 0 and st["totalStars"] == 0
-    assert total == 200, "expected 200 levels, got %s" % total
+    assert total == 300, "expected 300 levels, got %s" % total
     step("Registered new user '%s'; %d-level map, only Level 1 open" % (username, total))
 
     # ---- AUDIBLE sound check FIRST, on a clean audio state right after the login gesture ----

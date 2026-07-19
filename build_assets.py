@@ -339,7 +339,7 @@ def make_grammar(theme, items):
 # ---------------------------------------------------------------------------
 WORLDS = [
     ("Pre-K Planet", "First tiny words", [
-        ("Colours", [("red", "🔴"), ("blue", "🔵"), ("green", "🟢"), ("yellow", "🟡"), ("orange", "🟠"), ("purple", "🟣"), ("pink", "🩷"), ("black", "⚫")]),
+        ("Colours", [("red", "🔴"), ("blue", "🔵"), ("green", "🟢"), ("yellow", "🟡"), ("orange", "🟠"), ("purple", "🟣"), ("pink", "�"), ("black", "⚫")]),
         ("Numbers 1-5", [("one", "1️⃣"), ("two", "2️⃣"), ("three", "3️⃣"), ("four", "4️⃣"), ("five", "5️⃣")]),
         ("Numbers 6-10", [("six", "6️⃣"), ("seven", "7️⃣"), ("eight", "8️⃣"), ("nine", "9️⃣"), ("ten", "🔟")]),
         ("Shapes", [("star", "⭐"), ("heart", "❤️"), ("circle", "⚪"), ("square", "🟦"), ("diamond", "💎"), ("moon", "🌙")]),
@@ -368,7 +368,7 @@ WORLDS = [
         ("Kitchen", [("cup", "☕"), ("plate", "🍽️"), ("fork", "🍴"), ("spoon", "🥄"), ("knife", "🔪"), ("pot", "🍲")]),
         ("Garden", [("flower", "🌸"), ("tree", "🌳"), ("grass", "🌿"), ("leaf", "🍃"), ("seed", "🌱"), ("bug", "🐛")]),
         ("Nature", [("mountain", "⛰️"), ("river", "🏞️"), ("beach", "🏖️"), ("forest", "🌲"), ("sky", "🌌"), ("fire", "🔥")]),
-        ("Colours 2", [("pink", "🩷"), ("brown", "🤎"), ("white", "⚪"), ("black", "⚫"), ("grey", "🩶"), ("blue", "🔵")]),
+        ("Colours 2", [("pink", "�"), ("brown", "🤎"), ("white", "⚪"), ("black", "⚫"), ("grey", "🔘"), ("blue", "🔵")]),
         ("In the Sky", [("sun", "☀️"), ("moon", "🌙"), ("star", "⭐"), ("cloud", "☁️"), ("rainbow", "🌈"), ("kite", "🪁")]),
         ("Water Fun", [("fish", "🐟"), ("boat", "⛵"), ("duck", "🦆"), ("wave", "🌊"), ("shell", "🐚"), ("crab", "🦀")]),
     ]),
@@ -580,6 +580,129 @@ GRAMMAR_WORLDS = [
     ]),
 ]
 
+ADVANCED_WORLDS = [
+    ("Tense Trek", "Verb forms across time", [
+        ("Past simple regular verbs", [("played", "🏏"), ("jumped", "🤾"), ("cooked", "🍳"), ("cleaned", "🧹"), ("watched", "🎬"), ("helped", "🆘")]),
+        ("Past simple irregular verbs", [("went", "🚶"), ("ate", "🍽️"), ("saw", "👁️"), ("had", "🍎"), ("took", "📸"), ("made", "🔨")]),
+        ("Past continuous tense", [("running", "🏃"), ("swimming", "🏊"), ("dancing", "💃"), ("painting", "🎨"), ("reading", "📖"), ("singing", "🎤")]),
+        ("Present perfect tense", [("visited", "🏠"), ("learned", "🧠"), ("started", "🏁"), ("finished", "✅"), ("tried", "🧪"), ("found", "🔎")]),
+        ("Past perfect tense", [("had", "🍎"), ("seen", "👀"), ("gone", "✈️"), ("eaten", "🍔"), ("made", "🔨"), ("done", "✅")]),
+        ("Future simple with will", [("will", "🎯"), ("plan", "🗓️"), ("help", "🤝"), ("change", "🔄"), ("share", "🤲"), ("dream", "💭")]),
+        ("Future with going to", [("going", "🚗"), ("planning", "🧭"), ("traveling", "🌍"), ("saving", "💰"), ("joining", "🤝"), ("building", "🏗️")]),
+        ("Present perfect continuous", [("been", "🧑‍🏫"), ("working", "💼"), ("studying", "📚"), ("waiting", "⏳"), ("playing", "🎮"), ("living", "🏠")]),
+        ("Past perfect continuous", [("had", "🍎"), ("been", "🧑‍🏫"), ("sleeping", "😴"), ("running", "🏃"), ("practicing", "🎹"), ("looking", "🔍")]),
+        ("Future continuous tense", [("playing", "🎾"), ("cooking", "🍳"), ("sleeping", "😴"), ("travelling", "✈️"), ("reading", "📖"), ("watching", "🎬")]),
+    ]),
+    ("Modal Mountain", "Can, may, must and more", [
+        ("Ability: can / could", [("can", "✅"), ("could", "🤔"), ("run", "🏃"), ("jump", "🤾"), ("sing", "🎤"), ("swim", "🏊")]),
+        ("Possibility: may / might", [("may", "🌧️"), ("might", "⚡"), ("rain", "🌧️"), ("snow", "❄️"), ("change", "🔄"), ("happen", "🎲")]),
+        ("Obligation: must / have to", [("must", "🛑"), ("have", "🤲"), ("need", "📌"), ("finish", "✅"), ("study", "📚"), ("clean", "🧹")]),
+        ("Advice: should / ought to", [("should", "💡"), ("ought", "🧠"), ("ask", "❓"), ("listen", "👂"), ("try", "🧪"), ("learn", "📘")]),
+        ("Habits & past ability: would / used to", [("would", "🌀"), ("used", "🔧"), ("read", "📖"), ("play", "🎮"), ("walk", "🚶"), ("think", "💭")]),
+        ("Permission and request phrases", [("please", "🙏"), ("may", "🟦"), ("can", "✅"), ("ask", "❓"), ("help", "🤝"), ("open", "🔓")]),
+        ("Necessity and lack of necessity", [("must", "🛑"), ("need", "📌"), ("dont", "🚫"), ("can", "✅"), ("skip", "⏭️"), ("save", "💾")]),
+        ("Polite obligation vs orders", [("please", "🙏"), ("must", "🛑"), ("should", "💡"), ("wait", "⏳"), ("stop", "✋"), ("listen", "👂")]),
+        ("Modal questions and short answers", [("can", "✅"), ("could", "🤔"), ("will", "🎯"), ("yes", "👍"), ("no", "👎"), ("why", "❓")]),
+        ("Mixed modal review", [("may", "🌦️"), ("must", "🛑"), ("should", "💡"), ("can", "✅"), ("might", "⚡"), ("would", "🌀")]),
+    ]),
+    ("Conditional Cove", "If... then... everyday facts", [
+        ("Zero conditional facts", [("rain", "🌧️"), ("wet", "💧"), ("hot", "🔥"), ("cold", "❄️"), ("sleep", "😴"), ("smile", "😊")]),
+        ("First conditional real future", [("if", "❓"), ("will", "🎯"), ("go", "🚶"), ("come", "🚗"), ("help", "🤝"), ("wait", "⏳")]),
+        ("Second conditional unreal present", [("would", "🌀"), ("dream", "💭"), ("wish", "🌠"), ("imagine", "🧠"), ("change", "🔄"), ("travel", "✈️")]),
+        ("Third conditional unreal past", [("had", "🍎"), ("known", "🧠"), ("been", "🧑‍🏫"), ("missed", "✋"), ("seen", "👀"), ("done", "✅")]),
+        ("Mixed conditionals", [("if", "❓"), ("then", "➡️"), ("when", "⏰"), ("because", "🔗"), ("unless", "🚫"), ("before", "⏳")]),
+        ("Conditional questions and advice", [("should", "💡"), ("could", "🤔"), ("would", "🌀"), ("ask", "❓"), ("help", "🤝"), ("listen", "👂")]),
+        ("Conditional time connectives", [("when", "⏰"), ("after", "➡️"), ("before", "⏳"), ("while", "⌛"), ("then", "➡️"), ("until", "⏳")]),
+        ("Conditional verbs in conversation", [("say", "🗣️"), ("tell", "📣"), ("ask", "❓"), ("answer", "✅"), ("talk", "🗨️"), ("listen", "👂")]),
+        ("Conditional outcomes and consequences", [("result", "✅"), ("because", "🔗"), ("so", "➡️"), ("then", "➡️"), ("change", "🔄"), ("learn", "📘")]),
+        ("Conditional review challenge", [("if", "❓"), ("then", "➡️"), ("would", "🌀"), ("must", "🛑"), ("can", "✅"), ("should", "💡")]),
+    ]),
+    ("Passive Place", "Passive voice and agent words", [
+        ("Passive voice present simple", [("is", "🔵"), ("are", "🟢"), ("was", "🟠"), ("were", "🟣"), ("seen", "👀"), ("made", "🔨")]),
+        ("Passive voice past simple", [("was", "🟠"), ("were", "🟣"), ("built", "🏗️"), ("given", "🎁"), ("found", "🔎"), ("lost", "🧭")]),
+        ("Passive voice future and perfect forms", [("will", "🎯"), ("been", "🧑‍🏫"), ("be", "🔵"), ("made", "🔨"), ("seen", "👀"), ("found", "🔎")]),
+        ("Passive voice with by + agent", [("by", "➡️"), ("me", "👤"), ("you", "👥"), ("them", "👥"), ("him", "👨"), ("her", "👩")]),
+        ("Passive in instructions and signs", [("stop", "✋"), ("closed", "🔒"), ("open", "🔓"), ("must", "🛑"), ("keep", "🔐"), ("enter", "🚪")]),
+        ("Passive with get and be", [("get", "📥"), ("got", "📦"), ("be", "🔵"), ("been", "🧑‍🏫"), ("made", "🔨"), ("seen", "👀")]),
+        ("Passive in news and descriptions", [("reported", "📰"), ("opened", "🚪"), ("lost", "🧭"), ("found", "🔎"), ("called", "📞"), ("known", "🧠")]),
+        ("Passive voice sentence building", [("is", "🔵"), ("was", "🟠"), ("been", "🧑‍🏫"), ("made", "🔨"), ("seen", "👀"), ("called", "📞")]),
+        ("Active/passive transformation", [("make", "🔨"), ("made", "🔨"), ("see", "👀"), ("seen", "👀"), ("find", "🔎"), ("found", "🔎")]),
+        ("Passive voice review", [("be", "🔵"), ("been", "🧑‍🏫"), ("was", "🟠"), ("were", "🟣"), ("is", "🔵"), ("are", "🟢")]),
+    ]),
+    ("Speech Street", "Reporting, clauses and polite phrases", [
+        ("Reported speech statements", [("said", "🗣️"), ("told", "📣"), ("asked", "❓"), ("reported", "📰"), ("explained", "🧠"), ("mentioned", "💬")]),
+        ("Reported questions", [("asked", "❓"), ("wondered", "🤔"), ("said", "🗣️"), ("why", "❓"), ("where", "📍"), ("when", "⏰")]),
+        ("Reported commands and requests", [("told", "📣"), ("asked", "❓"), ("ordered", "📋"), ("please", "🙏"), ("want", "🎯"), ("need", "📌")]),
+        ("Relative clauses with who / which / that", [("who", "👤"), ("which", "🔎"), ("that", "👉"), ("person", "🧍"), ("thing", "📦"), ("place", "📍")]),
+        ("Defining vs non-defining relative clauses", [("my", "👤"), ("his", "👨"), ("our", "👥"), ("that", "👉"), ("which", "🔎"), ("who", "👤")]),
+        ("Tag questions", [("isnt", "❓"), ("arent", "❓"), ("doesnt", "❌"), ("wont", "❓"), ("right", "👍"), ("yes", "✅")]),
+        ("Direct and indirect objects", [("me", "👤"), ("him", "👨"), ("her", "👩"), ("it", "📦"), ("them", "👥"), ("us", "👥")]),
+        ("Gerunds and infinitives", [("playing", "🎾"), ("to", "➡️"), ("read", "📖"), ("writing", "✍️"), ("learn", "📘"), ("singing", "🎤")]),
+        ("Verbs followed by gerunds", [("enjoy", "😄"), ("avoid", "🚫"), ("finish", "✅"), ("start", "🏁"), ("hate", "😡"), ("love", "❤️")]),
+        ("Verbs followed by infinitives", [("want", "🎯"), ("need", "📌"), ("hope", "🌟"), ("decide", "🧠"), ("promise", "🤝"), ("learn", "📘")]),
+    ]),
+    ("Structure Station", "Words and phrases that connect ideas", [
+        ("Phrasal verbs with get", [("get", "📥"), ("up", "⬆️"), ("out", "🚪"), ("on", "🟢"), ("off", "🔻"), ("back", "↩️")]),
+        ("Phrasal verbs with take", [("take", "✋"), ("off", "🔻"), ("out", "🚪"), ("in", "⬇️"), ("back", "↩️"), ("up", "⬆️")]),
+        ("Phrasal verbs with put", [("put", "📌"), ("on", "🟢"), ("off", "🔻"), ("in", "⬇️"), ("out", "🚪"), ("away", "➡️")]),
+        ("Phrasal verbs with make", [("make", "🔨"), ("up", "⬆️"), ("into", "🔁"), ("out", "🚪"), ("sure", "✅"), ("time", "⏰")]),
+        ("Phrasal verbs with look", [("look", "👀"), ("after", "🛟"), ("for", "🔍"), ("up", "⬆️"), ("out", "🚪"), ("back", "↩️")]),
+        ("Common idioms and expressions", [("break", "🍞"), ("fast", "⚡"), ("piece", "🧩"), ("mind", "🧠"), ("hand", "✋"), ("head", "🧢")]),
+        ("Common collocations", [("make", "🔨"), ("do", "✅"), ("take", "✋"), ("have", "🤲"), ("strong", "💪"), ("heavy", "🏋️")]),
+        ("Linking words and discourse markers", [("because", "🔗"), ("however", "↔️"), ("therefore", "➡️"), ("meanwhile", "⏳"), ("finally", "🏁"), ("also", "➕")]),
+        ("Time expressions practice", [("yesterday", "📅"), ("today", "🗓️"), ("tomorrow", "📅"), ("ago", "⏳"), ("later", "⌛"), ("soon", "⏱️")]),
+        ("Prepositions of time", [("at", "📍"), ("on", "🟦"), ("in", "🟪"), ("before", "⏳"), ("after", "➡️"), ("during", "🕒")]),
+    ]),
+    ("Quantifier Quay", "Space, movement and comparison", [
+        ("Prepositions of place", [("in", "📦"), ("on", "📍"), ("under", "⬇️"), ("next", "➡️"), ("between", "↔️"), ("behind", "⬅️")]),
+        ("Prepositions of movement", [("to", "➡️"), ("from", "⬅️"), ("across", "🌉"), ("into", "🕳️"), ("past", "🏁"), ("through", "🚪")]),
+        ("Directions and giving instructions", [("left", "⬅️"), ("right", "➡️"), ("straight", "⬆️"), ("turn", "↪️"), ("stop", "✋"), ("go", "🏃")]),
+        ("Expressing likes and dislikes", [("like", "👍"), ("love", "❤️"), ("hate", "👎"), ("enjoy", "😄"), ("prefer", "⭐"), ("dislike", "😠")]),
+        ("Making comparisons", [("bigger", "📏"), ("smaller", "📏"), ("faster", "🚀"), ("slower", "🐢"), ("more", "➕"), ("less", "➖")]),
+        ("Talking about habits and routines", [("usually", "🕒"), ("often", "🔁"), ("always", "✅"), ("never", "🚫"), ("sometimes", "⚖️"), ("rarely", "🐢")]),
+        ("Describing daily schedules", [("morning", "🌅"), ("afternoon", "🌤️"), ("evening", "🌆"), ("night", "🌙"), ("breakfast", "🍳"), ("dinner", "🍽️")]),
+        ("Talking about health and illnesses", [("healthy", "💚"), ("sick", "🤒"), ("doctor", "🩺"), ("medicine", "💊"), ("cough", "😷"), ("rest", "🛌")]),
+        ("Food and drink vocabulary", [("bread", "🍞"), ("juice", "🧃"), ("salad", "🥗"), ("coffee", "☕"), ("cake", "🍰"), ("water", "💧")]),
+        ("Cooking and recipes language", [("cook", "🍳"), ("mix", "🥣"), ("bake", "🧁"), ("chop", "🔪"), ("stir", "🥄"), ("serve", "🍽️")]),
+    ]),
+    ("Polite Plaza", "Social language for everyday situations", [
+        ("Shopping vocabulary and phrases", [("price", "💲"), ("buy", "🛍️"), ("sell", "💰"), ("cost", "💵"), ("shop", "🏪"), ("cash", "💵")]),
+        ("Money, prices, and currency", [("dollar", "💵"), ("coin", "🪙"), ("price", "💲"), ("change", "🔄"), ("pay", "💳"), ("save", "💰")]),
+        ("Jobs and occupations", [("doctor", "🩺"), ("teacher", "🧑‍🏫"), ("chef", "👨‍🍳"), ("artist", "🧑‍🎨"), ("driver", "🚗"), ("builder", "👷" )]),
+        ("Work and workplace vocabulary", [("office", "🏢"), ("meeting", "📅"), ("team", "👥"), ("email", "📧"), ("project", "📁"), ("break", "☕" )]),
+        ("School and education vocabulary", [("lesson", "📖"), ("teacher", "🧑‍🏫"), ("student", "🧑‍🎓"), ("class", "🏫"), ("homework", "📝"), ("grade", "🅰️" )]),
+        ("Degrees of certainty and possibility", [("sure", "✅"), ("maybe", "🤷"), ("certain", "📌"), ("possible", "❓"), ("surely", "🟢"), ("unlikely", "🚫" )]),
+        ("Expressing preferences", [("prefer", "⭐"), ("rather", "↔️"), ("like", "👍"), ("love", "❤️"), ("hate", "👎"), ("choose", "✅" )]),
+        ("Asking for and giving permission", [("can", "✅"), ("may", "🔵"), ("let", "➡️"), ("allow", "✅"), ("okay", "👌"), ("ask", "❓" )]),
+        ("Making offers and suggestions", [("should", "💡"), ("could", "🤔"), ("maybe", "🤷"), ("lets", "👉"), ("try", "🧪"), ("offer", "🎁" )]),
+        ("Giving and following advice", [("advice", "💬"), ("listen", "👂"), ("try", "🧪"), ("change", "🔄"), ("help", "🤝"), ("fix", "🔧" )]),
+    ]),
+    ("Everyday Express", "Practical phrases for daily life", [
+        ("Apologizing and responding to apologies", [("sorry", "😔"), ("forgive", "🙏"), ("excuse", "🙇"), ("please", "🙏"), ("thanks", "🙏"), ("okay", "👌" )]),
+        ("Asking for help and assistance", [("help", "🤝"), ("assist", "🧑‍🔧"), ("please", "🙏"), ("need", "📌"), ("support", "🛟"), ("guide", "🧭" )]),
+        ("Telephone English and polite phrases", [("hello", "👋"), ("goodbye", "👋"), ("call", "📞"), ("message", "✉️"), ("ask", "❓"), ("speak", "🗣️" )]),
+        ("Email and letter writing basics", [("email", "📧"), ("write", "✍️"), ("send", "📤"), ("reply", "↩️"), ("subject", "📝"), ("letter", "✉️" )]),
+        ("Social expressions and small talk", [("hi", "👋"), ("bye", "👋"), ("nice", "😊"), ("yes", "✅"), ("no", "❌"), ("good", "👍" )]),
+        ("Describing people: appearance and personality", [("tall", "📏"), ("short", "📏"), ("kind", "🤗"), ("shy", "😳"), ("friendly", "😊"), ("funny", "😂" )]),
+        ("Family relationships vocabulary", [("mother", "👩"), ("father", "👨"), ("sister", "👧"), ("brother", "👦"), ("uncle", "🧑‍🤝‍🧑"), ("aunt", "👩‍🦳" )]),
+        ("Travel vocabulary and airport phrases", [("plane", "✈️"), ("ticket", "🎫"), ("passport", "🛂"), ("luggage", "🧳"), ("flight", "🛫"), ("arrival", "🛬" )]),
+        ("Hotel and accommodation phrases", [("hotel", "🏨"), ("room", "🛏️"), ("bed", "🛌"), ("bath", "🛁"), ("key", "🔑"), ("desk", "🛋️" )]),
+        ("Transportation and directions", [("car", "🚗"), ("bus", "🚌"), ("train", "🚆"), ("stop", "🛑"), ("left", "⬅️"), ("right", "➡️" )]),
+    ]),
+    ("Big Idea Boulevard", "Broad topics and vocabulary", [
+        ("Weather vocabulary and small talk", [("sunny", "☀️"), ("rainy", "🌧️"), ("cloudy", "☁️"), ("windy", "🌬️"), ("stormy", "⛈️"), ("hot", "🔥" )]),
+        ("Seasons and holidays", [("spring", "🌷"), ("summer", "☀️"), ("autumn", "🍂"), ("winter", "❄️"), ("holiday", "🎉"), ("party", "🥳" )]),
+        ("Sports and exercise vocabulary", [("soccer", "⚽"), ("tennis", "🎾"), ("boxing", "🥊"), ("yoga", "🧘"), ("swim", "🏊"), ("run", "🏃" )]),
+        ("Hobbies and free-time activities", [("dance", "💃"), ("read", "📖"), ("paint", "🎨"), ("play", "🎮"), ("bake", "🧁"), ("garden", "🌻" )]),
+        ("Music and entertainment vocabulary", [("song", "🎵"), ("movie", "🎬"), ("concert", "🎤"), ("guitar", "🎸"), ("dance", "💃"), ("show", "🎭" )]),
+        ("Animals and nature vocabulary", [("forest", "🌲"), ("river", "🏞️"), ("mountain", "⛰️"), ("animal", "🐾"), ("flower", "🌸"), ("bird", "🐦" )]),
+        ("Environmental issues and recycling", [("recycle", "♻️"), ("trash", "🗑️"), ("clean", "🧹"), ("earth", "🌍"), ("plastic", "🧴"), ("reuse", "🔄" )]),
+        ("Technology and digital life vocabulary", [("phone", "📱"), ("computer", "💻"), ("internet", "🌐"), ("app", "📱"), ("email", "📧"), ("screen", "🖥️" )]),
+        ("Science and invention vocabulary", [("experiment", "🧪"), ("robot", "🤖"), ("battery", "🔋"), ("formula", "➗"), ("idea", "💡"), ("engine", "⚙️" )]),
+        ("Emotions and feelings vocabulary", [("happy", "😊"), ("sad", "😢"), ("angry", "😠"), ("excited", "🤩"), ("nervous", "😰"), ("calm", "😌" )]),
+    ]),
+]
+
 SENTENCE_TEMPLATES = [
     "I like the {w}.",
     "This is my {w}.",
@@ -711,6 +834,41 @@ def build():
             })
             index += 1
 
+    for wi, (world_name, world_sub, topics) in enumerate(ADVANCED_WORLDS, start=len(WORLDS) + len(GRAMMAR_WORLDS)):
+        for ti, (topic, words) in enumerate(topics):
+            color = PALETTE[index % len(PALETTE)]
+            level_id = "L%02d" % index
+            items = []
+            for word, emoji in words:
+                slug = slugify(word)
+                images.setdefault(slug, (emoji, color))
+                items.append({
+                    "word": word,
+                    "emoji": emoji,
+                    "slug": slug,
+                    "image": "images/%s.svg" % slug,
+                    "color": color,
+                })
+            sentences = []
+            rng = random.Random((index + 1) * 17 + (ti + 1) * 7)
+            for it in items[:min(len(items), 8)]:
+                template = rng.choice(SENTENCE_TEMPLATES)
+                sentences.append(template.format(w=it["word"]))
+            levels_out.append({
+                "id": level_id,
+                "index": index,
+                "world": world_name,
+                "worldSubtitle": world_sub,
+                "worldIndex": wi,
+                "name": topic,
+                "category": level_id,
+                "color": color,
+                "items": items,
+                "sentences": sentences,
+                "gameTypes": default_game_types[:],
+            })
+            index += 1
+
     model = {
         "meta": {
             "title": "Magic Academy: English Quest",
@@ -752,7 +910,7 @@ def build():
             f.write(svg)
 
     print("Generated content.json, data.js and %d images." % len(images))
-    print("Worlds: %d   Levels: %d" % (len(WORLDS), len(levels_out)))
+    print("Worlds: %d   Levels: %d" % (len(WORLDS) + len(GRAMMAR_WORLDS) + len(ADVANCED_WORLDS), len(levels_out)))
 
 
 if __name__ == "__main__":

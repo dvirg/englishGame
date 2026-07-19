@@ -64,16 +64,30 @@
   }
 
   /* ============================ 2. Cookies ============================ */
+  function canUseLocalStorage() {
+    try { return typeof window.localStorage !== "undefined" && window.localStorage !== null; } catch (e) { return false; }
+  }
   function setCookie(name, value, days) {
+    if (canUseLocalStorage()) {
+      try { window.localStorage.setItem(name, value); return; } catch (e) { }
+    }
     var exp = "";
     if (days) { var d = new Date(); d.setTime(d.getTime() + days * 864e5); exp = "; expires=" + d.toUTCString(); }
     document.cookie = name + "=" + encodeURIComponent(value) + exp + "; path=/; SameSite=Lax";
   }
   function getCookie(name) {
+    if (canUseLocalStorage()) {
+      try { var val = window.localStorage.getItem(name); if (val != null) return val; } catch (e) { }
+    }
     var m = document.cookie.match("(?:^|; )" + name.replace(/([.$?*|{}()\[\]\\\/\+^])/g, "\\$1") + "=([^;]*)");
     return m ? decodeURIComponent(m[1]) : null;
   }
-  function delCookie(name) { document.cookie = name + "=; Max-Age=0; path=/"; }
+  function delCookie(name) {
+    if (canUseLocalStorage()) {
+      try { window.localStorage.removeItem(name); return; } catch (e) { }
+    }
+    document.cookie = name + "=; Max-Age=0; path=/";
+  }
 
   var PROFILES_KEY = "mae_profiles";
   var CURRENT_KEY = "mae_current";
