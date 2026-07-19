@@ -1048,30 +1048,27 @@
           countFilled();
         });
       });
-      function clearLatestMistake() {
-        var target = null;
-        if (lastPlacedIndex != null && slots[lastPlacedIndex] && slots[lastPlacedIndex].tileRef && slots[lastPlacedIndex].node.classList.contains("bad")) {
-          target = lastPlacedIndex;
-        } else {
-          for (var i = slots.length - 1; i >= 0; i--) {
-            var sl = slots[i];
-            if (sl.tileRef && sl.node.classList.contains("bad")) { target = i; break; }
+      function clearRedWords() {
+        var cleared = false;
+        slots.forEach(function (sl, i) {
+          if (sl.tileRef && sl.node.classList.contains("bad")) {
+            sl.tileRef.classList.remove("used"); sl.tileRef = null;
+            sl.node.textContent = ""; sl.node.classList.remove("filled", "bad", "ok", "active"); sl.word = null;
+            cleared = true;
           }
+        });
+        if (cleared) {
+          lastPlacedIndex = null;
+          countFilled();
         }
-        if (target == null) return false;
-        var sl = slots[target];
-        sl.tileRef.classList.remove("used"); sl.tileRef = null;
-        sl.node.textContent = ""; sl.node.classList.remove("filled", "bad", "ok", "active"); sl.word = null;
-        if (lastPlacedIndex === target) lastPlacedIndex = null;
-        countFilled();
-        return true;
+        return cleared;
       }
       function check() {
         var ok = slots.every(function (sl, i) { return sl.word === words[i]; });
         if (ok) { slots.forEach(function (sl) { sl.node.classList.add("ok"); }); api.speak(sentence); setTimeout(function () { api.finish(); }, FAST ? 0 : 350); }
         else {
           slots.forEach(function (sl, i) { sl.node.classList.remove("bad", "ok"); if (sl.word != null && sl.word === words[i]) sl.node.classList.add("ok"); else if (sl.word != null) sl.node.classList.add("bad"); });
-          clearLatestMistake();
+          clearRedWords();
           api.addMistake(); api.wrong();
         }
       }
