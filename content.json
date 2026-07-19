@@ -28,7 +28,12 @@
     "Outstanding!",
     "You are awesome!",
     "So smart!",
-    "Phenomenal!"
+    "Phenomenal!",
+    "You rock!",
+    "Keep it up!",
+    "You are amazing!",
+    "Nice work!",
+    "That was great!"
   ],
   "tryAgain": [
     "Try again!",
@@ -169,7 +174,7 @@
         },
         {
           "word": "pink",
-          "emoji": "�",
+          "emoji": "🌸",
           "slug": "pink",
           "image": "images/pink.svg",
           "color": "#FFE7A8"
@@ -2059,7 +2064,7 @@
       "items": [
         {
           "word": "pink",
-          "emoji": "�",
+          "emoji": "🌸",
           "slug": "pink",
           "image": "images/pink.svg",
           "color": "#FDE2B3"

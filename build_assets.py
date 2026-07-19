@@ -339,7 +339,7 @@ def make_grammar(theme, items):
 # ---------------------------------------------------------------------------
 WORLDS = [
     ("Pre-K Planet", "First tiny words", [
-        ("Colors", [("red", "🔴"), ("blue", "🔵"), ("green", "🟢"), ("yellow", "🟡"), ("orange", "🟠"), ("purple", "🟣"), ("pink", "�"), ("black", "⚫")]),
+        ("Colors", [("red", "🔴"), ("blue", "🔵"), ("green", "🟢"), ("yellow", "🟡"), ("orange", "🟠"), ("purple", "🟣"), ("pink", "🌸"), ("black", "⚫")]),
         ("Numbers 1-5", [("one", "1️⃣"), ("two", "2️⃣"), ("three", "3️⃣"), ("four", "4️⃣"), ("five", "5️⃣")]),
         ("Numbers 6-10", [("six", "6️⃣"), ("seven", "7️⃣"), ("eight", "8️⃣"), ("nine", "9️⃣"), ("ten", "🔟")]),
         ("Shapes", [("star", "⭐"), ("heart", "❤️"), ("circle", "⚪"), ("square", "🟦"), ("diamond", "💎"), ("moon", "🌙")]),
@@ -368,7 +368,7 @@ WORLDS = [
         ("Kitchen", [("cup", "☕"), ("plate", "🍽️"), ("fork", "🍴"), ("spoon", "🥄"), ("knife", "🔪"), ("pot", "🍲")]),
         ("Garden", [("flower", "🌸"), ("tree", "🌳"), ("grass", "🌿"), ("leaf", "🍃"), ("seed", "🌱"), ("bug", "🐛")]),
         ("Nature", [("mountain", "⛰️"), ("river", "🏞️"), ("beach", "🏖️"), ("forest", "🌲"), ("sky", "🌌"), ("fire", "🔥")]),
-        ("Colors 2", [("pink", "�"), ("brown", "🤎"), ("white", "⚪"), ("black", "⚫"), ("gray", "🔘"), ("blue", "🔵")]),
+        ("Colors 2", [("pink", "🌸"), ("brown", "🤎"), ("white", "⚪"), ("black", "⚫"), ("gray", "🔘"), ("blue", "🔵")]),
         ("In the Sky", [("sun", "☀️"), ("moon", "🌙"), ("star", "⭐"), ("cloud", "☁️"), ("rainbow", "🌈"), ("kite", "🪁")]),
         ("Water Fun", [("fish", "🐟"), ("boat", "⛵"), ("duck", "🦆"), ("wave", "🌊"), ("shell", "🐚"), ("crab", "🦀")]),
     ]),
@@ -740,7 +740,8 @@ GAME_TYPES = [
 PRAISE = ["Well done!", "Great job!", "Fabulous!", "Superb!", "Amazing!",
           "Excellent!", "You did it!", "Brilliant!", "Awesome!", "Perfect!",
           "Very good!", "Fantastic!", "Wonderful!", "Way to go!", "You nailed it!",
-          "Incredible!", "Outstanding!", "You are awesome!", "So smart!", "Phenomenal!"]
+          "Incredible!", "Outstanding!", "You are awesome!", "So smart!", "Phenomenal!",
+          "You rock!", "Keep it up!", "You are amazing!", "Nice work!", "That was great!"]
 TRY_AGAIN = ["Try again!", "Almost!", "Oops, try again!", "Not quite!", "Have another go!"]
 MASCOTS = ["🦸", "🧙", "🚀", "🌟", "🦄", "🐯", "🦉", "🤖"]
 

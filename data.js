@@ -29,7 +29,12 @@ window.GAME_DATA = {
     "Outstanding!",
     "You are awesome!",
     "So smart!",
-    "Phenomenal!"
+    "Phenomenal!",
+    "You rock!",
+    "Keep it up!",
+    "You are amazing!",
+    "Nice work!",
+    "That was great!"
   ],
   "tryAgain": [
     "Try again!",
@@ -170,7 +175,7 @@ window.GAME_DATA = {
         },
         {
           "word": "pink",
-          "emoji": "�",
+          "emoji": "🌸",
           "slug": "pink",
           "image": "images/pink.svg",
           "color": "#FFE7A8"
@@ -2060,7 +2065,7 @@ window.GAME_DATA = {
       "items": [
         {
           "word": "pink",
-          "emoji": "�",
+          "emoji": "🌸",
           "slug": "pink",
           "image": "images/pink.svg",
           "color": "#FDE2B3"

@@ -9,11 +9,10 @@ text-to-speech engine.
     python3 build_audio.py            # generate missing files
     python3 build_audio.py --force    # regenerate everything
 
-How: macOS `say` (voice "Samantha", en-US) -> AIFF -> `afconvert` -> small .m4a
-(AAC). Files land in ./audio and a text->file map is written to audio_manifest.js
+How: on macOS, `say` (voice "Samantha", en-US) -> AIFF -> `afconvert` -> small .m4a
+(AAC). On Windows, the script uses the built-in SpeechSynthesizer to write .wav
+files. Files land in ./audio and a text->file map is written to audio_manifest.js
 (loaded by index.html; consumed by app.js).
-
-Requires macOS (`say` + `afconvert`, both built in).
 """
 
 import concurrent.futures as cf
@@ -97,8 +96,15 @@ def collect_texts():
     return texts
 
 
+def audio_ext():
+    if sys.platform == "darwin":
+        return ".m4a"
+    return ".wav"
+
+
 def build_manifest(texts):
-    """text -> audio/<unique-slug>.m4a"""
+    """text -> audio/<unique-slug>.<ext>"""
+    ext = audio_ext()
     manifest, used = {}, set()
     for t in texts:
         base = slugify(t)
@@ -107,7 +113,7 @@ def build_manifest(texts):
             slug = "%s-%d" % (base, n)
             n += 1
         used.add(slug)
-        manifest[t] = "audio/%s.m4a" % slug
+        manifest[t] = "audio/%s%s" % (slug, ext)
     return manifest
 
 
@@ -115,23 +121,42 @@ def generate_one(text, rel_path, force):
     out = os.path.join(HERE, rel_path)
     if os.path.exists(out) and not force:
         return ("skip", text)
-    aiff = out[:-4] + ".aiff"
-    try:
-        subprocess.run(["say", "-v", VOICE, "-r", RATE, "-o", aiff, text],
-                       check=True, capture_output=True)
-        subprocess.run(["afconvert", "-f", "m4af", "-d", "aac", aiff, out],
-                       check=True, capture_output=True)
-        return ("ok", text)
-    except subprocess.CalledProcessError as e:
-        return ("fail:" + (e.stderr.decode(errors="ignore")[:80] if e.stderr else "?"), text)
-    finally:
-        if os.path.exists(aiff):
-            os.remove(aiff)
+    if sys.platform == "darwin":
+        aiff = out[:-4] + ".aiff"
+        try:
+            subprocess.run(["say", "-v", VOICE, "-r", RATE, "-o", aiff, text],
+                           check=True, capture_output=True)
+            subprocess.run(["afconvert", "-f", "m4af", "-d", "aac", aiff, out],
+                           check=True, capture_output=True)
+            return ("ok", text)
+        except subprocess.CalledProcessError as e:
+            return ("fail:" + (e.stderr.decode(errors="ignore")[:80] if e.stderr else "?"), text)
+        finally:
+            if os.path.exists(aiff):
+                os.remove(aiff)
+    elif os.name == "nt":
+        try:
+            safe_text = text.replace("'", "''")
+            script = (
+                "$ErrorActionPreference='Stop'; "
+                "Add-Type -AssemblyName System.Speech; "
+                "$synth = New-Object System.Speech.Synthesis.SpeechSynthesizer; "
+                "try { $synth.SetOutputToWaveFile('{out}'); $synth.Speak('{text}') } "
+                "finally { $synth.Dispose() }"
+            ).replace('{out}', out.replace("'", "''")).replace('{text}', safe_text)
+            subprocess.run(["powershell", "-NoProfile", "-Command", script],
+                           check=True, capture_output=True, text=True)
+            return ("ok", text)
+        except subprocess.CalledProcessError as e:
+            msg = (e.stderr or e.stdout or "")
+            return ("fail:" + msg[:120].replace("\n", " "), text)
+    else:
+        return ("fail:unsupported-platform", text)
 
 
 def main():
-    if sys.platform != "darwin":
-        print("This generator needs macOS (`say`/`afconvert`).")
+    if sys.platform != "darwin" and os.name != "nt":
+        print("This generator needs macOS (`say`/`afconvert`) or Windows speech support.")
         sys.exit(1)
     force = "--force" in sys.argv
     os.makedirs(AUDIO_DIR, exist_ok=True)
