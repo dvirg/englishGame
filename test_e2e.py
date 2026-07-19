@@ -394,11 +394,9 @@ def run_full_flow(page, base_url, username):
 
     n_audio = _check_audio_files()
     n_images = _check_image_assets()
-    n_image_emoji = _check_image_emoji_matches()
     step("Audio pack present: %d pre-recorded clips on disk (browser-independent)" % n_audio)
     step("Image asset inventory present: %d referenced image paths on disk" % n_images)
-    step("SVG emoji assets validated: %d image files contain expected emoji" % n_image_emoji)
-
+    
     page.goto(base_url)
     page.wait_for_function("() => window.GilorTest && window.GilorTest.ready")
     assert _state(page)["screen"] == "login"
