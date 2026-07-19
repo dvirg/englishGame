@@ -998,6 +998,7 @@
       var tileRow = el("div", { class: "tile-row" }); host.appendChild(tileRow);
       var tiles = api.shuffle(words.map(function (w, i) { return { w: w, i: i }; })), filled = 0;
       var activeSlot = null;
+      var lastPlacedIndex = null;
       function countFilled() {
         filled = slots.reduce(function (n, sl) { return n + (sl.tileRef ? 1 : 0); }, 0);
       }
@@ -1010,7 +1011,7 @@
           if (sl.tileRef) { sl.tileRef.classList.remove("used"); sl.tileRef = null; }
           sl.node.textContent = ""; sl.node.classList.remove("filled", "bad", "ok", "active"); sl.word = null;
         });
-        activeSlot = null; filled = 0;
+        activeSlot = null; lastPlacedIndex = null; filled = 0;
       }
       tiles.forEach(function (t) {
         var tile = el("button", { class: "tile" }, t.w); t.tile = tile;
@@ -1027,6 +1028,7 @@
           var sl = slots[targetIndex];
           sl.node.textContent = t.w; sl.node.classList.add("filled");
           sl.tileRef = tile; sl.word = t.w; tile.classList.add("used");
+          lastPlacedIndex = targetIndex;
           selectSlot(null);
           countFilled();
           if (filled === slots.length) check();
@@ -1042,14 +1044,35 @@
           sl.tileRef.classList.remove("used"); sl.tileRef = null;
           sl.node.textContent = ""; sl.node.classList.remove("filled", "bad", "ok", "active"); sl.word = null;
           if (activeSlot === i) activeSlot = null;
+          if (lastPlacedIndex === i) lastPlacedIndex = null;
           countFilled();
         });
       });
+      function clearLatestMistake() {
+        var target = null;
+        if (lastPlacedIndex != null && slots[lastPlacedIndex] && slots[lastPlacedIndex].tileRef && slots[lastPlacedIndex].node.classList.contains("bad")) {
+          target = lastPlacedIndex;
+        } else {
+          for (var i = slots.length - 1; i >= 0; i--) {
+            var sl = slots[i];
+            if (sl.tileRef && sl.node.classList.contains("bad")) { target = i; break; }
+          }
+        }
+        if (target == null) return false;
+        var sl = slots[target];
+        sl.tileRef.classList.remove("used"); sl.tileRef = null;
+        sl.node.textContent = ""; sl.node.classList.remove("filled", "bad", "ok", "active"); sl.word = null;
+        if (lastPlacedIndex === target) lastPlacedIndex = null;
+        countFilled();
+        return true;
+      }
       function check() {
         var ok = slots.every(function (sl, i) { return sl.word === words[i]; });
         if (ok) { slots.forEach(function (sl) { sl.node.classList.add("ok"); }); api.speak(sentence); setTimeout(function () { api.finish(); }, FAST ? 0 : 350); }
         else {
-          slots.forEach(function (sl, i) { sl.node.classList.remove("bad", "ok"); if (sl.word != null && sl.word === words[i]) sl.node.classList.add("ok"); else if (sl.word != null) sl.node.classList.add("bad"); }); api.addMistake(); api.wrong();
+          slots.forEach(function (sl, i) { sl.node.classList.remove("bad", "ok"); if (sl.word != null && sl.word === words[i]) sl.node.classList.add("ok"); else if (sl.word != null) sl.node.classList.add("bad"); });
+          clearLatestMistake();
+          api.addMistake(); api.wrong();
         }
       }
       function clickInOrder() {
