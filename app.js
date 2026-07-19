@@ -997,35 +997,52 @@
 
       var tileRow = el("div", { class: "tile-row" }); host.appendChild(tileRow);
       var tiles = api.shuffle(words.map(function (w, i) { return { w: w, i: i }; })), filled = 0;
+      var activeSlot = null;
+      function countFilled() {
+        filled = slots.reduce(function (n, sl) { return n + (sl.tileRef ? 1 : 0); }, 0);
+      }
+      function selectSlot(index) {
+        activeSlot = index;
+        slots.forEach(function (sl, i) { sl.node.classList.toggle("active", i === index); });
+      }
       function resetBoard() {
         slots.forEach(function (sl) {
           if (sl.tileRef) { sl.tileRef.classList.remove("used"); sl.tileRef = null; }
-          sl.node.textContent = ""; sl.node.classList.remove("filled", "bad", "ok"); sl.word = null;
+          sl.node.textContent = ""; sl.node.classList.remove("filled", "bad", "ok", "active"); sl.word = null;
         });
-        filled = 0;
+        activeSlot = null; filled = 0;
       }
       tiles.forEach(function (t) {
         var tile = el("button", { class: "tile" }, t.w); t.tile = tile;
         tile.addEventListener("click", function () {
-          if (tile.classList.contains("used") || filled >= slots.length) return;
-          slots[filled].node.textContent = t.w; slots[filled].node.classList.add("filled");
-          slots[filled].tileRef = tile; slots[filled].word = t.w; tile.classList.add("used"); filled++;
+          if (tile.classList.contains("used")) return;
+          var targetIndex = null;
+          if (activeSlot != null && !slots[activeSlot].tileRef) targetIndex = activeSlot;
+          else {
+            for (var i = 0; i < slots.length; i++) {
+              if (!slots[i].tileRef) { targetIndex = i; break; }
+            }
+          }
+          if (targetIndex == null) return;
+          var sl = slots[targetIndex];
+          sl.node.textContent = t.w; sl.node.classList.add("filled");
+          sl.tileRef = tile; sl.word = t.w; tile.classList.add("used");
+          selectSlot(null);
+          countFilled();
           if (filled === slots.length) check();
         });
         tileRow.appendChild(tile);
       });
       slots.forEach(function (sl, i) {
         sl.node.addEventListener("click", function () {
-          if (!sl.tileRef) return;
-          var removeFrom = i;
-          for (var j = removeFrom; j < slots.length; j++) {
-            var cur = slots[j];
-            if (cur.tileRef) {
-              cur.tileRef.classList.remove("used"); cur.tileRef = null;
-            }
-            cur.node.textContent = ""; cur.node.classList.remove("filled", "bad", "ok"); cur.word = null;
+          if (!sl.tileRef) {
+            selectSlot(i);
+            return;
           }
-          filled = removeFrom;
+          sl.tileRef.classList.remove("used"); sl.tileRef = null;
+          sl.node.textContent = ""; sl.node.classList.remove("filled", "bad", "ok", "active"); sl.word = null;
+          if (activeSlot === i) activeSlot = null;
+          countFilled();
         });
       });
       function check() {
