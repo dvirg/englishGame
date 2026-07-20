@@ -979,7 +979,16 @@
     },
 
     build_sentence: function (host, api) {
-      var sentence = api.pick(api.sentences);
+      var sentence;
+      var sentenceMap = api.level && api.level.sentenceMap;
+      if (sentenceMap && typeof sentenceMap === "object") {
+        var validItems = api.pool.filter(function (it) { return Array.isArray(sentenceMap[it.word]) && sentenceMap[it.word].length; });
+        var target = validItems.length ? api.pick(validItems) : api.pick(api.pool);
+        var indexes = sentenceMap[target.word] || [];
+        sentence = indexes.length ? api.sentences[api.pick(indexes)] : api.pick(api.sentences);
+      } else {
+        sentence = api.pick(api.sentences);
+      }
       var words = sentence.replace(/[.?!]$/, "").split(/\s+/);
       var punct = (sentence.match(/[.?!]$/) || ["."])[0];
       api.setInstruction("🧩 Tap the words in order");

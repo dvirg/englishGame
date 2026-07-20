@@ -189,15 +189,73 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Let's play with the red!",
-        "My blue is cool.",
-        "The green is nice.",
-        "I love the yellow.",
-        "I can see the orange.",
-        "Look at the purple!",
-        "I can see the pink.",
-        "Look at the black!"
+        "The red one is nice.",
+        "I like the red one.",
+        "It is red.",
+        "The blue one is nice.",
+        "I like the blue one.",
+        "It is blue.",
+        "The green one is nice.",
+        "I like the green one.",
+        "It is green.",
+        "The yellow one is nice.",
+        "I like the yellow one.",
+        "It is yellow.",
+        "The orange one is nice.",
+        "I like the orange one.",
+        "It is orange.",
+        "The purple one is nice.",
+        "I like the purple one.",
+        "It is purple.",
+        "The pink one is nice.",
+        "I like the pink one.",
+        "It is pink.",
+        "The black one is nice.",
+        "I like the black one.",
+        "It is black."
       ],
+      "sentenceMap": {
+        "red": [
+          0,
+          1,
+          2
+        ],
+        "blue": [
+          3,
+          4,
+          5
+        ],
+        "green": [
+          6,
+          7,
+          8
+        ],
+        "yellow": [
+          9,
+          10,
+          11
+        ],
+        "orange": [
+          12,
+          13,
+          14
+        ],
+        "purple": [
+          15,
+          16,
+          17
+        ],
+        "pink": [
+          18,
+          19,
+          20
+        ],
+        "black": [
+          21,
+          22,
+          23
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -258,12 +316,49 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The one is big.",
-        "The two is fun.",
-        "I can see the three.",
-        "The four is big.",
-        "Let's play with the five!"
+        "I see one.",
+        "There are one.",
+        "Count one.",
+        "I see two.",
+        "There are two.",
+        "Count two.",
+        "I see three.",
+        "There are three.",
+        "Count three.",
+        "I see four.",
+        "There are four.",
+        "Count four.",
+        "I see five.",
+        "There are five.",
+        "Count five."
       ],
+      "sentenceMap": {
+        "one": [
+          0,
+          1,
+          2
+        ],
+        "two": [
+          3,
+          4,
+          5
+        ],
+        "three": [
+          6,
+          7,
+          8
+        ],
+        "four": [
+          9,
+          10,
+          11
+        ],
+        "five": [
+          12,
+          13,
+          14
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -324,12 +419,49 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is my six.",
-        "I want the seven.",
-        "I love the eight.",
-        "Let's play with the nine!",
-        "I can see the ten."
+        "I see six.",
+        "There are six.",
+        "Count six.",
+        "I see seven.",
+        "There are seven.",
+        "Count seven.",
+        "I see eight.",
+        "There are eight.",
+        "Count eight.",
+        "I see nine.",
+        "There are nine.",
+        "Count nine.",
+        "I see ten.",
+        "There are ten.",
+        "Count ten."
       ],
+      "sentenceMap": {
+        "six": [
+          0,
+          1,
+          2
+        ],
+        "seven": [
+          3,
+          4,
+          5
+        ],
+        "eight": [
+          6,
+          7,
+          8
+        ],
+        "nine": [
+          9,
+          10,
+          11
+        ],
+        "ten": [
+          12,
+          13,
+          14
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -397,13 +529,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The star is fun.",
-        "The heart is fun.",
+        "This is a star.",
+        "I like the star.",
+        "I can see the star.",
+        "This is a heart.",
+        "I like the heart.",
+        "I can see the heart.",
         "This is a circle.",
-        "We have a square.",
-        "My diamond is cool.",
-        "This is a moon."
+        "I like the circle.",
+        "I can see the circle.",
+        "This is a square.",
+        "I like the square.",
+        "I can see the square.",
+        "This is a diamond.",
+        "I like the diamond.",
+        "I can see the diamond.",
+        "This is a moon.",
+        "I like the moon.",
+        "I can see the moon."
       ],
+      "sentenceMap": {
+        "star": [
+          0,
+          1,
+          2
+        ],
+        "heart": [
+          3,
+          4,
+          5
+        ],
+        "circle": [
+          6,
+          7,
+          8
+        ],
+        "square": [
+          9,
+          10,
+          11
+        ],
+        "diamond": [
+          12,
+          13,
+          14
+        ],
+        "moon": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -471,13 +647,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The cat is big.",
-        "Look at the dog!",
-        "Look at the fish!",
+        "This is a cat.",
+        "I like the cat.",
+        "I can see the cat.",
+        "This is a dog.",
+        "I like the dog.",
+        "I can see the dog.",
+        "This is a fish.",
+        "I like the fish.",
+        "I can see the fish.",
         "This is a rabbit.",
-        "We have a bird.",
-        "Let's play with the mouse!"
+        "I like the rabbit.",
+        "I can see the rabbit.",
+        "This is a bird.",
+        "I like the bird.",
+        "I can see the bird.",
+        "This is a mouse.",
+        "I like the mouse.",
+        "I can see the mouse."
       ],
+      "sentenceMap": {
+        "cat": [
+          0,
+          1,
+          2
+        ],
+        "dog": [
+          3,
+          4,
+          5
+        ],
+        "fish": [
+          6,
+          7,
+          8
+        ],
+        "rabbit": [
+          9,
+          10,
+          11
+        ],
+        "bird": [
+          12,
+          13,
+          14
+        ],
+        "mouse": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -545,13 +765,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Can you find the cow?",
+        "This is a cow.",
+        "I like the cow.",
+        "I can see the cow.",
+        "This is a pig.",
         "I like the pig.",
-        "Can you find the horse?",
-        "This is my sheep.",
-        "The duck is nice.",
-        "Let's play with the hen!"
+        "I can see the pig.",
+        "This is a horse.",
+        "I like the horse.",
+        "I can see the horse.",
+        "This is a sheep.",
+        "I like the sheep.",
+        "I can see the sheep.",
+        "This is a duck.",
+        "I like the duck.",
+        "I can see the duck.",
+        "This is a hen.",
+        "I like the hen.",
+        "I can see the hen."
       ],
+      "sentenceMap": {
+        "cow": [
+          0,
+          1,
+          2
+        ],
+        "pig": [
+          3,
+          4,
+          5
+        ],
+        "horse": [
+          6,
+          7,
+          8
+        ],
+        "sheep": [
+          9,
+          10,
+          11
+        ],
+        "duck": [
+          12,
+          13,
+          14
+        ],
+        "hen": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -619,13 +883,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Let's play with the hand!",
-        "This is my eye.",
-        "The nose is big.",
-        "The ear is fun.",
-        "My mouth is cool.",
+        "This is a hand.",
+        "I like the hand.",
+        "I can see the hand.",
+        "This is an eye.",
+        "I like the eye.",
+        "I can see the eye.",
+        "This is a nose.",
+        "I like the nose.",
+        "I can see the nose.",
+        "This is an ear.",
+        "I like the ear.",
+        "I can see the ear.",
+        "This is a mouth.",
+        "I like the mouth.",
+        "I can see the mouth.",
+        "This is a foot.",
+        "I like the foot.",
         "I can see the foot."
       ],
+      "sentenceMap": {
+        "hand": [
+          0,
+          1,
+          2
+        ],
+        "eye": [
+          3,
+          4,
+          5
+        ],
+        "nose": [
+          6,
+          7,
+          8
+        ],
+        "ear": [
+          9,
+          10,
+          11
+        ],
+        "mouth": [
+          12,
+          13,
+          14
+        ],
+        "foot": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -693,13 +1001,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The apple is fun.",
-        "The banana is nice.",
-        "I have the orange.",
-        "This is my grapes.",
-        "Can you find the strawberry?",
-        "I have the melon."
+        "This is an apple.",
+        "I like the apple.",
+        "I can see the apple.",
+        "This is a banana.",
+        "I like the banana.",
+        "I can see the banana.",
+        "The orange one is nice.",
+        "I like the orange one.",
+        "It is orange.",
+        "These are grapes.",
+        "I like grapes.",
+        "Can you see grapes?",
+        "This is a strawberry.",
+        "I like the strawberry.",
+        "I can see the strawberry.",
+        "This is a melon.",
+        "I like the melon.",
+        "I can see the melon."
       ],
+      "sentenceMap": {
+        "apple": [
+          0,
+          1,
+          2
+        ],
+        "banana": [
+          3,
+          4,
+          5
+        ],
+        "orange": [
+          6,
+          7,
+          8
+        ],
+        "grapes": [
+          9,
+          10,
+          11
+        ],
+        "strawberry": [
+          12,
+          13,
+          14
+        ],
+        "melon": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -767,13 +1119,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The ball is nice.",
-        "Look at the teddy!",
-        "We have a doll.",
+        "This is a ball.",
+        "I like the ball.",
+        "I can see the ball.",
+        "This is a teddy.",
+        "I like the teddy.",
+        "I can see the teddy.",
+        "This is a doll.",
+        "I like the doll.",
+        "I can see the doll.",
+        "This is a car.",
+        "I like the car.",
         "I can see the car.",
-        "Let's play with the kite!",
-        "Can you find the blocks?"
+        "This is a kite.",
+        "I like the kite.",
+        "I can see the kite.",
+        "These are blocks.",
+        "I like blocks.",
+        "Can you see blocks?"
       ],
+      "sentenceMap": {
+        "ball": [
+          0,
+          1,
+          2
+        ],
+        "teddy": [
+          3,
+          4,
+          5
+        ],
+        "doll": [
+          6,
+          7,
+          8
+        ],
+        "car": [
+          9,
+          10,
+          11
+        ],
+        "kite": [
+          12,
+          13,
+          14
+        ],
+        "blocks": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -848,14 +1244,65 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The mom is nice.",
-        "I love the dad.",
+        "This is a mom.",
+        "I like the mom.",
+        "I can see the mom.",
+        "This is a dad.",
+        "I like the dad.",
+        "I can see the dad.",
+        "This is a baby.",
         "I like the baby.",
+        "I can see the baby.",
+        "This is a brother.",
         "I like the brother.",
-        "The sister is fun.",
+        "I can see the brother.",
+        "This is a sister.",
+        "I like the sister.",
+        "I can see the sister.",
+        "This is a grandma.",
+        "I like the grandma.",
         "I can see the grandma.",
-        "I love the grandpa."
+        "This is a grandpa.",
+        "I like the grandpa.",
+        "I can see the grandpa."
       ],
+      "sentenceMap": {
+        "mom": [
+          0,
+          1,
+          2
+        ],
+        "dad": [
+          3,
+          4,
+          5
+        ],
+        "baby": [
+          6,
+          7,
+          8
+        ],
+        "brother": [
+          9,
+          10,
+          11
+        ],
+        "sister": [
+          12,
+          13,
+          14
+        ],
+        "grandma": [
+          15,
+          16,
+          17
+        ],
+        "grandpa": [
+          18,
+          19,
+          20
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -923,13 +1370,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I love the smile.",
-        "I want the cry.",
-        "We have a laugh.",
-        "I have the wink.",
-        "The yawn is big.",
-        "Look at the angry!"
+        "This is a smile.",
+        "I like the smile.",
+        "I can see the smile.",
+        "This is a cry.",
+        "I like the cry.",
+        "I can see the cry.",
+        "This is a laugh.",
+        "I like the laugh.",
+        "I can see the laugh.",
+        "This is a wink.",
+        "I like the wink.",
+        "I can see the wink.",
+        "This is a yawn.",
+        "I like the yawn.",
+        "I can see the yawn.",
+        "The angry one is nice.",
+        "I like the angry one.",
+        "It is angry."
       ],
+      "sentenceMap": {
+        "smile": [
+          0,
+          1,
+          2
+        ],
+        "cry": [
+          3,
+          4,
+          5
+        ],
+        "laugh": [
+          6,
+          7,
+          8
+        ],
+        "wink": [
+          9,
+          10,
+          11
+        ],
+        "yawn": [
+          12,
+          13,
+          14
+        ],
+        "angry": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -998,12 +1489,56 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a cookie.",
-        "The candy is nice.",
-        "I have the popcorn.",
-        "Can you find the lollipop?",
-        "I want the chocolate.",
-        "Let's play with the cupcake!"
+        "I like the cookie.",
+        "I can see the cookie.",
+        "This is a candy.",
+        "I like the candy.",
+        "I can see the candy.",
+        "This is a popcorn.",
+        "I like the popcorn.",
+        "I can see the popcorn.",
+        "This is a lollipop.",
+        "I like the lollipop.",
+        "I can see the lollipop.",
+        "This is a chocolate.",
+        "I like the chocolate.",
+        "I can see the chocolate.",
+        "This is a cupcake.",
+        "I like the cupcake.",
+        "I can see the cupcake."
       ],
+      "sentenceMap": {
+        "cookie": [
+          0,
+          1,
+          2
+        ],
+        "candy": [
+          3,
+          4,
+          5
+        ],
+        "popcorn": [
+          6,
+          7,
+          8
+        ],
+        "lollipop": [
+          9,
+          10,
+          11
+        ],
+        "chocolate": [
+          12,
+          13,
+          14
+        ],
+        "cupcake": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -1072,12 +1607,56 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a lion.",
-        "I want the tiger.",
-        "Let's play with the elephant!",
-        "We have a monkey.",
-        "Look at the bear!",
-        "I love the zebra."
+        "I like the lion.",
+        "I can see the lion.",
+        "This is a tiger.",
+        "I like the tiger.",
+        "I can see the tiger.",
+        "This is an elephant.",
+        "I like the elephant.",
+        "I can see the elephant.",
+        "This is a monkey.",
+        "I like the monkey.",
+        "I can see the monkey.",
+        "This is a bear.",
+        "I like the bear.",
+        "I can see the bear.",
+        "This is a zebra.",
+        "I like the zebra.",
+        "I can see the zebra."
       ],
+      "sentenceMap": {
+        "lion": [
+          0,
+          1,
+          2
+        ],
+        "tiger": [
+          3,
+          4,
+          5
+        ],
+        "elephant": [
+          6,
+          7,
+          8
+        ],
+        "monkey": [
+          9,
+          10,
+          11
+        ],
+        "bear": [
+          12,
+          13,
+          14
+        ],
+        "zebra": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -1145,13 +1724,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I want the whale.",
-        "I love the dolphin.",
-        "I like the octopus.",
-        "We have a crab.",
-        "I have the shark.",
-        "The fish is big."
+        "This is a whale.",
+        "I like the whale.",
+        "I can see the whale.",
+        "This is a dolphin.",
+        "I like the dolphin.",
+        "I can see the dolphin.",
+        "These are octopus.",
+        "I like octopus.",
+        "Can you see octopus?",
+        "This is a crab.",
+        "I like the crab.",
+        "I can see the crab.",
+        "This is a shark.",
+        "I like the shark.",
+        "I can see the shark.",
+        "This is a fish.",
+        "I like the fish.",
+        "I can see the fish."
       ],
+      "sentenceMap": {
+        "whale": [
+          0,
+          1,
+          2
+        ],
+        "dolphin": [
+          3,
+          4,
+          5
+        ],
+        "octopus": [
+          6,
+          7,
+          8
+        ],
+        "crab": [
+          9,
+          10,
+          11
+        ],
+        "shark": [
+          12,
+          13,
+          14
+        ],
+        "fish": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -1219,13 +1842,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The owl is fun.",
-        "This is my duck.",
-        "Look at the chicken!",
-        "I want the penguin.",
-        "I want the eagle.",
-        "This is a parrot."
+        "This is an owl.",
+        "I like the owl.",
+        "I can see the owl.",
+        "This is a duck.",
+        "I like the duck.",
+        "I can see the duck.",
+        "This is a chicken.",
+        "I like the chicken.",
+        "I can see the chicken.",
+        "This is a penguin.",
+        "I like the penguin.",
+        "I can see the penguin.",
+        "This is an eagle.",
+        "I like the eagle.",
+        "I can see the eagle.",
+        "This is a parrot.",
+        "I like the parrot.",
+        "I can see the parrot."
       ],
+      "sentenceMap": {
+        "owl": [
+          0,
+          1,
+          2
+        ],
+        "duck": [
+          3,
+          4,
+          5
+        ],
+        "chicken": [
+          6,
+          7,
+          8
+        ],
+        "penguin": [
+          9,
+          10,
+          11
+        ],
+        "eagle": [
+          12,
+          13,
+          14
+        ],
+        "parrot": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -1293,13 +1960,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I love the bee.",
-        "The ant is fun.",
-        "The butterfly is fun.",
+        "This is a bee.",
+        "I like the bee.",
+        "I can see the bee.",
+        "This is an ant.",
+        "I like the ant.",
+        "I can see the ant.",
+        "This is a butterfly.",
+        "I like the butterfly.",
+        "I can see the butterfly.",
+        "This is a spider.",
         "I like the spider.",
-        "Can you find the ladybug?",
-        "The snail is fun."
+        "I can see the spider.",
+        "This is a ladybug.",
+        "I like the ladybug.",
+        "I can see the ladybug.",
+        "This is a snail.",
+        "I like the snail.",
+        "I can see the snail."
       ],
+      "sentenceMap": {
+        "bee": [
+          0,
+          1,
+          2
+        ],
+        "ant": [
+          3,
+          4,
+          5
+        ],
+        "butterfly": [
+          6,
+          7,
+          8
+        ],
+        "spider": [
+          9,
+          10,
+          11
+        ],
+        "ladybug": [
+          12,
+          13,
+          14
+        ],
+        "snail": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -1367,13 +2078,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I love the carrot.",
+        "This is a carrot.",
+        "I like the carrot.",
+        "I can see the carrot.",
+        "This is a tomato.",
+        "I like the tomato.",
         "I can see the tomato.",
-        "Let's play with the potato!",
-        "The corn is nice.",
-        "Let's play with the broccoli!",
-        "Can you find the pepper?"
+        "This is a potato.",
+        "I like the potato.",
+        "I can see the potato.",
+        "This is a corn.",
+        "I like the corn.",
+        "I can see the corn.",
+        "This is a broccoli.",
+        "I like the broccoli.",
+        "I can see the broccoli.",
+        "This is a pepper.",
+        "I like the pepper.",
+        "I can see the pepper."
       ],
+      "sentenceMap": {
+        "carrot": [
+          0,
+          1,
+          2
+        ],
+        "tomato": [
+          3,
+          4,
+          5
+        ],
+        "potato": [
+          6,
+          7,
+          8
+        ],
+        "corn": [
+          9,
+          10,
+          11
+        ],
+        "broccoli": [
+          12,
+          13,
+          14
+        ],
+        "pepper": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -1441,13 +2196,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The bread is nice.",
-        "The cheese is fun.",
-        "I want the egg.",
+        "This is a bread.",
+        "I like the bread.",
+        "I can see the bread.",
+        "This is a cheese.",
+        "I like the cheese.",
+        "I can see the cheese.",
+        "This is an egg.",
+        "I like the egg.",
+        "I can see the egg.",
         "This is a rice.",
+        "I like the rice.",
+        "I can see the rice.",
+        "This is a meat.",
+        "I like the meat.",
         "I can see the meat.",
-        "Look at the soup!"
+        "This is a soup.",
+        "I like the soup.",
+        "I can see the soup."
       ],
+      "sentenceMap": {
+        "bread": [
+          0,
+          1,
+          2
+        ],
+        "cheese": [
+          3,
+          4,
+          5
+        ],
+        "egg": [
+          6,
+          7,
+          8
+        ],
+        "rice": [
+          9,
+          10,
+          11
+        ],
+        "meat": [
+          12,
+          13,
+          14
+        ],
+        "soup": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -1515,13 +2314,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is my water.",
-        "Let's play with the milk!",
-        "The juice is nice.",
-        "Let's play with the tea!",
-        "The coffee is fun.",
-        "Look at the soda!"
+        "This is a water.",
+        "I like the water.",
+        "I can see the water.",
+        "This is a milk.",
+        "I like the milk.",
+        "I can see the milk.",
+        "This is a juice.",
+        "I like the juice.",
+        "I can see the juice.",
+        "This is a tea.",
+        "I like the tea.",
+        "I can see the tea.",
+        "This is a coffee.",
+        "I like the coffee.",
+        "I can see the coffee.",
+        "This is a soda.",
+        "I like the soda.",
+        "I can see the soda."
       ],
+      "sentenceMap": {
+        "water": [
+          0,
+          1,
+          2
+        ],
+        "milk": [
+          3,
+          4,
+          5
+        ],
+        "juice": [
+          6,
+          7,
+          8
+        ],
+        "tea": [
+          9,
+          10,
+          11
+        ],
+        "coffee": [
+          12,
+          13,
+          14
+        ],
+        "soda": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -1589,13 +2432,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
+        "This is a cake.",
         "I like the cake.",
-        "I have the ice cream.",
-        "We have a cookie.",
-        "I have the candy.",
-        "The chocolate is big.",
-        "I want the donut."
+        "I can see the cake.",
+        "This is ice cream.",
+        "I like ice cream.",
+        "Can you see ice cream?",
+        "This is a cookie.",
+        "I like the cookie.",
+        "I can see the cookie.",
+        "This is a candy.",
+        "I like the candy.",
+        "I can see the candy.",
+        "This is a chocolate.",
+        "I like the chocolate.",
+        "I can see the chocolate.",
+        "This is a donut.",
+        "I like the donut.",
+        "I can see the donut."
       ],
+      "sentenceMap": {
+        "cake": [
+          0,
+          1,
+          2
+        ],
+        "ice cream": [
+          3,
+          4,
+          5
+        ],
+        "cookie": [
+          6,
+          7,
+          8
+        ],
+        "candy": [
+          9,
+          10,
+          11
+        ],
+        "chocolate": [
+          12,
+          13,
+          14
+        ],
+        "donut": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -1663,13 +2550,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
+        "This is a shirt.",
         "I like the shirt.",
-        "We have a pants.",
-        "I want the dress.",
-        "The shoes is fun.",
-        "I have the hat.",
-        "My socks is cool."
+        "I can see the shirt.",
+        "These are pants.",
+        "I like pants.",
+        "Can you see pants?",
+        "These are dress.",
+        "I like dress.",
+        "Can you see dress?",
+        "These are shoes.",
+        "I like shoes.",
+        "Can you see shoes?",
+        "This is a hat.",
+        "I like the hat.",
+        "I can see the hat.",
+        "These are socks.",
+        "I like socks.",
+        "Can you see socks?"
       ],
+      "sentenceMap": {
+        "shirt": [
+          0,
+          1,
+          2
+        ],
+        "pants": [
+          3,
+          4,
+          5
+        ],
+        "dress": [
+          6,
+          7,
+          8
+        ],
+        "shoes": [
+          9,
+          10,
+          11
+        ],
+        "hat": [
+          12,
+          13,
+          14
+        ],
+        "socks": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -1737,13 +2668,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I have the sun.",
-        "I have the rain.",
+        "This is a sun.",
+        "I like the sun.",
+        "I can see the sun.",
+        "This is a rain.",
+        "I like the rain.",
+        "I can see the rain.",
+        "This is a snow.",
         "I like the snow.",
-        "I have the cloud.",
-        "Can you find the wind?",
-        "I have the rainbow."
+        "I can see the snow.",
+        "This is a cloud.",
+        "I like the cloud.",
+        "I can see the cloud.",
+        "This is a wind.",
+        "I like the wind.",
+        "I can see the wind.",
+        "This is a rainbow.",
+        "I like the rainbow.",
+        "I can see the rainbow."
       ],
+      "sentenceMap": {
+        "sun": [
+          0,
+          1,
+          2
+        ],
+        "rain": [
+          3,
+          4,
+          5
+        ],
+        "snow": [
+          6,
+          7,
+          8
+        ],
+        "cloud": [
+          9,
+          10,
+          11
+        ],
+        "wind": [
+          12,
+          13,
+          14
+        ],
+        "rainbow": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -1811,13 +2786,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Look at the house!",
-        "My door is cool.",
+        "This is a house.",
+        "I like the house.",
+        "I can see the house.",
+        "This is a door.",
+        "I like the door.",
+        "I can see the door.",
+        "This is a window.",
         "I like the window.",
-        "I love the bed.",
-        "This is my chair.",
+        "I can see the window.",
+        "This is a bed.",
+        "I like the bed.",
+        "I can see the bed.",
+        "This is a chair.",
+        "I like the chair.",
+        "I can see the chair.",
+        "This is a clock.",
+        "I like the clock.",
         "I can see the clock."
       ],
+      "sentenceMap": {
+        "house": [
+          0,
+          1,
+          2
+        ],
+        "door": [
+          3,
+          4,
+          5
+        ],
+        "window": [
+          6,
+          7,
+          8
+        ],
+        "bed": [
+          9,
+          10,
+          11
+        ],
+        "chair": [
+          12,
+          13,
+          14
+        ],
+        "clock": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -1885,13 +2904,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I want the cup.",
-        "I love the plate.",
-        "I want the fork.",
-        "This is my spoon.",
-        "The knife is nice.",
-        "The pot is fun."
+        "This is a cup.",
+        "I like the cup.",
+        "I can see the cup.",
+        "This is a plate.",
+        "I like the plate.",
+        "I can see the plate.",
+        "This is a fork.",
+        "I like the fork.",
+        "I can see the fork.",
+        "This is a spoon.",
+        "I like the spoon.",
+        "I can see the spoon.",
+        "This is a knife.",
+        "I like the knife.",
+        "I can see the knife.",
+        "This is a pot.",
+        "I like the pot.",
+        "I can see the pot."
       ],
+      "sentenceMap": {
+        "cup": [
+          0,
+          1,
+          2
+        ],
+        "plate": [
+          3,
+          4,
+          5
+        ],
+        "fork": [
+          6,
+          7,
+          8
+        ],
+        "spoon": [
+          9,
+          10,
+          11
+        ],
+        "knife": [
+          12,
+          13,
+          14
+        ],
+        "pot": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -1959,13 +3022,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The flower is nice.",
-        "Let's play with the tree!",
-        "The grass is nice.",
-        "Look at the leaf!",
-        "The seed is big.",
-        "I want the bug."
+        "This is a flower.",
+        "I like the flower.",
+        "I can see the flower.",
+        "This is a tree.",
+        "I like the tree.",
+        "I can see the tree.",
+        "These are grass.",
+        "I like grass.",
+        "Can you see grass?",
+        "This is a leaf.",
+        "I like the leaf.",
+        "I can see the leaf.",
+        "This is a seed.",
+        "I like the seed.",
+        "I can see the seed.",
+        "This is a bug.",
+        "I like the bug.",
+        "I can see the bug."
       ],
+      "sentenceMap": {
+        "flower": [
+          0,
+          1,
+          2
+        ],
+        "tree": [
+          3,
+          4,
+          5
+        ],
+        "grass": [
+          6,
+          7,
+          8
+        ],
+        "leaf": [
+          9,
+          10,
+          11
+        ],
+        "seed": [
+          12,
+          13,
+          14
+        ],
+        "bug": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -2033,13 +3140,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I love the mountain.",
-        "I love the river.",
-        "We have a beach.",
-        "The forest is fun.",
+        "This is a mountain.",
+        "I like the mountain.",
+        "I can see the mountain.",
+        "This is a river.",
+        "I like the river.",
+        "I can see the river.",
+        "This is a beach.",
+        "I like the beach.",
+        "I can see the beach.",
+        "This is a forest.",
+        "I like the forest.",
+        "I can see the forest.",
+        "This is a sky.",
         "I like the sky.",
-        "Can you find the fire?"
+        "I can see the sky.",
+        "This is a fire.",
+        "I like the fire.",
+        "I can see the fire."
       ],
+      "sentenceMap": {
+        "mountain": [
+          0,
+          1,
+          2
+        ],
+        "river": [
+          3,
+          4,
+          5
+        ],
+        "beach": [
+          6,
+          7,
+          8
+        ],
+        "forest": [
+          9,
+          10,
+          11
+        ],
+        "sky": [
+          12,
+          13,
+          14
+        ],
+        "fire": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -2107,13 +3258,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a pink.",
-        "I have the brown.",
-        "Look at the white!",
-        "Let's play with the black!",
-        "The gray is fun.",
-        "I like the blue."
+        "The pink one is nice.",
+        "I like the pink one.",
+        "It is pink.",
+        "The brown one is nice.",
+        "I like the brown one.",
+        "It is brown.",
+        "The white one is nice.",
+        "I like the white one.",
+        "It is white.",
+        "The black one is nice.",
+        "I like the black one.",
+        "It is black.",
+        "The gray one is nice.",
+        "I like the gray one.",
+        "It is gray.",
+        "The blue one is nice.",
+        "I like the blue one.",
+        "It is blue."
       ],
+      "sentenceMap": {
+        "pink": [
+          0,
+          1,
+          2
+        ],
+        "brown": [
+          3,
+          4,
+          5
+        ],
+        "white": [
+          6,
+          7,
+          8
+        ],
+        "black": [
+          9,
+          10,
+          11
+        ],
+        "gray": [
+          12,
+          13,
+          14
+        ],
+        "blue": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -2181,13 +3376,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Let's play with the sun!",
+        "This is a sun.",
+        "I like the sun.",
+        "I can see the sun.",
         "This is a moon.",
+        "I like the moon.",
+        "I can see the moon.",
         "This is a star.",
-        "The cloud is nice.",
-        "My rainbow is cool.",
-        "I have the kite."
+        "I like the star.",
+        "I can see the star.",
+        "This is a cloud.",
+        "I like the cloud.",
+        "I can see the cloud.",
+        "This is a rainbow.",
+        "I like the rainbow.",
+        "I can see the rainbow.",
+        "This is a kite.",
+        "I like the kite.",
+        "I can see the kite."
       ],
+      "sentenceMap": {
+        "sun": [
+          0,
+          1,
+          2
+        ],
+        "moon": [
+          3,
+          4,
+          5
+        ],
+        "star": [
+          6,
+          7,
+          8
+        ],
+        "cloud": [
+          9,
+          10,
+          11
+        ],
+        "rainbow": [
+          12,
+          13,
+          14
+        ],
+        "kite": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -2255,13 +3494,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The fish is nice.",
-        "The boat is nice.",
-        "Look at the duck!",
-        "Look at the wave!",
-        "I want the shell.",
-        "The crab is big."
+        "This is a fish.",
+        "I like the fish.",
+        "I can see the fish.",
+        "This is a boat.",
+        "I like the boat.",
+        "I can see the boat.",
+        "This is a duck.",
+        "I like the duck.",
+        "I can see the duck.",
+        "This is a wave.",
+        "I like the wave.",
+        "I can see the wave.",
+        "This is a shell.",
+        "I like the shell.",
+        "I can see the shell.",
+        "This is a crab.",
+        "I like the crab.",
+        "I can see the crab."
       ],
+      "sentenceMap": {
+        "fish": [
+          0,
+          1,
+          2
+        ],
+        "boat": [
+          3,
+          4,
+          5
+        ],
+        "duck": [
+          6,
+          7,
+          8
+        ],
+        "wave": [
+          9,
+          10,
+          11
+        ],
+        "shell": [
+          12,
+          13,
+          14
+        ],
+        "crab": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -2329,13 +3612,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I want the pen.",
-        "My pencil is cool.",
-        "Let's play with the book!",
-        "We have a bag.",
-        "My ruler is cool.",
-        "The crayon is nice."
+        "This is a pen.",
+        "I like the pen.",
+        "I can see the pen.",
+        "This is a pencil.",
+        "I like the pencil.",
+        "I can see the pencil.",
+        "This is a book.",
+        "I like the book.",
+        "I can see the book.",
+        "This is a bag.",
+        "I like the bag.",
+        "I can see the bag.",
+        "This is a ruler.",
+        "I like the ruler.",
+        "I can see the ruler.",
+        "This is a crayon.",
+        "I like the crayon.",
+        "I can see the crayon."
       ],
+      "sentenceMap": {
+        "pen": [
+          0,
+          1,
+          2
+        ],
+        "pencil": [
+          3,
+          4,
+          5
+        ],
+        "book": [
+          6,
+          7,
+          8
+        ],
+        "bag": [
+          9,
+          10,
+          11
+        ],
+        "ruler": [
+          12,
+          13,
+          14
+        ],
+        "crayon": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -2403,13 +3730,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The school is fun.",
+        "This is a school.",
+        "I like the school.",
+        "I can see the school.",
+        "This is a teacher.",
         "I like the teacher.",
-        "Can you find the student?",
-        "My desk is cool.",
+        "I can see the teacher.",
+        "This is a student.",
+        "I like the student.",
+        "I can see the student.",
+        "This is a desk.",
+        "I like the desk.",
+        "I can see the desk.",
+        "This is a board.",
+        "I like the board.",
         "I can see the board.",
-        "This is a clock."
+        "This is a clock.",
+        "I like the clock.",
+        "I can see the clock."
       ],
+      "sentenceMap": {
+        "school": [
+          0,
+          1,
+          2
+        ],
+        "teacher": [
+          3,
+          4,
+          5
+        ],
+        "student": [
+          6,
+          7,
+          8
+        ],
+        "desk": [
+          9,
+          10,
+          11
+        ],
+        "board": [
+          12,
+          13,
+          14
+        ],
+        "clock": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -2477,13 +3848,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "We have a happy.",
-        "I want the sad.",
-        "I want the angry.",
-        "Can you find the sleepy?",
-        "I want the scared.",
-        "The surprised is fun."
+        "The happy one is nice.",
+        "I like the happy one.",
+        "It is happy.",
+        "The sad one is nice.",
+        "I like the sad one.",
+        "It is sad.",
+        "The angry one is nice.",
+        "I like the angry one.",
+        "It is angry.",
+        "The sleepy one is nice.",
+        "I like the sleepy one.",
+        "It is sleepy.",
+        "The scared one is nice.",
+        "I like the scared one.",
+        "It is scared.",
+        "The surprised one is nice.",
+        "I like the surprised one.",
+        "It is surprised."
       ],
+      "sentenceMap": {
+        "happy": [
+          0,
+          1,
+          2
+        ],
+        "sad": [
+          3,
+          4,
+          5
+        ],
+        "angry": [
+          6,
+          7,
+          8
+        ],
+        "sleepy": [
+          9,
+          10,
+          11
+        ],
+        "scared": [
+          12,
+          13,
+          14
+        ],
+        "surprised": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -2551,13 +3966,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is my run.",
-        "The jump is fun.",
-        "We have a walk.",
-        "Look at the swim!",
-        "I have the climb.",
-        "Let's play with the dance!"
+        "I can run.",
+        "Can you run?",
+        "We run today.",
+        "I can jump.",
+        "Can you jump?",
+        "We jump today.",
+        "I can walk.",
+        "Can you walk?",
+        "We walk today.",
+        "I can swim.",
+        "Can you swim?",
+        "We swim today.",
+        "I can climb.",
+        "Can you climb?",
+        "We climb today.",
+        "I can dance.",
+        "Can you dance?",
+        "We dance today."
       ],
+      "sentenceMap": {
+        "run": [
+          0,
+          1,
+          2
+        ],
+        "jump": [
+          3,
+          4,
+          5
+        ],
+        "walk": [
+          6,
+          7,
+          8
+        ],
+        "swim": [
+          9,
+          10,
+          11
+        ],
+        "climb": [
+          12,
+          13,
+          14
+        ],
+        "dance": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -2625,13 +4084,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I have the giraffe.",
+        "This is a giraffe.",
+        "I like the giraffe.",
+        "I can see the giraffe.",
+        "This is a kangaroo.",
+        "I like the kangaroo.",
         "I can see the kangaroo.",
-        "I want the panda.",
-        "This is my koala.",
-        "I want the hippo.",
-        "The camel is big."
+        "This is a panda.",
+        "I like the panda.",
+        "I can see the panda.",
+        "This is a koala.",
+        "I like the koala.",
+        "I can see the koala.",
+        "This is a hippo.",
+        "I like the hippo.",
+        "I can see the hippo.",
+        "This is a camel.",
+        "I like the camel.",
+        "I can see the camel."
       ],
+      "sentenceMap": {
+        "giraffe": [
+          0,
+          1,
+          2
+        ],
+        "kangaroo": [
+          3,
+          4,
+          5
+        ],
+        "panda": [
+          6,
+          7,
+          8
+        ],
+        "koala": [
+          9,
+          10,
+          11
+        ],
+        "hippo": [
+          12,
+          13,
+          14
+        ],
+        "camel": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -2699,13 +4202,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Can you find the bike?",
-        "Look at the guitar!",
-        "I have the puzzle.",
-        "The game is nice.",
+        "This is a bike.",
+        "I like the bike.",
+        "I can see the bike.",
+        "This is a guitar.",
+        "I like the guitar.",
+        "I can see the guitar.",
+        "This is a puzzle.",
+        "I like the puzzle.",
+        "I can see the puzzle.",
+        "This is a game.",
+        "I like the game.",
+        "I can see the game.",
+        "This is a kite.",
+        "I like the kite.",
         "I can see the kite.",
-        "I like the ball."
+        "This is a ball.",
+        "I like the ball.",
+        "I can see the ball."
       ],
+      "sentenceMap": {
+        "bike": [
+          0,
+          1,
+          2
+        ],
+        "guitar": [
+          3,
+          4,
+          5
+        ],
+        "puzzle": [
+          6,
+          7,
+          8
+        ],
+        "game": [
+          9,
+          10,
+          11
+        ],
+        "kite": [
+          12,
+          13,
+          14
+        ],
+        "ball": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -2774,12 +4321,56 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a pizza.",
+        "I like the pizza.",
+        "I can see the pizza.",
+        "This is a sandwich.",
+        "I like the sandwich.",
         "I can see the sandwich.",
-        "The salad is nice.",
-        "My pasta is cool.",
-        "I have the burger.",
-        "The fries is nice."
+        "This is a salad.",
+        "I like the salad.",
+        "I can see the salad.",
+        "This is a pasta.",
+        "I like the pasta.",
+        "I can see the pasta.",
+        "This is a burger.",
+        "I like the burger.",
+        "I can see the burger.",
+        "These are fries.",
+        "I like fries.",
+        "Can you see fries?"
       ],
+      "sentenceMap": {
+        "pizza": [
+          0,
+          1,
+          2
+        ],
+        "sandwich": [
+          3,
+          4,
+          5
+        ],
+        "salad": [
+          6,
+          7,
+          8
+        ],
+        "pasta": [
+          9,
+          10,
+          11
+        ],
+        "burger": [
+          12,
+          13,
+          14
+        ],
+        "fries": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -2847,13 +4438,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I have the wake.",
-        "I want the eat.",
-        "This is a wash.",
-        "This is my sleep.",
-        "Look at the read!",
-        "I like the play."
+        "I can wake.",
+        "Can you wake?",
+        "We wake today.",
+        "I can eat.",
+        "Can you eat?",
+        "We eat today.",
+        "I can wash.",
+        "Can you wash?",
+        "We wash today.",
+        "This is a sleep.",
+        "I like the sleep.",
+        "I can see the sleep.",
+        "I can read.",
+        "Can you read?",
+        "We read today.",
+        "I can play.",
+        "Can you play?",
+        "We play today."
       ],
+      "sentenceMap": {
+        "wake": [
+          0,
+          1,
+          2
+        ],
+        "eat": [
+          3,
+          4,
+          5
+        ],
+        "wash": [
+          6,
+          7,
+          8
+        ],
+        "sleep": [
+          9,
+          10,
+          11
+        ],
+        "read": [
+          12,
+          13,
+          14
+        ],
+        "play": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -2921,13 +4556,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The morning is big.",
-        "Let's play with the afternoon!",
-        "I have the evening.",
+        "I am morning.",
+        "We are morning.",
+        "She is morning.",
+        "This is an afternoon.",
+        "I like the afternoon.",
+        "I can see the afternoon.",
+        "I am evening.",
+        "We are evening.",
+        "She is evening.",
+        "This is a night.",
         "I like the night.",
-        "Look at the clock!",
-        "This is my watch."
+        "I can see the night.",
+        "This is a clock.",
+        "I like the clock.",
+        "I can see the clock.",
+        "I can watch.",
+        "Can you watch?",
+        "We watch today."
       ],
+      "sentenceMap": {
+        "morning": [
+          0,
+          1,
+          2
+        ],
+        "afternoon": [
+          3,
+          4,
+          5
+        ],
+        "evening": [
+          6,
+          7,
+          8
+        ],
+        "night": [
+          9,
+          10,
+          11
+        ],
+        "clock": [
+          12,
+          13,
+          14
+        ],
+        "watch": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -2995,13 +4674,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "My spring is cool.",
+        "I am spring.",
+        "We are spring.",
+        "She is spring.",
         "This is a summer.",
-        "We have a autumn.",
-        "Can you find the winter?",
+        "I like the summer.",
+        "I can see the summer.",
+        "This is an autumn.",
+        "I like the autumn.",
+        "I can see the autumn.",
+        "This is a winter.",
+        "I like the winter.",
+        "I can see the winter.",
+        "This is a rain.",
+        "I like the rain.",
         "I can see the rain.",
-        "I want the snow."
+        "This is a snow.",
+        "I like the snow.",
+        "I can see the snow."
       ],
+      "sentenceMap": {
+        "spring": [
+          0,
+          1,
+          2
+        ],
+        "summer": [
+          3,
+          4,
+          5
+        ],
+        "autumn": [
+          6,
+          7,
+          8
+        ],
+        "winter": [
+          9,
+          10,
+          11
+        ],
+        "rain": [
+          12,
+          13,
+          14
+        ],
+        "snow": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -3069,13 +4792,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "My tent is cool.",
-        "The fire is big.",
+        "This is a tent.",
+        "I like the tent.",
+        "I can see the tent.",
+        "This is a fire.",
+        "I like the fire.",
+        "I can see the fire.",
+        "This is a backpack.",
+        "I like the backpack.",
         "I can see the backpack.",
-        "Can you find the map?",
-        "Look at the torch!",
-        "Can you find the boots?"
+        "This is a map.",
+        "I like the map.",
+        "I can see the map.",
+        "This is a torch.",
+        "I like the torch.",
+        "I can see the torch.",
+        "These are boots.",
+        "I like boots.",
+        "Can you see boots?"
       ],
+      "sentenceMap": {
+        "tent": [
+          0,
+          1,
+          2
+        ],
+        "fire": [
+          3,
+          4,
+          5
+        ],
+        "backpack": [
+          6,
+          7,
+          8
+        ],
+        "map": [
+          9,
+          10,
+          11
+        ],
+        "torch": [
+          12,
+          13,
+          14
+        ],
+        "boots": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -3143,13 +4910,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Look at the apple!",
-        "Look at the juice!",
-        "My cake is cool.",
+        "This is an apple.",
+        "I like the apple.",
+        "I can see the apple.",
+        "This is a juice.",
+        "I like the juice.",
+        "I can see the juice.",
+        "This is a cake.",
+        "I like the cake.",
+        "I can see the cake.",
+        "This is a sandwich.",
+        "I like the sandwich.",
         "I can see the sandwich.",
         "This is a banana.",
-        "The water is fun."
+        "I like the banana.",
+        "I can see the banana.",
+        "This is a water.",
+        "I like the water.",
+        "I can see the water."
       ],
+      "sentenceMap": {
+        "apple": [
+          0,
+          1,
+          2
+        ],
+        "juice": [
+          3,
+          4,
+          5
+        ],
+        "cake": [
+          6,
+          7,
+          8
+        ],
+        "sandwich": [
+          9,
+          10,
+          11
+        ],
+        "banana": [
+          12,
+          13,
+          14
+        ],
+        "water": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -3217,13 +5028,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Can you find the big?",
-        "Look at the small!",
-        "The fast is nice.",
-        "The slow is nice.",
-        "This is my hot.",
-        "Let's play with the cold!"
+        "This is a big.",
+        "I like the big.",
+        "I can see the big.",
+        "This is a small.",
+        "I like the small.",
+        "I can see the small.",
+        "This is a fast.",
+        "I like the fast.",
+        "I can see the fast.",
+        "This is a slow.",
+        "I like the slow.",
+        "I can see the slow.",
+        "The hot one is nice.",
+        "I like the hot one.",
+        "It is hot.",
+        "The cold one is nice.",
+        "I like the cold one.",
+        "It is cold."
       ],
+      "sentenceMap": {
+        "big": [
+          0,
+          1,
+          2
+        ],
+        "small": [
+          3,
+          4,
+          5
+        ],
+        "fast": [
+          6,
+          7,
+          8
+        ],
+        "slow": [
+          9,
+          10,
+          11
+        ],
+        "hot": [
+          12,
+          13,
+          14
+        ],
+        "cold": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -3291,13 +5146,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Look at the car!",
-        "I have the bus.",
-        "Can you find the train?",
-        "The plane is nice.",
-        "Look at the boat!",
-        "I love the bike."
+        "This is a car.",
+        "I like the car.",
+        "I can see the car.",
+        "These are bus.",
+        "I like bus.",
+        "Can you see bus?",
+        "This is a train.",
+        "I like the train.",
+        "I can see the train.",
+        "This is a plane.",
+        "I like the plane.",
+        "I can see the plane.",
+        "This is a boat.",
+        "I like the boat.",
+        "I can see the boat.",
+        "This is a bike.",
+        "I like the bike.",
+        "I can see the bike."
       ],
+      "sentenceMap": {
+        "car": [
+          0,
+          1,
+          2
+        ],
+        "bus": [
+          3,
+          4,
+          5
+        ],
+        "train": [
+          6,
+          7,
+          8
+        ],
+        "plane": [
+          9,
+          10,
+          11
+        ],
+        "boat": [
+          12,
+          13,
+          14
+        ],
+        "bike": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -3365,13 +5264,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "My shop is cool.",
-        "I have the school.",
-        "The park is nice.",
-        "I have the hospital.",
-        "Let's play with the house!",
-        "The castle is nice."
+        "This is a shop.",
+        "I like the shop.",
+        "I can see the shop.",
+        "This is a school.",
+        "I like the school.",
+        "I can see the school.",
+        "This is a park.",
+        "I like the park.",
+        "I can see the park.",
+        "This is a hospital.",
+        "I like the hospital.",
+        "I can see the hospital.",
+        "This is a house.",
+        "I like the house.",
+        "I can see the house.",
+        "This is a castle.",
+        "I like the castle.",
+        "I can see the castle."
       ],
+      "sentenceMap": {
+        "shop": [
+          0,
+          1,
+          2
+        ],
+        "school": [
+          3,
+          4,
+          5
+        ],
+        "park": [
+          6,
+          7,
+          8
+        ],
+        "hospital": [
+          9,
+          10,
+          11
+        ],
+        "house": [
+          12,
+          13,
+          14
+        ],
+        "castle": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -3439,13 +5382,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Look at the clock!",
-        "I want the alarm.",
-        "The calendar is nice.",
-        "My watch is cool.",
-        "The day is nice.",
+        "This is a clock.",
+        "I like the clock.",
+        "I can see the clock.",
+        "This is an alarm.",
+        "I like the alarm.",
+        "I can see the alarm.",
+        "This is a calendar.",
+        "I like the calendar.",
+        "I can see the calendar.",
+        "I can watch.",
+        "Can you watch?",
+        "We watch today.",
+        "This is a day.",
+        "I like the day.",
+        "I can see the day.",
+        "This is a night.",
+        "I like the night.",
         "I can see the night."
       ],
+      "sentenceMap": {
+        "clock": [
+          0,
+          1,
+          2
+        ],
+        "alarm": [
+          3,
+          4,
+          5
+        ],
+        "calendar": [
+          6,
+          7,
+          8
+        ],
+        "watch": [
+          9,
+          10,
+          11
+        ],
+        "day": [
+          12,
+          13,
+          14
+        ],
+        "night": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -3513,13 +5500,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "My school is cool.",
-        "We have a home.",
-        "I have the park.",
-        "This is my shop.",
-        "I love the play.",
+        "This is a school.",
+        "I like the school.",
+        "I can see the school.",
+        "This is a home.",
+        "I like the home.",
+        "I can see the home.",
+        "This is a park.",
+        "I like the park.",
+        "I can see the park.",
+        "This is a shop.",
+        "I like the shop.",
+        "I can see the shop.",
+        "I can play.",
+        "Can you play?",
+        "We play today.",
+        "This is a sleep.",
+        "I like the sleep.",
         "I can see the sleep."
       ],
+      "sentenceMap": {
+        "school": [
+          0,
+          1,
+          2
+        ],
+        "home": [
+          3,
+          4,
+          5
+        ],
+        "park": [
+          6,
+          7,
+          8
+        ],
+        "shop": [
+          9,
+          10,
+          11
+        ],
+        "play": [
+          12,
+          13,
+          14
+        ],
+        "sleep": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -3587,13 +5618,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a excited.",
-        "This is my tired.",
-        "I like the hungry.",
-        "The thirsty is nice.",
-        "Let's play with the love!",
-        "I have the bored."
+        "The excited one is nice.",
+        "I like the excited one.",
+        "It is excited.",
+        "The tired one is nice.",
+        "I like the tired one.",
+        "It is tired.",
+        "The hungry one is nice.",
+        "I like the hungry one.",
+        "It is hungry.",
+        "The thirsty one is nice.",
+        "I like the thirsty one.",
+        "It is thirsty.",
+        "I can love.",
+        "Can you love?",
+        "We love today.",
+        "The bored one is nice.",
+        "I like the bored one.",
+        "It is bored."
       ],
+      "sentenceMap": {
+        "excited": [
+          0,
+          1,
+          2
+        ],
+        "tired": [
+          3,
+          4,
+          5
+        ],
+        "hungry": [
+          6,
+          7,
+          8
+        ],
+        "thirsty": [
+          9,
+          10,
+          11
+        ],
+        "love": [
+          12,
+          13,
+          14
+        ],
+        "bored": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -3661,13 +5736,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The sunny is fun.",
-        "We have a rainy.",
-        "The snowy is fun.",
-        "We have a cloudy.",
-        "The windy is nice.",
-        "The stormy is fun."
+        "The sunny one is nice.",
+        "I like the sunny one.",
+        "It is sunny.",
+        "The rainy one is nice.",
+        "I like the rainy one.",
+        "It is rainy.",
+        "The snowy one is nice.",
+        "I like the snowy one.",
+        "It is snowy.",
+        "The cloudy one is nice.",
+        "I like the cloudy one.",
+        "It is cloudy.",
+        "The windy one is nice.",
+        "I like the windy one.",
+        "It is windy.",
+        "The stormy one is nice.",
+        "I like the stormy one.",
+        "It is stormy."
       ],
+      "sentenceMap": {
+        "sunny": [
+          0,
+          1,
+          2
+        ],
+        "rainy": [
+          3,
+          4,
+          5
+        ],
+        "snowy": [
+          6,
+          7,
+          8
+        ],
+        "cloudy": [
+          9,
+          10,
+          11
+        ],
+        "windy": [
+          12,
+          13,
+          14
+        ],
+        "stormy": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -3735,13 +5854,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
+        "This is a car.",
+        "I like the car.",
         "I can see the car.",
-        "I love the bus.",
+        "These are bus.",
+        "I like bus.",
+        "Can you see bus?",
+        "This is a shop.",
         "I like the shop.",
+        "I can see the shop.",
         "This is a park.",
-        "My road is cool.",
-        "Let's play with the light!"
+        "I like the park.",
+        "I can see the park.",
+        "This is a road.",
+        "I like the road.",
+        "I can see the road.",
+        "This is a light.",
+        "I like the light.",
+        "I can see the light."
       ],
+      "sentenceMap": {
+        "car": [
+          0,
+          1,
+          2
+        ],
+        "bus": [
+          3,
+          4,
+          5
+        ],
+        "shop": [
+          6,
+          7,
+          8
+        ],
+        "park": [
+          9,
+          10,
+          11
+        ],
+        "road": [
+          12,
+          13,
+          14
+        ],
+        "light": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -3809,13 +5972,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Can you find the doctor?",
-        "We have a teacher.",
-        "Let's play with the chef!",
-        "My police is cool.",
-        "I want the farmer.",
-        "The pilot is nice."
+        "This is a doctor.",
+        "I like the doctor.",
+        "I can see the doctor.",
+        "This is a teacher.",
+        "I like the teacher.",
+        "I can see the teacher.",
+        "This is a chef.",
+        "I like the chef.",
+        "I can see the chef.",
+        "This is a police.",
+        "I like the police.",
+        "I can see the police.",
+        "This is a farmer.",
+        "I like the farmer.",
+        "I can see the farmer.",
+        "This is a pilot.",
+        "I like the pilot.",
+        "I can see the pilot."
       ],
+      "sentenceMap": {
+        "doctor": [
+          0,
+          1,
+          2
+        ],
+        "teacher": [
+          3,
+          4,
+          5
+        ],
+        "chef": [
+          6,
+          7,
+          8
+        ],
+        "police": [
+          9,
+          10,
+          11
+        ],
+        "farmer": [
+          12,
+          13,
+          14
+        ],
+        "pilot": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -3883,13 +6090,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "We have a soccer.",
-        "The basketball is fun.",
-        "I can see the tennis.",
-        "The baseball is nice.",
-        "Can you find the swimming?",
-        "We have a running."
+        "This is a soccer.",
+        "I like the soccer.",
+        "I can see the soccer.",
+        "This is a basketball.",
+        "I like the basketball.",
+        "I can see the basketball.",
+        "These are tennis.",
+        "I like tennis.",
+        "Can you see tennis?",
+        "This is a baseball.",
+        "I like the baseball.",
+        "I can see the baseball.",
+        "I am swimming.",
+        "We are swimming.",
+        "She is swimming.",
+        "I am running.",
+        "We are running.",
+        "She is running."
       ],
+      "sentenceMap": {
+        "soccer": [
+          0,
+          1,
+          2
+        ],
+        "basketball": [
+          3,
+          4,
+          5
+        ],
+        "tennis": [
+          6,
+          7,
+          8
+        ],
+        "baseball": [
+          9,
+          10,
+          11
+        ],
+        "swimming": [
+          12,
+          13,
+          14
+        ],
+        "running": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -3957,13 +6208,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "We have a guitar.",
-        "The piano is fun.",
-        "The drums is fun.",
-        "The violin is nice.",
-        "The trumpet is big.",
-        "Can you find the microphone?"
+        "This is a guitar.",
+        "I like the guitar.",
+        "I can see the guitar.",
+        "This is a piano.",
+        "I like the piano.",
+        "I can see the piano.",
+        "These are drums.",
+        "I like drums.",
+        "Can you see drums?",
+        "This is a violin.",
+        "I like the violin.",
+        "I can see the violin.",
+        "This is a trumpet.",
+        "I like the trumpet.",
+        "I can see the trumpet.",
+        "This is a microphone.",
+        "I like the microphone.",
+        "I can see the microphone."
       ],
+      "sentenceMap": {
+        "guitar": [
+          0,
+          1,
+          2
+        ],
+        "piano": [
+          3,
+          4,
+          5
+        ],
+        "drums": [
+          6,
+          7,
+          8
+        ],
+        "violin": [
+          9,
+          10,
+          11
+        ],
+        "trumpet": [
+          12,
+          13,
+          14
+        ],
+        "microphone": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -4031,13 +6326,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Look at the sun!",
-        "The moon is big.",
-        "This is my star.",
-        "The planet is nice.",
-        "I want the rocket.",
-        "I have the astronaut."
+        "This is a sun.",
+        "I like the sun.",
+        "I can see the sun.",
+        "This is a moon.",
+        "I like the moon.",
+        "I can see the moon.",
+        "This is a star.",
+        "I like the star.",
+        "I can see the star.",
+        "This is a planet.",
+        "I like the planet.",
+        "I can see the planet.",
+        "This is a rocket.",
+        "I like the rocket.",
+        "I can see the rocket.",
+        "This is an astronaut.",
+        "I like the astronaut.",
+        "I can see the astronaut."
       ],
+      "sentenceMap": {
+        "sun": [
+          0,
+          1,
+          2
+        ],
+        "moon": [
+          3,
+          4,
+          5
+        ],
+        "star": [
+          6,
+          7,
+          8
+        ],
+        "planet": [
+          9,
+          10,
+          11
+        ],
+        "rocket": [
+          12,
+          13,
+          14
+        ],
+        "astronaut": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -4105,13 +6444,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
+        "This is a helicopter.",
         "I like the helicopter.",
-        "Look at the ship!",
-        "My truck is cool.",
-        "Let's play with the taxi!",
-        "I have the motorbike.",
-        "Let's play with the tractor!"
+        "I can see the helicopter.",
+        "This is a ship.",
+        "I like the ship.",
+        "I can see the ship.",
+        "This is a truck.",
+        "I like the truck.",
+        "I can see the truck.",
+        "This is a taxi.",
+        "I like the taxi.",
+        "I can see the taxi.",
+        "This is a motorbike.",
+        "I like the motorbike.",
+        "I can see the motorbike.",
+        "This is a tractor.",
+        "I like the tractor.",
+        "I can see the tractor."
       ],
+      "sentenceMap": {
+        "helicopter": [
+          0,
+          1,
+          2
+        ],
+        "ship": [
+          3,
+          4,
+          5
+        ],
+        "truck": [
+          6,
+          7,
+          8
+        ],
+        "taxi": [
+          9,
+          10,
+          11
+        ],
+        "motorbike": [
+          12,
+          13,
+          14
+        ],
+        "tractor": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -4179,13 +6562,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "We have a storm.",
-        "I want the fog.",
-        "I like the lightning.",
-        "We have a tornado.",
-        "The sunny is big.",
-        "I have the windy."
+        "This is a storm.",
+        "I like the storm.",
+        "I can see the storm.",
+        "This is a fog.",
+        "I like the fog.",
+        "I can see the fog.",
+        "I am lightning.",
+        "We are lightning.",
+        "She is lightning.",
+        "This is a tornado.",
+        "I like the tornado.",
+        "I can see the tornado.",
+        "The sunny one is nice.",
+        "I like the sunny one.",
+        "It is sunny.",
+        "The windy one is nice.",
+        "I like the windy one.",
+        "It is windy."
       ],
+      "sentenceMap": {
+        "storm": [
+          0,
+          1,
+          2
+        ],
+        "fog": [
+          3,
+          4,
+          5
+        ],
+        "lightning": [
+          6,
+          7,
+          8
+        ],
+        "tornado": [
+          9,
+          10,
+          11
+        ],
+        "sunny": [
+          12,
+          13,
+          14
+        ],
+        "windy": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -4253,13 +6680,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I want the excited.",
-        "This is a bored.",
-        "I like the shy.",
-        "I want the proud.",
-        "I want the nervous.",
-        "Look at the silly!"
+        "The excited one is nice.",
+        "I like the excited one.",
+        "It is excited.",
+        "The bored one is nice.",
+        "I like the bored one.",
+        "It is bored.",
+        "The shy one is nice.",
+        "I like the shy one.",
+        "It is shy.",
+        "The proud one is nice.",
+        "I like the proud one.",
+        "It is proud.",
+        "The nervous one is nice.",
+        "I like the nervous one.",
+        "It is nervous.",
+        "The silly one is nice.",
+        "I like the silly one.",
+        "It is silly."
       ],
+      "sentenceMap": {
+        "excited": [
+          0,
+          1,
+          2
+        ],
+        "bored": [
+          3,
+          4,
+          5
+        ],
+        "shy": [
+          6,
+          7,
+          8
+        ],
+        "proud": [
+          9,
+          10,
+          11
+        ],
+        "nervous": [
+          12,
+          13,
+          14
+        ],
+        "silly": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -4327,13 +6798,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Look at the kitchen!",
+        "This is a kitchen.",
+        "I like the kitchen.",
+        "I can see the kitchen.",
+        "This is a bedroom.",
         "I like the bedroom.",
+        "I can see the bedroom.",
+        "This is a bathroom.",
         "I like the bathroom.",
-        "Look at the garden!",
-        "The garage is fun.",
-        "Look at the sofa!"
+        "I can see the bathroom.",
+        "This is a garden.",
+        "I like the garden.",
+        "I can see the garden.",
+        "This is a garage.",
+        "I like the garage.",
+        "I can see the garage.",
+        "This is a sofa.",
+        "I like the sofa.",
+        "I can see the sofa."
       ],
+      "sentenceMap": {
+        "kitchen": [
+          0,
+          1,
+          2
+        ],
+        "bedroom": [
+          3,
+          4,
+          5
+        ],
+        "bathroom": [
+          6,
+          7,
+          8
+        ],
+        "garden": [
+          9,
+          10,
+          11
+        ],
+        "garage": [
+          12,
+          13,
+          14
+        ],
+        "sofa": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -4401,13 +6916,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "We have a money.",
-        "We have a coin.",
-        "I love the shop.",
+        "This is a money.",
+        "I like the money.",
+        "I can see the money.",
+        "This is a coin.",
+        "I like the coin.",
+        "I can see the coin.",
+        "This is a shop.",
+        "I like the shop.",
+        "I can see the shop.",
         "This is a bag.",
-        "Can you find the card?",
-        "I want the gift."
+        "I like the bag.",
+        "I can see the bag.",
+        "This is a card.",
+        "I like the card.",
+        "I can see the card.",
+        "This is a gift.",
+        "I like the gift.",
+        "I can see the gift."
       ],
+      "sentenceMap": {
+        "money": [
+          0,
+          1,
+          2
+        ],
+        "coin": [
+          3,
+          4,
+          5
+        ],
+        "shop": [
+          6,
+          7,
+          8
+        ],
+        "bag": [
+          9,
+          10,
+          11
+        ],
+        "card": [
+          12,
+          13,
+          14
+        ],
+        "gift": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -4475,13 +7034,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The doctor is fun.",
-        "Let's play with the medicine!",
+        "This is a doctor.",
+        "I like the doctor.",
+        "I can see the doctor.",
+        "This is a medicine.",
+        "I like the medicine.",
+        "I can see the medicine.",
+        "This is a hospital.",
         "I like the hospital.",
-        "The sick is fun.",
-        "The bandage is nice.",
-        "I love the tooth."
+        "I can see the hospital.",
+        "The sick one is nice.",
+        "I like the sick one.",
+        "It is sick.",
+        "This is a bandage.",
+        "I like the bandage.",
+        "I can see the bandage.",
+        "This is a tooth.",
+        "I like the tooth.",
+        "I can see the tooth."
       ],
+      "sentenceMap": {
+        "doctor": [
+          0,
+          1,
+          2
+        ],
+        "medicine": [
+          3,
+          4,
+          5
+        ],
+        "hospital": [
+          6,
+          7,
+          8
+        ],
+        "sick": [
+          9,
+          10,
+          11
+        ],
+        "bandage": [
+          12,
+          13,
+          14
+        ],
+        "tooth": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -4549,13 +7152,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The cake is big.",
-        "This is my balloon.",
+        "This is a cake.",
+        "I like the cake.",
+        "I can see the cake.",
+        "This is a balloon.",
+        "I like the balloon.",
+        "I can see the balloon.",
+        "This is a gift.",
         "I like the gift.",
-        "I want the candle.",
-        "The music is nice.",
-        "My party is cool."
+        "I can see the gift.",
+        "This is a candle.",
+        "I like the candle.",
+        "I can see the candle.",
+        "This is a music.",
+        "I like the music.",
+        "I can see the music.",
+        "This is a party.",
+        "I like the party.",
+        "I can see the party."
       ],
+      "sentenceMap": {
+        "cake": [
+          0,
+          1,
+          2
+        ],
+        "balloon": [
+          3,
+          4,
+          5
+        ],
+        "gift": [
+          6,
+          7,
+          8
+        ],
+        "candle": [
+          9,
+          10,
+          11
+        ],
+        "music": [
+          12,
+          13,
+          14
+        ],
+        "party": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -4623,13 +7270,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I love the wave.",
-        "I love the boat.",
-        "Look at the shell!",
-        "I want the sand.",
-        "I love the island.",
-        "The fish is nice."
+        "This is a wave.",
+        "I like the wave.",
+        "I can see the wave.",
+        "This is a boat.",
+        "I like the boat.",
+        "I can see the boat.",
+        "This is a shell.",
+        "I like the shell.",
+        "I can see the shell.",
+        "This is a sand.",
+        "I like the sand.",
+        "I can see the sand.",
+        "This is an island.",
+        "I like the island.",
+        "I can see the island.",
+        "This is a fish.",
+        "I like the fish.",
+        "I can see the fish."
       ],
+      "sentenceMap": {
+        "wave": [
+          0,
+          1,
+          2
+        ],
+        "boat": [
+          3,
+          4,
+          5
+        ],
+        "shell": [
+          6,
+          7,
+          8
+        ],
+        "sand": [
+          9,
+          10,
+          11
+        ],
+        "island": [
+          12,
+          13,
+          14
+        ],
+        "fish": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -4697,13 +7388,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Look at the pineapple!",
-        "I love the mango.",
-        "I have the cherry.",
-        "I love the peach.",
-        "The lemon is fun.",
-        "This is a kiwi."
+        "This is a pineapple.",
+        "I like the pineapple.",
+        "I can see the pineapple.",
+        "This is a mango.",
+        "I like the mango.",
+        "I can see the mango.",
+        "This is a cherry.",
+        "I like the cherry.",
+        "I can see the cherry.",
+        "This is a peach.",
+        "I like the peach.",
+        "I can see the peach.",
+        "This is a lemon.",
+        "I like the lemon.",
+        "I can see the lemon.",
+        "This is a kiwi.",
+        "I like the kiwi.",
+        "I can see the kiwi."
       ],
+      "sentenceMap": {
+        "pineapple": [
+          0,
+          1,
+          2
+        ],
+        "mango": [
+          3,
+          4,
+          5
+        ],
+        "cherry": [
+          6,
+          7,
+          8
+        ],
+        "peach": [
+          9,
+          10,
+          11
+        ],
+        "lemon": [
+          12,
+          13,
+          14
+        ],
+        "kiwi": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -4771,13 +7506,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The onion is nice.",
+        "This is an onion.",
+        "I like the onion.",
+        "I can see the onion.",
+        "This is a garlic.",
         "I like the garlic.",
-        "The mushroom is big.",
-        "This is my cucumber.",
-        "The eggplant is fun.",
-        "The lettuce is nice."
+        "I can see the garlic.",
+        "This is a mushroom.",
+        "I like the mushroom.",
+        "I can see the mushroom.",
+        "This is a cucumber.",
+        "I like the cucumber.",
+        "I can see the cucumber.",
+        "This is an eggplant.",
+        "I like the eggplant.",
+        "I can see the eggplant.",
+        "This is a lettuce.",
+        "I like the lettuce.",
+        "I can see the lettuce."
       ],
+      "sentenceMap": {
+        "onion": [
+          0,
+          1,
+          2
+        ],
+        "garlic": [
+          3,
+          4,
+          5
+        ],
+        "mushroom": [
+          6,
+          7,
+          8
+        ],
+        "cucumber": [
+          9,
+          10,
+          11
+        ],
+        "eggplant": [
+          12,
+          13,
+          14
+        ],
+        "lettuce": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -4845,13 +7624,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I have the fox.",
-        "I love the wolf.",
-        "I love the deer.",
-        "My raccoon is cool.",
-        "My hedgehog is cool.",
-        "The bat is big."
+        "This is a fox.",
+        "I like the fox.",
+        "I can see the fox.",
+        "This is a wolf.",
+        "I like the wolf.",
+        "I can see the wolf.",
+        "This is a deer.",
+        "I like the deer.",
+        "I can see the deer.",
+        "This is a raccoon.",
+        "I like the raccoon.",
+        "I can see the raccoon.",
+        "This is a hedgehog.",
+        "I like the hedgehog.",
+        "I can see the hedgehog.",
+        "This is a bat.",
+        "I like the bat.",
+        "I can see the bat."
       ],
+      "sentenceMap": {
+        "fox": [
+          0,
+          1,
+          2
+        ],
+        "wolf": [
+          3,
+          4,
+          5
+        ],
+        "deer": [
+          6,
+          7,
+          8
+        ],
+        "raccoon": [
+          9,
+          10,
+          11
+        ],
+        "hedgehog": [
+          12,
+          13,
+          14
+        ],
+        "bat": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -4920,12 +7743,56 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a goat.",
+        "I like the goat.",
+        "I can see the goat.",
+        "This is a rooster.",
         "I like the rooster.",
-        "The llama is nice.",
-        "The turkey is big.",
-        "The rabbit is nice.",
+        "I can see the rooster.",
+        "This is a llama.",
+        "I like the llama.",
+        "I can see the llama.",
+        "This is a turkey.",
+        "I like the turkey.",
+        "I can see the turkey.",
+        "This is a rabbit.",
+        "I like the rabbit.",
+        "I can see the rabbit.",
+        "This is a mouse.",
+        "I like the mouse.",
         "I can see the mouse."
       ],
+      "sentenceMap": {
+        "goat": [
+          0,
+          1,
+          2
+        ],
+        "rooster": [
+          3,
+          4,
+          5
+        ],
+        "llama": [
+          6,
+          7,
+          8
+        ],
+        "turkey": [
+          9,
+          10,
+          11
+        ],
+        "rabbit": [
+          12,
+          13,
+          14
+        ],
+        "mouse": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -4993,13 +7860,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I love the map.",
-        "I love the globe.",
-        "Can you find the flag?",
-        "I want the plane.",
-        "Look at the luggage!",
-        "I have the camera."
+        "This is a map.",
+        "I like the map.",
+        "I can see the map.",
+        "This is a globe.",
+        "I like the globe.",
+        "I can see the globe.",
+        "This is a flag.",
+        "I like the flag.",
+        "I can see the flag.",
+        "This is a plane.",
+        "I like the plane.",
+        "I can see the plane.",
+        "This is a luggage.",
+        "I like the luggage.",
+        "I can see the luggage.",
+        "This is a camera.",
+        "I like the camera.",
+        "I can see the camera."
       ],
+      "sentenceMap": {
+        "map": [
+          0,
+          1,
+          2
+        ],
+        "globe": [
+          3,
+          4,
+          5
+        ],
+        "flag": [
+          6,
+          7,
+          8
+        ],
+        "plane": [
+          9,
+          10,
+          11
+        ],
+        "luggage": [
+          12,
+          13,
+          14
+        ],
+        "camera": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -5067,13 +7978,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
+        "This is a smile.",
         "I like the smile.",
-        "This is my frown.",
-        "I love the cry.",
+        "I can see the smile.",
+        "This is a frown.",
+        "I like the frown.",
+        "I can see the frown.",
+        "This is a cry.",
+        "I like the cry.",
+        "I can see the cry.",
         "This is a laugh.",
-        "Let's play with the shocked!",
-        "The sleepy is fun."
+        "I like the laugh.",
+        "I can see the laugh.",
+        "This is a shocked.",
+        "I like the shocked.",
+        "I can see the shocked.",
+        "The sleepy one is nice.",
+        "I like the sleepy one.",
+        "It is sleepy."
       ],
+      "sentenceMap": {
+        "smile": [
+          0,
+          1,
+          2
+        ],
+        "frown": [
+          3,
+          4,
+          5
+        ],
+        "cry": [
+          6,
+          7,
+          8
+        ],
+        "laugh": [
+          9,
+          10,
+          11
+        ],
+        "shocked": [
+          12,
+          13,
+          14
+        ],
+        "sleepy": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -5141,13 +8096,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I love the bee.",
-        "Can you find the sunflower?",
-        "We have a butterfly.",
-        "Look at the tree!",
-        "My bird is cool.",
-        "The sun is fun."
+        "This is a bee.",
+        "I like the bee.",
+        "I can see the bee.",
+        "This is a sunflower.",
+        "I like the sunflower.",
+        "I can see the sunflower.",
+        "This is a butterfly.",
+        "I like the butterfly.",
+        "I can see the butterfly.",
+        "This is a tree.",
+        "I like the tree.",
+        "I can see the tree.",
+        "This is a bird.",
+        "I like the bird.",
+        "I can see the bird.",
+        "This is a sun.",
+        "I like the sun.",
+        "I can see the sun."
       ],
+      "sentenceMap": {
+        "bee": [
+          0,
+          1,
+          2
+        ],
+        "sunflower": [
+          3,
+          4,
+          5
+        ],
+        "butterfly": [
+          6,
+          7,
+          8
+        ],
+        "tree": [
+          9,
+          10,
+          11
+        ],
+        "bird": [
+          12,
+          13,
+          14
+        ],
+        "sun": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -5215,13 +8214,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "My snake is cool.",
-        "We have a turtle.",
-        "My lizard is cool.",
-        "My crocodile is cool.",
-        "I have the frog.",
-        "The dinosaur is fun."
+        "This is a snake.",
+        "I like the snake.",
+        "I can see the snake.",
+        "This is a turtle.",
+        "I like the turtle.",
+        "I can see the turtle.",
+        "This is a lizard.",
+        "I like the lizard.",
+        "I can see the lizard.",
+        "This is a crocodile.",
+        "I like the crocodile.",
+        "I can see the crocodile.",
+        "This is a frog.",
+        "I like the frog.",
+        "I can see the frog.",
+        "This is a dinosaur.",
+        "I like the dinosaur.",
+        "I can see the dinosaur."
       ],
+      "sentenceMap": {
+        "snake": [
+          0,
+          1,
+          2
+        ],
+        "turtle": [
+          3,
+          4,
+          5
+        ],
+        "lizard": [
+          6,
+          7,
+          8
+        ],
+        "crocodile": [
+          9,
+          10,
+          11
+        ],
+        "frog": [
+          12,
+          13,
+          14
+        ],
+        "dinosaur": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -5289,13 +8332,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "My volcano is cool.",
-        "We have a desert.",
-        "My forest is cool.",
-        "The waterfall is big.",
-        "I have the cave.",
-        "Look at the ocean!"
+        "This is a volcano.",
+        "I like the volcano.",
+        "I can see the volcano.",
+        "This is a desert.",
+        "I like the desert.",
+        "I can see the desert.",
+        "This is a forest.",
+        "I like the forest.",
+        "I can see the forest.",
+        "This is a waterfall.",
+        "I like the waterfall.",
+        "I can see the waterfall.",
+        "This is a cave.",
+        "I like the cave.",
+        "I can see the cave.",
+        "This is an ocean.",
+        "I like the ocean.",
+        "I can see the ocean."
       ],
+      "sentenceMap": {
+        "volcano": [
+          0,
+          1,
+          2
+        ],
+        "desert": [
+          3,
+          4,
+          5
+        ],
+        "forest": [
+          6,
+          7,
+          8
+        ],
+        "waterfall": [
+          9,
+          10,
+          11
+        ],
+        "cave": [
+          12,
+          13,
+          14
+        ],
+        "ocean": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -5363,13 +8450,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is my lightning.",
-        "The tornado is fun.",
+        "I am lightning.",
+        "We are lightning.",
+        "She is lightning.",
+        "This is a tornado.",
+        "I like the tornado.",
+        "I can see the tornado.",
+        "This is a snowflake.",
+        "I like the snowflake.",
         "I can see the snowflake.",
-        "The sunrise is fun.",
-        "My sunset is cool.",
-        "Let's play with the stars!"
+        "This is a sunrise.",
+        "I like the sunrise.",
+        "I can see the sunrise.",
+        "This is a sunset.",
+        "I like the sunset.",
+        "I can see the sunset.",
+        "These are stars.",
+        "I like stars.",
+        "Can you see stars?"
       ],
+      "sentenceMap": {
+        "lightning": [
+          0,
+          1,
+          2
+        ],
+        "tornado": [
+          3,
+          4,
+          5
+        ],
+        "snowflake": [
+          6,
+          7,
+          8
+        ],
+        "sunrise": [
+          9,
+          10,
+          11
+        ],
+        "sunset": [
+          12,
+          13,
+          14
+        ],
+        "stars": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -5437,13 +8568,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I want the phone.",
-        "I want the computer.",
-        "I have the tv.",
-        "I love the camera.",
-        "Can you find the robot?",
-        "I like the game."
+        "This is a phone.",
+        "I like the phone.",
+        "I can see the phone.",
+        "This is a computer.",
+        "I like the computer.",
+        "I can see the computer.",
+        "This is a tv.",
+        "I like the tv.",
+        "I can see the tv.",
+        "This is a camera.",
+        "I like the camera.",
+        "I can see the camera.",
+        "This is a robot.",
+        "I like the robot.",
+        "I can see the robot.",
+        "This is a game.",
+        "I like the game.",
+        "I can see the game."
       ],
+      "sentenceMap": {
+        "phone": [
+          0,
+          1,
+          2
+        ],
+        "computer": [
+          3,
+          4,
+          5
+        ],
+        "tv": [
+          6,
+          7,
+          8
+        ],
+        "camera": [
+          9,
+          10,
+          11
+        ],
+        "robot": [
+          12,
+          13,
+          14
+        ],
+        "game": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -5511,13 +8686,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Look at the math!",
-        "The science is nice.",
+        "This is a math.",
+        "I like the math.",
+        "I can see the math.",
+        "This is a science.",
+        "I like the science.",
+        "I can see the science.",
+        "This is an art.",
+        "I like the art.",
         "I can see the art.",
-        "The music is fun.",
-        "I love the reading.",
+        "This is a music.",
+        "I like the music.",
+        "I can see the music.",
+        "I am reading.",
+        "We are reading.",
+        "She is reading.",
+        "This is a sport.",
+        "I like the sport.",
         "I can see the sport."
       ],
+      "sentenceMap": {
+        "math": [
+          0,
+          1,
+          2
+        ],
+        "science": [
+          3,
+          4,
+          5
+        ],
+        "art": [
+          6,
+          7,
+          8
+        ],
+        "music": [
+          9,
+          10,
+          11
+        ],
+        "reading": [
+          12,
+          13,
+          14
+        ],
+        "sport": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -5585,13 +8804,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The coat is fun.",
-        "I have the scarf.",
-        "My gloves is cool.",
-        "I like the boots.",
-        "We have a cap.",
-        "I love the tie."
+        "This is a coat.",
+        "I like the coat.",
+        "I can see the coat.",
+        "This is a scarf.",
+        "I like the scarf.",
+        "I can see the scarf.",
+        "These are gloves.",
+        "I like gloves.",
+        "Can you see gloves?",
+        "These are boots.",
+        "I like boots.",
+        "Can you see boots?",
+        "This is a cap.",
+        "I like the cap.",
+        "I can see the cap.",
+        "This is a tie.",
+        "I like the tie.",
+        "I can see the tie."
       ],
+      "sentenceMap": {
+        "coat": [
+          0,
+          1,
+          2
+        ],
+        "scarf": [
+          3,
+          4,
+          5
+        ],
+        "gloves": [
+          6,
+          7,
+          8
+        ],
+        "boots": [
+          9,
+          10,
+          11
+        ],
+        "cap": [
+          12,
+          13,
+          14
+        ],
+        "tie": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -5659,13 +8922,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Can you find the artist?",
-        "Can you find the singer?",
-        "My scientist is cool.",
-        "The astronaut is nice.",
-        "The firefighter is nice.",
-        "The builder is fun."
+        "This is an artist.",
+        "I like the artist.",
+        "I can see the artist.",
+        "This is a singer.",
+        "I like the singer.",
+        "I can see the singer.",
+        "This is a scientist.",
+        "I like the scientist.",
+        "I can see the scientist.",
+        "This is an astronaut.",
+        "I like the astronaut.",
+        "I can see the astronaut.",
+        "This is a firefighter.",
+        "I like the firefighter.",
+        "I can see the firefighter.",
+        "This is a builder.",
+        "I like the builder.",
+        "I can see the builder."
       ],
+      "sentenceMap": {
+        "artist": [
+          0,
+          1,
+          2
+        ],
+        "singer": [
+          3,
+          4,
+          5
+        ],
+        "scientist": [
+          6,
+          7,
+          8
+        ],
+        "astronaut": [
+          9,
+          10,
+          11
+        ],
+        "firefighter": [
+          12,
+          13,
+          14
+        ],
+        "builder": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -5733,13 +9040,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "My sushi is cool.",
+        "This is a sushi.",
+        "I like the sushi.",
+        "I can see the sushi.",
+        "This is a taco.",
+        "I like the taco.",
         "I can see the taco.",
-        "Look at the noodles!",
-        "Can you find the pancake?",
-        "Look at the popcorn!",
-        "This is my pretzel."
+        "These are noodles.",
+        "I like noodles.",
+        "Can you see noodles?",
+        "This is a pancake.",
+        "I like the pancake.",
+        "I can see the pancake.",
+        "This is a popcorn.",
+        "I like the popcorn.",
+        "I can see the popcorn.",
+        "This is a pretzel.",
+        "I like the pretzel.",
+        "I can see the pretzel."
       ],
+      "sentenceMap": {
+        "sushi": [
+          0,
+          1,
+          2
+        ],
+        "taco": [
+          3,
+          4,
+          5
+        ],
+        "noodles": [
+          6,
+          7,
+          8
+        ],
+        "pancake": [
+          9,
+          10,
+          11
+        ],
+        "popcorn": [
+          12,
+          13,
+          14
+        ],
+        "pretzel": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -5807,13 +9158,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Let's play with the smoothie!",
-        "This is my lemonade.",
-        "We have a milkshake.",
+        "This is a smoothie.",
+        "I like the smoothie.",
+        "I can see the smoothie.",
+        "This is a lemonade.",
+        "I like the lemonade.",
+        "I can see the lemonade.",
+        "This is a milkshake.",
+        "I like the milkshake.",
+        "I can see the milkshake.",
         "This is a tea.",
-        "I have the water.",
-        "We have a juice."
+        "I like the tea.",
+        "I can see the tea.",
+        "This is a water.",
+        "I like the water.",
+        "I can see the water.",
+        "This is a juice.",
+        "I like the juice.",
+        "I can see the juice."
       ],
+      "sentenceMap": {
+        "smoothie": [
+          0,
+          1,
+          2
+        ],
+        "lemonade": [
+          3,
+          4,
+          5
+        ],
+        "milkshake": [
+          6,
+          7,
+          8
+        ],
+        "tea": [
+          9,
+          10,
+          11
+        ],
+        "water": [
+          12,
+          13,
+          14
+        ],
+        "juice": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -5881,13 +9276,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is my pumpkin.",
-        "Can you find the ghost?",
-        "Let's play with the bat!",
-        "Look at the spider!",
+        "This is a pumpkin.",
+        "I like the pumpkin.",
+        "I can see the pumpkin.",
+        "This is a ghost.",
+        "I like the ghost.",
+        "I can see the ghost.",
+        "This is a bat.",
+        "I like the bat.",
+        "I can see the bat.",
+        "This is a spider.",
+        "I like the spider.",
+        "I can see the spider.",
         "This is a witch.",
-        "I like the skeleton."
+        "I like the witch.",
+        "I can see the witch.",
+        "This is a skeleton.",
+        "I like the skeleton.",
+        "I can see the skeleton."
       ],
+      "sentenceMap": {
+        "pumpkin": [
+          0,
+          1,
+          2
+        ],
+        "ghost": [
+          3,
+          4,
+          5
+        ],
+        "bat": [
+          6,
+          7,
+          8
+        ],
+        "spider": [
+          9,
+          10,
+          11
+        ],
+        "witch": [
+          12,
+          13,
+          14
+        ],
+        "skeleton": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -5956,12 +9395,56 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a tree.",
-        "Let's play with the gift!",
-        "My santa is cool.",
-        "The snowman is nice.",
-        "I want the bell.",
-        "The star is fun."
+        "I like the tree.",
+        "I can see the tree.",
+        "This is a gift.",
+        "I like the gift.",
+        "I can see the gift.",
+        "This is a santa.",
+        "I like the santa.",
+        "I can see the santa.",
+        "This is a snowman.",
+        "I like the snowman.",
+        "I can see the snowman.",
+        "This is a bell.",
+        "I like the bell.",
+        "I can see the bell.",
+        "This is a star.",
+        "I like the star.",
+        "I can see the star."
       ],
+      "sentenceMap": {
+        "tree": [
+          0,
+          1,
+          2
+        ],
+        "gift": [
+          3,
+          4,
+          5
+        ],
+        "santa": [
+          6,
+          7,
+          8
+        ],
+        "snowman": [
+          9,
+          10,
+          11
+        ],
+        "bell": [
+          12,
+          13,
+          14
+        ],
+        "star": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -6029,13 +9512,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "We have a umbrella.",
+        "This is an umbrella.",
+        "I like the umbrella.",
+        "I can see the umbrella.",
+        "This is a sandcastle.",
+        "I like the sandcastle.",
         "I can see the sandcastle.",
         "This is a shell.",
-        "My wave is cool.",
-        "We have a sun.",
-        "Can you find the crab?"
+        "I like the shell.",
+        "I can see the shell.",
+        "This is a wave.",
+        "I like the wave.",
+        "I can see the wave.",
+        "This is a sun.",
+        "I like the sun.",
+        "I can see the sun.",
+        "This is a crab.",
+        "I like the crab.",
+        "I can see the crab."
       ],
+      "sentenceMap": {
+        "umbrella": [
+          0,
+          1,
+          2
+        ],
+        "sandcastle": [
+          3,
+          4,
+          5
+        ],
+        "shell": [
+          6,
+          7,
+          8
+        ],
+        "wave": [
+          9,
+          10,
+          11
+        ],
+        "sun": [
+          12,
+          13,
+          14
+        ],
+        "crab": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -6103,13 +9630,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The police car is nice.",
-        "The ambulance is nice.",
-        "This is a fire truck.",
-        "We have a subway.",
+        "This is police car.",
+        "I like police car.",
+        "Can you see police car?",
+        "This is an ambulance.",
+        "I like the ambulance.",
+        "I can see the ambulance.",
+        "This is fire truck.",
+        "I like fire truck.",
+        "Can you see fire truck?",
+        "This is a subway.",
+        "I like the subway.",
+        "I can see the subway.",
+        "This is a scooter.",
+        "I like the scooter.",
         "I can see the scooter.",
-        "I have the skateboard."
+        "This is a skateboard.",
+        "I like the skateboard.",
+        "I can see the skateboard."
       ],
+      "sentenceMap": {
+        "police car": [
+          0,
+          1,
+          2
+        ],
+        "ambulance": [
+          3,
+          4,
+          5
+        ],
+        "fire truck": [
+          6,
+          7,
+          8
+        ],
+        "subway": [
+          9,
+          10,
+          11
+        ],
+        "scooter": [
+          12,
+          13,
+          14
+        ],
+        "skateboard": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -6178,12 +9749,56 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a coconut.",
-        "I love the avocado.",
+        "I like the coconut.",
+        "I can see the coconut.",
+        "This is an avocado.",
+        "I like the avocado.",
+        "I can see the avocado.",
+        "This is a blueberry.",
+        "I like the blueberry.",
         "I can see the blueberry.",
-        "My pear is cool.",
-        "The cherry is nice.",
-        "The kiwi is big."
+        "This is a pear.",
+        "I like the pear.",
+        "I can see the pear.",
+        "This is a cherry.",
+        "I like the cherry.",
+        "I can see the cherry.",
+        "This is a kiwi.",
+        "I like the kiwi.",
+        "I can see the kiwi."
       ],
+      "sentenceMap": {
+        "coconut": [
+          0,
+          1,
+          2
+        ],
+        "avocado": [
+          3,
+          4,
+          5
+        ],
+        "blueberry": [
+          6,
+          7,
+          8
+        ],
+        "pear": [
+          9,
+          10,
+          11
+        ],
+        "cherry": [
+          12,
+          13,
+          14
+        ],
+        "kiwi": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -6251,13 +9866,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Look at the king!",
+        "I am king.",
+        "We are king.",
+        "She is king.",
+        "This is a queen.",
         "I like the queen.",
+        "I can see the queen.",
+        "This is a guard.",
+        "I like the guard.",
         "I can see the guard.",
-        "The prince is fun.",
-        "Can you find the knight?",
-        "Can you find the crown?"
+        "This is a prince.",
+        "I like the prince.",
+        "I can see the prince.",
+        "This is a knight.",
+        "I like the knight.",
+        "I can see the knight.",
+        "This is a crown.",
+        "I like the crown.",
+        "I can see the crown."
       ],
+      "sentenceMap": {
+        "king": [
+          0,
+          1,
+          2
+        ],
+        "queen": [
+          3,
+          4,
+          5
+        ],
+        "guard": [
+          6,
+          7,
+          8
+        ],
+        "prince": [
+          9,
+          10,
+          11
+        ],
+        "knight": [
+          12,
+          13,
+          14
+        ],
+        "crown": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -6325,13 +9984,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the compass.",
-        "The tent is fun.",
-        "The fire is big.",
-        "I love the map.",
-        "This is my backpack.",
+        "These are compass.",
+        "I like compass.",
+        "Can you see compass?",
+        "This is a tent.",
+        "I like the tent.",
+        "I can see the tent.",
+        "This is a fire.",
+        "I like the fire.",
+        "I can see the fire.",
+        "This is a map.",
+        "I like the map.",
+        "I can see the map.",
+        "This is a backpack.",
+        "I like the backpack.",
+        "I can see the backpack.",
+        "This is a flashlight.",
+        "I like the flashlight.",
         "I can see the flashlight."
       ],
+      "sentenceMap": {
+        "compass": [
+          0,
+          1,
+          2
+        ],
+        "tent": [
+          3,
+          4,
+          5
+        ],
+        "fire": [
+          6,
+          7,
+          8
+        ],
+        "map": [
+          9,
+          10,
+          11
+        ],
+        "backpack": [
+          12,
+          13,
+          14
+        ],
+        "flashlight": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -6399,13 +10102,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is my pie.",
+        "This is a pie.",
+        "I like the pie.",
+        "I can see the pie.",
         "This is a honey.",
-        "This is my pudding.",
-        "I love the cupcake.",
+        "I like the honey.",
+        "I can see the honey.",
+        "I am pudding.",
+        "We are pudding.",
+        "She is pudding.",
+        "This is a cupcake.",
+        "I like the cupcake.",
+        "I can see the cupcake.",
+        "This is a lollipop.",
+        "I like the lollipop.",
         "I can see the lollipop.",
+        "This is a waffle.",
+        "I like the waffle.",
         "I can see the waffle."
       ],
+      "sentenceMap": {
+        "pie": [
+          0,
+          1,
+          2
+        ],
+        "honey": [
+          3,
+          4,
+          5
+        ],
+        "pudding": [
+          6,
+          7,
+          8
+        ],
+        "cupcake": [
+          9,
+          10,
+          11
+        ],
+        "lollipop": [
+          12,
+          13,
+          14
+        ],
+        "waffle": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -6473,13 +10220,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
+        "This is a hammer.",
         "I like the hammer.",
-        "The wrench is nice.",
+        "I can see the hammer.",
+        "This is a wrench.",
+        "I like the wrench.",
+        "I can see the wrench.",
+        "This is a screwdriver.",
+        "I like the screwdriver.",
         "I can see the screwdriver.",
-        "The saw is nice.",
-        "Can you find the pin?",
-        "Can you find the ruler?"
+        "This is a saw.",
+        "I like the saw.",
+        "I can see the saw.",
+        "This is a pin.",
+        "I like the pin.",
+        "I can see the pin.",
+        "This is a ruler.",
+        "I like the ruler.",
+        "I can see the ruler."
       ],
+      "sentenceMap": {
+        "hammer": [
+          0,
+          1,
+          2
+        ],
+        "wrench": [
+          3,
+          4,
+          5
+        ],
+        "screwdriver": [
+          6,
+          7,
+          8
+        ],
+        "saw": [
+          9,
+          10,
+          11
+        ],
+        "pin": [
+          12,
+          13,
+          14
+        ],
+        "ruler": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -6547,13 +10338,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I want the headphones.",
-        "Look at the note!",
-        "Look at the saxophone!",
-        "My bell is cool.",
+        "These are headphones.",
+        "I like headphones.",
+        "Can you see headphones?",
+        "This is a note.",
+        "I like the note.",
+        "I can see the note.",
+        "This is a saxophone.",
+        "I like the saxophone.",
+        "I can see the saxophone.",
+        "This is a bell.",
+        "I like the bell.",
+        "I can see the bell.",
+        "This is a speaker.",
+        "I like the speaker.",
         "I can see the speaker.",
-        "This is my piano."
+        "This is a piano.",
+        "I like the piano.",
+        "I can see the piano."
       ],
+      "sentenceMap": {
+        "headphones": [
+          0,
+          1,
+          2
+        ],
+        "note": [
+          3,
+          4,
+          5
+        ],
+        "saxophone": [
+          6,
+          7,
+          8
+        ],
+        "bell": [
+          9,
+          10,
+          11
+        ],
+        "speaker": [
+          12,
+          13,
+          14
+        ],
+        "piano": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -6621,13 +10456,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "My golf is cool.",
-        "Can you find the boxing?",
-        "I like the skiing.",
-        "I have the skating.",
-        "This is a cycling.",
-        "Look at the surfing!"
+        "This is a golf.",
+        "I like the golf.",
+        "I can see the golf.",
+        "I am boxing.",
+        "We are boxing.",
+        "She is boxing.",
+        "I am skiing.",
+        "We are skiing.",
+        "She is skiing.",
+        "I am skating.",
+        "We are skating.",
+        "She is skating.",
+        "I am cycling.",
+        "We are cycling.",
+        "She is cycling.",
+        "I am surfing.",
+        "We are surfing.",
+        "She is surfing."
       ],
+      "sentenceMap": {
+        "golf": [
+          0,
+          1,
+          2
+        ],
+        "boxing": [
+          3,
+          4,
+          5
+        ],
+        "skiing": [
+          6,
+          7,
+          8
+        ],
+        "skating": [
+          9,
+          10,
+          11
+        ],
+        "cycling": [
+          12,
+          13,
+          14
+        ],
+        "surfing": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -6695,13 +10574,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The rhino is fun.",
-        "I love the peacock.",
-        "The gorilla is fun.",
-        "The flamingo is nice.",
+        "This is a rhino.",
+        "I like the rhino.",
+        "I can see the rhino.",
+        "This is a peacock.",
+        "I like the peacock.",
+        "I can see the peacock.",
+        "This is a gorilla.",
+        "I like the gorilla.",
+        "I can see the gorilla.",
+        "This is a flamingo.",
+        "I like the flamingo.",
+        "I can see the flamingo.",
         "This is a sloth.",
-        "The otter is nice."
+        "I like the sloth.",
+        "I can see the sloth.",
+        "This is an otter.",
+        "I like the otter.",
+        "I can see the otter."
       ],
+      "sentenceMap": {
+        "rhino": [
+          0,
+          1,
+          2
+        ],
+        "peacock": [
+          3,
+          4,
+          5
+        ],
+        "gorilla": [
+          6,
+          7,
+          8
+        ],
+        "flamingo": [
+          9,
+          10,
+          11
+        ],
+        "sloth": [
+          12,
+          13,
+          14
+        ],
+        "otter": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -6769,13 +10692,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The puppy is nice.",
-        "I love the kitten.",
-        "I have the chick.",
-        "Let's play with the piglet!",
+        "This is a puppy.",
+        "I like the puppy.",
+        "I can see the puppy.",
+        "This is a kitten.",
+        "I like the kitten.",
+        "I can see the kitten.",
+        "This is a chick.",
+        "I like the chick.",
+        "I can see the chick.",
+        "This is a piglet.",
+        "I like the piglet.",
+        "I can see the piglet.",
         "This is a bunny.",
-        "The duckling is big."
+        "I like the bunny.",
+        "I can see the bunny.",
+        "I am duckling.",
+        "We are duckling.",
+        "She is duckling."
       ],
+      "sentenceMap": {
+        "puppy": [
+          0,
+          1,
+          2
+        ],
+        "kitten": [
+          3,
+          4,
+          5
+        ],
+        "chick": [
+          6,
+          7,
+          8
+        ],
+        "piglet": [
+          9,
+          10,
+          11
+        ],
+        "bunny": [
+          12,
+          13,
+          14
+        ],
+        "duckling": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -6843,13 +10810,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
+        "This is a jellyfish.",
         "I like the jellyfish.",
-        "I love the lobster.",
+        "I can see the jellyfish.",
+        "This is a lobster.",
+        "I like the lobster.",
+        "I can see the lobster.",
         "This is a seal.",
+        "I like the seal.",
+        "I can see the seal.",
+        "This is a shrimp.",
+        "I like the shrimp.",
         "I can see the shrimp.",
-        "Can you find the turtle?",
-        "Let's play with the squid!"
+        "This is a turtle.",
+        "I like the turtle.",
+        "I can see the turtle.",
+        "This is a squid.",
+        "I like the squid.",
+        "I can see the squid."
       ],
+      "sentenceMap": {
+        "jellyfish": [
+          0,
+          1,
+          2
+        ],
+        "lobster": [
+          3,
+          4,
+          5
+        ],
+        "seal": [
+          6,
+          7,
+          8
+        ],
+        "shrimp": [
+          9,
+          10,
+          11
+        ],
+        "turtle": [
+          12,
+          13,
+          14
+        ],
+        "squid": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -6917,13 +10928,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The grasshopper is fun.",
-        "Let's play with the mosquito!",
-        "This is my beetle.",
-        "The fly is nice.",
-        "My worm is cool.",
-        "I love the cricket."
+        "This is a grasshopper.",
+        "I like the grasshopper.",
+        "I can see the grasshopper.",
+        "This is a mosquito.",
+        "I like the mosquito.",
+        "I can see the mosquito.",
+        "This is a beetle.",
+        "I like the beetle.",
+        "I can see the beetle.",
+        "I can fly.",
+        "Can you fly?",
+        "We fly today.",
+        "This is a worm.",
+        "I like the worm.",
+        "I can see the worm.",
+        "This is a cricket.",
+        "I like the cricket.",
+        "I can see the cricket."
       ],
+      "sentenceMap": {
+        "grasshopper": [
+          0,
+          1,
+          2
+        ],
+        "mosquito": [
+          3,
+          4,
+          5
+        ],
+        "beetle": [
+          6,
+          7,
+          8
+        ],
+        "fly": [
+          9,
+          10,
+          11
+        ],
+        "worm": [
+          12,
+          13,
+          14
+        ],
+        "cricket": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -6992,12 +11047,56 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a dinosaur.",
-        "I want the t-rex.",
-        "The dragon is fun.",
-        "This is my lizard.",
-        "Look at the egg!",
-        "I love the bone."
+        "I like the dinosaur.",
+        "I can see the dinosaur.",
+        "This is a t-rex.",
+        "I like the t-rex.",
+        "I can see the t-rex.",
+        "This is a dragon.",
+        "I like the dragon.",
+        "I can see the dragon.",
+        "This is a lizard.",
+        "I like the lizard.",
+        "I can see the lizard.",
+        "This is an egg.",
+        "I like the egg.",
+        "I can see the egg.",
+        "This is a bone.",
+        "I like the bone.",
+        "I can see the bone."
       ],
+      "sentenceMap": {
+        "dinosaur": [
+          0,
+          1,
+          2
+        ],
+        "t-rex": [
+          3,
+          4,
+          5
+        ],
+        "dragon": [
+          6,
+          7,
+          8
+        ],
+        "lizard": [
+          9,
+          10,
+          11
+        ],
+        "egg": [
+          12,
+          13,
+          14
+        ],
+        "bone": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -7066,12 +11165,56 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a fairy.",
-        "Can you find the wizard?",
-        "I want the unicorn.",
-        "Let's play with the dragon!",
-        "This is my crown.",
-        "We have a magic."
+        "I like the fairy.",
+        "I can see the fairy.",
+        "This is a wizard.",
+        "I like the wizard.",
+        "I can see the wizard.",
+        "This is an unicorn.",
+        "I like the unicorn.",
+        "I can see the unicorn.",
+        "This is a dragon.",
+        "I like the dragon.",
+        "I can see the dragon.",
+        "This is a crown.",
+        "I like the crown.",
+        "I can see the crown.",
+        "This is a magic.",
+        "I like the magic.",
+        "I can see the magic."
       ],
+      "sentenceMap": {
+        "fairy": [
+          0,
+          1,
+          2
+        ],
+        "wizard": [
+          3,
+          4,
+          5
+        ],
+        "unicorn": [
+          6,
+          7,
+          8
+        ],
+        "dragon": [
+          9,
+          10,
+          11
+        ],
+        "crown": [
+          12,
+          13,
+          14
+        ],
+        "magic": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -7139,13 +11282,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The castle is big.",
+        "This is a castle.",
+        "I like the castle.",
+        "I can see the castle.",
+        "This is a tower.",
+        "I like the tower.",
         "I can see the tower.",
-        "I want the church.",
-        "We have a factory.",
+        "This is a church.",
+        "I like the church.",
+        "I can see the church.",
+        "This is a factory.",
+        "I like the factory.",
+        "I can see the factory.",
         "This is a stadium.",
-        "Let's play with the house!"
+        "I like the stadium.",
+        "I can see the stadium.",
+        "This is a house.",
+        "I like the house.",
+        "I can see the house."
       ],
+      "sentenceMap": {
+        "castle": [
+          0,
+          1,
+          2
+        ],
+        "tower": [
+          3,
+          4,
+          5
+        ],
+        "church": [
+          6,
+          7,
+          8
+        ],
+        "factory": [
+          9,
+          10,
+          11
+        ],
+        "stadium": [
+          12,
+          13,
+          14
+        ],
+        "house": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -7213,13 +11400,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The earth is nice.",
-        "I love the saturn.",
-        "The comet is nice.",
+        "This is an earth.",
+        "I like the earth.",
+        "I can see the earth.",
+        "This is a saturn.",
+        "I like the saturn.",
+        "I can see the saturn.",
+        "This is a comet.",
+        "I like the comet.",
+        "I can see the comet.",
         "This is a galaxy.",
+        "I like the galaxy.",
+        "I can see the galaxy.",
         "This is a telescope.",
-        "I like the ufo."
+        "I like the telescope.",
+        "I can see the telescope.",
+        "This is an ufo.",
+        "I like the ufo.",
+        "I can see the ufo."
       ],
+      "sentenceMap": {
+        "earth": [
+          0,
+          1,
+          2
+        ],
+        "saturn": [
+          3,
+          4,
+          5
+        ],
+        "comet": [
+          6,
+          7,
+          8
+        ],
+        "galaxy": [
+          9,
+          10,
+          11
+        ],
+        "telescope": [
+          12,
+          13,
+          14
+        ],
+        "ufo": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -7287,13 +11518,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
+        "This is a breakfast.",
+        "I like the breakfast.",
         "I can see the breakfast.",
-        "The lunch is big.",
-        "The dinner is big.",
+        "This is a lunch.",
+        "I like the lunch.",
+        "I can see the lunch.",
+        "This is a dinner.",
+        "I like the dinner.",
+        "I can see the dinner.",
+        "This is a snack.",
         "I like the snack.",
+        "I can see the snack.",
+        "This is a salad.",
         "I like the salad.",
-        "This is a fruit."
+        "I can see the salad.",
+        "This is a fruit.",
+        "I like the fruit.",
+        "I can see the fruit."
       ],
+      "sentenceMap": {
+        "breakfast": [
+          0,
+          1,
+          2
+        ],
+        "lunch": [
+          3,
+          4,
+          5
+        ],
+        "dinner": [
+          6,
+          7,
+          8
+        ],
+        "snack": [
+          9,
+          10,
+          11
+        ],
+        "salad": [
+          12,
+          13,
+          14
+        ],
+        "fruit": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -7361,13 +11636,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "We have a arm.",
-        "The leg is nice.",
-        "We have a hair.",
-        "The teeth is big.",
-        "My tongue is cool.",
-        "The finger is nice."
+        "This is an arm.",
+        "I like the arm.",
+        "I can see the arm.",
+        "This is a leg.",
+        "I like the leg.",
+        "I can see the leg.",
+        "This is a hair.",
+        "I like the hair.",
+        "I can see the hair.",
+        "This is a teeth.",
+        "I like the teeth.",
+        "I can see the teeth.",
+        "This is a tongue.",
+        "I like the tongue.",
+        "I can see the tongue.",
+        "This is a finger.",
+        "I like the finger.",
+        "I can see the finger."
       ],
+      "sentenceMap": {
+        "arm": [
+          0,
+          1,
+          2
+        ],
+        "leg": [
+          3,
+          4,
+          5
+        ],
+        "hair": [
+          6,
+          7,
+          8
+        ],
+        "teeth": [
+          9,
+          10,
+          11
+        ],
+        "tongue": [
+          12,
+          13,
+          14
+        ],
+        "finger": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -7435,13 +11754,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is my star.",
-        "Can you find the trophy?",
+        "This is a star.",
+        "I like the star.",
+        "I can see the star.",
+        "This is a trophy.",
+        "I like the trophy.",
+        "I can see the trophy.",
         "This is a medal.",
-        "I have the balloon.",
-        "I want the party.",
-        "Look at the gift!"
+        "I like the medal.",
+        "I can see the medal.",
+        "This is a balloon.",
+        "I like the balloon.",
+        "I can see the balloon.",
+        "This is a party.",
+        "I like the party.",
+        "I can see the party.",
+        "This is a gift.",
+        "I like the gift.",
+        "I can see the gift."
       ],
+      "sentenceMap": {
+        "star": [
+          0,
+          1,
+          2
+        ],
+        "trophy": [
+          3,
+          4,
+          5
+        ],
+        "medal": [
+          6,
+          7,
+          8
+        ],
+        "balloon": [
+          9,
+          10,
+          11
+        ],
+        "party": [
+          12,
+          13,
+          14
+        ],
+        "gift": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -7509,13 +11872,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The trophy is nice.",
-        "The medal is fun.",
-        "I love the crown.",
+        "This is a trophy.",
+        "I like the trophy.",
+        "I can see the trophy.",
+        "This is a medal.",
+        "I like the medal.",
+        "I can see the medal.",
+        "This is a crown.",
+        "I like the crown.",
+        "I can see the crown.",
         "This is a star.",
-        "Let's play with the fireworks!",
-        "Look at the rocket!"
+        "I like the star.",
+        "I can see the star.",
+        "These are fireworks.",
+        "I like fireworks.",
+        "Can you see fireworks?",
+        "This is a rocket.",
+        "I like the rocket.",
+        "I can see the rocket."
       ],
+      "sentenceMap": {
+        "trophy": [
+          0,
+          1,
+          2
+        ],
+        "medal": [
+          3,
+          4,
+          5
+        ],
+        "crown": [
+          6,
+          7,
+          8
+        ],
+        "star": [
+          9,
+          10,
+          11
+        ],
+        "fireworks": [
+          12,
+          13,
+          14
+        ],
+        "rocket": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -7584,12 +11991,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a pen.",
+        "I like the pen.",
+        "I can see the pen.",
         "This is a book.",
+        "I like the book.",
+        "I can see the book.",
         "This is a bag.",
+        "I like the bag.",
+        "I can see the bag.",
         "This is a desk.",
-        "These are books.",
-        "I like the bag."
+        "I like the desk.",
+        "I can see the desk.",
+        "This is a ruler.",
+        "I like the ruler.",
+        "I can see the ruler.",
+        "This is an apple.",
+        "I like the apple.",
+        "I can see the apple.",
+        "This is my pen.",
+        "These are my books.",
+        "Can you bag?"
       ],
+      "sentenceMap": {
+        "pen": [
+          0,
+          1,
+          2
+        ],
+        "book": [
+          3,
+          4,
+          5
+        ],
+        "bag": [
+          6,
+          7,
+          8
+        ],
+        "desk": [
+          9,
+          10,
+          11
+        ],
+        "ruler": [
+          12,
+          13,
+          14
+        ],
+        "apple": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "This is a / an",
         "gap": [
@@ -7769,13 +12223,60 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a apple.",
-        "This is a egg.",
-        "This is a orange.",
-        "This is a umbrella.",
-        "These are eggs.",
-        "I like the orange."
+        "This is an apple.",
+        "I like the apple.",
+        "I can see the apple.",
+        "This is an egg.",
+        "I like the egg.",
+        "I can see the egg.",
+        "The orange one is nice.",
+        "I like the orange one.",
+        "It is orange.",
+        "This is an umbrella.",
+        "I like the umbrella.",
+        "I can see the umbrella.",
+        "This is an ant.",
+        "I like the ant.",
+        "I can see the ant.",
+        "This is ice cream.",
+        "I like ice cream.",
+        "Can you see ice cream?",
+        "This is my apple.",
+        "These are my eggs.",
+        "Can you orange?"
       ],
+      "sentenceMap": {
+        "apple": [
+          0,
+          1,
+          2
+        ],
+        "egg": [
+          3,
+          4,
+          5
+        ],
+        "orange": [
+          6,
+          7,
+          8
+        ],
+        "umbrella": [
+          9,
+          10,
+          11
+        ],
+        "ant": [
+          12,
+          13,
+          14
+        ],
+        "ice cream": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "This is a / an",
         "gap": [
@@ -7956,12 +12457,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a book.",
+        "I like the book.",
+        "I can see the book.",
         "This is a pencil.",
+        "I like the pencil.",
+        "I can see the pencil.",
         "This is a desk.",
+        "I like the desk.",
+        "I can see the desk.",
         "This is a bag.",
-        "These are pencils.",
-        "I like the desk."
+        "I like the bag.",
+        "I can see the bag.",
+        "This is a chair.",
+        "I like the chair.",
+        "I can see the chair.",
+        "This is a tablet.",
+        "I like the tablet.",
+        "I can see the tablet.",
+        "This is my book.",
+        "These are my pencils.",
+        "Can you desk?"
       ],
+      "sentenceMap": {
+        "book": [
+          0,
+          1,
+          2
+        ],
+        "pencil": [
+          3,
+          4,
+          5
+        ],
+        "desk": [
+          6,
+          7,
+          8
+        ],
+        "bag": [
+          9,
+          10,
+          11
+        ],
+        "chair": [
+          12,
+          13,
+          14
+        ],
+        "tablet": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "This is a / an",
         "gap": [
@@ -8142,12 +12690,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a bag.",
+        "I like the bag.",
+        "I can see the bag.",
         "This is a board.",
+        "I like the board.",
+        "I can see the board.",
         "This is a desk.",
+        "I like the desk.",
+        "I can see the desk.",
         "This is a chair.",
-        "These are boards.",
-        "I like the desk."
+        "I like the chair.",
+        "I can see the chair.",
+        "This is a pen.",
+        "I like the pen.",
+        "I can see the pen.",
+        "This is a ruler.",
+        "I like the ruler.",
+        "I can see the ruler.",
+        "This is my bag.",
+        "These are my boards.",
+        "Can you desk?"
       ],
+      "sentenceMap": {
+        "bag": [
+          0,
+          1,
+          2
+        ],
+        "board": [
+          3,
+          4,
+          5
+        ],
+        "desk": [
+          6,
+          7,
+          8
+        ],
+        "chair": [
+          9,
+          10,
+          11
+        ],
+        "pen": [
+          12,
+          13,
+          14
+        ],
+        "ruler": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "This is a / an",
         "gap": [
@@ -8328,12 +12923,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a pen.",
+        "I like the pen.",
+        "I can see the pen.",
         "This is a pencil.",
+        "I like the pencil.",
+        "I can see the pencil.",
         "This is a book.",
+        "I like the book.",
+        "I can see the book.",
         "This is a desk.",
-        "These are pencils.",
-        "I like the book."
+        "I like the desk.",
+        "I can see the desk.",
+        "This is a chair.",
+        "I like the chair.",
+        "I can see the chair.",
+        "This is a tablet.",
+        "I like the tablet.",
+        "I can see the tablet.",
+        "This is my pen.",
+        "These are my pencils.",
+        "Can you book?"
       ],
+      "sentenceMap": {
+        "pen": [
+          0,
+          1,
+          2
+        ],
+        "pencil": [
+          3,
+          4,
+          5
+        ],
+        "book": [
+          6,
+          7,
+          8
+        ],
+        "desk": [
+          9,
+          10,
+          11
+        ],
+        "chair": [
+          12,
+          13,
+          14
+        ],
+        "tablet": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "This is a / an",
         "gap": [
@@ -8514,12 +13156,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a bag.",
+        "I like the bag.",
+        "I can see the bag.",
         "This is a board.",
+        "I like the board.",
+        "I can see the board.",
         "This is a desk.",
+        "I like the desk.",
+        "I can see the desk.",
         "This is a chair.",
-        "These are boards.",
-        "I like the desk."
+        "I like the chair.",
+        "I can see the chair.",
+        "This is a table.",
+        "I like the table.",
+        "I can see the table.",
+        "This is a pencil.",
+        "I like the pencil.",
+        "I can see the pencil.",
+        "This is my bag.",
+        "These are my boards.",
+        "Can you desk?"
       ],
+      "sentenceMap": {
+        "bag": [
+          0,
+          1,
+          2
+        ],
+        "board": [
+          3,
+          4,
+          5
+        ],
+        "desk": [
+          6,
+          7,
+          8
+        ],
+        "chair": [
+          9,
+          10,
+          11
+        ],
+        "table": [
+          12,
+          13,
+          14
+        ],
+        "pencil": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "This is a / an",
         "gap": [
@@ -8699,13 +13388,60 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a box.",
-        "This is a bus.",
-        "This is a dress.",
-        "This is a glass.",
-        "These are buses.",
-        "I like the dress."
+        "I can box.",
+        "Can you box?",
+        "We box today.",
+        "These are bus.",
+        "I like bus.",
+        "Can you see bus?",
+        "These are dress.",
+        "I like dress.",
+        "Can you see dress?",
+        "These are glass.",
+        "I like glass.",
+        "Can you see glass?",
+        "I can watch.",
+        "Can you watch?",
+        "We watch today.",
+        "This is a brush.",
+        "I like the brush.",
+        "I can see the brush.",
+        "This is my box.",
+        "These are my buss.",
+        "Can you dress?"
       ],
+      "sentenceMap": {
+        "box": [
+          0,
+          1,
+          2
+        ],
+        "bus": [
+          3,
+          4,
+          5
+        ],
+        "dress": [
+          6,
+          7,
+          8
+        ],
+        "glass": [
+          9,
+          10,
+          11
+        ],
+        "watch": [
+          12,
+          13,
+          14
+        ],
+        "brush": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "This is a / an",
         "gap": [
@@ -8885,13 +13621,60 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a two.",
-        "This is a three.",
-        "This is a four.",
-        "This is a five.",
-        "These are threes.",
-        "I like the four."
+        "I see two.",
+        "There are two.",
+        "Count two.",
+        "I see three.",
+        "There are three.",
+        "Count three.",
+        "I see four.",
+        "There are four.",
+        "Count four.",
+        "I see five.",
+        "There are five.",
+        "Count five.",
+        "I see six.",
+        "There are six.",
+        "Count six.",
+        "I see seven.",
+        "There are seven.",
+        "Count seven.",
+        "This is my two.",
+        "These are my threes.",
+        "Can you four?"
       ],
+      "sentenceMap": {
+        "two": [
+          0,
+          1,
+          2
+        ],
+        "three": [
+          3,
+          4,
+          5
+        ],
+        "four": [
+          6,
+          7,
+          8
+        ],
+        "five": [
+          9,
+          10,
+          11
+        ],
+        "six": [
+          12,
+          13,
+          14
+        ],
+        "seven": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "This is a / an",
         "gap": [
@@ -9072,12 +13855,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a boat.",
+        "I like the boat.",
+        "I can see the boat.",
         "This is a coin.",
+        "I like the coin.",
+        "I can see the coin.",
         "This is a food.",
+        "I like the food.",
+        "I can see the food.",
         "This is a school.",
-        "These are coins.",
-        "I like the food."
+        "I like the school.",
+        "I can see the school.",
+        "This is a book.",
+        "I like the book.",
+        "I can see the book.",
+        "This is a room.",
+        "I like the room.",
+        "I can see the room.",
+        "This is my boat.",
+        "These are my coins.",
+        "Can you food?"
       ],
+      "sentenceMap": {
+        "boat": [
+          0,
+          1,
+          2
+        ],
+        "coin": [
+          3,
+          4,
+          5
+        ],
+        "food": [
+          6,
+          7,
+          8
+        ],
+        "school": [
+          9,
+          10,
+          11
+        ],
+        "book": [
+          12,
+          13,
+          14
+        ],
+        "room": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "This is a / an",
         "gap": [
@@ -9258,12 +14088,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a pen.",
+        "I like the pen.",
+        "I can see the pen.",
         "This is a book.",
+        "I like the book.",
+        "I can see the book.",
         "This is a bag.",
+        "I like the bag.",
+        "I can see the bag.",
         "This is a desk.",
-        "These are books.",
-        "I like the bag."
+        "I like the desk.",
+        "I can see the desk.",
+        "This is a ruler.",
+        "I like the ruler.",
+        "I can see the ruler.",
+        "This is a tablet.",
+        "I like the tablet.",
+        "I can see the tablet.",
+        "This is my pen.",
+        "These are my books.",
+        "Can you bag?"
       ],
+      "sentenceMap": {
+        "pen": [
+          0,
+          1,
+          2
+        ],
+        "book": [
+          3,
+          4,
+          5
+        ],
+        "bag": [
+          6,
+          7,
+          8
+        ],
+        "desk": [
+          9,
+          10,
+          11
+        ],
+        "ruler": [
+          12,
+          13,
+          14
+        ],
+        "tablet": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "This is a / an",
         "gap": [
@@ -9444,12 +14321,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a mom.",
+        "I like the mom.",
+        "I can see the mom.",
         "This is a dad.",
+        "I like the dad.",
+        "I can see the dad.",
         "This is a brother.",
+        "I like the brother.",
+        "I can see the brother.",
         "This is a sister.",
-        "These are dads.",
-        "I like the brother."
+        "I like the sister.",
+        "I can see the sister.",
+        "This is a baby.",
+        "I like the baby.",
+        "I can see the baby.",
+        "This is a friend.",
+        "I like the friend.",
+        "I can see the friend.",
+        "This is my mom.",
+        "These are my dads.",
+        "Can you brother?"
       ],
+      "sentenceMap": {
+        "mom": [
+          0,
+          1,
+          2
+        ],
+        "dad": [
+          3,
+          4,
+          5
+        ],
+        "brother": [
+          6,
+          7,
+          8
+        ],
+        "sister": [
+          9,
+          10,
+          11
+        ],
+        "baby": [
+          12,
+          13,
+          14
+        ],
+        "friend": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "To be",
         "gap": [
@@ -9633,12 +14557,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a mom.",
+        "I like the mom.",
+        "I can see the mom.",
         "This is a dad.",
+        "I like the dad.",
+        "I can see the dad.",
         "This is a grandma.",
+        "I like the grandma.",
+        "I can see the grandma.",
         "This is a grandpa.",
-        "These are dads.",
-        "I like the grandma."
+        "I like the grandpa.",
+        "I can see the grandpa.",
+        "This is a sister.",
+        "I like the sister.",
+        "I can see the sister.",
+        "This is a brother.",
+        "I like the brother.",
+        "I can see the brother.",
+        "This is my mom.",
+        "These are my dads.",
+        "Can you grandma?"
       ],
+      "sentenceMap": {
+        "mom": [
+          0,
+          1,
+          2
+        ],
+        "dad": [
+          3,
+          4,
+          5
+        ],
+        "grandma": [
+          6,
+          7,
+          8
+        ],
+        "grandpa": [
+          9,
+          10,
+          11
+        ],
+        "sister": [
+          12,
+          13,
+          14
+        ],
+        "brother": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "To be",
         "gap": [
@@ -9822,12 +14793,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a family.",
+        "I like the family.",
+        "I can see the family.",
         "This is a grandma.",
+        "I like the grandma.",
+        "I can see the grandma.",
         "This is a grandpa.",
+        "I like the grandpa.",
+        "I can see the grandpa.",
         "This is a baby.",
-        "These are grandmas.",
-        "I like the grandpa."
+        "I like the baby.",
+        "I can see the baby.",
+        "This is a sister.",
+        "I like the sister.",
+        "I can see the sister.",
+        "This is a brother.",
+        "I like the brother.",
+        "I can see the brother.",
+        "This is my family.",
+        "These are my grandmas.",
+        "Can you grandpa?"
       ],
+      "sentenceMap": {
+        "family": [
+          0,
+          1,
+          2
+        ],
+        "grandma": [
+          3,
+          4,
+          5
+        ],
+        "grandpa": [
+          6,
+          7,
+          8
+        ],
+        "baby": [
+          9,
+          10,
+          11
+        ],
+        "sister": [
+          12,
+          13,
+          14
+        ],
+        "brother": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "To be",
         "gap": [
@@ -10010,13 +15028,60 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a happy.",
-        "This is a sad.",
-        "This is a angry.",
-        "This is a scared.",
-        "These are sads.",
-        "I like the angry."
+        "The happy one is nice.",
+        "I like the happy one.",
+        "It is happy.",
+        "The sad one is nice.",
+        "I like the sad one.",
+        "It is sad.",
+        "The angry one is nice.",
+        "I like the angry one.",
+        "It is angry.",
+        "The scared one is nice.",
+        "I like the scared one.",
+        "It is scared.",
+        "The tired one is nice.",
+        "I like the tired one.",
+        "It is tired.",
+        "The excited one is nice.",
+        "I like the excited one.",
+        "It is excited.",
+        "This is my happy.",
+        "These are my sads.",
+        "Can you angry?"
       ],
+      "sentenceMap": {
+        "happy": [
+          0,
+          1,
+          2
+        ],
+        "sad": [
+          3,
+          4,
+          5
+        ],
+        "angry": [
+          6,
+          7,
+          8
+        ],
+        "scared": [
+          9,
+          10,
+          11
+        ],
+        "tired": [
+          12,
+          13,
+          14
+        ],
+        "excited": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "To be",
         "gap": [
@@ -10199,13 +15264,60 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a happy.",
-        "This is a sad.",
-        "This is a angry.",
-        "This is a scared.",
-        "These are sads.",
-        "I like the angry."
+        "The happy one is nice.",
+        "I like the happy one.",
+        "It is happy.",
+        "The sad one is nice.",
+        "I like the sad one.",
+        "It is sad.",
+        "The angry one is nice.",
+        "I like the angry one.",
+        "It is angry.",
+        "The scared one is nice.",
+        "I like the scared one.",
+        "It is scared.",
+        "The tired one is nice.",
+        "I like the tired one.",
+        "It is tired.",
+        "The excited one is nice.",
+        "I like the excited one.",
+        "It is excited.",
+        "This is my happy.",
+        "These are my sads.",
+        "Can you angry?"
       ],
+      "sentenceMap": {
+        "happy": [
+          0,
+          1,
+          2
+        ],
+        "sad": [
+          3,
+          4,
+          5
+        ],
+        "angry": [
+          6,
+          7,
+          8
+        ],
+        "scared": [
+          9,
+          10,
+          11
+        ],
+        "tired": [
+          12,
+          13,
+          14
+        ],
+        "excited": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "To be",
         "gap": [
@@ -10388,13 +15500,60 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a happy.",
-        "This is a sad.",
-        "This is a angry.",
-        "This is a scared.",
-        "These are sads.",
-        "I like the angry."
+        "The happy one is nice.",
+        "I like the happy one.",
+        "It is happy.",
+        "The sad one is nice.",
+        "I like the sad one.",
+        "It is sad.",
+        "The angry one is nice.",
+        "I like the angry one.",
+        "It is angry.",
+        "The scared one is nice.",
+        "I like the scared one.",
+        "It is scared.",
+        "The tired one is nice.",
+        "I like the tired one.",
+        "It is tired.",
+        "The excited one is nice.",
+        "I like the excited one.",
+        "It is excited.",
+        "This is my happy.",
+        "These are my sads.",
+        "Can you angry?"
       ],
+      "sentenceMap": {
+        "happy": [
+          0,
+          1,
+          2
+        ],
+        "sad": [
+          3,
+          4,
+          5
+        ],
+        "angry": [
+          6,
+          7,
+          8
+        ],
+        "scared": [
+          9,
+          10,
+          11
+        ],
+        "tired": [
+          12,
+          13,
+          14
+        ],
+        "excited": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "To be",
         "gap": [
@@ -10578,12 +15737,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a man.",
+        "I like the man.",
+        "I can see the man.",
         "This is a woman.",
+        "I like the woman.",
+        "I can see the woman.",
         "This is a child.",
+        "I like the child.",
+        "I can see the child.",
         "This is a foot.",
-        "These are womans.",
-        "I like the child."
+        "I like the foot.",
+        "I can see the foot.",
+        "This is a tooth.",
+        "I like the tooth.",
+        "I can see the tooth.",
+        "This is a mouse.",
+        "I like the mouse.",
+        "I can see the mouse.",
+        "This is my man.",
+        "These are my womans.",
+        "Can you child?"
       ],
+      "sentenceMap": {
+        "man": [
+          0,
+          1,
+          2
+        ],
+        "woman": [
+          3,
+          4,
+          5
+        ],
+        "child": [
+          6,
+          7,
+          8
+        ],
+        "foot": [
+          9,
+          10,
+          11
+        ],
+        "tooth": [
+          12,
+          13,
+          14
+        ],
+        "mouse": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "To be",
         "gap": [
@@ -10767,12 +15973,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a mom.",
+        "I like the mom.",
+        "I can see the mom.",
         "This is a dad.",
+        "I like the dad.",
+        "I can see the dad.",
         "This is a brother.",
+        "I like the brother.",
+        "I can see the brother.",
         "This is a sister.",
-        "These are dads.",
-        "I like the brother."
+        "I like the sister.",
+        "I can see the sister.",
+        "This is a baby.",
+        "I like the baby.",
+        "I can see the baby.",
+        "This is a grandma.",
+        "I like the grandma.",
+        "I can see the grandma.",
+        "This is my mom.",
+        "These are my dads.",
+        "Can you brother?"
       ],
+      "sentenceMap": {
+        "mom": [
+          0,
+          1,
+          2
+        ],
+        "dad": [
+          3,
+          4,
+          5
+        ],
+        "brother": [
+          6,
+          7,
+          8
+        ],
+        "sister": [
+          9,
+          10,
+          11
+        ],
+        "baby": [
+          12,
+          13,
+          14
+        ],
+        "grandma": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "To be",
         "gap": [
@@ -10956,12 +16209,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a bear.",
+        "I like the bear.",
+        "I can see the bear.",
         "This is a chair.",
+        "I like the chair.",
+        "I can see the chair.",
         "This is a clear.",
+        "I like the clear.",
+        "I can see the clear.",
         "This is a near.",
-        "These are chairs.",
-        "I like the clear."
+        "I like the near.",
+        "I can see the near.",
+        "This is a year.",
+        "I like the year.",
+        "I can see the year.",
+        "I can hear.",
+        "Can you hear?",
+        "We hear today.",
+        "This is my bear.",
+        "These are my chairs.",
+        "Can you clear?"
       ],
+      "sentenceMap": {
+        "bear": [
+          0,
+          1,
+          2
+        ],
+        "chair": [
+          3,
+          4,
+          5
+        ],
+        "clear": [
+          6,
+          7,
+          8
+        ],
+        "near": [
+          9,
+          10,
+          11
+        ],
+        "year": [
+          12,
+          13,
+          14
+        ],
+        "hear": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "To be",
         "gap": [
@@ -11145,12 +16445,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a mom.",
+        "I like the mom.",
+        "I can see the mom.",
         "This is a dad.",
+        "I like the dad.",
+        "I can see the dad.",
         "This is a brother.",
+        "I like the brother.",
+        "I can see the brother.",
         "This is a sister.",
-        "These are dads.",
-        "I like the brother."
+        "I like the sister.",
+        "I can see the sister.",
+        "This is a baby.",
+        "I like the baby.",
+        "I can see the baby.",
+        "The happy one is nice.",
+        "I like the happy one.",
+        "It is happy.",
+        "This is my mom.",
+        "These are my dads.",
+        "Can you brother?"
       ],
+      "sentenceMap": {
+        "mom": [
+          0,
+          1,
+          2
+        ],
+        "dad": [
+          3,
+          4,
+          5
+        ],
+        "brother": [
+          6,
+          7,
+          8
+        ],
+        "sister": [
+          9,
+          10,
+          11
+        ],
+        "baby": [
+          12,
+          13,
+          14
+        ],
+        "happy": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "To be",
         "gap": [
@@ -11333,13 +16680,59 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a run.",
-        "This is a jump.",
-        "This is a swim.",
-        "This is a dance.",
-        "These are jumps.",
-        "I like the swim."
+        "I can run.",
+        "Can you run?",
+        "We run today.",
+        "I can jump.",
+        "Can you jump?",
+        "We jump today.",
+        "I can swim.",
+        "Can you swim?",
+        "We swim today.",
+        "I can dance.",
+        "Can you dance?",
+        "We dance today.",
+        "I am sing.",
+        "We are sing.",
+        "She is sing.",
+        "I can draw.",
+        "Can you draw?",
+        "We draw today.",
+        "This is my run.",
+        "These are my jumps."
       ],
+      "sentenceMap": {
+        "run": [
+          0,
+          1,
+          2
+        ],
+        "jump": [
+          3,
+          4,
+          5
+        ],
+        "swim": [
+          6,
+          7,
+          8
+        ],
+        "dance": [
+          9,
+          10,
+          11
+        ],
+        "sing": [
+          12,
+          13,
+          14
+        ],
+        "draw": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Can / can't",
         "gap": [
@@ -11519,13 +16912,59 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a run.",
-        "This is a jump.",
-        "This is a swim.",
-        "This is a fly.",
-        "These are jumps.",
-        "I like the swim."
+        "I can run.",
+        "Can you run?",
+        "We run today.",
+        "I can jump.",
+        "Can you jump?",
+        "We jump today.",
+        "I can swim.",
+        "Can you swim?",
+        "We swim today.",
+        "I can fly.",
+        "Can you fly?",
+        "We fly today.",
+        "I can climb.",
+        "Can you climb?",
+        "We climb today.",
+        "I can dance.",
+        "Can you dance?",
+        "We dance today.",
+        "This is my run.",
+        "These are my jumps."
       ],
+      "sentenceMap": {
+        "run": [
+          0,
+          1,
+          2
+        ],
+        "jump": [
+          3,
+          4,
+          5
+        ],
+        "swim": [
+          6,
+          7,
+          8
+        ],
+        "fly": [
+          9,
+          10,
+          11
+        ],
+        "climb": [
+          12,
+          13,
+          14
+        ],
+        "dance": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Can / can't",
         "gap": [
@@ -11705,13 +17144,59 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a run.",
-        "This is a jump.",
-        "This is a swim.",
-        "This is a dance.",
-        "These are jumps.",
-        "I like the swim."
+        "I can run.",
+        "Can you run?",
+        "We run today.",
+        "I can jump.",
+        "Can you jump?",
+        "We jump today.",
+        "I can swim.",
+        "Can you swim?",
+        "We swim today.",
+        "I can dance.",
+        "Can you dance?",
+        "We dance today.",
+        "I am sing.",
+        "We are sing.",
+        "She is sing.",
+        "I can draw.",
+        "Can you draw?",
+        "We draw today.",
+        "This is my run.",
+        "These are my jumps."
       ],
+      "sentenceMap": {
+        "run": [
+          0,
+          1,
+          2
+        ],
+        "jump": [
+          3,
+          4,
+          5
+        ],
+        "swim": [
+          6,
+          7,
+          8
+        ],
+        "dance": [
+          9,
+          10,
+          11
+        ],
+        "sing": [
+          12,
+          13,
+          14
+        ],
+        "draw": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Can / can't",
         "gap": [
@@ -11891,13 +17376,59 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a dance.",
-        "This is a sing.",
-        "This is a draw.",
-        "This is a climb.",
-        "These are sings.",
-        "I like the draw."
+        "I can dance.",
+        "Can you dance?",
+        "We dance today.",
+        "I am sing.",
+        "We are sing.",
+        "She is sing.",
+        "I can draw.",
+        "Can you draw?",
+        "We draw today.",
+        "I can climb.",
+        "Can you climb?",
+        "We climb today.",
+        "I can jump.",
+        "Can you jump?",
+        "We jump today.",
+        "I can run.",
+        "Can you run?",
+        "We run today.",
+        "This is my dance.",
+        "These are my sings."
       ],
+      "sentenceMap": {
+        "dance": [
+          0,
+          1,
+          2
+        ],
+        "sing": [
+          3,
+          4,
+          5
+        ],
+        "draw": [
+          6,
+          7,
+          8
+        ],
+        "climb": [
+          9,
+          10,
+          11
+        ],
+        "jump": [
+          12,
+          13,
+          14
+        ],
+        "run": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Can / can't",
         "gap": [
@@ -12077,13 +17608,59 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a run.",
-        "This is a jump.",
-        "This is a swim.",
-        "This is a climb.",
-        "These are jumps.",
-        "I like the swim."
+        "I can run.",
+        "Can you run?",
+        "We run today.",
+        "I can jump.",
+        "Can you jump?",
+        "We jump today.",
+        "I can swim.",
+        "Can you swim?",
+        "We swim today.",
+        "I can climb.",
+        "Can you climb?",
+        "We climb today.",
+        "I can dance.",
+        "Can you dance?",
+        "We dance today.",
+        "I can draw.",
+        "Can you draw?",
+        "We draw today.",
+        "This is my run.",
+        "These are my jumps."
       ],
+      "sentenceMap": {
+        "run": [
+          0,
+          1,
+          2
+        ],
+        "jump": [
+          3,
+          4,
+          5
+        ],
+        "swim": [
+          6,
+          7,
+          8
+        ],
+        "climb": [
+          9,
+          10,
+          11
+        ],
+        "dance": [
+          12,
+          13,
+          14
+        ],
+        "draw": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Can / can't",
         "gap": [
@@ -12264,12 +17841,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a bird.",
+        "I like the bird.",
+        "I can see the bird.",
         "This is a fish.",
+        "I like the fish.",
+        "I can see the fish.",
         "This is a monkey.",
+        "I like the monkey.",
+        "I can see the monkey.",
         "This is a horse.",
-        "These are fishes.",
-        "I like the monkey."
+        "I like the horse.",
+        "I can see the horse.",
+        "This is a duck.",
+        "I like the duck.",
+        "I can see the duck.",
+        "This is an owl.",
+        "I like the owl.",
+        "I can see the owl.",
+        "This is my bird.",
+        "These are my fishs.",
+        "Can you monkey?"
       ],
+      "sentenceMap": {
+        "bird": [
+          0,
+          1,
+          2
+        ],
+        "fish": [
+          3,
+          4,
+          5
+        ],
+        "monkey": [
+          6,
+          7,
+          8
+        ],
+        "horse": [
+          9,
+          10,
+          11
+        ],
+        "duck": [
+          12,
+          13,
+          14
+        ],
+        "owl": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Can / can't",
         "gap": [
@@ -12449,13 +18073,59 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a jump.",
-        "This is a fly.",
-        "This is a swim.",
-        "This is a climb.",
-        "These are flies.",
-        "I like the swim."
+        "I can jump.",
+        "Can you jump?",
+        "We jump today.",
+        "I can fly.",
+        "Can you fly?",
+        "We fly today.",
+        "I can swim.",
+        "Can you swim?",
+        "We swim today.",
+        "I can climb.",
+        "Can you climb?",
+        "We climb today.",
+        "I can dance.",
+        "Can you dance?",
+        "We dance today.",
+        "I am sing.",
+        "We are sing.",
+        "She is sing.",
+        "This is my jump.",
+        "These are my flys."
       ],
+      "sentenceMap": {
+        "jump": [
+          0,
+          1,
+          2
+        ],
+        "fly": [
+          3,
+          4,
+          5
+        ],
+        "swim": [
+          6,
+          7,
+          8
+        ],
+        "climb": [
+          9,
+          10,
+          11
+        ],
+        "dance": [
+          12,
+          13,
+          14
+        ],
+        "sing": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Can / can't",
         "gap": [
@@ -12635,13 +18305,59 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a draw.",
-        "This is a sing.",
-        "This is a dance.",
-        "This is a swim.",
-        "These are sings.",
-        "I like the dance."
+        "I can draw.",
+        "Can you draw?",
+        "We draw today.",
+        "I am sing.",
+        "We are sing.",
+        "She is sing.",
+        "I can dance.",
+        "Can you dance?",
+        "We dance today.",
+        "I can swim.",
+        "Can you swim?",
+        "We swim today.",
+        "I can run.",
+        "Can you run?",
+        "We run today.",
+        "I can jump.",
+        "Can you jump?",
+        "We jump today.",
+        "This is my draw.",
+        "These are my sings."
       ],
+      "sentenceMap": {
+        "draw": [
+          0,
+          1,
+          2
+        ],
+        "sing": [
+          3,
+          4,
+          5
+        ],
+        "dance": [
+          6,
+          7,
+          8
+        ],
+        "swim": [
+          9,
+          10,
+          11
+        ],
+        "run": [
+          12,
+          13,
+          14
+        ],
+        "jump": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Can / can't",
         "gap": [
@@ -12822,12 +18538,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a bird.",
+        "I like the bird.",
+        "I can see the bird.",
         "This is a girl.",
+        "I like the girl.",
+        "I can see the girl.",
         "This is a shirt.",
+        "I like the shirt.",
+        "I can see the shirt.",
         "This is a turn.",
-        "These are girls.",
-        "I like the shirt."
+        "I like the turn.",
+        "I can see the turn.",
+        "I can work.",
+        "Can you work?",
+        "We work today.",
+        "This is a word.",
+        "I like the word.",
+        "I can see the word.",
+        "This is my bird.",
+        "These are my girls.",
+        "Can you shirt?"
       ],
+      "sentenceMap": {
+        "bird": [
+          0,
+          1,
+          2
+        ],
+        "girl": [
+          3,
+          4,
+          5
+        ],
+        "shirt": [
+          6,
+          7,
+          8
+        ],
+        "turn": [
+          9,
+          10,
+          11
+        ],
+        "work": [
+          12,
+          13,
+          14
+        ],
+        "word": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Can / can't",
         "gap": [
@@ -13007,13 +18770,59 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a run.",
-        "This is a jump.",
-        "This is a swim.",
-        "This is a dance.",
-        "These are jumps.",
-        "I like the swim."
+        "I can run.",
+        "Can you run?",
+        "We run today.",
+        "I can jump.",
+        "Can you jump?",
+        "We jump today.",
+        "I can swim.",
+        "Can you swim?",
+        "We swim today.",
+        "I can dance.",
+        "Can you dance?",
+        "We dance today.",
+        "I am sing.",
+        "We are sing.",
+        "She is sing.",
+        "I can draw.",
+        "Can you draw?",
+        "We draw today.",
+        "This is my run.",
+        "These are my jumps."
       ],
+      "sentenceMap": {
+        "run": [
+          0,
+          1,
+          2
+        ],
+        "jump": [
+          3,
+          4,
+          5
+        ],
+        "swim": [
+          6,
+          7,
+          8
+        ],
+        "dance": [
+          9,
+          10,
+          11
+        ],
+        "sing": [
+          12,
+          13,
+          14
+        ],
+        "draw": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Can / can't",
         "gap": [
@@ -13194,12 +19003,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a kite.",
+        "I like the kite.",
+        "I can see the kite.",
         "This is a ball.",
+        "I like the ball.",
+        "I can see the ball.",
         "This is a bike.",
+        "I like the bike.",
+        "I can see the bike.",
         "This is a doll.",
-        "These are balls.",
-        "I like the bike."
+        "I like the doll.",
+        "I can see the doll.",
+        "This is a robot.",
+        "I like the robot.",
+        "I can see the robot.",
+        "This is a puzzle.",
+        "I like the puzzle.",
+        "I can see the puzzle.",
+        "This is my kite.",
+        "These are my balls.",
+        "Can you bike?"
       ],
+      "sentenceMap": {
+        "kite": [
+          0,
+          1,
+          2
+        ],
+        "ball": [
+          3,
+          4,
+          5
+        ],
+        "bike": [
+          6,
+          7,
+          8
+        ],
+        "doll": [
+          9,
+          10,
+          11
+        ],
+        "robot": [
+          12,
+          13,
+          14
+        ],
+        "puzzle": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Have got / has got",
         "gap": [
@@ -13380,12 +19236,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a kite.",
+        "I like the kite.",
+        "I can see the kite.",
         "This is a ball.",
+        "I like the ball.",
+        "I can see the ball.",
         "This is a bike.",
+        "I like the bike.",
+        "I can see the bike.",
         "This is a doll.",
-        "These are balls.",
-        "I like the bike."
+        "I like the doll.",
+        "I can see the doll.",
+        "This is a robot.",
+        "I like the robot.",
+        "I can see the robot.",
+        "This is a guitar.",
+        "I like the guitar.",
+        "I can see the guitar.",
+        "This is my kite.",
+        "These are my balls.",
+        "Can you bike?"
       ],
+      "sentenceMap": {
+        "kite": [
+          0,
+          1,
+          2
+        ],
+        "ball": [
+          3,
+          4,
+          5
+        ],
+        "bike": [
+          6,
+          7,
+          8
+        ],
+        "doll": [
+          9,
+          10,
+          11
+        ],
+        "robot": [
+          12,
+          13,
+          14
+        ],
+        "guitar": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Have got / has got",
         "gap": [
@@ -13566,12 +19469,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a kite.",
+        "I like the kite.",
+        "I can see the kite.",
         "This is a ball.",
+        "I like the ball.",
+        "I can see the ball.",
         "This is a bike.",
+        "I like the bike.",
+        "I can see the bike.",
         "This is a doll.",
-        "These are balls.",
-        "I like the bike."
+        "I like the doll.",
+        "I can see the doll.",
+        "This is a robot.",
+        "I like the robot.",
+        "I can see the robot.",
+        "This is a puzzle.",
+        "I like the puzzle.",
+        "I can see the puzzle.",
+        "This is my kite.",
+        "These are my balls.",
+        "Can you bike?"
       ],
+      "sentenceMap": {
+        "kite": [
+          0,
+          1,
+          2
+        ],
+        "ball": [
+          3,
+          4,
+          5
+        ],
+        "bike": [
+          6,
+          7,
+          8
+        ],
+        "doll": [
+          9,
+          10,
+          11
+        ],
+        "robot": [
+          12,
+          13,
+          14
+        ],
+        "puzzle": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Have got / has got",
         "gap": [
@@ -13752,12 +19702,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a ball.",
+        "I like the ball.",
+        "I can see the ball.",
         "This is a bike.",
+        "I like the bike.",
+        "I can see the bike.",
         "This is a doll.",
+        "I like the doll.",
+        "I can see the doll.",
         "This is a kite.",
-        "These are bikes.",
-        "I like the doll."
+        "I like the kite.",
+        "I can see the kite.",
+        "This is a robot.",
+        "I like the robot.",
+        "I can see the robot.",
+        "This is a guitar.",
+        "I like the guitar.",
+        "I can see the guitar.",
+        "This is my ball.",
+        "These are my bikes.",
+        "Can you doll?"
       ],
+      "sentenceMap": {
+        "ball": [
+          0,
+          1,
+          2
+        ],
+        "bike": [
+          3,
+          4,
+          5
+        ],
+        "doll": [
+          6,
+          7,
+          8
+        ],
+        "kite": [
+          9,
+          10,
+          11
+        ],
+        "robot": [
+          12,
+          13,
+          14
+        ],
+        "guitar": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Have got / has got",
         "gap": [
@@ -13938,12 +19935,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a robot.",
+        "I like the robot.",
+        "I can see the robot.",
         "This is a ball.",
+        "I like the ball.",
+        "I can see the ball.",
         "This is a bike.",
+        "I like the bike.",
+        "I can see the bike.",
         "This is a doll.",
-        "These are balls.",
-        "I like the bike."
+        "I like the doll.",
+        "I can see the doll.",
+        "This is a kite.",
+        "I like the kite.",
+        "I can see the kite.",
+        "This is a puzzle.",
+        "I like the puzzle.",
+        "I can see the puzzle.",
+        "This is my robot.",
+        "These are my balls.",
+        "Can you bike?"
       ],
+      "sentenceMap": {
+        "robot": [
+          0,
+          1,
+          2
+        ],
+        "ball": [
+          3,
+          4,
+          5
+        ],
+        "bike": [
+          6,
+          7,
+          8
+        ],
+        "doll": [
+          9,
+          10,
+          11
+        ],
+        "kite": [
+          12,
+          13,
+          14
+        ],
+        "puzzle": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Have got / has got",
         "gap": [
@@ -14124,12 +20168,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a ball.",
+        "I like the ball.",
+        "I can see the ball.",
         "This is a bike.",
+        "I like the bike.",
+        "I can see the bike.",
         "This is a doll.",
+        "I like the doll.",
+        "I can see the doll.",
         "This is a robot.",
-        "These are bikes.",
-        "I like the doll."
+        "I like the robot.",
+        "I can see the robot.",
+        "This is a guitar.",
+        "I like the guitar.",
+        "I can see the guitar.",
+        "This is a puzzle.",
+        "I like the puzzle.",
+        "I can see the puzzle.",
+        "This is my ball.",
+        "These are my bikes.",
+        "Can you doll?"
       ],
+      "sentenceMap": {
+        "ball": [
+          0,
+          1,
+          2
+        ],
+        "bike": [
+          3,
+          4,
+          5
+        ],
+        "doll": [
+          6,
+          7,
+          8
+        ],
+        "robot": [
+          9,
+          10,
+          11
+        ],
+        "guitar": [
+          12,
+          13,
+          14
+        ],
+        "puzzle": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Have got / has got",
         "gap": [
@@ -14310,12 +20401,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a kite.",
+        "I like the kite.",
+        "I can see the kite.",
         "This is a ball.",
+        "I like the ball.",
+        "I can see the ball.",
         "This is a bike.",
+        "I like the bike.",
+        "I can see the bike.",
         "This is a doll.",
-        "These are balls.",
-        "I like the bike."
+        "I like the doll.",
+        "I can see the doll.",
+        "This is a robot.",
+        "I like the robot.",
+        "I can see the robot.",
+        "This is a puzzle.",
+        "I like the puzzle.",
+        "I can see the puzzle.",
+        "This is my kite.",
+        "These are my balls.",
+        "Can you bike?"
       ],
+      "sentenceMap": {
+        "kite": [
+          0,
+          1,
+          2
+        ],
+        "ball": [
+          3,
+          4,
+          5
+        ],
+        "bike": [
+          6,
+          7,
+          8
+        ],
+        "doll": [
+          9,
+          10,
+          11
+        ],
+        "robot": [
+          12,
+          13,
+          14
+        ],
+        "puzzle": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Have got / has got",
         "gap": [
@@ -14496,12 +20634,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a ball.",
+        "I like the ball.",
+        "I can see the ball.",
         "This is a bike.",
+        "I like the bike.",
+        "I can see the bike.",
         "This is a doll.",
+        "I like the doll.",
+        "I can see the doll.",
         "This is a kite.",
-        "These are bikes.",
-        "I like the doll."
+        "I like the kite.",
+        "I can see the kite.",
+        "This is a robot.",
+        "I like the robot.",
+        "I can see the robot.",
+        "This is a guitar.",
+        "I like the guitar.",
+        "I can see the guitar.",
+        "This is my ball.",
+        "These are my bikes.",
+        "Can you doll?"
       ],
+      "sentenceMap": {
+        "ball": [
+          0,
+          1,
+          2
+        ],
+        "bike": [
+          3,
+          4,
+          5
+        ],
+        "doll": [
+          6,
+          7,
+          8
+        ],
+        "kite": [
+          9,
+          10,
+          11
+        ],
+        "robot": [
+          12,
+          13,
+          14
+        ],
+        "guitar": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Have got / has got",
         "gap": [
@@ -14682,12 +20867,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a ball.",
+        "I like the ball.",
+        "I can see the ball.",
         "This is a bike.",
+        "I like the bike.",
+        "I can see the bike.",
         "This is a doll.",
+        "I like the doll.",
+        "I can see the doll.",
         "This is a kite.",
-        "These are bikes.",
-        "I like the doll."
+        "I like the kite.",
+        "I can see the kite.",
+        "This is a robot.",
+        "I like the robot.",
+        "I can see the robot.",
+        "This is a puzzle.",
+        "I like the puzzle.",
+        "I can see the puzzle.",
+        "This is my ball.",
+        "These are my bikes.",
+        "Can you doll?"
       ],
+      "sentenceMap": {
+        "ball": [
+          0,
+          1,
+          2
+        ],
+        "bike": [
+          3,
+          4,
+          5
+        ],
+        "doll": [
+          6,
+          7,
+          8
+        ],
+        "kite": [
+          9,
+          10,
+          11
+        ],
+        "robot": [
+          12,
+          13,
+          14
+        ],
+        "puzzle": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Have got / has got",
         "gap": [
@@ -14868,12 +21100,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a ball.",
+        "I like the ball.",
+        "I can see the ball.",
         "This is a bike.",
+        "I like the bike.",
+        "I can see the bike.",
         "This is a doll.",
+        "I like the doll.",
+        "I can see the doll.",
         "This is a kite.",
-        "These are bikes.",
-        "I like the doll."
+        "I like the kite.",
+        "I can see the kite.",
+        "This is a robot.",
+        "I like the robot.",
+        "I can see the robot.",
+        "This is a guitar.",
+        "I like the guitar.",
+        "I can see the guitar.",
+        "This is my ball.",
+        "These are my bikes.",
+        "Can you doll?"
       ],
+      "sentenceMap": {
+        "ball": [
+          0,
+          1,
+          2
+        ],
+        "bike": [
+          3,
+          4,
+          5
+        ],
+        "doll": [
+          6,
+          7,
+          8
+        ],
+        "kite": [
+          9,
+          10,
+          11
+        ],
+        "robot": [
+          12,
+          13,
+          14
+        ],
+        "guitar": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Have got / has got",
         "gap": [
@@ -15054,12 +21333,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a pizza.",
-        "This is a apple.",
+        "I like the pizza.",
+        "I can see the pizza.",
+        "This is an apple.",
+        "I like the apple.",
+        "I can see the apple.",
         "This is a rice.",
+        "I like the rice.",
+        "I can see the rice.",
         "This is a fish.",
-        "These are apples.",
-        "I like the rice."
+        "I like the fish.",
+        "I can see the fish.",
+        "This is a cheese.",
+        "I like the cheese.",
+        "I can see the cheese.",
+        "This is a cake.",
+        "I like the cake.",
+        "I can see the cake.",
+        "This is my pizza.",
+        "These are my apples.",
+        "Can you rice?"
       ],
+      "sentenceMap": {
+        "pizza": [
+          0,
+          1,
+          2
+        ],
+        "apple": [
+          3,
+          4,
+          5
+        ],
+        "rice": [
+          6,
+          7,
+          8
+        ],
+        "fish": [
+          9,
+          10,
+          11
+        ],
+        "cheese": [
+          12,
+          13,
+          14
+        ],
+        "cake": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Like / likes",
         "gap": [
@@ -15240,12 +21566,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a pizza.",
-        "This is a apple.",
+        "I like the pizza.",
+        "I can see the pizza.",
+        "This is an apple.",
+        "I like the apple.",
+        "I can see the apple.",
         "This is a rice.",
+        "I like the rice.",
+        "I can see the rice.",
         "This is a fish.",
-        "These are apples.",
-        "I like the rice."
+        "I like the fish.",
+        "I can see the fish.",
+        "This is a cheese.",
+        "I like the cheese.",
+        "I can see the cheese.",
+        "This is a cake.",
+        "I like the cake.",
+        "I can see the cake.",
+        "This is my pizza.",
+        "These are my apples.",
+        "Can you rice?"
       ],
+      "sentenceMap": {
+        "pizza": [
+          0,
+          1,
+          2
+        ],
+        "apple": [
+          3,
+          4,
+          5
+        ],
+        "rice": [
+          6,
+          7,
+          8
+        ],
+        "fish": [
+          9,
+          10,
+          11
+        ],
+        "cheese": [
+          12,
+          13,
+          14
+        ],
+        "cake": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Like / likes",
         "gap": [
@@ -15426,12 +21799,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a pizza.",
-        "This is a apple.",
+        "I like the pizza.",
+        "I can see the pizza.",
+        "This is an apple.",
+        "I like the apple.",
+        "I can see the apple.",
         "This is a rice.",
+        "I like the rice.",
+        "I can see the rice.",
         "This is a fish.",
-        "These are apples.",
-        "I like the rice."
+        "I like the fish.",
+        "I can see the fish.",
+        "This is a cheese.",
+        "I like the cheese.",
+        "I can see the cheese.",
+        "This is a cake.",
+        "I like the cake.",
+        "I can see the cake.",
+        "This is my pizza.",
+        "These are my apples.",
+        "Can you rice?"
       ],
+      "sentenceMap": {
+        "pizza": [
+          0,
+          1,
+          2
+        ],
+        "apple": [
+          3,
+          4,
+          5
+        ],
+        "rice": [
+          6,
+          7,
+          8
+        ],
+        "fish": [
+          9,
+          10,
+          11
+        ],
+        "cheese": [
+          12,
+          13,
+          14
+        ],
+        "cake": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Like / likes",
         "gap": [
@@ -15612,12 +22032,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a pizza.",
-        "This is a apple.",
+        "I like the pizza.",
+        "I can see the pizza.",
+        "This is an apple.",
+        "I like the apple.",
+        "I can see the apple.",
         "This is a rice.",
+        "I like the rice.",
+        "I can see the rice.",
         "This is a fish.",
-        "These are apples.",
-        "I like the rice."
+        "I like the fish.",
+        "I can see the fish.",
+        "This is a cheese.",
+        "I like the cheese.",
+        "I can see the cheese.",
+        "This is a cake.",
+        "I like the cake.",
+        "I can see the cake.",
+        "This is my pizza.",
+        "These are my apples.",
+        "Can you rice?"
       ],
+      "sentenceMap": {
+        "pizza": [
+          0,
+          1,
+          2
+        ],
+        "apple": [
+          3,
+          4,
+          5
+        ],
+        "rice": [
+          6,
+          7,
+          8
+        ],
+        "fish": [
+          9,
+          10,
+          11
+        ],
+        "cheese": [
+          12,
+          13,
+          14
+        ],
+        "cake": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Like / likes",
         "gap": [
@@ -15798,12 +22265,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a pizza.",
-        "This is a apple.",
+        "I like the pizza.",
+        "I can see the pizza.",
+        "This is an apple.",
+        "I like the apple.",
+        "I can see the apple.",
         "This is a rice.",
+        "I like the rice.",
+        "I can see the rice.",
         "This is a fish.",
-        "These are apples.",
-        "I like the rice."
+        "I like the fish.",
+        "I can see the fish.",
+        "This is a cheese.",
+        "I like the cheese.",
+        "I can see the cheese.",
+        "This is a cake.",
+        "I like the cake.",
+        "I can see the cake.",
+        "This is my pizza.",
+        "These are my apples.",
+        "Can you rice?"
       ],
+      "sentenceMap": {
+        "pizza": [
+          0,
+          1,
+          2
+        ],
+        "apple": [
+          3,
+          4,
+          5
+        ],
+        "rice": [
+          6,
+          7,
+          8
+        ],
+        "fish": [
+          9,
+          10,
+          11
+        ],
+        "cheese": [
+          12,
+          13,
+          14
+        ],
+        "cake": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Like / likes",
         "gap": [
@@ -15984,12 +22498,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a pizza.",
-        "This is a apple.",
+        "I like the pizza.",
+        "I can see the pizza.",
+        "This is an apple.",
+        "I like the apple.",
+        "I can see the apple.",
         "This is a rice.",
+        "I like the rice.",
+        "I can see the rice.",
         "This is a fish.",
-        "These are apples.",
-        "I like the rice."
+        "I like the fish.",
+        "I can see the fish.",
+        "This is a cheese.",
+        "I like the cheese.",
+        "I can see the cheese.",
+        "This is a cake.",
+        "I like the cake.",
+        "I can see the cake.",
+        "This is my pizza.",
+        "These are my apples.",
+        "Can you rice?"
       ],
+      "sentenceMap": {
+        "pizza": [
+          0,
+          1,
+          2
+        ],
+        "apple": [
+          3,
+          4,
+          5
+        ],
+        "rice": [
+          6,
+          7,
+          8
+        ],
+        "fish": [
+          9,
+          10,
+          11
+        ],
+        "cheese": [
+          12,
+          13,
+          14
+        ],
+        "cake": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Like / likes",
         "gap": [
@@ -16170,12 +22731,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a pizza.",
-        "This is a apple.",
+        "I like the pizza.",
+        "I can see the pizza.",
+        "This is an apple.",
+        "I like the apple.",
+        "I can see the apple.",
         "This is a rice.",
+        "I like the rice.",
+        "I can see the rice.",
         "This is a fish.",
-        "These are apples.",
-        "I like the rice."
+        "I like the fish.",
+        "I can see the fish.",
+        "This is a cheese.",
+        "I like the cheese.",
+        "I can see the cheese.",
+        "This is a cake.",
+        "I like the cake.",
+        "I can see the cake.",
+        "This is my pizza.",
+        "These are my apples.",
+        "Can you rice?"
       ],
+      "sentenceMap": {
+        "pizza": [
+          0,
+          1,
+          2
+        ],
+        "apple": [
+          3,
+          4,
+          5
+        ],
+        "rice": [
+          6,
+          7,
+          8
+        ],
+        "fish": [
+          9,
+          10,
+          11
+        ],
+        "cheese": [
+          12,
+          13,
+          14
+        ],
+        "cake": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Like / likes",
         "gap": [
@@ -16356,12 +22964,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a pizza.",
-        "This is a apple.",
+        "I like the pizza.",
+        "I can see the pizza.",
+        "This is an apple.",
+        "I like the apple.",
+        "I can see the apple.",
         "This is a rice.",
+        "I like the rice.",
+        "I can see the rice.",
         "This is a fish.",
-        "These are apples.",
-        "I like the rice."
+        "I like the fish.",
+        "I can see the fish.",
+        "This is a cheese.",
+        "I like the cheese.",
+        "I can see the cheese.",
+        "This is a cake.",
+        "I like the cake.",
+        "I can see the cake.",
+        "This is my pizza.",
+        "These are my apples.",
+        "Can you rice?"
       ],
+      "sentenceMap": {
+        "pizza": [
+          0,
+          1,
+          2
+        ],
+        "apple": [
+          3,
+          4,
+          5
+        ],
+        "rice": [
+          6,
+          7,
+          8
+        ],
+        "fish": [
+          9,
+          10,
+          11
+        ],
+        "cheese": [
+          12,
+          13,
+          14
+        ],
+        "cake": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Like / likes",
         "gap": [
@@ -16542,12 +23197,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a pizza.",
-        "This is a apple.",
+        "I like the pizza.",
+        "I can see the pizza.",
+        "This is an apple.",
+        "I like the apple.",
+        "I can see the apple.",
         "This is a rice.",
+        "I like the rice.",
+        "I can see the rice.",
         "This is a fish.",
-        "These are apples.",
-        "I like the rice."
+        "I like the fish.",
+        "I can see the fish.",
+        "This is a cheese.",
+        "I like the cheese.",
+        "I can see the cheese.",
+        "This is a cake.",
+        "I like the cake.",
+        "I can see the cake.",
+        "This is my pizza.",
+        "These are my apples.",
+        "Can you rice?"
       ],
+      "sentenceMap": {
+        "pizza": [
+          0,
+          1,
+          2
+        ],
+        "apple": [
+          3,
+          4,
+          5
+        ],
+        "rice": [
+          6,
+          7,
+          8
+        ],
+        "fish": [
+          9,
+          10,
+          11
+        ],
+        "cheese": [
+          12,
+          13,
+          14
+        ],
+        "cake": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Like / likes",
         "gap": [
@@ -16728,12 +23430,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a pizza.",
-        "This is a apple.",
+        "I like the pizza.",
+        "I can see the pizza.",
+        "This is an apple.",
+        "I like the apple.",
+        "I can see the apple.",
         "This is a rice.",
+        "I like the rice.",
+        "I can see the rice.",
         "This is a fish.",
-        "These are apples.",
-        "I like the rice."
+        "I like the fish.",
+        "I can see the fish.",
+        "This is a cheese.",
+        "I like the cheese.",
+        "I can see the cheese.",
+        "This is a cake.",
+        "I like the cake.",
+        "I can see the cake.",
+        "This is my pizza.",
+        "These are my apples.",
+        "Can you rice?"
       ],
+      "sentenceMap": {
+        "pizza": [
+          0,
+          1,
+          2
+        ],
+        "apple": [
+          3,
+          4,
+          5
+        ],
+        "rice": [
+          6,
+          7,
+          8
+        ],
+        "fish": [
+          9,
+          10,
+          11
+        ],
+        "cheese": [
+          12,
+          13,
+          14
+        ],
+        "cake": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Like / likes",
         "gap": [
@@ -16913,13 +23662,59 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a get up.",
-        "This is a wash.",
-        "This is a eat.",
-        "This is a go.",
-        "These are washes.",
-        "I like the eat."
+        "I can get up.",
+        "Can you get up?",
+        "We get up today.",
+        "I can wash.",
+        "Can you wash?",
+        "We wash today.",
+        "I can eat.",
+        "Can you eat?",
+        "We eat today.",
+        "I can go.",
+        "Can you go?",
+        "We go today.",
+        "I can play.",
+        "Can you play?",
+        "We play today.",
+        "This is a sleep.",
+        "I like the sleep.",
+        "I can see the sleep.",
+        "This is my get up.",
+        "These are my washs."
       ],
+      "sentenceMap": {
+        "get up": [
+          0,
+          1,
+          2
+        ],
+        "wash": [
+          3,
+          4,
+          5
+        ],
+        "eat": [
+          6,
+          7,
+          8
+        ],
+        "go": [
+          9,
+          10,
+          11
+        ],
+        "play": [
+          12,
+          13,
+          14
+        ],
+        "sleep": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Present simple routine",
         "gap": [
@@ -17099,13 +23894,59 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a get up.",
-        "This is a wash.",
-        "This is a eat.",
-        "This is a go.",
-        "These are washes.",
-        "I like the eat."
+        "I can get up.",
+        "Can you get up?",
+        "We get up today.",
+        "I can wash.",
+        "Can you wash?",
+        "We wash today.",
+        "I can eat.",
+        "Can you eat?",
+        "We eat today.",
+        "I can go.",
+        "Can you go?",
+        "We go today.",
+        "I can play.",
+        "Can you play?",
+        "We play today.",
+        "This is a sleep.",
+        "I like the sleep.",
+        "I can see the sleep.",
+        "This is my get up.",
+        "These are my washs."
       ],
+      "sentenceMap": {
+        "get up": [
+          0,
+          1,
+          2
+        ],
+        "wash": [
+          3,
+          4,
+          5
+        ],
+        "eat": [
+          6,
+          7,
+          8
+        ],
+        "go": [
+          9,
+          10,
+          11
+        ],
+        "play": [
+          12,
+          13,
+          14
+        ],
+        "sleep": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Present simple routine",
         "gap": [
@@ -17285,13 +24126,59 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a get up.",
-        "This is a wash.",
-        "This is a eat.",
-        "This is a go.",
-        "These are washes.",
-        "I like the eat."
+        "I can get up.",
+        "Can you get up?",
+        "We get up today.",
+        "I can wash.",
+        "Can you wash?",
+        "We wash today.",
+        "I can eat.",
+        "Can you eat?",
+        "We eat today.",
+        "I can go.",
+        "Can you go?",
+        "We go today.",
+        "I can play.",
+        "Can you play?",
+        "We play today.",
+        "This is a sleep.",
+        "I like the sleep.",
+        "I can see the sleep.",
+        "This is my get up.",
+        "These are my washs."
       ],
+      "sentenceMap": {
+        "get up": [
+          0,
+          1,
+          2
+        ],
+        "wash": [
+          3,
+          4,
+          5
+        ],
+        "eat": [
+          6,
+          7,
+          8
+        ],
+        "go": [
+          9,
+          10,
+          11
+        ],
+        "play": [
+          12,
+          13,
+          14
+        ],
+        "sleep": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Present simple routine",
         "gap": [
@@ -17471,13 +24358,59 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a get up.",
-        "This is a wash.",
-        "This is a eat.",
-        "This is a go.",
-        "These are washes.",
-        "I like the eat."
+        "I can get up.",
+        "Can you get up?",
+        "We get up today.",
+        "I can wash.",
+        "Can you wash?",
+        "We wash today.",
+        "I can eat.",
+        "Can you eat?",
+        "We eat today.",
+        "I can go.",
+        "Can you go?",
+        "We go today.",
+        "I can play.",
+        "Can you play?",
+        "We play today.",
+        "This is a sleep.",
+        "I like the sleep.",
+        "I can see the sleep.",
+        "This is my get up.",
+        "These are my washs."
       ],
+      "sentenceMap": {
+        "get up": [
+          0,
+          1,
+          2
+        ],
+        "wash": [
+          3,
+          4,
+          5
+        ],
+        "eat": [
+          6,
+          7,
+          8
+        ],
+        "go": [
+          9,
+          10,
+          11
+        ],
+        "play": [
+          12,
+          13,
+          14
+        ],
+        "sleep": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Present simple routine",
         "gap": [
@@ -17657,13 +24590,59 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a get up.",
-        "This is a wash.",
-        "This is a eat.",
-        "This is a go.",
-        "These are washes.",
-        "I like the eat."
+        "I can get up.",
+        "Can you get up?",
+        "We get up today.",
+        "I can wash.",
+        "Can you wash?",
+        "We wash today.",
+        "I can eat.",
+        "Can you eat?",
+        "We eat today.",
+        "I can go.",
+        "Can you go?",
+        "We go today.",
+        "I can play.",
+        "Can you play?",
+        "We play today.",
+        "This is a sleep.",
+        "I like the sleep.",
+        "I can see the sleep.",
+        "This is my get up.",
+        "These are my washs."
       ],
+      "sentenceMap": {
+        "get up": [
+          0,
+          1,
+          2
+        ],
+        "wash": [
+          3,
+          4,
+          5
+        ],
+        "eat": [
+          6,
+          7,
+          8
+        ],
+        "go": [
+          9,
+          10,
+          11
+        ],
+        "play": [
+          12,
+          13,
+          14
+        ],
+        "sleep": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Present simple routine",
         "gap": [
@@ -17843,13 +24822,59 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a get up.",
-        "This is a wash.",
-        "This is a eat.",
-        "This is a go.",
-        "These are washes.",
-        "I like the eat."
+        "I can get up.",
+        "Can you get up?",
+        "We get up today.",
+        "I can wash.",
+        "Can you wash?",
+        "We wash today.",
+        "I can eat.",
+        "Can you eat?",
+        "We eat today.",
+        "I can go.",
+        "Can you go?",
+        "We go today.",
+        "I can play.",
+        "Can you play?",
+        "We play today.",
+        "This is a sleep.",
+        "I like the sleep.",
+        "I can see the sleep.",
+        "This is my get up.",
+        "These are my washs."
       ],
+      "sentenceMap": {
+        "get up": [
+          0,
+          1,
+          2
+        ],
+        "wash": [
+          3,
+          4,
+          5
+        ],
+        "eat": [
+          6,
+          7,
+          8
+        ],
+        "go": [
+          9,
+          10,
+          11
+        ],
+        "play": [
+          12,
+          13,
+          14
+        ],
+        "sleep": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Present simple routine",
         "gap": [
@@ -18029,13 +25054,59 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a get up.",
-        "This is a wash.",
-        "This is a eat.",
-        "This is a go.",
-        "These are washes.",
-        "I like the eat."
+        "I can get up.",
+        "Can you get up?",
+        "We get up today.",
+        "I can wash.",
+        "Can you wash?",
+        "We wash today.",
+        "I can eat.",
+        "Can you eat?",
+        "We eat today.",
+        "I can go.",
+        "Can you go?",
+        "We go today.",
+        "I can play.",
+        "Can you play?",
+        "We play today.",
+        "This is a sleep.",
+        "I like the sleep.",
+        "I can see the sleep.",
+        "This is my get up.",
+        "These are my washs."
       ],
+      "sentenceMap": {
+        "get up": [
+          0,
+          1,
+          2
+        ],
+        "wash": [
+          3,
+          4,
+          5
+        ],
+        "eat": [
+          6,
+          7,
+          8
+        ],
+        "go": [
+          9,
+          10,
+          11
+        ],
+        "play": [
+          12,
+          13,
+          14
+        ],
+        "sleep": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Present simple routine",
         "gap": [
@@ -18215,13 +25286,59 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a get up.",
-        "This is a wash.",
-        "This is a eat.",
-        "This is a go.",
-        "These are washes.",
-        "I like the eat."
+        "I can get up.",
+        "Can you get up?",
+        "We get up today.",
+        "I can wash.",
+        "Can you wash?",
+        "We wash today.",
+        "I can eat.",
+        "Can you eat?",
+        "We eat today.",
+        "I can go.",
+        "Can you go?",
+        "We go today.",
+        "I can play.",
+        "Can you play?",
+        "We play today.",
+        "This is a sleep.",
+        "I like the sleep.",
+        "I can see the sleep.",
+        "This is my get up.",
+        "These are my washs."
       ],
+      "sentenceMap": {
+        "get up": [
+          0,
+          1,
+          2
+        ],
+        "wash": [
+          3,
+          4,
+          5
+        ],
+        "eat": [
+          6,
+          7,
+          8
+        ],
+        "go": [
+          9,
+          10,
+          11
+        ],
+        "play": [
+          12,
+          13,
+          14
+        ],
+        "sleep": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Present simple routine",
         "gap": [
@@ -18401,13 +25518,59 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a get up.",
-        "This is a wash.",
-        "This is a eat.",
-        "This is a go.",
-        "These are washes.",
-        "I like the eat."
+        "I can get up.",
+        "Can you get up?",
+        "We get up today.",
+        "I can wash.",
+        "Can you wash?",
+        "We wash today.",
+        "I can eat.",
+        "Can you eat?",
+        "We eat today.",
+        "I can go.",
+        "Can you go?",
+        "We go today.",
+        "I can play.",
+        "Can you play?",
+        "We play today.",
+        "This is a sleep.",
+        "I like the sleep.",
+        "I can see the sleep.",
+        "This is my get up.",
+        "These are my washs."
       ],
+      "sentenceMap": {
+        "get up": [
+          0,
+          1,
+          2
+        ],
+        "wash": [
+          3,
+          4,
+          5
+        ],
+        "eat": [
+          6,
+          7,
+          8
+        ],
+        "go": [
+          9,
+          10,
+          11
+        ],
+        "play": [
+          12,
+          13,
+          14
+        ],
+        "sleep": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Present simple routine",
         "gap": [
@@ -18587,13 +25750,59 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a get up.",
-        "This is a wash.",
-        "This is a eat.",
-        "This is a go.",
-        "These are washes.",
-        "I like the eat."
+        "I can get up.",
+        "Can you get up?",
+        "We get up today.",
+        "I can wash.",
+        "Can you wash?",
+        "We wash today.",
+        "I can eat.",
+        "Can you eat?",
+        "We eat today.",
+        "I can go.",
+        "Can you go?",
+        "We go today.",
+        "I can play.",
+        "Can you play?",
+        "We play today.",
+        "This is a sleep.",
+        "I like the sleep.",
+        "I can see the sleep.",
+        "This is my get up.",
+        "These are my washs."
       ],
+      "sentenceMap": {
+        "get up": [
+          0,
+          1,
+          2
+        ],
+        "wash": [
+          3,
+          4,
+          5
+        ],
+        "eat": [
+          6,
+          7,
+          8
+        ],
+        "go": [
+          9,
+          10,
+          11
+        ],
+        "play": [
+          12,
+          13,
+          14
+        ],
+        "sleep": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Present simple routine",
         "gap": [
@@ -18773,13 +25982,60 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a camping.",
-        "This is a running.",
-        "This is a swimming.",
-        "This is a riding.",
-        "These are runnings.",
-        "I like the swimming."
+        "I am camping.",
+        "We are camping.",
+        "She is camping.",
+        "I am running.",
+        "We are running.",
+        "She is running.",
+        "I am swimming.",
+        "We are swimming.",
+        "She is swimming.",
+        "I am riding.",
+        "We are riding.",
+        "She is riding.",
+        "I am jumping.",
+        "We are jumping.",
+        "She is jumping.",
+        "I am reading.",
+        "We are reading.",
+        "She is reading.",
+        "This is my camping.",
+        "These are my runnings.",
+        "Can you swimming?"
       ],
+      "sentenceMap": {
+        "camping": [
+          0,
+          1,
+          2
+        ],
+        "running": [
+          3,
+          4,
+          5
+        ],
+        "swimming": [
+          6,
+          7,
+          8
+        ],
+        "riding": [
+          9,
+          10,
+          11
+        ],
+        "jumping": [
+          12,
+          13,
+          14
+        ],
+        "reading": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Present continuous",
         "gap": [
@@ -18962,13 +26218,60 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a camping.",
-        "This is a running.",
-        "This is a swimming.",
-        "This is a riding.",
-        "These are runnings.",
-        "I like the swimming."
+        "I am camping.",
+        "We are camping.",
+        "She is camping.",
+        "I am running.",
+        "We are running.",
+        "She is running.",
+        "I am swimming.",
+        "We are swimming.",
+        "She is swimming.",
+        "I am riding.",
+        "We are riding.",
+        "She is riding.",
+        "I am jumping.",
+        "We are jumping.",
+        "She is jumping.",
+        "I am reading.",
+        "We are reading.",
+        "She is reading.",
+        "This is my camping.",
+        "These are my runnings.",
+        "Can you swimming?"
       ],
+      "sentenceMap": {
+        "camping": [
+          0,
+          1,
+          2
+        ],
+        "running": [
+          3,
+          4,
+          5
+        ],
+        "swimming": [
+          6,
+          7,
+          8
+        ],
+        "riding": [
+          9,
+          10,
+          11
+        ],
+        "jumping": [
+          12,
+          13,
+          14
+        ],
+        "reading": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Present continuous",
         "gap": [
@@ -19151,13 +26454,60 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a camping.",
-        "This is a running.",
-        "This is a swimming.",
-        "This is a riding.",
-        "These are runnings.",
-        "I like the swimming."
+        "I am camping.",
+        "We are camping.",
+        "She is camping.",
+        "I am running.",
+        "We are running.",
+        "She is running.",
+        "I am swimming.",
+        "We are swimming.",
+        "She is swimming.",
+        "I am riding.",
+        "We are riding.",
+        "She is riding.",
+        "I am jumping.",
+        "We are jumping.",
+        "She is jumping.",
+        "I am reading.",
+        "We are reading.",
+        "She is reading.",
+        "This is my camping.",
+        "These are my runnings.",
+        "Can you swimming?"
       ],
+      "sentenceMap": {
+        "camping": [
+          0,
+          1,
+          2
+        ],
+        "running": [
+          3,
+          4,
+          5
+        ],
+        "swimming": [
+          6,
+          7,
+          8
+        ],
+        "riding": [
+          9,
+          10,
+          11
+        ],
+        "jumping": [
+          12,
+          13,
+          14
+        ],
+        "reading": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Present continuous",
         "gap": [
@@ -19340,13 +26690,60 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a camping.",
-        "This is a running.",
-        "This is a swimming.",
-        "This is a riding.",
-        "These are runnings.",
-        "I like the swimming."
+        "I am camping.",
+        "We are camping.",
+        "She is camping.",
+        "I am running.",
+        "We are running.",
+        "She is running.",
+        "I am swimming.",
+        "We are swimming.",
+        "She is swimming.",
+        "I am riding.",
+        "We are riding.",
+        "She is riding.",
+        "I am jumping.",
+        "We are jumping.",
+        "She is jumping.",
+        "I am reading.",
+        "We are reading.",
+        "She is reading.",
+        "This is my camping.",
+        "These are my runnings.",
+        "Can you swimming?"
       ],
+      "sentenceMap": {
+        "camping": [
+          0,
+          1,
+          2
+        ],
+        "running": [
+          3,
+          4,
+          5
+        ],
+        "swimming": [
+          6,
+          7,
+          8
+        ],
+        "riding": [
+          9,
+          10,
+          11
+        ],
+        "jumping": [
+          12,
+          13,
+          14
+        ],
+        "reading": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Present continuous",
         "gap": [
@@ -19529,13 +26926,60 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a camping.",
-        "This is a running.",
-        "This is a swimming.",
-        "This is a riding.",
-        "These are runnings.",
-        "I like the swimming."
+        "I am camping.",
+        "We are camping.",
+        "She is camping.",
+        "I am running.",
+        "We are running.",
+        "She is running.",
+        "I am swimming.",
+        "We are swimming.",
+        "She is swimming.",
+        "I am riding.",
+        "We are riding.",
+        "She is riding.",
+        "I am jumping.",
+        "We are jumping.",
+        "She is jumping.",
+        "I am reading.",
+        "We are reading.",
+        "She is reading.",
+        "This is my camping.",
+        "These are my runnings.",
+        "Can you swimming?"
       ],
+      "sentenceMap": {
+        "camping": [
+          0,
+          1,
+          2
+        ],
+        "running": [
+          3,
+          4,
+          5
+        ],
+        "swimming": [
+          6,
+          7,
+          8
+        ],
+        "riding": [
+          9,
+          10,
+          11
+        ],
+        "jumping": [
+          12,
+          13,
+          14
+        ],
+        "reading": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Present continuous",
         "gap": [
@@ -19718,13 +27162,60 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a running.",
-        "This is a riding.",
-        "This is a swimming.",
-        "This is a jumping.",
-        "These are ridings.",
-        "I like the swimming."
+        "I am running.",
+        "We are running.",
+        "She is running.",
+        "I am riding.",
+        "We are riding.",
+        "She is riding.",
+        "I am swimming.",
+        "We are swimming.",
+        "She is swimming.",
+        "I am jumping.",
+        "We are jumping.",
+        "She is jumping.",
+        "I am cooking.",
+        "We are cooking.",
+        "She is cooking.",
+        "I am painting.",
+        "We are painting.",
+        "She is painting.",
+        "This is my running.",
+        "These are my ridings.",
+        "Can you swimming?"
       ],
+      "sentenceMap": {
+        "running": [
+          0,
+          1,
+          2
+        ],
+        "riding": [
+          3,
+          4,
+          5
+        ],
+        "swimming": [
+          6,
+          7,
+          8
+        ],
+        "jumping": [
+          9,
+          10,
+          11
+        ],
+        "cooking": [
+          12,
+          13,
+          14
+        ],
+        "painting": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Present continuous",
         "gap": [
@@ -19908,12 +27399,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a summer.",
+        "I like the summer.",
+        "I can see the summer.",
         "This is a winter.",
-        "This is a spring.",
-        "This is a autumn.",
-        "These are winters.",
-        "I like the spring."
+        "I like the winter.",
+        "I can see the winter.",
+        "I am spring.",
+        "We are spring.",
+        "She is spring.",
+        "This is an autumn.",
+        "I like the autumn.",
+        "I can see the autumn.",
+        "This is a month.",
+        "I like the month.",
+        "I can see the month.",
+        "This is a holiday.",
+        "I like the holiday.",
+        "I can see the holiday.",
+        "This is my summer.",
+        "These are my winters.",
+        "Can you spring?"
       ],
+      "sentenceMap": {
+        "summer": [
+          0,
+          1,
+          2
+        ],
+        "winter": [
+          3,
+          4,
+          5
+        ],
+        "spring": [
+          6,
+          7,
+          8
+        ],
+        "autumn": [
+          9,
+          10,
+          11
+        ],
+        "month": [
+          12,
+          13,
+          14
+        ],
+        "holiday": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Present continuous",
         "gap": [
@@ -20096,13 +27634,60 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a running.",
-        "This is a swimming.",
-        "This is a reading.",
-        "This is a cooking.",
-        "These are swimmings.",
-        "I like the reading."
+        "I am running.",
+        "We are running.",
+        "She is running.",
+        "I am swimming.",
+        "We are swimming.",
+        "She is swimming.",
+        "I am reading.",
+        "We are reading.",
+        "She is reading.",
+        "I am cooking.",
+        "We are cooking.",
+        "She is cooking.",
+        "I am painting.",
+        "We are painting.",
+        "She is painting.",
+        "I am sleeping.",
+        "We are sleeping.",
+        "She is sleeping.",
+        "This is my running.",
+        "These are my swimmings.",
+        "Can you reading?"
       ],
+      "sentenceMap": {
+        "running": [
+          0,
+          1,
+          2
+        ],
+        "swimming": [
+          3,
+          4,
+          5
+        ],
+        "reading": [
+          6,
+          7,
+          8
+        ],
+        "cooking": [
+          9,
+          10,
+          11
+        ],
+        "painting": [
+          12,
+          13,
+          14
+        ],
+        "sleeping": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Present continuous",
         "gap": [
@@ -20285,13 +27870,60 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a running.",
-        "This is a swimming.",
-        "This is a painting.",
-        "This is a cooking.",
-        "These are swimmings.",
-        "I like the painting."
+        "I am running.",
+        "We are running.",
+        "She is running.",
+        "I am swimming.",
+        "We are swimming.",
+        "She is swimming.",
+        "I am painting.",
+        "We are painting.",
+        "She is painting.",
+        "I am cooking.",
+        "We are cooking.",
+        "She is cooking.",
+        "I am riding.",
+        "We are riding.",
+        "She is riding.",
+        "I am jumping.",
+        "We are jumping.",
+        "She is jumping.",
+        "This is my running.",
+        "These are my swimmings.",
+        "Can you painting?"
       ],
+      "sentenceMap": {
+        "running": [
+          0,
+          1,
+          2
+        ],
+        "swimming": [
+          3,
+          4,
+          5
+        ],
+        "painting": [
+          6,
+          7,
+          8
+        ],
+        "cooking": [
+          9,
+          10,
+          11
+        ],
+        "riding": [
+          12,
+          13,
+          14
+        ],
+        "jumping": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Present continuous",
         "gap": [
@@ -20474,13 +28106,60 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a running.",
-        "This is a swimming.",
-        "This is a reading.",
-        "This is a cooking.",
-        "These are swimmings.",
-        "I like the reading."
+        "I am running.",
+        "We are running.",
+        "She is running.",
+        "I am swimming.",
+        "We are swimming.",
+        "She is swimming.",
+        "I am reading.",
+        "We are reading.",
+        "She is reading.",
+        "I am cooking.",
+        "We are cooking.",
+        "She is cooking.",
+        "I am painting.",
+        "We are painting.",
+        "She is painting.",
+        "I am jumping.",
+        "We are jumping.",
+        "She is jumping.",
+        "This is my running.",
+        "These are my swimmings.",
+        "Can you reading?"
       ],
+      "sentenceMap": {
+        "running": [
+          0,
+          1,
+          2
+        ],
+        "swimming": [
+          3,
+          4,
+          5
+        ],
+        "reading": [
+          6,
+          7,
+          8
+        ],
+        "cooking": [
+          9,
+          10,
+          11
+        ],
+        "painting": [
+          12,
+          13,
+          14
+        ],
+        "jumping": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Present continuous",
         "gap": [
@@ -20664,12 +28343,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a bread.",
+        "I like the bread.",
+        "I can see the bread.",
         "This is a water.",
-        "This is a apples.",
-        "This is a eggs.",
-        "These are waters.",
-        "I like the apples."
+        "I like the water.",
+        "I can see the water.",
+        "These are apples.",
+        "I like apples.",
+        "Can you see apples?",
+        "These are eggs.",
+        "I like eggs.",
+        "Can you see eggs?",
+        "This is a rice.",
+        "I like the rice.",
+        "I can see the rice.",
+        "This is a juice.",
+        "I like the juice.",
+        "I can see the juice.",
+        "This is my bread.",
+        "These are my waters.",
+        "Can you apples?"
       ],
+      "sentenceMap": {
+        "bread": [
+          0,
+          1,
+          2
+        ],
+        "water": [
+          3,
+          4,
+          5
+        ],
+        "apples": [
+          6,
+          7,
+          8
+        ],
+        "eggs": [
+          9,
+          10,
+          11
+        ],
+        "rice": [
+          12,
+          13,
+          14
+        ],
+        "juice": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "How much / how many",
         "gap": [
@@ -20850,12 +28576,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a bread.",
+        "I like the bread.",
+        "I can see the bread.",
         "This is a water.",
-        "This is a eggs.",
+        "I like the water.",
+        "I can see the water.",
+        "These are eggs.",
+        "I like eggs.",
+        "Can you see eggs?",
         "This is a rice.",
-        "These are waters.",
-        "I like the eggs."
+        "I like the rice.",
+        "I can see the rice.",
+        "These are bananas.",
+        "I like bananas.",
+        "Can you see bananas?",
+        "This is a sugar.",
+        "I like the sugar.",
+        "I can see the sugar.",
+        "This is my bread.",
+        "These are my waters.",
+        "Can you eggs?"
       ],
+      "sentenceMap": {
+        "bread": [
+          0,
+          1,
+          2
+        ],
+        "water": [
+          3,
+          4,
+          5
+        ],
+        "eggs": [
+          6,
+          7,
+          8
+        ],
+        "rice": [
+          9,
+          10,
+          11
+        ],
+        "bananas": [
+          12,
+          13,
+          14
+        ],
+        "sugar": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "How much / how many",
         "gap": [
@@ -21035,13 +28808,60 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a apples.",
-        "This is a eggs.",
-        "This is a bananas.",
-        "This is a oranges.",
-        "These are eggses.",
-        "I like the bananas."
+        "These are apples.",
+        "I like apples.",
+        "Can you see apples?",
+        "These are eggs.",
+        "I like eggs.",
+        "Can you see eggs?",
+        "These are bananas.",
+        "I like bananas.",
+        "Can you see bananas?",
+        "These are oranges.",
+        "I like oranges.",
+        "Can you see oranges?",
+        "These are pears.",
+        "I like pears.",
+        "Can you see pears?",
+        "These are grapes.",
+        "I like grapes.",
+        "Can you see grapes?",
+        "This is my apples.",
+        "These are my eggss.",
+        "Can you bananas?"
       ],
+      "sentenceMap": {
+        "apples": [
+          0,
+          1,
+          2
+        ],
+        "eggs": [
+          3,
+          4,
+          5
+        ],
+        "bananas": [
+          6,
+          7,
+          8
+        ],
+        "oranges": [
+          9,
+          10,
+          11
+        ],
+        "pears": [
+          12,
+          13,
+          14
+        ],
+        "grapes": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "How much / how many",
         "gap": [
@@ -21222,12 +29042,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a water.",
+        "I like the water.",
+        "I can see the water.",
         "This is a juice.",
+        "I like the juice.",
+        "I can see the juice.",
         "This is a rice.",
+        "I like the rice.",
+        "I can see the rice.",
         "This is a sugar.",
-        "These are juices.",
-        "I like the rice."
+        "I like the sugar.",
+        "I can see the sugar.",
+        "This is a bread.",
+        "I like the bread.",
+        "I can see the bread.",
+        "This is a milk.",
+        "I like the milk.",
+        "I can see the milk.",
+        "This is my water.",
+        "These are my juices.",
+        "Can you rice?"
       ],
+      "sentenceMap": {
+        "water": [
+          0,
+          1,
+          2
+        ],
+        "juice": [
+          3,
+          4,
+          5
+        ],
+        "rice": [
+          6,
+          7,
+          8
+        ],
+        "sugar": [
+          9,
+          10,
+          11
+        ],
+        "bread": [
+          12,
+          13,
+          14
+        ],
+        "milk": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "How much / how many",
         "gap": [
@@ -21407,13 +29274,60 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a apples.",
+        "These are apples.",
+        "I like apples.",
+        "Can you see apples?",
         "This is a rice.",
+        "I like the rice.",
+        "I can see the rice.",
         "This is a juice.",
-        "This is a eggs.",
-        "These are rices.",
-        "I like the juice."
+        "I like the juice.",
+        "I can see the juice.",
+        "These are eggs.",
+        "I like eggs.",
+        "Can you see eggs?",
+        "This is a sugar.",
+        "I like the sugar.",
+        "I can see the sugar.",
+        "This is a milk.",
+        "I like the milk.",
+        "I can see the milk.",
+        "This is my apples.",
+        "These are my rices.",
+        "Can you juice?"
       ],
+      "sentenceMap": {
+        "apples": [
+          0,
+          1,
+          2
+        ],
+        "rice": [
+          3,
+          4,
+          5
+        ],
+        "juice": [
+          6,
+          7,
+          8
+        ],
+        "eggs": [
+          9,
+          10,
+          11
+        ],
+        "sugar": [
+          12,
+          13,
+          14
+        ],
+        "milk": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "How much / how many",
         "gap": [
@@ -21594,12 +29508,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a juice.",
+        "I like the juice.",
+        "I can see the juice.",
         "This is a water.",
+        "I like the water.",
+        "I can see the water.",
         "This is a milk.",
+        "I like the milk.",
+        "I can see the milk.",
         "This is a sugar.",
-        "These are waters.",
-        "I like the milk."
+        "I like the sugar.",
+        "I can see the sugar.",
+        "This is a rice.",
+        "I like the rice.",
+        "I can see the rice.",
+        "This is a bread.",
+        "I like the bread.",
+        "I can see the bread.",
+        "This is my juice.",
+        "These are my waters.",
+        "Can you milk?"
       ],
+      "sentenceMap": {
+        "juice": [
+          0,
+          1,
+          2
+        ],
+        "water": [
+          3,
+          4,
+          5
+        ],
+        "milk": [
+          6,
+          7,
+          8
+        ],
+        "sugar": [
+          9,
+          10,
+          11
+        ],
+        "rice": [
+          12,
+          13,
+          14
+        ],
+        "bread": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "How much / how many",
         "gap": [
@@ -21779,13 +29740,60 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a egg.",
-        "This is a box.",
+        "This is an egg.",
+        "I like the egg.",
+        "I can see the egg.",
+        "I can box.",
+        "Can you box?",
+        "We box today.",
         "This is a cup.",
+        "I like the cup.",
+        "I can see the cup.",
         "This is a bag.",
-        "These are boxes.",
-        "I like the cup."
+        "I like the bag.",
+        "I can see the bag.",
+        "This is a table.",
+        "I like the table.",
+        "I can see the table.",
+        "This is a chair.",
+        "I like the chair.",
+        "I can see the chair.",
+        "This is my egg.",
+        "These are my boxs.",
+        "Can you cup?"
       ],
+      "sentenceMap": {
+        "egg": [
+          0,
+          1,
+          2
+        ],
+        "box": [
+          3,
+          4,
+          5
+        ],
+        "cup": [
+          6,
+          7,
+          8
+        ],
+        "bag": [
+          9,
+          10,
+          11
+        ],
+        "table": [
+          12,
+          13,
+          14
+        ],
+        "chair": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "How much / how many",
         "gap": [
@@ -21965,13 +29973,60 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a Tel Aviv.",
+        "This is Tel Aviv.",
+        "I like Tel Aviv.",
+        "Can you see Tel Aviv?",
         "This is a Mina.",
+        "I like the Mina.",
+        "I can see the Mina.",
         "This is a Mom.",
+        "I like the Mom.",
+        "I can see the Mom.",
         "This is a Lila.",
-        "These are minas.",
-        "I like the Mom."
+        "I like the Lila.",
+        "I can see the Lila.",
+        "This is a school.",
+        "I like the school.",
+        "I can see the school.",
+        "This is a home.",
+        "I like the home.",
+        "I can see the home.",
+        "This is my Tel Aviv.",
+        "These are my Minas.",
+        "Can you Mom?"
       ],
+      "sentenceMap": {
+        "Tel Aviv": [
+          0,
+          1,
+          2
+        ],
+        "Mina": [
+          3,
+          4,
+          5
+        ],
+        "Mom": [
+          6,
+          7,
+          8
+        ],
+        "Lila": [
+          9,
+          10,
+          11
+        ],
+        "school": [
+          12,
+          13,
+          14
+        ],
+        "home": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "How much / how many",
         "gap": [
@@ -22152,12 +30207,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a blonde.",
+        "I like the blonde.",
+        "I can see the blonde.",
         "This is a flower.",
+        "I like the flower.",
+        "I can see the flower.",
         "This is a glove.",
+        "I like the glove.",
+        "I can see the glove.",
         "This is a plate.",
-        "These are flowers.",
-        "I like the glove."
+        "I like the plate.",
+        "I can see the plate.",
+        "These are glass.",
+        "I like glass.",
+        "Can you see glass?",
+        "This is a clock.",
+        "I like the clock.",
+        "I can see the clock.",
+        "This is my blonde.",
+        "These are my flowers.",
+        "Can you glove?"
       ],
+      "sentenceMap": {
+        "blonde": [
+          0,
+          1,
+          2
+        ],
+        "flower": [
+          3,
+          4,
+          5
+        ],
+        "glove": [
+          6,
+          7,
+          8
+        ],
+        "plate": [
+          9,
+          10,
+          11
+        ],
+        "glass": [
+          12,
+          13,
+          14
+        ],
+        "clock": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "How much / how many",
         "gap": [
@@ -22337,13 +30439,60 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a apples.",
+        "These are apples.",
+        "I like apples.",
+        "Can you see apples?",
         "This is a water.",
-        "This is a eggs.",
+        "I like the water.",
+        "I can see the water.",
+        "These are eggs.",
+        "I like eggs.",
+        "Can you see eggs?",
         "This is a rice.",
-        "These are waters.",
-        "I like the eggs."
+        "I like the rice.",
+        "I can see the rice.",
+        "This is a juice.",
+        "I like the juice.",
+        "I can see the juice.",
+        "This is a sugar.",
+        "I like the sugar.",
+        "I can see the sugar.",
+        "This is my apples.",
+        "These are my waters.",
+        "Can you eggs?"
       ],
+      "sentenceMap": {
+        "apples": [
+          0,
+          1,
+          2
+        ],
+        "water": [
+          3,
+          4,
+          5
+        ],
+        "eggs": [
+          6,
+          7,
+          8
+        ],
+        "rice": [
+          9,
+          10,
+          11
+        ],
+        "juice": [
+          12,
+          13,
+          14
+        ],
+        "sugar": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "How much / how many",
         "gap": [
@@ -22524,12 +30673,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a lion.",
+        "I like the lion.",
+        "I can see the lion.",
         "This is a cat.",
+        "I like the cat.",
+        "I can see the cat.",
         "This is a rabbit.",
+        "I like the rabbit.",
+        "I can see the rabbit.",
         "This is a turtle.",
-        "These are cats.",
-        "I like the rabbit."
+        "I like the turtle.",
+        "I can see the turtle.",
+        "This is a giraffe.",
+        "I like the giraffe.",
+        "I can see the giraffe.",
+        "This is a mouse.",
+        "I like the mouse.",
+        "I can see the mouse.",
+        "This is my lion.",
+        "These are my cats.",
+        "Can you rabbit?"
       ],
+      "sentenceMap": {
+        "lion": [
+          0,
+          1,
+          2
+        ],
+        "cat": [
+          3,
+          4,
+          5
+        ],
+        "rabbit": [
+          6,
+          7,
+          8
+        ],
+        "turtle": [
+          9,
+          10,
+          11
+        ],
+        "giraffe": [
+          12,
+          13,
+          14
+        ],
+        "mouse": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Comparatives",
         "gap": [
@@ -22710,12 +30906,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a lion.",
+        "I like the lion.",
+        "I can see the lion.",
         "This is a cat.",
+        "I like the cat.",
+        "I can see the cat.",
         "This is a rabbit.",
+        "I like the rabbit.",
+        "I can see the rabbit.",
         "This is a turtle.",
-        "These are cats.",
-        "I like the rabbit."
+        "I like the turtle.",
+        "I can see the turtle.",
+        "This is a giraffe.",
+        "I like the giraffe.",
+        "I can see the giraffe.",
+        "This is a mouse.",
+        "I like the mouse.",
+        "I can see the mouse.",
+        "This is my lion.",
+        "These are my cats.",
+        "Can you rabbit?"
       ],
+      "sentenceMap": {
+        "lion": [
+          0,
+          1,
+          2
+        ],
+        "cat": [
+          3,
+          4,
+          5
+        ],
+        "rabbit": [
+          6,
+          7,
+          8
+        ],
+        "turtle": [
+          9,
+          10,
+          11
+        ],
+        "giraffe": [
+          12,
+          13,
+          14
+        ],
+        "mouse": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Comparatives",
         "gap": [
@@ -22896,12 +31139,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a lion.",
+        "I like the lion.",
+        "I can see the lion.",
         "This is a cat.",
+        "I like the cat.",
+        "I can see the cat.",
         "This is a rabbit.",
+        "I like the rabbit.",
+        "I can see the rabbit.",
         "This is a turtle.",
-        "These are cats.",
-        "I like the rabbit."
+        "I like the turtle.",
+        "I can see the turtle.",
+        "This is a giraffe.",
+        "I like the giraffe.",
+        "I can see the giraffe.",
+        "This is a mouse.",
+        "I like the mouse.",
+        "I can see the mouse.",
+        "This is my lion.",
+        "These are my cats.",
+        "Can you rabbit?"
       ],
+      "sentenceMap": {
+        "lion": [
+          0,
+          1,
+          2
+        ],
+        "cat": [
+          3,
+          4,
+          5
+        ],
+        "rabbit": [
+          6,
+          7,
+          8
+        ],
+        "turtle": [
+          9,
+          10,
+          11
+        ],
+        "giraffe": [
+          12,
+          13,
+          14
+        ],
+        "mouse": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Comparatives",
         "gap": [
@@ -23082,12 +31372,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a big.",
+        "I like the big.",
+        "I can see the big.",
         "This is a small.",
+        "I like the small.",
+        "I can see the small.",
         "This is a fast.",
+        "I like the fast.",
+        "I can see the fast.",
         "This is a slow.",
-        "These are smalls.",
-        "I like the fast."
+        "I like the slow.",
+        "I can see the slow.",
+        "This is a tall.",
+        "I like the tall.",
+        "I can see the tall.",
+        "This is a short.",
+        "I like the short.",
+        "I can see the short.",
+        "This is my big.",
+        "These are my smalls.",
+        "Can you fast?"
       ],
+      "sentenceMap": {
+        "big": [
+          0,
+          1,
+          2
+        ],
+        "small": [
+          3,
+          4,
+          5
+        ],
+        "fast": [
+          6,
+          7,
+          8
+        ],
+        "slow": [
+          9,
+          10,
+          11
+        ],
+        "tall": [
+          12,
+          13,
+          14
+        ],
+        "short": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Comparatives",
         "gap": [
@@ -23268,12 +31605,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a good.",
+        "I like the good.",
+        "I can see the good.",
         "This is a bad.",
+        "I like the bad.",
+        "I can see the bad.",
         "This is a big.",
+        "I like the big.",
+        "I can see the big.",
         "This is a small.",
-        "These are bads.",
-        "I like the big."
+        "I like the small.",
+        "I can see the small.",
+        "This is a long.",
+        "I like the long.",
+        "I can see the long.",
+        "This is a short.",
+        "I like the short.",
+        "I can see the short.",
+        "This is my good.",
+        "These are my bads.",
+        "Can you big?"
       ],
+      "sentenceMap": {
+        "good": [
+          0,
+          1,
+          2
+        ],
+        "bad": [
+          3,
+          4,
+          5
+        ],
+        "big": [
+          6,
+          7,
+          8
+        ],
+        "small": [
+          9,
+          10,
+          11
+        ],
+        "long": [
+          12,
+          13,
+          14
+        ],
+        "short": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Comparatives",
         "gap": [
@@ -23454,12 +31838,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a beautiful.",
-        "This is a interesting.",
-        "This is a dangerous.",
+        "I like the beautiful.",
+        "I can see the beautiful.",
+        "I am interesting.",
+        "We are interesting.",
+        "She is interesting.",
+        "These are dangerous.",
+        "I like dangerous.",
+        "Can you see dangerous?",
         "This is a friendly.",
-        "These are interestings.",
-        "I like the dangerous."
+        "I like the friendly.",
+        "I can see the friendly.",
+        "This is a careful.",
+        "I like the careful.",
+        "I can see the careful.",
+        "The noisy one is nice.",
+        "I like the noisy one.",
+        "It is noisy.",
+        "This is my beautiful.",
+        "These are my interestings.",
+        "Can you dangerous?"
       ],
+      "sentenceMap": {
+        "beautiful": [
+          0,
+          1,
+          2
+        ],
+        "interesting": [
+          3,
+          4,
+          5
+        ],
+        "dangerous": [
+          6,
+          7,
+          8
+        ],
+        "friendly": [
+          9,
+          10,
+          11
+        ],
+        "careful": [
+          12,
+          13,
+          14
+        ],
+        "noisy": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Comparatives",
         "gap": [
@@ -23640,12 +32071,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a Spain.",
+        "I like the Spain.",
+        "I can see the Spain.",
         "This is a France.",
-        "This is a Israel.",
+        "I like the France.",
+        "I can see the France.",
+        "This is an Israel.",
+        "I like the Israel.",
+        "I can see the Israel.",
         "This is a Japan.",
-        "These are frances.",
-        "I like the Israel."
+        "I like the Japan.",
+        "I can see the Japan.",
+        "This is a Brazil.",
+        "I like the Brazil.",
+        "I can see the Brazil.",
+        "This is an India.",
+        "I like the India.",
+        "I can see the India.",
+        "This is my Spain.",
+        "These are my Frances.",
+        "Can you Israel?"
       ],
+      "sentenceMap": {
+        "Spain": [
+          0,
+          1,
+          2
+        ],
+        "France": [
+          3,
+          4,
+          5
+        ],
+        "Israel": [
+          6,
+          7,
+          8
+        ],
+        "Japan": [
+          9,
+          10,
+          11
+        ],
+        "Brazil": [
+          12,
+          13,
+          14
+        ],
+        "India": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Comparatives",
         "gap": [
@@ -23826,12 +32304,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a lion.",
+        "I like the lion.",
+        "I can see the lion.",
         "This is a cat.",
+        "I like the cat.",
+        "I can see the cat.",
         "This is a rabbit.",
+        "I like the rabbit.",
+        "I can see the rabbit.",
         "This is a turtle.",
-        "These are cats.",
-        "I like the rabbit."
+        "I like the turtle.",
+        "I can see the turtle.",
+        "This is a giraffe.",
+        "I like the giraffe.",
+        "I can see the giraffe.",
+        "This is a mouse.",
+        "I like the mouse.",
+        "I can see the mouse.",
+        "This is my lion.",
+        "These are my cats.",
+        "Can you rabbit?"
       ],
+      "sentenceMap": {
+        "lion": [
+          0,
+          1,
+          2
+        ],
+        "cat": [
+          3,
+          4,
+          5
+        ],
+        "rabbit": [
+          6,
+          7,
+          8
+        ],
+        "turtle": [
+          9,
+          10,
+          11
+        ],
+        "giraffe": [
+          12,
+          13,
+          14
+        ],
+        "mouse": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Comparatives",
         "gap": [
@@ -24011,13 +32536,60 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a twins.",
+        "These are twins.",
+        "I like twins.",
+        "Can you see twins?",
         "This is a smile.",
+        "I like the smile.",
+        "I can see the smile.",
         "This is a spark.",
+        "I like the spark.",
+        "I can see the spark.",
         "This is a spoon.",
-        "These are smiles.",
-        "I like the spark."
+        "I like the spoon.",
+        "I can see the spoon.",
+        "I can swim.",
+        "Can you swim?",
+        "We swim today.",
+        "This is a train.",
+        "I like the train.",
+        "I can see the train.",
+        "This is my twins.",
+        "These are my smiles.",
+        "Can you spark?"
       ],
+      "sentenceMap": {
+        "twins": [
+          0,
+          1,
+          2
+        ],
+        "smile": [
+          3,
+          4,
+          5
+        ],
+        "spark": [
+          6,
+          7,
+          8
+        ],
+        "spoon": [
+          9,
+          10,
+          11
+        ],
+        "swim": [
+          12,
+          13,
+          14
+        ],
+        "train": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Comparatives",
         "gap": [
@@ -24198,12 +32770,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a lion.",
+        "I like the lion.",
+        "I can see the lion.",
         "This is a cat.",
+        "I like the cat.",
+        "I can see the cat.",
         "This is a rabbit.",
+        "I like the rabbit.",
+        "I can see the rabbit.",
         "This is a turtle.",
-        "These are cats.",
-        "I like the rabbit."
+        "I like the turtle.",
+        "I can see the turtle.",
+        "This is a giraffe.",
+        "I like the giraffe.",
+        "I can see the giraffe.",
+        "This is a mouse.",
+        "I like the mouse.",
+        "I can see the mouse.",
+        "This is my lion.",
+        "These are my cats.",
+        "Can you rabbit?"
       ],
+      "sentenceMap": {
+        "lion": [
+          0,
+          1,
+          2
+        ],
+        "cat": [
+          3,
+          4,
+          5
+        ],
+        "rabbit": [
+          6,
+          7,
+          8
+        ],
+        "turtle": [
+          9,
+          10,
+          11
+        ],
+        "giraffe": [
+          12,
+          13,
+          14
+        ],
+        "mouse": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Comparatives",
         "gap": [
@@ -24384,12 +33003,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a school.",
+        "I like the school.",
+        "I can see the school.",
         "This is a park.",
+        "I like the park.",
+        "I can see the park.",
         "This is a shop.",
-        "This is a bus.",
-        "These are parks.",
-        "I like the shop."
+        "I like the shop.",
+        "I can see the shop.",
+        "These are bus.",
+        "I like bus.",
+        "Can you see bus?",
+        "This is a car.",
+        "I like the car.",
+        "I can see the car.",
+        "This is a train.",
+        "I like the train.",
+        "I can see the train.",
+        "This is my school.",
+        "These are my parks.",
+        "Can you shop?"
       ],
+      "sentenceMap": {
+        "school": [
+          0,
+          1,
+          2
+        ],
+        "park": [
+          3,
+          4,
+          5
+        ],
+        "shop": [
+          6,
+          7,
+          8
+        ],
+        "bus": [
+          9,
+          10,
+          11
+        ],
+        "car": [
+          12,
+          13,
+          14
+        ],
+        "train": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Review",
         "gap": [
@@ -24570,12 +33236,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a school.",
+        "I like the school.",
+        "I can see the school.",
         "This is a park.",
+        "I like the park.",
+        "I can see the park.",
         "This is a shop.",
-        "This is a bus.",
-        "These are parks.",
-        "I like the shop."
+        "I like the shop.",
+        "I can see the shop.",
+        "These are bus.",
+        "I like bus.",
+        "Can you see bus?",
+        "This is a car.",
+        "I like the car.",
+        "I can see the car.",
+        "This is a train.",
+        "I like the train.",
+        "I can see the train.",
+        "This is my school.",
+        "These are my parks.",
+        "Can you shop?"
       ],
+      "sentenceMap": {
+        "school": [
+          0,
+          1,
+          2
+        ],
+        "park": [
+          3,
+          4,
+          5
+        ],
+        "shop": [
+          6,
+          7,
+          8
+        ],
+        "bus": [
+          9,
+          10,
+          11
+        ],
+        "car": [
+          12,
+          13,
+          14
+        ],
+        "train": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Review",
         "gap": [
@@ -24756,12 +33469,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a school.",
+        "I like the school.",
+        "I can see the school.",
         "This is a park.",
+        "I like the park.",
+        "I can see the park.",
         "This is a shop.",
-        "This is a bus.",
-        "These are parks.",
-        "I like the shop."
+        "I like the shop.",
+        "I can see the shop.",
+        "These are bus.",
+        "I like bus.",
+        "Can you see bus?",
+        "This is a car.",
+        "I like the car.",
+        "I can see the car.",
+        "This is a train.",
+        "I like the train.",
+        "I can see the train.",
+        "This is my school.",
+        "These are my parks.",
+        "Can you shop?"
       ],
+      "sentenceMap": {
+        "school": [
+          0,
+          1,
+          2
+        ],
+        "park": [
+          3,
+          4,
+          5
+        ],
+        "shop": [
+          6,
+          7,
+          8
+        ],
+        "bus": [
+          9,
+          10,
+          11
+        ],
+        "car": [
+          12,
+          13,
+          14
+        ],
+        "train": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Review",
         "gap": [
@@ -24942,12 +33702,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a school.",
+        "I like the school.",
+        "I can see the school.",
         "This is a park.",
+        "I like the park.",
+        "I can see the park.",
         "This is a shop.",
-        "This is a bus.",
-        "These are parks.",
-        "I like the shop."
+        "I like the shop.",
+        "I can see the shop.",
+        "These are bus.",
+        "I like bus.",
+        "Can you see bus?",
+        "This is a car.",
+        "I like the car.",
+        "I can see the car.",
+        "This is a train.",
+        "I like the train.",
+        "I can see the train.",
+        "This is my school.",
+        "These are my parks.",
+        "Can you shop?"
       ],
+      "sentenceMap": {
+        "school": [
+          0,
+          1,
+          2
+        ],
+        "park": [
+          3,
+          4,
+          5
+        ],
+        "shop": [
+          6,
+          7,
+          8
+        ],
+        "bus": [
+          9,
+          10,
+          11
+        ],
+        "car": [
+          12,
+          13,
+          14
+        ],
+        "train": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Review",
         "gap": [
@@ -25128,12 +33935,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a school.",
+        "I like the school.",
+        "I can see the school.",
         "This is a park.",
+        "I like the park.",
+        "I can see the park.",
         "This is a shop.",
-        "This is a bus.",
-        "These are parks.",
-        "I like the shop."
+        "I like the shop.",
+        "I can see the shop.",
+        "These are bus.",
+        "I like bus.",
+        "Can you see bus?",
+        "This is a car.",
+        "I like the car.",
+        "I can see the car.",
+        "This is a train.",
+        "I like the train.",
+        "I can see the train.",
+        "This is my school.",
+        "These are my parks.",
+        "Can you shop?"
       ],
+      "sentenceMap": {
+        "school": [
+          0,
+          1,
+          2
+        ],
+        "park": [
+          3,
+          4,
+          5
+        ],
+        "shop": [
+          6,
+          7,
+          8
+        ],
+        "bus": [
+          9,
+          10,
+          11
+        ],
+        "car": [
+          12,
+          13,
+          14
+        ],
+        "train": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Review",
         "gap": [
@@ -25314,12 +34168,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a left.",
+        "I like the left.",
+        "I can see the left.",
         "This is a right.",
-        "This is a next to.",
-        "This is a under.",
-        "These are rights.",
-        "I like the next to."
+        "I like the right.",
+        "I can see the right.",
+        "This is next to.",
+        "I like next to.",
+        "Can you see next to?",
+        "This is an under.",
+        "I like the under.",
+        "I can see the under.",
+        "This is an on.",
+        "I like the on.",
+        "I can see the on.",
+        "This is an in.",
+        "I like the in.",
+        "I can see the in.",
+        "This is my left.",
+        "These are my rights.",
+        "Can you next to?"
       ],
+      "sentenceMap": {
+        "left": [
+          0,
+          1,
+          2
+        ],
+        "right": [
+          3,
+          4,
+          5
+        ],
+        "next to": [
+          6,
+          7,
+          8
+        ],
+        "under": [
+          9,
+          10,
+          11
+        ],
+        "on": [
+          12,
+          13,
+          14
+        ],
+        "in": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Review",
         "gap": [
@@ -25500,12 +34401,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a school.",
+        "I like the school.",
+        "I can see the school.",
         "This is a park.",
+        "I like the park.",
+        "I can see the park.",
         "This is a shop.",
-        "This is a bus.",
-        "These are parks.",
-        "I like the shop."
+        "I like the shop.",
+        "I can see the shop.",
+        "These are bus.",
+        "I like bus.",
+        "Can you see bus?",
+        "This is a car.",
+        "I like the car.",
+        "I can see the car.",
+        "This is a train.",
+        "I like the train.",
+        "I can see the train.",
+        "This is my school.",
+        "These are my parks.",
+        "Can you shop?"
       ],
+      "sentenceMap": {
+        "school": [
+          0,
+          1,
+          2
+        ],
+        "park": [
+          3,
+          4,
+          5
+        ],
+        "shop": [
+          6,
+          7,
+          8
+        ],
+        "bus": [
+          9,
+          10,
+          11
+        ],
+        "car": [
+          12,
+          13,
+          14
+        ],
+        "train": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Review",
         "gap": [
@@ -25686,12 +34634,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a school.",
+        "I like the school.",
+        "I can see the school.",
         "This is a park.",
+        "I like the park.",
+        "I can see the park.",
         "This is a shop.",
-        "This is a bus.",
-        "These are parks.",
-        "I like the shop."
+        "I like the shop.",
+        "I can see the shop.",
+        "These are bus.",
+        "I like bus.",
+        "Can you see bus?",
+        "This is a car.",
+        "I like the car.",
+        "I can see the car.",
+        "This is a train.",
+        "I like the train.",
+        "I can see the train.",
+        "This is my school.",
+        "These are my parks.",
+        "Can you shop?"
       ],
+      "sentenceMap": {
+        "school": [
+          0,
+          1,
+          2
+        ],
+        "park": [
+          3,
+          4,
+          5
+        ],
+        "shop": [
+          6,
+          7,
+          8
+        ],
+        "bus": [
+          9,
+          10,
+          11
+        ],
+        "car": [
+          12,
+          13,
+          14
+        ],
+        "train": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Review",
         "gap": [
@@ -25872,12 +34867,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a school.",
+        "I like the school.",
+        "I can see the school.",
         "This is a park.",
+        "I like the park.",
+        "I can see the park.",
         "This is a shop.",
-        "This is a bus.",
-        "These are parks.",
-        "I like the shop."
+        "I like the shop.",
+        "I can see the shop.",
+        "These are bus.",
+        "I like bus.",
+        "Can you see bus?",
+        "This is a car.",
+        "I like the car.",
+        "I can see the car.",
+        "This is a train.",
+        "I like the train.",
+        "I can see the train.",
+        "This is my school.",
+        "These are my parks.",
+        "Can you shop?"
       ],
+      "sentenceMap": {
+        "school": [
+          0,
+          1,
+          2
+        ],
+        "park": [
+          3,
+          4,
+          5
+        ],
+        "shop": [
+          6,
+          7,
+          8
+        ],
+        "bus": [
+          9,
+          10,
+          11
+        ],
+        "car": [
+          12,
+          13,
+          14
+        ],
+        "train": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Review",
         "gap": [
@@ -26058,12 +35100,59 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a school.",
+        "I like the school.",
+        "I can see the school.",
         "This is a park.",
+        "I like the park.",
+        "I can see the park.",
         "This is a shop.",
-        "This is a bus.",
-        "These are parks.",
-        "I like the shop."
+        "I like the shop.",
+        "I can see the shop.",
+        "These are bus.",
+        "I like bus.",
+        "Can you see bus?",
+        "This is a car.",
+        "I like the car.",
+        "I can see the car.",
+        "This is a train.",
+        "I like the train.",
+        "I can see the train.",
+        "This is my school.",
+        "These are my parks.",
+        "Can you shop?"
       ],
+      "sentenceMap": {
+        "school": [
+          0,
+          1,
+          2
+        ],
+        "park": [
+          3,
+          4,
+          5
+        ],
+        "shop": [
+          6,
+          7,
+          8
+        ],
+        "bus": [
+          9,
+          10,
+          11
+        ],
+        "car": [
+          12,
+          13,
+          14
+        ],
+        "train": [
+          15,
+          16,
+          17
+        ]
+      },
       "grammar": {
         "target": "Review",
         "gap": [
@@ -26243,13 +35332,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The played is fun.",
+        "This is a played.",
+        "I like the played.",
+        "I can see the played.",
+        "This is a jumped.",
+        "I like the jumped.",
         "I can see the jumped.",
-        "Can you find the cooked?",
-        "I love the cleaned.",
-        "The watched is nice.",
-        "The helped is nice."
+        "This is a cooked.",
+        "I like the cooked.",
+        "I can see the cooked.",
+        "This is a cleaned.",
+        "I like the cleaned.",
+        "I can see the cleaned.",
+        "This is a watched.",
+        "I like the watched.",
+        "I can see the watched.",
+        "This is a helped.",
+        "I like the helped.",
+        "I can see the helped."
       ],
+      "sentenceMap": {
+        "played": [
+          0,
+          1,
+          2
+        ],
+        "jumped": [
+          3,
+          4,
+          5
+        ],
+        "cooked": [
+          6,
+          7,
+          8
+        ],
+        "cleaned": [
+          9,
+          10,
+          11
+        ],
+        "watched": [
+          12,
+          13,
+          14
+        ],
+        "helped": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -26317,13 +35450,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I have the went.",
-        "I have the ate.",
-        "The saw is nice.",
-        "I have the had.",
-        "I love the took.",
-        "I like the made."
+        "This is a went.",
+        "I like the went.",
+        "I can see the went.",
+        "This is an ate.",
+        "I like the ate.",
+        "I can see the ate.",
+        "This is a saw.",
+        "I like the saw.",
+        "I can see the saw.",
+        "Please say had.",
+        "Say had.",
+        "This is had.",
+        "This is a took.",
+        "I like the took.",
+        "I can see the took.",
+        "This is a made.",
+        "I like the made.",
+        "I can see the made."
       ],
+      "sentenceMap": {
+        "went": [
+          0,
+          1,
+          2
+        ],
+        "ate": [
+          3,
+          4,
+          5
+        ],
+        "saw": [
+          6,
+          7,
+          8
+        ],
+        "had": [
+          9,
+          10,
+          11
+        ],
+        "took": [
+          12,
+          13,
+          14
+        ],
+        "made": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -26391,13 +35568,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Look at the running!",
-        "This is a swimming.",
-        "We have a dancing.",
-        "We have a painting.",
-        "Can you find the reading?",
-        "Let's play with the singing!"
+        "I am running.",
+        "We are running.",
+        "She is running.",
+        "I am swimming.",
+        "We are swimming.",
+        "She is swimming.",
+        "I am dancing.",
+        "We are dancing.",
+        "She is dancing.",
+        "I am painting.",
+        "We are painting.",
+        "She is painting.",
+        "I am reading.",
+        "We are reading.",
+        "She is reading.",
+        "I am singing.",
+        "We are singing.",
+        "She is singing."
       ],
+      "sentenceMap": {
+        "running": [
+          0,
+          1,
+          2
+        ],
+        "swimming": [
+          3,
+          4,
+          5
+        ],
+        "dancing": [
+          6,
+          7,
+          8
+        ],
+        "painting": [
+          9,
+          10,
+          11
+        ],
+        "reading": [
+          12,
+          13,
+          14
+        ],
+        "singing": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -26465,13 +35686,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I love the visited.",
+        "This is a visited.",
+        "I like the visited.",
+        "I can see the visited.",
+        "This is a learned.",
+        "I like the learned.",
         "I can see the learned.",
-        "Can you find the started?",
-        "I want the finished.",
+        "This is a started.",
+        "I like the started.",
+        "I can see the started.",
+        "This is a finished.",
+        "I like the finished.",
+        "I can see the finished.",
+        "This is a tried.",
+        "I like the tried.",
         "I can see the tried.",
-        "Let's play with the found!"
+        "This is a found.",
+        "I like the found.",
+        "I can see the found."
       ],
+      "sentenceMap": {
+        "visited": [
+          0,
+          1,
+          2
+        ],
+        "learned": [
+          3,
+          4,
+          5
+        ],
+        "started": [
+          6,
+          7,
+          8
+        ],
+        "finished": [
+          9,
+          10,
+          11
+        ],
+        "tried": [
+          12,
+          13,
+          14
+        ],
+        "found": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -26539,13 +35804,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I can see the had.",
-        "We have a seen.",
-        "I love the gone.",
-        "The eaten is big.",
-        "I want the made.",
-        "I like the done."
+        "Please say had.",
+        "Say had.",
+        "This is had.",
+        "This is a seen.",
+        "I like the seen.",
+        "I can see the seen.",
+        "This is a gone.",
+        "I like the gone.",
+        "I can see the gone.",
+        "This is an eaten.",
+        "I like the eaten.",
+        "I can see the eaten.",
+        "This is a made.",
+        "I like the made.",
+        "I can see the made.",
+        "This is a done.",
+        "I like the done.",
+        "I can see the done."
       ],
+      "sentenceMap": {
+        "had": [
+          0,
+          1,
+          2
+        ],
+        "seen": [
+          3,
+          4,
+          5
+        ],
+        "gone": [
+          6,
+          7,
+          8
+        ],
+        "eaten": [
+          9,
+          10,
+          11
+        ],
+        "made": [
+          12,
+          13,
+          14
+        ],
+        "done": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -26613,13 +35922,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "We have a will.",
-        "Can you find the plan?",
-        "This is my help.",
-        "This is a change.",
-        "I love the share.",
-        "The dream is big."
+        "Please say will.",
+        "Say will.",
+        "This is will.",
+        "This is a plan.",
+        "I like the plan.",
+        "I can see the plan.",
+        "I can help.",
+        "Can you help?",
+        "We help today.",
+        "I can change.",
+        "Can you change?",
+        "We change today.",
+        "This is a share.",
+        "I like the share.",
+        "I can see the share.",
+        "This is a dream.",
+        "I like the dream.",
+        "I can see the dream."
       ],
+      "sentenceMap": {
+        "will": [
+          0,
+          1,
+          2
+        ],
+        "plan": [
+          3,
+          4,
+          5
+        ],
+        "help": [
+          6,
+          7,
+          8
+        ],
+        "change": [
+          9,
+          10,
+          11
+        ],
+        "share": [
+          12,
+          13,
+          14
+        ],
+        "dream": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -26687,13 +36040,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is my going.",
-        "We have a planning.",
-        "I want the traveling.",
-        "I have the saving.",
-        "Look at the joining!",
-        "Can you find the building?"
+        "I am going.",
+        "We are going.",
+        "She is going.",
+        "I am planning.",
+        "We are planning.",
+        "She is planning.",
+        "I am traveling.",
+        "We are traveling.",
+        "She is traveling.",
+        "I am saving.",
+        "We are saving.",
+        "She is saving.",
+        "I am joining.",
+        "We are joining.",
+        "She is joining.",
+        "I am building.",
+        "We are building.",
+        "She is building."
       ],
+      "sentenceMap": {
+        "going": [
+          0,
+          1,
+          2
+        ],
+        "planning": [
+          3,
+          4,
+          5
+        ],
+        "traveling": [
+          6,
+          7,
+          8
+        ],
+        "saving": [
+          9,
+          10,
+          11
+        ],
+        "joining": [
+          12,
+          13,
+          14
+        ],
+        "building": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -26761,13 +36158,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "We have a been.",
-        "We have a working.",
-        "The studying is fun.",
-        "Let's play with the waiting!",
-        "I have the playing.",
-        "Let's play with the living!"
+        "This is a been.",
+        "I like the been.",
+        "I can see the been.",
+        "I am working.",
+        "We are working.",
+        "She is working.",
+        "I am studying.",
+        "We are studying.",
+        "She is studying.",
+        "I am waiting.",
+        "We are waiting.",
+        "She is waiting.",
+        "I am playing.",
+        "We are playing.",
+        "She is playing.",
+        "I am living.",
+        "We are living.",
+        "She is living."
       ],
+      "sentenceMap": {
+        "been": [
+          0,
+          1,
+          2
+        ],
+        "working": [
+          3,
+          4,
+          5
+        ],
+        "studying": [
+          6,
+          7,
+          8
+        ],
+        "waiting": [
+          9,
+          10,
+          11
+        ],
+        "playing": [
+          12,
+          13,
+          14
+        ],
+        "living": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -26835,13 +36276,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "We have a had.",
-        "I want the been.",
-        "Let's play with the sleeping!",
-        "Look at the running!",
-        "My practicing is cool.",
-        "My looking is cool."
+        "Please say had.",
+        "Say had.",
+        "This is had.",
+        "This is a been.",
+        "I like the been.",
+        "I can see the been.",
+        "I am sleeping.",
+        "We are sleeping.",
+        "She is sleeping.",
+        "I am running.",
+        "We are running.",
+        "She is running.",
+        "I am practicing.",
+        "We are practicing.",
+        "She is practicing.",
+        "I am looking.",
+        "We are looking.",
+        "She is looking."
       ],
+      "sentenceMap": {
+        "had": [
+          0,
+          1,
+          2
+        ],
+        "been": [
+          3,
+          4,
+          5
+        ],
+        "sleeping": [
+          6,
+          7,
+          8
+        ],
+        "running": [
+          9,
+          10,
+          11
+        ],
+        "practicing": [
+          12,
+          13,
+          14
+        ],
+        "looking": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -26909,13 +36394,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "My playing is cool.",
-        "Let's play with the cooking!",
-        "I can see the sleeping.",
-        "We have a traveling.",
-        "I want the reading.",
-        "Look at the watching!"
+        "I am playing.",
+        "We are playing.",
+        "She is playing.",
+        "I am cooking.",
+        "We are cooking.",
+        "She is cooking.",
+        "I am sleeping.",
+        "We are sleeping.",
+        "She is sleeping.",
+        "I am traveling.",
+        "We are traveling.",
+        "She is traveling.",
+        "I am reading.",
+        "We are reading.",
+        "She is reading.",
+        "I am watching.",
+        "We are watching.",
+        "She is watching."
       ],
+      "sentenceMap": {
+        "playing": [
+          0,
+          1,
+          2
+        ],
+        "cooking": [
+          3,
+          4,
+          5
+        ],
+        "sleeping": [
+          6,
+          7,
+          8
+        ],
+        "traveling": [
+          9,
+          10,
+          11
+        ],
+        "reading": [
+          12,
+          13,
+          14
+        ],
+        "watching": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -26983,13 +36512,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I can see the can.",
+        "Please say can.",
+        "Say can.",
+        "This is can.",
+        "This is a could.",
+        "I like the could.",
         "I can see the could.",
-        "Look at the run!",
-        "Let's play with the jump!",
-        "We have a sing.",
-        "We have a swim."
+        "I can run.",
+        "Can you run?",
+        "We run today.",
+        "I can jump.",
+        "Can you jump?",
+        "We jump today.",
+        "I am sing.",
+        "We are sing.",
+        "She is sing.",
+        "I can swim.",
+        "Can you swim?",
+        "We swim today."
       ],
+      "sentenceMap": {
+        "can": [
+          0,
+          1,
+          2
+        ],
+        "could": [
+          3,
+          4,
+          5
+        ],
+        "run": [
+          6,
+          7,
+          8
+        ],
+        "jump": [
+          9,
+          10,
+          11
+        ],
+        "sing": [
+          12,
+          13,
+          14
+        ],
+        "swim": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -27057,13 +36630,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the may.",
-        "I want the might.",
-        "Look at the rain!",
+        "Please say may.",
+        "Say may.",
+        "This is may.",
+        "Please say might.",
+        "Say might.",
+        "This is might.",
+        "This is a rain.",
+        "I like the rain.",
+        "I can see the rain.",
+        "This is a snow.",
+        "I like the snow.",
         "I can see the snow.",
-        "Can you find the change?",
-        "I like the happen."
+        "I can change.",
+        "Can you change?",
+        "We change today.",
+        "This is a happen.",
+        "I like the happen.",
+        "I can see the happen."
       ],
+      "sentenceMap": {
+        "may": [
+          0,
+          1,
+          2
+        ],
+        "might": [
+          3,
+          4,
+          5
+        ],
+        "rain": [
+          6,
+          7,
+          8
+        ],
+        "snow": [
+          9,
+          10,
+          11
+        ],
+        "change": [
+          12,
+          13,
+          14
+        ],
+        "happen": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -27131,13 +36748,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Let's play with the must!",
-        "I love the have.",
-        "Let's play with the need!",
-        "The finish is fun.",
-        "Can you find the study?",
-        "My clean is cool."
+        "Please say must.",
+        "Say must.",
+        "This is must.",
+        "Please say have.",
+        "Say have.",
+        "This is have.",
+        "I can need.",
+        "Can you need?",
+        "We need today.",
+        "This is a finish.",
+        "I like the finish.",
+        "I can see the finish.",
+        "I can study.",
+        "Can you study?",
+        "We study today.",
+        "This is a clean.",
+        "I like the clean.",
+        "I can see the clean."
       ],
+      "sentenceMap": {
+        "must": [
+          0,
+          1,
+          2
+        ],
+        "have": [
+          3,
+          4,
+          5
+        ],
+        "need": [
+          6,
+          7,
+          8
+        ],
+        "finish": [
+          9,
+          10,
+          11
+        ],
+        "study": [
+          12,
+          13,
+          14
+        ],
+        "clean": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -27205,13 +36866,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The should is nice.",
-        "The ought is big.",
-        "The ask is nice.",
-        "The listen is fun.",
-        "Look at the try!",
-        "Let's play with the learn!"
+        "Please say should.",
+        "Say should.",
+        "This is should.",
+        "Please say ought.",
+        "Say ought.",
+        "This is ought.",
+        "I can ask.",
+        "Can you ask?",
+        "We ask today.",
+        "I can listen.",
+        "Can you listen?",
+        "We listen today.",
+        "This is a try.",
+        "I like the try.",
+        "I can see the try.",
+        "I can learn.",
+        "Can you learn?",
+        "We learn today."
       ],
+      "sentenceMap": {
+        "should": [
+          0,
+          1,
+          2
+        ],
+        "ought": [
+          3,
+          4,
+          5
+        ],
+        "ask": [
+          6,
+          7,
+          8
+        ],
+        "listen": [
+          9,
+          10,
+          11
+        ],
+        "try": [
+          12,
+          13,
+          14
+        ],
+        "learn": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -27279,13 +36984,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Can you find the would?",
-        "I love the used.",
-        "The read is fun.",
-        "I love the play.",
-        "The walk is fun.",
-        "I have the think."
+        "Please say would.",
+        "Say would.",
+        "This is would.",
+        "This is an used.",
+        "I like the used.",
+        "I can see the used.",
+        "I can read.",
+        "Can you read?",
+        "We read today.",
+        "I can play.",
+        "Can you play?",
+        "We play today.",
+        "I can walk.",
+        "Can you walk?",
+        "We walk today.",
+        "This is a think.",
+        "I like the think.",
+        "I can see the think."
       ],
+      "sentenceMap": {
+        "would": [
+          0,
+          1,
+          2
+        ],
+        "used": [
+          3,
+          4,
+          5
+        ],
+        "read": [
+          6,
+          7,
+          8
+        ],
+        "play": [
+          9,
+          10,
+          11
+        ],
+        "walk": [
+          12,
+          13,
+          14
+        ],
+        "think": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -27353,13 +37102,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I want the please.",
-        "I want the may.",
-        "The can is nice.",
-        "I love the ask.",
-        "I have the help.",
-        "Let's play with the open!"
+        "Please say please.",
+        "Say please.",
+        "This is please.",
+        "Please say may.",
+        "Say may.",
+        "This is may.",
+        "Please say can.",
+        "Say can.",
+        "This is can.",
+        "I can ask.",
+        "Can you ask?",
+        "We ask today.",
+        "I can help.",
+        "Can you help?",
+        "We help today.",
+        "I can open.",
+        "Can you open?",
+        "We open today."
       ],
+      "sentenceMap": {
+        "please": [
+          0,
+          1,
+          2
+        ],
+        "may": [
+          3,
+          4,
+          5
+        ],
+        "can": [
+          6,
+          7,
+          8
+        ],
+        "ask": [
+          9,
+          10,
+          11
+        ],
+        "help": [
+          12,
+          13,
+          14
+        ],
+        "open": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -27427,13 +37220,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I have the must.",
-        "Can you find the need?",
+        "Please say must.",
+        "Say must.",
+        "This is must.",
+        "I can need.",
+        "Can you need?",
+        "We need today.",
+        "This is a dont.",
+        "I like the dont.",
         "I can see the dont.",
-        "The can is big.",
+        "Please say can.",
+        "Say can.",
+        "This is can.",
+        "This is a skip.",
         "I like the skip.",
-        "Let's play with the save!"
+        "I can see the skip.",
+        "I can save.",
+        "Can you save?",
+        "We save today."
       ],
+      "sentenceMap": {
+        "must": [
+          0,
+          1,
+          2
+        ],
+        "need": [
+          3,
+          4,
+          5
+        ],
+        "dont": [
+          6,
+          7,
+          8
+        ],
+        "can": [
+          9,
+          10,
+          11
+        ],
+        "skip": [
+          12,
+          13,
+          14
+        ],
+        "save": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -27501,13 +37338,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Look at the please!",
-        "I like the must.",
-        "We have a should.",
-        "This is my wait.",
-        "The stop is fun.",
-        "Look at the listen!"
+        "Please say please.",
+        "Say please.",
+        "This is please.",
+        "Please say must.",
+        "Say must.",
+        "This is must.",
+        "Please say should.",
+        "Say should.",
+        "This is should.",
+        "I can wait.",
+        "Can you wait?",
+        "We wait today.",
+        "I can stop.",
+        "Can you stop?",
+        "We stop today.",
+        "I can listen.",
+        "Can you listen?",
+        "We listen today."
       ],
+      "sentenceMap": {
+        "please": [
+          0,
+          1,
+          2
+        ],
+        "must": [
+          3,
+          4,
+          5
+        ],
+        "should": [
+          6,
+          7,
+          8
+        ],
+        "wait": [
+          9,
+          10,
+          11
+        ],
+        "stop": [
+          12,
+          13,
+          14
+        ],
+        "listen": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -27575,13 +37456,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a can.",
+        "Please say can.",
+        "Say can.",
+        "This is can.",
         "This is a could.",
-        "I love the will.",
-        "This is my yes.",
-        "Look at the no!",
-        "We have a why."
+        "I like the could.",
+        "I can see the could.",
+        "Please say will.",
+        "Say will.",
+        "This is will.",
+        "Please say yes.",
+        "Say yes.",
+        "This is yes.",
+        "Please say no.",
+        "Say no.",
+        "This is no.",
+        "This is a why.",
+        "I like the why.",
+        "I can see the why."
       ],
+      "sentenceMap": {
+        "can": [
+          0,
+          1,
+          2
+        ],
+        "could": [
+          3,
+          4,
+          5
+        ],
+        "will": [
+          6,
+          7,
+          8
+        ],
+        "yes": [
+          9,
+          10,
+          11
+        ],
+        "no": [
+          12,
+          13,
+          14
+        ],
+        "why": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -27649,13 +37574,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the may.",
-        "This is a must.",
-        "I want the should.",
-        "This is a can.",
-        "The might is nice.",
-        "The would is big."
+        "Please say may.",
+        "Say may.",
+        "This is may.",
+        "Please say must.",
+        "Say must.",
+        "This is must.",
+        "Please say should.",
+        "Say should.",
+        "This is should.",
+        "Please say can.",
+        "Say can.",
+        "This is can.",
+        "Please say might.",
+        "Say might.",
+        "This is might.",
+        "Please say would.",
+        "Say would.",
+        "This is would."
       ],
+      "sentenceMap": {
+        "may": [
+          0,
+          1,
+          2
+        ],
+        "must": [
+          3,
+          4,
+          5
+        ],
+        "should": [
+          6,
+          7,
+          8
+        ],
+        "can": [
+          9,
+          10,
+          11
+        ],
+        "might": [
+          12,
+          13,
+          14
+        ],
+        "would": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -27723,13 +37692,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I have the rain.",
-        "This is my wet.",
-        "The hot is fun.",
-        "I like the cold.",
-        "The sleep is nice.",
-        "I love the smile."
+        "This is a rain.",
+        "I like the rain.",
+        "I can see the rain.",
+        "This is a wet.",
+        "I like the wet.",
+        "I can see the wet.",
+        "The hot one is nice.",
+        "I like the hot one.",
+        "It is hot.",
+        "The cold one is nice.",
+        "I like the cold one.",
+        "It is cold.",
+        "This is a sleep.",
+        "I like the sleep.",
+        "I can see the sleep.",
+        "This is a smile.",
+        "I like the smile.",
+        "I can see the smile."
       ],
+      "sentenceMap": {
+        "rain": [
+          0,
+          1,
+          2
+        ],
+        "wet": [
+          3,
+          4,
+          5
+        ],
+        "hot": [
+          6,
+          7,
+          8
+        ],
+        "cold": [
+          9,
+          10,
+          11
+        ],
+        "sleep": [
+          12,
+          13,
+          14
+        ],
+        "smile": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -27797,13 +37810,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Let's play with the if!",
-        "The will is nice.",
-        "I love the go.",
-        "I want the come.",
-        "I like the help.",
-        "I want the wait."
+        "This is an if.",
+        "I like the if.",
+        "I can see the if.",
+        "Please say will.",
+        "Say will.",
+        "This is will.",
+        "I can go.",
+        "Can you go?",
+        "We go today.",
+        "This is a come.",
+        "I like the come.",
+        "I can see the come.",
+        "I can help.",
+        "Can you help?",
+        "We help today.",
+        "I can wait.",
+        "Can you wait?",
+        "We wait today."
       ],
+      "sentenceMap": {
+        "if": [
+          0,
+          1,
+          2
+        ],
+        "will": [
+          3,
+          4,
+          5
+        ],
+        "go": [
+          6,
+          7,
+          8
+        ],
+        "come": [
+          9,
+          10,
+          11
+        ],
+        "help": [
+          12,
+          13,
+          14
+        ],
+        "wait": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -27871,13 +37928,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The would is big.",
-        "The dream is nice.",
-        "Let's play with the wish!",
-        "This is my imagine.",
-        "I like the change.",
-        "I have the travel."
+        "Please say would.",
+        "Say would.",
+        "This is would.",
+        "This is a dream.",
+        "I like the dream.",
+        "I can see the dream.",
+        "This is a wish.",
+        "I like the wish.",
+        "I can see the wish.",
+        "This is an imagine.",
+        "I like the imagine.",
+        "I can see the imagine.",
+        "I can change.",
+        "Can you change?",
+        "We change today.",
+        "I can travel.",
+        "Can you travel?",
+        "We travel today."
       ],
+      "sentenceMap": {
+        "would": [
+          0,
+          1,
+          2
+        ],
+        "dream": [
+          3,
+          4,
+          5
+        ],
+        "wish": [
+          6,
+          7,
+          8
+        ],
+        "imagine": [
+          9,
+          10,
+          11
+        ],
+        "change": [
+          12,
+          13,
+          14
+        ],
+        "travel": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -27945,13 +38046,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Look at the had!",
-        "We have a known.",
-        "The been is big.",
-        "The missed is fun.",
+        "Please say had.",
+        "Say had.",
+        "This is had.",
+        "This is a known.",
+        "I like the known.",
+        "I can see the known.",
+        "This is a been.",
+        "I like the been.",
+        "I can see the been.",
+        "This is a missed.",
+        "I like the missed.",
+        "I can see the missed.",
+        "This is a seen.",
         "I like the seen.",
-        "I want the done."
+        "I can see the seen.",
+        "This is a done.",
+        "I like the done.",
+        "I can see the done."
       ],
+      "sentenceMap": {
+        "had": [
+          0,
+          1,
+          2
+        ],
+        "known": [
+          3,
+          4,
+          5
+        ],
+        "been": [
+          6,
+          7,
+          8
+        ],
+        "missed": [
+          9,
+          10,
+          11
+        ],
+        "seen": [
+          12,
+          13,
+          14
+        ],
+        "done": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -28019,13 +38164,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "We have a if.",
-        "This is my then.",
-        "This is my when.",
-        "The because is nice.",
-        "My unless is cool.",
-        "The before is fun."
+        "This is an if.",
+        "I like the if.",
+        "I can see the if.",
+        "This is a then.",
+        "I like the then.",
+        "I can see the then.",
+        "This is a when.",
+        "I like the when.",
+        "I can see the when.",
+        "This is a because.",
+        "I like the because.",
+        "I can see the because.",
+        "These are unless.",
+        "I like unless.",
+        "Can you see unless?",
+        "This is a before.",
+        "I like the before.",
+        "I can see the before."
       ],
+      "sentenceMap": {
+        "if": [
+          0,
+          1,
+          2
+        ],
+        "then": [
+          3,
+          4,
+          5
+        ],
+        "when": [
+          6,
+          7,
+          8
+        ],
+        "because": [
+          9,
+          10,
+          11
+        ],
+        "unless": [
+          12,
+          13,
+          14
+        ],
+        "before": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -28093,13 +38282,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Let's play with the should!",
-        "My could is cool.",
-        "The would is fun.",
-        "The ask is big.",
-        "We have a help.",
-        "Can you find the listen?"
+        "Please say should.",
+        "Say should.",
+        "This is should.",
+        "This is a could.",
+        "I like the could.",
+        "I can see the could.",
+        "Please say would.",
+        "Say would.",
+        "This is would.",
+        "I can ask.",
+        "Can you ask?",
+        "We ask today.",
+        "I can help.",
+        "Can you help?",
+        "We help today.",
+        "I can listen.",
+        "Can you listen?",
+        "We listen today."
       ],
+      "sentenceMap": {
+        "should": [
+          0,
+          1,
+          2
+        ],
+        "could": [
+          3,
+          4,
+          5
+        ],
+        "would": [
+          6,
+          7,
+          8
+        ],
+        "ask": [
+          9,
+          10,
+          11
+        ],
+        "help": [
+          12,
+          13,
+          14
+        ],
+        "listen": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -28167,13 +38400,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Let's play with the when!",
-        "I love the after.",
-        "I want the before.",
-        "This is my while.",
-        "The then is fun.",
-        "The until is nice."
+        "This is a when.",
+        "I like the when.",
+        "I can see the when.",
+        "This is an after.",
+        "I like the after.",
+        "I can see the after.",
+        "This is a before.",
+        "I like the before.",
+        "I can see the before.",
+        "This is a while.",
+        "I like the while.",
+        "I can see the while.",
+        "This is a then.",
+        "I like the then.",
+        "I can see the then.",
+        "This is an until.",
+        "I like the until.",
+        "I can see the until."
       ],
+      "sentenceMap": {
+        "when": [
+          0,
+          1,
+          2
+        ],
+        "after": [
+          3,
+          4,
+          5
+        ],
+        "before": [
+          6,
+          7,
+          8
+        ],
+        "while": [
+          9,
+          10,
+          11
+        ],
+        "then": [
+          12,
+          13,
+          14
+        ],
+        "until": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -28241,13 +38518,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Look at the say!",
-        "The tell is fun.",
-        "I want the ask.",
-        "The answer is fun.",
-        "We have a talk.",
-        "I want the listen."
+        "I can say.",
+        "Can you say?",
+        "We say today.",
+        "I can tell.",
+        "Can you tell?",
+        "We tell today.",
+        "I can ask.",
+        "Can you ask?",
+        "We ask today.",
+        "This is an answer.",
+        "I like the answer.",
+        "I can see the answer.",
+        "This is a talk.",
+        "I like the talk.",
+        "I can see the talk.",
+        "I can listen.",
+        "Can you listen?",
+        "We listen today."
       ],
+      "sentenceMap": {
+        "say": [
+          0,
+          1,
+          2
+        ],
+        "tell": [
+          3,
+          4,
+          5
+        ],
+        "ask": [
+          6,
+          7,
+          8
+        ],
+        "answer": [
+          9,
+          10,
+          11
+        ],
+        "talk": [
+          12,
+          13,
+          14
+        ],
+        "listen": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -28315,13 +38636,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The result is nice.",
-        "Let's play with the because!",
-        "I want the so.",
-        "The then is big.",
-        "The change is fun.",
-        "My learn is cool."
+        "This is a result.",
+        "I like the result.",
+        "I can see the result.",
+        "This is a because.",
+        "I like the because.",
+        "I can see the because.",
+        "This is a so.",
+        "I like the so.",
+        "I can see the so.",
+        "This is a then.",
+        "I like the then.",
+        "I can see the then.",
+        "I can change.",
+        "Can you change?",
+        "We change today.",
+        "I can learn.",
+        "Can you learn?",
+        "We learn today."
       ],
+      "sentenceMap": {
+        "result": [
+          0,
+          1,
+          2
+        ],
+        "because": [
+          3,
+          4,
+          5
+        ],
+        "so": [
+          6,
+          7,
+          8
+        ],
+        "then": [
+          9,
+          10,
+          11
+        ],
+        "change": [
+          12,
+          13,
+          14
+        ],
+        "learn": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -28389,13 +38754,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
+        "This is an if.",
+        "I like the if.",
         "I can see the if.",
-        "Can you find the then?",
-        "This is a would.",
-        "I can see the must.",
-        "I like the can.",
-        "Look at the should!"
+        "This is a then.",
+        "I like the then.",
+        "I can see the then.",
+        "Please say would.",
+        "Say would.",
+        "This is would.",
+        "Please say must.",
+        "Say must.",
+        "This is must.",
+        "Please say can.",
+        "Say can.",
+        "This is can.",
+        "Please say should.",
+        "Say should.",
+        "This is should."
       ],
+      "sentenceMap": {
+        "if": [
+          0,
+          1,
+          2
+        ],
+        "then": [
+          3,
+          4,
+          5
+        ],
+        "would": [
+          6,
+          7,
+          8
+        ],
+        "must": [
+          9,
+          10,
+          11
+        ],
+        "can": [
+          12,
+          13,
+          14
+        ],
+        "should": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -28463,13 +38872,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The is is nice.",
-        "I like the are.",
-        "Look at the was!",
-        "This is a were.",
-        "My seen is cool.",
-        "The made is fun."
+        "Please say is.",
+        "Say is.",
+        "This is is.",
+        "Please say are.",
+        "Say are.",
+        "This is are.",
+        "Please say was.",
+        "Say was.",
+        "This is was.",
+        "Please say were.",
+        "Say were.",
+        "This is were.",
+        "This is a seen.",
+        "I like the seen.",
+        "I can see the seen.",
+        "This is a made.",
+        "I like the made.",
+        "I can see the made."
       ],
+      "sentenceMap": {
+        "is": [
+          0,
+          1,
+          2
+        ],
+        "are": [
+          3,
+          4,
+          5
+        ],
+        "was": [
+          6,
+          7,
+          8
+        ],
+        "were": [
+          9,
+          10,
+          11
+        ],
+        "seen": [
+          12,
+          13,
+          14
+        ],
+        "made": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -28537,13 +38990,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The was is big.",
-        "I can see the were.",
-        "The built is fun.",
-        "Let's play with the given!",
-        "The found is nice.",
-        "This is a lost."
+        "Please say was.",
+        "Say was.",
+        "This is was.",
+        "Please say were.",
+        "Say were.",
+        "This is were.",
+        "This is a built.",
+        "I like the built.",
+        "I can see the built.",
+        "This is a given.",
+        "I like the given.",
+        "I can see the given.",
+        "This is a found.",
+        "I like the found.",
+        "I can see the found.",
+        "This is a lost.",
+        "I like the lost.",
+        "I can see the lost."
       ],
+      "sentenceMap": {
+        "was": [
+          0,
+          1,
+          2
+        ],
+        "were": [
+          3,
+          4,
+          5
+        ],
+        "built": [
+          6,
+          7,
+          8
+        ],
+        "given": [
+          9,
+          10,
+          11
+        ],
+        "found": [
+          12,
+          13,
+          14
+        ],
+        "lost": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -28611,13 +39108,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a will.",
-        "I want the been.",
-        "This is my be.",
-        "Can you find the made?",
-        "I love the seen.",
-        "My found is cool."
+        "Please say will.",
+        "Say will.",
+        "This is will.",
+        "This is a been.",
+        "I like the been.",
+        "I can see the been.",
+        "This is a be.",
+        "I like the be.",
+        "I can see the be.",
+        "This is a made.",
+        "I like the made.",
+        "I can see the made.",
+        "This is a seen.",
+        "I like the seen.",
+        "I can see the seen.",
+        "This is a found.",
+        "I like the found.",
+        "I can see the found."
       ],
+      "sentenceMap": {
+        "will": [
+          0,
+          1,
+          2
+        ],
+        "been": [
+          3,
+          4,
+          5
+        ],
+        "be": [
+          6,
+          7,
+          8
+        ],
+        "made": [
+          9,
+          10,
+          11
+        ],
+        "seen": [
+          12,
+          13,
+          14
+        ],
+        "found": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -28685,13 +39226,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The by is big.",
-        "Look at the me!",
-        "I want the you.",
-        "We have a them.",
-        "The him is fun.",
-        "I want the her."
+        "This is a by.",
+        "I like the by.",
+        "I can see the by.",
+        "This is a me.",
+        "I like the me.",
+        "I can see the me.",
+        "This is a you.",
+        "I like the you.",
+        "I can see the you.",
+        "This is a them.",
+        "I like the them.",
+        "I can see the them.",
+        "This is a him.",
+        "I like the him.",
+        "I can see the him.",
+        "This is a her.",
+        "I like the her.",
+        "I can see the her."
       ],
+      "sentenceMap": {
+        "by": [
+          0,
+          1,
+          2
+        ],
+        "me": [
+          3,
+          4,
+          5
+        ],
+        "you": [
+          6,
+          7,
+          8
+        ],
+        "them": [
+          9,
+          10,
+          11
+        ],
+        "him": [
+          12,
+          13,
+          14
+        ],
+        "her": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -28759,13 +39344,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a stop.",
-        "The closed is nice.",
-        "Can you find the open?",
-        "I want the must.",
-        "Let's play with the keep!",
-        "The enter is nice."
+        "I can stop.",
+        "Can you stop?",
+        "We stop today.",
+        "This is a closed.",
+        "I like the closed.",
+        "I can see the closed.",
+        "I can open.",
+        "Can you open?",
+        "We open today.",
+        "Please say must.",
+        "Say must.",
+        "This is must.",
+        "This is a keep.",
+        "I like the keep.",
+        "I can see the keep.",
+        "This is an enter.",
+        "I like the enter.",
+        "I can see the enter."
       ],
+      "sentenceMap": {
+        "stop": [
+          0,
+          1,
+          2
+        ],
+        "closed": [
+          3,
+          4,
+          5
+        ],
+        "open": [
+          6,
+          7,
+          8
+        ],
+        "must": [
+          9,
+          10,
+          11
+        ],
+        "keep": [
+          12,
+          13,
+          14
+        ],
+        "enter": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -28834,12 +39463,56 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a get.",
-        "This is my got.",
+        "I like the get.",
+        "I can see the get.",
+        "This is a got.",
+        "I like the got.",
+        "I can see the got.",
+        "This is a be.",
+        "I like the be.",
         "I can see the be.",
+        "This is a been.",
+        "I like the been.",
         "I can see the been.",
-        "Let's play with the made!",
-        "Look at the seen!"
+        "This is a made.",
+        "I like the made.",
+        "I can see the made.",
+        "This is a seen.",
+        "I like the seen.",
+        "I can see the seen."
       ],
+      "sentenceMap": {
+        "get": [
+          0,
+          1,
+          2
+        ],
+        "got": [
+          3,
+          4,
+          5
+        ],
+        "be": [
+          6,
+          7,
+          8
+        ],
+        "been": [
+          9,
+          10,
+          11
+        ],
+        "made": [
+          12,
+          13,
+          14
+        ],
+        "seen": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -28907,13 +39580,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is my reported.",
-        "The opened is big.",
-        "I have the lost.",
-        "I want the found.",
+        "This is a reported.",
+        "I like the reported.",
+        "I can see the reported.",
+        "This is an opened.",
+        "I like the opened.",
+        "I can see the opened.",
+        "This is a lost.",
+        "I like the lost.",
+        "I can see the lost.",
+        "This is a found.",
+        "I like the found.",
+        "I can see the found.",
+        "This is a called.",
+        "I like the called.",
         "I can see the called.",
-        "I like the known."
+        "This is a known.",
+        "I like the known.",
+        "I can see the known."
       ],
+      "sentenceMap": {
+        "reported": [
+          0,
+          1,
+          2
+        ],
+        "opened": [
+          3,
+          4,
+          5
+        ],
+        "lost": [
+          6,
+          7,
+          8
+        ],
+        "found": [
+          9,
+          10,
+          11
+        ],
+        "called": [
+          12,
+          13,
+          14
+        ],
+        "known": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -28981,13 +39698,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "We have a is.",
-        "The was is nice.",
-        "The been is big.",
-        "I love the made.",
-        "The seen is nice.",
-        "The called is big."
+        "Please say is.",
+        "Say is.",
+        "This is is.",
+        "Please say was.",
+        "Say was.",
+        "This is was.",
+        "This is a been.",
+        "I like the been.",
+        "I can see the been.",
+        "This is a made.",
+        "I like the made.",
+        "I can see the made.",
+        "This is a seen.",
+        "I like the seen.",
+        "I can see the seen.",
+        "This is a called.",
+        "I like the called.",
+        "I can see the called."
       ],
+      "sentenceMap": {
+        "is": [
+          0,
+          1,
+          2
+        ],
+        "was": [
+          3,
+          4,
+          5
+        ],
+        "been": [
+          6,
+          7,
+          8
+        ],
+        "made": [
+          9,
+          10,
+          11
+        ],
+        "seen": [
+          12,
+          13,
+          14
+        ],
+        "called": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -29055,13 +39816,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Let's play with the make!",
-        "My made is cool.",
-        "The see is fun.",
-        "I love the seen.",
-        "This is my find.",
-        "We have a found."
+        "I can make.",
+        "Can you make?",
+        "We make today.",
+        "This is a made.",
+        "I like the made.",
+        "I can see the made.",
+        "I can see.",
+        "Can you see?",
+        "We see today.",
+        "This is a seen.",
+        "I like the seen.",
+        "I can see the seen.",
+        "I can find.",
+        "Can you find?",
+        "We find today.",
+        "This is a found.",
+        "I like the found.",
+        "I can see the found."
       ],
+      "sentenceMap": {
+        "make": [
+          0,
+          1,
+          2
+        ],
+        "made": [
+          3,
+          4,
+          5
+        ],
+        "see": [
+          6,
+          7,
+          8
+        ],
+        "seen": [
+          9,
+          10,
+          11
+        ],
+        "find": [
+          12,
+          13,
+          14
+        ],
+        "found": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -29129,13 +39934,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
+        "This is a be.",
         "I like the be.",
-        "The been is nice.",
-        "This is a was.",
-        "This is my were.",
-        "Can you find the is?",
-        "Let's play with the are!"
+        "I can see the be.",
+        "This is a been.",
+        "I like the been.",
+        "I can see the been.",
+        "Please say was.",
+        "Say was.",
+        "This is was.",
+        "Please say were.",
+        "Say were.",
+        "This is were.",
+        "Please say is.",
+        "Say is.",
+        "This is is.",
+        "Please say are.",
+        "Say are.",
+        "This is are."
       ],
+      "sentenceMap": {
+        "be": [
+          0,
+          1,
+          2
+        ],
+        "been": [
+          3,
+          4,
+          5
+        ],
+        "was": [
+          6,
+          7,
+          8
+        ],
+        "were": [
+          9,
+          10,
+          11
+        ],
+        "is": [
+          12,
+          13,
+          14
+        ],
+        "are": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -29203,13 +40052,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Let's play with the said!",
-        "The told is nice.",
-        "This is a asked.",
-        "This is my reported.",
-        "Can you find the explained?",
-        "The mentioned is big."
+        "This is a said.",
+        "I like the said.",
+        "I can see the said.",
+        "This is a told.",
+        "I like the told.",
+        "I can see the told.",
+        "This is an asked.",
+        "I like the asked.",
+        "I can see the asked.",
+        "This is a reported.",
+        "I like the reported.",
+        "I can see the reported.",
+        "This is an explained.",
+        "I like the explained.",
+        "I can see the explained.",
+        "This is a mentioned.",
+        "I like the mentioned.",
+        "I can see the mentioned."
       ],
+      "sentenceMap": {
+        "said": [
+          0,
+          1,
+          2
+        ],
+        "told": [
+          3,
+          4,
+          5
+        ],
+        "asked": [
+          6,
+          7,
+          8
+        ],
+        "reported": [
+          9,
+          10,
+          11
+        ],
+        "explained": [
+          12,
+          13,
+          14
+        ],
+        "mentioned": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -29277,13 +40170,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I love the asked.",
-        "Let's play with the wondered!",
-        "The said is big.",
-        "I love the why.",
+        "This is an asked.",
+        "I like the asked.",
+        "I can see the asked.",
+        "This is a wondered.",
+        "I like the wondered.",
+        "I can see the wondered.",
+        "This is a said.",
+        "I like the said.",
+        "I can see the said.",
+        "This is a why.",
+        "I like the why.",
+        "I can see the why.",
+        "This is a where.",
         "I like the where.",
-        "I have the when."
+        "I can see the where.",
+        "This is a when.",
+        "I like the when.",
+        "I can see the when."
       ],
+      "sentenceMap": {
+        "asked": [
+          0,
+          1,
+          2
+        ],
+        "wondered": [
+          3,
+          4,
+          5
+        ],
+        "said": [
+          6,
+          7,
+          8
+        ],
+        "why": [
+          9,
+          10,
+          11
+        ],
+        "where": [
+          12,
+          13,
+          14
+        ],
+        "when": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -29352,12 +40289,56 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a told.",
-        "The asked is big.",
-        "The ordered is big.",
-        "Look at the please!",
-        "This is a want.",
-        "The need is nice."
+        "I like the told.",
+        "I can see the told.",
+        "This is an asked.",
+        "I like the asked.",
+        "I can see the asked.",
+        "This is an ordered.",
+        "I like the ordered.",
+        "I can see the ordered.",
+        "Please say please.",
+        "Say please.",
+        "This is please.",
+        "I can want.",
+        "Can you want?",
+        "We want today.",
+        "I can need.",
+        "Can you need?",
+        "We need today."
       ],
+      "sentenceMap": {
+        "told": [
+          0,
+          1,
+          2
+        ],
+        "asked": [
+          3,
+          4,
+          5
+        ],
+        "ordered": [
+          6,
+          7,
+          8
+        ],
+        "please": [
+          9,
+          10,
+          11
+        ],
+        "want": [
+          12,
+          13,
+          14
+        ],
+        "need": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -29425,13 +40406,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Can you find the who?",
-        "We have a which.",
-        "The that is nice.",
+        "This is a who.",
+        "I like the who.",
+        "I can see the who.",
+        "This is a which.",
+        "I like the which.",
+        "I can see the which.",
+        "This is a that.",
+        "I like the that.",
+        "I can see the that.",
+        "This is a person.",
+        "I like the person.",
         "I can see the person.",
-        "This is a thing.",
+        "I am thing.",
+        "We are thing.",
+        "She is thing.",
+        "This is a place.",
+        "I like the place.",
         "I can see the place."
       ],
+      "sentenceMap": {
+        "who": [
+          0,
+          1,
+          2
+        ],
+        "which": [
+          3,
+          4,
+          5
+        ],
+        "that": [
+          6,
+          7,
+          8
+        ],
+        "person": [
+          9,
+          10,
+          11
+        ],
+        "thing": [
+          12,
+          13,
+          14
+        ],
+        "place": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -29500,12 +40525,56 @@ window.GAME_DATA = {
       ],
       "sentences": [
         "This is a my.",
-        "The his is big.",
-        "Look at the our!",
-        "My that is cool.",
+        "I like the my.",
+        "I can see the my.",
+        "This is a his.",
+        "I like the his.",
+        "I can see the his.",
+        "This is an our.",
+        "I like the our.",
+        "I can see the our.",
+        "This is a that.",
+        "I like the that.",
+        "I can see the that.",
+        "This is a which.",
         "I like the which.",
-        "The who is big."
+        "I can see the which.",
+        "This is a who.",
+        "I like the who.",
+        "I can see the who."
       ],
+      "sentenceMap": {
+        "my": [
+          0,
+          1,
+          2
+        ],
+        "his": [
+          3,
+          4,
+          5
+        ],
+        "our": [
+          6,
+          7,
+          8
+        ],
+        "that": [
+          9,
+          10,
+          11
+        ],
+        "which": [
+          12,
+          13,
+          14
+        ],
+        "who": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -29573,13 +40642,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I have the isnt.",
-        "This is a arent.",
-        "The doesnt is fun.",
-        "Let's play with the wont!",
-        "The right is big.",
-        "This is a yes."
+        "This is an isnt.",
+        "I like the isnt.",
+        "I can see the isnt.",
+        "This is an arent.",
+        "I like the arent.",
+        "I can see the arent.",
+        "This is a doesnt.",
+        "I like the doesnt.",
+        "I can see the doesnt.",
+        "This is a wont.",
+        "I like the wont.",
+        "I can see the wont.",
+        "This is a right.",
+        "I like the right.",
+        "I can see the right.",
+        "Please say yes.",
+        "Say yes.",
+        "This is yes."
       ],
+      "sentenceMap": {
+        "isnt": [
+          0,
+          1,
+          2
+        ],
+        "arent": [
+          3,
+          4,
+          5
+        ],
+        "doesnt": [
+          6,
+          7,
+          8
+        ],
+        "wont": [
+          9,
+          10,
+          11
+        ],
+        "right": [
+          12,
+          13,
+          14
+        ],
+        "yes": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -29647,13 +40760,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The me is nice.",
-        "My him is cool.",
-        "The her is fun.",
-        "Can you find the it?",
-        "The them is nice.",
-        "The us is nice."
+        "This is a me.",
+        "I like the me.",
+        "I can see the me.",
+        "This is a him.",
+        "I like the him.",
+        "I can see the him.",
+        "This is a her.",
+        "I like the her.",
+        "I can see the her.",
+        "This is an it.",
+        "I like the it.",
+        "I can see the it.",
+        "This is a them.",
+        "I like the them.",
+        "I can see the them.",
+        "This is an us.",
+        "I like the us.",
+        "I can see the us."
       ],
+      "sentenceMap": {
+        "me": [
+          0,
+          1,
+          2
+        ],
+        "him": [
+          3,
+          4,
+          5
+        ],
+        "her": [
+          6,
+          7,
+          8
+        ],
+        "it": [
+          9,
+          10,
+          11
+        ],
+        "them": [
+          12,
+          13,
+          14
+        ],
+        "us": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -29721,13 +40878,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I like the playing.",
-        "My to is cool.",
-        "I can see the read.",
-        "This is a writing.",
-        "The learn is nice.",
-        "I love the singing."
+        "I am playing.",
+        "We are playing.",
+        "She is playing.",
+        "This is a to.",
+        "I like the to.",
+        "I can see the to.",
+        "I can read.",
+        "Can you read?",
+        "We read today.",
+        "I am writing.",
+        "We are writing.",
+        "She is writing.",
+        "I can learn.",
+        "Can you learn?",
+        "We learn today.",
+        "I am singing.",
+        "We are singing.",
+        "She is singing."
       ],
+      "sentenceMap": {
+        "playing": [
+          0,
+          1,
+          2
+        ],
+        "to": [
+          3,
+          4,
+          5
+        ],
+        "read": [
+          6,
+          7,
+          8
+        ],
+        "writing": [
+          9,
+          10,
+          11
+        ],
+        "learn": [
+          12,
+          13,
+          14
+        ],
+        "singing": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -29795,13 +40996,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Let's play with the enjoy!",
-        "I love the avoid.",
-        "Let's play with the finish!",
-        "My start is cool.",
-        "I love the hate.",
-        "I love the love."
+        "I can enjoy.",
+        "Can you enjoy?",
+        "We enjoy today.",
+        "I can avoid.",
+        "Can you avoid?",
+        "We avoid today.",
+        "This is a finish.",
+        "I like the finish.",
+        "I can see the finish.",
+        "I can start.",
+        "Can you start?",
+        "We start today.",
+        "I can hate.",
+        "Can you hate?",
+        "We hate today.",
+        "I can love.",
+        "Can you love?",
+        "We love today."
       ],
+      "sentenceMap": {
+        "enjoy": [
+          0,
+          1,
+          2
+        ],
+        "avoid": [
+          3,
+          4,
+          5
+        ],
+        "finish": [
+          6,
+          7,
+          8
+        ],
+        "start": [
+          9,
+          10,
+          11
+        ],
+        "hate": [
+          12,
+          13,
+          14
+        ],
+        "love": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -29869,13 +41114,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I love the want.",
-        "Let's play with the need!",
-        "My hope is cool.",
-        "The decide is nice.",
-        "This is my promise.",
-        "I love the learn."
+        "I can want.",
+        "Can you want?",
+        "We want today.",
+        "I can need.",
+        "Can you need?",
+        "We need today.",
+        "I can hope.",
+        "Can you hope?",
+        "We hope today.",
+        "I can decide.",
+        "Can you decide?",
+        "We decide today.",
+        "I can promise.",
+        "Can you promise?",
+        "We promise today.",
+        "I can learn.",
+        "Can you learn?",
+        "We learn today."
       ],
+      "sentenceMap": {
+        "want": [
+          0,
+          1,
+          2
+        ],
+        "need": [
+          3,
+          4,
+          5
+        ],
+        "hope": [
+          6,
+          7,
+          8
+        ],
+        "decide": [
+          9,
+          10,
+          11
+        ],
+        "promise": [
+          12,
+          13,
+          14
+        ],
+        "learn": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -29943,13 +41232,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
+        "This is a get.",
+        "I like the get.",
         "I can see the get.",
-        "The up is fun.",
-        "Can you find the out?",
-        "Look at the on!",
-        "This is my off.",
-        "I like the back."
+        "This is an up.",
+        "I like the up.",
+        "I can see the up.",
+        "This is an out.",
+        "I like the out.",
+        "I can see the out.",
+        "This is an on.",
+        "I like the on.",
+        "I can see the on.",
+        "This is an off.",
+        "I like the off.",
+        "I can see the off.",
+        "This is a back.",
+        "I like the back.",
+        "I can see the back."
       ],
+      "sentenceMap": {
+        "get": [
+          0,
+          1,
+          2
+        ],
+        "up": [
+          3,
+          4,
+          5
+        ],
+        "out": [
+          6,
+          7,
+          8
+        ],
+        "on": [
+          9,
+          10,
+          11
+        ],
+        "off": [
+          12,
+          13,
+          14
+        ],
+        "back": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -30017,13 +41350,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Can you find the take?",
-        "The off is fun.",
-        "The out is nice.",
-        "Look at the in!",
-        "I want the back.",
-        "I want the up."
+        "I can take.",
+        "Can you take?",
+        "We take today.",
+        "This is an off.",
+        "I like the off.",
+        "I can see the off.",
+        "This is an out.",
+        "I like the out.",
+        "I can see the out.",
+        "This is an in.",
+        "I like the in.",
+        "I can see the in.",
+        "This is a back.",
+        "I like the back.",
+        "I can see the back.",
+        "This is an up.",
+        "I like the up.",
+        "I can see the up."
       ],
+      "sentenceMap": {
+        "take": [
+          0,
+          1,
+          2
+        ],
+        "off": [
+          3,
+          4,
+          5
+        ],
+        "out": [
+          6,
+          7,
+          8
+        ],
+        "in": [
+          9,
+          10,
+          11
+        ],
+        "back": [
+          12,
+          13,
+          14
+        ],
+        "up": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -30091,13 +41468,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I love the put.",
-        "The on is fun.",
-        "Look at the off!",
-        "I want the in.",
-        "Let's play with the out!",
-        "I like the away."
+        "I can put.",
+        "Can you put?",
+        "We put today.",
+        "This is an on.",
+        "I like the on.",
+        "I can see the on.",
+        "This is an off.",
+        "I like the off.",
+        "I can see the off.",
+        "This is an in.",
+        "I like the in.",
+        "I can see the in.",
+        "This is an out.",
+        "I like the out.",
+        "I can see the out.",
+        "This is an away.",
+        "I like the away.",
+        "I can see the away."
       ],
+      "sentenceMap": {
+        "put": [
+          0,
+          1,
+          2
+        ],
+        "on": [
+          3,
+          4,
+          5
+        ],
+        "off": [
+          6,
+          7,
+          8
+        ],
+        "in": [
+          9,
+          10,
+          11
+        ],
+        "out": [
+          12,
+          13,
+          14
+        ],
+        "away": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -30165,13 +41586,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a make.",
+        "I can make.",
+        "Can you make?",
+        "We make today.",
+        "This is an up.",
         "I like the up.",
+        "I can see the up.",
+        "This is an into.",
         "I like the into.",
-        "I want the out.",
-        "We have a sure.",
-        "Look at the time!"
+        "I can see the into.",
+        "This is an out.",
+        "I like the out.",
+        "I can see the out.",
+        "This is a sure.",
+        "I like the sure.",
+        "I can see the sure.",
+        "This is a time.",
+        "I like the time.",
+        "I can see the time."
       ],
+      "sentenceMap": {
+        "make": [
+          0,
+          1,
+          2
+        ],
+        "up": [
+          3,
+          4,
+          5
+        ],
+        "into": [
+          6,
+          7,
+          8
+        ],
+        "out": [
+          9,
+          10,
+          11
+        ],
+        "sure": [
+          12,
+          13,
+          14
+        ],
+        "time": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -30239,13 +41704,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The look is big.",
-        "The after is nice.",
-        "Let's play with the for!",
-        "My up is cool.",
-        "Look at the out!",
-        "We have a back."
+        "I can look.",
+        "Can you look?",
+        "We look today.",
+        "This is an after.",
+        "I like the after.",
+        "I can see the after.",
+        "This is a for.",
+        "I like the for.",
+        "I can see the for.",
+        "This is an up.",
+        "I like the up.",
+        "I can see the up.",
+        "This is an out.",
+        "I like the out.",
+        "I can see the out.",
+        "This is a back.",
+        "I like the back.",
+        "I can see the back."
       ],
+      "sentenceMap": {
+        "look": [
+          0,
+          1,
+          2
+        ],
+        "after": [
+          3,
+          4,
+          5
+        ],
+        "for": [
+          6,
+          7,
+          8
+        ],
+        "up": [
+          9,
+          10,
+          11
+        ],
+        "out": [
+          12,
+          13,
+          14
+        ],
+        "back": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -30313,13 +41822,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I want the break.",
+        "This is a break.",
+        "I like the break.",
+        "I can see the break.",
+        "This is a fast.",
         "I like the fast.",
-        "This is my piece.",
-        "I have the mind.",
+        "I can see the fast.",
+        "This is a piece.",
+        "I like the piece.",
+        "I can see the piece.",
+        "This is a mind.",
+        "I like the mind.",
+        "I can see the mind.",
+        "This is a hand.",
+        "I like the hand.",
         "I can see the hand.",
-        "Look at the head!"
+        "This is a head.",
+        "I like the head.",
+        "I can see the head."
       ],
+      "sentenceMap": {
+        "break": [
+          0,
+          1,
+          2
+        ],
+        "fast": [
+          3,
+          4,
+          5
+        ],
+        "piece": [
+          6,
+          7,
+          8
+        ],
+        "mind": [
+          9,
+          10,
+          11
+        ],
+        "hand": [
+          12,
+          13,
+          14
+        ],
+        "head": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -30387,13 +41940,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Let's play with the make!",
-        "This is a do.",
-        "I like the take.",
-        "We have a have.",
-        "Can you find the strong?",
-        "The heavy is big."
+        "I can make.",
+        "Can you make?",
+        "We make today.",
+        "Please say do.",
+        "Say do.",
+        "This is do.",
+        "I can take.",
+        "Can you take?",
+        "We take today.",
+        "Please say have.",
+        "Say have.",
+        "This is have.",
+        "The strong one is nice.",
+        "I like the strong one.",
+        "It is strong.",
+        "This is a heavy.",
+        "I like the heavy.",
+        "I can see the heavy."
       ],
+      "sentenceMap": {
+        "make": [
+          0,
+          1,
+          2
+        ],
+        "do": [
+          3,
+          4,
+          5
+        ],
+        "take": [
+          6,
+          7,
+          8
+        ],
+        "have": [
+          9,
+          10,
+          11
+        ],
+        "strong": [
+          12,
+          13,
+          14
+        ],
+        "heavy": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -30461,13 +42058,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
+        "This is a because.",
         "I like the because.",
+        "I can see the because.",
+        "This is a however.",
+        "I like the however.",
         "I can see the however.",
-        "The therefore is big.",
+        "This is a therefore.",
+        "I like the therefore.",
+        "I can see the therefore.",
+        "This is a meanwhile.",
         "I like the meanwhile.",
-        "This is my finally.",
+        "I can see the meanwhile.",
+        "This is a finally.",
+        "I like the finally.",
+        "I can see the finally.",
+        "This is an also.",
+        "I like the also.",
         "I can see the also."
       ],
+      "sentenceMap": {
+        "because": [
+          0,
+          1,
+          2
+        ],
+        "however": [
+          3,
+          4,
+          5
+        ],
+        "therefore": [
+          6,
+          7,
+          8
+        ],
+        "meanwhile": [
+          9,
+          10,
+          11
+        ],
+        "finally": [
+          12,
+          13,
+          14
+        ],
+        "also": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -30535,13 +42176,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Can you find the yesterday?",
-        "I have the today.",
-        "The tomorrow is nice.",
-        "I have the ago.",
-        "I have the later.",
-        "Can you find the soon?"
+        "This is a yesterday.",
+        "I like the yesterday.",
+        "I can see the yesterday.",
+        "This is a today.",
+        "I like the today.",
+        "I can see the today.",
+        "This is a tomorrow.",
+        "I like the tomorrow.",
+        "I can see the tomorrow.",
+        "This is an ago.",
+        "I like the ago.",
+        "I can see the ago.",
+        "This is a later.",
+        "I like the later.",
+        "I can see the later.",
+        "This is a soon.",
+        "I like the soon.",
+        "I can see the soon."
       ],
+      "sentenceMap": {
+        "yesterday": [
+          0,
+          1,
+          2
+        ],
+        "today": [
+          3,
+          4,
+          5
+        ],
+        "tomorrow": [
+          6,
+          7,
+          8
+        ],
+        "ago": [
+          9,
+          10,
+          11
+        ],
+        "later": [
+          12,
+          13,
+          14
+        ],
+        "soon": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -30609,13 +42294,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Look at the at!",
-        "Let's play with the on!",
-        "This is a in.",
-        "We have a before.",
-        "I have the after.",
-        "The during is fun."
+        "This is an at.",
+        "I like the at.",
+        "I can see the at.",
+        "This is an on.",
+        "I like the on.",
+        "I can see the on.",
+        "This is an in.",
+        "I like the in.",
+        "I can see the in.",
+        "This is a before.",
+        "I like the before.",
+        "I can see the before.",
+        "This is an after.",
+        "I like the after.",
+        "I can see the after.",
+        "I am during.",
+        "We are during.",
+        "She is during."
       ],
+      "sentenceMap": {
+        "at": [
+          0,
+          1,
+          2
+        ],
+        "on": [
+          3,
+          4,
+          5
+        ],
+        "in": [
+          6,
+          7,
+          8
+        ],
+        "before": [
+          9,
+          10,
+          11
+        ],
+        "after": [
+          12,
+          13,
+          14
+        ],
+        "during": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -30683,13 +42412,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The in is big.",
-        "Let's play with the on!",
-        "The under is nice.",
-        "My next is cool.",
-        "The between is nice.",
-        "I have the behind."
+        "This is an in.",
+        "I like the in.",
+        "I can see the in.",
+        "This is an on.",
+        "I like the on.",
+        "I can see the on.",
+        "This is an under.",
+        "I like the under.",
+        "I can see the under.",
+        "This is a next.",
+        "I like the next.",
+        "I can see the next.",
+        "This is a between.",
+        "I like the between.",
+        "I can see the between.",
+        "This is a behind.",
+        "I like the behind.",
+        "I can see the behind."
       ],
+      "sentenceMap": {
+        "in": [
+          0,
+          1,
+          2
+        ],
+        "on": [
+          3,
+          4,
+          5
+        ],
+        "under": [
+          6,
+          7,
+          8
+        ],
+        "next": [
+          9,
+          10,
+          11
+        ],
+        "between": [
+          12,
+          13,
+          14
+        ],
+        "behind": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -30757,13 +42530,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is my to.",
-        "We have a from.",
-        "Can you find the across?",
-        "This is a into.",
-        "Let's play with the past!",
+        "This is a to.",
+        "I like the to.",
+        "I can see the to.",
+        "This is a from.",
+        "I like the from.",
+        "I can see the from.",
+        "These are across.",
+        "I like across.",
+        "Can you see across?",
+        "This is an into.",
+        "I like the into.",
+        "I can see the into.",
+        "This is a past.",
+        "I like the past.",
+        "I can see the past.",
+        "This is a through.",
+        "I like the through.",
         "I can see the through."
       ],
+      "sentenceMap": {
+        "to": [
+          0,
+          1,
+          2
+        ],
+        "from": [
+          3,
+          4,
+          5
+        ],
+        "across": [
+          6,
+          7,
+          8
+        ],
+        "into": [
+          9,
+          10,
+          11
+        ],
+        "past": [
+          12,
+          13,
+          14
+        ],
+        "through": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -30831,13 +42648,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I have the left.",
+        "This is a left.",
+        "I like the left.",
+        "I can see the left.",
         "This is a right.",
-        "I have the straight.",
+        "I like the right.",
+        "I can see the right.",
+        "This is a straight.",
+        "I like the straight.",
+        "I can see the straight.",
+        "This is a turn.",
+        "I like the turn.",
         "I can see the turn.",
-        "This is a stop.",
-        "The go is big."
+        "I can stop.",
+        "Can you stop?",
+        "We stop today.",
+        "I can go.",
+        "Can you go?",
+        "We go today."
       ],
+      "sentenceMap": {
+        "left": [
+          0,
+          1,
+          2
+        ],
+        "right": [
+          3,
+          4,
+          5
+        ],
+        "straight": [
+          6,
+          7,
+          8
+        ],
+        "turn": [
+          9,
+          10,
+          11
+        ],
+        "stop": [
+          12,
+          13,
+          14
+        ],
+        "go": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -30905,13 +42766,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The like is nice.",
-        "I want the love.",
-        "I can see the hate.",
-        "I like the enjoy.",
-        "Can you find the prefer?",
-        "The dislike is fun."
+        "I can like.",
+        "Can you like?",
+        "We like today.",
+        "I can love.",
+        "Can you love?",
+        "We love today.",
+        "I can hate.",
+        "Can you hate?",
+        "We hate today.",
+        "I can enjoy.",
+        "Can you enjoy?",
+        "We enjoy today.",
+        "I can prefer.",
+        "Can you prefer?",
+        "We prefer today.",
+        "This is a dislike.",
+        "I like the dislike.",
+        "I can see the dislike."
       ],
+      "sentenceMap": {
+        "like": [
+          0,
+          1,
+          2
+        ],
+        "love": [
+          3,
+          4,
+          5
+        ],
+        "hate": [
+          6,
+          7,
+          8
+        ],
+        "enjoy": [
+          9,
+          10,
+          11
+        ],
+        "prefer": [
+          12,
+          13,
+          14
+        ],
+        "dislike": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -30979,13 +42884,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I have the bigger.",
-        "This is my smaller.",
-        "I have the faster.",
+        "This is a bigger.",
+        "I like the bigger.",
+        "I can see the bigger.",
+        "This is a smaller.",
+        "I like the smaller.",
+        "I can see the smaller.",
+        "This is a faster.",
+        "I like the faster.",
+        "I can see the faster.",
+        "This is a slower.",
+        "I like the slower.",
         "I can see the slower.",
-        "I love the more.",
-        "I like the less."
+        "This is a more.",
+        "I like the more.",
+        "I can see the more.",
+        "These are less.",
+        "I like less.",
+        "Can you see less?"
       ],
+      "sentenceMap": {
+        "bigger": [
+          0,
+          1,
+          2
+        ],
+        "smaller": [
+          3,
+          4,
+          5
+        ],
+        "faster": [
+          6,
+          7,
+          8
+        ],
+        "slower": [
+          9,
+          10,
+          11
+        ],
+        "more": [
+          12,
+          13,
+          14
+        ],
+        "less": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -31053,13 +43002,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Let's play with the usually!",
-        "This is a often.",
-        "The always is big.",
-        "We have a never.",
-        "This is a sometimes.",
-        "Can you find the rarely?"
+        "This is an usually.",
+        "I like the usually.",
+        "I can see the usually.",
+        "This is an often.",
+        "I like the often.",
+        "I can see the often.",
+        "These are always.",
+        "I like always.",
+        "Can you see always?",
+        "This is a never.",
+        "I like the never.",
+        "I can see the never.",
+        "These are sometimes.",
+        "I like sometimes.",
+        "Can you see sometimes?",
+        "This is a rarely.",
+        "I like the rarely.",
+        "I can see the rarely."
       ],
+      "sentenceMap": {
+        "usually": [
+          0,
+          1,
+          2
+        ],
+        "often": [
+          3,
+          4,
+          5
+        ],
+        "always": [
+          6,
+          7,
+          8
+        ],
+        "never": [
+          9,
+          10,
+          11
+        ],
+        "sometimes": [
+          12,
+          13,
+          14
+        ],
+        "rarely": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -31127,13 +43120,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The morning is big.",
-        "The afternoon is fun.",
-        "Let's play with the evening!",
-        "This is my night.",
-        "The breakfast is fun.",
-        "We have a dinner."
+        "I am morning.",
+        "We are morning.",
+        "She is morning.",
+        "This is an afternoon.",
+        "I like the afternoon.",
+        "I can see the afternoon.",
+        "I am evening.",
+        "We are evening.",
+        "She is evening.",
+        "This is a night.",
+        "I like the night.",
+        "I can see the night.",
+        "This is a breakfast.",
+        "I like the breakfast.",
+        "I can see the breakfast.",
+        "This is a dinner.",
+        "I like the dinner.",
+        "I can see the dinner."
       ],
+      "sentenceMap": {
+        "morning": [
+          0,
+          1,
+          2
+        ],
+        "afternoon": [
+          3,
+          4,
+          5
+        ],
+        "evening": [
+          6,
+          7,
+          8
+        ],
+        "night": [
+          9,
+          10,
+          11
+        ],
+        "breakfast": [
+          12,
+          13,
+          14
+        ],
+        "dinner": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -31201,13 +43238,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The healthy is fun.",
-        "This is my sick.",
+        "The healthy one is nice.",
+        "I like the healthy one.",
+        "It is healthy.",
+        "The sick one is nice.",
+        "I like the sick one.",
+        "It is sick.",
+        "This is a doctor.",
+        "I like the doctor.",
         "I can see the doctor.",
-        "Let's play with the medicine!",
-        "We have a cough.",
-        "I love the rest."
+        "This is a medicine.",
+        "I like the medicine.",
+        "I can see the medicine.",
+        "This is a cough.",
+        "I like the cough.",
+        "I can see the cough.",
+        "This is a rest.",
+        "I like the rest.",
+        "I can see the rest."
       ],
+      "sentenceMap": {
+        "healthy": [
+          0,
+          1,
+          2
+        ],
+        "sick": [
+          3,
+          4,
+          5
+        ],
+        "doctor": [
+          6,
+          7,
+          8
+        ],
+        "medicine": [
+          9,
+          10,
+          11
+        ],
+        "cough": [
+          12,
+          13,
+          14
+        ],
+        "rest": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -31275,13 +43356,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Let's play with the bread!",
-        "Can you find the juice?",
-        "Let's play with the salad!",
-        "I want the coffee.",
-        "I want the cake.",
-        "The water is big."
+        "This is a bread.",
+        "I like the bread.",
+        "I can see the bread.",
+        "This is a juice.",
+        "I like the juice.",
+        "I can see the juice.",
+        "This is a salad.",
+        "I like the salad.",
+        "I can see the salad.",
+        "This is a coffee.",
+        "I like the coffee.",
+        "I can see the coffee.",
+        "This is a cake.",
+        "I like the cake.",
+        "I can see the cake.",
+        "This is a water.",
+        "I like the water.",
+        "I can see the water."
       ],
+      "sentenceMap": {
+        "bread": [
+          0,
+          1,
+          2
+        ],
+        "juice": [
+          3,
+          4,
+          5
+        ],
+        "salad": [
+          6,
+          7,
+          8
+        ],
+        "coffee": [
+          9,
+          10,
+          11
+        ],
+        "cake": [
+          12,
+          13,
+          14
+        ],
+        "water": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -31349,13 +43474,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a cook.",
-        "Look at the mix!",
-        "My bake is cool.",
-        "The chop is big.",
-        "I have the stir.",
-        "I love the serve."
+        "I can cook.",
+        "Can you cook?",
+        "We cook today.",
+        "This is a mix.",
+        "I like the mix.",
+        "I can see the mix.",
+        "This is a bake.",
+        "I like the bake.",
+        "I can see the bake.",
+        "This is a chop.",
+        "I like the chop.",
+        "I can see the chop.",
+        "This is a stir.",
+        "I like the stir.",
+        "I can see the stir.",
+        "This is a serve.",
+        "I like the serve.",
+        "I can see the serve."
       ],
+      "sentenceMap": {
+        "cook": [
+          0,
+          1,
+          2
+        ],
+        "mix": [
+          3,
+          4,
+          5
+        ],
+        "bake": [
+          6,
+          7,
+          8
+        ],
+        "chop": [
+          9,
+          10,
+          11
+        ],
+        "stir": [
+          12,
+          13,
+          14
+        ],
+        "serve": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -31423,13 +43592,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I want the price.",
-        "I love the buy.",
-        "I want the sell.",
-        "My cost is cool.",
-        "I have the shop.",
-        "The cash is fun."
+        "This is a price.",
+        "I like the price.",
+        "I can see the price.",
+        "I can buy.",
+        "Can you buy?",
+        "We buy today.",
+        "I can sell.",
+        "Can you sell?",
+        "We sell today.",
+        "This is a cost.",
+        "I like the cost.",
+        "I can see the cost.",
+        "This is a shop.",
+        "I like the shop.",
+        "I can see the shop.",
+        "This is a cash.",
+        "I like the cash.",
+        "I can see the cash."
       ],
+      "sentenceMap": {
+        "price": [
+          0,
+          1,
+          2
+        ],
+        "buy": [
+          3,
+          4,
+          5
+        ],
+        "sell": [
+          6,
+          7,
+          8
+        ],
+        "cost": [
+          9,
+          10,
+          11
+        ],
+        "shop": [
+          12,
+          13,
+          14
+        ],
+        "cash": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -31497,13 +43710,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
+        "This is a dollar.",
         "I like the dollar.",
-        "My coin is cool.",
+        "I can see the dollar.",
+        "This is a coin.",
+        "I like the coin.",
+        "I can see the coin.",
+        "This is a price.",
         "I like the price.",
-        "Let's play with the change!",
-        "I like the pay.",
-        "We have a save."
+        "I can see the price.",
+        "I can change.",
+        "Can you change?",
+        "We change today.",
+        "I can pay.",
+        "Can you pay?",
+        "We pay today.",
+        "I can save.",
+        "Can you save?",
+        "We save today."
       ],
+      "sentenceMap": {
+        "dollar": [
+          0,
+          1,
+          2
+        ],
+        "coin": [
+          3,
+          4,
+          5
+        ],
+        "price": [
+          6,
+          7,
+          8
+        ],
+        "change": [
+          9,
+          10,
+          11
+        ],
+        "pay": [
+          12,
+          13,
+          14
+        ],
+        "save": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -31571,13 +43828,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The doctor is big.",
-        "This is my teacher.",
-        "Look at the chef!",
-        "Look at the artist!",
-        "I want the driver.",
-        "Can you find the builder?"
+        "This is a doctor.",
+        "I like the doctor.",
+        "I can see the doctor.",
+        "This is a teacher.",
+        "I like the teacher.",
+        "I can see the teacher.",
+        "This is a chef.",
+        "I like the chef.",
+        "I can see the chef.",
+        "This is an artist.",
+        "I like the artist.",
+        "I can see the artist.",
+        "This is a driver.",
+        "I like the driver.",
+        "I can see the driver.",
+        "This is a builder.",
+        "I like the builder.",
+        "I can see the builder."
       ],
+      "sentenceMap": {
+        "doctor": [
+          0,
+          1,
+          2
+        ],
+        "teacher": [
+          3,
+          4,
+          5
+        ],
+        "chef": [
+          6,
+          7,
+          8
+        ],
+        "artist": [
+          9,
+          10,
+          11
+        ],
+        "driver": [
+          12,
+          13,
+          14
+        ],
+        "builder": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -31645,13 +43946,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Can you find the office?",
-        "Look at the meeting!",
-        "I want the team.",
-        "Look at the email!",
+        "This is an office.",
+        "I like the office.",
+        "I can see the office.",
+        "I am meeting.",
+        "We are meeting.",
+        "She is meeting.",
+        "This is a team.",
+        "I like the team.",
+        "I can see the team.",
+        "This is an email.",
+        "I like the email.",
+        "I can see the email.",
         "This is a project.",
-        "We have a break."
+        "I like the project.",
+        "I can see the project.",
+        "This is a break.",
+        "I like the break.",
+        "I can see the break."
       ],
+      "sentenceMap": {
+        "office": [
+          0,
+          1,
+          2
+        ],
+        "meeting": [
+          3,
+          4,
+          5
+        ],
+        "team": [
+          6,
+          7,
+          8
+        ],
+        "email": [
+          9,
+          10,
+          11
+        ],
+        "project": [
+          12,
+          13,
+          14
+        ],
+        "break": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -31719,13 +44064,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
+        "This is a lesson.",
         "I like the lesson.",
+        "I can see the lesson.",
         "This is a teacher.",
-        "I want the student.",
-        "Can you find the class?",
-        "The homework is nice.",
-        "The grade is nice."
+        "I like the teacher.",
+        "I can see the teacher.",
+        "This is a student.",
+        "I like the student.",
+        "I can see the student.",
+        "These are class.",
+        "I like class.",
+        "Can you see class?",
+        "This is a homework.",
+        "I like the homework.",
+        "I can see the homework.",
+        "This is a grade.",
+        "I like the grade.",
+        "I can see the grade."
       ],
+      "sentenceMap": {
+        "lesson": [
+          0,
+          1,
+          2
+        ],
+        "teacher": [
+          3,
+          4,
+          5
+        ],
+        "student": [
+          6,
+          7,
+          8
+        ],
+        "class": [
+          9,
+          10,
+          11
+        ],
+        "homework": [
+          12,
+          13,
+          14
+        ],
+        "grade": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -31793,13 +44182,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I want the sure.",
-        "Can you find the maybe?",
-        "The certain is nice.",
-        "The possible is nice.",
-        "My surely is cool.",
-        "The unlikely is big."
+        "This is a sure.",
+        "I like the sure.",
+        "I can see the sure.",
+        "This is a maybe.",
+        "I like the maybe.",
+        "I can see the maybe.",
+        "This is a certain.",
+        "I like the certain.",
+        "I can see the certain.",
+        "This is a possible.",
+        "I like the possible.",
+        "I can see the possible.",
+        "This is a surely.",
+        "I like the surely.",
+        "I can see the surely.",
+        "This is an unlikely.",
+        "I like the unlikely.",
+        "I can see the unlikely."
       ],
+      "sentenceMap": {
+        "sure": [
+          0,
+          1,
+          2
+        ],
+        "maybe": [
+          3,
+          4,
+          5
+        ],
+        "certain": [
+          6,
+          7,
+          8
+        ],
+        "possible": [
+          9,
+          10,
+          11
+        ],
+        "surely": [
+          12,
+          13,
+          14
+        ],
+        "unlikely": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -31867,13 +44300,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The prefer is big.",
-        "I have the rather.",
-        "My like is cool.",
-        "The love is nice.",
-        "My hate is cool.",
-        "I want the choose."
+        "I can prefer.",
+        "Can you prefer?",
+        "We prefer today.",
+        "This is a rather.",
+        "I like the rather.",
+        "I can see the rather.",
+        "I can like.",
+        "Can you like?",
+        "We like today.",
+        "I can love.",
+        "Can you love?",
+        "We love today.",
+        "I can hate.",
+        "Can you hate?",
+        "We hate today.",
+        "I can choose.",
+        "Can you choose?",
+        "We choose today."
       ],
+      "sentenceMap": {
+        "prefer": [
+          0,
+          1,
+          2
+        ],
+        "rather": [
+          3,
+          4,
+          5
+        ],
+        "like": [
+          6,
+          7,
+          8
+        ],
+        "love": [
+          9,
+          10,
+          11
+        ],
+        "hate": [
+          12,
+          13,
+          14
+        ],
+        "choose": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -31941,13 +44418,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I have the can.",
-        "My may is cool.",
-        "The let is fun.",
+        "Please say can.",
+        "Say can.",
+        "This is can.",
+        "Please say may.",
+        "Say may.",
+        "This is may.",
+        "Please say let.",
+        "Say let.",
+        "This is let.",
+        "This is an allow.",
         "I like the allow.",
-        "Can you find the okay?",
-        "The ask is big."
+        "I can see the allow.",
+        "This is an okay.",
+        "I like the okay.",
+        "I can see the okay.",
+        "I can ask.",
+        "Can you ask?",
+        "We ask today."
       ],
+      "sentenceMap": {
+        "can": [
+          0,
+          1,
+          2
+        ],
+        "may": [
+          3,
+          4,
+          5
+        ],
+        "let": [
+          6,
+          7,
+          8
+        ],
+        "allow": [
+          9,
+          10,
+          11
+        ],
+        "okay": [
+          12,
+          13,
+          14
+        ],
+        "ask": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -32015,13 +44536,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "My should is cool.",
-        "The could is fun.",
-        "I love the maybe.",
-        "The lets is fun.",
+        "Please say should.",
+        "Say should.",
+        "This is should.",
+        "This is a could.",
+        "I like the could.",
+        "I can see the could.",
+        "This is a maybe.",
+        "I like the maybe.",
+        "I can see the maybe.",
+        "This is a lets.",
+        "I like the lets.",
+        "I can see the lets.",
+        "This is a try.",
         "I like the try.",
+        "I can see the try.",
+        "This is an offer.",
+        "I like the offer.",
         "I can see the offer."
       ],
+      "sentenceMap": {
+        "should": [
+          0,
+          1,
+          2
+        ],
+        "could": [
+          3,
+          4,
+          5
+        ],
+        "maybe": [
+          6,
+          7,
+          8
+        ],
+        "lets": [
+          9,
+          10,
+          11
+        ],
+        "try": [
+          12,
+          13,
+          14
+        ],
+        "offer": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -32089,13 +44654,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is my advice.",
-        "I like the listen.",
-        "I want the try.",
-        "The change is big.",
-        "The help is fun.",
+        "This is an advice.",
+        "I like the advice.",
+        "I can see the advice.",
+        "I can listen.",
+        "Can you listen?",
+        "We listen today.",
+        "This is a try.",
+        "I like the try.",
+        "I can see the try.",
+        "I can change.",
+        "Can you change?",
+        "We change today.",
+        "I can help.",
+        "Can you help?",
+        "We help today.",
+        "This is a fix.",
+        "I like the fix.",
         "I can see the fix."
       ],
+      "sentenceMap": {
+        "advice": [
+          0,
+          1,
+          2
+        ],
+        "listen": [
+          3,
+          4,
+          5
+        ],
+        "try": [
+          6,
+          7,
+          8
+        ],
+        "change": [
+          9,
+          10,
+          11
+        ],
+        "help": [
+          12,
+          13,
+          14
+        ],
+        "fix": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -32163,13 +44772,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Can you find the sorry?",
-        "The forgive is big.",
-        "My excuse is cool.",
-        "Can you find the please?",
-        "I like the thanks.",
-        "The okay is fun."
+        "This is a sorry.",
+        "I like the sorry.",
+        "I can see the sorry.",
+        "This is a forgive.",
+        "I like the forgive.",
+        "I can see the forgive.",
+        "This is an excuse.",
+        "I like the excuse.",
+        "I can see the excuse.",
+        "Please say please.",
+        "Say please.",
+        "This is please.",
+        "These are thanks.",
+        "I like thanks.",
+        "Can you see thanks?",
+        "This is an okay.",
+        "I like the okay.",
+        "I can see the okay."
       ],
+      "sentenceMap": {
+        "sorry": [
+          0,
+          1,
+          2
+        ],
+        "forgive": [
+          3,
+          4,
+          5
+        ],
+        "excuse": [
+          6,
+          7,
+          8
+        ],
+        "please": [
+          9,
+          10,
+          11
+        ],
+        "thanks": [
+          12,
+          13,
+          14
+        ],
+        "okay": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -32237,13 +44890,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The help is nice.",
-        "This is a assist.",
-        "Can you find the please?",
-        "I like the need.",
-        "The support is fun.",
-        "Look at the guide!"
+        "I can help.",
+        "Can you help?",
+        "We help today.",
+        "This is an assist.",
+        "I like the assist.",
+        "I can see the assist.",
+        "Please say please.",
+        "Say please.",
+        "This is please.",
+        "I can need.",
+        "Can you need?",
+        "We need today.",
+        "This is a support.",
+        "I like the support.",
+        "I can see the support.",
+        "This is a guide.",
+        "I like the guide.",
+        "I can see the guide."
       ],
+      "sentenceMap": {
+        "help": [
+          0,
+          1,
+          2
+        ],
+        "assist": [
+          3,
+          4,
+          5
+        ],
+        "please": [
+          6,
+          7,
+          8
+        ],
+        "need": [
+          9,
+          10,
+          11
+        ],
+        "support": [
+          12,
+          13,
+          14
+        ],
+        "guide": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -32311,13 +45008,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The hello is big.",
-        "I love the goodbye.",
-        "This is my call.",
-        "I love the message.",
-        "Look at the ask!",
-        "This is my speak."
+        "This is a hello.",
+        "I like the hello.",
+        "I can see the hello.",
+        "This is a goodbye.",
+        "I like the goodbye.",
+        "I can see the goodbye.",
+        "I can call.",
+        "Can you call?",
+        "We call today.",
+        "This is a message.",
+        "I like the message.",
+        "I can see the message.",
+        "I can ask.",
+        "Can you ask?",
+        "We ask today.",
+        "I can speak.",
+        "Can you speak?",
+        "We speak today."
       ],
+      "sentenceMap": {
+        "hello": [
+          0,
+          1,
+          2
+        ],
+        "goodbye": [
+          3,
+          4,
+          5
+        ],
+        "call": [
+          6,
+          7,
+          8
+        ],
+        "message": [
+          9,
+          10,
+          11
+        ],
+        "ask": [
+          12,
+          13,
+          14
+        ],
+        "speak": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -32385,13 +45126,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The email is nice.",
-        "I have the write.",
-        "My send is cool.",
-        "I want the reply.",
-        "I want the subject.",
-        "I want the letter."
+        "This is an email.",
+        "I like the email.",
+        "I can see the email.",
+        "I can write.",
+        "Can you write?",
+        "We write today.",
+        "I can send.",
+        "Can you send?",
+        "We send today.",
+        "This is a reply.",
+        "I like the reply.",
+        "I can see the reply.",
+        "This is a subject.",
+        "I like the subject.",
+        "I can see the subject.",
+        "This is a letter.",
+        "I like the letter.",
+        "I can see the letter."
       ],
+      "sentenceMap": {
+        "email": [
+          0,
+          1,
+          2
+        ],
+        "write": [
+          3,
+          4,
+          5
+        ],
+        "send": [
+          6,
+          7,
+          8
+        ],
+        "reply": [
+          9,
+          10,
+          11
+        ],
+        "subject": [
+          12,
+          13,
+          14
+        ],
+        "letter": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -32459,13 +45244,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The hi is big.",
-        "We have a bye.",
+        "This is a hi.",
+        "I like the hi.",
+        "I can see the hi.",
+        "This is a bye.",
+        "I like the bye.",
+        "I can see the bye.",
+        "This is a nice.",
+        "I like the nice.",
         "I can see the nice.",
-        "Let's play with the yes!",
-        "I want the no.",
-        "My good is cool."
+        "Please say yes.",
+        "Say yes.",
+        "This is yes.",
+        "Please say no.",
+        "Say no.",
+        "This is no.",
+        "This is a good.",
+        "I like the good.",
+        "I can see the good."
       ],
+      "sentenceMap": {
+        "hi": [
+          0,
+          1,
+          2
+        ],
+        "bye": [
+          3,
+          4,
+          5
+        ],
+        "nice": [
+          6,
+          7,
+          8
+        ],
+        "yes": [
+          9,
+          10,
+          11
+        ],
+        "no": [
+          12,
+          13,
+          14
+        ],
+        "good": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -32533,13 +45362,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Let's play with the tall!",
-        "I love the short.",
-        "We have a kind.",
-        "The shy is fun.",
+        "This is a tall.",
+        "I like the tall.",
+        "I can see the tall.",
+        "This is a short.",
+        "I like the short.",
+        "I can see the short.",
+        "The kind one is nice.",
+        "I like the kind one.",
+        "It is kind.",
+        "The shy one is nice.",
+        "I like the shy one.",
+        "It is shy.",
+        "This is a friendly.",
         "I like the friendly.",
-        "This is a funny."
+        "I can see the friendly.",
+        "The funny one is nice.",
+        "I like the funny one.",
+        "It is funny."
       ],
+      "sentenceMap": {
+        "tall": [
+          0,
+          1,
+          2
+        ],
+        "short": [
+          3,
+          4,
+          5
+        ],
+        "kind": [
+          6,
+          7,
+          8
+        ],
+        "shy": [
+          9,
+          10,
+          11
+        ],
+        "friendly": [
+          12,
+          13,
+          14
+        ],
+        "funny": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -32607,13 +45480,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The mother is nice.",
-        "The father is big.",
-        "Can you find the sister?",
-        "Look at the brother!",
-        "Look at the uncle!",
+        "This is a mother.",
+        "I like the mother.",
+        "I can see the mother.",
+        "This is a father.",
+        "I like the father.",
+        "I can see the father.",
+        "This is a sister.",
+        "I like the sister.",
+        "I can see the sister.",
+        "This is a brother.",
+        "I like the brother.",
+        "I can see the brother.",
+        "This is an uncle.",
+        "I like the uncle.",
+        "I can see the uncle.",
+        "This is an aunt.",
+        "I like the aunt.",
         "I can see the aunt."
       ],
+      "sentenceMap": {
+        "mother": [
+          0,
+          1,
+          2
+        ],
+        "father": [
+          3,
+          4,
+          5
+        ],
+        "sister": [
+          6,
+          7,
+          8
+        ],
+        "brother": [
+          9,
+          10,
+          11
+        ],
+        "uncle": [
+          12,
+          13,
+          14
+        ],
+        "aunt": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -32681,13 +45598,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Can you find the plane?",
-        "The ticket is big.",
+        "This is a plane.",
+        "I like the plane.",
+        "I can see the plane.",
+        "This is a ticket.",
+        "I like the ticket.",
+        "I can see the ticket.",
         "This is a passport.",
-        "The luggage is big.",
-        "This is my flight.",
-        "I love the arrival."
+        "I like the passport.",
+        "I can see the passport.",
+        "This is a luggage.",
+        "I like the luggage.",
+        "I can see the luggage.",
+        "This is a flight.",
+        "I like the flight.",
+        "I can see the flight.",
+        "This is an arrival.",
+        "I like the arrival.",
+        "I can see the arrival."
       ],
+      "sentenceMap": {
+        "plane": [
+          0,
+          1,
+          2
+        ],
+        "ticket": [
+          3,
+          4,
+          5
+        ],
+        "passport": [
+          6,
+          7,
+          8
+        ],
+        "luggage": [
+          9,
+          10,
+          11
+        ],
+        "flight": [
+          12,
+          13,
+          14
+        ],
+        "arrival": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -32755,13 +45716,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The hotel is nice.",
-        "I have the room.",
-        "I have the bed.",
-        "I have the bath.",
-        "I love the key.",
+        "This is a hotel.",
+        "I like the hotel.",
+        "I can see the hotel.",
+        "This is a room.",
+        "I like the room.",
+        "I can see the room.",
+        "This is a bed.",
+        "I like the bed.",
+        "I can see the bed.",
+        "This is a bath.",
+        "I like the bath.",
+        "I can see the bath.",
+        "This is a key.",
+        "I like the key.",
+        "I can see the key.",
+        "This is a desk.",
+        "I like the desk.",
         "I can see the desk."
       ],
+      "sentenceMap": {
+        "hotel": [
+          0,
+          1,
+          2
+        ],
+        "room": [
+          3,
+          4,
+          5
+        ],
+        "bed": [
+          6,
+          7,
+          8
+        ],
+        "bath": [
+          9,
+          10,
+          11
+        ],
+        "key": [
+          12,
+          13,
+          14
+        ],
+        "desk": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -32829,13 +45834,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Look at the car!",
-        "The bus is fun.",
-        "I want the train.",
-        "My stop is cool.",
-        "Can you find the left?",
-        "This is my right."
+        "This is a car.",
+        "I like the car.",
+        "I can see the car.",
+        "These are bus.",
+        "I like bus.",
+        "Can you see bus?",
+        "This is a train.",
+        "I like the train.",
+        "I can see the train.",
+        "I can stop.",
+        "Can you stop?",
+        "We stop today.",
+        "This is a left.",
+        "I like the left.",
+        "I can see the left.",
+        "This is a right.",
+        "I like the right.",
+        "I can see the right."
       ],
+      "sentenceMap": {
+        "car": [
+          0,
+          1,
+          2
+        ],
+        "bus": [
+          3,
+          4,
+          5
+        ],
+        "train": [
+          6,
+          7,
+          8
+        ],
+        "stop": [
+          9,
+          10,
+          11
+        ],
+        "left": [
+          12,
+          13,
+          14
+        ],
+        "right": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -32903,13 +45952,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Can you find the sunny?",
-        "I have the rainy.",
-        "The cloudy is fun.",
-        "My windy is cool.",
-        "I want the stormy.",
-        "I want the hot."
+        "The sunny one is nice.",
+        "I like the sunny one.",
+        "It is sunny.",
+        "The rainy one is nice.",
+        "I like the rainy one.",
+        "It is rainy.",
+        "The cloudy one is nice.",
+        "I like the cloudy one.",
+        "It is cloudy.",
+        "The windy one is nice.",
+        "I like the windy one.",
+        "It is windy.",
+        "The stormy one is nice.",
+        "I like the stormy one.",
+        "It is stormy.",
+        "The hot one is nice.",
+        "I like the hot one.",
+        "It is hot."
       ],
+      "sentenceMap": {
+        "sunny": [
+          0,
+          1,
+          2
+        ],
+        "rainy": [
+          3,
+          4,
+          5
+        ],
+        "cloudy": [
+          6,
+          7,
+          8
+        ],
+        "windy": [
+          9,
+          10,
+          11
+        ],
+        "stormy": [
+          12,
+          13,
+          14
+        ],
+        "hot": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -32977,13 +46070,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I can see the spring.",
-        "I love the summer.",
-        "This is my autumn.",
-        "Look at the winter!",
-        "I love the holiday.",
-        "The party is nice."
+        "I am spring.",
+        "We are spring.",
+        "She is spring.",
+        "This is a summer.",
+        "I like the summer.",
+        "I can see the summer.",
+        "This is an autumn.",
+        "I like the autumn.",
+        "I can see the autumn.",
+        "This is a winter.",
+        "I like the winter.",
+        "I can see the winter.",
+        "This is a holiday.",
+        "I like the holiday.",
+        "I can see the holiday.",
+        "This is a party.",
+        "I like the party.",
+        "I can see the party."
       ],
+      "sentenceMap": {
+        "spring": [
+          0,
+          1,
+          2
+        ],
+        "summer": [
+          3,
+          4,
+          5
+        ],
+        "autumn": [
+          6,
+          7,
+          8
+        ],
+        "winter": [
+          9,
+          10,
+          11
+        ],
+        "holiday": [
+          12,
+          13,
+          14
+        ],
+        "party": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -33051,13 +46188,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "We have a soccer.",
-        "I have the tennis.",
-        "The boxing is nice.",
-        "The yoga is nice.",
-        "I like the swim.",
-        "I like the run."
+        "This is a soccer.",
+        "I like the soccer.",
+        "I can see the soccer.",
+        "These are tennis.",
+        "I like tennis.",
+        "Can you see tennis?",
+        "I am boxing.",
+        "We are boxing.",
+        "She is boxing.",
+        "This is a yoga.",
+        "I like the yoga.",
+        "I can see the yoga.",
+        "I can swim.",
+        "Can you swim?",
+        "We swim today.",
+        "I can run.",
+        "Can you run?",
+        "We run today."
       ],
+      "sentenceMap": {
+        "soccer": [
+          0,
+          1,
+          2
+        ],
+        "tennis": [
+          3,
+          4,
+          5
+        ],
+        "boxing": [
+          6,
+          7,
+          8
+        ],
+        "yoga": [
+          9,
+          10,
+          11
+        ],
+        "swim": [
+          12,
+          13,
+          14
+        ],
+        "run": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -33125,13 +46306,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Let's play with the dance!",
-        "I love the read.",
-        "I can see the paint.",
-        "I want the play.",
-        "The bake is big.",
-        "The garden is big."
+        "I can dance.",
+        "Can you dance?",
+        "We dance today.",
+        "I can read.",
+        "Can you read?",
+        "We read today.",
+        "I can paint.",
+        "Can you paint?",
+        "We paint today.",
+        "I can play.",
+        "Can you play?",
+        "We play today.",
+        "This is a bake.",
+        "I like the bake.",
+        "I can see the bake.",
+        "This is a garden.",
+        "I like the garden.",
+        "I can see the garden."
       ],
+      "sentenceMap": {
+        "dance": [
+          0,
+          1,
+          2
+        ],
+        "read": [
+          3,
+          4,
+          5
+        ],
+        "paint": [
+          6,
+          7,
+          8
+        ],
+        "play": [
+          9,
+          10,
+          11
+        ],
+        "bake": [
+          12,
+          13,
+          14
+        ],
+        "garden": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -33199,13 +46424,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "Let's play with the song!",
-        "This is my movie.",
-        "This is my concert.",
-        "My guitar is cool.",
-        "The dance is nice.",
-        "I love the show."
+        "This is a song.",
+        "I like the song.",
+        "I can see the song.",
+        "This is a movie.",
+        "I like the movie.",
+        "I can see the movie.",
+        "This is a concert.",
+        "I like the concert.",
+        "I can see the concert.",
+        "This is a guitar.",
+        "I like the guitar.",
+        "I can see the guitar.",
+        "I can dance.",
+        "Can you dance?",
+        "We dance today.",
+        "This is a show.",
+        "I like the show.",
+        "I can see the show."
       ],
+      "sentenceMap": {
+        "song": [
+          0,
+          1,
+          2
+        ],
+        "movie": [
+          3,
+          4,
+          5
+        ],
+        "concert": [
+          6,
+          7,
+          8
+        ],
+        "guitar": [
+          9,
+          10,
+          11
+        ],
+        "dance": [
+          12,
+          13,
+          14
+        ],
+        "show": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -33273,13 +46542,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I want the forest.",
-        "Can you find the river?",
-        "Can you find the mountain?",
-        "This is a animal.",
+        "This is a forest.",
+        "I like the forest.",
+        "I can see the forest.",
+        "This is a river.",
+        "I like the river.",
+        "I can see the river.",
+        "This is a mountain.",
+        "I like the mountain.",
+        "I can see the mountain.",
+        "This is an animal.",
+        "I like the animal.",
+        "I can see the animal.",
         "This is a flower.",
-        "The bird is nice."
+        "I like the flower.",
+        "I can see the flower.",
+        "This is a bird.",
+        "I like the bird.",
+        "I can see the bird."
       ],
+      "sentenceMap": {
+        "forest": [
+          0,
+          1,
+          2
+        ],
+        "river": [
+          3,
+          4,
+          5
+        ],
+        "mountain": [
+          6,
+          7,
+          8
+        ],
+        "animal": [
+          9,
+          10,
+          11
+        ],
+        "flower": [
+          12,
+          13,
+          14
+        ],
+        "bird": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -33347,13 +46660,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The recycle is nice.",
-        "Let's play with the trash!",
-        "This is my clean.",
-        "Look at the earth!",
-        "We have a plastic.",
-        "The reuse is fun."
+        "This is a recycle.",
+        "I like the recycle.",
+        "I can see the recycle.",
+        "This is a trash.",
+        "I like the trash.",
+        "I can see the trash.",
+        "This is a clean.",
+        "I like the clean.",
+        "I can see the clean.",
+        "This is an earth.",
+        "I like the earth.",
+        "I can see the earth.",
+        "This is a plastic.",
+        "I like the plastic.",
+        "I can see the plastic.",
+        "This is a reuse.",
+        "I like the reuse.",
+        "I can see the reuse."
       ],
+      "sentenceMap": {
+        "recycle": [
+          0,
+          1,
+          2
+        ],
+        "trash": [
+          3,
+          4,
+          5
+        ],
+        "clean": [
+          6,
+          7,
+          8
+        ],
+        "earth": [
+          9,
+          10,
+          11
+        ],
+        "plastic": [
+          12,
+          13,
+          14
+        ],
+        "reuse": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -33421,13 +46778,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The phone is fun.",
-        "My computer is cool.",
-        "The internet is nice.",
+        "This is a phone.",
+        "I like the phone.",
+        "I can see the phone.",
+        "This is a computer.",
+        "I like the computer.",
+        "I can see the computer.",
+        "This is an internet.",
+        "I like the internet.",
+        "I can see the internet.",
+        "This is an app.",
         "I like the app.",
-        "The email is fun.",
-        "I love the screen."
+        "I can see the app.",
+        "This is an email.",
+        "I like the email.",
+        "I can see the email.",
+        "This is a screen.",
+        "I like the screen.",
+        "I can see the screen."
       ],
+      "sentenceMap": {
+        "phone": [
+          0,
+          1,
+          2
+        ],
+        "computer": [
+          3,
+          4,
+          5
+        ],
+        "internet": [
+          6,
+          7,
+          8
+        ],
+        "app": [
+          9,
+          10,
+          11
+        ],
+        "email": [
+          12,
+          13,
+          14
+        ],
+        "screen": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -33495,13 +46896,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
+        "This is an experiment.",
+        "I like the experiment.",
         "I can see the experiment.",
-        "Can you find the robot?",
-        "This is my battery.",
-        "This is my formula.",
-        "Look at the idea!",
-        "Look at the engine!"
+        "This is a robot.",
+        "I like the robot.",
+        "I can see the robot.",
+        "This is a battery.",
+        "I like the battery.",
+        "I can see the battery.",
+        "This is a formula.",
+        "I like the formula.",
+        "I can see the formula.",
+        "This is an idea.",
+        "I like the idea.",
+        "I can see the idea.",
+        "This is an engine.",
+        "I like the engine.",
+        "I can see the engine."
       ],
+      "sentenceMap": {
+        "experiment": [
+          0,
+          1,
+          2
+        ],
+        "robot": [
+          3,
+          4,
+          5
+        ],
+        "battery": [
+          6,
+          7,
+          8
+        ],
+        "formula": [
+          9,
+          10,
+          11
+        ],
+        "idea": [
+          12,
+          13,
+          14
+        ],
+        "engine": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",
@@ -33569,13 +47014,57 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "The happy is big.",
-        "This is a sad.",
-        "Let's play with the angry!",
-        "I have the excited.",
-        "We have a nervous.",
-        "Look at the calm!"
+        "The happy one is nice.",
+        "I like the happy one.",
+        "It is happy.",
+        "The sad one is nice.",
+        "I like the sad one.",
+        "It is sad.",
+        "The angry one is nice.",
+        "I like the angry one.",
+        "It is angry.",
+        "The excited one is nice.",
+        "I like the excited one.",
+        "It is excited.",
+        "The nervous one is nice.",
+        "I like the nervous one.",
+        "It is nervous.",
+        "This is a calm.",
+        "I like the calm.",
+        "I can see the calm."
       ],
+      "sentenceMap": {
+        "happy": [
+          0,
+          1,
+          2
+        ],
+        "sad": [
+          3,
+          4,
+          5
+        ],
+        "angry": [
+          6,
+          7,
+          8
+        ],
+        "excited": [
+          9,
+          10,
+          11
+        ],
+        "nervous": [
+          12,
+          13,
+          14
+        ],
+        "calm": [
+          15,
+          16,
+          17
+        ]
+      },
       "gameTypes": [
         "listen_pick_picture",
         "look_pick_word",

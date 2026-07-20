@@ -93,21 +93,149 @@ def plural_for(word):
     return w + "s"
 
 
+ADJECTIVE_WORDS = {
+    "red", "blue", "green", "yellow", "orange", "purple", "pink", "black",
+    "brown", "white", "gray", "grey", "sunny", "rainy", "snowy", "cloudy",
+    "windy", "stormy", "hot", "cold", "happy", "sad", "angry", "sleepy",
+    "scared", "surprised", "excited", "tired", "hungry", "thirsty", "bored",
+    "shy", "proud", "nervous", "silly", "healthy", "sick", "hungry", "thirsty",
+    "funny", "kind", "quiet", "noisy", "strong", "weak",
+}
+VERB_WORDS = {
+    "run", "jump", "walk", "swim", "climb", "dance", "sing", "draw", "read",
+    "play", "eat", "wake", "wash", "go", "ride", "cook", "paint", "watch",
+    "help", "study", "learn", "listen", "ask", "tell", "say", "write", "send",
+    "speak", "make", "do", "take", "put", "look", "buy", "sell", "pay", "save",
+    "need", "want", "like", "love", "hate", "enjoy", "prefer", "avoid", "choose",
+    "decide", "promise", "hope", "change", "join", "build", "travel", "drive", "fly",
+    "box", "ski", "skate", "surf", "cycle", "order", "open", "close", "call",
+    "see", "hear", "stop", "start", "continue", "wait", "work", "write", "watch",
+    "play", "paint", "cook", "search", "find", "remember", "forget", "help",
+}
+FUNCTION_WORDS = {
+    "can", "can't", "cannot", "may", "might", "must", "should", "ought", "would",
+    "will", "shall", "have", "has", "had", "do", "does", "did", "is", "are",
+    "was", "were", "not", "please", "let", "let's", "yes", "no",
+}
+NUMBER_WORDS = {"one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"}
+PLURAL_EXCEPTIONS = {"yes", "this", "his", "as", "was", "is", "has", "does", "goes", "lets", "us", "plus", "minus"}
+
+
+def article_for(word):
+    w = word.lower().strip()
+    return "an" if re.match(r"^[aeiou]", w) else "a"
+
+
 def make_sentences(items, base=None):
     base = base or []
-    words = [it[0] for it in items[:6]]
-    if not words:
-        words = ["word"]
     sentences = []
-    for w in words[:4]:
-        sentences.append("This is a %s." % w)
-    if len(words) > 1:
-        sentences.append("These are %s." % plural_for(words[1]))
-    if len(words) > 2:
-        sentences.append("I like the %s." % words[2])
-    if len(base):
-        sentences.extend(base)
-    return sentences[:6]
+    sentence_map = {}
+
+    def add_sentence(text, word):
+        if text in sentences:
+            idx = sentences.index(text)
+        else:
+            idx = len(sentences)
+            sentences.append(text)
+        sentence_map.setdefault(word, []).append(idx)
+
+    def categorize(word):
+        w = word.lower().strip()
+        if w in FUNCTION_WORDS:
+            return "function"
+        if w in NUMBER_WORDS or w.isdigit():
+            return "number"
+        if " " in w:
+            parts = w.split()
+            if parts[0] in VERB_WORDS or parts[-1] in {"up", "down", "in", "out", "on", "off", "away", "back"}:
+                return "verb"
+            return "phrase"
+        if w.endswith("ing"):
+            return "ing"
+        if w in ADJECTIVE_WORDS:
+            return "adjective"
+        if w.endswith("s") and w not in PLURAL_EXCEPTIONS:
+            return "plural"
+        if w in VERB_WORDS:
+            return "verb"
+        return "noun"
+
+    def build_templates(word, category):
+        if category == "adjective":
+            return [
+                "The %s one is nice." % word,
+                "I like the %s one." % word,
+                "It is %s." % word,
+                "This is very %s." % word,
+                "Can you see the %s one?" % word,
+                "The %s color is pretty." % word,
+            ]
+        if category == "verb":
+            return [
+                "I can %s." % word,
+                "Can you %s?" % word,
+                "We %s today." % word,
+                "She can %s." % word,
+                "Let's %s." % word,
+            ]
+        if category == "ing":
+            return [
+                "I am %s." % word,
+                "We are %s." % word,
+                "She is %s." % word,
+                "They are %s." % word,
+                "Can you %s?" % word,
+            ]
+        if category == "function":
+            return [
+                "Please say %s." % word,
+                "Say %s." % word,
+                "This is %s." % word,
+                "I want %s." % word,
+            ]
+        if category == "number":
+            return [
+                "I see %s." % word,
+                "There are %s." % word,
+                "Count %s." % word,
+                "This is %s." % word,
+            ]
+        if category == "plural":
+            return [
+                "These are %s." % word,
+                "I like %s." % word,
+                "Can you see %s?" % word,
+                "I see %s." % word,
+            ]
+        if category == "phrase":
+            return [
+                "This is %s." % word,
+                "I like %s." % word,
+                "Can you see %s?" % word,
+                "I want %s." % word,
+            ]
+        return [
+            "This is %s %s." % (article_for(word), word),
+            "I like the %s." % word,
+            "I can see the %s." % word,
+            "Look at the %s!" % word,
+            "My %s is here." % word,
+            "The %s is nice." % word,
+            "I want the %s." % word,
+            "Let's play with the %s." % word,
+        ]
+
+    for word, _ in items:
+        category = categorize(word)
+        templates = build_templates(word, category)
+        for text in templates[:3]:
+            add_sentence(text, word)
+
+    for text in base:
+        if text not in sentences:
+            sentences.append(text)
+
+    return sentences, sentence_map
 
 
 def make_grammar(theme, items):
@@ -809,11 +937,7 @@ def build():
                     "image": "images/%s.svg" % slug,
                     "color": color,
                 })
-            sentences = []
-            rng = random.Random((index + 1) * 17 + (ti + 1) * 7)
-            for it in items[:min(len(items), 8)]:
-                template = rng.choice(SENTENCE_TEMPLATES)
-                sentences.append(template.format(w=it["word"]))
+            sentences, sentence_map = make_sentences([(it["word"], it["emoji"]) for it in items])
             levels_out.append({
                 "id": level_id,
                 "index": index,
@@ -825,6 +949,7 @@ def build():
                 "color": color,
                 "items": items,
                 "sentences": sentences,
+                "sentenceMap": sentence_map,
                 "gameTypes": default_game_types[:],
             })
             index += 1
@@ -851,7 +976,7 @@ def build():
                 game_types = ["listen_pick_picture", "look_pick_word", "pick_word_gap", "build_sentence", "sort_rule", "transform", "fix_sentence", "true_false", "spell_it", "spell_it"]
             else:
                 game_types = ["listen_pick_picture", "look_pick_word", "pick_word_gap", "build_sentence", "sort_rule", "transform", "fix_sentence", "true_false", "spell_it", "spell_it"]
-            sentences = make_sentences([(it["word"], it["emoji"]) for it in items], base=[
+            sentences, sentence_map = make_sentences([(it["word"], it["emoji"]) for it in items], base=[
                 "This is my %s." % items[0]["word"] if items else "This is my word.",
                 "These are my %ss." % items[1]["word"] if len(items) > 1 else "These are my books.",
                 "Can you %s?" % items[2]["word"] if len(items) > 2 else "Can you swim?"
@@ -867,6 +992,7 @@ def build():
                 "color": color,
                 "items": items,
                 "sentences": sentences,
+                "sentenceMap": sentence_map,
                 "grammar": grammar,
                 "gameTypes": game_types,
             })
@@ -887,11 +1013,7 @@ def build():
                     "image": "images/%s.svg" % slug,
                     "color": color,
                 })
-            sentences = []
-            rng = random.Random((index + 1) * 17 + (ti + 1) * 7)
-            for it in items[:min(len(items), 8)]:
-                template = rng.choice(SENTENCE_TEMPLATES)
-                sentences.append(template.format(w=it["word"]))
+            sentences, sentence_map = make_sentences([(it["word"], it["emoji"]) for it in items])
             levels_out.append({
                 "id": level_id,
                 "index": index,
@@ -903,6 +1025,7 @@ def build():
                 "color": color,
                 "items": items,
                 "sentences": sentences,
+                "sentenceMap": sentence_map,
                 "gameTypes": default_game_types[:],
             })
             index += 1
