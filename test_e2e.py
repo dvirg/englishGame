@@ -404,7 +404,6 @@ def run_full_flow(page, base_url, username):
 
     # register a brand-new date/time user through the UI (a real gesture unlocks audio)
     page.fill("#u", username)
-    page.fill("#p", "secret1")
     page.click("#login-btn")
     page.wait_for_selector(".world-map")
     _check_page_images(page, step, "home screen")

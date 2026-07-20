@@ -1,2 +1,5 @@
 level.md
 test-artifacts/e2e-summary.png
+__pycache__/test_e2e.cpython-313-pytest-9.1.1.pyc
+/__pycache__
+/test-artifacts

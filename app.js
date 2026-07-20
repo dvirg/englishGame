@@ -321,38 +321,33 @@
     /* ------------------------------- Login ------------------------------ */
     renderLogin: function (msg) {
       Audio.warm(); var self = this; this.root.innerHTML = "";
-      var userIn, passIn, msgBox;
+      var userIn, msgBox;
       var card = el("div", { class: "login-card" },
         el("div", { class: "logo" }, "🚀"),
         el("h1", {}, "Magic Academy"),
         el("p", { class: "tag" }, "English Quest — learn & play!"),
         el("div", { class: "field" }, el("label", { for: "u" }, "Your name"),
           (userIn = el("input", { id: "u", type: "text", autocomplete: "off", placeholder: "e.g. Tzofia", maxlength: "20" }))),
-        el("div", { class: "field" }, el("label", { for: "p" }, "Secret word (password)"),
-          (passIn = el("input", { id: "p", type: "password", autocomplete: "off", placeholder: "your secret word" }))),
         (msgBox = el("div", { class: "login-msg" }, msg || "")),
         el("button", { class: "btn btn-answer", id: "login-btn" }, "Let's Go! ▶"),
-        el("p", { class: "login-hint" }, "New here? Just type a name and secret word to begin."));
+        el("p", { class: "login-hint" }, "New here? Just type your name to begin."));
       this.root.appendChild(el("div", { class: "login-wrap" }, card));
 
       function submit() {
         Audio.warm();
-        var u = (userIn.value || "").trim(), p = (passIn.value || "").trim();
+        var u = (userIn.value || "").trim();
         if (!u) { msgBox.textContent = "Please type your name."; return; }
-        if (!p) { msgBox.textContent = "Please type a secret word."; return; }
         var profiles = getProfiles();
-        if (profiles[u]) {
-          if (profiles[u].pass !== obfuscate(p)) { msgBox.textContent = "That secret word is wrong. Try again!"; Audio.speak("Try again!"); return; }
-        } else {
-          profiles[u] = normalize({ pass: obfuscate(p) }); saveProfiles(profiles);
+        if (!profiles[u]) {
+          profiles[u] = normalize({});
+          saveProfiles(profiles);
         }
         setCookie(CURRENT_KEY, u, 365);
         Audio.speak("Hello! Let's play!");
         self.renderHome();
       }
       $("#login-btn").addEventListener("click", submit);
-      passIn.addEventListener("keydown", function (e) { if (e.key === "Enter") submit(); });
-      userIn.addEventListener("keydown", function (e) { if (e.key === "Enter") passIn.focus(); });
+      userIn.addEventListener("keydown", function (e) { if (e.key === "Enter") submit(); });
     },
     logout: function () { delCookie(CURRENT_KEY); this.session = null; this.renderLogin(); },
 
@@ -1191,8 +1186,7 @@
     },
     login: function (u, p) {
       var profiles = getProfiles();
-      if (!profiles[u]) { profiles[u] = normalize({ pass: obfuscate(p) }); saveProfiles(profiles); }
-      else if (profiles[u].pass !== obfuscate(p)) return false;
+      if (!profiles[u]) { profiles[u] = normalize({}); saveProfiles(profiles); }
       setCookie(CURRENT_KEY, u, 365); App.renderHome(); return true;
     },
     startLevel: function (ref) { return App.startSession(ref); },   // false if locked

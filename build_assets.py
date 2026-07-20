@@ -750,6 +750,11 @@ SENTENCE_TEMPLATES = [
     "I want the {w}.",
     "The {w} is nice.",
     "This is a {w}.",
+    "I see a {w}.",
+    "I want a {w}.",
+    "The {w} is here.",
+    "We can use the {w}.",
+    "It is a {w}.",
 ]
 
 GAME_TYPES = [
