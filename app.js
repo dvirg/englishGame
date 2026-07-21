@@ -369,6 +369,7 @@
       var prof = currentProfile() || normalize({});
       var unlocked = prof.unlocked || 0;
       var current = Math.min(unlocked, TOTAL_LEVELS - 1);
+      var alwaysOpen = [100, 200];
 
       var top = el("div", { class: "topbar" },
         el("button", { class: "circle-btn", title: "Log out", "aria-label": "Log out", onclick: function () { self.logout(); } }, "⎋"),
@@ -396,14 +397,18 @@
       worlds.forEach(function (w) {
         var grid = el("div", { class: "level-grid" });
         w.levels.forEach(function (lv) {
-          var isUnlocked = lv.index <= unlocked;
+          var isUnlocked = lv.index <= unlocked || alwaysOpen.indexOf(lv.index) >= 0;
           var best = prof.levelScores[lv.id] || 0;
           var mastered = best >= UNLOCK_SCORE;
           var cls = "level-chip" + (!isUnlocked ? " locked" : mastered ? " mastered" : "") + (lv.index === current ? " current" : "");
+          var title = isUnlocked ? lv.name : "Score " + UNLOCK_SCORE + "+ on the level before to unlock";
+          if (!isUnlocked && alwaysOpen.indexOf(lv.index) >= 0) {
+            title = lv.name + " (open for experienced learners)";
+          }
           var chip = el("button", {
             class: cls, disabled: isUnlocked ? null : "true", "data-index": lv.index, "data-id": lv.id,
             onclick: isUnlocked ? function () { self.startSession(lv.index); } : null,
-            title: isUnlocked ? lv.name : "Score " + UNLOCK_SCORE + "+ on the level before to unlock"
+            title: title
           },
             el("div", { class: "chip-num" }, isUnlocked ? String(lv.index + 1) : "🔒"),
             el("div", { class: "chip-name" }, lv.name),
@@ -468,7 +473,8 @@
         : DATA.levels.filter(function (l) { return l.id === ref; })[0];
       if (!level) return false;
       var prof = currentProfile() || normalize({});
-      if (level.index > (prof.unlocked || 0)) {
+      var alwaysOpen = [100, 200];
+      if (level.index > (prof.unlocked || 0) && alwaysOpen.indexOf(level.index) < 0) {
         Audio.speak("This level is locked. Score " + UNLOCK_SCORE + " to unlock it!");
         FX.banner("🔒 Locked! Score " + UNLOCK_SCORE + "+ first", false);
         return false;
@@ -646,7 +652,8 @@
   function singleChoice(host, api, cfg) {
     if (cfg.promptNode) host.appendChild(cfg.promptNode);
     var instant = !!cfg.instant;   // instant: tap an option to answer (no ANSWER button)
-    var grid = el("div", { class: "options" + (cfg.twoUp ? " two" : "") });
+    var extraClass = cfg.twoUp ? " two" : cfg.options && cfg.options.length === 3 ? " three" : "";
+    var grid = el("div", { class: "options" + extraClass });
     var nodes = [], selected = -1, solved = false;
 
     function judge(i) {
@@ -790,8 +797,12 @@
     sort_it: function (host, api) {
       if (api.level.grammar && api.level.grammar.sort) return GAMES.sort_rule(host, api);
       // category A = this level; category B = a different level's items
+      var sortedLevels = api.allLevels.slice().sort(function (a, b) { return a.index - b.index; });
+      var nextLevels = sortedLevels.filter(function (l) {
+        return l.index > api.level.index && l.index <= api.level.index + 5 && l.items.length >= 2;
+      });
       var others = api.allLevels.filter(function (l) { return l.id !== api.level.id && l.items.length >= 2; });
-      var B = api.pick(others);
+      var B = api.pick(nextLevels.length ? nextLevels : others);
       var A = api.level;
       var tokens = api.shuffle(
         A.items.map(function (x) { return { it: x, cat: "A" }; })

@@ -419,10 +419,12 @@ def run_full_flow(page, base_url, username):
 
     chips = page.eval_on_selector_all(".level-chip", "els => els.length")
     locked = page.eval_on_selector_all(".level-chip.locked", "els => els.length")
-    assert chips == total and locked == total - 1, "map lock state wrong: %d chips / %d locked" % (chips, locked)
+    assert chips == total and locked == total - 3, "map lock state wrong: %d chips / %d locked" % (chips, locked)
     assert page.evaluate("() => window.GilorTest.startLevel(1)") is False
     assert page.evaluate("() => window.GilorTest.startLevel(9)") is False
-    step("Map: %d chips, %d locked; locked levels refuse to start" % (chips, locked))
+    assert page.evaluate("() => window.GilorTest.startLevel(100)") is True
+    assert page.evaluate("() => window.GilorTest.startLevel(200)") is True
+    step("Map: %d chips, %d locked; locked levels refuse to start except 101 and 201" % (chips, locked))
 
     # detailed checks on Level 1 (sound, tap-to-answer, images, all 10 types)
     assert page.evaluate("() => window.GilorTest.startLevel(0)") is True

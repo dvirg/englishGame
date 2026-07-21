@@ -256,9 +256,9 @@ def make_grammar(theme, items):
             {"text": "___ is a %s." % word3, "options": ["This", "These"], "correct": 0, "emoji": items[2][1] if len(items) > 2 else "🎒"},
         ]
         transform = [
-            {"prompt": "one %s →" % word1, "base": word1, "options": [plural_for(word1), word1 + "es", word1], "correct": 0},
-            {"prompt": "one %s →" % word2, "base": word2, "options": [word2 + "s", plural_for(word2), word2], "correct": 1},
-            {"prompt": "one %s →" % word3, "base": word3, "options": [plural_for(word3), word3 + "s", word3], "correct": 0},
+            {"prompt": "one %s -> two…?" % word1, "base": word1, "options": [plural_for(word1), word1 + "es", word1], "correct": 0},
+            {"prompt": "one %s -> two…?" % word2, "base": word2, "options": [word2 + "s", plural_for(word2), word2], "correct": 1},
+            {"prompt": "one %s -> two…?" % word3, "base": word3, "options": [plural_for(word3), word3 + "s", word3], "correct": 0},
         ]
         fix = [
             {"right": "This is a %s." % word1, "wrong": "This is an %s." % word1, "emoji": items[0][1] if items else "🖊️"},
@@ -922,6 +922,16 @@ def build():
         "sort_it", "build_sentence", "spell_it", "true_false", "listen_pick_word",
         "spell_it"
     ]
+    grammar_game_types = [
+        "look_pick_word", "match_pairs", "sort_it", "build_sentence",
+        "true_false", "pick_word_gap", "transform", "fix_sentence",
+        "sort_rule", "build_sentence"
+    ]
+    advanced_game_types = [
+        "look_pick_word", "match_pairs", "sort_it", "build_sentence",
+        "true_false", "look_pick_word", "match_pairs", "sort_it",
+        "build_sentence", "true_false"
+    ]
     for wi, (world_name, world_sub, topics) in enumerate(WORLDS):
         for ti, (topic, words) in enumerate(topics):
             color = PALETTE[index % len(PALETTE)]
@@ -970,12 +980,7 @@ def build():
                     "color": color,
                 })
             grammar = make_grammar(theme, [(it["word"], it["emoji"]) for it in items])
-            if ti == 8:
-                game_types = ["listen_pick_picture", "look_pick_word", "look_pick_sound", "match_pairs", "listen_pick_word", "spell_it", "spell_it", "build_sentence", "sort_it", "true_false"]
-            elif ti == 9:
-                game_types = ["listen_pick_picture", "look_pick_word", "pick_word_gap", "build_sentence", "sort_rule", "transform", "fix_sentence", "true_false", "spell_it", "spell_it"]
-            else:
-                game_types = ["listen_pick_picture", "look_pick_word", "pick_word_gap", "build_sentence", "sort_rule", "transform", "fix_sentence", "true_false", "spell_it", "spell_it"]
+            game_types = grammar_game_types[:]
             sentences, sentence_map = make_sentences([(it["word"], it["emoji"]) for it in items], base=[
                 "This is my %s." % items[0]["word"] if items else "This is my word.",
                 "These are my %ss." % items[1]["word"] if len(items) > 1 else "These are my books.",
@@ -1026,7 +1031,7 @@ def build():
                 "items": items,
                 "sentences": sentences,
                 "sentenceMap": sentence_map,
-                "gameTypes": default_game_types[:],
+                "gameTypes": advanced_game_types[:],
             })
             index += 1
 

@@ -12076,7 +12076,7 @@
         ],
         "transform": [
           {
-            "prompt": "one pen →",
+            "prompt": "one pen -> two…?",
             "base": "pen",
             "options": [
               "pens",
@@ -12086,7 +12086,7 @@
             "correct": 0
           },
           {
-            "prompt": "one book →",
+            "prompt": "one book -> two…?",
             "base": "book",
             "options": [
               "books",
@@ -12096,7 +12096,7 @@
             "correct": 1
           },
           {
-            "prompt": "one bag →",
+            "prompt": "one bag -> two…?",
             "base": "bag",
             "options": [
               "bags",
@@ -12156,16 +12156,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -12309,7 +12309,7 @@
         ],
         "transform": [
           {
-            "prompt": "one apple →",
+            "prompt": "one apple -> two…?",
             "base": "apple",
             "options": [
               "apples",
@@ -12319,7 +12319,7 @@
             "correct": 0
           },
           {
-            "prompt": "one egg →",
+            "prompt": "one egg -> two…?",
             "base": "egg",
             "options": [
               "eggs",
@@ -12329,7 +12329,7 @@
             "correct": 1
           },
           {
-            "prompt": "one orange →",
+            "prompt": "one orange -> two…?",
             "base": "orange",
             "options": [
               "oranges",
@@ -12389,16 +12389,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -12542,7 +12542,7 @@
         ],
         "transform": [
           {
-            "prompt": "one book →",
+            "prompt": "one book -> two…?",
             "base": "book",
             "options": [
               "books",
@@ -12552,7 +12552,7 @@
             "correct": 0
           },
           {
-            "prompt": "one pencil →",
+            "prompt": "one pencil -> two…?",
             "base": "pencil",
             "options": [
               "pencils",
@@ -12562,7 +12562,7 @@
             "correct": 1
           },
           {
-            "prompt": "one desk →",
+            "prompt": "one desk -> two…?",
             "base": "desk",
             "options": [
               "desks",
@@ -12622,16 +12622,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -12775,7 +12775,7 @@
         ],
         "transform": [
           {
-            "prompt": "one bag →",
+            "prompt": "one bag -> two…?",
             "base": "bag",
             "options": [
               "bags",
@@ -12785,7 +12785,7 @@
             "correct": 0
           },
           {
-            "prompt": "one board →",
+            "prompt": "one board -> two…?",
             "base": "board",
             "options": [
               "boards",
@@ -12795,7 +12795,7 @@
             "correct": 1
           },
           {
-            "prompt": "one desk →",
+            "prompt": "one desk -> two…?",
             "base": "desk",
             "options": [
               "desks",
@@ -12855,16 +12855,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -13008,7 +13008,7 @@
         ],
         "transform": [
           {
-            "prompt": "one pen →",
+            "prompt": "one pen -> two…?",
             "base": "pen",
             "options": [
               "pens",
@@ -13018,7 +13018,7 @@
             "correct": 0
           },
           {
-            "prompt": "one pencil →",
+            "prompt": "one pencil -> two…?",
             "base": "pencil",
             "options": [
               "pencils",
@@ -13028,7 +13028,7 @@
             "correct": 1
           },
           {
-            "prompt": "one book →",
+            "prompt": "one book -> two…?",
             "base": "book",
             "options": [
               "books",
@@ -13088,16 +13088,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -13241,7 +13241,7 @@
         ],
         "transform": [
           {
-            "prompt": "one bag →",
+            "prompt": "one bag -> two…?",
             "base": "bag",
             "options": [
               "bags",
@@ -13251,7 +13251,7 @@
             "correct": 0
           },
           {
-            "prompt": "one board →",
+            "prompt": "one board -> two…?",
             "base": "board",
             "options": [
               "boards",
@@ -13261,7 +13261,7 @@
             "correct": 1
           },
           {
-            "prompt": "one desk →",
+            "prompt": "one desk -> two…?",
             "base": "desk",
             "options": [
               "desks",
@@ -13321,16 +13321,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -13474,7 +13474,7 @@
         ],
         "transform": [
           {
-            "prompt": "one box →",
+            "prompt": "one box -> two…?",
             "base": "box",
             "options": [
               "boxes",
@@ -13484,7 +13484,7 @@
             "correct": 0
           },
           {
-            "prompt": "one bus →",
+            "prompt": "one bus -> two…?",
             "base": "bus",
             "options": [
               "buss",
@@ -13494,7 +13494,7 @@
             "correct": 1
           },
           {
-            "prompt": "one dress →",
+            "prompt": "one dress -> two…?",
             "base": "dress",
             "options": [
               "dresses",
@@ -13554,16 +13554,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -13707,7 +13707,7 @@
         ],
         "transform": [
           {
-            "prompt": "one two →",
+            "prompt": "one two -> two…?",
             "base": "two",
             "options": [
               "twos",
@@ -13717,7 +13717,7 @@
             "correct": 0
           },
           {
-            "prompt": "one three →",
+            "prompt": "one three -> two…?",
             "base": "three",
             "options": [
               "threes",
@@ -13727,7 +13727,7 @@
             "correct": 1
           },
           {
-            "prompt": "one four →",
+            "prompt": "one four -> two…?",
             "base": "four",
             "options": [
               "fours",
@@ -13787,16 +13787,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -13940,7 +13940,7 @@
         ],
         "transform": [
           {
-            "prompt": "one boat →",
+            "prompt": "one boat -> two…?",
             "base": "boat",
             "options": [
               "boats",
@@ -13950,7 +13950,7 @@
             "correct": 0
           },
           {
-            "prompt": "one coin →",
+            "prompt": "one coin -> two…?",
             "base": "coin",
             "options": [
               "coins",
@@ -13960,7 +13960,7 @@
             "correct": 1
           },
           {
-            "prompt": "one food →",
+            "prompt": "one food -> two…?",
             "base": "food",
             "options": [
               "foods",
@@ -14020,16 +14020,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
-        "listen_pick_word",
-        "spell_it",
-        "spell_it",
-        "build_sentence",
         "sort_it",
-        "true_false"
+        "build_sentence",
+        "true_false",
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -14173,7 +14173,7 @@
         ],
         "transform": [
           {
-            "prompt": "one pen →",
+            "prompt": "one pen -> two…?",
             "base": "pen",
             "options": [
               "pens",
@@ -14183,7 +14183,7 @@
             "correct": 0
           },
           {
-            "prompt": "one book →",
+            "prompt": "one book -> two…?",
             "base": "book",
             "options": [
               "books",
@@ -14193,7 +14193,7 @@
             "correct": 1
           },
           {
-            "prompt": "one bag →",
+            "prompt": "one bag -> two…?",
             "base": "bag",
             "options": [
               "bags",
@@ -14253,16 +14253,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -14489,16 +14489,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -14725,16 +14725,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -14961,16 +14961,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -15197,16 +15197,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -15433,16 +15433,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -15669,16 +15669,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -15905,16 +15905,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -16141,16 +16141,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -16377,16 +16377,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
-        "listen_pick_word",
-        "spell_it",
-        "spell_it",
-        "build_sentence",
         "sort_it",
-        "true_false"
+        "build_sentence",
+        "true_false",
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -16613,16 +16613,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -16845,16 +16845,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -17077,16 +17077,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -17309,16 +17309,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -17541,16 +17541,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -17773,16 +17773,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -18006,16 +18006,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -18238,16 +18238,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -18470,16 +18470,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -18703,16 +18703,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
-        "listen_pick_word",
-        "spell_it",
-        "spell_it",
-        "build_sentence",
         "sort_it",
-        "true_false"
+        "build_sentence",
+        "true_false",
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -18935,16 +18935,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -19168,16 +19168,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -19401,16 +19401,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -19634,16 +19634,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -19867,16 +19867,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -20100,16 +20100,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -20333,16 +20333,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -20566,16 +20566,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -20799,16 +20799,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -21032,16 +21032,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
-        "listen_pick_word",
-        "spell_it",
-        "spell_it",
-        "build_sentence",
         "sort_it",
-        "true_false"
+        "build_sentence",
+        "true_false",
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -21265,16 +21265,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -21498,16 +21498,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -21731,16 +21731,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -21964,16 +21964,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -22197,16 +22197,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -22430,16 +22430,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -22663,16 +22663,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -22896,16 +22896,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -23129,16 +23129,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -23362,16 +23362,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
-        "listen_pick_word",
-        "spell_it",
-        "spell_it",
-        "build_sentence",
         "sort_it",
-        "true_false"
+        "build_sentence",
+        "true_false",
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -23595,16 +23595,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -23827,16 +23827,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -24059,16 +24059,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -24291,16 +24291,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -24523,16 +24523,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -24755,16 +24755,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -24987,16 +24987,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -25219,16 +25219,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -25451,16 +25451,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -25683,16 +25683,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
-        "listen_pick_word",
-        "spell_it",
-        "spell_it",
-        "build_sentence",
         "sort_it",
-        "true_false"
+        "build_sentence",
+        "true_false",
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -25915,16 +25915,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -26151,16 +26151,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -26387,16 +26387,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -26623,16 +26623,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -26859,16 +26859,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -27095,16 +27095,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -27331,16 +27331,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -27567,16 +27567,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -27803,16 +27803,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -28039,16 +28039,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
-        "listen_pick_word",
-        "spell_it",
-        "spell_it",
-        "build_sentence",
         "sort_it",
-        "true_false"
+        "build_sentence",
+        "true_false",
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -28275,16 +28275,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -28508,16 +28508,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -28741,16 +28741,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -28974,16 +28974,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -29207,16 +29207,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -29440,16 +29440,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -29673,16 +29673,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -29906,16 +29906,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -30139,16 +30139,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -30372,16 +30372,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
-        "listen_pick_word",
-        "spell_it",
-        "spell_it",
-        "build_sentence",
         "sort_it",
-        "true_false"
+        "build_sentence",
+        "true_false",
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -30605,16 +30605,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -30838,16 +30838,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -31071,16 +31071,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -31304,16 +31304,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -31537,16 +31537,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -31770,16 +31770,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -32003,16 +32003,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -32236,16 +32236,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -32469,16 +32469,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -32702,16 +32702,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
-        "listen_pick_word",
-        "spell_it",
-        "spell_it",
-        "build_sentence",
         "sort_it",
-        "true_false"
+        "build_sentence",
+        "true_false",
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -32935,16 +32935,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -33168,16 +33168,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -33401,16 +33401,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -33634,16 +33634,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -33867,16 +33867,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -34100,16 +34100,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -34333,16 +34333,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -34566,16 +34566,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -34799,16 +34799,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -35032,16 +35032,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
-        "listen_pick_word",
-        "spell_it",
-        "spell_it",
-        "build_sentence",
         "sort_it",
-        "true_false"
+        "build_sentence",
+        "true_false",
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -35265,16 +35265,16 @@
         }
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "pick_word_gap",
+        "match_pairs",
+        "sort_it",
         "build_sentence",
-        "sort_rule",
+        "true_false",
+        "pick_word_gap",
         "transform",
         "fix_sentence",
-        "true_false",
-        "spell_it",
-        "spell_it"
+        "sort_rule",
+        "build_sentence"
       ]
     },
     {
@@ -35383,16 +35383,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -35501,16 +35501,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -35619,16 +35619,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -35737,16 +35737,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -35855,16 +35855,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -35973,16 +35973,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -36091,16 +36091,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -36209,16 +36209,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -36327,16 +36327,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -36445,16 +36445,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -36563,16 +36563,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -36681,16 +36681,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -36799,16 +36799,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -36917,16 +36917,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -37035,16 +37035,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -37153,16 +37153,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -37271,16 +37271,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -37389,16 +37389,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -37507,16 +37507,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -37625,16 +37625,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -37743,16 +37743,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -37861,16 +37861,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -37979,16 +37979,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -38097,16 +38097,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -38215,16 +38215,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -38333,16 +38333,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -38451,16 +38451,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -38569,16 +38569,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -38687,16 +38687,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -38805,16 +38805,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -38923,16 +38923,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -39041,16 +39041,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -39159,16 +39159,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -39277,16 +39277,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -39395,16 +39395,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -39513,16 +39513,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -39631,16 +39631,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -39749,16 +39749,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -39867,16 +39867,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -39985,16 +39985,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -40103,16 +40103,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -40221,16 +40221,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -40339,16 +40339,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -40457,16 +40457,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -40575,16 +40575,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -40693,16 +40693,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -40811,16 +40811,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -40929,16 +40929,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -41047,16 +41047,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -41165,16 +41165,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -41283,16 +41283,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -41401,16 +41401,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -41519,16 +41519,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -41637,16 +41637,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -41755,16 +41755,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -41873,16 +41873,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -41991,16 +41991,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -42109,16 +42109,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -42227,16 +42227,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -42345,16 +42345,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -42463,16 +42463,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -42581,16 +42581,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -42699,16 +42699,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -42817,16 +42817,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -42935,16 +42935,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -43053,16 +43053,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -43171,16 +43171,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -43289,16 +43289,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -43407,16 +43407,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -43525,16 +43525,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -43643,16 +43643,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -43761,16 +43761,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -43879,16 +43879,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -43997,16 +43997,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -44115,16 +44115,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -44233,16 +44233,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -44351,16 +44351,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -44469,16 +44469,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -44587,16 +44587,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -44705,16 +44705,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -44823,16 +44823,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -44941,16 +44941,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -45059,16 +45059,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -45177,16 +45177,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -45295,16 +45295,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -45413,16 +45413,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -45531,16 +45531,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -45649,16 +45649,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -45767,16 +45767,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -45885,16 +45885,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -46003,16 +46003,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -46121,16 +46121,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -46239,16 +46239,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -46357,16 +46357,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -46475,16 +46475,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -46593,16 +46593,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -46711,16 +46711,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -46829,16 +46829,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -46947,16 +46947,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     },
     {
@@ -47065,16 +47065,16 @@
         ]
       },
       "gameTypes": [
-        "listen_pick_picture",
         "look_pick_word",
-        "look_pick_sound",
         "match_pairs",
         "sort_it",
         "build_sentence",
-        "spell_it",
         "true_false",
-        "listen_pick_word",
-        "spell_it"
+        "look_pick_word",
+        "match_pairs",
+        "sort_it",
+        "build_sentence",
+        "true_false"
       ]
     }
   ]
