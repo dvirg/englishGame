@@ -126,6 +126,107 @@ def article_for(word):
     return "an" if re.match(r"^[aeiou]", w) else "a"
 
 
+UNCOUNTABLE_WORDS = {
+    "water", "rice", "sugar", "juice", "milk", "bread", "coffee", "tea",
+    "meat", "information", "furniture", "music", "homework",
+}
+
+
+def third_person_s(word):
+    w = word.lower().strip()
+    if w.endswith(("s", "x", "z", "ch", "sh")):
+        return w + "es"
+    if w.endswith("y") and len(w) > 1 and w[-2] not in "aeiou":
+        return w[:-1] + "ies"
+    return w + "s"
+
+
+def grammar_sort(theme, items):
+    def comparative_form(word):
+        lower = word.lower().strip()
+        if lower == "good":
+            return "better"
+        if lower == "bad":
+            return "worse"
+        if lower.endswith("y") and len(lower) > 1 and lower[-2] not in "aeiou":
+            return word[:-1] + "ier"
+        if lower.endswith("e"):
+            return word + "r"
+        return word + "er"
+
+    tokens = []
+    for idx, (word, emoji) in enumerate(items):
+        lower = word.lower().strip()
+        if theme == "this-an":
+            binA, binB = "a", "an"
+            cat = "A" if article_for(word) == "a" else "B"
+            text = word
+        elif theme == "to-be":
+            binA, binB = "am/is", "are"
+            if idx % 2 == 0:
+                text = "This is %s" % word if lower in ADJECTIVE_WORDS or " " in lower else "This is a %s" % word
+                cat = "A"
+            else:
+                text = "They are %s" % plural_for(word)
+                cat = "B"
+        elif theme == "can":
+            binA, binB = "can", "can't"
+            text = "I can %s" % word if idx % 2 == 0 else "I can't %s" % word
+            cat = "A" if idx % 2 == 0 else "B"
+        elif theme == "have-got":
+            binA, binB = "have got", "has got"
+            text = "I have got %s" % word if lower in UNCOUNTABLE_WORDS else "I have got a %s" % word
+            cat = "A" if idx % 2 == 0 else "B"
+            if idx % 2 != 0:
+                text = "She has got %s" % word if lower in UNCOUNTABLE_WORDS else "She has got a %s" % word
+        elif theme == "like":
+            binA, binB = "like", "likes"
+            text = "I like %s" % word if idx % 2 == 0 else "She likes %s" % word
+            cat = "A" if idx % 2 == 0 else "B"
+        elif theme == "routine":
+            binA, binB = "I/you", "he/she"
+            text = "I %s" % word if idx % 2 == 0 else "He %s" % third_person_s(word)
+            cat = "A" if idx % 2 == 0 else "B"
+        elif theme == "present-cont":
+            binA, binB = "am/is", "are"
+            text = "I am %s" % word if idx % 2 == 0 else "They are %s" % word
+            cat = "A" if idx % 2 == 0 else "B"
+        elif theme == "quantity":
+            binA, binB = "how many", "how much"
+            if lower in UNCOUNTABLE_WORDS:
+                text, cat = "How much %s" % word, "B"
+            else:
+                text, cat = "How many %s" % word, "A"
+        elif theme == "comparative":
+            binA, binB = "-er", "more"
+            if idx % 2 == 0:
+                text, cat = comparative_form(word), "A"
+            else:
+                text, cat = "more %s" % word, "B"
+        elif theme == "was-were":
+            binA, binB = "was", "were"
+            if idx % 2 == 0:
+                if lower in {"left", "right", "next to", "under", "on", "in"} or " " in lower:
+                    text = "It was %s" % word
+                else:
+                    text = "There was a %s" % word
+                cat = "A"
+            else:
+                if lower in {"left", "right", "next to", "under", "on", "in"} or " " in lower:
+                    text = "They were %s" % word
+                else:
+                    text = "There were %s" % plural_for(word)
+                cat = "B"
+        else:
+            binA, binB = "one", "many"
+            if idx % 2 == 0:
+                text, cat = "a %s" % word, "A"
+            else:
+                text, cat = "two %s" % plural_for(word), "B"
+        tokens.append({"t": text, "cat": cat, "emoji": emoji})
+    return {"binA": binA, "binB": binB, "tokens": tokens}
+
+
 def make_sentences(items, base=None):
     base = base or []
     sentences = []
@@ -251,9 +352,9 @@ def make_grammar(theme, items):
     if theme == "this-an":
         target = "This is a / an"
         gap = [
-            {"text": "This is ___ %s." % word1, "options": ["a", "an"], "correct": 0, "emoji": items[0][1] if items else "🖊️"},
-            {"text": "This is ___ %s." % word2, "options": ["a", "an"], "correct": 1, "emoji": items[1][1] if len(items) > 1 else "📚"},
-            {"text": "___ is a %s." % word3, "options": ["This", "These"], "correct": 0, "emoji": items[2][1] if len(items) > 2 else "🎒"},
+            {"text": "This is ___ %s." % word1, "options": ["a", "an"], "correct": 0 if article_for(word1) == "a" else 1, "emoji": items[0][1] if items else "🖊️"},
+            {"text": "This is ___ %s." % word2, "options": ["a", "an"], "correct": 0 if article_for(word2) == "a" else 1, "emoji": items[1][1] if len(items) > 1 else "📚"},
+            {"text": "___ is %s %s." % (article_for(word3), word3), "options": ["This", "These"], "correct": 0, "emoji": items[2][1] if len(items) > 2 else "🎒"},
         ]
         transform = [
             {"prompt": "one %s -> two…?" % word1, "base": word1, "options": [plural_for(word1), word1 + "es", word1], "correct": 0},
@@ -261,17 +362,11 @@ def make_grammar(theme, items):
             {"prompt": "one %s -> two…?" % word3, "base": word3, "options": [plural_for(word3), word3 + "s", word3], "correct": 0},
         ]
         fix = [
-            {"right": "This is a %s." % word1, "wrong": "This is an %s." % word1, "emoji": items[0][1] if items else "🖊️"},
-            {"right": "This is an %s." % word2, "wrong": "This is a %s." % word2, "emoji": items[1][1] if len(items) > 1 else "🍎"},
+            {"right": "This is %s %s." % (article_for(word1), word1), "wrong": "This is %s %s." % ("an" if article_for(word1) == "a" else "a", word1), "emoji": items[0][1] if items else "🖊️"},
+            {"right": "This is %s %s." % (article_for(word2), word2), "wrong": "This is %s %s." % ("an" if article_for(word2) == "a" else "a", word2), "emoji": items[1][1] if len(items) > 1 else "🍎"},
             {"right": "This is my %s." % word3, "wrong": "This is my %ss." % word3, "emoji": items[2][1] if len(items) > 2 else "🎒"},
         ]
-        sort = {"binA": "a", "binB": "an", "tokens": [
-            {"t": word1, "cat": "A", "emoji": items[0][1] if items else "🖊️"},
-            {"t": word2, "cat": "B", "emoji": items[1][1] if len(items) > 1 else "🍎"},
-            {"t": word3, "cat": "A", "emoji": items[2][1] if len(items) > 2 else "📕"},
-            {"t": word4, "cat": "B", "emoji": items[3][1] if len(items) > 3 else "🧸"},
-            {"t": word5, "cat": "A", "emoji": items[4][1] if len(items) > 4 else "🪑"},
-        ]}
+        sort = grammar_sort(theme, items)
     elif theme == "to-be":
         target = "To be"
         gap = [
@@ -289,13 +384,7 @@ def make_grammar(theme, items):
             {"right": "She is my sister.", "wrong": "She are my sister.", "emoji": "👧"},
             {"right": "We are friends.", "wrong": "We am friends.", "emoji": "🤝"},
         ]
-        sort = {"binA": "am/is", "binB": "are", "tokens": [
-            {"t": "I am", "cat": "A", "emoji": "😀"},
-            {"t": "she is", "cat": "A", "emoji": "👧"},
-            {"t": "you are", "cat": "B", "emoji": "🧒"},
-            {"t": "we are", "cat": "B", "emoji": "👨‍👩‍👧"},
-            {"t": "it is", "cat": "A", "emoji": "🐱"},
-        ]}
+        sort = grammar_sort(theme, items)
     elif theme == "can":
         target = "Can / can't"
         gap = [
@@ -313,13 +402,7 @@ def make_grammar(theme, items):
             {"right": "She can't fly.", "wrong": "She can not fly.", "emoji": "🦅"},
             {"right": "Can you swim?", "wrong": "Can you swims?", "emoji": "🏊"},
         ]
-        sort = {"binA": "can", "binB": "can't", "tokens": [
-            {"t": "I can run", "cat": "A", "emoji": "🏃"},
-            {"t": "I can't fly", "cat": "B", "emoji": "🦅"},
-            {"t": "She can dance", "cat": "A", "emoji": "💃"},
-            {"t": "He can't swim", "cat": "B", "emoji": "🏊"},
-            {"t": "We can sing", "cat": "A", "emoji": "🎤"},
-        ]}
+        sort = grammar_sort(theme, items)
     elif theme == "have-got":
         target = "Have got / has got"
         gap = [
@@ -337,13 +420,7 @@ def make_grammar(theme, items):
             {"right": "She has got a doll.", "wrong": "She have got a doll.", "emoji": "🧸"},
             {"right": "Have you got a ball?", "wrong": "Has you got a ball?", "emoji": "⚽"},
         ]
-        sort = {"binA": "have got", "binB": "has got", "tokens": [
-            {"t": "I have got a bike", "cat": "A", "emoji": "🚲"},
-            {"t": "She has got a doll", "cat": "B", "emoji": "🧸"},
-            {"t": "We have got a robot", "cat": "A", "emoji": "🤖"},
-            {"t": "He has got a puzzle", "cat": "B", "emoji": "🧩"},
-            {"t": "You have got a guitar", "cat": "A", "emoji": "🎸"},
-        ]}
+        sort = grammar_sort(theme, items)
     elif theme == "like":
         target = "Like / likes"
         gap = [
@@ -361,13 +438,7 @@ def make_grammar(theme, items):
             {"right": "I like pizza.", "wrong": "I likes pizza.", "emoji": "🍕"},
             {"right": "Do you like fish?", "wrong": "Do you likes fish?", "emoji": "🐟"},
         ]
-        sort = {"binA": "like", "binB": "likes", "tokens": [
-            {"t": "I like milk", "cat": "A", "emoji": "🥛"},
-            {"t": "She likes cake", "cat": "B", "emoji": "🍰"},
-            {"t": "We like apples", "cat": "A", "emoji": "🍎"},
-            {"t": "He likes soup", "cat": "B", "emoji": "🍲"},
-            {"t": "They like rice", "cat": "A", "emoji": "🍚"},
-        ]}
+        sort = grammar_sort(theme, items)
     elif theme == "routine":
         target = "Present simple routine"
         gap = [
@@ -385,13 +456,7 @@ def make_grammar(theme, items):
             {"right": "I get up at seven.", "wrong": "I gets up at seven.", "emoji": "⏰"},
             {"right": "We eat dinner at six.", "wrong": "We eats dinner at six.", "emoji": "🍽️"},
         ]
-        sort = {"binA": "I/you", "binB": "he/she", "tokens": [
-            {"t": "I get up", "cat": "A", "emoji": "⏰"},
-            {"t": "She reads", "cat": "B", "emoji": "📖"},
-            {"t": "You play", "cat": "A", "emoji": "🎮"},
-            {"t": "He sleeps", "cat": "B", "emoji": "😴"},
-            {"t": "We wash", "cat": "A", "emoji": "🧼"},
-        ]}
+        sort = grammar_sort(theme, items)
     elif theme == "present-cont":
         target = "Present continuous"
         gap = [
@@ -409,13 +474,7 @@ def make_grammar(theme, items):
             {"right": "They are camping.", "wrong": "They is camping.", "emoji": "⛺"},
             {"right": "I am running.", "wrong": "I is running.", "emoji": "🏃"},
         ]
-        sort = {"binA": "am/is", "binB": "are", "tokens": [
-            {"t": "I am running", "cat": "A", "emoji": "🏃"},
-            {"t": "She is reading", "cat": "A", "emoji": "📖"},
-            {"t": "They are jumping", "cat": "B", "emoji": "🤸"},
-            {"t": "We are painting", "cat": "B", "emoji": "🎨"},
-            {"t": "He is cooking", "cat": "A", "emoji": "🍳"},
-        ]}
+        sort = grammar_sort(theme, items)
     elif theme == "quantity":
         target = "How much / how many"
         gap = [
@@ -433,13 +492,7 @@ def make_grammar(theme, items):
             {"right": "How much water?", "wrong": "How many water?", "emoji": "💧"},
             {"right": "I would like some juice.", "wrong": "I would like a juice.", "emoji": "🧃"},
         ]
-        sort = {"binA": "how many", "binB": "how much", "tokens": [
-            {"t": "How many apples", "cat": "A", "emoji": "🍎"},
-            {"t": "How much water", "cat": "B", "emoji": "💧"},
-            {"t": "How many eggs", "cat": "A", "emoji": "🥚"},
-            {"t": "How much rice", "cat": "B", "emoji": "🍚"},
-            {"t": "How many bananas", "cat": "A", "emoji": "🍌"},
-        ]}
+        sort = grammar_sort(theme, items)
     elif theme == "comparative":
         target = "Comparatives"
         gap = [
@@ -457,13 +510,7 @@ def make_grammar(theme, items):
             {"right": "A snail is slower than a rocket.", "wrong": "A snail is slow than a rocket.", "emoji": "🐌"},
             {"right": "A giraffe is taller than a dog.", "wrong": "A giraffe is tall than a dog.", "emoji": "🦒"},
         ]
-        sort = {"binA": "-er", "binB": "more", "tokens": [
-            {"t": "bigger", "cat": "A", "emoji": "🦁"},
-            {"t": "more beautiful", "cat": "B", "emoji": "🌸"},
-            {"t": "smaller", "cat": "A", "emoji": "🐜"},
-            {"t": "more interesting", "cat": "B", "emoji": "🔍"},
-            {"t": "faster", "cat": "A", "emoji": "🚀"},
-        ]}
+        sort = grammar_sort(theme, items)
     else:
         target = "Review"
         gap = [
@@ -481,13 +528,7 @@ def make_grammar(theme, items):
             {"right": "She likes cake.", "wrong": "She like cake.", "emoji": "🍰"},
             {"right": "I am happy.", "wrong": "I is happy.", "emoji": "😀"},
         ]
-        sort = {"binA": "one", "binB": "many", "tokens": [
-            {"t": "a %s" % word1, "cat": "A", "emoji": items[0][1] if items else "🖊️"},
-            {"t": "three %ss" % word2, "cat": "B", "emoji": items[1][1] if len(items) > 1 else "🧸"},
-            {"t": "an %s" % word3, "cat": "A", "emoji": items[2][1] if len(items) > 2 else "📕"},
-            {"t": "two %ss" % word4, "cat": "B", "emoji": items[3][1] if len(items) > 3 else "🎒"},
-            {"t": "a %s" % word5, "cat": "A", "emoji": items[4][1] if len(items) > 4 else "🪑"},
-        ]}
+        sort = grammar_sort(theme, items)
     return {"target": target, "gap": gap, "transform": transform, "fix": fix, "sort": sort}
 
 

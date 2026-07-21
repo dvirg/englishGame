@@ -12062,7 +12062,7 @@ window.GAME_DATA = {
               "a",
               "an"
             ],
-            "correct": 1,
+            "correct": 0,
             "emoji": "📚"
           },
           {
@@ -12114,8 +12114,8 @@ window.GAME_DATA = {
             "emoji": "🖊️"
           },
           {
-            "right": "This is an book.",
-            "wrong": "This is a book.",
+            "right": "This is a book.",
+            "wrong": "This is an book.",
             "emoji": "📚"
           },
           {
@@ -12135,7 +12135,7 @@ window.GAME_DATA = {
             },
             {
               "t": "book",
-              "cat": "B",
+              "cat": "A",
               "emoji": "📚"
             },
             {
@@ -12145,13 +12145,18 @@ window.GAME_DATA = {
             },
             {
               "t": "desk",
-              "cat": "B",
+              "cat": "A",
               "emoji": "🪑"
             },
             {
               "t": "ruler",
               "cat": "A",
               "emoji": "📏"
+            },
+            {
+              "t": "apple",
+              "cat": "B",
+              "emoji": "🍎"
             }
           ]
         }
@@ -12286,7 +12291,7 @@ window.GAME_DATA = {
               "a",
               "an"
             ],
-            "correct": 0,
+            "correct": 1,
             "emoji": "🍎"
           },
           {
@@ -12299,7 +12304,7 @@ window.GAME_DATA = {
             "emoji": "🥚"
           },
           {
-            "text": "___ is a orange.",
+            "text": "___ is an orange.",
             "options": [
               "This",
               "These"
@@ -12342,8 +12347,8 @@ window.GAME_DATA = {
         ],
         "fix": [
           {
-            "right": "This is a apple.",
-            "wrong": "This is an apple.",
+            "right": "This is an apple.",
+            "wrong": "This is a apple.",
             "emoji": "🍎"
           },
           {
@@ -12363,7 +12368,7 @@ window.GAME_DATA = {
           "tokens": [
             {
               "t": "apple",
-              "cat": "A",
+              "cat": "B",
               "emoji": "🍎"
             },
             {
@@ -12373,7 +12378,7 @@ window.GAME_DATA = {
             },
             {
               "t": "orange",
-              "cat": "A",
+              "cat": "B",
               "emoji": "🍊"
             },
             {
@@ -12383,8 +12388,13 @@ window.GAME_DATA = {
             },
             {
               "t": "ant",
-              "cat": "A",
+              "cat": "B",
               "emoji": "🐜"
+            },
+            {
+              "t": "ice cream",
+              "cat": "B",
+              "emoji": "🍦"
             }
           ]
         }
@@ -12528,7 +12538,7 @@ window.GAME_DATA = {
               "a",
               "an"
             ],
-            "correct": 1,
+            "correct": 0,
             "emoji": "✏️"
           },
           {
@@ -12580,8 +12590,8 @@ window.GAME_DATA = {
             "emoji": "📚"
           },
           {
-            "right": "This is an pencil.",
-            "wrong": "This is a pencil.",
+            "right": "This is a pencil.",
+            "wrong": "This is an pencil.",
             "emoji": "✏️"
           },
           {
@@ -12601,7 +12611,7 @@ window.GAME_DATA = {
             },
             {
               "t": "pencil",
-              "cat": "B",
+              "cat": "A",
               "emoji": "✏️"
             },
             {
@@ -12611,13 +12621,18 @@ window.GAME_DATA = {
             },
             {
               "t": "bag",
-              "cat": "B",
+              "cat": "A",
               "emoji": "🎒"
             },
             {
               "t": "chair",
               "cat": "A",
               "emoji": "🪑"
+            },
+            {
+              "t": "tablet",
+              "cat": "A",
+              "emoji": "📱"
             }
           ]
         }
@@ -12761,7 +12776,7 @@ window.GAME_DATA = {
               "a",
               "an"
             ],
-            "correct": 1,
+            "correct": 0,
             "emoji": "🖼️"
           },
           {
@@ -12813,8 +12828,8 @@ window.GAME_DATA = {
             "emoji": "🎒"
           },
           {
-            "right": "This is an board.",
-            "wrong": "This is a board.",
+            "right": "This is a board.",
+            "wrong": "This is an board.",
             "emoji": "🖼️"
           },
           {
@@ -12834,7 +12849,7 @@ window.GAME_DATA = {
             },
             {
               "t": "board",
-              "cat": "B",
+              "cat": "A",
               "emoji": "🖼️"
             },
             {
@@ -12844,13 +12859,18 @@ window.GAME_DATA = {
             },
             {
               "t": "chair",
-              "cat": "B",
+              "cat": "A",
               "emoji": "🪑"
             },
             {
               "t": "pen",
               "cat": "A",
               "emoji": "🖊️"
+            },
+            {
+              "t": "ruler",
+              "cat": "A",
+              "emoji": "📏"
             }
           ]
         }
@@ -12994,7 +13014,7 @@ window.GAME_DATA = {
               "a",
               "an"
             ],
-            "correct": 1,
+            "correct": 0,
             "emoji": "✏️"
           },
           {
@@ -13046,8 +13066,8 @@ window.GAME_DATA = {
             "emoji": "🖊️"
           },
           {
-            "right": "This is an pencil.",
-            "wrong": "This is a pencil.",
+            "right": "This is a pencil.",
+            "wrong": "This is an pencil.",
             "emoji": "✏️"
           },
           {
@@ -13067,7 +13087,7 @@ window.GAME_DATA = {
             },
             {
               "t": "pencil",
-              "cat": "B",
+              "cat": "A",
               "emoji": "✏️"
             },
             {
@@ -13077,13 +13097,18 @@ window.GAME_DATA = {
             },
             {
               "t": "desk",
-              "cat": "B",
+              "cat": "A",
               "emoji": "🪑"
             },
             {
               "t": "chair",
               "cat": "A",
               "emoji": "🪑"
+            },
+            {
+              "t": "tablet",
+              "cat": "A",
+              "emoji": "📱"
             }
           ]
         }
@@ -13227,7 +13252,7 @@ window.GAME_DATA = {
               "a",
               "an"
             ],
-            "correct": 1,
+            "correct": 0,
             "emoji": "🖼️"
           },
           {
@@ -13279,8 +13304,8 @@ window.GAME_DATA = {
             "emoji": "🎒"
           },
           {
-            "right": "This is an board.",
-            "wrong": "This is a board.",
+            "right": "This is a board.",
+            "wrong": "This is an board.",
             "emoji": "🖼️"
           },
           {
@@ -13300,7 +13325,7 @@ window.GAME_DATA = {
             },
             {
               "t": "board",
-              "cat": "B",
+              "cat": "A",
               "emoji": "🖼️"
             },
             {
@@ -13310,13 +13335,18 @@ window.GAME_DATA = {
             },
             {
               "t": "chair",
-              "cat": "B",
+              "cat": "A",
               "emoji": "🪑"
             },
             {
               "t": "table",
               "cat": "A",
               "emoji": "🪑"
+            },
+            {
+              "t": "pencil",
+              "cat": "A",
+              "emoji": "✏️"
             }
           ]
         }
@@ -13460,7 +13490,7 @@ window.GAME_DATA = {
               "a",
               "an"
             ],
-            "correct": 1,
+            "correct": 0,
             "emoji": "🚌"
           },
           {
@@ -13512,8 +13542,8 @@ window.GAME_DATA = {
             "emoji": "📦"
           },
           {
-            "right": "This is an bus.",
-            "wrong": "This is a bus.",
+            "right": "This is a bus.",
+            "wrong": "This is an bus.",
             "emoji": "🚌"
           },
           {
@@ -13533,7 +13563,7 @@ window.GAME_DATA = {
             },
             {
               "t": "bus",
-              "cat": "B",
+              "cat": "A",
               "emoji": "🚌"
             },
             {
@@ -13543,13 +13573,18 @@ window.GAME_DATA = {
             },
             {
               "t": "glass",
-              "cat": "B",
+              "cat": "A",
               "emoji": "🫙"
             },
             {
               "t": "watch",
               "cat": "A",
               "emoji": "⌚"
+            },
+            {
+              "t": "brush",
+              "cat": "A",
+              "emoji": "🪥"
             }
           ]
         }
@@ -13693,7 +13728,7 @@ window.GAME_DATA = {
               "a",
               "an"
             ],
-            "correct": 1,
+            "correct": 0,
             "emoji": "3️⃣"
           },
           {
@@ -13745,8 +13780,8 @@ window.GAME_DATA = {
             "emoji": "2️⃣"
           },
           {
-            "right": "This is an three.",
-            "wrong": "This is a three.",
+            "right": "This is a three.",
+            "wrong": "This is an three.",
             "emoji": "3️⃣"
           },
           {
@@ -13766,7 +13801,7 @@ window.GAME_DATA = {
             },
             {
               "t": "three",
-              "cat": "B",
+              "cat": "A",
               "emoji": "3️⃣"
             },
             {
@@ -13776,13 +13811,18 @@ window.GAME_DATA = {
             },
             {
               "t": "five",
-              "cat": "B",
+              "cat": "A",
               "emoji": "5️⃣"
             },
             {
               "t": "six",
               "cat": "A",
               "emoji": "6️⃣"
+            },
+            {
+              "t": "seven",
+              "cat": "A",
+              "emoji": "7️⃣"
             }
           ]
         }
@@ -13926,7 +13966,7 @@ window.GAME_DATA = {
               "a",
               "an"
             ],
-            "correct": 1,
+            "correct": 0,
             "emoji": "🪙"
           },
           {
@@ -13978,8 +14018,8 @@ window.GAME_DATA = {
             "emoji": "⛵"
           },
           {
-            "right": "This is an coin.",
-            "wrong": "This is a coin.",
+            "right": "This is a coin.",
+            "wrong": "This is an coin.",
             "emoji": "🪙"
           },
           {
@@ -13999,7 +14039,7 @@ window.GAME_DATA = {
             },
             {
               "t": "coin",
-              "cat": "B",
+              "cat": "A",
               "emoji": "🪙"
             },
             {
@@ -14009,13 +14049,18 @@ window.GAME_DATA = {
             },
             {
               "t": "school",
-              "cat": "B",
+              "cat": "A",
               "emoji": "🏫"
             },
             {
               "t": "book",
               "cat": "A",
               "emoji": "📚"
+            },
+            {
+              "t": "room",
+              "cat": "A",
+              "emoji": "🏠"
             }
           ]
         }
@@ -14159,7 +14204,7 @@ window.GAME_DATA = {
               "a",
               "an"
             ],
-            "correct": 1,
+            "correct": 0,
             "emoji": "📚"
           },
           {
@@ -14211,8 +14256,8 @@ window.GAME_DATA = {
             "emoji": "🖊️"
           },
           {
-            "right": "This is an book.",
-            "wrong": "This is a book.",
+            "right": "This is a book.",
+            "wrong": "This is an book.",
             "emoji": "📚"
           },
           {
@@ -14232,7 +14277,7 @@ window.GAME_DATA = {
             },
             {
               "t": "book",
-              "cat": "B",
+              "cat": "A",
               "emoji": "📚"
             },
             {
@@ -14242,13 +14287,18 @@ window.GAME_DATA = {
             },
             {
               "t": "desk",
-              "cat": "B",
+              "cat": "A",
               "emoji": "🪑"
             },
             {
               "t": "ruler",
               "cat": "A",
               "emoji": "📏"
+            },
+            {
+              "t": "tablet",
+              "cat": "A",
+              "emoji": "📱"
             }
           ]
         }
@@ -14462,29 +14512,34 @@ window.GAME_DATA = {
           "binB": "are",
           "tokens": [
             {
-              "t": "I am",
+              "t": "This is a mom",
               "cat": "A",
-              "emoji": "😀"
+              "emoji": "👩"
             },
             {
-              "t": "she is",
+              "t": "They are dads",
+              "cat": "B",
+              "emoji": "👨"
+            },
+            {
+              "t": "This is a brother",
               "cat": "A",
+              "emoji": "👦"
+            },
+            {
+              "t": "They are sisters",
+              "cat": "B",
               "emoji": "👧"
             },
             {
-              "t": "you are",
-              "cat": "B",
-              "emoji": "🧒"
-            },
-            {
-              "t": "we are",
-              "cat": "B",
-              "emoji": "👨‍👩‍👧"
-            },
-            {
-              "t": "it is",
+              "t": "This is a baby",
               "cat": "A",
-              "emoji": "🐱"
+              "emoji": "👶"
+            },
+            {
+              "t": "They are friends",
+              "cat": "B",
+              "emoji": "🤝"
             }
           ]
         }
@@ -14698,29 +14753,34 @@ window.GAME_DATA = {
           "binB": "are",
           "tokens": [
             {
-              "t": "I am",
+              "t": "This is a mom",
               "cat": "A",
-              "emoji": "😀"
+              "emoji": "👩"
             },
             {
-              "t": "she is",
+              "t": "They are dads",
+              "cat": "B",
+              "emoji": "👨"
+            },
+            {
+              "t": "This is a grandma",
+              "cat": "A",
+              "emoji": "👵"
+            },
+            {
+              "t": "They are grandpas",
+              "cat": "B",
+              "emoji": "👴"
+            },
+            {
+              "t": "This is a sister",
               "cat": "A",
               "emoji": "👧"
             },
             {
-              "t": "you are",
+              "t": "They are brothers",
               "cat": "B",
-              "emoji": "🧒"
-            },
-            {
-              "t": "we are",
-              "cat": "B",
-              "emoji": "👨‍👩‍👧"
-            },
-            {
-              "t": "it is",
-              "cat": "A",
-              "emoji": "🐱"
+              "emoji": "👦"
             }
           ]
         }
@@ -14934,29 +14994,34 @@ window.GAME_DATA = {
           "binB": "are",
           "tokens": [
             {
-              "t": "I am",
+              "t": "This is a family",
               "cat": "A",
-              "emoji": "😀"
+              "emoji": "👨‍👩‍👧"
             },
             {
-              "t": "she is",
+              "t": "They are grandmas",
+              "cat": "B",
+              "emoji": "👵"
+            },
+            {
+              "t": "This is a grandpa",
+              "cat": "A",
+              "emoji": "👴"
+            },
+            {
+              "t": "They are babies",
+              "cat": "B",
+              "emoji": "👶"
+            },
+            {
+              "t": "This is a sister",
               "cat": "A",
               "emoji": "👧"
             },
             {
-              "t": "you are",
+              "t": "They are brothers",
               "cat": "B",
-              "emoji": "🧒"
-            },
-            {
-              "t": "we are",
-              "cat": "B",
-              "emoji": "👨‍👩‍👧"
-            },
-            {
-              "t": "it is",
-              "cat": "A",
-              "emoji": "🐱"
+              "emoji": "👦"
             }
           ]
         }
@@ -15170,29 +15235,34 @@ window.GAME_DATA = {
           "binB": "are",
           "tokens": [
             {
-              "t": "I am",
+              "t": "This is happy",
               "cat": "A",
               "emoji": "😀"
             },
             {
-              "t": "she is",
-              "cat": "A",
-              "emoji": "👧"
-            },
-            {
-              "t": "you are",
+              "t": "They are sads",
               "cat": "B",
-              "emoji": "🧒"
+              "emoji": "😢"
             },
             {
-              "t": "we are",
-              "cat": "B",
-              "emoji": "👨‍👩‍👧"
-            },
-            {
-              "t": "it is",
+              "t": "This is angry",
               "cat": "A",
-              "emoji": "🐱"
+              "emoji": "😠"
+            },
+            {
+              "t": "They are scareds",
+              "cat": "B",
+              "emoji": "😨"
+            },
+            {
+              "t": "This is tired",
+              "cat": "A",
+              "emoji": "😫"
+            },
+            {
+              "t": "They are exciteds",
+              "cat": "B",
+              "emoji": "🤩"
             }
           ]
         }
@@ -15406,29 +15476,34 @@ window.GAME_DATA = {
           "binB": "are",
           "tokens": [
             {
-              "t": "I am",
+              "t": "This is happy",
               "cat": "A",
               "emoji": "😀"
             },
             {
-              "t": "she is",
-              "cat": "A",
-              "emoji": "👧"
-            },
-            {
-              "t": "you are",
+              "t": "They are sads",
               "cat": "B",
-              "emoji": "🧒"
+              "emoji": "😢"
             },
             {
-              "t": "we are",
-              "cat": "B",
-              "emoji": "👨‍👩‍👧"
-            },
-            {
-              "t": "it is",
+              "t": "This is angry",
               "cat": "A",
-              "emoji": "🐱"
+              "emoji": "😠"
+            },
+            {
+              "t": "They are scareds",
+              "cat": "B",
+              "emoji": "😨"
+            },
+            {
+              "t": "This is tired",
+              "cat": "A",
+              "emoji": "😫"
+            },
+            {
+              "t": "They are exciteds",
+              "cat": "B",
+              "emoji": "🤩"
             }
           ]
         }
@@ -15642,29 +15717,34 @@ window.GAME_DATA = {
           "binB": "are",
           "tokens": [
             {
-              "t": "I am",
+              "t": "This is happy",
               "cat": "A",
               "emoji": "😀"
             },
             {
-              "t": "she is",
-              "cat": "A",
-              "emoji": "👧"
-            },
-            {
-              "t": "you are",
+              "t": "They are sads",
               "cat": "B",
-              "emoji": "🧒"
+              "emoji": "😢"
             },
             {
-              "t": "we are",
-              "cat": "B",
-              "emoji": "👨‍👩‍👧"
-            },
-            {
-              "t": "it is",
+              "t": "This is angry",
               "cat": "A",
-              "emoji": "🐱"
+              "emoji": "😠"
+            },
+            {
+              "t": "They are scareds",
+              "cat": "B",
+              "emoji": "😨"
+            },
+            {
+              "t": "This is tired",
+              "cat": "A",
+              "emoji": "😫"
+            },
+            {
+              "t": "They are exciteds",
+              "cat": "B",
+              "emoji": "🤩"
             }
           ]
         }
@@ -15878,29 +15958,34 @@ window.GAME_DATA = {
           "binB": "are",
           "tokens": [
             {
-              "t": "I am",
+              "t": "This is a man",
               "cat": "A",
-              "emoji": "😀"
+              "emoji": "🧔"
             },
             {
-              "t": "she is",
-              "cat": "A",
-              "emoji": "👧"
-            },
-            {
-              "t": "you are",
+              "t": "They are womans",
               "cat": "B",
+              "emoji": "👩"
+            },
+            {
+              "t": "This is a child",
+              "cat": "A",
               "emoji": "🧒"
             },
             {
-              "t": "we are",
+              "t": "They are foots",
               "cat": "B",
-              "emoji": "👨‍👩‍👧"
+              "emoji": "🦶"
             },
             {
-              "t": "it is",
+              "t": "This is a tooth",
               "cat": "A",
-              "emoji": "🐱"
+              "emoji": "🦷"
+            },
+            {
+              "t": "They are mouses",
+              "cat": "B",
+              "emoji": "🐭"
             }
           ]
         }
@@ -16114,29 +16199,34 @@ window.GAME_DATA = {
           "binB": "are",
           "tokens": [
             {
-              "t": "I am",
+              "t": "This is a mom",
               "cat": "A",
-              "emoji": "😀"
+              "emoji": "👩"
             },
             {
-              "t": "she is",
+              "t": "They are dads",
+              "cat": "B",
+              "emoji": "👨"
+            },
+            {
+              "t": "This is a brother",
               "cat": "A",
+              "emoji": "👦"
+            },
+            {
+              "t": "They are sisters",
+              "cat": "B",
               "emoji": "👧"
             },
             {
-              "t": "you are",
-              "cat": "B",
-              "emoji": "🧒"
-            },
-            {
-              "t": "we are",
-              "cat": "B",
-              "emoji": "👨‍👩‍👧"
-            },
-            {
-              "t": "it is",
+              "t": "This is a baby",
               "cat": "A",
-              "emoji": "🐱"
+              "emoji": "👶"
+            },
+            {
+              "t": "They are grandmas",
+              "cat": "B",
+              "emoji": "👵"
             }
           ]
         }
@@ -16350,29 +16440,34 @@ window.GAME_DATA = {
           "binB": "are",
           "tokens": [
             {
-              "t": "I am",
+              "t": "This is a bear",
               "cat": "A",
-              "emoji": "😀"
+              "emoji": "🐻"
             },
             {
-              "t": "she is",
-              "cat": "A",
-              "emoji": "👧"
-            },
-            {
-              "t": "you are",
+              "t": "They are chairs",
               "cat": "B",
-              "emoji": "🧒"
+              "emoji": "🪑"
             },
             {
-              "t": "we are",
-              "cat": "B",
-              "emoji": "👨‍👩‍👧"
-            },
-            {
-              "t": "it is",
+              "t": "This is a clear",
               "cat": "A",
-              "emoji": "🐱"
+              "emoji": "🔦"
+            },
+            {
+              "t": "They are nears",
+              "cat": "B",
+              "emoji": "🏠"
+            },
+            {
+              "t": "This is a year",
+              "cat": "A",
+              "emoji": "📅"
+            },
+            {
+              "t": "They are hears",
+              "cat": "B",
+              "emoji": "👂"
             }
           ]
         }
@@ -16586,29 +16681,34 @@ window.GAME_DATA = {
           "binB": "are",
           "tokens": [
             {
-              "t": "I am",
+              "t": "This is a mom",
               "cat": "A",
-              "emoji": "😀"
+              "emoji": "👩"
             },
             {
-              "t": "she is",
+              "t": "They are dads",
+              "cat": "B",
+              "emoji": "👨"
+            },
+            {
+              "t": "This is a brother",
               "cat": "A",
+              "emoji": "👦"
+            },
+            {
+              "t": "They are sisters",
+              "cat": "B",
               "emoji": "👧"
             },
             {
-              "t": "you are",
-              "cat": "B",
-              "emoji": "🧒"
-            },
-            {
-              "t": "we are",
-              "cat": "B",
-              "emoji": "👨‍👩‍👧"
-            },
-            {
-              "t": "it is",
+              "t": "This is a baby",
               "cat": "A",
-              "emoji": "🐱"
+              "emoji": "👶"
+            },
+            {
+              "t": "They are happies",
+              "cat": "B",
+              "emoji": "😀"
             }
           ]
         }
@@ -16823,24 +16923,29 @@ window.GAME_DATA = {
               "emoji": "🏃"
             },
             {
-              "t": "I can't fly",
+              "t": "I can't jump",
               "cat": "B",
-              "emoji": "🦅"
+              "emoji": "🤸"
             },
             {
-              "t": "She can dance",
+              "t": "I can swim",
               "cat": "A",
-              "emoji": "💃"
-            },
-            {
-              "t": "He can't swim",
-              "cat": "B",
               "emoji": "🏊"
             },
             {
-              "t": "We can sing",
+              "t": "I can't dance",
+              "cat": "B",
+              "emoji": "💃"
+            },
+            {
+              "t": "I can sing",
               "cat": "A",
               "emoji": "🎤"
+            },
+            {
+              "t": "I can't draw",
+              "cat": "B",
+              "emoji": "🎨"
             }
           ]
         }
@@ -17055,24 +17160,29 @@ window.GAME_DATA = {
               "emoji": "🏃"
             },
             {
+              "t": "I can't jump",
+              "cat": "B",
+              "emoji": "🤸"
+            },
+            {
+              "t": "I can swim",
+              "cat": "A",
+              "emoji": "🏊"
+            },
+            {
               "t": "I can't fly",
               "cat": "B",
               "emoji": "🦅"
             },
             {
-              "t": "She can dance",
+              "t": "I can climb",
               "cat": "A",
-              "emoji": "💃"
+              "emoji": "🧗"
             },
             {
-              "t": "He can't swim",
+              "t": "I can't dance",
               "cat": "B",
-              "emoji": "🏊"
-            },
-            {
-              "t": "We can sing",
-              "cat": "A",
-              "emoji": "🎤"
+              "emoji": "💃"
             }
           ]
         }
@@ -17287,24 +17397,29 @@ window.GAME_DATA = {
               "emoji": "🏃"
             },
             {
-              "t": "I can't fly",
+              "t": "I can't jump",
               "cat": "B",
-              "emoji": "🦅"
+              "emoji": "🤸"
             },
             {
-              "t": "She can dance",
+              "t": "I can swim",
               "cat": "A",
-              "emoji": "💃"
-            },
-            {
-              "t": "He can't swim",
-              "cat": "B",
               "emoji": "🏊"
             },
             {
-              "t": "We can sing",
+              "t": "I can't dance",
+              "cat": "B",
+              "emoji": "💃"
+            },
+            {
+              "t": "I can sing",
               "cat": "A",
               "emoji": "🎤"
+            },
+            {
+              "t": "I can't draw",
+              "cat": "B",
+              "emoji": "🎨"
             }
           ]
         }
@@ -17514,29 +17629,34 @@ window.GAME_DATA = {
           "binB": "can't",
           "tokens": [
             {
-              "t": "I can run",
-              "cat": "A",
-              "emoji": "🏃"
-            },
-            {
-              "t": "I can't fly",
-              "cat": "B",
-              "emoji": "🦅"
-            },
-            {
-              "t": "She can dance",
+              "t": "I can dance",
               "cat": "A",
               "emoji": "💃"
             },
             {
-              "t": "He can't swim",
+              "t": "I can't sing",
               "cat": "B",
-              "emoji": "🏊"
+              "emoji": "🎤"
             },
             {
-              "t": "We can sing",
+              "t": "I can draw",
               "cat": "A",
-              "emoji": "🎤"
+              "emoji": "🎨"
+            },
+            {
+              "t": "I can't climb",
+              "cat": "B",
+              "emoji": "🧗"
+            },
+            {
+              "t": "I can jump",
+              "cat": "A",
+              "emoji": "🤸"
+            },
+            {
+              "t": "I can't run",
+              "cat": "B",
+              "emoji": "🏃"
             }
           ]
         }
@@ -17751,24 +17871,29 @@ window.GAME_DATA = {
               "emoji": "🏃"
             },
             {
-              "t": "I can't fly",
+              "t": "I can't jump",
               "cat": "B",
-              "emoji": "🦅"
+              "emoji": "🤸"
             },
             {
-              "t": "She can dance",
+              "t": "I can swim",
+              "cat": "A",
+              "emoji": "🏊"
+            },
+            {
+              "t": "I can't climb",
+              "cat": "B",
+              "emoji": "🧗"
+            },
+            {
+              "t": "I can dance",
               "cat": "A",
               "emoji": "💃"
             },
             {
-              "t": "He can't swim",
+              "t": "I can't draw",
               "cat": "B",
-              "emoji": "🏊"
-            },
-            {
-              "t": "We can sing",
-              "cat": "A",
-              "emoji": "🎤"
+              "emoji": "🎨"
             }
           ]
         }
@@ -17979,29 +18104,34 @@ window.GAME_DATA = {
           "binB": "can't",
           "tokens": [
             {
-              "t": "I can run",
+              "t": "I can bird",
               "cat": "A",
-              "emoji": "🏃"
+              "emoji": "🐦"
             },
             {
-              "t": "I can't fly",
+              "t": "I can't fish",
               "cat": "B",
-              "emoji": "🦅"
+              "emoji": "🐟"
             },
             {
-              "t": "She can dance",
+              "t": "I can monkey",
               "cat": "A",
-              "emoji": "💃"
+              "emoji": "🐵"
             },
             {
-              "t": "He can't swim",
+              "t": "I can't horse",
               "cat": "B",
-              "emoji": "🏊"
+              "emoji": "🐴"
             },
             {
-              "t": "We can sing",
+              "t": "I can duck",
               "cat": "A",
-              "emoji": "🎤"
+              "emoji": "🦆"
+            },
+            {
+              "t": "I can't owl",
+              "cat": "B",
+              "emoji": "🦉"
             }
           ]
         }
@@ -18211,9 +18341,9 @@ window.GAME_DATA = {
           "binB": "can't",
           "tokens": [
             {
-              "t": "I can run",
+              "t": "I can jump",
               "cat": "A",
-              "emoji": "🏃"
+              "emoji": "🤸"
             },
             {
               "t": "I can't fly",
@@ -18221,18 +18351,23 @@ window.GAME_DATA = {
               "emoji": "🦅"
             },
             {
-              "t": "She can dance",
+              "t": "I can swim",
+              "cat": "A",
+              "emoji": "🏊"
+            },
+            {
+              "t": "I can't climb",
+              "cat": "B",
+              "emoji": "🧗"
+            },
+            {
+              "t": "I can dance",
               "cat": "A",
               "emoji": "💃"
             },
             {
-              "t": "He can't swim",
+              "t": "I can't sing",
               "cat": "B",
-              "emoji": "🏊"
-            },
-            {
-              "t": "We can sing",
-              "cat": "A",
               "emoji": "🎤"
             }
           ]
@@ -18443,29 +18578,34 @@ window.GAME_DATA = {
           "binB": "can't",
           "tokens": [
             {
+              "t": "I can draw",
+              "cat": "A",
+              "emoji": "🎨"
+            },
+            {
+              "t": "I can't sing",
+              "cat": "B",
+              "emoji": "🎤"
+            },
+            {
+              "t": "I can dance",
+              "cat": "A",
+              "emoji": "💃"
+            },
+            {
+              "t": "I can't swim",
+              "cat": "B",
+              "emoji": "🏊"
+            },
+            {
               "t": "I can run",
               "cat": "A",
               "emoji": "🏃"
             },
             {
-              "t": "I can't fly",
+              "t": "I can't jump",
               "cat": "B",
-              "emoji": "🦅"
-            },
-            {
-              "t": "She can dance",
-              "cat": "A",
-              "emoji": "💃"
-            },
-            {
-              "t": "He can't swim",
-              "cat": "B",
-              "emoji": "🏊"
-            },
-            {
-              "t": "We can sing",
-              "cat": "A",
-              "emoji": "🎤"
+              "emoji": "🤸"
             }
           ]
         }
@@ -18676,29 +18816,34 @@ window.GAME_DATA = {
           "binB": "can't",
           "tokens": [
             {
-              "t": "I can run",
+              "t": "I can bird",
               "cat": "A",
-              "emoji": "🏃"
+              "emoji": "🐦"
             },
             {
-              "t": "I can't fly",
+              "t": "I can't girl",
               "cat": "B",
-              "emoji": "🦅"
+              "emoji": "👧"
             },
             {
-              "t": "She can dance",
+              "t": "I can shirt",
               "cat": "A",
-              "emoji": "💃"
+              "emoji": "👕"
             },
             {
-              "t": "He can't swim",
+              "t": "I can't turn",
               "cat": "B",
-              "emoji": "🏊"
+              "emoji": "🔄"
             },
             {
-              "t": "We can sing",
+              "t": "I can work",
               "cat": "A",
-              "emoji": "🎤"
+              "emoji": "🛠️"
+            },
+            {
+              "t": "I can't word",
+              "cat": "B",
+              "emoji": "🗣️"
             }
           ]
         }
@@ -18913,24 +19058,29 @@ window.GAME_DATA = {
               "emoji": "🏃"
             },
             {
-              "t": "I can't fly",
+              "t": "I can't jump",
               "cat": "B",
-              "emoji": "🦅"
+              "emoji": "🤸"
             },
             {
-              "t": "She can dance",
+              "t": "I can swim",
               "cat": "A",
-              "emoji": "💃"
-            },
-            {
-              "t": "He can't swim",
-              "cat": "B",
               "emoji": "🏊"
             },
             {
-              "t": "We can sing",
+              "t": "I can't dance",
+              "cat": "B",
+              "emoji": "💃"
+            },
+            {
+              "t": "I can sing",
               "cat": "A",
               "emoji": "🎤"
+            },
+            {
+              "t": "I can't draw",
+              "cat": "B",
+              "emoji": "🎨"
             }
           ]
         }
@@ -19141,6 +19291,16 @@ window.GAME_DATA = {
           "binB": "has got",
           "tokens": [
             {
+              "t": "I have got a kite",
+              "cat": "A",
+              "emoji": "🪁"
+            },
+            {
+              "t": "She has got a ball",
+              "cat": "B",
+              "emoji": "⚽"
+            },
+            {
               "t": "I have got a bike",
               "cat": "A",
               "emoji": "🚲"
@@ -19151,19 +19311,14 @@ window.GAME_DATA = {
               "emoji": "🧸"
             },
             {
-              "t": "We have got a robot",
+              "t": "I have got a robot",
               "cat": "A",
               "emoji": "🤖"
             },
             {
-              "t": "He has got a puzzle",
+              "t": "She has got a puzzle",
               "cat": "B",
               "emoji": "🧩"
-            },
-            {
-              "t": "You have got a guitar",
-              "cat": "A",
-              "emoji": "🎸"
             }
           ]
         }
@@ -19374,6 +19529,16 @@ window.GAME_DATA = {
           "binB": "has got",
           "tokens": [
             {
+              "t": "I have got a kite",
+              "cat": "A",
+              "emoji": "🪁"
+            },
+            {
+              "t": "She has got a ball",
+              "cat": "B",
+              "emoji": "⚽"
+            },
+            {
               "t": "I have got a bike",
               "cat": "A",
               "emoji": "🚲"
@@ -19384,18 +19549,13 @@ window.GAME_DATA = {
               "emoji": "🧸"
             },
             {
-              "t": "We have got a robot",
+              "t": "I have got a robot",
               "cat": "A",
               "emoji": "🤖"
             },
             {
-              "t": "He has got a puzzle",
+              "t": "She has got a guitar",
               "cat": "B",
-              "emoji": "🧩"
-            },
-            {
-              "t": "You have got a guitar",
-              "cat": "A",
               "emoji": "🎸"
             }
           ]
@@ -19607,6 +19767,16 @@ window.GAME_DATA = {
           "binB": "has got",
           "tokens": [
             {
+              "t": "I have got a kite",
+              "cat": "A",
+              "emoji": "🪁"
+            },
+            {
+              "t": "She has got a ball",
+              "cat": "B",
+              "emoji": "⚽"
+            },
+            {
               "t": "I have got a bike",
               "cat": "A",
               "emoji": "🚲"
@@ -19617,19 +19787,14 @@ window.GAME_DATA = {
               "emoji": "🧸"
             },
             {
-              "t": "We have got a robot",
+              "t": "I have got a robot",
               "cat": "A",
               "emoji": "🤖"
             },
             {
-              "t": "He has got a puzzle",
+              "t": "She has got a puzzle",
               "cat": "B",
               "emoji": "🧩"
-            },
-            {
-              "t": "You have got a guitar",
-              "cat": "A",
-              "emoji": "🎸"
             }
           ]
         }
@@ -19840,28 +20005,33 @@ window.GAME_DATA = {
           "binB": "has got",
           "tokens": [
             {
-              "t": "I have got a bike",
+              "t": "I have got a ball",
               "cat": "A",
+              "emoji": "⚽"
+            },
+            {
+              "t": "She has got a bike",
+              "cat": "B",
               "emoji": "🚲"
             },
             {
-              "t": "She has got a doll",
-              "cat": "B",
+              "t": "I have got a doll",
+              "cat": "A",
               "emoji": "🧸"
             },
             {
-              "t": "We have got a robot",
+              "t": "She has got a kite",
+              "cat": "B",
+              "emoji": "🪁"
+            },
+            {
+              "t": "I have got a robot",
               "cat": "A",
               "emoji": "🤖"
             },
             {
-              "t": "He has got a puzzle",
+              "t": "She has got a guitar",
               "cat": "B",
-              "emoji": "🧩"
-            },
-            {
-              "t": "You have got a guitar",
-              "cat": "A",
               "emoji": "🎸"
             }
           ]
@@ -20073,6 +20243,16 @@ window.GAME_DATA = {
           "binB": "has got",
           "tokens": [
             {
+              "t": "I have got a robot",
+              "cat": "A",
+              "emoji": "🤖"
+            },
+            {
+              "t": "She has got a ball",
+              "cat": "B",
+              "emoji": "⚽"
+            },
+            {
               "t": "I have got a bike",
               "cat": "A",
               "emoji": "🚲"
@@ -20083,19 +20263,14 @@ window.GAME_DATA = {
               "emoji": "🧸"
             },
             {
-              "t": "We have got a robot",
+              "t": "I have got a kite",
               "cat": "A",
-              "emoji": "🤖"
+              "emoji": "🪁"
             },
             {
-              "t": "He has got a puzzle",
+              "t": "She has got a puzzle",
               "cat": "B",
               "emoji": "🧩"
-            },
-            {
-              "t": "You have got a guitar",
-              "cat": "A",
-              "emoji": "🎸"
             }
           ]
         }
@@ -20306,29 +20481,34 @@ window.GAME_DATA = {
           "binB": "has got",
           "tokens": [
             {
-              "t": "I have got a bike",
+              "t": "I have got a ball",
               "cat": "A",
+              "emoji": "⚽"
+            },
+            {
+              "t": "She has got a bike",
+              "cat": "B",
               "emoji": "🚲"
             },
             {
-              "t": "She has got a doll",
-              "cat": "B",
+              "t": "I have got a doll",
+              "cat": "A",
               "emoji": "🧸"
             },
             {
-              "t": "We have got a robot",
-              "cat": "A",
+              "t": "She has got a robot",
+              "cat": "B",
               "emoji": "🤖"
             },
             {
-              "t": "He has got a puzzle",
-              "cat": "B",
-              "emoji": "🧩"
-            },
-            {
-              "t": "You have got a guitar",
+              "t": "I have got a guitar",
               "cat": "A",
               "emoji": "🎸"
+            },
+            {
+              "t": "She has got a puzzle",
+              "cat": "B",
+              "emoji": "🧩"
             }
           ]
         }
@@ -20539,6 +20719,16 @@ window.GAME_DATA = {
           "binB": "has got",
           "tokens": [
             {
+              "t": "I have got a kite",
+              "cat": "A",
+              "emoji": "🪁"
+            },
+            {
+              "t": "She has got a ball",
+              "cat": "B",
+              "emoji": "⚽"
+            },
+            {
               "t": "I have got a bike",
               "cat": "A",
               "emoji": "🚲"
@@ -20549,19 +20739,14 @@ window.GAME_DATA = {
               "emoji": "🧸"
             },
             {
-              "t": "We have got a robot",
+              "t": "I have got a robot",
               "cat": "A",
               "emoji": "🤖"
             },
             {
-              "t": "He has got a puzzle",
+              "t": "She has got a puzzle",
               "cat": "B",
               "emoji": "🧩"
-            },
-            {
-              "t": "You have got a guitar",
-              "cat": "A",
-              "emoji": "🎸"
             }
           ]
         }
@@ -20772,28 +20957,33 @@ window.GAME_DATA = {
           "binB": "has got",
           "tokens": [
             {
-              "t": "I have got a bike",
+              "t": "I have got a ball",
               "cat": "A",
+              "emoji": "⚽"
+            },
+            {
+              "t": "She has got a bike",
+              "cat": "B",
               "emoji": "🚲"
             },
             {
-              "t": "She has got a doll",
-              "cat": "B",
+              "t": "I have got a doll",
+              "cat": "A",
               "emoji": "🧸"
             },
             {
-              "t": "We have got a robot",
+              "t": "She has got a kite",
+              "cat": "B",
+              "emoji": "🪁"
+            },
+            {
+              "t": "I have got a robot",
               "cat": "A",
               "emoji": "🤖"
             },
             {
-              "t": "He has got a puzzle",
+              "t": "She has got a guitar",
               "cat": "B",
-              "emoji": "🧩"
-            },
-            {
-              "t": "You have got a guitar",
-              "cat": "A",
               "emoji": "🎸"
             }
           ]
@@ -21005,29 +21195,34 @@ window.GAME_DATA = {
           "binB": "has got",
           "tokens": [
             {
-              "t": "I have got a bike",
+              "t": "I have got a ball",
               "cat": "A",
+              "emoji": "⚽"
+            },
+            {
+              "t": "She has got a bike",
+              "cat": "B",
               "emoji": "🚲"
             },
             {
-              "t": "She has got a doll",
-              "cat": "B",
+              "t": "I have got a doll",
+              "cat": "A",
               "emoji": "🧸"
             },
             {
-              "t": "We have got a robot",
+              "t": "She has got a kite",
+              "cat": "B",
+              "emoji": "🪁"
+            },
+            {
+              "t": "I have got a robot",
               "cat": "A",
               "emoji": "🤖"
             },
             {
-              "t": "He has got a puzzle",
+              "t": "She has got a puzzle",
               "cat": "B",
               "emoji": "🧩"
-            },
-            {
-              "t": "You have got a guitar",
-              "cat": "A",
-              "emoji": "🎸"
             }
           ]
         }
@@ -21238,28 +21433,33 @@ window.GAME_DATA = {
           "binB": "has got",
           "tokens": [
             {
-              "t": "I have got a bike",
+              "t": "I have got a ball",
               "cat": "A",
+              "emoji": "⚽"
+            },
+            {
+              "t": "She has got a bike",
+              "cat": "B",
               "emoji": "🚲"
             },
             {
-              "t": "She has got a doll",
-              "cat": "B",
+              "t": "I have got a doll",
+              "cat": "A",
               "emoji": "🧸"
             },
             {
-              "t": "We have got a robot",
+              "t": "She has got a kite",
+              "cat": "B",
+              "emoji": "🪁"
+            },
+            {
+              "t": "I have got a robot",
               "cat": "A",
               "emoji": "🤖"
             },
             {
-              "t": "He has got a puzzle",
+              "t": "She has got a guitar",
               "cat": "B",
-              "emoji": "🧩"
-            },
-            {
-              "t": "You have got a guitar",
-              "cat": "A",
               "emoji": "🎸"
             }
           ]
@@ -21471,29 +21671,34 @@ window.GAME_DATA = {
           "binB": "likes",
           "tokens": [
             {
-              "t": "I like milk",
+              "t": "I like pizza",
               "cat": "A",
-              "emoji": "🥛"
+              "emoji": "🍕"
+            },
+            {
+              "t": "She likes apple",
+              "cat": "B",
+              "emoji": "🍎"
+            },
+            {
+              "t": "I like rice",
+              "cat": "A",
+              "emoji": "🍚"
+            },
+            {
+              "t": "She likes fish",
+              "cat": "B",
+              "emoji": "🐟"
+            },
+            {
+              "t": "I like cheese",
+              "cat": "A",
+              "emoji": "🧀"
             },
             {
               "t": "She likes cake",
               "cat": "B",
               "emoji": "🍰"
-            },
-            {
-              "t": "We like apples",
-              "cat": "A",
-              "emoji": "🍎"
-            },
-            {
-              "t": "He likes soup",
-              "cat": "B",
-              "emoji": "🍲"
-            },
-            {
-              "t": "They like rice",
-              "cat": "A",
-              "emoji": "🍚"
             }
           ]
         }
@@ -21704,29 +21909,34 @@ window.GAME_DATA = {
           "binB": "likes",
           "tokens": [
             {
-              "t": "I like milk",
+              "t": "I like pizza",
               "cat": "A",
-              "emoji": "🥛"
+              "emoji": "🍕"
+            },
+            {
+              "t": "She likes apple",
+              "cat": "B",
+              "emoji": "🍎"
+            },
+            {
+              "t": "I like rice",
+              "cat": "A",
+              "emoji": "🍚"
+            },
+            {
+              "t": "She likes fish",
+              "cat": "B",
+              "emoji": "🐟"
+            },
+            {
+              "t": "I like cheese",
+              "cat": "A",
+              "emoji": "🧀"
             },
             {
               "t": "She likes cake",
               "cat": "B",
               "emoji": "🍰"
-            },
-            {
-              "t": "We like apples",
-              "cat": "A",
-              "emoji": "🍎"
-            },
-            {
-              "t": "He likes soup",
-              "cat": "B",
-              "emoji": "🍲"
-            },
-            {
-              "t": "They like rice",
-              "cat": "A",
-              "emoji": "🍚"
             }
           ]
         }
@@ -21937,29 +22147,34 @@ window.GAME_DATA = {
           "binB": "likes",
           "tokens": [
             {
-              "t": "I like milk",
+              "t": "I like pizza",
               "cat": "A",
-              "emoji": "🥛"
+              "emoji": "🍕"
+            },
+            {
+              "t": "She likes apple",
+              "cat": "B",
+              "emoji": "🍎"
+            },
+            {
+              "t": "I like rice",
+              "cat": "A",
+              "emoji": "🍚"
+            },
+            {
+              "t": "She likes fish",
+              "cat": "B",
+              "emoji": "🐟"
+            },
+            {
+              "t": "I like cheese",
+              "cat": "A",
+              "emoji": "🧀"
             },
             {
               "t": "She likes cake",
               "cat": "B",
               "emoji": "🍰"
-            },
-            {
-              "t": "We like apples",
-              "cat": "A",
-              "emoji": "🍎"
-            },
-            {
-              "t": "He likes soup",
-              "cat": "B",
-              "emoji": "🍲"
-            },
-            {
-              "t": "They like rice",
-              "cat": "A",
-              "emoji": "🍚"
             }
           ]
         }
@@ -22170,29 +22385,34 @@ window.GAME_DATA = {
           "binB": "likes",
           "tokens": [
             {
-              "t": "I like milk",
+              "t": "I like pizza",
               "cat": "A",
-              "emoji": "🥛"
+              "emoji": "🍕"
+            },
+            {
+              "t": "She likes apple",
+              "cat": "B",
+              "emoji": "🍎"
+            },
+            {
+              "t": "I like rice",
+              "cat": "A",
+              "emoji": "🍚"
+            },
+            {
+              "t": "She likes fish",
+              "cat": "B",
+              "emoji": "🐟"
+            },
+            {
+              "t": "I like cheese",
+              "cat": "A",
+              "emoji": "🧀"
             },
             {
               "t": "She likes cake",
               "cat": "B",
               "emoji": "🍰"
-            },
-            {
-              "t": "We like apples",
-              "cat": "A",
-              "emoji": "🍎"
-            },
-            {
-              "t": "He likes soup",
-              "cat": "B",
-              "emoji": "🍲"
-            },
-            {
-              "t": "They like rice",
-              "cat": "A",
-              "emoji": "🍚"
             }
           ]
         }
@@ -22403,29 +22623,34 @@ window.GAME_DATA = {
           "binB": "likes",
           "tokens": [
             {
-              "t": "I like milk",
+              "t": "I like pizza",
               "cat": "A",
-              "emoji": "🥛"
+              "emoji": "🍕"
+            },
+            {
+              "t": "She likes apple",
+              "cat": "B",
+              "emoji": "🍎"
+            },
+            {
+              "t": "I like rice",
+              "cat": "A",
+              "emoji": "🍚"
+            },
+            {
+              "t": "She likes fish",
+              "cat": "B",
+              "emoji": "🐟"
+            },
+            {
+              "t": "I like cheese",
+              "cat": "A",
+              "emoji": "🧀"
             },
             {
               "t": "She likes cake",
               "cat": "B",
               "emoji": "🍰"
-            },
-            {
-              "t": "We like apples",
-              "cat": "A",
-              "emoji": "🍎"
-            },
-            {
-              "t": "He likes soup",
-              "cat": "B",
-              "emoji": "🍲"
-            },
-            {
-              "t": "They like rice",
-              "cat": "A",
-              "emoji": "🍚"
             }
           ]
         }
@@ -22636,29 +22861,34 @@ window.GAME_DATA = {
           "binB": "likes",
           "tokens": [
             {
-              "t": "I like milk",
+              "t": "I like pizza",
               "cat": "A",
-              "emoji": "🥛"
+              "emoji": "🍕"
+            },
+            {
+              "t": "She likes apple",
+              "cat": "B",
+              "emoji": "🍎"
+            },
+            {
+              "t": "I like rice",
+              "cat": "A",
+              "emoji": "🍚"
+            },
+            {
+              "t": "She likes fish",
+              "cat": "B",
+              "emoji": "🐟"
+            },
+            {
+              "t": "I like cheese",
+              "cat": "A",
+              "emoji": "🧀"
             },
             {
               "t": "She likes cake",
               "cat": "B",
               "emoji": "🍰"
-            },
-            {
-              "t": "We like apples",
-              "cat": "A",
-              "emoji": "🍎"
-            },
-            {
-              "t": "He likes soup",
-              "cat": "B",
-              "emoji": "🍲"
-            },
-            {
-              "t": "They like rice",
-              "cat": "A",
-              "emoji": "🍚"
             }
           ]
         }
@@ -22869,29 +23099,34 @@ window.GAME_DATA = {
           "binB": "likes",
           "tokens": [
             {
-              "t": "I like milk",
+              "t": "I like pizza",
               "cat": "A",
-              "emoji": "🥛"
+              "emoji": "🍕"
+            },
+            {
+              "t": "She likes apple",
+              "cat": "B",
+              "emoji": "🍎"
+            },
+            {
+              "t": "I like rice",
+              "cat": "A",
+              "emoji": "🍚"
+            },
+            {
+              "t": "She likes fish",
+              "cat": "B",
+              "emoji": "🐟"
+            },
+            {
+              "t": "I like cheese",
+              "cat": "A",
+              "emoji": "🧀"
             },
             {
               "t": "She likes cake",
               "cat": "B",
               "emoji": "🍰"
-            },
-            {
-              "t": "We like apples",
-              "cat": "A",
-              "emoji": "🍎"
-            },
-            {
-              "t": "He likes soup",
-              "cat": "B",
-              "emoji": "🍲"
-            },
-            {
-              "t": "They like rice",
-              "cat": "A",
-              "emoji": "🍚"
             }
           ]
         }
@@ -23102,29 +23337,34 @@ window.GAME_DATA = {
           "binB": "likes",
           "tokens": [
             {
-              "t": "I like milk",
+              "t": "I like pizza",
               "cat": "A",
-              "emoji": "🥛"
+              "emoji": "🍕"
+            },
+            {
+              "t": "She likes apple",
+              "cat": "B",
+              "emoji": "🍎"
+            },
+            {
+              "t": "I like rice",
+              "cat": "A",
+              "emoji": "🍚"
+            },
+            {
+              "t": "She likes fish",
+              "cat": "B",
+              "emoji": "🐟"
+            },
+            {
+              "t": "I like cheese",
+              "cat": "A",
+              "emoji": "🧀"
             },
             {
               "t": "She likes cake",
               "cat": "B",
               "emoji": "🍰"
-            },
-            {
-              "t": "We like apples",
-              "cat": "A",
-              "emoji": "🍎"
-            },
-            {
-              "t": "He likes soup",
-              "cat": "B",
-              "emoji": "🍲"
-            },
-            {
-              "t": "They like rice",
-              "cat": "A",
-              "emoji": "🍚"
             }
           ]
         }
@@ -23335,29 +23575,34 @@ window.GAME_DATA = {
           "binB": "likes",
           "tokens": [
             {
-              "t": "I like milk",
+              "t": "I like pizza",
               "cat": "A",
-              "emoji": "🥛"
+              "emoji": "🍕"
+            },
+            {
+              "t": "She likes apple",
+              "cat": "B",
+              "emoji": "🍎"
+            },
+            {
+              "t": "I like rice",
+              "cat": "A",
+              "emoji": "🍚"
+            },
+            {
+              "t": "She likes fish",
+              "cat": "B",
+              "emoji": "🐟"
+            },
+            {
+              "t": "I like cheese",
+              "cat": "A",
+              "emoji": "🧀"
             },
             {
               "t": "She likes cake",
               "cat": "B",
               "emoji": "🍰"
-            },
-            {
-              "t": "We like apples",
-              "cat": "A",
-              "emoji": "🍎"
-            },
-            {
-              "t": "He likes soup",
-              "cat": "B",
-              "emoji": "🍲"
-            },
-            {
-              "t": "They like rice",
-              "cat": "A",
-              "emoji": "🍚"
             }
           ]
         }
@@ -23568,29 +23813,34 @@ window.GAME_DATA = {
           "binB": "likes",
           "tokens": [
             {
-              "t": "I like milk",
+              "t": "I like pizza",
               "cat": "A",
-              "emoji": "🥛"
+              "emoji": "🍕"
+            },
+            {
+              "t": "She likes apple",
+              "cat": "B",
+              "emoji": "🍎"
+            },
+            {
+              "t": "I like rice",
+              "cat": "A",
+              "emoji": "🍚"
+            },
+            {
+              "t": "She likes fish",
+              "cat": "B",
+              "emoji": "🐟"
+            },
+            {
+              "t": "I like cheese",
+              "cat": "A",
+              "emoji": "🧀"
             },
             {
               "t": "She likes cake",
               "cat": "B",
               "emoji": "🍰"
-            },
-            {
-              "t": "We like apples",
-              "cat": "A",
-              "emoji": "🍎"
-            },
-            {
-              "t": "He likes soup",
-              "cat": "B",
-              "emoji": "🍲"
-            },
-            {
-              "t": "They like rice",
-              "cat": "A",
-              "emoji": "🍚"
             }
           ]
         }
@@ -23805,12 +24055,22 @@ window.GAME_DATA = {
               "emoji": "⏰"
             },
             {
-              "t": "She reads",
+              "t": "He washes",
               "cat": "B",
-              "emoji": "📖"
+              "emoji": "🧼"
             },
             {
-              "t": "You play",
+              "t": "I eat",
+              "cat": "A",
+              "emoji": "🍽️"
+            },
+            {
+              "t": "He gos",
+              "cat": "B",
+              "emoji": "🚶"
+            },
+            {
+              "t": "I play",
               "cat": "A",
               "emoji": "🎮"
             },
@@ -23818,11 +24078,6 @@ window.GAME_DATA = {
               "t": "He sleeps",
               "cat": "B",
               "emoji": "😴"
-            },
-            {
-              "t": "We wash",
-              "cat": "A",
-              "emoji": "🧼"
             }
           ]
         }
@@ -24037,12 +24292,22 @@ window.GAME_DATA = {
               "emoji": "⏰"
             },
             {
-              "t": "She reads",
+              "t": "He washes",
               "cat": "B",
-              "emoji": "📖"
+              "emoji": "🧼"
             },
             {
-              "t": "You play",
+              "t": "I eat",
+              "cat": "A",
+              "emoji": "🍽️"
+            },
+            {
+              "t": "He gos",
+              "cat": "B",
+              "emoji": "🚶"
+            },
+            {
+              "t": "I play",
               "cat": "A",
               "emoji": "🎮"
             },
@@ -24050,11 +24315,6 @@ window.GAME_DATA = {
               "t": "He sleeps",
               "cat": "B",
               "emoji": "😴"
-            },
-            {
-              "t": "We wash",
-              "cat": "A",
-              "emoji": "🧼"
             }
           ]
         }
@@ -24269,12 +24529,22 @@ window.GAME_DATA = {
               "emoji": "⏰"
             },
             {
-              "t": "She reads",
+              "t": "He washes",
               "cat": "B",
-              "emoji": "📖"
+              "emoji": "🧼"
             },
             {
-              "t": "You play",
+              "t": "I eat",
+              "cat": "A",
+              "emoji": "🍽️"
+            },
+            {
+              "t": "He gos",
+              "cat": "B",
+              "emoji": "🚶"
+            },
+            {
+              "t": "I play",
               "cat": "A",
               "emoji": "🎮"
             },
@@ -24282,11 +24552,6 @@ window.GAME_DATA = {
               "t": "He sleeps",
               "cat": "B",
               "emoji": "😴"
-            },
-            {
-              "t": "We wash",
-              "cat": "A",
-              "emoji": "🧼"
             }
           ]
         }
@@ -24501,12 +24766,22 @@ window.GAME_DATA = {
               "emoji": "⏰"
             },
             {
-              "t": "She reads",
+              "t": "He washes",
               "cat": "B",
-              "emoji": "📖"
+              "emoji": "🧼"
             },
             {
-              "t": "You play",
+              "t": "I eat",
+              "cat": "A",
+              "emoji": "🍽️"
+            },
+            {
+              "t": "He gos",
+              "cat": "B",
+              "emoji": "🚶"
+            },
+            {
+              "t": "I play",
               "cat": "A",
               "emoji": "🎮"
             },
@@ -24514,11 +24789,6 @@ window.GAME_DATA = {
               "t": "He sleeps",
               "cat": "B",
               "emoji": "😴"
-            },
-            {
-              "t": "We wash",
-              "cat": "A",
-              "emoji": "🧼"
             }
           ]
         }
@@ -24733,12 +25003,22 @@ window.GAME_DATA = {
               "emoji": "⏰"
             },
             {
-              "t": "She reads",
+              "t": "He washes",
               "cat": "B",
-              "emoji": "📖"
+              "emoji": "🧼"
             },
             {
-              "t": "You play",
+              "t": "I eat",
+              "cat": "A",
+              "emoji": "🍽️"
+            },
+            {
+              "t": "He gos",
+              "cat": "B",
+              "emoji": "🚶"
+            },
+            {
+              "t": "I play",
               "cat": "A",
               "emoji": "🎮"
             },
@@ -24746,11 +25026,6 @@ window.GAME_DATA = {
               "t": "He sleeps",
               "cat": "B",
               "emoji": "😴"
-            },
-            {
-              "t": "We wash",
-              "cat": "A",
-              "emoji": "🧼"
             }
           ]
         }
@@ -24965,12 +25240,22 @@ window.GAME_DATA = {
               "emoji": "⏰"
             },
             {
-              "t": "She reads",
+              "t": "He washes",
               "cat": "B",
-              "emoji": "📖"
+              "emoji": "🧼"
             },
             {
-              "t": "You play",
+              "t": "I eat",
+              "cat": "A",
+              "emoji": "🍽️"
+            },
+            {
+              "t": "He gos",
+              "cat": "B",
+              "emoji": "🚶"
+            },
+            {
+              "t": "I play",
               "cat": "A",
               "emoji": "🎮"
             },
@@ -24978,11 +25263,6 @@ window.GAME_DATA = {
               "t": "He sleeps",
               "cat": "B",
               "emoji": "😴"
-            },
-            {
-              "t": "We wash",
-              "cat": "A",
-              "emoji": "🧼"
             }
           ]
         }
@@ -25197,12 +25477,22 @@ window.GAME_DATA = {
               "emoji": "⏰"
             },
             {
-              "t": "She reads",
+              "t": "He washes",
               "cat": "B",
-              "emoji": "📖"
+              "emoji": "🧼"
             },
             {
-              "t": "You play",
+              "t": "I eat",
+              "cat": "A",
+              "emoji": "🍽️"
+            },
+            {
+              "t": "He gos",
+              "cat": "B",
+              "emoji": "🚶"
+            },
+            {
+              "t": "I play",
               "cat": "A",
               "emoji": "🎮"
             },
@@ -25210,11 +25500,6 @@ window.GAME_DATA = {
               "t": "He sleeps",
               "cat": "B",
               "emoji": "😴"
-            },
-            {
-              "t": "We wash",
-              "cat": "A",
-              "emoji": "🧼"
             }
           ]
         }
@@ -25429,12 +25714,22 @@ window.GAME_DATA = {
               "emoji": "⏰"
             },
             {
-              "t": "She reads",
+              "t": "He washes",
               "cat": "B",
-              "emoji": "📖"
+              "emoji": "🧼"
             },
             {
-              "t": "You play",
+              "t": "I eat",
+              "cat": "A",
+              "emoji": "🍽️"
+            },
+            {
+              "t": "He gos",
+              "cat": "B",
+              "emoji": "🚶"
+            },
+            {
+              "t": "I play",
               "cat": "A",
               "emoji": "🎮"
             },
@@ -25442,11 +25737,6 @@ window.GAME_DATA = {
               "t": "He sleeps",
               "cat": "B",
               "emoji": "😴"
-            },
-            {
-              "t": "We wash",
-              "cat": "A",
-              "emoji": "🧼"
             }
           ]
         }
@@ -25661,12 +25951,22 @@ window.GAME_DATA = {
               "emoji": "⏰"
             },
             {
-              "t": "She reads",
+              "t": "He washes",
               "cat": "B",
-              "emoji": "📖"
+              "emoji": "🧼"
             },
             {
-              "t": "You play",
+              "t": "I eat",
+              "cat": "A",
+              "emoji": "🍽️"
+            },
+            {
+              "t": "He gos",
+              "cat": "B",
+              "emoji": "🚶"
+            },
+            {
+              "t": "I play",
               "cat": "A",
               "emoji": "🎮"
             },
@@ -25674,11 +25974,6 @@ window.GAME_DATA = {
               "t": "He sleeps",
               "cat": "B",
               "emoji": "😴"
-            },
-            {
-              "t": "We wash",
-              "cat": "A",
-              "emoji": "🧼"
             }
           ]
         }
@@ -25893,12 +26188,22 @@ window.GAME_DATA = {
               "emoji": "⏰"
             },
             {
-              "t": "She reads",
+              "t": "He washes",
               "cat": "B",
-              "emoji": "📖"
+              "emoji": "🧼"
             },
             {
-              "t": "You play",
+              "t": "I eat",
+              "cat": "A",
+              "emoji": "🍽️"
+            },
+            {
+              "t": "He gos",
+              "cat": "B",
+              "emoji": "🚶"
+            },
+            {
+              "t": "I play",
               "cat": "A",
               "emoji": "🎮"
             },
@@ -25906,11 +26211,6 @@ window.GAME_DATA = {
               "t": "He sleeps",
               "cat": "B",
               "emoji": "😴"
-            },
-            {
-              "t": "We wash",
-              "cat": "A",
-              "emoji": "🧼"
             }
           ]
         }
@@ -26124,29 +26424,34 @@ window.GAME_DATA = {
           "binB": "are",
           "tokens": [
             {
-              "t": "I am running",
+              "t": "I am camping",
               "cat": "A",
+              "emoji": "⛺"
+            },
+            {
+              "t": "They are running",
+              "cat": "B",
               "emoji": "🏃"
             },
             {
-              "t": "She is reading",
+              "t": "I am swimming",
               "cat": "A",
-              "emoji": "📖"
+              "emoji": "🏊"
             },
             {
-              "t": "They are jumping",
+              "t": "They are riding",
               "cat": "B",
+              "emoji": "🚲"
+            },
+            {
+              "t": "I am jumping",
+              "cat": "A",
               "emoji": "🤸"
             },
             {
-              "t": "We are painting",
+              "t": "They are reading",
               "cat": "B",
-              "emoji": "🎨"
-            },
-            {
-              "t": "He is cooking",
-              "cat": "A",
-              "emoji": "🍳"
+              "emoji": "📖"
             }
           ]
         }
@@ -26360,29 +26665,34 @@ window.GAME_DATA = {
           "binB": "are",
           "tokens": [
             {
-              "t": "I am running",
+              "t": "I am camping",
               "cat": "A",
+              "emoji": "⛺"
+            },
+            {
+              "t": "They are running",
+              "cat": "B",
               "emoji": "🏃"
             },
             {
-              "t": "She is reading",
+              "t": "I am swimming",
               "cat": "A",
-              "emoji": "📖"
+              "emoji": "🏊"
             },
             {
-              "t": "They are jumping",
+              "t": "They are riding",
               "cat": "B",
+              "emoji": "🚲"
+            },
+            {
+              "t": "I am jumping",
+              "cat": "A",
               "emoji": "🤸"
             },
             {
-              "t": "We are painting",
+              "t": "They are reading",
               "cat": "B",
-              "emoji": "🎨"
-            },
-            {
-              "t": "He is cooking",
-              "cat": "A",
-              "emoji": "🍳"
+              "emoji": "📖"
             }
           ]
         }
@@ -26596,29 +26906,34 @@ window.GAME_DATA = {
           "binB": "are",
           "tokens": [
             {
-              "t": "I am running",
+              "t": "I am camping",
               "cat": "A",
+              "emoji": "⛺"
+            },
+            {
+              "t": "They are running",
+              "cat": "B",
               "emoji": "🏃"
             },
             {
-              "t": "She is reading",
+              "t": "I am swimming",
               "cat": "A",
-              "emoji": "📖"
+              "emoji": "🏊"
             },
             {
-              "t": "They are jumping",
+              "t": "They are riding",
               "cat": "B",
+              "emoji": "🚲"
+            },
+            {
+              "t": "I am jumping",
+              "cat": "A",
               "emoji": "🤸"
             },
             {
-              "t": "We are painting",
+              "t": "They are reading",
               "cat": "B",
-              "emoji": "🎨"
-            },
-            {
-              "t": "He is cooking",
-              "cat": "A",
-              "emoji": "🍳"
+              "emoji": "📖"
             }
           ]
         }
@@ -26832,29 +27147,34 @@ window.GAME_DATA = {
           "binB": "are",
           "tokens": [
             {
-              "t": "I am running",
+              "t": "I am camping",
               "cat": "A",
+              "emoji": "⛺"
+            },
+            {
+              "t": "They are running",
+              "cat": "B",
               "emoji": "🏃"
             },
             {
-              "t": "She is reading",
+              "t": "I am swimming",
               "cat": "A",
-              "emoji": "📖"
+              "emoji": "🏊"
             },
             {
-              "t": "They are jumping",
+              "t": "They are riding",
               "cat": "B",
+              "emoji": "🚲"
+            },
+            {
+              "t": "I am jumping",
+              "cat": "A",
               "emoji": "🤸"
             },
             {
-              "t": "We are painting",
+              "t": "They are reading",
               "cat": "B",
-              "emoji": "🎨"
-            },
-            {
-              "t": "He is cooking",
-              "cat": "A",
-              "emoji": "🍳"
+              "emoji": "📖"
             }
           ]
         }
@@ -27068,29 +27388,34 @@ window.GAME_DATA = {
           "binB": "are",
           "tokens": [
             {
-              "t": "I am running",
+              "t": "I am camping",
               "cat": "A",
+              "emoji": "⛺"
+            },
+            {
+              "t": "They are running",
+              "cat": "B",
               "emoji": "🏃"
             },
             {
-              "t": "She is reading",
+              "t": "I am swimming",
               "cat": "A",
-              "emoji": "📖"
+              "emoji": "🏊"
             },
             {
-              "t": "They are jumping",
+              "t": "They are riding",
               "cat": "B",
+              "emoji": "🚲"
+            },
+            {
+              "t": "I am jumping",
+              "cat": "A",
               "emoji": "🤸"
             },
             {
-              "t": "We are painting",
+              "t": "They are reading",
               "cat": "B",
-              "emoji": "🎨"
-            },
-            {
-              "t": "He is cooking",
-              "cat": "A",
-              "emoji": "🍳"
+              "emoji": "📖"
             }
           ]
         }
@@ -27309,9 +27634,14 @@ window.GAME_DATA = {
               "emoji": "🏃"
             },
             {
-              "t": "She is reading",
+              "t": "They are riding",
+              "cat": "B",
+              "emoji": "🚲"
+            },
+            {
+              "t": "I am swimming",
               "cat": "A",
-              "emoji": "📖"
+              "emoji": "🏊"
             },
             {
               "t": "They are jumping",
@@ -27319,14 +27649,14 @@ window.GAME_DATA = {
               "emoji": "🤸"
             },
             {
-              "t": "We are painting",
-              "cat": "B",
-              "emoji": "🎨"
-            },
-            {
-              "t": "He is cooking",
+              "t": "I am cooking",
               "cat": "A",
               "emoji": "🍳"
+            },
+            {
+              "t": "They are painting",
+              "cat": "B",
+              "emoji": "🎨"
             }
           ]
         }
@@ -27540,29 +27870,34 @@ window.GAME_DATA = {
           "binB": "are",
           "tokens": [
             {
-              "t": "I am running",
+              "t": "I am summer",
               "cat": "A",
-              "emoji": "🏃"
+              "emoji": "☀️"
             },
             {
-              "t": "She is reading",
-              "cat": "A",
-              "emoji": "📖"
-            },
-            {
-              "t": "They are jumping",
+              "t": "They are winter",
               "cat": "B",
-              "emoji": "🤸"
+              "emoji": "❄️"
             },
             {
-              "t": "We are painting",
-              "cat": "B",
-              "emoji": "🎨"
-            },
-            {
-              "t": "He is cooking",
+              "t": "I am spring",
               "cat": "A",
-              "emoji": "🍳"
+              "emoji": "🌷"
+            },
+            {
+              "t": "They are autumn",
+              "cat": "B",
+              "emoji": "🍂"
+            },
+            {
+              "t": "I am month",
+              "cat": "A",
+              "emoji": "📅"
+            },
+            {
+              "t": "They are holiday",
+              "cat": "B",
+              "emoji": "🎉"
             }
           ]
         }
@@ -27781,24 +28116,29 @@ window.GAME_DATA = {
               "emoji": "🏃"
             },
             {
-              "t": "She is reading",
+              "t": "They are swimming",
+              "cat": "B",
+              "emoji": "🏊"
+            },
+            {
+              "t": "I am reading",
               "cat": "A",
               "emoji": "📖"
             },
             {
-              "t": "They are jumping",
+              "t": "They are cooking",
               "cat": "B",
-              "emoji": "🤸"
+              "emoji": "🍳"
             },
             {
-              "t": "We are painting",
-              "cat": "B",
+              "t": "I am painting",
+              "cat": "A",
               "emoji": "🎨"
             },
             {
-              "t": "He is cooking",
-              "cat": "A",
-              "emoji": "🍳"
+              "t": "They are sleeping",
+              "cat": "B",
+              "emoji": "😴"
             }
           ]
         }
@@ -28017,24 +28357,29 @@ window.GAME_DATA = {
               "emoji": "🏃"
             },
             {
-              "t": "She is reading",
+              "t": "They are swimming",
+              "cat": "B",
+              "emoji": "🏊"
+            },
+            {
+              "t": "I am painting",
               "cat": "A",
-              "emoji": "📖"
+              "emoji": "🎨"
+            },
+            {
+              "t": "They are cooking",
+              "cat": "B",
+              "emoji": "🍳"
+            },
+            {
+              "t": "I am riding",
+              "cat": "A",
+              "emoji": "🚲"
             },
             {
               "t": "They are jumping",
               "cat": "B",
               "emoji": "🤸"
-            },
-            {
-              "t": "We are painting",
-              "cat": "B",
-              "emoji": "🎨"
-            },
-            {
-              "t": "He is cooking",
-              "cat": "A",
-              "emoji": "🍳"
             }
           ]
         }
@@ -28253,24 +28598,29 @@ window.GAME_DATA = {
               "emoji": "🏃"
             },
             {
-              "t": "She is reading",
+              "t": "They are swimming",
+              "cat": "B",
+              "emoji": "🏊"
+            },
+            {
+              "t": "I am reading",
               "cat": "A",
               "emoji": "📖"
+            },
+            {
+              "t": "They are cooking",
+              "cat": "B",
+              "emoji": "🍳"
+            },
+            {
+              "t": "I am painting",
+              "cat": "A",
+              "emoji": "🎨"
             },
             {
               "t": "They are jumping",
               "cat": "B",
               "emoji": "🤸"
-            },
-            {
-              "t": "We are painting",
-              "cat": "B",
-              "emoji": "🎨"
-            },
-            {
-              "t": "He is cooking",
-              "cat": "A",
-              "emoji": "🍳"
             }
           ]
         }
@@ -28481,14 +28831,19 @@ window.GAME_DATA = {
           "binB": "how much",
           "tokens": [
             {
-              "t": "How many apples",
-              "cat": "A",
-              "emoji": "🍎"
+              "t": "How much bread",
+              "cat": "B",
+              "emoji": "🍞"
             },
             {
               "t": "How much water",
               "cat": "B",
               "emoji": "💧"
+            },
+            {
+              "t": "How many apples",
+              "cat": "A",
+              "emoji": "🍎"
             },
             {
               "t": "How many eggs",
@@ -28501,9 +28856,9 @@ window.GAME_DATA = {
               "emoji": "🍚"
             },
             {
-              "t": "How many bananas",
-              "cat": "A",
-              "emoji": "🍌"
+              "t": "How much juice",
+              "cat": "B",
+              "emoji": "🧃"
             }
           ]
         }
@@ -28714,9 +29069,9 @@ window.GAME_DATA = {
           "binB": "how much",
           "tokens": [
             {
-              "t": "How many apples",
-              "cat": "A",
-              "emoji": "🍎"
+              "t": "How much bread",
+              "cat": "B",
+              "emoji": "🍞"
             },
             {
               "t": "How much water",
@@ -28737,6 +29092,11 @@ window.GAME_DATA = {
               "t": "How many bananas",
               "cat": "A",
               "emoji": "🍌"
+            },
+            {
+              "t": "How much sugar",
+              "cat": "B",
+              "emoji": "🍬"
             }
           ]
         }
@@ -28952,24 +29312,29 @@ window.GAME_DATA = {
               "emoji": "🍎"
             },
             {
-              "t": "How much water",
-              "cat": "B",
-              "emoji": "💧"
-            },
-            {
               "t": "How many eggs",
               "cat": "A",
               "emoji": "🥚"
             },
             {
-              "t": "How much rice",
-              "cat": "B",
-              "emoji": "🍚"
-            },
-            {
               "t": "How many bananas",
               "cat": "A",
               "emoji": "🍌"
+            },
+            {
+              "t": "How many oranges",
+              "cat": "A",
+              "emoji": "🍊"
+            },
+            {
+              "t": "How many pears",
+              "cat": "A",
+              "emoji": "🍐"
+            },
+            {
+              "t": "How many grapes",
+              "cat": "A",
+              "emoji": "🍇"
             }
           ]
         }
@@ -29180,19 +29545,14 @@ window.GAME_DATA = {
           "binB": "how much",
           "tokens": [
             {
-              "t": "How many apples",
-              "cat": "A",
-              "emoji": "🍎"
-            },
-            {
               "t": "How much water",
               "cat": "B",
               "emoji": "💧"
             },
             {
-              "t": "How many eggs",
-              "cat": "A",
-              "emoji": "🥚"
+              "t": "How much juice",
+              "cat": "B",
+              "emoji": "🧃"
             },
             {
               "t": "How much rice",
@@ -29200,9 +29560,19 @@ window.GAME_DATA = {
               "emoji": "🍚"
             },
             {
-              "t": "How many bananas",
-              "cat": "A",
-              "emoji": "🍌"
+              "t": "How much sugar",
+              "cat": "B",
+              "emoji": "🍬"
+            },
+            {
+              "t": "How much bread",
+              "cat": "B",
+              "emoji": "🍞"
+            },
+            {
+              "t": "How much milk",
+              "cat": "B",
+              "emoji": "🥛"
             }
           ]
         }
@@ -29418,9 +29788,14 @@ window.GAME_DATA = {
               "emoji": "🍎"
             },
             {
-              "t": "How much water",
+              "t": "How much rice",
               "cat": "B",
-              "emoji": "💧"
+              "emoji": "🍚"
+            },
+            {
+              "t": "How much juice",
+              "cat": "B",
+              "emoji": "🧃"
             },
             {
               "t": "How many eggs",
@@ -29428,14 +29803,14 @@ window.GAME_DATA = {
               "emoji": "🥚"
             },
             {
-              "t": "How much rice",
+              "t": "How much sugar",
               "cat": "B",
-              "emoji": "🍚"
+              "emoji": "🍬"
             },
             {
-              "t": "How many bananas",
-              "cat": "A",
-              "emoji": "🍌"
+              "t": "How much milk",
+              "cat": "B",
+              "emoji": "🥛"
             }
           ]
         }
@@ -29646,9 +30021,9 @@ window.GAME_DATA = {
           "binB": "how much",
           "tokens": [
             {
-              "t": "How many apples",
-              "cat": "A",
-              "emoji": "🍎"
+              "t": "How much juice",
+              "cat": "B",
+              "emoji": "🧃"
             },
             {
               "t": "How much water",
@@ -29656,9 +30031,14 @@ window.GAME_DATA = {
               "emoji": "💧"
             },
             {
-              "t": "How many eggs",
-              "cat": "A",
-              "emoji": "🥚"
+              "t": "How much milk",
+              "cat": "B",
+              "emoji": "🥛"
+            },
+            {
+              "t": "How much sugar",
+              "cat": "B",
+              "emoji": "🍬"
             },
             {
               "t": "How much rice",
@@ -29666,9 +30046,9 @@ window.GAME_DATA = {
               "emoji": "🍚"
             },
             {
-              "t": "How many bananas",
-              "cat": "A",
-              "emoji": "🍌"
+              "t": "How much bread",
+              "cat": "B",
+              "emoji": "🍞"
             }
           ]
         }
@@ -29879,29 +30259,34 @@ window.GAME_DATA = {
           "binB": "how much",
           "tokens": [
             {
-              "t": "How many apples",
-              "cat": "A",
-              "emoji": "🍎"
-            },
-            {
-              "t": "How much water",
-              "cat": "B",
-              "emoji": "💧"
-            },
-            {
-              "t": "How many eggs",
+              "t": "How many egg",
               "cat": "A",
               "emoji": "🥚"
             },
             {
-              "t": "How much rice",
-              "cat": "B",
-              "emoji": "🍚"
+              "t": "How many box",
+              "cat": "A",
+              "emoji": "📦"
             },
             {
-              "t": "How many bananas",
+              "t": "How many cup",
               "cat": "A",
-              "emoji": "🍌"
+              "emoji": "☕"
+            },
+            {
+              "t": "How many bag",
+              "cat": "A",
+              "emoji": "🎒"
+            },
+            {
+              "t": "How many table",
+              "cat": "A",
+              "emoji": "🪑"
+            },
+            {
+              "t": "How many chair",
+              "cat": "A",
+              "emoji": "🪑"
             }
           ]
         }
@@ -30112,29 +30497,34 @@ window.GAME_DATA = {
           "binB": "how much",
           "tokens": [
             {
-              "t": "How many apples",
+              "t": "How many Tel Aviv",
               "cat": "A",
-              "emoji": "🍎"
+              "emoji": "🌆"
             },
             {
-              "t": "How much water",
-              "cat": "B",
-              "emoji": "💧"
-            },
-            {
-              "t": "How many eggs",
+              "t": "How many Mina",
               "cat": "A",
-              "emoji": "🥚"
+              "emoji": "👧"
             },
             {
-              "t": "How much rice",
-              "cat": "B",
-              "emoji": "🍚"
-            },
-            {
-              "t": "How many bananas",
+              "t": "How many Mom",
               "cat": "A",
-              "emoji": "🍌"
+              "emoji": "👩"
+            },
+            {
+              "t": "How many Lila",
+              "cat": "A",
+              "emoji": "🌸"
+            },
+            {
+              "t": "How many school",
+              "cat": "A",
+              "emoji": "🏫"
+            },
+            {
+              "t": "How many home",
+              "cat": "A",
+              "emoji": "🏠"
             }
           ]
         }
@@ -30345,29 +30735,34 @@ window.GAME_DATA = {
           "binB": "how much",
           "tokens": [
             {
-              "t": "How many apples",
+              "t": "How many blonde",
               "cat": "A",
-              "emoji": "🍎"
+              "emoji": "💛"
             },
             {
-              "t": "How much water",
-              "cat": "B",
-              "emoji": "💧"
-            },
-            {
-              "t": "How many eggs",
+              "t": "How many flower",
               "cat": "A",
-              "emoji": "🥚"
+              "emoji": "🌸"
             },
             {
-              "t": "How much rice",
-              "cat": "B",
-              "emoji": "🍚"
-            },
-            {
-              "t": "How many bananas",
+              "t": "How many glove",
               "cat": "A",
-              "emoji": "🍌"
+              "emoji": "🧤"
+            },
+            {
+              "t": "How many plate",
+              "cat": "A",
+              "emoji": "🍽️"
+            },
+            {
+              "t": "How many glass",
+              "cat": "A",
+              "emoji": "🫙"
+            },
+            {
+              "t": "How many clock",
+              "cat": "A",
+              "emoji": "🕐"
             }
           ]
         }
@@ -30598,9 +30993,14 @@ window.GAME_DATA = {
               "emoji": "🍚"
             },
             {
-              "t": "How many bananas",
-              "cat": "A",
-              "emoji": "🍌"
+              "t": "How much juice",
+              "cat": "B",
+              "emoji": "🧃"
+            },
+            {
+              "t": "How much sugar",
+              "cat": "B",
+              "emoji": "🍬"
             }
           ]
         }
@@ -30811,29 +31211,34 @@ window.GAME_DATA = {
           "binB": "more",
           "tokens": [
             {
-              "t": "bigger",
+              "t": "lioner",
               "cat": "A",
               "emoji": "🦁"
             },
             {
-              "t": "more beautiful",
+              "t": "more cat",
               "cat": "B",
-              "emoji": "🌸"
+              "emoji": "🐱"
             },
             {
-              "t": "smaller",
+              "t": "rabbiter",
               "cat": "A",
-              "emoji": "🐜"
+              "emoji": "🐰"
             },
             {
-              "t": "more interesting",
+              "t": "more turtle",
               "cat": "B",
-              "emoji": "🔍"
+              "emoji": "🐢"
             },
             {
-              "t": "faster",
+              "t": "giraffer",
               "cat": "A",
-              "emoji": "🚀"
+              "emoji": "🦒"
+            },
+            {
+              "t": "more mouse",
+              "cat": "B",
+              "emoji": "🐭"
             }
           ]
         }
@@ -31044,29 +31449,34 @@ window.GAME_DATA = {
           "binB": "more",
           "tokens": [
             {
-              "t": "bigger",
+              "t": "lioner",
               "cat": "A",
               "emoji": "🦁"
             },
             {
-              "t": "more beautiful",
+              "t": "more cat",
               "cat": "B",
-              "emoji": "🌸"
+              "emoji": "🐱"
             },
             {
-              "t": "smaller",
+              "t": "rabbiter",
               "cat": "A",
-              "emoji": "🐜"
+              "emoji": "🐰"
             },
             {
-              "t": "more interesting",
+              "t": "more turtle",
               "cat": "B",
-              "emoji": "🔍"
+              "emoji": "🐢"
             },
             {
-              "t": "faster",
+              "t": "giraffer",
               "cat": "A",
-              "emoji": "🚀"
+              "emoji": "🦒"
+            },
+            {
+              "t": "more mouse",
+              "cat": "B",
+              "emoji": "🐭"
             }
           ]
         }
@@ -31277,29 +31687,34 @@ window.GAME_DATA = {
           "binB": "more",
           "tokens": [
             {
-              "t": "bigger",
+              "t": "lioner",
               "cat": "A",
               "emoji": "🦁"
             },
             {
-              "t": "more beautiful",
+              "t": "more cat",
               "cat": "B",
-              "emoji": "🌸"
+              "emoji": "🐱"
             },
             {
-              "t": "smaller",
+              "t": "rabbiter",
               "cat": "A",
-              "emoji": "🐜"
+              "emoji": "🐰"
             },
             {
-              "t": "more interesting",
+              "t": "more turtle",
               "cat": "B",
-              "emoji": "🔍"
+              "emoji": "🐢"
             },
             {
-              "t": "faster",
+              "t": "giraffer",
               "cat": "A",
-              "emoji": "🚀"
+              "emoji": "🦒"
+            },
+            {
+              "t": "more mouse",
+              "cat": "B",
+              "emoji": "🐭"
             }
           ]
         }
@@ -31510,29 +31925,34 @@ window.GAME_DATA = {
           "binB": "more",
           "tokens": [
             {
-              "t": "bigger",
+              "t": "biger",
               "cat": "A",
-              "emoji": "🦁"
+              "emoji": "🐘"
             },
             {
-              "t": "more beautiful",
+              "t": "more small",
               "cat": "B",
-              "emoji": "🌸"
-            },
-            {
-              "t": "smaller",
-              "cat": "A",
               "emoji": "🐜"
-            },
-            {
-              "t": "more interesting",
-              "cat": "B",
-              "emoji": "🔍"
             },
             {
               "t": "faster",
               "cat": "A",
               "emoji": "🚀"
+            },
+            {
+              "t": "more slow",
+              "cat": "B",
+              "emoji": "🐌"
+            },
+            {
+              "t": "taller",
+              "cat": "A",
+              "emoji": "🌳"
+            },
+            {
+              "t": "more short",
+              "cat": "B",
+              "emoji": "🧑"
             }
           ]
         }
@@ -31743,29 +32163,34 @@ window.GAME_DATA = {
           "binB": "more",
           "tokens": [
             {
-              "t": "bigger",
+              "t": "better",
               "cat": "A",
-              "emoji": "🦁"
+              "emoji": "👍"
             },
             {
-              "t": "more beautiful",
+              "t": "more bad",
               "cat": "B",
-              "emoji": "🌸"
+              "emoji": "👎"
             },
             {
-              "t": "smaller",
+              "t": "biger",
               "cat": "A",
+              "emoji": "🐘"
+            },
+            {
+              "t": "more small",
+              "cat": "B",
               "emoji": "🐜"
             },
             {
-              "t": "more interesting",
-              "cat": "B",
-              "emoji": "🔍"
+              "t": "longer",
+              "cat": "A",
+              "emoji": "📏"
             },
             {
-              "t": "faster",
-              "cat": "A",
-              "emoji": "🚀"
+              "t": "more short",
+              "cat": "B",
+              "emoji": "🧑"
             }
           ]
         }
@@ -31976,19 +32401,9 @@ window.GAME_DATA = {
           "binB": "more",
           "tokens": [
             {
-              "t": "bigger",
+              "t": "beautifuler",
               "cat": "A",
-              "emoji": "🦁"
-            },
-            {
-              "t": "more beautiful",
-              "cat": "B",
               "emoji": "🌸"
-            },
-            {
-              "t": "smaller",
-              "cat": "A",
-              "emoji": "🐜"
             },
             {
               "t": "more interesting",
@@ -31996,9 +32411,24 @@ window.GAME_DATA = {
               "emoji": "🔍"
             },
             {
-              "t": "faster",
+              "t": "dangerouser",
               "cat": "A",
-              "emoji": "🚀"
+              "emoji": "⚠️"
+            },
+            {
+              "t": "more friendly",
+              "cat": "B",
+              "emoji": "🤝"
+            },
+            {
+              "t": "carefuler",
+              "cat": "A",
+              "emoji": "🧠"
+            },
+            {
+              "t": "more noisy",
+              "cat": "B",
+              "emoji": "🔊"
             }
           ]
         }
@@ -32209,29 +32639,34 @@ window.GAME_DATA = {
           "binB": "more",
           "tokens": [
             {
-              "t": "bigger",
+              "t": "Spainer",
               "cat": "A",
-              "emoji": "🦁"
+              "emoji": "🇪🇸"
             },
             {
-              "t": "more beautiful",
+              "t": "more France",
               "cat": "B",
-              "emoji": "🌸"
+              "emoji": "🇫🇷"
             },
             {
-              "t": "smaller",
+              "t": "Israeler",
               "cat": "A",
-              "emoji": "🐜"
+              "emoji": "🇮🇱"
             },
             {
-              "t": "more interesting",
+              "t": "more Japan",
               "cat": "B",
-              "emoji": "🔍"
+              "emoji": "🇯🇵"
             },
             {
-              "t": "faster",
+              "t": "Braziler",
               "cat": "A",
-              "emoji": "🚀"
+              "emoji": "🇧🇷"
+            },
+            {
+              "t": "more India",
+              "cat": "B",
+              "emoji": "🇮🇳"
             }
           ]
         }
@@ -32442,29 +32877,34 @@ window.GAME_DATA = {
           "binB": "more",
           "tokens": [
             {
-              "t": "bigger",
+              "t": "lioner",
               "cat": "A",
               "emoji": "🦁"
             },
             {
-              "t": "more beautiful",
+              "t": "more cat",
               "cat": "B",
-              "emoji": "🌸"
+              "emoji": "🐱"
             },
             {
-              "t": "smaller",
+              "t": "rabbiter",
               "cat": "A",
-              "emoji": "🐜"
+              "emoji": "🐰"
             },
             {
-              "t": "more interesting",
+              "t": "more turtle",
               "cat": "B",
-              "emoji": "🔍"
+              "emoji": "🐢"
             },
             {
-              "t": "faster",
+              "t": "giraffer",
               "cat": "A",
-              "emoji": "🚀"
+              "emoji": "🦒"
+            },
+            {
+              "t": "more mouse",
+              "cat": "B",
+              "emoji": "🐭"
             }
           ]
         }
@@ -32675,29 +33115,34 @@ window.GAME_DATA = {
           "binB": "more",
           "tokens": [
             {
-              "t": "bigger",
+              "t": "twinser",
               "cat": "A",
-              "emoji": "🦁"
+              "emoji": "👯"
             },
             {
-              "t": "more beautiful",
+              "t": "more smile",
               "cat": "B",
-              "emoji": "🌸"
+              "emoji": "😊"
             },
             {
-              "t": "smaller",
+              "t": "sparker",
               "cat": "A",
-              "emoji": "🐜"
+              "emoji": "✨"
             },
             {
-              "t": "more interesting",
+              "t": "more spoon",
               "cat": "B",
-              "emoji": "🔍"
+              "emoji": "🥄"
             },
             {
-              "t": "faster",
+              "t": "swimer",
               "cat": "A",
-              "emoji": "🚀"
+              "emoji": "🏊"
+            },
+            {
+              "t": "more train",
+              "cat": "B",
+              "emoji": "🚆"
             }
           ]
         }
@@ -32908,29 +33353,34 @@ window.GAME_DATA = {
           "binB": "more",
           "tokens": [
             {
-              "t": "bigger",
+              "t": "lioner",
               "cat": "A",
               "emoji": "🦁"
             },
             {
-              "t": "more beautiful",
+              "t": "more cat",
               "cat": "B",
-              "emoji": "🌸"
+              "emoji": "🐱"
             },
             {
-              "t": "smaller",
+              "t": "rabbiter",
               "cat": "A",
-              "emoji": "🐜"
+              "emoji": "🐰"
             },
             {
-              "t": "more interesting",
+              "t": "more turtle",
               "cat": "B",
-              "emoji": "🔍"
+              "emoji": "🐢"
             },
             {
-              "t": "faster",
+              "t": "giraffer",
               "cat": "A",
-              "emoji": "🚀"
+              "emoji": "🦒"
+            },
+            {
+              "t": "more mouse",
+              "cat": "B",
+              "emoji": "🐭"
             }
           ]
         }
@@ -33137,33 +33587,38 @@ window.GAME_DATA = {
           }
         ],
         "sort": {
-          "binA": "one",
-          "binB": "many",
+          "binA": "was",
+          "binB": "were",
           "tokens": [
             {
-              "t": "a school",
+              "t": "There was a school",
               "cat": "A",
               "emoji": "🏫"
             },
             {
-              "t": "three parks",
+              "t": "There were parks",
               "cat": "B",
               "emoji": "🏞️"
             },
             {
-              "t": "an shop",
+              "t": "There was a shop",
               "cat": "A",
               "emoji": "🏪"
             },
             {
-              "t": "two buss",
+              "t": "There were buses",
               "cat": "B",
               "emoji": "🚌"
             },
             {
-              "t": "a car",
+              "t": "There was a car",
               "cat": "A",
               "emoji": "🚗"
+            },
+            {
+              "t": "There were trains",
+              "cat": "B",
+              "emoji": "🚆"
             }
           ]
         }
@@ -33370,33 +33825,38 @@ window.GAME_DATA = {
           }
         ],
         "sort": {
-          "binA": "one",
-          "binB": "many",
+          "binA": "was",
+          "binB": "were",
           "tokens": [
             {
-              "t": "a school",
+              "t": "There was a school",
               "cat": "A",
               "emoji": "🏫"
             },
             {
-              "t": "three parks",
+              "t": "There were parks",
               "cat": "B",
               "emoji": "🏞️"
             },
             {
-              "t": "an shop",
+              "t": "There was a shop",
               "cat": "A",
               "emoji": "🏪"
             },
             {
-              "t": "two buss",
+              "t": "There were buses",
               "cat": "B",
               "emoji": "🚌"
             },
             {
-              "t": "a car",
+              "t": "There was a car",
               "cat": "A",
               "emoji": "🚗"
+            },
+            {
+              "t": "There were trains",
+              "cat": "B",
+              "emoji": "🚆"
             }
           ]
         }
@@ -33603,33 +34063,38 @@ window.GAME_DATA = {
           }
         ],
         "sort": {
-          "binA": "one",
-          "binB": "many",
+          "binA": "was",
+          "binB": "were",
           "tokens": [
             {
-              "t": "a school",
+              "t": "There was a school",
               "cat": "A",
               "emoji": "🏫"
             },
             {
-              "t": "three parks",
+              "t": "There were parks",
               "cat": "B",
               "emoji": "🏞️"
             },
             {
-              "t": "an shop",
+              "t": "There was a shop",
               "cat": "A",
               "emoji": "🏪"
             },
             {
-              "t": "two buss",
+              "t": "There were buses",
               "cat": "B",
               "emoji": "🚌"
             },
             {
-              "t": "a car",
+              "t": "There was a car",
               "cat": "A",
               "emoji": "🚗"
+            },
+            {
+              "t": "There were trains",
+              "cat": "B",
+              "emoji": "🚆"
             }
           ]
         }
@@ -33836,33 +34301,38 @@ window.GAME_DATA = {
           }
         ],
         "sort": {
-          "binA": "one",
-          "binB": "many",
+          "binA": "was",
+          "binB": "were",
           "tokens": [
             {
-              "t": "a school",
+              "t": "There was a school",
               "cat": "A",
               "emoji": "🏫"
             },
             {
-              "t": "three parks",
+              "t": "There were parks",
               "cat": "B",
               "emoji": "🏞️"
             },
             {
-              "t": "an shop",
+              "t": "There was a shop",
               "cat": "A",
               "emoji": "🏪"
             },
             {
-              "t": "two buss",
+              "t": "There were buses",
               "cat": "B",
               "emoji": "🚌"
             },
             {
-              "t": "a car",
+              "t": "There was a car",
               "cat": "A",
               "emoji": "🚗"
+            },
+            {
+              "t": "There were trains",
+              "cat": "B",
+              "emoji": "🚆"
             }
           ]
         }
@@ -34069,33 +34539,38 @@ window.GAME_DATA = {
           }
         ],
         "sort": {
-          "binA": "one",
-          "binB": "many",
+          "binA": "was",
+          "binB": "were",
           "tokens": [
             {
-              "t": "a school",
+              "t": "There was a school",
               "cat": "A",
               "emoji": "🏫"
             },
             {
-              "t": "three parks",
+              "t": "There were parks",
               "cat": "B",
               "emoji": "🏞️"
             },
             {
-              "t": "an shop",
+              "t": "There was a shop",
               "cat": "A",
               "emoji": "🏪"
             },
             {
-              "t": "two buss",
+              "t": "There were buses",
               "cat": "B",
               "emoji": "🚌"
             },
             {
-              "t": "a car",
+              "t": "There was a car",
               "cat": "A",
               "emoji": "🚗"
+            },
+            {
+              "t": "There were trains",
+              "cat": "B",
+              "emoji": "🚆"
             }
           ]
         }
@@ -34302,33 +34777,38 @@ window.GAME_DATA = {
           }
         ],
         "sort": {
-          "binA": "one",
-          "binB": "many",
+          "binA": "was",
+          "binB": "were",
           "tokens": [
             {
-              "t": "a left",
+              "t": "It was left",
               "cat": "A",
               "emoji": "⬅️"
             },
             {
-              "t": "three rights",
+              "t": "They were right",
               "cat": "B",
               "emoji": "➡️"
             },
             {
-              "t": "an next to",
+              "t": "It was next to",
               "cat": "A",
               "emoji": "➡️"
             },
             {
-              "t": "two unders",
+              "t": "They were under",
               "cat": "B",
               "emoji": "🔽"
             },
             {
-              "t": "a on",
+              "t": "It was on",
               "cat": "A",
               "emoji": "📍"
+            },
+            {
+              "t": "They were in",
+              "cat": "B",
+              "emoji": "📦"
             }
           ]
         }
@@ -34535,33 +35015,38 @@ window.GAME_DATA = {
           }
         ],
         "sort": {
-          "binA": "one",
-          "binB": "many",
+          "binA": "was",
+          "binB": "were",
           "tokens": [
             {
-              "t": "a school",
+              "t": "There was a school",
               "cat": "A",
               "emoji": "🏫"
             },
             {
-              "t": "three parks",
+              "t": "There were parks",
               "cat": "B",
               "emoji": "🏞️"
             },
             {
-              "t": "an shop",
+              "t": "There was a shop",
               "cat": "A",
               "emoji": "🏪"
             },
             {
-              "t": "two buss",
+              "t": "There were buses",
               "cat": "B",
               "emoji": "🚌"
             },
             {
-              "t": "a car",
+              "t": "There was a car",
               "cat": "A",
               "emoji": "🚗"
+            },
+            {
+              "t": "There were trains",
+              "cat": "B",
+              "emoji": "🚆"
             }
           ]
         }
@@ -34768,33 +35253,38 @@ window.GAME_DATA = {
           }
         ],
         "sort": {
-          "binA": "one",
-          "binB": "many",
+          "binA": "was",
+          "binB": "were",
           "tokens": [
             {
-              "t": "a school",
+              "t": "There was a school",
               "cat": "A",
               "emoji": "🏫"
             },
             {
-              "t": "three parks",
+              "t": "There were parks",
               "cat": "B",
               "emoji": "🏞️"
             },
             {
-              "t": "an shop",
+              "t": "There was a shop",
               "cat": "A",
               "emoji": "🏪"
             },
             {
-              "t": "two buss",
+              "t": "There were buses",
               "cat": "B",
               "emoji": "🚌"
             },
             {
-              "t": "a car",
+              "t": "There was a car",
               "cat": "A",
               "emoji": "🚗"
+            },
+            {
+              "t": "There were trains",
+              "cat": "B",
+              "emoji": "🚆"
             }
           ]
         }
@@ -35001,33 +35491,38 @@ window.GAME_DATA = {
           }
         ],
         "sort": {
-          "binA": "one",
-          "binB": "many",
+          "binA": "was",
+          "binB": "were",
           "tokens": [
             {
-              "t": "a school",
+              "t": "There was a school",
               "cat": "A",
               "emoji": "🏫"
             },
             {
-              "t": "three parks",
+              "t": "There were parks",
               "cat": "B",
               "emoji": "🏞️"
             },
             {
-              "t": "an shop",
+              "t": "There was a shop",
               "cat": "A",
               "emoji": "🏪"
             },
             {
-              "t": "two buss",
+              "t": "There were buses",
               "cat": "B",
               "emoji": "🚌"
             },
             {
-              "t": "a car",
+              "t": "There was a car",
               "cat": "A",
               "emoji": "🚗"
+            },
+            {
+              "t": "There were trains",
+              "cat": "B",
+              "emoji": "🚆"
             }
           ]
         }
@@ -35234,33 +35729,38 @@ window.GAME_DATA = {
           }
         ],
         "sort": {
-          "binA": "one",
-          "binB": "many",
+          "binA": "was",
+          "binB": "were",
           "tokens": [
             {
-              "t": "a school",
+              "t": "There was a school",
               "cat": "A",
               "emoji": "🏫"
             },
             {
-              "t": "three parks",
+              "t": "There were parks",
               "cat": "B",
               "emoji": "🏞️"
             },
             {
-              "t": "an shop",
+              "t": "There was a shop",
               "cat": "A",
               "emoji": "🏪"
             },
             {
-              "t": "two buss",
+              "t": "There were buses",
               "cat": "B",
               "emoji": "🚌"
             },
             {
-              "t": "a car",
+              "t": "There was a car",
               "cat": "A",
               "emoji": "🚗"
+            },
+            {
+              "t": "There were trains",
+              "cat": "B",
+              "emoji": "🚆"
             }
           ]
         }
