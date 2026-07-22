@@ -559,7 +559,7 @@ WORLDS = [
         ("Farm Animals", [("cow", "🐮"), ("pig", "🐷"), ("horse", "🐴"), ("sheep", "🐑"), ("duck", "🦆"), ("hen", "🐔")]),
         ("My Body", [("hand", "✋"), ("eye", "👁️"), ("nose", "👃"), ("ear", "👂"), ("mouth", "👄"), ("foot", "🦶")]),
         ("Fruit", [("apple", "🍎"), ("banana", "🍌"), ("orange", "🍊"), ("grapes", "🍇"), ("strawberry", "🍓"), ("watermelon", "🍉")]),
-        ("Toys", [("ball", "⚽"), ("teddy", "🧸"), ("doll", "🪆"), ("car", "🚗"), ("kite", "🪁"), ("blocks", "🧱")]),
+        ("Toys", [("ball", "⚽"), ("teddy bear", "🧸"), ("doll", "🪆"), ("car", "🚗"), ("kite", "🪁"), ("blocks", "🧱")]),
         ("Family", [("mom", "👩"), ("dad", "👨"), ("baby", "👶"), ("brother", "👦"), ("sister", "👧"), ("grandma", "👵"), ("grandpa", "👴")]),
         ("Faces", [("smile", "😊"), ("cry", "😭"), ("laugh", "😂"), ("wink", "😉"), ("yawn", "🥱"), ("angry", "😠")]),
         ("Snacks", [("cookie", "🍪"), ("candy", "🍬"), ("popcorn", "🍿"), ("lollipop", "🍭"), ("chocolate", "🍫"), ("cupcake", "🧁")]),

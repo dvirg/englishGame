@@ -1083,10 +1083,10 @@ window.GAME_DATA = {
           "color": "#FFE0D5"
         },
         {
-          "word": "teddy",
+          "word": "teddy bear",
           "emoji": "🧸",
-          "slug": "teddy",
-          "image": "images/teddy.svg",
+          "slug": "teddy-bear",
+          "image": "images/teddy-bear.svg",
           "color": "#FFE0D5"
         },
         {
@@ -1122,9 +1122,9 @@ window.GAME_DATA = {
         "This is a ball.",
         "I like the ball.",
         "I can see the ball.",
-        "This is a teddy.",
-        "I like the teddy.",
-        "I can see the teddy.",
+        "This is teddy bear.",
+        "I like teddy bear.",
+        "Can you see teddy bear?",
         "This is a doll.",
         "I like the doll.",
         "I can see the doll.",
@@ -1144,7 +1144,7 @@ window.GAME_DATA = {
           1,
           2
         ],
-        "teddy": [
+        "teddy bear": [
           3,
           4,
           5
