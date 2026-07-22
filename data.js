@@ -993,10 +993,10 @@ window.GAME_DATA = {
           "color": "#CBF3E1"
         },
         {
-          "word": "melon",
+          "word": "watermelon",
           "emoji": "🍉",
-          "slug": "melon",
-          "image": "images/melon.svg",
+          "slug": "watermelon",
+          "image": "images/watermelon.svg",
           "color": "#CBF3E1"
         }
       ],
@@ -1016,9 +1016,9 @@ window.GAME_DATA = {
         "This is a strawberry.",
         "I like the strawberry.",
         "I can see the strawberry.",
-        "This is a melon.",
-        "I like the melon.",
-        "I can see the melon."
+        "This is a watermelon.",
+        "I like the watermelon.",
+        "I can see the watermelon."
       ],
       "sentenceMap": {
         "apple": [
@@ -1046,7 +1046,7 @@ window.GAME_DATA = {
           13,
           14
         ],
-        "melon": [
+        "watermelon": [
           15,
           16,
           17
@@ -12090,7 +12090,7 @@ window.GAME_DATA = {
             "prompt": "one book -> two…?",
             "base": "book",
             "options": [
-              "books",
+              "bookes",
               "books",
               "book"
             ],
@@ -12101,7 +12101,7 @@ window.GAME_DATA = {
             "base": "bag",
             "options": [
               "bags",
-              "bags",
+              "bages",
               "bag"
             ],
             "correct": 0
@@ -12162,16 +12162,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -12328,7 +12322,7 @@ window.GAME_DATA = {
             "prompt": "one egg -> two…?",
             "base": "egg",
             "options": [
-              "eggs",
+              "egges",
               "eggs",
               "egg"
             ],
@@ -12339,7 +12333,7 @@ window.GAME_DATA = {
             "base": "orange",
             "options": [
               "oranges",
-              "oranges",
+              "orangees",
               "orange"
             ],
             "correct": 0
@@ -12400,16 +12394,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -12566,7 +12554,7 @@ window.GAME_DATA = {
             "prompt": "one pencil -> two…?",
             "base": "pencil",
             "options": [
-              "pencils",
+              "penciles",
               "pencils",
               "pencil"
             ],
@@ -12577,7 +12565,7 @@ window.GAME_DATA = {
             "base": "desk",
             "options": [
               "desks",
-              "desks",
+              "deskes",
               "desk"
             ],
             "correct": 0
@@ -12638,16 +12626,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -12804,7 +12786,7 @@ window.GAME_DATA = {
             "prompt": "one board -> two…?",
             "base": "board",
             "options": [
-              "boards",
+              "boardes",
               "boards",
               "board"
             ],
@@ -12815,7 +12797,7 @@ window.GAME_DATA = {
             "base": "desk",
             "options": [
               "desks",
-              "desks",
+              "deskes",
               "desk"
             ],
             "correct": 0
@@ -12876,16 +12858,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -13042,7 +13018,7 @@ window.GAME_DATA = {
             "prompt": "one pencil -> two…?",
             "base": "pencil",
             "options": [
-              "pencils",
+              "penciles",
               "pencils",
               "pencil"
             ],
@@ -13053,7 +13029,7 @@ window.GAME_DATA = {
             "base": "book",
             "options": [
               "books",
-              "books",
+              "bookes",
               "book"
             ],
             "correct": 0
@@ -13114,16 +13090,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -13280,7 +13250,7 @@ window.GAME_DATA = {
             "prompt": "one board -> two…?",
             "base": "board",
             "options": [
-              "boards",
+              "boardes",
               "boards",
               "board"
             ],
@@ -13291,7 +13261,7 @@ window.GAME_DATA = {
             "base": "desk",
             "options": [
               "desks",
-              "desks",
+              "deskes",
               "desk"
             ],
             "correct": 0
@@ -13352,16 +13322,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -13509,7 +13473,7 @@ window.GAME_DATA = {
             "base": "box",
             "options": [
               "boxes",
-              "boxes",
+              "boxs",
               "box"
             ],
             "correct": 0
@@ -13590,16 +13554,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -13756,7 +13714,7 @@ window.GAME_DATA = {
             "prompt": "one three -> two…?",
             "base": "three",
             "options": [
-              "threes",
+              "threees",
               "threes",
               "three"
             ],
@@ -13767,7 +13725,7 @@ window.GAME_DATA = {
             "base": "four",
             "options": [
               "fours",
-              "fours",
+              "foures",
               "four"
             ],
             "correct": 0
@@ -13828,16 +13786,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -13994,7 +13946,7 @@ window.GAME_DATA = {
             "prompt": "one coin -> two…?",
             "base": "coin",
             "options": [
-              "coins",
+              "coines",
               "coins",
               "coin"
             ],
@@ -14005,7 +13957,7 @@ window.GAME_DATA = {
             "base": "food",
             "options": [
               "foods",
-              "foods",
+              "foodes",
               "food"
             ],
             "correct": 0
@@ -14066,16 +14018,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -14232,7 +14178,7 @@ window.GAME_DATA = {
             "prompt": "one book -> two…?",
             "base": "book",
             "options": [
-              "books",
+              "bookes",
               "books",
               "book"
             ],
@@ -14243,7 +14189,7 @@ window.GAME_DATA = {
             "base": "bag",
             "options": [
               "bags",
-              "bags",
+              "bages",
               "bag"
             ],
             "correct": 0
@@ -14304,16 +14250,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -14545,16 +14485,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -14786,16 +14720,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -15027,16 +14955,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -15268,16 +15190,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -15312,24 +15228,24 @@ window.GAME_DATA = {
           "color": "#FFD0DE"
         },
         {
-          "word": "scared",
-          "emoji": "😨",
-          "slug": "scared",
-          "image": "images/scared.svg",
+          "word": "nervous",
+          "emoji": "😰",
+          "slug": "nervous",
+          "image": "images/nervous.svg",
           "color": "#FFD0DE"
         },
         {
-          "word": "tired",
-          "emoji": "😫",
-          "slug": "tired",
-          "image": "images/tired.svg",
+          "word": "proud",
+          "emoji": "😌",
+          "slug": "proud",
+          "image": "images/proud.svg",
           "color": "#FFD0DE"
         },
         {
-          "word": "excited",
-          "emoji": "🤩",
-          "slug": "excited",
-          "image": "images/excited.svg",
+          "word": "brave",
+          "emoji": "🦸",
+          "slug": "brave",
+          "image": "images/brave.svg",
           "color": "#FFD0DE"
         }
       ],
@@ -15343,15 +15259,15 @@ window.GAME_DATA = {
         "The angry one is nice.",
         "I like the angry one.",
         "It is angry.",
-        "The scared one is nice.",
-        "I like the scared one.",
-        "It is scared.",
-        "The tired one is nice.",
-        "I like the tired one.",
-        "It is tired.",
-        "The excited one is nice.",
-        "I like the excited one.",
-        "It is excited.",
+        "The nervous one is nice.",
+        "I like the nervous one.",
+        "It is nervous.",
+        "The proud one is nice.",
+        "I like the proud one.",
+        "It is proud.",
+        "This is a brave.",
+        "I like the brave.",
+        "I can see the brave.",
         "This is my happy.",
         "These are my sads.",
         "Can you angry?"
@@ -15372,17 +15288,17 @@ window.GAME_DATA = {
           7,
           8
         ],
-        "scared": [
+        "nervous": [
           9,
           10,
           11
         ],
-        "tired": [
+        "proud": [
           12,
           13,
           14
         ],
-        "excited": [
+        "brave": [
           15,
           16,
           17
@@ -15491,34 +15407,28 @@ window.GAME_DATA = {
               "emoji": "😠"
             },
             {
-              "t": "They are scareds",
+              "t": "They are nervouses",
               "cat": "B",
-              "emoji": "😨"
+              "emoji": "😰"
             },
             {
-              "t": "This is tired",
+              "t": "This is proud",
               "cat": "A",
-              "emoji": "😫"
+              "emoji": "😌"
             },
             {
-              "t": "They are exciteds",
+              "t": "They are braves",
               "cat": "B",
-              "emoji": "🤩"
+              "emoji": "🦸"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -15532,38 +15442,31 @@ window.GAME_DATA = {
       "color": "#C6F0CE",
       "items": [
         {
-          "word": "happy",
-          "emoji": "😀",
-          "slug": "happy",
-          "image": "images/happy.svg",
+          "word": "sleepy",
+          "emoji": "😪",
+          "slug": "sleepy",
+          "image": "images/sleepy.svg",
           "color": "#C6F0CE"
         },
         {
-          "word": "sad",
-          "emoji": "😢",
-          "slug": "sad",
-          "image": "images/sad.svg",
+          "word": "hungry",
+          "emoji": "😋",
+          "slug": "hungry",
+          "image": "images/hungry.svg",
           "color": "#C6F0CE"
         },
         {
-          "word": "angry",
-          "emoji": "😠",
-          "slug": "angry",
-          "image": "images/angry.svg",
+          "word": "thirsty",
+          "emoji": "🥤",
+          "slug": "thirsty",
+          "image": "images/thirsty.svg",
           "color": "#C6F0CE"
         },
         {
-          "word": "scared",
-          "emoji": "😨",
-          "slug": "scared",
-          "image": "images/scared.svg",
-          "color": "#C6F0CE"
-        },
-        {
-          "word": "tired",
-          "emoji": "😫",
-          "slug": "tired",
-          "image": "images/tired.svg",
+          "word": "bored",
+          "emoji": "😐",
+          "slug": "bored-how-do-you-feel",
+          "image": "images/bored-how-do-you-feel.svg",
           "color": "#C6F0CE"
         },
         {
@@ -15572,58 +15475,65 @@ window.GAME_DATA = {
           "slug": "excited",
           "image": "images/excited.svg",
           "color": "#C6F0CE"
+        },
+        {
+          "word": "surprised",
+          "emoji": "😮",
+          "slug": "surprised",
+          "image": "images/surprised.svg",
+          "color": "#C6F0CE"
         }
       ],
       "sentences": [
-        "The happy one is nice.",
-        "I like the happy one.",
-        "It is happy.",
-        "The sad one is nice.",
-        "I like the sad one.",
-        "It is sad.",
-        "The angry one is nice.",
-        "I like the angry one.",
-        "It is angry.",
-        "The scared one is nice.",
-        "I like the scared one.",
-        "It is scared.",
-        "The tired one is nice.",
-        "I like the tired one.",
-        "It is tired.",
+        "The sleepy one is nice.",
+        "I like the sleepy one.",
+        "It is sleepy.",
+        "The hungry one is nice.",
+        "I like the hungry one.",
+        "It is hungry.",
+        "The thirsty one is nice.",
+        "I like the thirsty one.",
+        "It is thirsty.",
+        "The bored one is nice.",
+        "I like the bored one.",
+        "It is bored.",
         "The excited one is nice.",
         "I like the excited one.",
         "It is excited.",
-        "This is my happy.",
-        "These are my sads.",
-        "Can you angry?"
+        "The surprised one is nice.",
+        "I like the surprised one.",
+        "It is surprised.",
+        "This is my sleepy.",
+        "These are my hungrys.",
+        "Can you thirsty?"
       ],
       "sentenceMap": {
-        "happy": [
+        "sleepy": [
           0,
           1,
           2
         ],
-        "sad": [
+        "hungry": [
           3,
           4,
           5
         ],
-        "angry": [
+        "thirsty": [
           6,
           7,
           8
         ],
-        "scared": [
+        "bored": [
           9,
           10,
           11
         ],
-        "tired": [
+        "excited": [
           12,
           13,
           14
         ],
-        "excited": [
+        "surprised": [
           15,
           16,
           17
@@ -15717,49 +15627,43 @@ window.GAME_DATA = {
           "binB": "are",
           "tokens": [
             {
-              "t": "This is happy",
+              "t": "This is sleepy",
               "cat": "A",
-              "emoji": "😀"
+              "emoji": "😪"
             },
             {
-              "t": "They are sads",
+              "t": "They are hungries",
               "cat": "B",
-              "emoji": "😢"
+              "emoji": "😋"
             },
             {
-              "t": "This is angry",
+              "t": "This is thirsty",
               "cat": "A",
-              "emoji": "😠"
+              "emoji": "🥤"
             },
             {
-              "t": "They are scareds",
+              "t": "They are boreds",
               "cat": "B",
-              "emoji": "😨"
+              "emoji": "😐"
             },
             {
-              "t": "This is tired",
+              "t": "This is excited",
               "cat": "A",
-              "emoji": "😫"
-            },
-            {
-              "t": "They are exciteds",
-              "cat": "B",
               "emoji": "🤩"
+            },
+            {
+              "t": "They are surpriseds",
+              "cat": "B",
+              "emoji": "😮"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -15991,16 +15895,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -16232,16 +16130,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -16473,16 +16365,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -16714,16 +16600,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -16951,16 +16831,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -16974,97 +16848,97 @@ window.GAME_DATA = {
       "color": "#E9DDFF",
       "items": [
         {
-          "word": "run",
-          "emoji": "🏃",
-          "slug": "run",
-          "image": "images/run.svg",
+          "word": "paint",
+          "emoji": "🎨",
+          "slug": "paint",
+          "image": "images/paint.svg",
           "color": "#E9DDFF"
         },
         {
-          "word": "jump",
-          "emoji": "🤸",
-          "slug": "jump",
-          "image": "images/jump.svg",
+          "word": "write",
+          "emoji": "✍️",
+          "slug": "write",
+          "image": "images/write.svg",
           "color": "#E9DDFF"
         },
         {
-          "word": "swim",
-          "emoji": "🏊",
-          "slug": "swim",
-          "image": "images/swim.svg",
+          "word": "draw",
+          "emoji": "🖍️",
+          "slug": "draw-astro-gets-a-sticker",
+          "image": "images/draw-astro-gets-a-sticker.svg",
           "color": "#E9DDFF"
         },
         {
-          "word": "fly",
-          "emoji": "🦅",
-          "slug": "fly-astro-gets-a-sticker",
-          "image": "images/fly-astro-gets-a-sticker.svg",
+          "word": "color",
+          "emoji": "🟨",
+          "slug": "color",
+          "image": "images/color.svg",
           "color": "#E9DDFF"
         },
         {
-          "word": "climb",
-          "emoji": "🧗",
-          "slug": "climb",
-          "image": "images/climb.svg",
+          "word": "cut",
+          "emoji": "✂️",
+          "slug": "cut",
+          "image": "images/cut.svg",
           "color": "#E9DDFF"
         },
         {
-          "word": "dance",
-          "emoji": "💃",
-          "slug": "dance",
-          "image": "images/dance.svg",
+          "word": "glue",
+          "emoji": "🧴",
+          "slug": "glue",
+          "image": "images/glue.svg",
           "color": "#E9DDFF"
         }
       ],
       "sentences": [
-        "I can run.",
-        "Can you run?",
-        "We run today.",
-        "I can jump.",
-        "Can you jump?",
-        "We jump today.",
-        "I can swim.",
-        "Can you swim?",
-        "We swim today.",
-        "I can fly.",
-        "Can you fly?",
-        "We fly today.",
-        "I can climb.",
-        "Can you climb?",
-        "We climb today.",
-        "I can dance.",
-        "Can you dance?",
-        "We dance today.",
-        "This is my run.",
-        "These are my jumps."
+        "I can paint.",
+        "Can you paint?",
+        "We paint today.",
+        "I can write.",
+        "Can you write?",
+        "We write today.",
+        "I can draw.",
+        "Can you draw?",
+        "We draw today.",
+        "This is a color.",
+        "I like the color.",
+        "I can see the color.",
+        "This is a cut.",
+        "I like the cut.",
+        "I can see the cut.",
+        "This is a glue.",
+        "I like the glue.",
+        "I can see the glue.",
+        "This is my paint.",
+        "These are my writes."
       ],
       "sentenceMap": {
-        "run": [
+        "paint": [
           0,
           1,
           2
         ],
-        "jump": [
+        "write": [
           3,
           4,
           5
         ],
-        "swim": [
+        "draw": [
           6,
           7,
           8
         ],
-        "fly": [
+        "color": [
           9,
           10,
           11
         ],
-        "climb": [
+        "cut": [
           12,
           13,
           14
         ],
-        "dance": [
+        "glue": [
           15,
           16,
           17
@@ -17155,49 +17029,43 @@ window.GAME_DATA = {
           "binB": "can't",
           "tokens": [
             {
-              "t": "I can run",
+              "t": "I can paint",
               "cat": "A",
-              "emoji": "🏃"
+              "emoji": "🎨"
             },
             {
-              "t": "I can't jump",
+              "t": "I can't write",
               "cat": "B",
-              "emoji": "🤸"
+              "emoji": "✍️"
             },
             {
-              "t": "I can swim",
+              "t": "I can draw",
               "cat": "A",
-              "emoji": "🏊"
+              "emoji": "🖍️"
             },
             {
-              "t": "I can't fly",
+              "t": "I can't color",
               "cat": "B",
-              "emoji": "🦅"
+              "emoji": "🟨"
             },
             {
-              "t": "I can climb",
+              "t": "I can cut",
               "cat": "A",
-              "emoji": "🧗"
+              "emoji": "✂️"
             },
             {
-              "t": "I can't dance",
+              "t": "I can't glue",
               "cat": "B",
-              "emoji": "💃"
+              "emoji": "🧴"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -17211,97 +17079,97 @@ window.GAME_DATA = {
       "color": "#FDE2B3",
       "items": [
         {
-          "word": "run",
-          "emoji": "🏃",
-          "slug": "run",
-          "image": "images/run.svg",
+          "word": "climb",
+          "emoji": "🧗",
+          "slug": "climb",
+          "image": "images/climb.svg",
           "color": "#FDE2B3"
         },
         {
-          "word": "jump",
-          "emoji": "🤸",
-          "slug": "jump",
-          "image": "images/jump.svg",
+          "word": "skip",
+          "emoji": "🤾",
+          "slug": "skip",
+          "image": "images/skip.svg",
           "color": "#FDE2B3"
         },
         {
-          "word": "swim",
-          "emoji": "🏊",
-          "slug": "swim",
-          "image": "images/swim.svg",
+          "word": "play",
+          "emoji": "🎮",
+          "slug": "play",
+          "image": "images/play.svg",
           "color": "#FDE2B3"
         },
         {
-          "word": "dance",
-          "emoji": "💃",
-          "slug": "dance",
-          "image": "images/dance.svg",
+          "word": "read",
+          "emoji": "📖",
+          "slug": "read",
+          "image": "images/read.svg",
           "color": "#FDE2B3"
         },
         {
-          "word": "sing",
-          "emoji": "🎤",
-          "slug": "sing",
-          "image": "images/sing.svg",
+          "word": "write",
+          "emoji": "✍️",
+          "slug": "write",
+          "image": "images/write.svg",
           "color": "#FDE2B3"
         },
         {
-          "word": "draw",
-          "emoji": "🎨",
-          "slug": "draw",
-          "image": "images/draw.svg",
+          "word": "help",
+          "emoji": "🆘",
+          "slug": "help",
+          "image": "images/help.svg",
           "color": "#FDE2B3"
         }
       ],
       "sentences": [
-        "I can run.",
-        "Can you run?",
-        "We run today.",
-        "I can jump.",
-        "Can you jump?",
-        "We jump today.",
-        "I can swim.",
-        "Can you swim?",
-        "We swim today.",
-        "I can dance.",
-        "Can you dance?",
-        "We dance today.",
-        "I am sing.",
-        "We are sing.",
-        "She is sing.",
-        "I can draw.",
-        "Can you draw?",
-        "We draw today.",
-        "This is my run.",
-        "These are my jumps."
+        "I can climb.",
+        "Can you climb?",
+        "We climb today.",
+        "This is a skip.",
+        "I like the skip.",
+        "I can see the skip.",
+        "I can play.",
+        "Can you play?",
+        "We play today.",
+        "I can read.",
+        "Can you read?",
+        "We read today.",
+        "I can write.",
+        "Can you write?",
+        "We write today.",
+        "I can help.",
+        "Can you help?",
+        "We help today.",
+        "This is my climb.",
+        "These are my skips."
       ],
       "sentenceMap": {
-        "run": [
+        "climb": [
           0,
           1,
           2
         ],
-        "jump": [
+        "skip": [
           3,
           4,
           5
         ],
-        "swim": [
+        "play": [
           6,
           7,
           8
         ],
-        "dance": [
+        "read": [
           9,
           10,
           11
         ],
-        "sing": [
+        "write": [
           12,
           13,
           14
         ],
-        "draw": [
+        "help": [
           15,
           16,
           17
@@ -17392,49 +17260,43 @@ window.GAME_DATA = {
           "binB": "can't",
           "tokens": [
             {
-              "t": "I can run",
+              "t": "I can climb",
               "cat": "A",
-              "emoji": "🏃"
+              "emoji": "🧗"
             },
             {
-              "t": "I can't jump",
+              "t": "I can't skip",
               "cat": "B",
-              "emoji": "🤸"
+              "emoji": "🤾"
             },
             {
-              "t": "I can swim",
+              "t": "I can play",
               "cat": "A",
-              "emoji": "🏊"
+              "emoji": "🎮"
             },
             {
-              "t": "I can't dance",
+              "t": "I can't read",
               "cat": "B",
-              "emoji": "💃"
+              "emoji": "📖"
             },
             {
-              "t": "I can sing",
+              "t": "I can write",
               "cat": "A",
-              "emoji": "🎤"
+              "emoji": "✍️"
             },
             {
-              "t": "I can't draw",
+              "t": "I can't help",
               "cat": "B",
-              "emoji": "🎨"
+              "emoji": "🆘"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -17448,97 +17310,97 @@ window.GAME_DATA = {
       "color": "#D8F0FF",
       "items": [
         {
-          "word": "dance",
-          "emoji": "💃",
-          "slug": "dance",
-          "image": "images/dance.svg",
+          "word": "float",
+          "emoji": "🎈",
+          "slug": "float",
+          "image": "images/float.svg",
           "color": "#D8F0FF"
         },
         {
-          "word": "sing",
-          "emoji": "🎤",
-          "slug": "sing",
-          "image": "images/sing.svg",
+          "word": "burst",
+          "emoji": "💥",
+          "slug": "burst",
+          "image": "images/burst.svg",
           "color": "#D8F0FF"
         },
         {
-          "word": "draw",
-          "emoji": "🎨",
-          "slug": "draw",
-          "image": "images/draw.svg",
+          "word": "fly",
+          "emoji": "🦅",
+          "slug": "fly-astro-the-balloon",
+          "image": "images/fly-astro-the-balloon.svg",
           "color": "#D8F0FF"
         },
         {
-          "word": "climb",
-          "emoji": "🧗",
-          "slug": "climb",
-          "image": "images/climb.svg",
+          "word": "pop",
+          "emoji": "🎈",
+          "slug": "pop",
+          "image": "images/pop.svg",
           "color": "#D8F0FF"
         },
         {
-          "word": "jump",
-          "emoji": "🤸",
-          "slug": "jump",
-          "image": "images/jump.svg",
+          "word": "ride",
+          "emoji": "🚲",
+          "slug": "ride",
+          "image": "images/ride.svg",
           "color": "#D8F0FF"
         },
         {
-          "word": "run",
-          "emoji": "🏃",
-          "slug": "run",
-          "image": "images/run.svg",
+          "word": "bounce",
+          "emoji": "🔵",
+          "slug": "bounce",
+          "image": "images/bounce.svg",
           "color": "#D8F0FF"
         }
       ],
       "sentences": [
-        "I can dance.",
-        "Can you dance?",
-        "We dance today.",
-        "I am sing.",
-        "We are sing.",
-        "She is sing.",
-        "I can draw.",
-        "Can you draw?",
-        "We draw today.",
-        "I can climb.",
-        "Can you climb?",
-        "We climb today.",
-        "I can jump.",
-        "Can you jump?",
-        "We jump today.",
-        "I can run.",
-        "Can you run?",
-        "We run today.",
-        "This is my dance.",
-        "These are my sings."
+        "This is a float.",
+        "I like the float.",
+        "I can see the float.",
+        "This is a burst.",
+        "I like the burst.",
+        "I can see the burst.",
+        "I can fly.",
+        "Can you fly?",
+        "We fly today.",
+        "This is a pop.",
+        "I like the pop.",
+        "I can see the pop.",
+        "I can ride.",
+        "Can you ride?",
+        "We ride today.",
+        "This is a bounce.",
+        "I like the bounce.",
+        "I can see the bounce.",
+        "This is my float.",
+        "These are my bursts."
       ],
       "sentenceMap": {
-        "dance": [
+        "float": [
           0,
           1,
           2
         ],
-        "sing": [
+        "burst": [
           3,
           4,
           5
         ],
-        "draw": [
+        "fly": [
           6,
           7,
           8
         ],
-        "climb": [
+        "pop": [
           9,
           10,
           11
         ],
-        "jump": [
+        "ride": [
           12,
           13,
           14
         ],
-        "run": [
+        "bounce": [
           15,
           16,
           17
@@ -17629,49 +17491,43 @@ window.GAME_DATA = {
           "binB": "can't",
           "tokens": [
             {
-              "t": "I can dance",
+              "t": "I can float",
               "cat": "A",
-              "emoji": "💃"
+              "emoji": "🎈"
             },
             {
-              "t": "I can't sing",
+              "t": "I can't burst",
               "cat": "B",
-              "emoji": "🎤"
+              "emoji": "💥"
             },
             {
-              "t": "I can draw",
+              "t": "I can fly",
               "cat": "A",
-              "emoji": "🎨"
+              "emoji": "🦅"
             },
             {
-              "t": "I can't climb",
+              "t": "I can't pop",
               "cat": "B",
-              "emoji": "🧗"
+              "emoji": "🎈"
             },
             {
-              "t": "I can jump",
+              "t": "I can ride",
               "cat": "A",
-              "emoji": "🤸"
+              "emoji": "🚲"
             },
             {
-              "t": "I can't run",
+              "t": "I can't bounce",
               "cat": "B",
-              "emoji": "🏃"
+              "emoji": "🔵"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -17692,6 +17548,13 @@ window.GAME_DATA = {
           "color": "#FFD6C9"
         },
         {
+          "word": "skip",
+          "emoji": "🤾",
+          "slug": "skip",
+          "image": "images/skip.svg",
+          "color": "#FFD6C9"
+        },
+        {
           "word": "jump",
           "emoji": "🤸",
           "slug": "jump",
@@ -17699,31 +17562,24 @@ window.GAME_DATA = {
           "color": "#FFD6C9"
         },
         {
-          "word": "swim",
-          "emoji": "🏊",
-          "slug": "swim",
-          "image": "images/swim.svg",
+          "word": "spin",
+          "emoji": "🌀",
+          "slug": "spin",
+          "image": "images/spin.svg",
           "color": "#FFD6C9"
         },
         {
-          "word": "climb",
-          "emoji": "🧗",
-          "slug": "climb",
-          "image": "images/climb.svg",
+          "word": "lift",
+          "emoji": "🏋️",
+          "slug": "lift",
+          "image": "images/lift.svg",
           "color": "#FFD6C9"
         },
         {
-          "word": "dance",
-          "emoji": "💃",
-          "slug": "dance",
-          "image": "images/dance.svg",
-          "color": "#FFD6C9"
-        },
-        {
-          "word": "draw",
-          "emoji": "🎨",
-          "slug": "draw",
-          "image": "images/draw.svg",
+          "word": "throw",
+          "emoji": "🏀",
+          "slug": "throw",
+          "image": "images/throw.svg",
           "color": "#FFD6C9"
         }
       ],
@@ -17731,23 +17587,23 @@ window.GAME_DATA = {
         "I can run.",
         "Can you run?",
         "We run today.",
+        "This is a skip.",
+        "I like the skip.",
+        "I can see the skip.",
         "I can jump.",
         "Can you jump?",
         "We jump today.",
-        "I can swim.",
-        "Can you swim?",
-        "We swim today.",
-        "I can climb.",
-        "Can you climb?",
-        "We climb today.",
-        "I can dance.",
-        "Can you dance?",
-        "We dance today.",
-        "I can draw.",
-        "Can you draw?",
-        "We draw today.",
+        "This is a spin.",
+        "I like the spin.",
+        "I can see the spin.",
+        "This is a lift.",
+        "I like the lift.",
+        "I can see the lift.",
+        "This is a throw.",
+        "I like the throw.",
+        "I can see the throw.",
         "This is my run.",
-        "These are my jumps."
+        "These are my skips."
       ],
       "sentenceMap": {
         "run": [
@@ -17755,27 +17611,27 @@ window.GAME_DATA = {
           1,
           2
         ],
-        "jump": [
+        "skip": [
           3,
           4,
           5
         ],
-        "swim": [
+        "jump": [
           6,
           7,
           8
         ],
-        "climb": [
+        "spin": [
           9,
           10,
           11
         ],
-        "dance": [
+        "lift": [
           12,
           13,
           14
         ],
-        "draw": [
+        "throw": [
           15,
           16,
           17
@@ -17871,44 +17727,38 @@ window.GAME_DATA = {
               "emoji": "🏃"
             },
             {
-              "t": "I can't jump",
+              "t": "I can't skip",
               "cat": "B",
+              "emoji": "🤾"
+            },
+            {
+              "t": "I can jump",
+              "cat": "A",
               "emoji": "🤸"
             },
             {
-              "t": "I can swim",
-              "cat": "A",
-              "emoji": "🏊"
-            },
-            {
-              "t": "I can't climb",
+              "t": "I can't spin",
               "cat": "B",
-              "emoji": "🧗"
+              "emoji": "🌀"
             },
             {
-              "t": "I can dance",
+              "t": "I can lift",
               "cat": "A",
-              "emoji": "💃"
+              "emoji": "🏋️"
             },
             {
-              "t": "I can't draw",
+              "t": "I can't throw",
               "cat": "B",
-              "emoji": "🎨"
+              "emoji": "🏀"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -17922,98 +17772,97 @@ window.GAME_DATA = {
       "color": "#D6F5C9",
       "items": [
         {
-          "word": "bird",
-          "emoji": "🐦",
-          "slug": "bird",
-          "image": "images/bird.svg",
+          "word": "swim",
+          "emoji": "🏊",
+          "slug": "swim",
+          "image": "images/swim.svg",
           "color": "#D6F5C9"
         },
         {
-          "word": "fish",
-          "emoji": "🐟",
-          "slug": "fish",
-          "image": "images/fish.svg",
+          "word": "fly",
+          "emoji": "🦅",
+          "slug": "fly-animal-powers",
+          "image": "images/fly-animal-powers.svg",
           "color": "#D6F5C9"
         },
         {
-          "word": "monkey",
-          "emoji": "🐵",
-          "slug": "monkey",
-          "image": "images/monkey.svg",
+          "word": "jump",
+          "emoji": "🤸",
+          "slug": "jump",
+          "image": "images/jump.svg",
           "color": "#D6F5C9"
         },
         {
-          "word": "horse",
-          "emoji": "🐴",
-          "slug": "horse",
-          "image": "images/horse.svg",
+          "word": "climb",
+          "emoji": "🧗",
+          "slug": "climb",
+          "image": "images/climb.svg",
           "color": "#D6F5C9"
         },
         {
-          "word": "duck",
-          "emoji": "🦆",
-          "slug": "duck",
-          "image": "images/duck.svg",
+          "word": "run",
+          "emoji": "🏃",
+          "slug": "run",
+          "image": "images/run.svg",
           "color": "#D6F5C9"
         },
         {
-          "word": "owl",
-          "emoji": "🦉",
-          "slug": "owl",
-          "image": "images/owl.svg",
+          "word": "roar",
+          "emoji": "🦁",
+          "slug": "roar",
+          "image": "images/roar.svg",
           "color": "#D6F5C9"
         }
       ],
       "sentences": [
-        "This is a bird.",
-        "I like the bird.",
-        "I can see the bird.",
-        "This is a fish.",
-        "I like the fish.",
-        "I can see the fish.",
-        "This is a monkey.",
-        "I like the monkey.",
-        "I can see the monkey.",
-        "This is a horse.",
-        "I like the horse.",
-        "I can see the horse.",
-        "This is a duck.",
-        "I like the duck.",
-        "I can see the duck.",
-        "This is an owl.",
-        "I like the owl.",
-        "I can see the owl.",
-        "This is my bird.",
-        "These are my fishs.",
-        "Can you monkey?"
+        "I can swim.",
+        "Can you swim?",
+        "We swim today.",
+        "I can fly.",
+        "Can you fly?",
+        "We fly today.",
+        "I can jump.",
+        "Can you jump?",
+        "We jump today.",
+        "I can climb.",
+        "Can you climb?",
+        "We climb today.",
+        "I can run.",
+        "Can you run?",
+        "We run today.",
+        "This is a roar.",
+        "I like the roar.",
+        "I can see the roar.",
+        "This is my swim.",
+        "These are my flys."
       ],
       "sentenceMap": {
-        "bird": [
+        "swim": [
           0,
           1,
           2
         ],
-        "fish": [
+        "fly": [
           3,
           4,
           5
         ],
-        "monkey": [
+        "jump": [
           6,
           7,
           8
         ],
-        "horse": [
+        "climb": [
           9,
           10,
           11
         ],
-        "duck": [
+        "run": [
           12,
           13,
           14
         ],
-        "owl": [
+        "roar": [
           15,
           16,
           17
@@ -18104,49 +17953,43 @@ window.GAME_DATA = {
           "binB": "can't",
           "tokens": [
             {
-              "t": "I can bird",
+              "t": "I can swim",
               "cat": "A",
-              "emoji": "🐦"
+              "emoji": "🏊"
             },
             {
-              "t": "I can't fish",
+              "t": "I can't fly",
               "cat": "B",
-              "emoji": "🐟"
+              "emoji": "🦅"
             },
             {
-              "t": "I can monkey",
+              "t": "I can jump",
               "cat": "A",
-              "emoji": "🐵"
+              "emoji": "🤸"
             },
             {
-              "t": "I can't horse",
+              "t": "I can't climb",
               "cat": "B",
-              "emoji": "🐴"
+              "emoji": "🧗"
             },
             {
-              "t": "I can duck",
+              "t": "I can run",
               "cat": "A",
-              "emoji": "🦆"
+              "emoji": "🏃"
             },
             {
-              "t": "I can't owl",
+              "t": "I can't roar",
               "cat": "B",
-              "emoji": "🦉"
+              "emoji": "🦁"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -18160,31 +18003,10 @@ window.GAME_DATA = {
       "color": "#E6D3FF",
       "items": [
         {
-          "word": "jump",
-          "emoji": "🤸",
-          "slug": "jump",
-          "image": "images/jump.svg",
-          "color": "#E6D3FF"
-        },
-        {
-          "word": "fly",
-          "emoji": "🦅",
-          "slug": "fly-can-or-can-t",
-          "image": "images/fly-can-or-can-t.svg",
-          "color": "#E6D3FF"
-        },
-        {
-          "word": "swim",
-          "emoji": "🏊",
-          "slug": "swim",
-          "image": "images/swim.svg",
-          "color": "#E6D3FF"
-        },
-        {
-          "word": "climb",
-          "emoji": "🧗",
-          "slug": "climb",
-          "image": "images/climb.svg",
+          "word": "sing",
+          "emoji": "🎤",
+          "slug": "sing",
+          "image": "images/sing.svg",
           "color": "#E6D3FF"
         },
         {
@@ -18195,62 +18017,83 @@ window.GAME_DATA = {
           "color": "#E6D3FF"
         },
         {
-          "word": "sing",
-          "emoji": "🎤",
-          "slug": "sing",
-          "image": "images/sing.svg",
+          "word": "jump",
+          "emoji": "🤸",
+          "slug": "jump",
+          "image": "images/jump.svg",
+          "color": "#E6D3FF"
+        },
+        {
+          "word": "run",
+          "emoji": "🏃",
+          "slug": "run",
+          "image": "images/run.svg",
+          "color": "#E6D3FF"
+        },
+        {
+          "word": "swim",
+          "emoji": "🏊",
+          "slug": "swim",
+          "image": "images/swim.svg",
+          "color": "#E6D3FF"
+        },
+        {
+          "word": "read",
+          "emoji": "📖",
+          "slug": "read",
+          "image": "images/read.svg",
           "color": "#E6D3FF"
         }
       ],
       "sentences": [
-        "I can jump.",
-        "Can you jump?",
-        "We jump today.",
-        "I can fly.",
-        "Can you fly?",
-        "We fly today.",
-        "I can swim.",
-        "Can you swim?",
-        "We swim today.",
-        "I can climb.",
-        "Can you climb?",
-        "We climb today.",
-        "I can dance.",
-        "Can you dance?",
-        "We dance today.",
         "I am sing.",
         "We are sing.",
         "She is sing.",
-        "This is my jump.",
-        "These are my flys."
+        "I can dance.",
+        "Can you dance?",
+        "We dance today.",
+        "I can jump.",
+        "Can you jump?",
+        "We jump today.",
+        "I can run.",
+        "Can you run?",
+        "We run today.",
+        "I can swim.",
+        "Can you swim?",
+        "We swim today.",
+        "I can read.",
+        "Can you read?",
+        "We read today.",
+        "This is my sing.",
+        "These are my dances."
       ],
       "sentenceMap": {
-        "jump": [
+        "sing": [
           0,
           1,
           2
         ],
-        "fly": [
+        "dance": [
           3,
           4,
           5
         ],
-        "swim": [
+        "jump": [
           6,
           7,
           8
         ],
-        "climb": [
+        "run": [
           9,
           10,
           11
         ],
-        "dance": [
+        "swim": [
           12,
           13,
           14
         ],
-        "sing": [
+        "read": [
           15,
           16,
           17
@@ -18341,14 +18184,24 @@ window.GAME_DATA = {
           "binB": "can't",
           "tokens": [
             {
+              "t": "I can sing",
+              "cat": "A",
+              "emoji": "🎤"
+            },
+            {
+              "t": "I can't dance",
+              "cat": "B",
+              "emoji": "💃"
+            },
+            {
               "t": "I can jump",
               "cat": "A",
               "emoji": "🤸"
             },
             {
-              "t": "I can't fly",
+              "t": "I can't run",
               "cat": "B",
-              "emoji": "🦅"
+              "emoji": "🏃"
             },
             {
               "t": "I can swim",
@@ -18356,34 +18209,18 @@ window.GAME_DATA = {
               "emoji": "🏊"
             },
             {
-              "t": "I can't climb",
+              "t": "I can't read",
               "cat": "B",
-              "emoji": "🧗"
-            },
-            {
-              "t": "I can dance",
-              "cat": "A",
-              "emoji": "💃"
-            },
-            {
-              "t": "I can't sing",
-              "cat": "B",
-              "emoji": "🎤"
+              "emoji": "📖"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -18397,97 +18234,98 @@ window.GAME_DATA = {
       "color": "#C9F0EC",
       "items": [
         {
-          "word": "draw",
-          "emoji": "🎨",
-          "slug": "draw",
-          "image": "images/draw.svg",
+          "word": "cast",
+          "emoji": "🪄",
+          "slug": "cast",
+          "image": "images/cast.svg",
           "color": "#C9F0EC"
         },
         {
-          "word": "sing",
-          "emoji": "🎤",
-          "slug": "sing",
-          "image": "images/sing.svg",
+          "word": "say",
+          "emoji": "🗣️",
+          "slug": "say",
+          "image": "images/say.svg",
           "color": "#C9F0EC"
         },
         {
-          "word": "dance",
-          "emoji": "💃",
-          "slug": "dance",
-          "image": "images/dance.svg",
+          "word": "wave",
+          "emoji": "👋",
+          "slug": "wave-new-spell",
+          "image": "images/wave-new-spell.svg",
           "color": "#C9F0EC"
         },
         {
-          "word": "swim",
-          "emoji": "🏊",
-          "slug": "swim",
-          "image": "images/swim.svg",
+          "word": "point",
+          "emoji": "☝️",
+          "slug": "point",
+          "image": "images/point.svg",
           "color": "#C9F0EC"
         },
         {
-          "word": "run",
-          "emoji": "🏃",
-          "slug": "run",
-          "image": "images/run.svg",
+          "word": "whisper",
+          "emoji": "🤫",
+          "slug": "whisper",
+          "image": "images/whisper.svg",
           "color": "#C9F0EC"
         },
         {
-          "word": "jump",
-          "emoji": "🤸",
-          "slug": "jump",
-          "image": "images/jump.svg",
+          "word": "shout",
+          "emoji": "📢",
+          "slug": "shout",
+          "image": "images/shout.svg",
           "color": "#C9F0EC"
         }
       ],
       "sentences": [
-        "I can draw.",
-        "Can you draw?",
-        "We draw today.",
-        "I am sing.",
-        "We are sing.",
-        "She is sing.",
-        "I can dance.",
-        "Can you dance?",
-        "We dance today.",
-        "I can swim.",
-        "Can you swim?",
-        "We swim today.",
-        "I can run.",
-        "Can you run?",
-        "We run today.",
-        "I can jump.",
-        "Can you jump?",
-        "We jump today.",
-        "This is my draw.",
-        "These are my sings."
+        "This is a cast.",
+        "I like the cast.",
+        "I can see the cast.",
+        "I can say.",
+        "Can you say?",
+        "We say today.",
+        "This is a wave.",
+        "I like the wave.",
+        "I can see the wave.",
+        "This is a point.",
+        "I like the point.",
+        "I can see the point.",
+        "This is a whisper.",
+        "I like the whisper.",
+        "I can see the whisper.",
+        "This is a shout.",
+        "I like the shout.",
+        "I can see the shout.",
+        "This is my cast.",
+        "These are my says.",
+        "Can you wave?"
       ],
       "sentenceMap": {
-        "draw": [
+        "cast": [
           0,
           1,
           2
         ],
-        "sing": [
+        "say": [
           3,
           4,
           5
         ],
-        "dance": [
+        "wave": [
           6,
           7,
           8
         ],
-        "swim": [
+        "point": [
           9,
           10,
           11
         ],
-        "run": [
+        "whisper": [
           12,
           13,
           14
         ],
-        "jump": [
+        "shout": [
           15,
           16,
           17
@@ -18578,49 +18416,43 @@ window.GAME_DATA = {
           "binB": "can't",
           "tokens": [
             {
-              "t": "I can draw",
+              "t": "I can cast",
               "cat": "A",
-              "emoji": "🎨"
+              "emoji": "🪄"
             },
             {
-              "t": "I can't sing",
+              "t": "I can't say",
               "cat": "B",
-              "emoji": "🎤"
+              "emoji": "🗣️"
             },
             {
-              "t": "I can dance",
+              "t": "I can wave",
               "cat": "A",
-              "emoji": "💃"
+              "emoji": "👋"
             },
             {
-              "t": "I can't swim",
+              "t": "I can't point",
               "cat": "B",
-              "emoji": "🏊"
+              "emoji": "☝️"
             },
             {
-              "t": "I can run",
+              "t": "I can whisper",
               "cat": "A",
-              "emoji": "🏃"
+              "emoji": "🤫"
             },
             {
-              "t": "I can't jump",
+              "t": "I can't shout",
               "cat": "B",
-              "emoji": "🤸"
+              "emoji": "📢"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -18634,98 +18466,97 @@ window.GAME_DATA = {
       "color": "#FFE7A8",
       "items": [
         {
-          "word": "bird",
-          "emoji": "🐦",
-          "slug": "bird",
-          "image": "images/bird.svg",
+          "word": "listen",
+          "emoji": "👂",
+          "slug": "listen",
+          "image": "images/listen.svg",
           "color": "#FFE7A8"
         },
         {
-          "word": "girl",
-          "emoji": "👧",
-          "slug": "girl",
-          "image": "images/girl.svg",
+          "word": "hear",
+          "emoji": "👂",
+          "slug": "hear",
+          "image": "images/hear.svg",
           "color": "#FFE7A8"
         },
         {
-          "word": "shirt",
-          "emoji": "👕",
-          "slug": "shirt",
-          "image": "images/shirt.svg",
-          "color": "#FFE7A8"
-        },
-        {
-          "word": "turn",
-          "emoji": "🔄",
-          "slug": "turn",
-          "image": "images/turn.svg",
-          "color": "#FFE7A8"
-        },
-        {
-          "word": "work",
-          "emoji": "🛠️",
-          "slug": "work",
-          "image": "images/work.svg",
-          "color": "#FFE7A8"
-        },
-        {
-          "word": "word",
+          "word": "speak",
           "emoji": "🗣️",
-          "slug": "word",
-          "image": "images/word.svg",
+          "slug": "speak",
+          "image": "images/speak.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "sing",
+          "emoji": "🎤",
+          "slug": "sing",
+          "image": "images/sing.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "shout",
+          "emoji": "📢",
+          "slug": "shout",
+          "image": "images/shout.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "whisper",
+          "emoji": "🤫",
+          "slug": "whisper",
+          "image": "images/whisper.svg",
           "color": "#FFE7A8"
         }
       ],
       "sentences": [
-        "This is a bird.",
-        "I like the bird.",
-        "I can see the bird.",
-        "This is a girl.",
-        "I like the girl.",
-        "I can see the girl.",
-        "This is a shirt.",
-        "I like the shirt.",
-        "I can see the shirt.",
-        "This is a turn.",
-        "I like the turn.",
-        "I can see the turn.",
-        "I can work.",
-        "Can you work?",
-        "We work today.",
-        "This is a word.",
-        "I like the word.",
-        "I can see the word.",
-        "This is my bird.",
-        "These are my girls.",
-        "Can you shirt?"
+        "I can listen.",
+        "Can you listen?",
+        "We listen today.",
+        "I can hear.",
+        "Can you hear?",
+        "We hear today.",
+        "I can speak.",
+        "Can you speak?",
+        "We speak today.",
+        "I am sing.",
+        "We are sing.",
+        "She is sing.",
+        "This is a shout.",
+        "I like the shout.",
+        "I can see the shout.",
+        "This is a whisper.",
+        "I like the whisper.",
+        "I can see the whisper.",
+        "This is my listen.",
+        "These are my hears."
       ],
       "sentenceMap": {
-        "bird": [
+        "listen": [
           0,
           1,
           2
         ],
-        "girl": [
+        "hear": [
           3,
           4,
           5
         ],
-        "shirt": [
+        "speak": [
           6,
           7,
           8
         ],
-        "turn": [
+        "sing": [
           9,
           10,
           11
         ],
-        "work": [
+        "shout": [
           12,
           13,
           14
         ],
-        "word": [
+        "whisper": [
           15,
           16,
           17
@@ -18816,49 +18647,43 @@ window.GAME_DATA = {
           "binB": "can't",
           "tokens": [
             {
-              "t": "I can bird",
+              "t": "I can listen",
               "cat": "A",
-              "emoji": "🐦"
+              "emoji": "👂"
             },
             {
-              "t": "I can't girl",
+              "t": "I can't hear",
               "cat": "B",
-              "emoji": "👧"
+              "emoji": "👂"
             },
             {
-              "t": "I can shirt",
+              "t": "I can speak",
               "cat": "A",
-              "emoji": "👕"
-            },
-            {
-              "t": "I can't turn",
-              "cat": "B",
-              "emoji": "🔄"
-            },
-            {
-              "t": "I can work",
-              "cat": "A",
-              "emoji": "🛠️"
-            },
-            {
-              "t": "I can't word",
-              "cat": "B",
               "emoji": "🗣️"
+            },
+            {
+              "t": "I can't sing",
+              "cat": "B",
+              "emoji": "🎤"
+            },
+            {
+              "t": "I can shout",
+              "cat": "A",
+              "emoji": "📢"
+            },
+            {
+              "t": "I can't whisper",
+              "cat": "B",
+              "emoji": "🤫"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -18872,24 +18697,31 @@ window.GAME_DATA = {
       "color": "#DCC9FF",
       "items": [
         {
-          "word": "run",
-          "emoji": "🏃",
-          "slug": "run",
-          "image": "images/run.svg",
+          "word": "write",
+          "emoji": "✍️",
+          "slug": "write",
+          "image": "images/write.svg",
           "color": "#DCC9FF"
         },
         {
-          "word": "jump",
-          "emoji": "🤸",
-          "slug": "jump",
-          "image": "images/jump.svg",
+          "word": "read",
+          "emoji": "📖",
+          "slug": "read",
+          "image": "images/read.svg",
           "color": "#DCC9FF"
         },
         {
-          "word": "swim",
-          "emoji": "🏊",
-          "slug": "swim",
-          "image": "images/swim.svg",
+          "word": "paint",
+          "emoji": "🎨",
+          "slug": "paint",
+          "image": "images/paint.svg",
+          "color": "#DCC9FF"
+        },
+        {
+          "word": "draw",
+          "emoji": "🖍️",
+          "slug": "draw-activity-champion",
+          "image": "images/draw-activity-champion.svg",
           "color": "#DCC9FF"
         },
         {
@@ -18900,69 +18732,62 @@ window.GAME_DATA = {
           "color": "#DCC9FF"
         },
         {
-          "word": "sing",
-          "emoji": "🎤",
-          "slug": "sing",
-          "image": "images/sing.svg",
-          "color": "#DCC9FF"
-        },
-        {
-          "word": "draw",
-          "emoji": "🎨",
-          "slug": "draw",
-          "image": "images/draw.svg",
+          "word": "play",
+          "emoji": "🎮",
+          "slug": "play",
+          "image": "images/play.svg",
           "color": "#DCC9FF"
         }
       ],
       "sentences": [
-        "I can run.",
-        "Can you run?",
-        "We run today.",
-        "I can jump.",
-        "Can you jump?",
-        "We jump today.",
-        "I can swim.",
-        "Can you swim?",
-        "We swim today.",
-        "I can dance.",
-        "Can you dance?",
-        "We dance today.",
-        "I am sing.",
-        "We are sing.",
-        "She is sing.",
+        "I can write.",
+        "Can you write?",
+        "We write today.",
+        "I can read.",
+        "Can you read?",
+        "We read today.",
+        "I can paint.",
+        "Can you paint?",
+        "We paint today.",
         "I can draw.",
         "Can you draw?",
         "We draw today.",
-        "This is my run.",
-        "These are my jumps."
+        "I can dance.",
+        "Can you dance?",
+        "We dance today.",
+        "I can play.",
+        "Can you play?",
+        "We play today.",
+        "This is my write.",
+        "These are my reads."
       ],
       "sentenceMap": {
-        "run": [
+        "write": [
           0,
           1,
           2
         ],
-        "jump": [
+        "read": [
           3,
           4,
           5
         ],
-        "swim": [
+        "paint": [
           6,
           7,
           8
         ],
-        "dance": [
+        "draw": [
           9,
           10,
           11
         ],
-        "sing": [
+        "dance": [
           12,
           13,
           14
         ],
-        "draw": [
+        "play": [
           15,
           16,
           17
@@ -19053,49 +18878,43 @@ window.GAME_DATA = {
           "binB": "can't",
           "tokens": [
             {
-              "t": "I can run",
+              "t": "I can write",
               "cat": "A",
-              "emoji": "🏃"
+              "emoji": "✍️"
             },
             {
-              "t": "I can't jump",
+              "t": "I can't read",
               "cat": "B",
-              "emoji": "🤸"
+              "emoji": "📖"
             },
             {
-              "t": "I can swim",
+              "t": "I can paint",
               "cat": "A",
-              "emoji": "🏊"
-            },
-            {
-              "t": "I can't dance",
-              "cat": "B",
-              "emoji": "💃"
-            },
-            {
-              "t": "I can sing",
-              "cat": "A",
-              "emoji": "🎤"
+              "emoji": "🎨"
             },
             {
               "t": "I can't draw",
               "cat": "B",
-              "emoji": "🎨"
+              "emoji": "🖍️"
+            },
+            {
+              "t": "I can dance",
+              "cat": "A",
+              "emoji": "💃"
+            },
+            {
+              "t": "I can't play",
+              "cat": "B",
+              "emoji": "🎮"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -19324,16 +19143,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -19562,16 +19375,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -19585,98 +19392,98 @@ window.GAME_DATA = {
       "color": "#BFE2FF",
       "items": [
         {
-          "word": "kite",
-          "emoji": "🪁",
-          "slug": "kite",
-          "image": "images/kite.svg",
+          "word": "guitar",
+          "emoji": "🎸",
+          "slug": "guitar",
+          "image": "images/guitar.svg",
           "color": "#BFE2FF"
         },
         {
-          "word": "ball",
-          "emoji": "⚽",
-          "slug": "ball",
-          "image": "images/ball.svg",
+          "word": "piano",
+          "emoji": "🎹",
+          "slug": "piano",
+          "image": "images/piano.svg",
           "color": "#BFE2FF"
         },
         {
-          "word": "bike",
-          "emoji": "🚲",
-          "slug": "bike",
-          "image": "images/bike.svg",
+          "word": "drum",
+          "emoji": "🥁",
+          "slug": "drum",
+          "image": "images/drum.svg",
           "color": "#BFE2FF"
         },
         {
-          "word": "doll",
-          "emoji": "🧸",
-          "slug": "doll-nothing-left",
-          "image": "images/doll-nothing-left.svg",
+          "word": "violin",
+          "emoji": "🎻",
+          "slug": "violin",
+          "image": "images/violin.svg",
           "color": "#BFE2FF"
         },
         {
-          "word": "robot",
-          "emoji": "🤖",
-          "slug": "robot",
-          "image": "images/robot.svg",
+          "word": "microphone",
+          "emoji": "🎤",
+          "slug": "microphone",
+          "image": "images/microphone.svg",
           "color": "#BFE2FF"
         },
         {
-          "word": "puzzle",
-          "emoji": "🧩",
-          "slug": "puzzle",
-          "image": "images/puzzle.svg",
+          "word": "speaker",
+          "emoji": "🔊",
+          "slug": "speaker",
+          "image": "images/speaker.svg",
           "color": "#BFE2FF"
         }
       ],
       "sentences": [
-        "This is a kite.",
-        "I like the kite.",
-        "I can see the kite.",
-        "This is a ball.",
-        "I like the ball.",
-        "I can see the ball.",
-        "This is a bike.",
-        "I like the bike.",
-        "I can see the bike.",
-        "This is a doll.",
-        "I like the doll.",
-        "I can see the doll.",
-        "This is a robot.",
-        "I like the robot.",
-        "I can see the robot.",
-        "This is a puzzle.",
-        "I like the puzzle.",
-        "I can see the puzzle.",
-        "This is my kite.",
-        "These are my balls.",
-        "Can you bike?"
+        "This is a guitar.",
+        "I like the guitar.",
+        "I can see the guitar.",
+        "This is a piano.",
+        "I like the piano.",
+        "I can see the piano.",
+        "This is a drum.",
+        "I like the drum.",
+        "I can see the drum.",
+        "This is a violin.",
+        "I like the violin.",
+        "I can see the violin.",
+        "This is a microphone.",
+        "I like the microphone.",
+        "I can see the microphone.",
+        "This is a speaker.",
+        "I like the speaker.",
+        "I can see the speaker.",
+        "This is my guitar.",
+        "These are my pianos.",
+        "Can you drum?"
       ],
       "sentenceMap": {
-        "kite": [
+        "guitar": [
           0,
           1,
           2
         ],
-        "ball": [
+        "piano": [
           3,
           4,
           5
         ],
-        "bike": [
+        "drum": [
           6,
           7,
           8
         ],
-        "doll": [
+        "violin": [
           9,
           10,
           11
         ],
-        "robot": [
+        "microphone": [
           12,
           13,
           14
         ],
-        "puzzle": [
+        "speaker": [
           15,
           16,
           17
@@ -19767,49 +19574,43 @@ window.GAME_DATA = {
           "binB": "has got",
           "tokens": [
             {
-              "t": "I have got a kite",
+              "t": "I have got a guitar",
               "cat": "A",
-              "emoji": "🪁"
+              "emoji": "🎸"
             },
             {
-              "t": "She has got a ball",
+              "t": "She has got a piano",
               "cat": "B",
-              "emoji": "⚽"
+              "emoji": "🎹"
             },
             {
-              "t": "I have got a bike",
+              "t": "I have got a drum",
               "cat": "A",
-              "emoji": "🚲"
+              "emoji": "🥁"
             },
             {
-              "t": "She has got a doll",
+              "t": "She has got a violin",
               "cat": "B",
-              "emoji": "🧸"
+              "emoji": "🎻"
             },
             {
-              "t": "I have got a robot",
+              "t": "I have got a microphone",
               "cat": "A",
-              "emoji": "🤖"
+              "emoji": "🎤"
             },
             {
-              "t": "She has got a puzzle",
+              "t": "She has got a speaker",
               "cat": "B",
-              "emoji": "🧩"
+              "emoji": "🔊"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -20038,16 +19839,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -20276,16 +20071,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -20514,16 +20303,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -20537,98 +20320,98 @@ window.GAME_DATA = {
       "color": "#FFE0D5",
       "items": [
         {
-          "word": "kite",
-          "emoji": "🪁",
-          "slug": "kite",
-          "image": "images/kite.svg",
+          "word": "guitar",
+          "emoji": "🎸",
+          "slug": "guitar",
+          "image": "images/guitar.svg",
           "color": "#FFE0D5"
         },
         {
-          "word": "ball",
-          "emoji": "⚽",
-          "slug": "ball",
-          "image": "images/ball.svg",
+          "word": "book",
+          "emoji": "📚",
+          "slug": "book",
+          "image": "images/book.svg",
           "color": "#FFE0D5"
         },
         {
-          "word": "bike",
-          "emoji": "🚲",
-          "slug": "bike",
-          "image": "images/bike.svg",
+          "word": "pen",
+          "emoji": "🖊️",
+          "slug": "pen",
+          "image": "images/pen.svg",
           "color": "#FFE0D5"
         },
         {
-          "word": "doll",
-          "emoji": "🧸",
-          "slug": "doll-mine-yours",
-          "image": "images/doll-mine-yours.svg",
+          "word": "chair",
+          "emoji": "🪑",
+          "slug": "chair",
+          "image": "images/chair.svg",
           "color": "#FFE0D5"
         },
         {
-          "word": "robot",
-          "emoji": "🤖",
-          "slug": "robot",
-          "image": "images/robot.svg",
+          "word": "tablet",
+          "emoji": "📱",
+          "slug": "tablet",
+          "image": "images/tablet.svg",
           "color": "#FFE0D5"
         },
         {
-          "word": "puzzle",
-          "emoji": "🧩",
-          "slug": "puzzle",
-          "image": "images/puzzle.svg",
+          "word": "clock",
+          "emoji": "🕐",
+          "slug": "clock",
+          "image": "images/clock.svg",
           "color": "#FFE0D5"
         }
       ],
       "sentences": [
-        "This is a kite.",
-        "I like the kite.",
-        "I can see the kite.",
-        "This is a ball.",
-        "I like the ball.",
-        "I can see the ball.",
-        "This is a bike.",
-        "I like the bike.",
-        "I can see the bike.",
-        "This is a doll.",
-        "I like the doll.",
-        "I can see the doll.",
-        "This is a robot.",
-        "I like the robot.",
-        "I can see the robot.",
-        "This is a puzzle.",
-        "I like the puzzle.",
-        "I can see the puzzle.",
-        "This is my kite.",
-        "These are my balls.",
-        "Can you bike?"
+        "This is a guitar.",
+        "I like the guitar.",
+        "I can see the guitar.",
+        "This is a book.",
+        "I like the book.",
+        "I can see the book.",
+        "This is a pen.",
+        "I like the pen.",
+        "I can see the pen.",
+        "This is a chair.",
+        "I like the chair.",
+        "I can see the chair.",
+        "This is a tablet.",
+        "I like the tablet.",
+        "I can see the tablet.",
+        "This is a clock.",
+        "I like the clock.",
+        "I can see the clock.",
+        "This is my guitar.",
+        "These are my books.",
+        "Can you pen?"
       ],
       "sentenceMap": {
-        "kite": [
+        "guitar": [
           0,
           1,
           2
         ],
-        "ball": [
+        "book": [
           3,
           4,
           5
         ],
-        "bike": [
+        "pen": [
           6,
           7,
           8
         ],
-        "doll": [
+        "chair": [
           9,
           10,
           11
         ],
-        "robot": [
+        "tablet": [
           12,
           13,
           14
         ],
-        "puzzle": [
+        "clock": [
           15,
           16,
           17
@@ -20719,49 +20502,43 @@ window.GAME_DATA = {
           "binB": "has got",
           "tokens": [
             {
-              "t": "I have got a kite",
+              "t": "I have got a guitar",
               "cat": "A",
-              "emoji": "🪁"
+              "emoji": "🎸"
             },
             {
-              "t": "She has got a ball",
+              "t": "She has got a book",
               "cat": "B",
-              "emoji": "⚽"
+              "emoji": "📚"
             },
             {
-              "t": "I have got a bike",
+              "t": "I have got a pen",
               "cat": "A",
-              "emoji": "🚲"
+              "emoji": "🖊️"
             },
             {
-              "t": "She has got a doll",
+              "t": "She has got a chair",
               "cat": "B",
-              "emoji": "🧸"
+              "emoji": "🪑"
             },
             {
-              "t": "I have got a robot",
+              "t": "I have got a tablet",
               "cat": "A",
-              "emoji": "🤖"
+              "emoji": "📱"
             },
             {
-              "t": "She has got a puzzle",
+              "t": "She has got a clock",
               "cat": "B",
-              "emoji": "🧩"
+              "emoji": "🕐"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -20774,6 +20551,13 @@ window.GAME_DATA = {
       "category": "L137",
       "color": "#E9DDFF",
       "items": [
+        {
+          "word": "robot",
+          "emoji": "🤖",
+          "slug": "robot",
+          "image": "images/robot.svg",
+          "color": "#E9DDFF"
+        },
         {
           "word": "ball",
           "emoji": "⚽",
@@ -20796,266 +20580,24 @@ window.GAME_DATA = {
           "color": "#E9DDFF"
         },
         {
-          "word": "kite",
-          "emoji": "🪁",
-          "slug": "kite",
-          "image": "images/kite.svg",
-          "color": "#E9DDFF"
-        },
-        {
-          "word": "robot",
-          "emoji": "🤖",
-          "slug": "robot",
-          "image": "images/robot.svg",
-          "color": "#E9DDFF"
-        },
-        {
           "word": "guitar",
           "emoji": "🎸",
           "slug": "guitar",
           "image": "images/guitar.svg",
           "color": "#E9DDFF"
-        }
-      ],
-      "sentences": [
-        "This is a ball.",
-        "I like the ball.",
-        "I can see the ball.",
-        "This is a bike.",
-        "I like the bike.",
-        "I can see the bike.",
-        "This is a doll.",
-        "I like the doll.",
-        "I can see the doll.",
-        "This is a kite.",
-        "I like the kite.",
-        "I can see the kite.",
-        "This is a robot.",
-        "I like the robot.",
-        "I can see the robot.",
-        "This is a guitar.",
-        "I like the guitar.",
-        "I can see the guitar.",
-        "This is my ball.",
-        "These are my bikes.",
-        "Can you doll?"
-      ],
-      "sentenceMap": {
-        "ball": [
-          0,
-          1,
-          2
-        ],
-        "bike": [
-          3,
-          4,
-          5
-        ],
-        "doll": [
-          6,
-          7,
-          8
-        ],
-        "kite": [
-          9,
-          10,
-          11
-        ],
-        "robot": [
-          12,
-          13,
-          14
-        ],
-        "guitar": [
-          15,
-          16,
-          17
-        ]
-      },
-      "grammar": {
-        "target": "Have got / has got",
-        "gap": [
-          {
-            "text": "I ___ a kite.",
-            "options": [
-              "have got",
-              "has got"
-            ],
-            "correct": 0,
-            "emoji": "🪁"
-          },
-          {
-            "text": "She ___ a doll.",
-            "options": [
-              "has got",
-              "have got"
-            ],
-            "correct": 0,
-            "emoji": "🧸"
-          },
-          {
-            "text": "___ you got a ball?",
-            "options": [
-              "Have",
-              "Has"
-            ],
-            "correct": 0,
-            "emoji": "⚽"
-          }
-        ],
-        "transform": [
-          {
-            "prompt": "I have got →",
-            "base": "have got",
-            "options": [
-              "has got",
-              "have get",
-              "have got"
-            ],
-            "correct": 2
-          },
-          {
-            "prompt": "she has got →",
-            "base": "has got",
-            "options": [
-              "have got",
-              "has got",
-              "has get"
-            ],
-            "correct": 1
-          },
-          {
-            "prompt": "have got →",
-            "base": "have got",
-            "options": [
-              "has got",
-              "have got",
-              "got"
-            ],
-            "correct": 1
-          }
-        ],
-        "fix": [
-          {
-            "right": "I have got a kite.",
-            "wrong": "I has got a kite.",
-            "emoji": "🪁"
-          },
-          {
-            "right": "She has got a doll.",
-            "wrong": "She have got a doll.",
-            "emoji": "🧸"
-          },
-          {
-            "right": "Have you got a ball?",
-            "wrong": "Has you got a ball?",
-            "emoji": "⚽"
-          }
-        ],
-        "sort": {
-          "binA": "have got",
-          "binB": "has got",
-          "tokens": [
-            {
-              "t": "I have got a ball",
-              "cat": "A",
-              "emoji": "⚽"
-            },
-            {
-              "t": "She has got a bike",
-              "cat": "B",
-              "emoji": "🚲"
-            },
-            {
-              "t": "I have got a doll",
-              "cat": "A",
-              "emoji": "🧸"
-            },
-            {
-              "t": "She has got a kite",
-              "cat": "B",
-              "emoji": "🪁"
-            },
-            {
-              "t": "I have got a robot",
-              "cat": "A",
-              "emoji": "🤖"
-            },
-            {
-              "t": "She has got a guitar",
-              "cat": "B",
-              "emoji": "🎸"
-            }
-          ]
-        }
-      },
-      "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "pick_word_gap",
-        "transform",
-        "fix_sentence",
-        "sort_rule",
-        "build_sentence"
-      ]
-    },
-    {
-      "id": "L138",
-      "index": 138,
-      "world": "My Things, Your Things",
-      "worldSubtitle": "Have got — Magic Academy Unit 4",
-      "worldIndex": 9,
-      "name": "Sound Review",
-      "category": "L138",
-      "color": "#FDE2B3",
-      "items": [
-        {
-          "word": "ball",
-          "emoji": "⚽",
-          "slug": "ball",
-          "image": "images/ball.svg",
-          "color": "#FDE2B3"
-        },
-        {
-          "word": "bike",
-          "emoji": "🚲",
-          "slug": "bike",
-          "image": "images/bike.svg",
-          "color": "#FDE2B3"
-        },
-        {
-          "word": "doll",
-          "emoji": "🧸",
-          "slug": "doll-sound-review",
-          "image": "images/doll-sound-review.svg",
-          "color": "#FDE2B3"
-        },
-        {
-          "word": "kite",
-          "emoji": "🪁",
-          "slug": "kite",
-          "image": "images/kite.svg",
-          "color": "#FDE2B3"
-        },
-        {
-          "word": "robot",
-          "emoji": "🤖",
-          "slug": "robot",
-          "image": "images/robot.svg",
-          "color": "#FDE2B3"
         },
         {
           "word": "puzzle",
           "emoji": "🧩",
           "slug": "puzzle",
           "image": "images/puzzle.svg",
-          "color": "#FDE2B3"
+          "color": "#E9DDFF"
         }
       ],
       "sentences": [
+        "This is a robot.",
+        "I like the robot.",
+        "I can see the robot.",
         "This is a ball.",
         "I like the ball.",
         "I can see the ball.",
@@ -21065,41 +20607,38 @@ window.GAME_DATA = {
         "This is a doll.",
         "I like the doll.",
         "I can see the doll.",
-        "This is a kite.",
-        "I like the kite.",
-        "I can see the kite.",
-        "This is a robot.",
-        "I like the robot.",
-        "I can see the robot.",
+        "This is a guitar.",
+        "I like the guitar.",
+        "I can see the guitar.",
         "This is a puzzle.",
         "I like the puzzle.",
         "I can see the puzzle.",
-        "This is my ball.",
-        "These are my bikes.",
-        "Can you doll?"
+        "This is my robot.",
+        "These are my balls.",
+        "Can you bike?"
       ],
       "sentenceMap": {
-        "ball": [
+        "robot": [
           0,
           1,
           2
         ],
-        "bike": [
+        "ball": [
           3,
           4,
           5
         ],
-        "doll": [
+        "bike": [
           6,
           7,
           8
         ],
-        "kite": [
+        "doll": [
           9,
           10,
           11
         ],
-        "robot": [
+        "guitar": [
           12,
           13,
           14
@@ -21195,29 +20734,29 @@ window.GAME_DATA = {
           "binB": "has got",
           "tokens": [
             {
-              "t": "I have got a ball",
-              "cat": "A",
-              "emoji": "⚽"
-            },
-            {
-              "t": "She has got a bike",
-              "cat": "B",
-              "emoji": "🚲"
-            },
-            {
-              "t": "I have got a doll",
-              "cat": "A",
-              "emoji": "🧸"
-            },
-            {
-              "t": "She has got a kite",
-              "cat": "B",
-              "emoji": "🪁"
-            },
-            {
               "t": "I have got a robot",
               "cat": "A",
               "emoji": "🤖"
+            },
+            {
+              "t": "She has got a ball",
+              "cat": "B",
+              "emoji": "⚽"
+            },
+            {
+              "t": "I have got a bike",
+              "cat": "A",
+              "emoji": "🚲"
+            },
+            {
+              "t": "She has got a doll",
+              "cat": "B",
+              "emoji": "🧸"
+            },
+            {
+              "t": "I have got a guitar",
+              "cat": "A",
+              "emoji": "🎸"
             },
             {
               "t": "She has got a puzzle",
@@ -21228,121 +20767,115 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
-      "id": "L139",
-      "index": 139,
+      "id": "L138",
+      "index": 138,
       "world": "My Things, Your Things",
       "worldSubtitle": "Have got — Magic Academy Unit 4",
       "worldIndex": 9,
-      "name": "Things Champion",
-      "category": "L139",
-      "color": "#D8F0FF",
+      "name": "Sound Review",
+      "category": "L138",
+      "color": "#FDE2B3",
       "items": [
         {
-          "word": "ball",
-          "emoji": "⚽",
-          "slug": "ball",
-          "image": "images/ball.svg",
-          "color": "#D8F0FF"
+          "word": "chair",
+          "emoji": "🪑",
+          "slug": "chair",
+          "image": "images/chair.svg",
+          "color": "#FDE2B3"
         },
         {
-          "word": "bike",
-          "emoji": "🚲",
-          "slug": "bike",
-          "image": "images/bike.svg",
-          "color": "#D8F0FF"
+          "word": "table",
+          "emoji": "🪑",
+          "slug": "table",
+          "image": "images/table.svg",
+          "color": "#FDE2B3"
         },
         {
-          "word": "doll",
-          "emoji": "🧸",
-          "slug": "doll-things-champion",
-          "image": "images/doll-things-champion.svg",
-          "color": "#D8F0FF"
+          "word": "lamp",
+          "emoji": "💡",
+          "slug": "lamp",
+          "image": "images/lamp.svg",
+          "color": "#FDE2B3"
         },
         {
-          "word": "kite",
-          "emoji": "🪁",
-          "slug": "kite",
-          "image": "images/kite.svg",
-          "color": "#D8F0FF"
+          "word": "book",
+          "emoji": "📚",
+          "slug": "book",
+          "image": "images/book.svg",
+          "color": "#FDE2B3"
         },
         {
-          "word": "robot",
-          "emoji": "🤖",
-          "slug": "robot",
-          "image": "images/robot.svg",
-          "color": "#D8F0FF"
+          "word": "cup",
+          "emoji": "☕",
+          "slug": "cup",
+          "image": "images/cup.svg",
+          "color": "#FDE2B3"
         },
         {
-          "word": "guitar",
-          "emoji": "🎸",
-          "slug": "guitar",
-          "image": "images/guitar.svg",
-          "color": "#D8F0FF"
+          "word": "phone",
+          "emoji": "📱",
+          "slug": "phone",
+          "image": "images/phone.svg",
+          "color": "#FDE2B3"
         }
       ],
       "sentences": [
-        "This is a ball.",
-        "I like the ball.",
-        "I can see the ball.",
-        "This is a bike.",
-        "I like the bike.",
-        "I can see the bike.",
-        "This is a doll.",
-        "I like the doll.",
-        "I can see the doll.",
-        "This is a kite.",
-        "I like the kite.",
-        "I can see the kite.",
-        "This is a robot.",
-        "I like the robot.",
-        "I can see the robot.",
-        "This is a guitar.",
-        "I like the guitar.",
-        "I can see the guitar.",
-        "This is my ball.",
-        "These are my bikes.",
-        "Can you doll?"
+        "This is a chair.",
+        "I like the chair.",
+        "I can see the chair.",
+        "This is a table.",
+        "I like the table.",
+        "I can see the table.",
+        "This is a lamp.",
+        "I like the lamp.",
+        "I can see the lamp.",
+        "This is a book.",
+        "I like the book.",
+        "I can see the book.",
+        "This is a cup.",
+        "I like the cup.",
+        "I can see the cup.",
+        "This is a phone.",
+        "I like the phone.",
+        "I can see the phone.",
+        "This is my chair.",
+        "These are my tables.",
+        "Can you lamp?"
       ],
       "sentenceMap": {
-        "ball": [
+        "chair": [
           0,
           1,
           2
         ],
-        "bike": [
+        "table": [
           3,
           4,
           5
         ],
-        "doll": [
+        "lamp": [
           6,
           7,
           8
         ],
-        "kite": [
+        "book": [
           9,
           10,
           11
         ],
-        "robot": [
+        "cup": [
           12,
           13,
           14
         ],
-        "guitar": [
+        "phone": [
           15,
           16,
           17
@@ -21433,49 +20966,275 @@ window.GAME_DATA = {
           "binB": "has got",
           "tokens": [
             {
-              "t": "I have got a ball",
+              "t": "I have got a chair",
               "cat": "A",
-              "emoji": "⚽"
+              "emoji": "🪑"
             },
             {
-              "t": "She has got a bike",
+              "t": "She has got a table",
               "cat": "B",
-              "emoji": "🚲"
+              "emoji": "🪑"
             },
             {
-              "t": "I have got a doll",
+              "t": "I have got a lamp",
               "cat": "A",
-              "emoji": "🧸"
+              "emoji": "💡"
             },
             {
-              "t": "She has got a kite",
+              "t": "She has got a book",
               "cat": "B",
-              "emoji": "🪁"
+              "emoji": "📚"
             },
             {
-              "t": "I have got a robot",
+              "t": "I have got a cup",
               "cat": "A",
-              "emoji": "🤖"
+              "emoji": "☕"
             },
             {
-              "t": "She has got a guitar",
+              "t": "She has got a phone",
               "cat": "B",
-              "emoji": "🎸"
+              "emoji": "📱"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
+      ]
+    },
+    {
+      "id": "L139",
+      "index": 139,
+      "world": "My Things, Your Things",
+      "worldSubtitle": "Have got — Magic Academy Unit 4",
+      "worldIndex": 9,
+      "name": "Things Champion",
+      "category": "L139",
+      "color": "#D8F0FF",
+      "items": [
+        {
+          "word": "train",
+          "emoji": "🚆",
+          "slug": "train",
+          "image": "images/train.svg",
+          "color": "#D8F0FF"
+        },
+        {
+          "word": "car",
+          "emoji": "🚗",
+          "slug": "car",
+          "image": "images/car.svg",
+          "color": "#D8F0FF"
+        },
+        {
+          "word": "ship",
+          "emoji": "🚢",
+          "slug": "ship",
+          "image": "images/ship.svg",
+          "color": "#D8F0FF"
+        },
+        {
+          "word": "plane",
+          "emoji": "✈️",
+          "slug": "plane",
+          "image": "images/plane.svg",
+          "color": "#D8F0FF"
+        },
+        {
+          "word": "bus",
+          "emoji": "🚌",
+          "slug": "bus",
+          "image": "images/bus.svg",
+          "color": "#D8F0FF"
+        },
+        {
+          "word": "bike",
+          "emoji": "🚲",
+          "slug": "bike",
+          "image": "images/bike.svg",
+          "color": "#D8F0FF"
+        }
+      ],
+      "sentences": [
+        "This is a train.",
+        "I like the train.",
+        "I can see the train.",
+        "This is a car.",
+        "I like the car.",
+        "I can see the car.",
+        "This is a ship.",
+        "I like the ship.",
+        "I can see the ship.",
+        "This is a plane.",
+        "I like the plane.",
+        "I can see the plane.",
+        "These are bus.",
+        "I like bus.",
+        "Can you see bus?",
+        "This is a bike.",
+        "I like the bike.",
+        "I can see the bike.",
+        "This is my train.",
+        "These are my cars.",
+        "Can you ship?"
+      ],
+      "sentenceMap": {
+        "train": [
+          0,
+          1,
+          2
+        ],
+        "car": [
+          3,
+          4,
+          5
+        ],
+        "ship": [
+          6,
+          7,
+          8
+        ],
+        "plane": [
+          9,
+          10,
+          11
+        ],
+        "bus": [
+          12,
+          13,
+          14
+        ],
+        "bike": [
+          15,
+          16,
+          17
+        ]
+      },
+      "grammar": {
+        "target": "Have got / has got",
+        "gap": [
+          {
+            "text": "I ___ a kite.",
+            "options": [
+              "have got",
+              "has got"
+            ],
+            "correct": 0,
+            "emoji": "🪁"
+          },
+          {
+            "text": "She ___ a doll.",
+            "options": [
+              "has got",
+              "have got"
+            ],
+            "correct": 0,
+            "emoji": "🧸"
+          },
+          {
+            "text": "___ you got a ball?",
+            "options": [
+              "Have",
+              "Has"
+            ],
+            "correct": 0,
+            "emoji": "⚽"
+          }
+        ],
+        "transform": [
+          {
+            "prompt": "I have got →",
+            "base": "have got",
+            "options": [
+              "has got",
+              "have get",
+              "have got"
+            ],
+            "correct": 2
+          },
+          {
+            "prompt": "she has got →",
+            "base": "has got",
+            "options": [
+              "have got",
+              "has got",
+              "has get"
+            ],
+            "correct": 1
+          },
+          {
+            "prompt": "have got →",
+            "base": "have got",
+            "options": [
+              "has got",
+              "have got",
+              "got"
+            ],
+            "correct": 1
+          }
+        ],
+        "fix": [
+          {
+            "right": "I have got a kite.",
+            "wrong": "I has got a kite.",
+            "emoji": "🪁"
+          },
+          {
+            "right": "She has got a doll.",
+            "wrong": "She have got a doll.",
+            "emoji": "🧸"
+          },
+          {
+            "right": "Have you got a ball?",
+            "wrong": "Has you got a ball?",
+            "emoji": "⚽"
+          }
+        ],
+        "sort": {
+          "binA": "have got",
+          "binB": "has got",
+          "tokens": [
+            {
+              "t": "I have got a train",
+              "cat": "A",
+              "emoji": "🚆"
+            },
+            {
+              "t": "She has got a car",
+              "cat": "B",
+              "emoji": "🚗"
+            },
+            {
+              "t": "I have got a ship",
+              "cat": "A",
+              "emoji": "🚢"
+            },
+            {
+              "t": "She has got a plane",
+              "cat": "B",
+              "emoji": "✈️"
+            },
+            {
+              "t": "I have got a bus",
+              "cat": "A",
+              "emoji": "🚌"
+            },
+            {
+              "t": "She has got a bike",
+              "cat": "B",
+              "emoji": "🚲"
+            }
+          ]
+        }
+      },
+      "gameTypes": [
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -21704,16 +21463,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -21727,98 +21480,98 @@ window.GAME_DATA = {
       "color": "#D6F5C9",
       "items": [
         {
-          "word": "pizza",
-          "emoji": "🍕",
-          "slug": "pizza",
-          "image": "images/pizza.svg",
+          "word": "burger",
+          "emoji": "🍔",
+          "slug": "burger",
+          "image": "images/burger.svg",
           "color": "#D6F5C9"
         },
         {
-          "word": "apple",
-          "emoji": "🍎",
-          "slug": "apple",
-          "image": "images/apple.svg",
+          "word": "salad",
+          "emoji": "🥗",
+          "slug": "salad",
+          "image": "images/salad.svg",
           "color": "#D6F5C9"
         },
         {
-          "word": "rice",
-          "emoji": "🍚",
-          "slug": "rice",
-          "image": "images/rice.svg",
+          "word": "pasta",
+          "emoji": "🍝",
+          "slug": "pasta",
+          "image": "images/pasta.svg",
           "color": "#D6F5C9"
         },
         {
-          "word": "fish",
-          "emoji": "🐟",
-          "slug": "fish",
-          "image": "images/fish.svg",
+          "word": "soup",
+          "emoji": "🍲",
+          "slug": "soup",
+          "image": "images/soup.svg",
           "color": "#D6F5C9"
         },
         {
-          "word": "cheese",
-          "emoji": "🧀",
-          "slug": "cheese",
-          "image": "images/cheese.svg",
+          "word": "ice cream",
+          "emoji": "🍦",
+          "slug": "ice-cream",
+          "image": "images/ice-cream.svg",
           "color": "#D6F5C9"
         },
         {
-          "word": "cake",
-          "emoji": "🍰",
-          "slug": "cake",
-          "image": "images/cake.svg",
+          "word": "candy",
+          "emoji": "🍬",
+          "slug": "candy",
+          "image": "images/candy.svg",
           "color": "#D6F5C9"
         }
       ],
       "sentences": [
-        "This is a pizza.",
-        "I like the pizza.",
-        "I can see the pizza.",
-        "This is an apple.",
-        "I like the apple.",
-        "I can see the apple.",
-        "This is a rice.",
-        "I like the rice.",
-        "I can see the rice.",
-        "This is a fish.",
-        "I like the fish.",
-        "I can see the fish.",
-        "This is a cheese.",
-        "I like the cheese.",
-        "I can see the cheese.",
-        "This is a cake.",
-        "I like the cake.",
-        "I can see the cake.",
-        "This is my pizza.",
-        "These are my apples.",
-        "Can you rice?"
+        "This is a burger.",
+        "I like the burger.",
+        "I can see the burger.",
+        "This is a salad.",
+        "I like the salad.",
+        "I can see the salad.",
+        "This is a pasta.",
+        "I like the pasta.",
+        "I can see the pasta.",
+        "This is a soup.",
+        "I like the soup.",
+        "I can see the soup.",
+        "This is ice cream.",
+        "I like ice cream.",
+        "Can you see ice cream?",
+        "This is a candy.",
+        "I like the candy.",
+        "I can see the candy.",
+        "This is my burger.",
+        "These are my salads.",
+        "Can you pasta?"
       ],
       "sentenceMap": {
-        "pizza": [
+        "burger": [
           0,
           1,
           2
         ],
-        "apple": [
+        "salad": [
           3,
           4,
           5
         ],
-        "rice": [
+        "pasta": [
           6,
           7,
           8
         ],
-        "fish": [
+        "soup": [
           9,
           10,
           11
         ],
-        "cheese": [
+        "ice cream": [
           12,
           13,
           14
         ],
-        "cake": [
+        "candy": [
           15,
           16,
           17
@@ -21909,49 +21662,43 @@ window.GAME_DATA = {
           "binB": "likes",
           "tokens": [
             {
-              "t": "I like pizza",
+              "t": "I like burger",
               "cat": "A",
-              "emoji": "🍕"
+              "emoji": "🍔"
             },
             {
-              "t": "She likes apple",
+              "t": "She likes salad",
               "cat": "B",
-              "emoji": "🍎"
+              "emoji": "🥗"
             },
             {
-              "t": "I like rice",
+              "t": "I like pasta",
               "cat": "A",
-              "emoji": "🍚"
+              "emoji": "🍝"
             },
             {
-              "t": "She likes fish",
+              "t": "She likes soup",
               "cat": "B",
-              "emoji": "🐟"
+              "emoji": "🍲"
             },
             {
-              "t": "I like cheese",
+              "t": "I like ice cream",
               "cat": "A",
-              "emoji": "🧀"
+              "emoji": "🍦"
             },
             {
-              "t": "She likes cake",
+              "t": "She likes candy",
               "cat": "B",
-              "emoji": "🍰"
+              "emoji": "🍬"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -21965,98 +21712,98 @@ window.GAME_DATA = {
       "color": "#E6D3FF",
       "items": [
         {
-          "word": "pizza",
-          "emoji": "🍕",
-          "slug": "pizza",
-          "image": "images/pizza.svg",
+          "word": "banana",
+          "emoji": "🍌",
+          "slug": "banana",
+          "image": "images/banana.svg",
           "color": "#E6D3FF"
         },
         {
-          "word": "apple",
-          "emoji": "🍎",
-          "slug": "apple",
-          "image": "images/apple.svg",
+          "word": "chocolate",
+          "emoji": "🍫",
+          "slug": "chocolate",
+          "image": "images/chocolate.svg",
           "color": "#E6D3FF"
         },
         {
-          "word": "rice",
-          "emoji": "🍚",
-          "slug": "rice",
-          "image": "images/rice.svg",
+          "word": "cereal",
+          "emoji": "🥣",
+          "slug": "cereal",
+          "image": "images/cereal.svg",
           "color": "#E6D3FF"
         },
         {
-          "word": "fish",
-          "emoji": "🐟",
-          "slug": "fish",
-          "image": "images/fish.svg",
+          "word": "toast",
+          "emoji": "🍞",
+          "slug": "toast",
+          "image": "images/toast.svg",
           "color": "#E6D3FF"
         },
         {
-          "word": "cheese",
-          "emoji": "🧀",
-          "slug": "cheese",
-          "image": "images/cheese.svg",
+          "word": "milkshake",
+          "emoji": "🥤",
+          "slug": "milkshake-mr-gluto-returns",
+          "image": "images/milkshake-mr-gluto-returns.svg",
           "color": "#E6D3FF"
         },
         {
-          "word": "cake",
-          "emoji": "🍰",
-          "slug": "cake",
-          "image": "images/cake.svg",
+          "word": "yogurt",
+          "emoji": "🍦",
+          "slug": "yogurt",
+          "image": "images/yogurt.svg",
           "color": "#E6D3FF"
         }
       ],
       "sentences": [
-        "This is a pizza.",
-        "I like the pizza.",
-        "I can see the pizza.",
-        "This is an apple.",
-        "I like the apple.",
-        "I can see the apple.",
-        "This is a rice.",
-        "I like the rice.",
-        "I can see the rice.",
-        "This is a fish.",
-        "I like the fish.",
-        "I can see the fish.",
-        "This is a cheese.",
-        "I like the cheese.",
-        "I can see the cheese.",
-        "This is a cake.",
-        "I like the cake.",
-        "I can see the cake.",
-        "This is my pizza.",
-        "These are my apples.",
-        "Can you rice?"
+        "This is a banana.",
+        "I like the banana.",
+        "I can see the banana.",
+        "This is a chocolate.",
+        "I like the chocolate.",
+        "I can see the chocolate.",
+        "This is a cereal.",
+        "I like the cereal.",
+        "I can see the cereal.",
+        "This is a toast.",
+        "I like the toast.",
+        "I can see the toast.",
+        "This is a milkshake.",
+        "I like the milkshake.",
+        "I can see the milkshake.",
+        "This is a yogurt.",
+        "I like the yogurt.",
+        "I can see the yogurt.",
+        "This is my banana.",
+        "These are my chocolates.",
+        "Can you cereal?"
       ],
       "sentenceMap": {
-        "pizza": [
+        "banana": [
           0,
           1,
           2
         ],
-        "apple": [
+        "chocolate": [
           3,
           4,
           5
         ],
-        "rice": [
+        "cereal": [
           6,
           7,
           8
         ],
-        "fish": [
+        "toast": [
           9,
           10,
           11
         ],
-        "cheese": [
+        "milkshake": [
           12,
           13,
           14
         ],
-        "cake": [
+        "yogurt": [
           15,
           16,
           17
@@ -22147,49 +21894,43 @@ window.GAME_DATA = {
           "binB": "likes",
           "tokens": [
             {
-              "t": "I like pizza",
+              "t": "I like banana",
               "cat": "A",
-              "emoji": "🍕"
+              "emoji": "🍌"
             },
             {
-              "t": "She likes apple",
+              "t": "She likes chocolate",
               "cat": "B",
-              "emoji": "🍎"
+              "emoji": "🍫"
             },
             {
-              "t": "I like rice",
+              "t": "I like cereal",
               "cat": "A",
-              "emoji": "🍚"
+              "emoji": "🥣"
             },
             {
-              "t": "She likes fish",
+              "t": "She likes toast",
               "cat": "B",
-              "emoji": "🐟"
+              "emoji": "🍞"
             },
             {
-              "t": "I like cheese",
+              "t": "I like milkshake",
               "cat": "A",
-              "emoji": "🧀"
+              "emoji": "🥤"
             },
             {
-              "t": "She likes cake",
+              "t": "She likes yogurt",
               "cat": "B",
-              "emoji": "🍰"
+              "emoji": "🍦"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -22203,10 +21944,31 @@ window.GAME_DATA = {
       "color": "#C9F0EC",
       "items": [
         {
+          "word": "sandwich",
+          "emoji": "🥪",
+          "slug": "sandwich",
+          "image": "images/sandwich.svg",
+          "color": "#C9F0EC"
+        },
+        {
+          "word": "fries",
+          "emoji": "🍟",
+          "slug": "fries",
+          "image": "images/fries.svg",
+          "color": "#C9F0EC"
+        },
+        {
           "word": "pizza",
           "emoji": "🍕",
           "slug": "pizza",
           "image": "images/pizza.svg",
+          "color": "#C9F0EC"
+        },
+        {
+          "word": "cake",
+          "emoji": "🍰",
+          "slug": "cake",
+          "image": "images/cake.svg",
           "color": "#C9F0EC"
         },
         {
@@ -22217,84 +21979,63 @@ window.GAME_DATA = {
           "color": "#C9F0EC"
         },
         {
-          "word": "rice",
-          "emoji": "🍚",
-          "slug": "rice",
-          "image": "images/rice.svg",
-          "color": "#C9F0EC"
-        },
-        {
-          "word": "fish",
-          "emoji": "🐟",
-          "slug": "fish",
-          "image": "images/fish.svg",
-          "color": "#C9F0EC"
-        },
-        {
-          "word": "cheese",
-          "emoji": "🧀",
-          "slug": "cheese",
-          "image": "images/cheese.svg",
-          "color": "#C9F0EC"
-        },
-        {
-          "word": "cake",
-          "emoji": "🍰",
-          "slug": "cake",
-          "image": "images/cake.svg",
+          "word": "juice",
+          "emoji": "🧃",
+          "slug": "juice",
+          "image": "images/juice.svg",
           "color": "#C9F0EC"
         }
       ],
       "sentences": [
+        "This is a sandwich.",
+        "I like the sandwich.",
+        "I can see the sandwich.",
+        "These are fries.",
+        "I like fries.",
+        "Can you see fries?",
         "This is a pizza.",
         "I like the pizza.",
         "I can see the pizza.",
-        "This is an apple.",
-        "I like the apple.",
-        "I can see the apple.",
-        "This is a rice.",
-        "I like the rice.",
-        "I can see the rice.",
-        "This is a fish.",
-        "I like the fish.",
-        "I can see the fish.",
-        "This is a cheese.",
-        "I like the cheese.",
-        "I can see the cheese.",
         "This is a cake.",
         "I like the cake.",
         "I can see the cake.",
-        "This is my pizza.",
-        "These are my apples.",
-        "Can you rice?"
+        "This is an apple.",
+        "I like the apple.",
+        "I can see the apple.",
+        "This is a juice.",
+        "I like the juice.",
+        "I can see the juice.",
+        "This is my sandwich.",
+        "These are my friess.",
+        "Can you pizza?"
       ],
       "sentenceMap": {
-        "pizza": [
+        "sandwich": [
           0,
           1,
           2
         ],
-        "apple": [
+        "fries": [
           3,
           4,
           5
         ],
-        "rice": [
+        "pizza": [
           6,
           7,
           8
         ],
-        "fish": [
+        "cake": [
           9,
           10,
           11
         ],
-        "cheese": [
+        "apple": [
           12,
           13,
           14
         ],
-        "cake": [
+        "juice": [
           15,
           16,
           17
@@ -22385,49 +22126,43 @@ window.GAME_DATA = {
           "binB": "likes",
           "tokens": [
             {
+              "t": "I like sandwich",
+              "cat": "A",
+              "emoji": "🥪"
+            },
+            {
+              "t": "She likes fries",
+              "cat": "B",
+              "emoji": "🍟"
+            },
+            {
               "t": "I like pizza",
               "cat": "A",
               "emoji": "🍕"
             },
             {
-              "t": "She likes apple",
-              "cat": "B",
-              "emoji": "🍎"
-            },
-            {
-              "t": "I like rice",
-              "cat": "A",
-              "emoji": "🍚"
-            },
-            {
-              "t": "She likes fish",
-              "cat": "B",
-              "emoji": "🐟"
-            },
-            {
-              "t": "I like cheese",
-              "cat": "A",
-              "emoji": "🧀"
-            },
-            {
               "t": "She likes cake",
               "cat": "B",
               "emoji": "🍰"
+            },
+            {
+              "t": "I like apple",
+              "cat": "A",
+              "emoji": "🍎"
+            },
+            {
+              "t": "She likes juice",
+              "cat": "B",
+              "emoji": "🧃"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -22441,24 +22176,10 @@ window.GAME_DATA = {
       "color": "#FFE7A8",
       "items": [
         {
-          "word": "pizza",
-          "emoji": "🍕",
-          "slug": "pizza",
-          "image": "images/pizza.svg",
-          "color": "#FFE7A8"
-        },
-        {
-          "word": "apple",
-          "emoji": "🍎",
-          "slug": "apple",
-          "image": "images/apple.svg",
-          "color": "#FFE7A8"
-        },
-        {
-          "word": "rice",
-          "emoji": "🍚",
-          "slug": "rice",
-          "image": "images/rice.svg",
+          "word": "cheese",
+          "emoji": "🧀",
+          "slug": "cheese",
+          "image": "images/cheese.svg",
           "color": "#FFE7A8"
         },
         {
@@ -22469,50 +22190,64 @@ window.GAME_DATA = {
           "color": "#FFE7A8"
         },
         {
-          "word": "cheese",
-          "emoji": "🧀",
-          "slug": "cheese",
-          "image": "images/cheese.svg",
+          "word": "rice",
+          "emoji": "🍚",
+          "slug": "rice",
+          "image": "images/rice.svg",
           "color": "#FFE7A8"
         },
         {
-          "word": "cake",
-          "emoji": "🍰",
-          "slug": "cake",
-          "image": "images/cake.svg",
+          "word": "bread",
+          "emoji": "🍞",
+          "slug": "bread",
+          "image": "images/bread.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "milk",
+          "emoji": "🥛",
+          "slug": "milk",
+          "image": "images/milk.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "water",
+          "emoji": "💧",
+          "slug": "water",
+          "image": "images/water.svg",
           "color": "#FFE7A8"
         }
       ],
       "sentences": [
-        "This is a pizza.",
-        "I like the pizza.",
-        "I can see the pizza.",
-        "This is an apple.",
-        "I like the apple.",
-        "I can see the apple.",
-        "This is a rice.",
-        "I like the rice.",
-        "I can see the rice.",
-        "This is a fish.",
-        "I like the fish.",
-        "I can see the fish.",
         "This is a cheese.",
         "I like the cheese.",
         "I can see the cheese.",
-        "This is a cake.",
-        "I like the cake.",
-        "I can see the cake.",
-        "This is my pizza.",
-        "These are my apples.",
+        "This is a fish.",
+        "I like the fish.",
+        "I can see the fish.",
+        "This is a rice.",
+        "I like the rice.",
+        "I can see the rice.",
+        "This is a bread.",
+        "I like the bread.",
+        "I can see the bread.",
+        "This is a milk.",
+        "I like the milk.",
+        "I can see the milk.",
+        "This is a water.",
+        "I like the water.",
+        "I can see the water.",
+        "This is my cheese.",
+        "These are my fishs.",
         "Can you rice?"
       ],
       "sentenceMap": {
-        "pizza": [
+        "cheese": [
           0,
           1,
           2
         ],
-        "apple": [
+        "fish": [
           3,
           4,
           5
@@ -22522,17 +22257,17 @@ window.GAME_DATA = {
           7,
           8
         ],
-        "fish": [
+        "bread": [
           9,
           10,
           11
         ],
-        "cheese": [
+        "milk": [
           12,
           13,
           14
         ],
-        "cake": [
+        "water": [
           15,
           16,
           17
@@ -22623,19 +22358,9 @@ window.GAME_DATA = {
           "binB": "likes",
           "tokens": [
             {
-              "t": "I like pizza",
+              "t": "I like cheese",
               "cat": "A",
-              "emoji": "🍕"
-            },
-            {
-              "t": "She likes apple",
-              "cat": "B",
-              "emoji": "🍎"
-            },
-            {
-              "t": "I like rice",
-              "cat": "A",
-              "emoji": "🍚"
+              "emoji": "🧀"
             },
             {
               "t": "She likes fish",
@@ -22643,29 +22368,33 @@ window.GAME_DATA = {
               "emoji": "🐟"
             },
             {
-              "t": "I like cheese",
+              "t": "I like rice",
               "cat": "A",
-              "emoji": "🧀"
+              "emoji": "🍚"
             },
             {
-              "t": "She likes cake",
+              "t": "She likes bread",
               "cat": "B",
-              "emoji": "🍰"
+              "emoji": "🍞"
+            },
+            {
+              "t": "I like milk",
+              "cat": "A",
+              "emoji": "🥛"
+            },
+            {
+              "t": "She likes water",
+              "cat": "B",
+              "emoji": "💧"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -22679,98 +22408,98 @@ window.GAME_DATA = {
       "color": "#DCC9FF",
       "items": [
         {
-          "word": "pizza",
-          "emoji": "🍕",
-          "slug": "pizza",
-          "image": "images/pizza.svg",
+          "word": "eggs",
+          "emoji": "🥚",
+          "slug": "eggs",
+          "image": "images/eggs.svg",
           "color": "#DCC9FF"
         },
         {
-          "word": "apple",
-          "emoji": "🍎",
-          "slug": "apple",
-          "image": "images/apple.svg",
+          "word": "yogurt",
+          "emoji": "🍦",
+          "slug": "yogurt",
+          "image": "images/yogurt.svg",
           "color": "#DCC9FF"
         },
         {
-          "word": "rice",
-          "emoji": "🍚",
-          "slug": "rice",
-          "image": "images/rice.svg",
+          "word": "cereal",
+          "emoji": "🥣",
+          "slug": "cereal",
+          "image": "images/cereal.svg",
           "color": "#DCC9FF"
         },
         {
-          "word": "fish",
-          "emoji": "🐟",
-          "slug": "fish",
-          "image": "images/fish.svg",
+          "word": "fruit",
+          "emoji": "🍇",
+          "slug": "fruit-me-them",
+          "image": "images/fruit-me-them.svg",
           "color": "#DCC9FF"
         },
         {
-          "word": "cheese",
-          "emoji": "🧀",
-          "slug": "cheese",
-          "image": "images/cheese.svg",
+          "word": "vegetables",
+          "emoji": "🥦",
+          "slug": "vegetables",
+          "image": "images/vegetables.svg",
           "color": "#DCC9FF"
         },
         {
-          "word": "cake",
-          "emoji": "🍰",
-          "slug": "cake",
-          "image": "images/cake.svg",
+          "word": "chips",
+          "emoji": "🍟",
+          "slug": "chips",
+          "image": "images/chips.svg",
           "color": "#DCC9FF"
         }
       ],
       "sentences": [
-        "This is a pizza.",
-        "I like the pizza.",
-        "I can see the pizza.",
-        "This is an apple.",
-        "I like the apple.",
-        "I can see the apple.",
-        "This is a rice.",
-        "I like the rice.",
-        "I can see the rice.",
-        "This is a fish.",
-        "I like the fish.",
-        "I can see the fish.",
-        "This is a cheese.",
-        "I like the cheese.",
-        "I can see the cheese.",
-        "This is a cake.",
-        "I like the cake.",
-        "I can see the cake.",
-        "This is my pizza.",
-        "These are my apples.",
-        "Can you rice?"
+        "These are eggs.",
+        "I like eggs.",
+        "Can you see eggs?",
+        "This is a yogurt.",
+        "I like the yogurt.",
+        "I can see the yogurt.",
+        "This is a cereal.",
+        "I like the cereal.",
+        "I can see the cereal.",
+        "This is a fruit.",
+        "I like the fruit.",
+        "I can see the fruit.",
+        "These are vegetables.",
+        "I like vegetables.",
+        "Can you see vegetables?",
+        "These are chips.",
+        "I like chips.",
+        "Can you see chips?",
+        "This is my eggs.",
+        "These are my yogurts.",
+        "Can you cereal?"
       ],
       "sentenceMap": {
-        "pizza": [
+        "eggs": [
           0,
           1,
           2
         ],
-        "apple": [
+        "yogurt": [
           3,
           4,
           5
         ],
-        "rice": [
+        "cereal": [
           6,
           7,
           8
         ],
-        "fish": [
+        "fruit": [
           9,
           10,
           11
         ],
-        "cheese": [
+        "vegetables": [
           12,
           13,
           14
         ],
-        "cake": [
+        "chips": [
           15,
           16,
           17
@@ -22861,49 +22590,43 @@ window.GAME_DATA = {
           "binB": "likes",
           "tokens": [
             {
-              "t": "I like pizza",
+              "t": "I like eggs",
               "cat": "A",
-              "emoji": "🍕"
+              "emoji": "🥚"
             },
             {
-              "t": "She likes apple",
+              "t": "She likes yogurt",
               "cat": "B",
-              "emoji": "🍎"
+              "emoji": "🍦"
             },
             {
-              "t": "I like rice",
+              "t": "I like cereal",
               "cat": "A",
-              "emoji": "🍚"
+              "emoji": "🥣"
             },
             {
-              "t": "She likes fish",
+              "t": "She likes fruit",
               "cat": "B",
-              "emoji": "🐟"
+              "emoji": "🍇"
             },
             {
-              "t": "I like cheese",
+              "t": "I like vegetables",
               "cat": "A",
-              "emoji": "🧀"
+              "emoji": "🥦"
             },
             {
-              "t": "She likes cake",
+              "t": "She likes chips",
               "cat": "B",
-              "emoji": "🍰"
+              "emoji": "🍟"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -22917,98 +22640,98 @@ window.GAME_DATA = {
       "color": "#FFD0DE",
       "items": [
         {
-          "word": "pizza",
-          "emoji": "🍕",
-          "slug": "pizza",
-          "image": "images/pizza.svg",
+          "word": "sushi",
+          "emoji": "🍣",
+          "slug": "sushi",
+          "image": "images/sushi.svg",
           "color": "#FFD0DE"
         },
         {
-          "word": "apple",
-          "emoji": "🍎",
-          "slug": "apple",
-          "image": "images/apple.svg",
+          "word": "tacos",
+          "emoji": "🌮",
+          "slug": "tacos",
+          "image": "images/tacos.svg",
           "color": "#FFD0DE"
         },
         {
-          "word": "rice",
-          "emoji": "🍚",
-          "slug": "rice",
-          "image": "images/rice.svg",
+          "word": "donut",
+          "emoji": "🍩",
+          "slug": "donut",
+          "image": "images/donut.svg",
           "color": "#FFD0DE"
         },
         {
-          "word": "fish",
-          "emoji": "🐟",
-          "slug": "fish",
-          "image": "images/fish.svg",
+          "word": "soda",
+          "emoji": "🥤",
+          "slug": "soda",
+          "image": "images/soda.svg",
           "color": "#FFD0DE"
         },
         {
-          "word": "cheese",
-          "emoji": "🧀",
-          "slug": "cheese",
-          "image": "images/cheese.svg",
+          "word": "popcorn",
+          "emoji": "🍿",
+          "slug": "popcorn",
+          "image": "images/popcorn.svg",
           "color": "#FFD0DE"
         },
         {
-          "word": "cake",
-          "emoji": "🍰",
-          "slug": "cake",
-          "image": "images/cake.svg",
+          "word": "stew",
+          "emoji": "🥘",
+          "slug": "stew",
+          "image": "images/stew.svg",
           "color": "#FFD0DE"
         }
       ],
       "sentences": [
-        "This is a pizza.",
-        "I like the pizza.",
-        "I can see the pizza.",
-        "This is an apple.",
-        "I like the apple.",
-        "I can see the apple.",
-        "This is a rice.",
-        "I like the rice.",
-        "I can see the rice.",
-        "This is a fish.",
-        "I like the fish.",
-        "I can see the fish.",
-        "This is a cheese.",
-        "I like the cheese.",
-        "I can see the cheese.",
-        "This is a cake.",
-        "I like the cake.",
-        "I can see the cake.",
-        "This is my pizza.",
-        "These are my apples.",
-        "Can you rice?"
+        "This is a sushi.",
+        "I like the sushi.",
+        "I can see the sushi.",
+        "These are tacos.",
+        "I like tacos.",
+        "Can you see tacos?",
+        "This is a donut.",
+        "I like the donut.",
+        "I can see the donut.",
+        "This is a soda.",
+        "I like the soda.",
+        "I can see the soda.",
+        "This is a popcorn.",
+        "I like the popcorn.",
+        "I can see the popcorn.",
+        "This is a stew.",
+        "I like the stew.",
+        "I can see the stew.",
+        "This is my sushi.",
+        "These are my tacoss.",
+        "Can you donut?"
       ],
       "sentenceMap": {
-        "pizza": [
+        "sushi": [
           0,
           1,
           2
         ],
-        "apple": [
+        "tacos": [
           3,
           4,
           5
         ],
-        "rice": [
+        "donut": [
           6,
           7,
           8
         ],
-        "fish": [
+        "soda": [
           9,
           10,
           11
         ],
-        "cheese": [
+        "popcorn": [
           12,
           13,
           14
         ],
-        "cake": [
+        "stew": [
           15,
           16,
           17
@@ -23099,49 +22822,43 @@ window.GAME_DATA = {
           "binB": "likes",
           "tokens": [
             {
-              "t": "I like pizza",
+              "t": "I like sushi",
               "cat": "A",
-              "emoji": "🍕"
+              "emoji": "🍣"
             },
             {
-              "t": "She likes apple",
+              "t": "She likes tacos",
               "cat": "B",
-              "emoji": "🍎"
+              "emoji": "🌮"
             },
             {
-              "t": "I like rice",
+              "t": "I like donut",
               "cat": "A",
-              "emoji": "🍚"
+              "emoji": "🍩"
             },
             {
-              "t": "She likes fish",
+              "t": "She likes soda",
               "cat": "B",
-              "emoji": "🐟"
+              "emoji": "🥤"
             },
             {
-              "t": "I like cheese",
+              "t": "I like popcorn",
               "cat": "A",
-              "emoji": "🧀"
+              "emoji": "🍿"
             },
             {
-              "t": "She likes cake",
+              "t": "She likes stew",
               "cat": "B",
-              "emoji": "🍰"
+              "emoji": "🥘"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -23155,38 +22872,38 @@ window.GAME_DATA = {
       "color": "#C6F0CE",
       "items": [
         {
-          "word": "pizza",
-          "emoji": "🍕",
-          "slug": "pizza",
-          "image": "images/pizza.svg",
+          "word": "cookie",
+          "emoji": "🍪",
+          "slug": "cookie",
+          "image": "images/cookie.svg",
           "color": "#C6F0CE"
         },
         {
-          "word": "apple",
-          "emoji": "🍎",
-          "slug": "apple",
-          "image": "images/apple.svg",
+          "word": "ice cream",
+          "emoji": "🍦",
+          "slug": "ice-cream",
+          "image": "images/ice-cream.svg",
           "color": "#C6F0CE"
         },
         {
-          "word": "rice",
-          "emoji": "🍚",
-          "slug": "rice",
-          "image": "images/rice.svg",
+          "word": "candy",
+          "emoji": "🍬",
+          "slug": "candy",
+          "image": "images/candy.svg",
           "color": "#C6F0CE"
         },
         {
-          "word": "fish",
-          "emoji": "🐟",
-          "slug": "fish",
-          "image": "images/fish.svg",
+          "word": "fruit",
+          "emoji": "🍇",
+          "slug": "fruit-ludo-s-doubts",
+          "image": "images/fruit-ludo-s-doubts.svg",
           "color": "#C6F0CE"
         },
         {
-          "word": "cheese",
-          "emoji": "🧀",
-          "slug": "cheese",
-          "image": "images/cheese.svg",
+          "word": "milk",
+          "emoji": "🥛",
+          "slug": "milk",
+          "image": "images/milk.svg",
           "color": "#C6F0CE"
         },
         {
@@ -23198,50 +22915,50 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "This is a pizza.",
-        "I like the pizza.",
-        "I can see the pizza.",
-        "This is an apple.",
-        "I like the apple.",
-        "I can see the apple.",
-        "This is a rice.",
-        "I like the rice.",
-        "I can see the rice.",
-        "This is a fish.",
-        "I like the fish.",
-        "I can see the fish.",
-        "This is a cheese.",
-        "I like the cheese.",
-        "I can see the cheese.",
+        "This is a cookie.",
+        "I like the cookie.",
+        "I can see the cookie.",
+        "This is ice cream.",
+        "I like ice cream.",
+        "Can you see ice cream?",
+        "This is a candy.",
+        "I like the candy.",
+        "I can see the candy.",
+        "This is a fruit.",
+        "I like the fruit.",
+        "I can see the fruit.",
+        "This is a milk.",
+        "I like the milk.",
+        "I can see the milk.",
         "This is a cake.",
         "I like the cake.",
         "I can see the cake.",
-        "This is my pizza.",
-        "These are my apples.",
-        "Can you rice?"
+        "This is my cookie.",
+        "These are my ice creams.",
+        "Can you candy?"
       ],
       "sentenceMap": {
-        "pizza": [
+        "cookie": [
           0,
           1,
           2
         ],
-        "apple": [
+        "ice cream": [
           3,
           4,
           5
         ],
-        "rice": [
+        "candy": [
           6,
           7,
           8
         ],
-        "fish": [
+        "fruit": [
           9,
           10,
           11
         ],
-        "cheese": [
+        "milk": [
           12,
           13,
           14
@@ -23337,29 +23054,29 @@ window.GAME_DATA = {
           "binB": "likes",
           "tokens": [
             {
-              "t": "I like pizza",
+              "t": "I like cookie",
               "cat": "A",
-              "emoji": "🍕"
+              "emoji": "🍪"
             },
             {
-              "t": "She likes apple",
+              "t": "She likes ice cream",
               "cat": "B",
-              "emoji": "🍎"
+              "emoji": "🍦"
             },
             {
-              "t": "I like rice",
+              "t": "I like candy",
               "cat": "A",
-              "emoji": "🍚"
+              "emoji": "🍬"
             },
             {
-              "t": "She likes fish",
+              "t": "She likes fruit",
               "cat": "B",
-              "emoji": "🐟"
+              "emoji": "🍇"
             },
             {
-              "t": "I like cheese",
+              "t": "I like milk",
               "cat": "A",
-              "emoji": "🧀"
+              "emoji": "🥛"
             },
             {
               "t": "She likes cake",
@@ -23370,16 +23087,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -23393,98 +23104,98 @@ window.GAME_DATA = {
       "color": "#BFE2FF",
       "items": [
         {
-          "word": "pizza",
-          "emoji": "🍕",
-          "slug": "pizza",
-          "image": "images/pizza.svg",
+          "word": "tea",
+          "emoji": "🍵",
+          "slug": "tea",
+          "image": "images/tea.svg",
           "color": "#BFE2FF"
         },
         {
-          "word": "apple",
-          "emoji": "🍎",
-          "slug": "apple",
-          "image": "images/apple.svg",
+          "word": "coffee",
+          "emoji": "☕",
+          "slug": "coffee",
+          "image": "images/coffee.svg",
           "color": "#BFE2FF"
         },
         {
-          "word": "rice",
-          "emoji": "🍚",
-          "slug": "rice",
-          "image": "images/rice.svg",
+          "word": "juice",
+          "emoji": "🧃",
+          "slug": "juice",
+          "image": "images/juice.svg",
           "color": "#BFE2FF"
         },
         {
-          "word": "fish",
-          "emoji": "🐟",
-          "slug": "fish",
-          "image": "images/fish.svg",
+          "word": "water",
+          "emoji": "💧",
+          "slug": "water",
+          "image": "images/water.svg",
           "color": "#BFE2FF"
         },
         {
-          "word": "cheese",
-          "emoji": "🧀",
-          "slug": "cheese",
-          "image": "images/cheese.svg",
+          "word": "milk",
+          "emoji": "🥛",
+          "slug": "milk",
+          "image": "images/milk.svg",
           "color": "#BFE2FF"
         },
         {
-          "word": "cake",
-          "emoji": "🍰",
-          "slug": "cake",
-          "image": "images/cake.svg",
+          "word": "soda",
+          "emoji": "🥤",
+          "slug": "soda",
+          "image": "images/soda.svg",
           "color": "#BFE2FF"
         }
       ],
       "sentences": [
-        "This is a pizza.",
-        "I like the pizza.",
-        "I can see the pizza.",
-        "This is an apple.",
-        "I like the apple.",
-        "I can see the apple.",
-        "This is a rice.",
-        "I like the rice.",
-        "I can see the rice.",
-        "This is a fish.",
-        "I like the fish.",
-        "I can see the fish.",
-        "This is a cheese.",
-        "I like the cheese.",
-        "I can see the cheese.",
-        "This is a cake.",
-        "I like the cake.",
-        "I can see the cake.",
-        "This is my pizza.",
-        "These are my apples.",
-        "Can you rice?"
+        "This is a tea.",
+        "I like the tea.",
+        "I can see the tea.",
+        "This is a coffee.",
+        "I like the coffee.",
+        "I can see the coffee.",
+        "This is a juice.",
+        "I like the juice.",
+        "I can see the juice.",
+        "This is a water.",
+        "I like the water.",
+        "I can see the water.",
+        "This is a milk.",
+        "I like the milk.",
+        "I can see the milk.",
+        "This is a soda.",
+        "I like the soda.",
+        "I can see the soda.",
+        "This is my tea.",
+        "These are my coffees.",
+        "Can you juice?"
       ],
       "sentenceMap": {
-        "pizza": [
+        "tea": [
           0,
           1,
           2
         ],
-        "apple": [
+        "coffee": [
           3,
           4,
           5
         ],
-        "rice": [
+        "juice": [
           6,
           7,
           8
         ],
-        "fish": [
+        "water": [
           9,
           10,
           11
         ],
-        "cheese": [
+        "milk": [
           12,
           13,
           14
         ],
-        "cake": [
+        "soda": [
           15,
           16,
           17
@@ -23575,49 +23286,43 @@ window.GAME_DATA = {
           "binB": "likes",
           "tokens": [
             {
-              "t": "I like pizza",
+              "t": "I like tea",
               "cat": "A",
-              "emoji": "🍕"
+              "emoji": "🍵"
             },
             {
-              "t": "She likes apple",
+              "t": "She likes coffee",
               "cat": "B",
-              "emoji": "🍎"
+              "emoji": "☕"
             },
             {
-              "t": "I like rice",
+              "t": "I like juice",
               "cat": "A",
-              "emoji": "🍚"
+              "emoji": "🧃"
             },
             {
-              "t": "She likes fish",
+              "t": "She likes water",
               "cat": "B",
-              "emoji": "🐟"
+              "emoji": "💧"
             },
             {
-              "t": "I like cheese",
+              "t": "I like milk",
               "cat": "A",
-              "emoji": "🧀"
+              "emoji": "🥛"
             },
             {
-              "t": "She likes cake",
+              "t": "She likes soda",
               "cat": "B",
-              "emoji": "🍰"
+              "emoji": "🥤"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -23631,31 +23336,24 @@ window.GAME_DATA = {
       "color": "#FFE0C4",
       "items": [
         {
+          "word": "salad",
+          "emoji": "🥗",
+          "slug": "salad",
+          "image": "images/salad.svg",
+          "color": "#FFE0C4"
+        },
+        {
+          "word": "soup",
+          "emoji": "🍲",
+          "slug": "soup",
+          "image": "images/soup.svg",
+          "color": "#FFE0C4"
+        },
+        {
           "word": "pizza",
           "emoji": "🍕",
           "slug": "pizza",
           "image": "images/pizza.svg",
-          "color": "#FFE0C4"
-        },
-        {
-          "word": "apple",
-          "emoji": "🍎",
-          "slug": "apple",
-          "image": "images/apple.svg",
-          "color": "#FFE0C4"
-        },
-        {
-          "word": "rice",
-          "emoji": "🍚",
-          "slug": "rice",
-          "image": "images/rice.svg",
-          "color": "#FFE0C4"
-        },
-        {
-          "word": "fish",
-          "emoji": "🐟",
-          "slug": "fish",
-          "image": "images/fish.svg",
           "color": "#FFE0C4"
         },
         {
@@ -23666,63 +23364,70 @@ window.GAME_DATA = {
           "color": "#FFE0C4"
         },
         {
-          "word": "cake",
-          "emoji": "🍰",
-          "slug": "cake",
-          "image": "images/cake.svg",
+          "word": "bread",
+          "emoji": "🍞",
+          "slug": "bread",
+          "image": "images/bread.svg",
+          "color": "#FFE0C4"
+        },
+        {
+          "word": "pasta",
+          "emoji": "🍝",
+          "slug": "pasta",
+          "image": "images/pasta.svg",
           "color": "#FFE0C4"
         }
       ],
       "sentences": [
+        "This is a salad.",
+        "I like the salad.",
+        "I can see the salad.",
+        "This is a soup.",
+        "I like the soup.",
+        "I can see the soup.",
         "This is a pizza.",
         "I like the pizza.",
         "I can see the pizza.",
-        "This is an apple.",
-        "I like the apple.",
-        "I can see the apple.",
-        "This is a rice.",
-        "I like the rice.",
-        "I can see the rice.",
-        "This is a fish.",
-        "I like the fish.",
-        "I can see the fish.",
         "This is a cheese.",
         "I like the cheese.",
         "I can see the cheese.",
-        "This is a cake.",
-        "I like the cake.",
-        "I can see the cake.",
-        "This is my pizza.",
-        "These are my apples.",
-        "Can you rice?"
+        "This is a bread.",
+        "I like the bread.",
+        "I can see the bread.",
+        "This is a pasta.",
+        "I like the pasta.",
+        "I can see the pasta.",
+        "This is my salad.",
+        "These are my soups.",
+        "Can you pizza?"
       ],
       "sentenceMap": {
-        "pizza": [
+        "salad": [
           0,
           1,
           2
         ],
-        "apple": [
+        "soup": [
           3,
           4,
           5
         ],
-        "rice": [
+        "pizza": [
           6,
           7,
           8
         ],
-        "fish": [
+        "cheese": [
           9,
           10,
           11
         ],
-        "cheese": [
+        "bread": [
           12,
           13,
           14
         ],
-        "cake": [
+        "pasta": [
           15,
           16,
           17
@@ -23813,49 +23518,43 @@ window.GAME_DATA = {
           "binB": "likes",
           "tokens": [
             {
+              "t": "I like salad",
+              "cat": "A",
+              "emoji": "🥗"
+            },
+            {
+              "t": "She likes soup",
+              "cat": "B",
+              "emoji": "🍲"
+            },
+            {
               "t": "I like pizza",
               "cat": "A",
               "emoji": "🍕"
             },
             {
-              "t": "She likes apple",
+              "t": "She likes cheese",
               "cat": "B",
-              "emoji": "🍎"
-            },
-            {
-              "t": "I like rice",
-              "cat": "A",
-              "emoji": "🍚"
-            },
-            {
-              "t": "She likes fish",
-              "cat": "B",
-              "emoji": "🐟"
-            },
-            {
-              "t": "I like cheese",
-              "cat": "A",
               "emoji": "🧀"
             },
             {
-              "t": "She likes cake",
+              "t": "I like bread",
+              "cat": "A",
+              "emoji": "🍞"
+            },
+            {
+              "t": "She likes pasta",
               "cat": "B",
-              "emoji": "🍰"
+              "emoji": "🍝"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -24083,16 +23782,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -24106,97 +23799,97 @@ window.GAME_DATA = {
       "color": "#CBF3E1",
       "items": [
         {
-          "word": "get up",
-          "emoji": "⏰",
-          "slug": "get-up",
-          "image": "images/get-up.svg",
+          "word": "brush",
+          "emoji": "🪥",
+          "slug": "brush",
+          "image": "images/brush.svg",
           "color": "#CBF3E1"
         },
         {
-          "word": "wash",
-          "emoji": "🧼",
-          "slug": "wash",
-          "image": "images/wash.svg",
+          "word": "learn",
+          "emoji": "🧠",
+          "slug": "learn",
+          "image": "images/learn.svg",
           "color": "#CBF3E1"
         },
         {
-          "word": "eat",
-          "emoji": "🍽️",
-          "slug": "eat",
-          "image": "images/eat.svg",
+          "word": "study",
+          "emoji": "📚",
+          "slug": "study",
+          "image": "images/study.svg",
           "color": "#CBF3E1"
         },
         {
-          "word": "go",
-          "emoji": "🚶",
-          "slug": "go",
-          "image": "images/go.svg",
+          "word": "read",
+          "emoji": "📖",
+          "slug": "read",
+          "image": "images/read.svg",
           "color": "#CBF3E1"
         },
         {
-          "word": "play",
-          "emoji": "🎮",
-          "slug": "play",
-          "image": "images/play.svg",
+          "word": "write",
+          "emoji": "✍️",
+          "slug": "write",
+          "image": "images/write.svg",
           "color": "#CBF3E1"
         },
         {
-          "word": "sleep",
-          "emoji": "😴",
-          "slug": "sleep",
-          "image": "images/sleep.svg",
+          "word": "rest",
+          "emoji": "🛌",
+          "slug": "rest",
+          "image": "images/rest.svg",
           "color": "#CBF3E1"
         }
       ],
       "sentences": [
-        "I can get up.",
-        "Can you get up?",
-        "We get up today.",
-        "I can wash.",
-        "Can you wash?",
-        "We wash today.",
-        "I can eat.",
-        "Can you eat?",
-        "We eat today.",
-        "I can go.",
-        "Can you go?",
-        "We go today.",
-        "I can play.",
-        "Can you play?",
-        "We play today.",
-        "This is a sleep.",
-        "I like the sleep.",
-        "I can see the sleep.",
-        "This is my get up.",
-        "These are my washs."
+        "This is a brush.",
+        "I like the brush.",
+        "I can see the brush.",
+        "I can learn.",
+        "Can you learn?",
+        "We learn today.",
+        "I can study.",
+        "Can you study?",
+        "We study today.",
+        "I can read.",
+        "Can you read?",
+        "We read today.",
+        "I can write.",
+        "Can you write?",
+        "We write today.",
+        "This is a rest.",
+        "I like the rest.",
+        "I can see the rest.",
+        "This is my brush.",
+        "These are my learns."
       ],
       "sentenceMap": {
-        "get up": [
+        "brush": [
           0,
           1,
           2
         ],
-        "wash": [
+        "learn": [
           3,
           4,
           5
         ],
-        "eat": [
+        "study": [
           6,
           7,
           8
         ],
-        "go": [
+        "read": [
           9,
           10,
           11
         ],
-        "play": [
+        "write": [
           12,
           13,
           14
         ],
-        "sleep": [
+        "rest": [
           15,
           16,
           17
@@ -24287,49 +23980,43 @@ window.GAME_DATA = {
           "binB": "he/she",
           "tokens": [
             {
-              "t": "I get up",
+              "t": "I brush",
               "cat": "A",
-              "emoji": "⏰"
+              "emoji": "🪥"
             },
             {
-              "t": "He washes",
+              "t": "He learns",
               "cat": "B",
-              "emoji": "🧼"
+              "emoji": "🧠"
             },
             {
-              "t": "I eat",
+              "t": "I study",
               "cat": "A",
-              "emoji": "🍽️"
+              "emoji": "📚"
             },
             {
-              "t": "He gos",
+              "t": "He reads",
               "cat": "B",
-              "emoji": "🚶"
+              "emoji": "📖"
             },
             {
-              "t": "I play",
+              "t": "I write",
               "cat": "A",
-              "emoji": "🎮"
+              "emoji": "✍️"
             },
             {
-              "t": "He sleeps",
+              "t": "He rests",
               "cat": "B",
-              "emoji": "😴"
+              "emoji": "🛌"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -24343,38 +24030,38 @@ window.GAME_DATA = {
       "color": "#FFE0D5",
       "items": [
         {
-          "word": "get up",
-          "emoji": "⏰",
-          "slug": "get-up",
-          "image": "images/get-up.svg",
+          "word": "hurry",
+          "emoji": "🏃",
+          "slug": "hurry",
+          "image": "images/hurry.svg",
           "color": "#FFE0D5"
         },
         {
-          "word": "wash",
-          "emoji": "🧼",
-          "slug": "wash",
-          "image": "images/wash.svg",
+          "word": "run",
+          "emoji": "🏃",
+          "slug": "run",
+          "image": "images/run.svg",
           "color": "#FFE0D5"
         },
         {
-          "word": "eat",
-          "emoji": "🍽️",
-          "slug": "eat",
-          "image": "images/eat.svg",
+          "word": "drink",
+          "emoji": "🥤",
+          "slug": "drink",
+          "image": "images/drink.svg",
           "color": "#FFE0D5"
         },
         {
-          "word": "go",
-          "emoji": "🚶",
-          "slug": "go",
-          "image": "images/go.svg",
+          "word": "think",
+          "emoji": "🤔",
+          "slug": "think",
+          "image": "images/think.svg",
           "color": "#FFE0D5"
         },
         {
-          "word": "play",
-          "emoji": "🎮",
-          "slug": "play",
-          "image": "images/play.svg",
+          "word": "write",
+          "emoji": "✍️",
+          "slug": "write",
+          "image": "images/write.svg",
           "color": "#FFE0D5"
         },
         {
@@ -24386,49 +24073,50 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I can get up.",
-        "Can you get up?",
-        "We get up today.",
-        "I can wash.",
-        "Can you wash?",
-        "We wash today.",
-        "I can eat.",
-        "Can you eat?",
-        "We eat today.",
-        "I can go.",
-        "Can you go?",
-        "We go today.",
-        "I can play.",
-        "Can you play?",
-        "We play today.",
+        "This is a hurry.",
+        "I like the hurry.",
+        "I can see the hurry.",
+        "I can run.",
+        "Can you run?",
+        "We run today.",
+        "This is a drink.",
+        "I like the drink.",
+        "I can see the drink.",
+        "This is a think.",
+        "I like the think.",
+        "I can see the think.",
+        "I can write.",
+        "Can you write?",
+        "We write today.",
         "This is a sleep.",
         "I like the sleep.",
         "I can see the sleep.",
-        "This is my get up.",
-        "These are my washs."
+        "This is my hurry.",
+        "These are my runs.",
+        "Can you drink?"
       ],
       "sentenceMap": {
-        "get up": [
+        "hurry": [
           0,
           1,
           2
         ],
-        "wash": [
+        "run": [
           3,
           4,
           5
         ],
-        "eat": [
+        "drink": [
           6,
           7,
           8
         ],
-        "go": [
+        "think": [
           9,
           10,
           11
         ],
-        "play": [
+        "write": [
           12,
           13,
           14
@@ -24524,29 +24212,29 @@ window.GAME_DATA = {
           "binB": "he/she",
           "tokens": [
             {
-              "t": "I get up",
+              "t": "I hurry",
               "cat": "A",
-              "emoji": "⏰"
+              "emoji": "🏃"
             },
             {
-              "t": "He washes",
+              "t": "He runs",
               "cat": "B",
-              "emoji": "🧼"
+              "emoji": "🏃"
             },
             {
-              "t": "I eat",
+              "t": "I drink",
               "cat": "A",
-              "emoji": "🍽️"
+              "emoji": "🥤"
             },
             {
-              "t": "He gos",
+              "t": "He thinks",
               "cat": "B",
-              "emoji": "🚶"
+              "emoji": "🤔"
             },
             {
-              "t": "I play",
+              "t": "I write",
               "cat": "A",
-              "emoji": "🎮"
+              "emoji": "✍️"
             },
             {
               "t": "He sleeps",
@@ -24557,16 +24245,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -24580,97 +24262,98 @@ window.GAME_DATA = {
       "color": "#E9DDFF",
       "items": [
         {
-          "word": "get up",
-          "emoji": "⏰",
-          "slug": "get-up",
-          "image": "images/get-up.svg",
+          "word": "plan",
+          "emoji": "🗓️",
+          "slug": "plan",
+          "image": "images/plan.svg",
           "color": "#E9DDFF"
         },
         {
-          "word": "wash",
-          "emoji": "🧼",
-          "slug": "wash",
-          "image": "images/wash.svg",
+          "word": "decide",
+          "emoji": "🤔",
+          "slug": "decide",
+          "image": "images/decide.svg",
           "color": "#E9DDFF"
         },
         {
-          "word": "eat",
-          "emoji": "🍽️",
-          "slug": "eat",
-          "image": "images/eat.svg",
+          "word": "pack",
+          "emoji": "🎒",
+          "slug": "pack",
+          "image": "images/pack.svg",
           "color": "#E9DDFF"
         },
         {
-          "word": "go",
+          "word": "leave",
           "emoji": "🚶",
-          "slug": "go",
-          "image": "images/go.svg",
+          "slug": "leave",
+          "image": "images/leave.svg",
           "color": "#E9DDFF"
         },
         {
-          "word": "play",
-          "emoji": "🎮",
-          "slug": "play",
-          "image": "images/play.svg",
+          "word": "arrive",
+          "emoji": "🛬",
+          "slug": "arrive",
+          "image": "images/arrive.svg",
           "color": "#E9DDFF"
         },
         {
-          "word": "sleep",
-          "emoji": "😴",
-          "slug": "sleep",
-          "image": "images/sleep.svg",
+          "word": "prepare",
+          "emoji": "🧰",
+          "slug": "prepare",
+          "image": "images/prepare.svg",
           "color": "#E9DDFF"
         }
       ],
       "sentences": [
-        "I can get up.",
-        "Can you get up?",
-        "We get up today.",
-        "I can wash.",
-        "Can you wash?",
-        "We wash today.",
-        "I can eat.",
-        "Can you eat?",
-        "We eat today.",
-        "I can go.",
-        "Can you go?",
-        "We go today.",
-        "I can play.",
-        "Can you play?",
-        "We play today.",
-        "This is a sleep.",
-        "I like the sleep.",
-        "I can see the sleep.",
-        "This is my get up.",
-        "These are my washs."
+        "This is a plan.",
+        "I like the plan.",
+        "I can see the plan.",
+        "I can decide.",
+        "Can you decide?",
+        "We decide today.",
+        "This is a pack.",
+        "I like the pack.",
+        "I can see the pack.",
+        "This is a leave.",
+        "I like the leave.",
+        "I can see the leave.",
+        "This is an arrive.",
+        "I like the arrive.",
+        "I can see the arrive.",
+        "This is a prepare.",
+        "I like the prepare.",
+        "I can see the prepare.",
+        "This is my plan.",
+        "These are my decides.",
+        "Can you pack?"
       ],
       "sentenceMap": {
-        "get up": [
+        "plan": [
           0,
           1,
           2
         ],
-        "wash": [
+        "decide": [
           3,
           4,
           5
         ],
-        "eat": [
+        "pack": [
           6,
           7,
           8
         ],
-        "go": [
+        "leave": [
           9,
           10,
           11
         ],
-        "play": [
+        "arrive": [
           12,
           13,
           14
         ],
-        "sleep": [
+        "prepare": [
           15,
           16,
           17
@@ -24761,49 +24444,43 @@ window.GAME_DATA = {
           "binB": "he/she",
           "tokens": [
             {
-              "t": "I get up",
+              "t": "I plan",
               "cat": "A",
-              "emoji": "⏰"
+              "emoji": "🗓️"
             },
             {
-              "t": "He washes",
+              "t": "He decides",
               "cat": "B",
-              "emoji": "🧼"
+              "emoji": "🤔"
             },
             {
-              "t": "I eat",
+              "t": "I pack",
               "cat": "A",
-              "emoji": "🍽️"
+              "emoji": "🎒"
             },
             {
-              "t": "He gos",
+              "t": "He leaves",
               "cat": "B",
               "emoji": "🚶"
             },
             {
-              "t": "I play",
+              "t": "I arrive",
               "cat": "A",
-              "emoji": "🎮"
+              "emoji": "🛬"
             },
             {
-              "t": "He sleeps",
+              "t": "He prepares",
               "cat": "B",
-              "emoji": "😴"
+              "emoji": "🧰"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -24817,97 +24494,98 @@ window.GAME_DATA = {
       "color": "#FDE2B3",
       "items": [
         {
-          "word": "get up",
-          "emoji": "⏰",
-          "slug": "get-up",
-          "image": "images/get-up.svg",
+          "word": "cook",
+          "emoji": "🍳",
+          "slug": "cook",
+          "image": "images/cook.svg",
           "color": "#FDE2B3"
         },
         {
-          "word": "wash",
-          "emoji": "🧼",
-          "slug": "wash",
-          "image": "images/wash.svg",
+          "word": "clean",
+          "emoji": "🧹",
+          "slug": "clean",
+          "image": "images/clean.svg",
           "color": "#FDE2B3"
         },
         {
-          "word": "eat",
-          "emoji": "🍽️",
-          "slug": "eat",
-          "image": "images/eat.svg",
+          "word": "shop",
+          "emoji": "🛍️",
+          "slug": "shop-not-every-day",
+          "image": "images/shop-not-every-day.svg",
           "color": "#FDE2B3"
         },
         {
-          "word": "go",
-          "emoji": "🚶",
-          "slug": "go",
-          "image": "images/go.svg",
+          "word": "visit",
+          "emoji": "🏃",
+          "slug": "visit",
+          "image": "images/visit.svg",
           "color": "#FDE2B3"
         },
         {
-          "word": "play",
-          "emoji": "🎮",
-          "slug": "play",
-          "image": "images/play.svg",
+          "word": "meet",
+          "emoji": "🤝",
+          "slug": "meet",
+          "image": "images/meet.svg",
           "color": "#FDE2B3"
         },
         {
-          "word": "sleep",
-          "emoji": "😴",
-          "slug": "sleep",
-          "image": "images/sleep.svg",
+          "word": "relax",
+          "emoji": "🛋️",
+          "slug": "relax",
+          "image": "images/relax.svg",
           "color": "#FDE2B3"
         }
       ],
       "sentences": [
-        "I can get up.",
-        "Can you get up?",
-        "We get up today.",
-        "I can wash.",
-        "Can you wash?",
-        "We wash today.",
-        "I can eat.",
-        "Can you eat?",
-        "We eat today.",
-        "I can go.",
-        "Can you go?",
-        "We go today.",
-        "I can play.",
-        "Can you play?",
-        "We play today.",
-        "This is a sleep.",
-        "I like the sleep.",
-        "I can see the sleep.",
-        "This is my get up.",
-        "These are my washs."
+        "I can cook.",
+        "Can you cook?",
+        "We cook today.",
+        "This is a clean.",
+        "I like the clean.",
+        "I can see the clean.",
+        "This is a shop.",
+        "I like the shop.",
+        "I can see the shop.",
+        "This is a visit.",
+        "I like the visit.",
+        "I can see the visit.",
+        "This is a meet.",
+        "I like the meet.",
+        "I can see the meet.",
+        "This is a relax.",
+        "I like the relax.",
+        "I can see the relax.",
+        "This is my cook.",
+        "These are my cleans.",
+        "Can you shop?"
       ],
       "sentenceMap": {
-        "get up": [
+        "cook": [
           0,
           1,
           2
         ],
-        "wash": [
+        "clean": [
           3,
           4,
           5
         ],
-        "eat": [
+        "shop": [
           6,
           7,
           8
         ],
-        "go": [
+        "visit": [
           9,
           10,
           11
         ],
-        "play": [
+        "meet": [
           12,
           13,
           14
         ],
-        "sleep": [
+        "relax": [
           15,
           16,
           17
@@ -24998,49 +24676,43 @@ window.GAME_DATA = {
           "binB": "he/she",
           "tokens": [
             {
-              "t": "I get up",
+              "t": "I cook",
               "cat": "A",
-              "emoji": "⏰"
+              "emoji": "🍳"
             },
             {
-              "t": "He washes",
+              "t": "He cleans",
               "cat": "B",
-              "emoji": "🧼"
+              "emoji": "🧹"
             },
             {
-              "t": "I eat",
+              "t": "I shop",
               "cat": "A",
-              "emoji": "🍽️"
+              "emoji": "🛍️"
             },
             {
-              "t": "He gos",
+              "t": "He visits",
               "cat": "B",
-              "emoji": "🚶"
+              "emoji": "🏃"
             },
             {
-              "t": "I play",
+              "t": "I meet",
               "cat": "A",
-              "emoji": "🎮"
+              "emoji": "🤝"
             },
             {
-              "t": "He sleeps",
+              "t": "He relaxes",
               "cat": "B",
-              "emoji": "😴"
+              "emoji": "🛋️"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -25054,17 +24726,31 @@ window.GAME_DATA = {
       "color": "#D8F0FF",
       "items": [
         {
-          "word": "get up",
+          "word": "wake",
           "emoji": "⏰",
-          "slug": "get-up",
-          "image": "images/get-up.svg",
+          "slug": "wake",
+          "image": "images/wake.svg",
           "color": "#D8F0FF"
         },
         {
-          "word": "wash",
-          "emoji": "🧼",
-          "slug": "wash",
-          "image": "images/wash.svg",
+          "word": "travel",
+          "emoji": "✈️",
+          "slug": "travel",
+          "image": "images/travel.svg",
+          "color": "#D8F0FF"
+        },
+        {
+          "word": "meet",
+          "emoji": "🤝",
+          "slug": "meet",
+          "image": "images/meet.svg",
+          "color": "#D8F0FF"
+        },
+        {
+          "word": "talk",
+          "emoji": "🗣️",
+          "slug": "talk",
+          "image": "images/talk.svg",
           "color": "#D8F0FF"
         },
         {
@@ -25072,20 +24758,6 @@ window.GAME_DATA = {
           "emoji": "🍽️",
           "slug": "eat",
           "image": "images/eat.svg",
-          "color": "#D8F0FF"
-        },
-        {
-          "word": "go",
-          "emoji": "🚶",
-          "slug": "go",
-          "image": "images/go.svg",
-          "color": "#D8F0FF"
-        },
-        {
-          "word": "play",
-          "emoji": "🎮",
-          "slug": "play",
-          "image": "images/play.svg",
           "color": "#D8F0FF"
         },
         {
@@ -25097,49 +24769,50 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I can get up.",
-        "Can you get up?",
-        "We get up today.",
-        "I can wash.",
-        "Can you wash?",
-        "We wash today.",
+        "I can wake.",
+        "Can you wake?",
+        "We wake today.",
+        "I can travel.",
+        "Can you travel?",
+        "We travel today.",
+        "This is a meet.",
+        "I like the meet.",
+        "I can see the meet.",
+        "This is a talk.",
+        "I like the talk.",
+        "I can see the talk.",
         "I can eat.",
         "Can you eat?",
         "We eat today.",
-        "I can go.",
-        "Can you go?",
-        "We go today.",
-        "I can play.",
-        "Can you play?",
-        "We play today.",
         "This is a sleep.",
         "I like the sleep.",
         "I can see the sleep.",
-        "This is my get up.",
-        "These are my washs."
+        "This is my wake.",
+        "These are my travels.",
+        "Can you meet?"
       ],
       "sentenceMap": {
-        "get up": [
+        "wake": [
           0,
           1,
           2
         ],
-        "wash": [
+        "travel": [
           3,
           4,
           5
         ],
-        "eat": [
+        "meet": [
           6,
           7,
           8
         ],
-        "go": [
+        "talk": [
           9,
           10,
           11
         ],
-        "play": [
+        "eat": [
           12,
           13,
           14
@@ -25235,29 +24908,29 @@ window.GAME_DATA = {
           "binB": "he/she",
           "tokens": [
             {
-              "t": "I get up",
+              "t": "I wake",
               "cat": "A",
               "emoji": "⏰"
             },
             {
-              "t": "He washes",
+              "t": "He travels",
               "cat": "B",
-              "emoji": "🧼"
+              "emoji": "✈️"
+            },
+            {
+              "t": "I meet",
+              "cat": "A",
+              "emoji": "🤝"
+            },
+            {
+              "t": "He talks",
+              "cat": "B",
+              "emoji": "🗣️"
             },
             {
               "t": "I eat",
               "cat": "A",
               "emoji": "🍽️"
-            },
-            {
-              "t": "He gos",
-              "cat": "B",
-              "emoji": "🚶"
-            },
-            {
-              "t": "I play",
-              "cat": "A",
-              "emoji": "🎮"
             },
             {
               "t": "He sleeps",
@@ -25268,16 +24941,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -25291,38 +24958,24 @@ window.GAME_DATA = {
       "color": "#FFD6C9",
       "items": [
         {
-          "word": "get up",
+          "word": "wake",
           "emoji": "⏰",
-          "slug": "get-up",
-          "image": "images/get-up.svg",
+          "slug": "wake",
+          "image": "images/wake.svg",
           "color": "#FFD6C9"
         },
         {
-          "word": "wash",
-          "emoji": "🧼",
-          "slug": "wash",
-          "image": "images/wash.svg",
+          "word": "work",
+          "emoji": "💼",
+          "slug": "work",
+          "image": "images/work.svg",
           "color": "#FFD6C9"
         },
         {
-          "word": "eat",
-          "emoji": "🍽️",
-          "slug": "eat",
-          "image": "images/eat.svg",
-          "color": "#FFD6C9"
-        },
-        {
-          "word": "go",
+          "word": "walk",
           "emoji": "🚶",
-          "slug": "go",
-          "image": "images/go.svg",
-          "color": "#FFD6C9"
-        },
-        {
-          "word": "play",
-          "emoji": "🎮",
-          "slug": "play",
-          "image": "images/play.svg",
+          "slug": "walk",
+          "image": "images/walk.svg",
           "color": "#FFD6C9"
         },
         {
@@ -25331,57 +24984,71 @@ window.GAME_DATA = {
           "slug": "sleep",
           "image": "images/sleep.svg",
           "color": "#FFD6C9"
+        },
+        {
+          "word": "study",
+          "emoji": "📚",
+          "slug": "study",
+          "image": "images/study.svg",
+          "color": "#FFD6C9"
+        },
+        {
+          "word": "try",
+          "emoji": "🧪",
+          "slug": "try",
+          "image": "images/try.svg",
+          "color": "#FFD6C9"
         }
       ],
       "sentences": [
-        "I can get up.",
-        "Can you get up?",
-        "We get up today.",
-        "I can wash.",
-        "Can you wash?",
-        "We wash today.",
-        "I can eat.",
-        "Can you eat?",
-        "We eat today.",
-        "I can go.",
-        "Can you go?",
-        "We go today.",
-        "I can play.",
-        "Can you play?",
-        "We play today.",
+        "I can wake.",
+        "Can you wake?",
+        "We wake today.",
+        "I can work.",
+        "Can you work?",
+        "We work today.",
+        "I can walk.",
+        "Can you walk?",
+        "We walk today.",
         "This is a sleep.",
         "I like the sleep.",
         "I can see the sleep.",
-        "This is my get up.",
-        "These are my washs."
+        "I can study.",
+        "Can you study?",
+        "We study today.",
+        "This is a try.",
+        "I like the try.",
+        "I can see the try.",
+        "This is my wake.",
+        "These are my works."
       ],
       "sentenceMap": {
-        "get up": [
+        "wake": [
           0,
           1,
           2
         ],
-        "wash": [
+        "work": [
           3,
           4,
           5
         ],
-        "eat": [
+        "walk": [
           6,
           7,
           8
         ],
-        "go": [
+        "sleep": [
           9,
           10,
           11
         ],
-        "play": [
+        "study": [
           12,
           13,
           14
         ],
-        "sleep": [
+        "try": [
           15,
           16,
           17
@@ -25472,49 +25139,43 @@ window.GAME_DATA = {
           "binB": "he/she",
           "tokens": [
             {
-              "t": "I get up",
+              "t": "I wake",
               "cat": "A",
               "emoji": "⏰"
             },
             {
-              "t": "He washes",
+              "t": "He works",
               "cat": "B",
-              "emoji": "🧼"
+              "emoji": "💼"
             },
             {
-              "t": "I eat",
+              "t": "I walk",
               "cat": "A",
-              "emoji": "🍽️"
-            },
-            {
-              "t": "He gos",
-              "cat": "B",
               "emoji": "🚶"
-            },
-            {
-              "t": "I play",
-              "cat": "A",
-              "emoji": "🎮"
             },
             {
               "t": "He sleeps",
               "cat": "B",
               "emoji": "😴"
+            },
+            {
+              "t": "I study",
+              "cat": "A",
+              "emoji": "📚"
+            },
+            {
+              "t": "He tries",
+              "cat": "B",
+              "emoji": "🧪"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -25528,97 +25189,98 @@ window.GAME_DATA = {
       "color": "#D6F5C9",
       "items": [
         {
-          "word": "get up",
-          "emoji": "⏰",
-          "slug": "get-up",
-          "image": "images/get-up.svg",
+          "word": "open",
+          "emoji": "🚪",
+          "slug": "open",
+          "image": "images/open.svg",
           "color": "#D6F5C9"
         },
         {
-          "word": "wash",
-          "emoji": "🧼",
-          "slug": "wash",
-          "image": "images/wash.svg",
+          "word": "close",
+          "emoji": "🔒",
+          "slug": "close",
+          "image": "images/close.svg",
           "color": "#D6F5C9"
         },
         {
-          "word": "eat",
-          "emoji": "🍽️",
-          "slug": "eat",
-          "image": "images/eat.svg",
-          "color": "#D6F5C9"
-        },
-        {
-          "word": "go",
+          "word": "enter",
           "emoji": "🚶",
-          "slug": "go",
-          "image": "images/go.svg",
+          "slug": "enter",
+          "image": "images/enter.svg",
           "color": "#D6F5C9"
         },
         {
-          "word": "play",
-          "emoji": "🎮",
-          "slug": "play",
-          "image": "images/play.svg",
+          "word": "leave",
+          "emoji": "🚪",
+          "slug": "leave-slime-portal",
+          "image": "images/leave-slime-portal.svg",
           "color": "#D6F5C9"
         },
         {
-          "word": "sleep",
-          "emoji": "😴",
-          "slug": "sleep",
-          "image": "images/sleep.svg",
+          "word": "wait",
+          "emoji": "⌛",
+          "slug": "wait",
+          "image": "images/wait.svg",
+          "color": "#D6F5C9"
+        },
+        {
+          "word": "hurry",
+          "emoji": "🏃",
+          "slug": "hurry",
+          "image": "images/hurry.svg",
           "color": "#D6F5C9"
         }
       ],
       "sentences": [
-        "I can get up.",
-        "Can you get up?",
-        "We get up today.",
-        "I can wash.",
-        "Can you wash?",
-        "We wash today.",
-        "I can eat.",
-        "Can you eat?",
-        "We eat today.",
-        "I can go.",
-        "Can you go?",
-        "We go today.",
-        "I can play.",
-        "Can you play?",
-        "We play today.",
-        "This is a sleep.",
-        "I like the sleep.",
-        "I can see the sleep.",
-        "This is my get up.",
-        "These are my washs."
+        "I can open.",
+        "Can you open?",
+        "We open today.",
+        "I can close.",
+        "Can you close?",
+        "We close today.",
+        "This is an enter.",
+        "I like the enter.",
+        "I can see the enter.",
+        "This is a leave.",
+        "I like the leave.",
+        "I can see the leave.",
+        "I can wait.",
+        "Can you wait?",
+        "We wait today.",
+        "This is a hurry.",
+        "I like the hurry.",
+        "I can see the hurry.",
+        "This is my open.",
+        "These are my closes.",
+        "Can you enter?"
       ],
       "sentenceMap": {
-        "get up": [
+        "open": [
           0,
           1,
           2
         ],
-        "wash": [
+        "close": [
           3,
           4,
           5
         ],
-        "eat": [
+        "enter": [
           6,
           7,
           8
         ],
-        "go": [
+        "leave": [
           9,
           10,
           11
         ],
-        "play": [
+        "wait": [
           12,
           13,
           14
         ],
-        "sleep": [
+        "hurry": [
           15,
           16,
           17
@@ -25709,49 +25371,43 @@ window.GAME_DATA = {
           "binB": "he/she",
           "tokens": [
             {
-              "t": "I get up",
+              "t": "I open",
               "cat": "A",
-              "emoji": "⏰"
+              "emoji": "🚪"
             },
             {
-              "t": "He washes",
+              "t": "He closes",
               "cat": "B",
-              "emoji": "🧼"
+              "emoji": "🔒"
             },
             {
-              "t": "I eat",
+              "t": "I enter",
               "cat": "A",
-              "emoji": "🍽️"
-            },
-            {
-              "t": "He gos",
-              "cat": "B",
               "emoji": "🚶"
             },
             {
-              "t": "I play",
-              "cat": "A",
-              "emoji": "🎮"
+              "t": "He leaves",
+              "cat": "B",
+              "emoji": "🚪"
             },
             {
-              "t": "He sleeps",
+              "t": "I wait",
+              "cat": "A",
+              "emoji": "⌛"
+            },
+            {
+              "t": "He hurries",
               "cat": "B",
-              "emoji": "😴"
+              "emoji": "🏃"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -25765,97 +25421,97 @@ window.GAME_DATA = {
       "color": "#E6D3FF",
       "items": [
         {
-          "word": "get up",
-          "emoji": "⏰",
-          "slug": "get-up",
-          "image": "images/get-up.svg",
+          "word": "listen",
+          "emoji": "👂",
+          "slug": "listen",
+          "image": "images/listen.svg",
           "color": "#E6D3FF"
         },
         {
-          "word": "wash",
-          "emoji": "🧼",
-          "slug": "wash",
-          "image": "images/wash.svg",
+          "word": "speak",
+          "emoji": "🗣️",
+          "slug": "speak",
+          "image": "images/speak.svg",
           "color": "#E6D3FF"
         },
         {
-          "word": "eat",
-          "emoji": "🍽️",
-          "slug": "eat",
-          "image": "images/eat.svg",
+          "word": "hear",
+          "emoji": "👂",
+          "slug": "hear",
+          "image": "images/hear.svg",
           "color": "#E6D3FF"
         },
         {
-          "word": "go",
-          "emoji": "🚶",
-          "slug": "go",
-          "image": "images/go.svg",
+          "word": "say",
+          "emoji": "🗣️",
+          "slug": "say",
+          "image": "images/say.svg",
           "color": "#E6D3FF"
         },
         {
-          "word": "play",
-          "emoji": "🎮",
-          "slug": "play",
-          "image": "images/play.svg",
+          "word": "tell",
+          "emoji": "📣",
+          "slug": "tell",
+          "image": "images/tell.svg",
           "color": "#E6D3FF"
         },
         {
-          "word": "sleep",
-          "emoji": "😴",
-          "slug": "sleep",
-          "image": "images/sleep.svg",
+          "word": "ask",
+          "emoji": "❓",
+          "slug": "ask",
+          "image": "images/ask.svg",
           "color": "#E6D3FF"
         }
       ],
       "sentences": [
-        "I can get up.",
-        "Can you get up?",
-        "We get up today.",
-        "I can wash.",
-        "Can you wash?",
-        "We wash today.",
-        "I can eat.",
-        "Can you eat?",
-        "We eat today.",
-        "I can go.",
-        "Can you go?",
-        "We go today.",
-        "I can play.",
-        "Can you play?",
-        "We play today.",
-        "This is a sleep.",
-        "I like the sleep.",
-        "I can see the sleep.",
-        "This is my get up.",
-        "These are my washs."
+        "I can listen.",
+        "Can you listen?",
+        "We listen today.",
+        "I can speak.",
+        "Can you speak?",
+        "We speak today.",
+        "I can hear.",
+        "Can you hear?",
+        "We hear today.",
+        "I can say.",
+        "Can you say?",
+        "We say today.",
+        "I can tell.",
+        "Can you tell?",
+        "We tell today.",
+        "I can ask.",
+        "Can you ask?",
+        "We ask today.",
+        "This is my listen.",
+        "These are my speaks."
       ],
       "sentenceMap": {
-        "get up": [
+        "listen": [
           0,
           1,
           2
         ],
-        "wash": [
+        "speak": [
           3,
           4,
           5
         ],
-        "eat": [
+        "hear": [
           6,
           7,
           8
         ],
-        "go": [
+        "say": [
           9,
           10,
           11
         ],
-        "play": [
+        "tell": [
           12,
           13,
           14
         ],
-        "sleep": [
+        "ask": [
           15,
           16,
           17
@@ -25946,49 +25602,43 @@ window.GAME_DATA = {
           "binB": "he/she",
           "tokens": [
             {
-              "t": "I get up",
+              "t": "I listen",
               "cat": "A",
-              "emoji": "⏰"
+              "emoji": "👂"
             },
             {
-              "t": "He washes",
+              "t": "He speaks",
               "cat": "B",
-              "emoji": "🧼"
+              "emoji": "🗣️"
             },
             {
-              "t": "I eat",
+              "t": "I hear",
               "cat": "A",
-              "emoji": "🍽️"
+              "emoji": "👂"
             },
             {
-              "t": "He gos",
+              "t": "He says",
               "cat": "B",
-              "emoji": "🚶"
+              "emoji": "🗣️"
             },
             {
-              "t": "I play",
+              "t": "I tell",
               "cat": "A",
-              "emoji": "🎮"
+              "emoji": "📣"
             },
             {
-              "t": "He sleeps",
+              "t": "He asks",
               "cat": "B",
-              "emoji": "😴"
+              "emoji": "❓"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -26002,38 +25652,38 @@ window.GAME_DATA = {
       "color": "#C9F0EC",
       "items": [
         {
-          "word": "get up",
-          "emoji": "⏰",
-          "slug": "get-up",
-          "image": "images/get-up.svg",
-          "color": "#C9F0EC"
-        },
-        {
-          "word": "wash",
-          "emoji": "🧼",
-          "slug": "wash",
-          "image": "images/wash.svg",
-          "color": "#C9F0EC"
-        },
-        {
-          "word": "eat",
-          "emoji": "🍽️",
-          "slug": "eat",
-          "image": "images/eat.svg",
-          "color": "#C9F0EC"
-        },
-        {
-          "word": "go",
+          "word": "walk",
           "emoji": "🚶",
-          "slug": "go",
-          "image": "images/go.svg",
+          "slug": "walk",
+          "image": "images/walk.svg",
           "color": "#C9F0EC"
         },
         {
-          "word": "play",
-          "emoji": "🎮",
-          "slug": "play",
-          "image": "images/play.svg",
+          "word": "jog",
+          "emoji": "🏃",
+          "slug": "jog",
+          "image": "images/jog.svg",
+          "color": "#C9F0EC"
+        },
+        {
+          "word": "run",
+          "emoji": "🏃",
+          "slug": "run",
+          "image": "images/run.svg",
+          "color": "#C9F0EC"
+        },
+        {
+          "word": "jump",
+          "emoji": "🤸",
+          "slug": "jump",
+          "image": "images/jump.svg",
+          "color": "#C9F0EC"
+        },
+        {
+          "word": "stretch",
+          "emoji": "🧘",
+          "slug": "stretch",
+          "image": "images/stretch.svg",
           "color": "#C9F0EC"
         },
         {
@@ -26045,49 +25695,49 @@ window.GAME_DATA = {
         }
       ],
       "sentences": [
-        "I can get up.",
-        "Can you get up?",
-        "We get up today.",
-        "I can wash.",
-        "Can you wash?",
-        "We wash today.",
-        "I can eat.",
-        "Can you eat?",
-        "We eat today.",
-        "I can go.",
-        "Can you go?",
-        "We go today.",
-        "I can play.",
-        "Can you play?",
-        "We play today.",
+        "I can walk.",
+        "Can you walk?",
+        "We walk today.",
+        "This is a jog.",
+        "I like the jog.",
+        "I can see the jog.",
+        "I can run.",
+        "Can you run?",
+        "We run today.",
+        "I can jump.",
+        "Can you jump?",
+        "We jump today.",
+        "This is a stretch.",
+        "I like the stretch.",
+        "I can see the stretch.",
         "This is a sleep.",
         "I like the sleep.",
         "I can see the sleep.",
-        "This is my get up.",
-        "These are my washs."
+        "This is my walk.",
+        "These are my jogs."
       ],
       "sentenceMap": {
-        "get up": [
+        "walk": [
           0,
           1,
           2
         ],
-        "wash": [
+        "jog": [
           3,
           4,
           5
         ],
-        "eat": [
+        "run": [
           6,
           7,
           8
         ],
-        "go": [
+        "jump": [
           9,
           10,
           11
         ],
-        "play": [
+        "stretch": [
           12,
           13,
           14
@@ -26183,29 +25833,29 @@ window.GAME_DATA = {
           "binB": "he/she",
           "tokens": [
             {
-              "t": "I get up",
+              "t": "I walk",
               "cat": "A",
-              "emoji": "⏰"
-            },
-            {
-              "t": "He washes",
-              "cat": "B",
-              "emoji": "🧼"
-            },
-            {
-              "t": "I eat",
-              "cat": "A",
-              "emoji": "🍽️"
-            },
-            {
-              "t": "He gos",
-              "cat": "B",
               "emoji": "🚶"
             },
             {
-              "t": "I play",
+              "t": "He jogs",
+              "cat": "B",
+              "emoji": "🏃"
+            },
+            {
+              "t": "I run",
               "cat": "A",
-              "emoji": "🎮"
+              "emoji": "🏃"
+            },
+            {
+              "t": "He jumps",
+              "cat": "B",
+              "emoji": "🤸"
+            },
+            {
+              "t": "I stretch",
+              "cat": "A",
+              "emoji": "🧘"
             },
             {
               "t": "He sleeps",
@@ -26216,16 +25866,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -26457,16 +26101,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -26480,98 +26118,98 @@ window.GAME_DATA = {
       "color": "#DCC9FF",
       "items": [
         {
-          "word": "camping",
-          "emoji": "⛺",
-          "slug": "camping",
-          "image": "images/camping.svg",
+          "word": "flying",
+          "emoji": "✈️",
+          "slug": "flying",
+          "image": "images/flying.svg",
           "color": "#DCC9FF"
         },
         {
-          "word": "running",
-          "emoji": "🏃",
-          "slug": "running",
-          "image": "images/running.svg",
+          "word": "sailing",
+          "emoji": "⛵",
+          "slug": "sailing",
+          "image": "images/sailing.svg",
           "color": "#DCC9FF"
         },
         {
-          "word": "swimming",
-          "emoji": "🏊",
-          "slug": "swimming",
-          "image": "images/swimming.svg",
+          "word": "dancing",
+          "emoji": "💃",
+          "slug": "dancing",
+          "image": "images/dancing.svg",
           "color": "#DCC9FF"
         },
         {
-          "word": "riding",
-          "emoji": "🚲",
-          "slug": "riding",
-          "image": "images/riding.svg",
+          "word": "painting",
+          "emoji": "🎨",
+          "slug": "painting",
+          "image": "images/painting.svg",
           "color": "#DCC9FF"
         },
         {
-          "word": "jumping",
-          "emoji": "🤸",
-          "slug": "jumping",
-          "image": "images/jumping.svg",
+          "word": "drawing",
+          "emoji": "🖍️",
+          "slug": "drawing",
+          "image": "images/drawing.svg",
           "color": "#DCC9FF"
         },
         {
-          "word": "reading",
-          "emoji": "📖",
-          "slug": "reading",
-          "image": "images/reading.svg",
+          "word": "cooking",
+          "emoji": "🍳",
+          "slug": "cooking",
+          "image": "images/cooking.svg",
           "color": "#DCC9FF"
         }
       ],
       "sentences": [
-        "I am camping.",
-        "We are camping.",
-        "She is camping.",
-        "I am running.",
-        "We are running.",
-        "She is running.",
-        "I am swimming.",
-        "We are swimming.",
-        "She is swimming.",
-        "I am riding.",
-        "We are riding.",
-        "She is riding.",
-        "I am jumping.",
-        "We are jumping.",
-        "She is jumping.",
-        "I am reading.",
-        "We are reading.",
-        "She is reading.",
-        "This is my camping.",
-        "These are my runnings.",
-        "Can you swimming?"
+        "I am flying.",
+        "We are flying.",
+        "She is flying.",
+        "I am sailing.",
+        "We are sailing.",
+        "She is sailing.",
+        "I am dancing.",
+        "We are dancing.",
+        "She is dancing.",
+        "I am painting.",
+        "We are painting.",
+        "She is painting.",
+        "I am drawing.",
+        "We are drawing.",
+        "She is drawing.",
+        "I am cooking.",
+        "We are cooking.",
+        "She is cooking.",
+        "This is my flying.",
+        "These are my sailings.",
+        "Can you dancing?"
       ],
       "sentenceMap": {
-        "camping": [
+        "flying": [
           0,
           1,
           2
         ],
-        "running": [
+        "sailing": [
           3,
           4,
           5
         ],
-        "swimming": [
+        "dancing": [
           6,
           7,
           8
         ],
-        "riding": [
+        "painting": [
           9,
           10,
           11
         ],
-        "jumping": [
+        "drawing": [
           12,
           13,
           14
         ],
-        "reading": [
+        "cooking": [
           15,
           16,
           17
@@ -26665,49 +26303,43 @@ window.GAME_DATA = {
           "binB": "are",
           "tokens": [
             {
-              "t": "I am camping",
+              "t": "I am flying",
               "cat": "A",
-              "emoji": "⛺"
+              "emoji": "✈️"
             },
             {
-              "t": "They are running",
+              "t": "They are sailing",
               "cat": "B",
-              "emoji": "🏃"
+              "emoji": "⛵"
             },
             {
-              "t": "I am swimming",
+              "t": "I am dancing",
               "cat": "A",
-              "emoji": "🏊"
+              "emoji": "💃"
             },
             {
-              "t": "They are riding",
+              "t": "They are painting",
               "cat": "B",
-              "emoji": "🚲"
+              "emoji": "🎨"
             },
             {
-              "t": "I am jumping",
+              "t": "I am drawing",
               "cat": "A",
-              "emoji": "🤸"
+              "emoji": "🖍️"
             },
             {
-              "t": "They are reading",
+              "t": "They are cooking",
               "cat": "B",
-              "emoji": "📖"
+              "emoji": "🍳"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -26721,98 +26353,98 @@ window.GAME_DATA = {
       "color": "#FFD0DE",
       "items": [
         {
-          "word": "camping",
-          "emoji": "⛺",
-          "slug": "camping",
-          "image": "images/camping.svg",
+          "word": "studying",
+          "emoji": "📚",
+          "slug": "studying",
+          "image": "images/studying.svg",
           "color": "#FFD0DE"
         },
         {
-          "word": "running",
-          "emoji": "🏃",
-          "slug": "running",
-          "image": "images/running.svg",
+          "word": "cooking",
+          "emoji": "🍳",
+          "slug": "cooking",
+          "image": "images/cooking.svg",
           "color": "#FFD0DE"
         },
         {
-          "word": "swimming",
-          "emoji": "🏊",
-          "slug": "swimming",
-          "image": "images/swimming.svg",
+          "word": "cleaning",
+          "emoji": "🧹",
+          "slug": "cleaning",
+          "image": "images/cleaning.svg",
           "color": "#FFD0DE"
         },
         {
-          "word": "riding",
-          "emoji": "🚲",
-          "slug": "riding",
-          "image": "images/riding.svg",
+          "word": "playing",
+          "emoji": "🎮",
+          "slug": "playing",
+          "image": "images/playing.svg",
           "color": "#FFD0DE"
         },
         {
-          "word": "jumping",
-          "emoji": "🤸",
-          "slug": "jumping",
-          "image": "images/jumping.svg",
+          "word": "singing",
+          "emoji": "🎤",
+          "slug": "singing",
+          "image": "images/singing.svg",
           "color": "#FFD0DE"
         },
         {
-          "word": "reading",
-          "emoji": "📖",
-          "slug": "reading",
-          "image": "images/reading.svg",
+          "word": "dancing",
+          "emoji": "💃",
+          "slug": "dancing",
+          "image": "images/dancing.svg",
           "color": "#FFD0DE"
         }
       ],
       "sentences": [
-        "I am camping.",
-        "We are camping.",
-        "She is camping.",
-        "I am running.",
-        "We are running.",
-        "She is running.",
-        "I am swimming.",
-        "We are swimming.",
-        "She is swimming.",
-        "I am riding.",
-        "We are riding.",
-        "She is riding.",
-        "I am jumping.",
-        "We are jumping.",
-        "She is jumping.",
-        "I am reading.",
-        "We are reading.",
-        "She is reading.",
-        "This is my camping.",
-        "These are my runnings.",
-        "Can you swimming?"
+        "I am studying.",
+        "We are studying.",
+        "She is studying.",
+        "I am cooking.",
+        "We are cooking.",
+        "She is cooking.",
+        "I am cleaning.",
+        "We are cleaning.",
+        "She is cleaning.",
+        "I am playing.",
+        "We are playing.",
+        "She is playing.",
+        "I am singing.",
+        "We are singing.",
+        "She is singing.",
+        "I am dancing.",
+        "We are dancing.",
+        "She is dancing.",
+        "This is my studying.",
+        "These are my cookings.",
+        "Can you cleaning?"
       ],
       "sentenceMap": {
-        "camping": [
+        "studying": [
           0,
           1,
           2
         ],
-        "running": [
+        "cooking": [
           3,
           4,
           5
         ],
-        "swimming": [
+        "cleaning": [
           6,
           7,
           8
         ],
-        "riding": [
+        "playing": [
           9,
           10,
           11
         ],
-        "jumping": [
+        "singing": [
           12,
           13,
           14
         ],
-        "reading": [
+        "dancing": [
           15,
           16,
           17
@@ -26906,49 +26538,43 @@ window.GAME_DATA = {
           "binB": "are",
           "tokens": [
             {
-              "t": "I am camping",
+              "t": "I am studying",
               "cat": "A",
-              "emoji": "⛺"
+              "emoji": "📚"
             },
             {
-              "t": "They are running",
+              "t": "They are cooking",
               "cat": "B",
-              "emoji": "🏃"
+              "emoji": "🍳"
             },
             {
-              "t": "I am swimming",
+              "t": "I am cleaning",
               "cat": "A",
-              "emoji": "🏊"
+              "emoji": "🧹"
             },
             {
-              "t": "They are riding",
+              "t": "They are playing",
               "cat": "B",
-              "emoji": "🚲"
+              "emoji": "🎮"
             },
             {
-              "t": "I am jumping",
+              "t": "I am singing",
               "cat": "A",
-              "emoji": "🤸"
+              "emoji": "🎤"
             },
             {
-              "t": "They are reading",
+              "t": "They are dancing",
               "cat": "B",
-              "emoji": "📖"
+              "emoji": "💃"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -26962,98 +26588,98 @@ window.GAME_DATA = {
       "color": "#C6F0CE",
       "items": [
         {
-          "word": "camping",
-          "emoji": "⛺",
-          "slug": "camping",
-          "image": "images/camping.svg",
+          "word": "resting",
+          "emoji": "🛌",
+          "slug": "resting",
+          "image": "images/resting.svg",
           "color": "#C6F0CE"
         },
         {
-          "word": "running",
-          "emoji": "🏃",
-          "slug": "running",
-          "image": "images/running.svg",
+          "word": "sleeping",
+          "emoji": "😴",
+          "slug": "sleeping",
+          "image": "images/sleeping.svg",
           "color": "#C6F0CE"
         },
         {
-          "word": "swimming",
-          "emoji": "🏊",
-          "slug": "swimming",
-          "image": "images/swimming.svg",
+          "word": "walking",
+          "emoji": "🚶",
+          "slug": "walking",
+          "image": "images/walking.svg",
           "color": "#C6F0CE"
         },
         {
-          "word": "riding",
-          "emoji": "🚲",
-          "slug": "riding",
-          "image": "images/riding.svg",
+          "word": "talking",
+          "emoji": "🗣️",
+          "slug": "talking",
+          "image": "images/talking.svg",
           "color": "#C6F0CE"
         },
         {
-          "word": "jumping",
-          "emoji": "🤸",
-          "slug": "jumping",
-          "image": "images/jumping.svg",
+          "word": "listening",
+          "emoji": "👂",
+          "slug": "listening",
+          "image": "images/listening.svg",
           "color": "#C6F0CE"
         },
         {
-          "word": "reading",
-          "emoji": "📖",
-          "slug": "reading",
-          "image": "images/reading.svg",
+          "word": "watching",
+          "emoji": "👀",
+          "slug": "watching",
+          "image": "images/watching.svg",
           "color": "#C6F0CE"
         }
       ],
       "sentences": [
-        "I am camping.",
-        "We are camping.",
-        "She is camping.",
-        "I am running.",
-        "We are running.",
-        "She is running.",
-        "I am swimming.",
-        "We are swimming.",
-        "She is swimming.",
-        "I am riding.",
-        "We are riding.",
-        "She is riding.",
-        "I am jumping.",
-        "We are jumping.",
-        "She is jumping.",
-        "I am reading.",
-        "We are reading.",
-        "She is reading.",
-        "This is my camping.",
-        "These are my runnings.",
-        "Can you swimming?"
+        "I am resting.",
+        "We are resting.",
+        "She is resting.",
+        "I am sleeping.",
+        "We are sleeping.",
+        "She is sleeping.",
+        "I am walking.",
+        "We are walking.",
+        "She is walking.",
+        "I am talking.",
+        "We are talking.",
+        "She is talking.",
+        "I am listening.",
+        "We are listening.",
+        "She is listening.",
+        "I am watching.",
+        "We are watching.",
+        "She is watching.",
+        "This is my resting.",
+        "These are my sleepings.",
+        "Can you walking?"
       ],
       "sentenceMap": {
-        "camping": [
+        "resting": [
           0,
           1,
           2
         ],
-        "running": [
+        "sleeping": [
           3,
           4,
           5
         ],
-        "swimming": [
+        "walking": [
           6,
           7,
           8
         ],
-        "riding": [
+        "talking": [
           9,
           10,
           11
         ],
-        "jumping": [
+        "listening": [
           12,
           13,
           14
         ],
-        "reading": [
+        "watching": [
           15,
           16,
           17
@@ -27147,49 +26773,43 @@ window.GAME_DATA = {
           "binB": "are",
           "tokens": [
             {
-              "t": "I am camping",
+              "t": "I am resting",
               "cat": "A",
-              "emoji": "⛺"
+              "emoji": "🛌"
             },
             {
-              "t": "They are running",
+              "t": "They are sleeping",
               "cat": "B",
-              "emoji": "🏃"
+              "emoji": "😴"
             },
             {
-              "t": "I am swimming",
+              "t": "I am walking",
               "cat": "A",
-              "emoji": "🏊"
+              "emoji": "🚶"
             },
             {
-              "t": "They are riding",
+              "t": "They are talking",
               "cat": "B",
-              "emoji": "🚲"
+              "emoji": "🗣️"
             },
             {
-              "t": "I am jumping",
+              "t": "I am listening",
               "cat": "A",
-              "emoji": "🤸"
+              "emoji": "👂"
             },
             {
-              "t": "They are reading",
+              "t": "They are watching",
               "cat": "B",
-              "emoji": "📖"
+              "emoji": "👀"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -27203,98 +26823,98 @@ window.GAME_DATA = {
       "color": "#BFE2FF",
       "items": [
         {
-          "word": "camping",
-          "emoji": "⛺",
-          "slug": "camping",
-          "image": "images/camping.svg",
+          "word": "dancing",
+          "emoji": "💃",
+          "slug": "dancing",
+          "image": "images/dancing.svg",
           "color": "#BFE2FF"
         },
         {
-          "word": "running",
-          "emoji": "🏃",
-          "slug": "running",
-          "image": "images/running.svg",
+          "word": "cooking",
+          "emoji": "🍳",
+          "slug": "cooking",
+          "image": "images/cooking.svg",
           "color": "#BFE2FF"
         },
         {
-          "word": "swimming",
-          "emoji": "🏊",
-          "slug": "swimming",
-          "image": "images/swimming.svg",
+          "word": "painting",
+          "emoji": "🎨",
+          "slug": "painting",
+          "image": "images/painting.svg",
           "color": "#BFE2FF"
         },
         {
-          "word": "riding",
-          "emoji": "🚲",
-          "slug": "riding",
-          "image": "images/riding.svg",
+          "word": "building",
+          "emoji": "🏗️",
+          "slug": "building",
+          "image": "images/building.svg",
           "color": "#BFE2FF"
         },
         {
-          "word": "jumping",
-          "emoji": "🤸",
-          "slug": "jumping",
-          "image": "images/jumping.svg",
+          "word": "baking",
+          "emoji": "🧁",
+          "slug": "baking",
+          "image": "images/baking.svg",
           "color": "#BFE2FF"
         },
         {
-          "word": "reading",
-          "emoji": "📖",
-          "slug": "reading",
-          "image": "images/reading.svg",
+          "word": "gardening",
+          "emoji": "🌻",
+          "slug": "gardening",
+          "image": "images/gardening.svg",
           "color": "#BFE2FF"
         }
       ],
       "sentences": [
-        "I am camping.",
-        "We are camping.",
-        "She is camping.",
-        "I am running.",
-        "We are running.",
-        "She is running.",
-        "I am swimming.",
-        "We are swimming.",
-        "She is swimming.",
-        "I am riding.",
-        "We are riding.",
-        "She is riding.",
-        "I am jumping.",
-        "We are jumping.",
-        "She is jumping.",
-        "I am reading.",
-        "We are reading.",
-        "She is reading.",
-        "This is my camping.",
-        "These are my runnings.",
-        "Can you swimming?"
+        "I am dancing.",
+        "We are dancing.",
+        "She is dancing.",
+        "I am cooking.",
+        "We are cooking.",
+        "She is cooking.",
+        "I am painting.",
+        "We are painting.",
+        "She is painting.",
+        "I am building.",
+        "We are building.",
+        "She is building.",
+        "I am baking.",
+        "We are baking.",
+        "She is baking.",
+        "I am gardening.",
+        "We are gardening.",
+        "She is gardening.",
+        "This is my dancing.",
+        "These are my cookings.",
+        "Can you painting?"
       ],
       "sentenceMap": {
-        "camping": [
+        "dancing": [
           0,
           1,
           2
         ],
-        "running": [
+        "cooking": [
           3,
           4,
           5
         ],
-        "swimming": [
+        "painting": [
           6,
           7,
           8
         ],
-        "riding": [
+        "building": [
           9,
           10,
           11
         ],
-        "jumping": [
+        "baking": [
           12,
           13,
           14
         ],
-        "reading": [
+        "gardening": [
           15,
           16,
           17
@@ -27388,49 +27008,43 @@ window.GAME_DATA = {
           "binB": "are",
           "tokens": [
             {
-              "t": "I am camping",
+              "t": "I am dancing",
               "cat": "A",
-              "emoji": "⛺"
+              "emoji": "💃"
             },
             {
-              "t": "They are running",
+              "t": "They are cooking",
               "cat": "B",
-              "emoji": "🏃"
+              "emoji": "🍳"
             },
             {
-              "t": "I am swimming",
+              "t": "I am painting",
               "cat": "A",
-              "emoji": "🏊"
+              "emoji": "🎨"
             },
             {
-              "t": "They are riding",
+              "t": "They are building",
               "cat": "B",
-              "emoji": "🚲"
+              "emoji": "🏗️"
             },
             {
-              "t": "I am jumping",
+              "t": "I am baking",
               "cat": "A",
-              "emoji": "🤸"
+              "emoji": "🧁"
             },
             {
-              "t": "They are reading",
+              "t": "They are gardening",
               "cat": "B",
-              "emoji": "📖"
+              "emoji": "🌻"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -27465,13 +27079,6 @@ window.GAME_DATA = {
           "color": "#FFE0C4"
         },
         {
-          "word": "jumping",
-          "emoji": "🤸",
-          "slug": "jumping",
-          "image": "images/jumping.svg",
-          "color": "#FFE0C4"
-        },
-        {
           "word": "cooking",
           "emoji": "🍳",
           "slug": "cooking",
@@ -27483,6 +27090,13 @@ window.GAME_DATA = {
           "emoji": "🎨",
           "slug": "painting",
           "image": "images/painting.svg",
+          "color": "#FFE0C4"
+        },
+        {
+          "word": "drawing",
+          "emoji": "🖍️",
+          "slug": "drawing",
+          "image": "images/drawing.svg",
           "color": "#FFE0C4"
         }
       ],
@@ -27496,15 +27110,15 @@ window.GAME_DATA = {
         "I am swimming.",
         "We are swimming.",
         "She is swimming.",
-        "I am jumping.",
-        "We are jumping.",
-        "She is jumping.",
         "I am cooking.",
         "We are cooking.",
         "She is cooking.",
         "I am painting.",
         "We are painting.",
         "She is painting.",
+        "I am drawing.",
+        "We are drawing.",
+        "She is drawing.",
         "This is my running.",
         "These are my ridings.",
         "Can you swimming?"
@@ -27525,17 +27139,17 @@ window.GAME_DATA = {
           7,
           8
         ],
-        "jumping": [
+        "cooking": [
           9,
           10,
           11
         ],
-        "cooking": [
+        "painting": [
           12,
           13,
           14
         ],
-        "painting": [
+        "drawing": [
           15,
           16,
           17
@@ -27644,34 +27258,28 @@ window.GAME_DATA = {
               "emoji": "🏊"
             },
             {
-              "t": "They are jumping",
+              "t": "They are cooking",
               "cat": "B",
-              "emoji": "🤸"
-            },
-            {
-              "t": "I am cooking",
-              "cat": "A",
               "emoji": "🍳"
             },
             {
-              "t": "They are painting",
-              "cat": "B",
+              "t": "I am painting",
+              "cat": "A",
               "emoji": "🎨"
+            },
+            {
+              "t": "They are drawing",
+              "cat": "B",
+              "emoji": "🖍️"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -27685,98 +27293,98 @@ window.GAME_DATA = {
       "color": "#CDEBFF",
       "items": [
         {
-          "word": "summer",
-          "emoji": "☀️",
-          "slug": "summer",
-          "image": "images/summer.svg",
+          "word": "skiing",
+          "emoji": "🎿",
+          "slug": "skiing",
+          "image": "images/skiing.svg",
           "color": "#CDEBFF"
         },
         {
-          "word": "winter",
-          "emoji": "❄️",
-          "slug": "winter",
-          "image": "images/winter.svg",
+          "word": "skating",
+          "emoji": "⛸️",
+          "slug": "skating",
+          "image": "images/skating.svg",
           "color": "#CDEBFF"
         },
         {
-          "word": "spring",
-          "emoji": "🌷",
-          "slug": "spring",
-          "image": "images/spring.svg",
+          "word": "fishing",
+          "emoji": "🎣",
+          "slug": "fishing",
+          "image": "images/fishing.svg",
           "color": "#CDEBFF"
         },
         {
-          "word": "autumn",
-          "emoji": "🍂",
-          "slug": "autumn",
-          "image": "images/autumn.svg",
+          "word": "camping",
+          "emoji": "⛺",
+          "slug": "camping",
+          "image": "images/camping.svg",
           "color": "#CDEBFF"
         },
         {
-          "word": "month",
-          "emoji": "📅",
-          "slug": "month",
-          "image": "images/month.svg",
+          "word": "hiking",
+          "emoji": "🥾",
+          "slug": "hiking",
+          "image": "images/hiking.svg",
           "color": "#CDEBFF"
         },
         {
-          "word": "holiday",
-          "emoji": "🎉",
-          "slug": "holiday",
-          "image": "images/holiday.svg",
+          "word": "jogging",
+          "emoji": "🏃",
+          "slug": "jogging",
+          "image": "images/jogging.svg",
           "color": "#CDEBFF"
         }
       ],
       "sentences": [
-        "This is a summer.",
-        "I like the summer.",
-        "I can see the summer.",
-        "This is a winter.",
-        "I like the winter.",
-        "I can see the winter.",
-        "I am spring.",
-        "We are spring.",
-        "She is spring.",
-        "This is an autumn.",
-        "I like the autumn.",
-        "I can see the autumn.",
-        "This is a month.",
-        "I like the month.",
-        "I can see the month.",
-        "This is a holiday.",
-        "I like the holiday.",
-        "I can see the holiday.",
-        "This is my summer.",
-        "These are my winters.",
-        "Can you spring?"
+        "I am skiing.",
+        "We are skiing.",
+        "She is skiing.",
+        "I am skating.",
+        "We are skating.",
+        "She is skating.",
+        "I am fishing.",
+        "We are fishing.",
+        "She is fishing.",
+        "I am camping.",
+        "We are camping.",
+        "She is camping.",
+        "I am hiking.",
+        "We are hiking.",
+        "She is hiking.",
+        "I am jogging.",
+        "We are jogging.",
+        "She is jogging.",
+        "This is my skiing.",
+        "These are my skatings.",
+        "Can you fishing?"
       ],
       "sentenceMap": {
-        "summer": [
+        "skiing": [
           0,
           1,
           2
         ],
-        "winter": [
+        "skating": [
           3,
           4,
           5
         ],
-        "spring": [
+        "fishing": [
           6,
           7,
           8
         ],
-        "autumn": [
+        "camping": [
           9,
           10,
           11
         ],
-        "month": [
+        "hiking": [
           12,
           13,
           14
         ],
-        "holiday": [
+        "jogging": [
           15,
           16,
           17
@@ -27870,49 +27478,43 @@ window.GAME_DATA = {
           "binB": "are",
           "tokens": [
             {
-              "t": "I am summer",
+              "t": "I am skiing",
               "cat": "A",
-              "emoji": "☀️"
+              "emoji": "🎿"
             },
             {
-              "t": "They are winter",
+              "t": "They are skating",
               "cat": "B",
-              "emoji": "❄️"
+              "emoji": "⛸️"
             },
             {
-              "t": "I am spring",
+              "t": "I am fishing",
               "cat": "A",
-              "emoji": "🌷"
+              "emoji": "🎣"
             },
             {
-              "t": "They are autumn",
+              "t": "They are camping",
               "cat": "B",
-              "emoji": "🍂"
+              "emoji": "⛺"
             },
             {
-              "t": "I am month",
+              "t": "I am hiking",
               "cat": "A",
-              "emoji": "📅"
+              "emoji": "🥾"
             },
             {
-              "t": "They are holiday",
+              "t": "They are jogging",
               "cat": "B",
-              "emoji": "🎉"
+              "emoji": "🏃"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -27926,98 +27528,98 @@ window.GAME_DATA = {
       "color": "#CBF3E1",
       "items": [
         {
-          "word": "running",
-          "emoji": "🏃",
-          "slug": "running",
-          "image": "images/running.svg",
+          "word": "shopping",
+          "emoji": "🛍️",
+          "slug": "shopping",
+          "image": "images/shopping.svg",
           "color": "#CBF3E1"
         },
         {
-          "word": "swimming",
-          "emoji": "🏊",
-          "slug": "swimming",
-          "image": "images/swimming.svg",
+          "word": "cleaning",
+          "emoji": "🧹",
+          "slug": "cleaning",
+          "image": "images/cleaning.svg",
           "color": "#CBF3E1"
         },
         {
-          "word": "reading",
-          "emoji": "📖",
-          "slug": "reading",
-          "image": "images/reading.svg",
+          "word": "studying",
+          "emoji": "📚",
+          "slug": "studying",
+          "image": "images/studying.svg",
           "color": "#CBF3E1"
         },
         {
-          "word": "cooking",
-          "emoji": "🍳",
-          "slug": "cooking",
-          "image": "images/cooking.svg",
+          "word": "practicing",
+          "emoji": "🎾",
+          "slug": "practicing",
+          "image": "images/practicing.svg",
           "color": "#CBF3E1"
         },
         {
-          "word": "painting",
-          "emoji": "🎨",
-          "slug": "painting",
-          "image": "images/painting.svg",
+          "word": "relaxing",
+          "emoji": "🛋️",
+          "slug": "relaxing",
+          "image": "images/relaxing.svg",
           "color": "#CBF3E1"
         },
         {
-          "word": "sleeping",
-          "emoji": "😴",
-          "slug": "sleeping",
-          "image": "images/sleeping.svg",
+          "word": "training",
+          "emoji": "🏋️",
+          "slug": "training",
+          "image": "images/training.svg",
           "color": "#CBF3E1"
         }
       ],
       "sentences": [
-        "I am running.",
-        "We are running.",
-        "She is running.",
-        "I am swimming.",
-        "We are swimming.",
-        "She is swimming.",
-        "I am reading.",
-        "We are reading.",
-        "She is reading.",
-        "I am cooking.",
-        "We are cooking.",
-        "She is cooking.",
-        "I am painting.",
-        "We are painting.",
-        "She is painting.",
-        "I am sleeping.",
-        "We are sleeping.",
-        "She is sleeping.",
-        "This is my running.",
-        "These are my swimmings.",
-        "Can you reading?"
+        "I am shopping.",
+        "We are shopping.",
+        "She is shopping.",
+        "I am cleaning.",
+        "We are cleaning.",
+        "She is cleaning.",
+        "I am studying.",
+        "We are studying.",
+        "She is studying.",
+        "I am practicing.",
+        "We are practicing.",
+        "She is practicing.",
+        "I am relaxing.",
+        "We are relaxing.",
+        "She is relaxing.",
+        "I am training.",
+        "We are training.",
+        "She is training.",
+        "This is my shopping.",
+        "These are my cleanings.",
+        "Can you studying?"
       ],
       "sentenceMap": {
-        "running": [
+        "shopping": [
           0,
           1,
           2
         ],
-        "swimming": [
+        "cleaning": [
           3,
           4,
           5
         ],
-        "reading": [
+        "studying": [
           6,
           7,
           8
         ],
-        "cooking": [
+        "practicing": [
           9,
           10,
           11
         ],
-        "painting": [
+        "relaxing": [
           12,
           13,
           14
         ],
-        "sleeping": [
+        "training": [
           15,
           16,
           17
@@ -28111,49 +27713,43 @@ window.GAME_DATA = {
           "binB": "are",
           "tokens": [
             {
-              "t": "I am running",
+              "t": "I am shopping",
               "cat": "A",
-              "emoji": "🏃"
+              "emoji": "🛍️"
             },
             {
-              "t": "They are swimming",
+              "t": "They are cleaning",
               "cat": "B",
-              "emoji": "🏊"
+              "emoji": "🧹"
             },
             {
-              "t": "I am reading",
+              "t": "I am studying",
               "cat": "A",
-              "emoji": "📖"
+              "emoji": "📚"
             },
             {
-              "t": "They are cooking",
+              "t": "They are practicing",
               "cat": "B",
-              "emoji": "🍳"
+              "emoji": "🎾"
             },
             {
-              "t": "I am painting",
+              "t": "I am relaxing",
               "cat": "A",
-              "emoji": "🎨"
+              "emoji": "🛋️"
             },
             {
-              "t": "They are sleeping",
+              "t": "They are training",
               "cat": "B",
-              "emoji": "😴"
+              "emoji": "🏋️"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -28167,17 +27763,38 @@ window.GAME_DATA = {
       "color": "#FFE0D5",
       "items": [
         {
-          "word": "running",
-          "emoji": "🏃",
-          "slug": "running",
-          "image": "images/running.svg",
+          "word": "singing",
+          "emoji": "🎤",
+          "slug": "singing",
+          "image": "images/singing.svg",
           "color": "#FFE0D5"
         },
         {
-          "word": "swimming",
-          "emoji": "🏊",
-          "slug": "swimming",
-          "image": "images/swimming.svg",
+          "word": "playing",
+          "emoji": "🎮",
+          "slug": "playing",
+          "image": "images/playing.svg",
+          "color": "#FFE0D5"
+        },
+        {
+          "word": "writing",
+          "emoji": "✍️",
+          "slug": "writing",
+          "image": "images/writing.svg",
+          "color": "#FFE0D5"
+        },
+        {
+          "word": "reading",
+          "emoji": "📖",
+          "slug": "reading",
+          "image": "images/reading.svg",
+          "color": "#FFE0D5"
+        },
+        {
+          "word": "drawing",
+          "emoji": "🖍️",
+          "slug": "drawing",
+          "image": "images/drawing.svg",
           "color": "#FFE0D5"
         },
         {
@@ -28186,79 +27803,58 @@ window.GAME_DATA = {
           "slug": "painting",
           "image": "images/painting.svg",
           "color": "#FFE0D5"
-        },
-        {
-          "word": "cooking",
-          "emoji": "🍳",
-          "slug": "cooking",
-          "image": "images/cooking.svg",
-          "color": "#FFE0D5"
-        },
-        {
-          "word": "riding",
-          "emoji": "🚲",
-          "slug": "riding",
-          "image": "images/riding.svg",
-          "color": "#FFE0D5"
-        },
-        {
-          "word": "jumping",
-          "emoji": "🤸",
-          "slug": "jumping",
-          "image": "images/jumping.svg",
-          "color": "#FFE0D5"
         }
       ],
       "sentences": [
-        "I am running.",
-        "We are running.",
-        "She is running.",
-        "I am swimming.",
-        "We are swimming.",
-        "She is swimming.",
+        "I am singing.",
+        "We are singing.",
+        "She is singing.",
+        "I am playing.",
+        "We are playing.",
+        "She is playing.",
+        "I am writing.",
+        "We are writing.",
+        "She is writing.",
+        "I am reading.",
+        "We are reading.",
+        "She is reading.",
+        "I am drawing.",
+        "We are drawing.",
+        "She is drawing.",
         "I am painting.",
         "We are painting.",
         "She is painting.",
-        "I am cooking.",
-        "We are cooking.",
-        "She is cooking.",
-        "I am riding.",
-        "We are riding.",
-        "She is riding.",
-        "I am jumping.",
-        "We are jumping.",
-        "She is jumping.",
-        "This is my running.",
-        "These are my swimmings.",
-        "Can you painting?"
+        "This is my singing.",
+        "These are my playings.",
+        "Can you writing?"
       ],
       "sentenceMap": {
-        "running": [
+        "singing": [
           0,
           1,
           2
         ],
-        "swimming": [
+        "playing": [
           3,
           4,
           5
         ],
-        "painting": [
+        "writing": [
           6,
           7,
           8
         ],
-        "cooking": [
+        "reading": [
           9,
           10,
           11
         ],
-        "riding": [
+        "drawing": [
           12,
           13,
           14
         ],
-        "jumping": [
+        "painting": [
           15,
           16,
           17
@@ -28352,49 +27948,43 @@ window.GAME_DATA = {
           "binB": "are",
           "tokens": [
             {
-              "t": "I am running",
+              "t": "I am singing",
               "cat": "A",
-              "emoji": "🏃"
+              "emoji": "🎤"
             },
             {
-              "t": "They are swimming",
+              "t": "They are playing",
               "cat": "B",
-              "emoji": "🏊"
+              "emoji": "🎮"
             },
             {
-              "t": "I am painting",
+              "t": "I am writing",
               "cat": "A",
+              "emoji": "✍️"
+            },
+            {
+              "t": "They are reading",
+              "cat": "B",
+              "emoji": "📖"
+            },
+            {
+              "t": "I am drawing",
+              "cat": "A",
+              "emoji": "🖍️"
+            },
+            {
+              "t": "They are painting",
+              "cat": "B",
               "emoji": "🎨"
-            },
-            {
-              "t": "They are cooking",
-              "cat": "B",
-              "emoji": "🍳"
-            },
-            {
-              "t": "I am riding",
-              "cat": "A",
-              "emoji": "🚲"
-            },
-            {
-              "t": "They are jumping",
-              "cat": "B",
-              "emoji": "🤸"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -28415,6 +28005,13 @@ window.GAME_DATA = {
           "color": "#E9DDFF"
         },
         {
+          "word": "jumping",
+          "emoji": "🤸",
+          "slug": "jumping",
+          "image": "images/jumping.svg",
+          "color": "#E9DDFF"
+        },
+        {
           "word": "swimming",
           "emoji": "🏊",
           "slug": "swimming",
@@ -28422,31 +28019,24 @@ window.GAME_DATA = {
           "color": "#E9DDFF"
         },
         {
-          "word": "reading",
-          "emoji": "📖",
-          "slug": "reading",
-          "image": "images/reading.svg",
+          "word": "dancing",
+          "emoji": "💃",
+          "slug": "dancing",
+          "image": "images/dancing.svg",
           "color": "#E9DDFF"
         },
         {
-          "word": "cooking",
-          "emoji": "🍳",
-          "slug": "cooking",
-          "image": "images/cooking.svg",
+          "word": "singing",
+          "emoji": "🎤",
+          "slug": "singing",
+          "image": "images/singing.svg",
           "color": "#E9DDFF"
         },
         {
-          "word": "painting",
-          "emoji": "🎨",
-          "slug": "painting",
-          "image": "images/painting.svg",
-          "color": "#E9DDFF"
-        },
-        {
-          "word": "jumping",
-          "emoji": "🤸",
-          "slug": "jumping",
-          "image": "images/jumping.svg",
+          "word": "playing",
+          "emoji": "🎮",
+          "slug": "playing",
+          "image": "images/playing.svg",
           "color": "#E9DDFF"
         }
       ],
@@ -28454,24 +28044,24 @@ window.GAME_DATA = {
         "I am running.",
         "We are running.",
         "She is running.",
-        "I am swimming.",
-        "We are swimming.",
-        "She is swimming.",
-        "I am reading.",
-        "We are reading.",
-        "She is reading.",
-        "I am cooking.",
-        "We are cooking.",
-        "She is cooking.",
-        "I am painting.",
-        "We are painting.",
-        "She is painting.",
         "I am jumping.",
         "We are jumping.",
         "She is jumping.",
+        "I am swimming.",
+        "We are swimming.",
+        "She is swimming.",
+        "I am dancing.",
+        "We are dancing.",
+        "She is dancing.",
+        "I am singing.",
+        "We are singing.",
+        "She is singing.",
+        "I am playing.",
+        "We are playing.",
+        "She is playing.",
         "This is my running.",
-        "These are my swimmings.",
-        "Can you reading?"
+        "These are my jumpings.",
+        "Can you swimming?"
       ],
       "sentenceMap": {
         "running": [
@@ -28479,27 +28069,27 @@ window.GAME_DATA = {
           1,
           2
         ],
-        "swimming": [
+        "jumping": [
           3,
           4,
           5
         ],
-        "reading": [
+        "swimming": [
           6,
           7,
           8
         ],
-        "cooking": [
+        "dancing": [
           9,
           10,
           11
         ],
-        "painting": [
+        "singing": [
           12,
           13,
           14
         ],
-        "jumping": [
+        "playing": [
           15,
           16,
           17
@@ -28598,44 +28188,38 @@ window.GAME_DATA = {
               "emoji": "🏃"
             },
             {
-              "t": "They are swimming",
-              "cat": "B",
-              "emoji": "🏊"
-            },
-            {
-              "t": "I am reading",
-              "cat": "A",
-              "emoji": "📖"
-            },
-            {
-              "t": "They are cooking",
-              "cat": "B",
-              "emoji": "🍳"
-            },
-            {
-              "t": "I am painting",
-              "cat": "A",
-              "emoji": "🎨"
-            },
-            {
               "t": "They are jumping",
               "cat": "B",
               "emoji": "🤸"
+            },
+            {
+              "t": "I am swimming",
+              "cat": "A",
+              "emoji": "🏊"
+            },
+            {
+              "t": "They are dancing",
+              "cat": "B",
+              "emoji": "💃"
+            },
+            {
+              "t": "I am singing",
+              "cat": "A",
+              "emoji": "🎤"
+            },
+            {
+              "t": "They are playing",
+              "cat": "B",
+              "emoji": "🎮"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -28864,16 +28448,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -29102,16 +28680,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -29340,16 +28912,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -29578,16 +29144,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -29816,16 +29376,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -30054,16 +29608,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -30292,16 +29840,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -30530,16 +30072,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -30768,16 +30304,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -31006,16 +30536,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -31244,16 +30768,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -31267,98 +30785,98 @@ window.GAME_DATA = {
       "color": "#FFE0C4",
       "items": [
         {
-          "word": "lion",
-          "emoji": "🦁",
-          "slug": "lion",
-          "image": "images/lion.svg",
+          "word": "butterfly",
+          "emoji": "🦋",
+          "slug": "butterfly",
+          "image": "images/butterfly.svg",
           "color": "#FFE0C4"
         },
         {
-          "word": "cat",
-          "emoji": "🐱",
-          "slug": "cat",
-          "image": "images/cat.svg",
+          "word": "dragonfly",
+          "emoji": "🐉",
+          "slug": "dragonfly",
+          "image": "images/dragonfly.svg",
           "color": "#FFE0C4"
         },
         {
-          "word": "rabbit",
-          "emoji": "🐰",
-          "slug": "rabbit",
-          "image": "images/rabbit.svg",
+          "word": "locust",
+          "emoji": "🦗",
+          "slug": "locust",
+          "image": "images/locust.svg",
           "color": "#FFE0C4"
         },
         {
-          "word": "turtle",
-          "emoji": "🐢",
-          "slug": "turtle",
-          "image": "images/turtle.svg",
+          "word": "grasshopper",
+          "emoji": "🦗",
+          "slug": "grasshopper",
+          "image": "images/grasshopper.svg",
           "color": "#FFE0C4"
         },
         {
-          "word": "giraffe",
-          "emoji": "🦒",
-          "slug": "giraffe",
-          "image": "images/giraffe.svg",
+          "word": "cicada",
+          "emoji": "🎶",
+          "slug": "cicada",
+          "image": "images/cicada.svg",
           "color": "#FFE0C4"
         },
         {
-          "word": "mouse",
-          "emoji": "🐭",
-          "slug": "mouse",
-          "image": "images/mouse.svg",
+          "word": "firefly",
+          "emoji": "✨",
+          "slug": "firefly",
+          "image": "images/firefly.svg",
           "color": "#FFE0C4"
         }
       ],
       "sentences": [
-        "This is a lion.",
-        "I like the lion.",
-        "I can see the lion.",
-        "This is a cat.",
-        "I like the cat.",
-        "I can see the cat.",
-        "This is a rabbit.",
-        "I like the rabbit.",
-        "I can see the rabbit.",
-        "This is a turtle.",
-        "I like the turtle.",
-        "I can see the turtle.",
-        "This is a giraffe.",
-        "I like the giraffe.",
-        "I can see the giraffe.",
-        "This is a mouse.",
-        "I like the mouse.",
-        "I can see the mouse.",
-        "This is my lion.",
-        "These are my cats.",
-        "Can you rabbit?"
+        "This is a butterfly.",
+        "I like the butterfly.",
+        "I can see the butterfly.",
+        "This is a dragonfly.",
+        "I like the dragonfly.",
+        "I can see the dragonfly.",
+        "This is a locust.",
+        "I like the locust.",
+        "I can see the locust.",
+        "This is a grasshopper.",
+        "I like the grasshopper.",
+        "I can see the grasshopper.",
+        "This is a cicada.",
+        "I like the cicada.",
+        "I can see the cicada.",
+        "This is a firefly.",
+        "I like the firefly.",
+        "I can see the firefly.",
+        "This is my butterfly.",
+        "These are my dragonflys.",
+        "Can you locust?"
       ],
       "sentenceMap": {
-        "lion": [
+        "butterfly": [
           0,
           1,
           2
         ],
-        "cat": [
+        "dragonfly": [
           3,
           4,
           5
         ],
-        "rabbit": [
+        "locust": [
           6,
           7,
           8
         ],
-        "turtle": [
+        "grasshopper": [
           9,
           10,
           11
         ],
-        "giraffe": [
+        "cicada": [
           12,
           13,
           14
         ],
-        "mouse": [
+        "firefly": [
           15,
           16,
           17
@@ -31449,49 +30967,43 @@ window.GAME_DATA = {
           "binB": "more",
           "tokens": [
             {
-              "t": "lioner",
+              "t": "butterflier",
               "cat": "A",
-              "emoji": "🦁"
+              "emoji": "🦋"
             },
             {
-              "t": "more cat",
+              "t": "more dragonfly",
               "cat": "B",
-              "emoji": "🐱"
+              "emoji": "🐉"
             },
             {
-              "t": "rabbiter",
+              "t": "locuster",
               "cat": "A",
-              "emoji": "🐰"
+              "emoji": "🦗"
             },
             {
-              "t": "more turtle",
+              "t": "more grasshopper",
               "cat": "B",
-              "emoji": "🐢"
+              "emoji": "🦗"
             },
             {
-              "t": "giraffer",
+              "t": "cicadaer",
               "cat": "A",
-              "emoji": "🦒"
+              "emoji": "🎶"
             },
             {
-              "t": "more mouse",
+              "t": "more firefly",
               "cat": "B",
-              "emoji": "🐭"
+              "emoji": "✨"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -31505,17 +31017,17 @@ window.GAME_DATA = {
       "color": "#CDEBFF",
       "items": [
         {
-          "word": "lion",
-          "emoji": "🦁",
-          "slug": "lion",
-          "image": "images/lion.svg",
+          "word": "elephant",
+          "emoji": "🐘",
+          "slug": "elephant",
+          "image": "images/elephant.svg",
           "color": "#CDEBFF"
         },
         {
-          "word": "cat",
-          "emoji": "🐱",
-          "slug": "cat",
-          "image": "images/cat.svg",
+          "word": "mouse",
+          "emoji": "🐭",
+          "slug": "mouse",
+          "image": "images/mouse.svg",
           "color": "#CDEBFF"
         },
         {
@@ -31526,13 +31038,6 @@ window.GAME_DATA = {
           "color": "#CDEBFF"
         },
         {
-          "word": "turtle",
-          "emoji": "🐢",
-          "slug": "turtle",
-          "image": "images/turtle.svg",
-          "color": "#CDEBFF"
-        },
-        {
           "word": "giraffe",
           "emoji": "🦒",
           "slug": "giraffe",
@@ -31540,43 +31045,50 @@ window.GAME_DATA = {
           "color": "#CDEBFF"
         },
         {
-          "word": "mouse",
-          "emoji": "🐭",
-          "slug": "mouse",
-          "image": "images/mouse.svg",
+          "word": "turtle",
+          "emoji": "🐢",
+          "slug": "turtle",
+          "image": "images/turtle.svg",
+          "color": "#CDEBFF"
+        },
+        {
+          "word": "hippo",
+          "emoji": "🦛",
+          "slug": "hippo",
+          "image": "images/hippo.svg",
           "color": "#CDEBFF"
         }
       ],
       "sentences": [
-        "This is a lion.",
-        "I like the lion.",
-        "I can see the lion.",
-        "This is a cat.",
-        "I like the cat.",
-        "I can see the cat.",
-        "This is a rabbit.",
-        "I like the rabbit.",
-        "I can see the rabbit.",
-        "This is a turtle.",
-        "I like the turtle.",
-        "I can see the turtle.",
-        "This is a giraffe.",
-        "I like the giraffe.",
-        "I can see the giraffe.",
+        "This is an elephant.",
+        "I like the elephant.",
+        "I can see the elephant.",
         "This is a mouse.",
         "I like the mouse.",
         "I can see the mouse.",
-        "This is my lion.",
-        "These are my cats.",
+        "This is a rabbit.",
+        "I like the rabbit.",
+        "I can see the rabbit.",
+        "This is a giraffe.",
+        "I like the giraffe.",
+        "I can see the giraffe.",
+        "This is a turtle.",
+        "I like the turtle.",
+        "I can see the turtle.",
+        "This is a hippo.",
+        "I like the hippo.",
+        "I can see the hippo.",
+        "This is my elephant.",
+        "These are my mouses.",
         "Can you rabbit?"
       ],
       "sentenceMap": {
-        "lion": [
+        "elephant": [
           0,
           1,
           2
         ],
-        "cat": [
+        "mouse": [
           3,
           4,
           5
@@ -31586,17 +31098,17 @@ window.GAME_DATA = {
           7,
           8
         ],
-        "turtle": [
+        "giraffe": [
           9,
           10,
           11
         ],
-        "giraffe": [
+        "turtle": [
           12,
           13,
           14
         ],
-        "mouse": [
+        "hippo": [
           15,
           16,
           17
@@ -31687,14 +31199,14 @@ window.GAME_DATA = {
           "binB": "more",
           "tokens": [
             {
-              "t": "lioner",
+              "t": "elephanter",
               "cat": "A",
-              "emoji": "🦁"
+              "emoji": "🐘"
             },
             {
-              "t": "more cat",
+              "t": "more mouse",
               "cat": "B",
-              "emoji": "🐱"
+              "emoji": "🐭"
             },
             {
               "t": "rabbiter",
@@ -31702,34 +31214,28 @@ window.GAME_DATA = {
               "emoji": "🐰"
             },
             {
-              "t": "more turtle",
+              "t": "more giraffe",
               "cat": "B",
-              "emoji": "🐢"
-            },
-            {
-              "t": "giraffer",
-              "cat": "A",
               "emoji": "🦒"
             },
             {
-              "t": "more mouse",
+              "t": "turtler",
+              "cat": "A",
+              "emoji": "🐢"
+            },
+            {
+              "t": "more hippo",
               "cat": "B",
-              "emoji": "🐭"
+              "emoji": "🦛"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -31958,16 +31464,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -32196,16 +31696,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -32434,16 +31928,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -32672,16 +32160,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -32695,98 +32177,98 @@ window.GAME_DATA = {
       "color": "#D8F0FF",
       "items": [
         {
-          "word": "lion",
-          "emoji": "🦁",
-          "slug": "lion",
-          "image": "images/lion.svg",
+          "word": "shark",
+          "emoji": "🦈",
+          "slug": "shark",
+          "image": "images/shark.svg",
           "color": "#D8F0FF"
         },
         {
-          "word": "cat",
-          "emoji": "🐱",
-          "slug": "cat",
-          "image": "images/cat.svg",
+          "word": "dolphin",
+          "emoji": "🐬",
+          "slug": "dolphin",
+          "image": "images/dolphin.svg",
           "color": "#D8F0FF"
         },
         {
-          "word": "rabbit",
-          "emoji": "🐰",
-          "slug": "rabbit",
-          "image": "images/rabbit.svg",
+          "word": "whale",
+          "emoji": "🐳",
+          "slug": "whale",
+          "image": "images/whale.svg",
           "color": "#D8F0FF"
         },
         {
-          "word": "turtle",
-          "emoji": "🐢",
-          "slug": "turtle",
-          "image": "images/turtle.svg",
+          "word": "octopus",
+          "emoji": "🐙",
+          "slug": "octopus",
+          "image": "images/octopus.svg",
           "color": "#D8F0FF"
         },
         {
-          "word": "giraffe",
-          "emoji": "🦒",
-          "slug": "giraffe",
-          "image": "images/giraffe.svg",
+          "word": "crab",
+          "emoji": "🦀",
+          "slug": "crab",
+          "image": "images/crab.svg",
           "color": "#D8F0FF"
         },
         {
-          "word": "mouse",
-          "emoji": "🐭",
-          "slug": "mouse",
-          "image": "images/mouse.svg",
+          "word": "starfish",
+          "emoji": "⭐",
+          "slug": "starfish",
+          "image": "images/starfish.svg",
           "color": "#D8F0FF"
         }
       ],
       "sentences": [
-        "This is a lion.",
-        "I like the lion.",
-        "I can see the lion.",
-        "This is a cat.",
-        "I like the cat.",
-        "I can see the cat.",
-        "This is a rabbit.",
-        "I like the rabbit.",
-        "I can see the rabbit.",
-        "This is a turtle.",
-        "I like the turtle.",
-        "I can see the turtle.",
-        "This is a giraffe.",
-        "I like the giraffe.",
-        "I can see the giraffe.",
-        "This is a mouse.",
-        "I like the mouse.",
-        "I can see the mouse.",
-        "This is my lion.",
-        "These are my cats.",
-        "Can you rabbit?"
+        "This is a shark.",
+        "I like the shark.",
+        "I can see the shark.",
+        "This is a dolphin.",
+        "I like the dolphin.",
+        "I can see the dolphin.",
+        "This is a whale.",
+        "I like the whale.",
+        "I can see the whale.",
+        "These are octopus.",
+        "I like octopus.",
+        "Can you see octopus?",
+        "This is a crab.",
+        "I like the crab.",
+        "I can see the crab.",
+        "This is a starfish.",
+        "I like the starfish.",
+        "I can see the starfish.",
+        "This is my shark.",
+        "These are my dolphins.",
+        "Can you whale?"
       ],
       "sentenceMap": {
-        "lion": [
+        "shark": [
           0,
           1,
           2
         ],
-        "cat": [
+        "dolphin": [
           3,
           4,
           5
         ],
-        "rabbit": [
+        "whale": [
           6,
           7,
           8
         ],
-        "turtle": [
+        "octopus": [
           9,
           10,
           11
         ],
-        "giraffe": [
+        "crab": [
           12,
           13,
           14
         ],
-        "mouse": [
+        "starfish": [
           15,
           16,
           17
@@ -32877,49 +32359,43 @@ window.GAME_DATA = {
           "binB": "more",
           "tokens": [
             {
-              "t": "lioner",
+              "t": "sharker",
               "cat": "A",
-              "emoji": "🦁"
+              "emoji": "🦈"
             },
             {
-              "t": "more cat",
+              "t": "more dolphin",
               "cat": "B",
-              "emoji": "🐱"
+              "emoji": "🐬"
             },
             {
-              "t": "rabbiter",
+              "t": "whaler",
               "cat": "A",
-              "emoji": "🐰"
+              "emoji": "🐳"
             },
             {
-              "t": "more turtle",
+              "t": "more octopus",
               "cat": "B",
-              "emoji": "🐢"
+              "emoji": "🐙"
             },
             {
-              "t": "giraffer",
+              "t": "craber",
               "cat": "A",
-              "emoji": "🦒"
+              "emoji": "🦀"
             },
             {
-              "t": "more mouse",
+              "t": "more starfish",
               "cat": "B",
-              "emoji": "🐭"
+              "emoji": "⭐"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -33148,16 +32624,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -33171,98 +32641,98 @@ window.GAME_DATA = {
       "color": "#D6F5C9",
       "items": [
         {
-          "word": "lion",
-          "emoji": "🦁",
-          "slug": "lion",
-          "image": "images/lion.svg",
+          "word": "fast",
+          "emoji": "🚀",
+          "slug": "fast",
+          "image": "images/fast.svg",
           "color": "#D6F5C9"
         },
         {
-          "word": "cat",
-          "emoji": "🐱",
-          "slug": "cat",
-          "image": "images/cat.svg",
+          "word": "slow",
+          "emoji": "🐌",
+          "slug": "slow",
+          "image": "images/slow.svg",
           "color": "#D6F5C9"
         },
         {
-          "word": "rabbit",
-          "emoji": "🐰",
-          "slug": "rabbit",
-          "image": "images/rabbit.svg",
+          "word": "tall",
+          "emoji": "🌳",
+          "slug": "tall",
+          "image": "images/tall.svg",
           "color": "#D6F5C9"
         },
         {
-          "word": "turtle",
-          "emoji": "🐢",
-          "slug": "turtle",
-          "image": "images/turtle.svg",
+          "word": "short",
+          "emoji": "🧍",
+          "slug": "short-compare-champion",
+          "image": "images/short-compare-champion.svg",
           "color": "#D6F5C9"
         },
         {
-          "word": "giraffe",
-          "emoji": "🦒",
-          "slug": "giraffe",
-          "image": "images/giraffe.svg",
+          "word": "big",
+          "emoji": "🐘",
+          "slug": "big",
+          "image": "images/big.svg",
           "color": "#D6F5C9"
         },
         {
-          "word": "mouse",
-          "emoji": "🐭",
-          "slug": "mouse",
-          "image": "images/mouse.svg",
+          "word": "small",
+          "emoji": "🐜",
+          "slug": "small",
+          "image": "images/small.svg",
           "color": "#D6F5C9"
         }
       ],
       "sentences": [
-        "This is a lion.",
-        "I like the lion.",
-        "I can see the lion.",
-        "This is a cat.",
-        "I like the cat.",
-        "I can see the cat.",
-        "This is a rabbit.",
-        "I like the rabbit.",
-        "I can see the rabbit.",
-        "This is a turtle.",
-        "I like the turtle.",
-        "I can see the turtle.",
-        "This is a giraffe.",
-        "I like the giraffe.",
-        "I can see the giraffe.",
-        "This is a mouse.",
-        "I like the mouse.",
-        "I can see the mouse.",
-        "This is my lion.",
-        "These are my cats.",
-        "Can you rabbit?"
+        "This is a fast.",
+        "I like the fast.",
+        "I can see the fast.",
+        "This is a slow.",
+        "I like the slow.",
+        "I can see the slow.",
+        "This is a tall.",
+        "I like the tall.",
+        "I can see the tall.",
+        "This is a short.",
+        "I like the short.",
+        "I can see the short.",
+        "This is a big.",
+        "I like the big.",
+        "I can see the big.",
+        "This is a small.",
+        "I like the small.",
+        "I can see the small.",
+        "This is my fast.",
+        "These are my slows.",
+        "Can you tall?"
       ],
       "sentenceMap": {
-        "lion": [
+        "fast": [
           0,
           1,
           2
         ],
-        "cat": [
+        "slow": [
           3,
           4,
           5
         ],
-        "rabbit": [
+        "tall": [
           6,
           7,
           8
         ],
-        "turtle": [
+        "short": [
           9,
           10,
           11
         ],
-        "giraffe": [
+        "big": [
           12,
           13,
           14
         ],
-        "mouse": [
+        "small": [
           15,
           16,
           17
@@ -33353,49 +32823,43 @@ window.GAME_DATA = {
           "binB": "more",
           "tokens": [
             {
-              "t": "lioner",
+              "t": "faster",
               "cat": "A",
-              "emoji": "🦁"
+              "emoji": "🚀"
             },
             {
-              "t": "more cat",
+              "t": "more slow",
               "cat": "B",
-              "emoji": "🐱"
+              "emoji": "🐌"
             },
             {
-              "t": "rabbiter",
+              "t": "taller",
               "cat": "A",
-              "emoji": "🐰"
+              "emoji": "🌳"
             },
             {
-              "t": "more turtle",
+              "t": "more short",
               "cat": "B",
-              "emoji": "🐢"
+              "emoji": "🧍"
             },
             {
-              "t": "giraffer",
+              "t": "biger",
               "cat": "A",
-              "emoji": "🦒"
+              "emoji": "🐘"
             },
             {
-              "t": "more mouse",
+              "t": "more small",
               "cat": "B",
-              "emoji": "🐭"
+              "emoji": "🐜"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -33544,7 +33008,7 @@ window.GAME_DATA = {
             "options": [
               "schools",
               "school",
-              "schools"
+              "schooles"
             ],
             "correct": 0
           },
@@ -33624,16 +33088,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -33647,98 +33105,98 @@ window.GAME_DATA = {
       "color": "#C9F0EC",
       "items": [
         {
-          "word": "school",
-          "emoji": "🏫",
-          "slug": "school",
-          "image": "images/school.svg",
+          "word": "barn",
+          "emoji": "🏚️",
+          "slug": "barn",
+          "image": "images/barn.svg",
           "color": "#C9F0EC"
         },
         {
-          "word": "park",
-          "emoji": "🏞️",
-          "slug": "park",
-          "image": "images/park.svg",
+          "word": "castle",
+          "emoji": "🏰",
+          "slug": "castle",
+          "image": "images/castle.svg",
           "color": "#C9F0EC"
         },
         {
-          "word": "shop",
-          "emoji": "🏪",
-          "slug": "shop",
-          "image": "images/shop.svg",
+          "word": "museum",
+          "emoji": "🏛️",
+          "slug": "museum",
+          "image": "images/museum.svg",
           "color": "#C9F0EC"
         },
         {
-          "word": "bus",
-          "emoji": "🚌",
-          "slug": "bus",
-          "image": "images/bus.svg",
+          "word": "airport",
+          "emoji": "🛫",
+          "slug": "airport",
+          "image": "images/airport.svg",
           "color": "#C9F0EC"
         },
         {
-          "word": "car",
-          "emoji": "🚗",
-          "slug": "car",
-          "image": "images/car.svg",
+          "word": "hotel",
+          "emoji": "🏨",
+          "slug": "hotel",
+          "image": "images/hotel.svg",
           "color": "#C9F0EC"
         },
         {
-          "word": "train",
-          "emoji": "🚆",
-          "slug": "train",
-          "image": "images/train.svg",
+          "word": "stadium",
+          "emoji": "🏟️",
+          "slug": "stadium",
+          "image": "images/stadium.svg",
           "color": "#C9F0EC"
         }
       ],
       "sentences": [
-        "This is a school.",
-        "I like the school.",
-        "I can see the school.",
-        "This is a park.",
-        "I like the park.",
-        "I can see the park.",
-        "This is a shop.",
-        "I like the shop.",
-        "I can see the shop.",
-        "These are bus.",
-        "I like bus.",
-        "Can you see bus?",
-        "This is a car.",
-        "I like the car.",
-        "I can see the car.",
-        "This is a train.",
-        "I like the train.",
-        "I can see the train.",
-        "This is my school.",
-        "These are my parks.",
-        "Can you shop?"
+        "This is a barn.",
+        "I like the barn.",
+        "I can see the barn.",
+        "This is a castle.",
+        "I like the castle.",
+        "I can see the castle.",
+        "This is a museum.",
+        "I like the museum.",
+        "I can see the museum.",
+        "This is an airport.",
+        "I like the airport.",
+        "I can see the airport.",
+        "This is a hotel.",
+        "I like the hotel.",
+        "I can see the hotel.",
+        "This is a stadium.",
+        "I like the stadium.",
+        "I can see the stadium.",
+        "This is my barn.",
+        "These are my castles.",
+        "Can you museum?"
       ],
       "sentenceMap": {
-        "school": [
+        "barn": [
           0,
           1,
           2
         ],
-        "park": [
+        "castle": [
           3,
           4,
           5
         ],
-        "shop": [
+        "museum": [
           6,
           7,
           8
         ],
-        "bus": [
+        "airport": [
           9,
           10,
           11
         ],
-        "car": [
+        "hotel": [
           12,
           13,
           14
         ],
-        "train": [
+        "stadium": [
           15,
           16,
           17
@@ -33748,13 +33206,13 @@ window.GAME_DATA = {
         "target": "Review",
         "gap": [
           {
-            "text": "This is ___ school.",
+            "text": "This is ___ barn.",
             "options": [
               "a",
               "an"
             ],
             "correct": 0,
-            "emoji": "🏫"
+            "emoji": "🏚️"
           },
           {
             "text": "I ___ happy.",
@@ -33777,12 +33235,12 @@ window.GAME_DATA = {
         ],
         "transform": [
           {
-            "prompt": "one school →",
-            "base": "school",
+            "prompt": "one barn →",
+            "base": "barn",
             "options": [
-              "schools",
-              "school",
-              "schools"
+              "barns",
+              "barn",
+              "barnes"
             ],
             "correct": 0
           },
@@ -33809,9 +33267,9 @@ window.GAME_DATA = {
         ],
         "fix": [
           {
-            "right": "This is a school.",
-            "wrong": "This is an school.",
-            "emoji": "🏫"
+            "right": "This is a barn.",
+            "wrong": "This is an barn.",
+            "emoji": "🏚️"
           },
           {
             "right": "She likes cake.",
@@ -33829,49 +33287,43 @@ window.GAME_DATA = {
           "binB": "were",
           "tokens": [
             {
-              "t": "There was a school",
+              "t": "There was a barn",
               "cat": "A",
-              "emoji": "🏫"
+              "emoji": "🏚️"
             },
             {
-              "t": "There were parks",
+              "t": "There were castles",
               "cat": "B",
-              "emoji": "🏞️"
+              "emoji": "🏰"
             },
             {
-              "t": "There was a shop",
+              "t": "There was a museum",
               "cat": "A",
-              "emoji": "🏪"
+              "emoji": "🏛️"
             },
             {
-              "t": "There were buses",
+              "t": "There were airports",
               "cat": "B",
-              "emoji": "🚌"
+              "emoji": "🛫"
             },
             {
-              "t": "There was a car",
+              "t": "There was a hotel",
               "cat": "A",
-              "emoji": "🚗"
+              "emoji": "🏨"
             },
             {
-              "t": "There were trains",
+              "t": "There were stadiums",
               "cat": "B",
-              "emoji": "🚆"
+              "emoji": "🏟️"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -33885,98 +33337,98 @@ window.GAME_DATA = {
       "color": "#FFE7A8",
       "items": [
         {
-          "word": "school",
-          "emoji": "🏫",
-          "slug": "school",
-          "image": "images/school.svg",
+          "word": "kitchen",
+          "emoji": "🍳",
+          "slug": "kitchen",
+          "image": "images/kitchen.svg",
           "color": "#FFE7A8"
         },
         {
-          "word": "park",
-          "emoji": "🏞️",
-          "slug": "park",
-          "image": "images/park.svg",
+          "word": "bedroom",
+          "emoji": "🛏️",
+          "slug": "bedroom",
+          "image": "images/bedroom.svg",
           "color": "#FFE7A8"
         },
         {
-          "word": "shop",
-          "emoji": "🏪",
-          "slug": "shop",
-          "image": "images/shop.svg",
+          "word": "bathroom",
+          "emoji": "🛁",
+          "slug": "bathroom",
+          "image": "images/bathroom.svg",
           "color": "#FFE7A8"
         },
         {
-          "word": "bus",
-          "emoji": "🚌",
-          "slug": "bus",
-          "image": "images/bus.svg",
+          "word": "garden",
+          "emoji": "🌳",
+          "slug": "garden",
+          "image": "images/garden.svg",
           "color": "#FFE7A8"
         },
         {
-          "word": "car",
+          "word": "library",
+          "emoji": "📚",
+          "slug": "library",
+          "image": "images/library.svg",
+          "color": "#FFE7A8"
+        },
+        {
+          "word": "garage",
           "emoji": "🚗",
-          "slug": "car",
-          "image": "images/car.svg",
-          "color": "#FFE7A8"
-        },
-        {
-          "word": "train",
-          "emoji": "🚆",
-          "slug": "train",
-          "image": "images/train.svg",
+          "slug": "garage",
+          "image": "images/garage.svg",
           "color": "#FFE7A8"
         }
       ],
       "sentences": [
-        "This is a school.",
-        "I like the school.",
-        "I can see the school.",
-        "This is a park.",
-        "I like the park.",
-        "I can see the park.",
-        "This is a shop.",
-        "I like the shop.",
-        "I can see the shop.",
-        "These are bus.",
-        "I like bus.",
-        "Can you see bus?",
-        "This is a car.",
-        "I like the car.",
-        "I can see the car.",
-        "This is a train.",
-        "I like the train.",
-        "I can see the train.",
-        "This is my school.",
-        "These are my parks.",
-        "Can you shop?"
+        "This is a kitchen.",
+        "I like the kitchen.",
+        "I can see the kitchen.",
+        "This is a bedroom.",
+        "I like the bedroom.",
+        "I can see the bedroom.",
+        "This is a bathroom.",
+        "I like the bathroom.",
+        "I can see the bathroom.",
+        "This is a garden.",
+        "I like the garden.",
+        "I can see the garden.",
+        "This is a library.",
+        "I like the library.",
+        "I can see the library.",
+        "This is a garage.",
+        "I like the garage.",
+        "I can see the garage.",
+        "This is my kitchen.",
+        "These are my bedrooms.",
+        "Can you bathroom?"
       ],
       "sentenceMap": {
-        "school": [
+        "kitchen": [
           0,
           1,
           2
         ],
-        "park": [
+        "bedroom": [
           3,
           4,
           5
         ],
-        "shop": [
+        "bathroom": [
           6,
           7,
           8
         ],
-        "bus": [
+        "garden": [
           9,
           10,
           11
         ],
-        "car": [
+        "library": [
           12,
           13,
           14
         ],
-        "train": [
+        "garage": [
           15,
           16,
           17
@@ -33986,13 +33438,13 @@ window.GAME_DATA = {
         "target": "Review",
         "gap": [
           {
-            "text": "This is ___ school.",
+            "text": "This is ___ kitchen.",
             "options": [
               "a",
               "an"
             ],
             "correct": 0,
-            "emoji": "🏫"
+            "emoji": "🍳"
           },
           {
             "text": "I ___ happy.",
@@ -34015,12 +33467,12 @@ window.GAME_DATA = {
         ],
         "transform": [
           {
-            "prompt": "one school →",
-            "base": "school",
+            "prompt": "one kitchen →",
+            "base": "kitchen",
             "options": [
-              "schools",
-              "school",
-              "schools"
+              "kitchens",
+              "kitchen",
+              "kitchenes"
             ],
             "correct": 0
           },
@@ -34047,9 +33499,9 @@ window.GAME_DATA = {
         ],
         "fix": [
           {
-            "right": "This is a school.",
-            "wrong": "This is an school.",
-            "emoji": "🏫"
+            "right": "This is a kitchen.",
+            "wrong": "This is an kitchen.",
+            "emoji": "🍳"
           },
           {
             "right": "She likes cake.",
@@ -34067,49 +33519,43 @@ window.GAME_DATA = {
           "binB": "were",
           "tokens": [
             {
-              "t": "There was a school",
+              "t": "There was a kitchen",
               "cat": "A",
-              "emoji": "🏫"
+              "emoji": "🍳"
             },
             {
-              "t": "There were parks",
+              "t": "There were bedrooms",
               "cat": "B",
-              "emoji": "🏞️"
+              "emoji": "🛏️"
             },
             {
-              "t": "There was a shop",
+              "t": "There was a bathroom",
               "cat": "A",
-              "emoji": "🏪"
+              "emoji": "🛁"
             },
             {
-              "t": "There were buses",
+              "t": "There were gardens",
               "cat": "B",
-              "emoji": "🚌"
+              "emoji": "🌳"
             },
             {
-              "t": "There was a car",
+              "t": "There was a library",
               "cat": "A",
+              "emoji": "📚"
+            },
+            {
+              "t": "There were garages",
+              "cat": "B",
               "emoji": "🚗"
-            },
-            {
-              "t": "There were trains",
-              "cat": "B",
-              "emoji": "🚆"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -34123,98 +33569,98 @@ window.GAME_DATA = {
       "color": "#DCC9FF",
       "items": [
         {
-          "word": "school",
-          "emoji": "🏫",
-          "slug": "school",
-          "image": "images/school.svg",
+          "word": "king",
+          "emoji": "🤴",
+          "slug": "king",
+          "image": "images/king.svg",
           "color": "#DCC9FF"
         },
         {
-          "word": "park",
-          "emoji": "🏞️",
-          "slug": "park",
-          "image": "images/park.svg",
+          "word": "queen",
+          "emoji": "👸",
+          "slug": "queen",
+          "image": "images/queen.svg",
           "color": "#DCC9FF"
         },
         {
-          "word": "shop",
-          "emoji": "🏪",
-          "slug": "shop",
-          "image": "images/shop.svg",
+          "word": "castle",
+          "emoji": "🏰",
+          "slug": "castle",
+          "image": "images/castle.svg",
           "color": "#DCC9FF"
         },
         {
-          "word": "bus",
-          "emoji": "🚌",
-          "slug": "bus",
-          "image": "images/bus.svg",
+          "word": "dragon",
+          "emoji": "🐉",
+          "slug": "dragon",
+          "image": "images/dragon.svg",
           "color": "#DCC9FF"
         },
         {
-          "word": "car",
-          "emoji": "🚗",
-          "slug": "car",
-          "image": "images/car.svg",
+          "word": "knight",
+          "emoji": "🛡️",
+          "slug": "knight",
+          "image": "images/knight.svg",
           "color": "#DCC9FF"
         },
         {
-          "word": "train",
-          "emoji": "🚆",
-          "slug": "train",
-          "image": "images/train.svg",
+          "word": "crown",
+          "emoji": "👑",
+          "slug": "crown",
+          "image": "images/crown.svg",
           "color": "#DCC9FF"
         }
       ],
       "sentences": [
-        "This is a school.",
-        "I like the school.",
-        "I can see the school.",
-        "This is a park.",
-        "I like the park.",
-        "I can see the park.",
-        "This is a shop.",
-        "I like the shop.",
-        "I can see the shop.",
-        "These are bus.",
-        "I like bus.",
-        "Can you see bus?",
-        "This is a car.",
-        "I like the car.",
-        "I can see the car.",
-        "This is a train.",
-        "I like the train.",
-        "I can see the train.",
-        "This is my school.",
-        "These are my parks.",
-        "Can you shop?"
+        "I am king.",
+        "We are king.",
+        "She is king.",
+        "This is a queen.",
+        "I like the queen.",
+        "I can see the queen.",
+        "This is a castle.",
+        "I like the castle.",
+        "I can see the castle.",
+        "This is a dragon.",
+        "I like the dragon.",
+        "I can see the dragon.",
+        "This is a knight.",
+        "I like the knight.",
+        "I can see the knight.",
+        "This is a crown.",
+        "I like the crown.",
+        "I can see the crown.",
+        "This is my king.",
+        "These are my queens.",
+        "Can you castle?"
       ],
       "sentenceMap": {
-        "school": [
+        "king": [
           0,
           1,
           2
         ],
-        "park": [
+        "queen": [
           3,
           4,
           5
         ],
-        "shop": [
+        "castle": [
           6,
           7,
           8
         ],
-        "bus": [
+        "dragon": [
           9,
           10,
           11
         ],
-        "car": [
+        "knight": [
           12,
           13,
           14
         ],
-        "train": [
+        "crown": [
           15,
           16,
           17
@@ -34224,13 +33670,13 @@ window.GAME_DATA = {
         "target": "Review",
         "gap": [
           {
-            "text": "This is ___ school.",
+            "text": "This is ___ king.",
             "options": [
               "a",
               "an"
             ],
             "correct": 0,
-            "emoji": "🏫"
+            "emoji": "🤴"
           },
           {
             "text": "I ___ happy.",
@@ -34253,12 +33699,12 @@ window.GAME_DATA = {
         ],
         "transform": [
           {
-            "prompt": "one school →",
-            "base": "school",
+            "prompt": "one king →",
+            "base": "king",
             "options": [
-              "schools",
-              "school",
-              "schools"
+              "kings",
+              "king",
+              "kinges"
             ],
             "correct": 0
           },
@@ -34285,9 +33731,9 @@ window.GAME_DATA = {
         ],
         "fix": [
           {
-            "right": "This is a school.",
-            "wrong": "This is an school.",
-            "emoji": "🏫"
+            "right": "This is a king.",
+            "wrong": "This is an king.",
+            "emoji": "🤴"
           },
           {
             "right": "She likes cake.",
@@ -34305,49 +33751,43 @@ window.GAME_DATA = {
           "binB": "were",
           "tokens": [
             {
-              "t": "There was a school",
+              "t": "There was a king",
               "cat": "A",
-              "emoji": "🏫"
+              "emoji": "🤴"
             },
             {
-              "t": "There were parks",
+              "t": "There were queens",
               "cat": "B",
-              "emoji": "🏞️"
+              "emoji": "👸"
             },
             {
-              "t": "There was a shop",
+              "t": "There was a castle",
               "cat": "A",
-              "emoji": "🏪"
+              "emoji": "🏰"
             },
             {
-              "t": "There were buses",
+              "t": "There were dragons",
               "cat": "B",
-              "emoji": "🚌"
+              "emoji": "🐉"
             },
             {
-              "t": "There was a car",
+              "t": "There was a knight",
               "cat": "A",
-              "emoji": "🚗"
+              "emoji": "🛡️"
             },
             {
-              "t": "There were trains",
+              "t": "There were crowns",
               "cat": "B",
-              "emoji": "🚆"
+              "emoji": "👑"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -34361,98 +33801,98 @@ window.GAME_DATA = {
       "color": "#FFD0DE",
       "items": [
         {
-          "word": "school",
-          "emoji": "🏫",
-          "slug": "school",
-          "image": "images/school.svg",
+          "word": "rain",
+          "emoji": "🌧️",
+          "slug": "rain",
+          "image": "images/rain.svg",
           "color": "#FFD0DE"
         },
         {
-          "word": "park",
-          "emoji": "🏞️",
-          "slug": "park",
-          "image": "images/park.svg",
+          "word": "snow",
+          "emoji": "❄️",
+          "slug": "snow",
+          "image": "images/snow.svg",
           "color": "#FFD0DE"
         },
         {
-          "word": "shop",
-          "emoji": "🏪",
-          "slug": "shop",
-          "image": "images/shop.svg",
+          "word": "fog",
+          "emoji": "🌫️",
+          "slug": "fog",
+          "image": "images/fog.svg",
           "color": "#FFD0DE"
         },
         {
-          "word": "bus",
-          "emoji": "🚌",
-          "slug": "bus",
-          "image": "images/bus.svg",
+          "word": "sun",
+          "emoji": "☀️",
+          "slug": "sun",
+          "image": "images/sun.svg",
           "color": "#FFD0DE"
         },
         {
-          "word": "car",
-          "emoji": "🚗",
-          "slug": "car",
-          "image": "images/car.svg",
+          "word": "wind",
+          "emoji": "🌬️",
+          "slug": "wind",
+          "image": "images/wind.svg",
           "color": "#FFD0DE"
         },
         {
-          "word": "train",
-          "emoji": "🚆",
-          "slug": "train",
-          "image": "images/train.svg",
+          "word": "storm",
+          "emoji": "⛈️",
+          "slug": "storm",
+          "image": "images/storm.svg",
           "color": "#FFD0DE"
         }
       ],
       "sentences": [
-        "This is a school.",
-        "I like the school.",
-        "I can see the school.",
-        "This is a park.",
-        "I like the park.",
-        "I can see the park.",
-        "This is a shop.",
-        "I like the shop.",
-        "I can see the shop.",
-        "These are bus.",
-        "I like bus.",
-        "Can you see bus?",
-        "This is a car.",
-        "I like the car.",
-        "I can see the car.",
-        "This is a train.",
-        "I like the train.",
-        "I can see the train.",
-        "This is my school.",
-        "These are my parks.",
-        "Can you shop?"
+        "This is a rain.",
+        "I like the rain.",
+        "I can see the rain.",
+        "This is a snow.",
+        "I like the snow.",
+        "I can see the snow.",
+        "This is a fog.",
+        "I like the fog.",
+        "I can see the fog.",
+        "This is a sun.",
+        "I like the sun.",
+        "I can see the sun.",
+        "This is a wind.",
+        "I like the wind.",
+        "I can see the wind.",
+        "This is a storm.",
+        "I like the storm.",
+        "I can see the storm.",
+        "This is my rain.",
+        "These are my snows.",
+        "Can you fog?"
       ],
       "sentenceMap": {
-        "school": [
+        "rain": [
           0,
           1,
           2
         ],
-        "park": [
+        "snow": [
           3,
           4,
           5
         ],
-        "shop": [
+        "fog": [
           6,
           7,
           8
         ],
-        "bus": [
+        "sun": [
           9,
           10,
           11
         ],
-        "car": [
+        "wind": [
           12,
           13,
           14
         ],
-        "train": [
+        "storm": [
           15,
           16,
           17
@@ -34462,13 +33902,13 @@ window.GAME_DATA = {
         "target": "Review",
         "gap": [
           {
-            "text": "This is ___ school.",
+            "text": "This is ___ rain.",
             "options": [
               "a",
               "an"
             ],
             "correct": 0,
-            "emoji": "🏫"
+            "emoji": "🌧️"
           },
           {
             "text": "I ___ happy.",
@@ -34491,12 +33931,12 @@ window.GAME_DATA = {
         ],
         "transform": [
           {
-            "prompt": "one school →",
-            "base": "school",
+            "prompt": "one rain →",
+            "base": "rain",
             "options": [
-              "schools",
-              "school",
-              "schools"
+              "rains",
+              "rain",
+              "raines"
             ],
             "correct": 0
           },
@@ -34523,9 +33963,9 @@ window.GAME_DATA = {
         ],
         "fix": [
           {
-            "right": "This is a school.",
-            "wrong": "This is an school.",
-            "emoji": "🏫"
+            "right": "This is a rain.",
+            "wrong": "This is an rain.",
+            "emoji": "🌧️"
           },
           {
             "right": "She likes cake.",
@@ -34543,49 +33983,43 @@ window.GAME_DATA = {
           "binB": "were",
           "tokens": [
             {
-              "t": "There was a school",
+              "t": "There was a rain",
               "cat": "A",
-              "emoji": "🏫"
+              "emoji": "🌧️"
             },
             {
-              "t": "There were parks",
+              "t": "There were snows",
               "cat": "B",
-              "emoji": "🏞️"
+              "emoji": "❄️"
             },
             {
-              "t": "There was a shop",
+              "t": "There was a fog",
               "cat": "A",
-              "emoji": "🏪"
+              "emoji": "🌫️"
             },
             {
-              "t": "There were buses",
+              "t": "There were suns",
               "cat": "B",
-              "emoji": "🚌"
+              "emoji": "☀️"
             },
             {
-              "t": "There was a car",
+              "t": "There was a wind",
               "cat": "A",
-              "emoji": "🚗"
+              "emoji": "🌬️"
             },
             {
-              "t": "There were trains",
+              "t": "There were storms",
               "cat": "B",
-              "emoji": "🚆"
+              "emoji": "⛈️"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -34734,7 +34168,7 @@ window.GAME_DATA = {
             "options": [
               "lefts",
               "left",
-              "lefts"
+              "leftes"
             ],
             "correct": 0
           },
@@ -34814,16 +34248,10 @@ window.GAME_DATA = {
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -34837,98 +34265,98 @@ window.GAME_DATA = {
       "color": "#BFE2FF",
       "items": [
         {
-          "word": "school",
-          "emoji": "🏫",
-          "slug": "school",
-          "image": "images/school.svg",
+          "word": "yesterday",
+          "emoji": "📅",
+          "slug": "yesterday",
+          "image": "images/yesterday.svg",
           "color": "#BFE2FF"
         },
         {
-          "word": "park",
-          "emoji": "🏞️",
-          "slug": "park",
-          "image": "images/park.svg",
+          "word": "today",
+          "emoji": "🗓️",
+          "slug": "today",
+          "image": "images/today.svg",
           "color": "#BFE2FF"
         },
         {
-          "word": "shop",
-          "emoji": "🏪",
-          "slug": "shop",
-          "image": "images/shop.svg",
+          "word": "tomorrow",
+          "emoji": "🗓️",
+          "slug": "tomorrow",
+          "image": "images/tomorrow.svg",
           "color": "#BFE2FF"
         },
         {
-          "word": "bus",
-          "emoji": "🚌",
-          "slug": "bus",
-          "image": "images/bus.svg",
+          "word": "morning",
+          "emoji": "🌅",
+          "slug": "morning",
+          "image": "images/morning.svg",
           "color": "#BFE2FF"
         },
         {
-          "word": "car",
-          "emoji": "🚗",
-          "slug": "car",
-          "image": "images/car.svg",
+          "word": "night",
+          "emoji": "🌙",
+          "slug": "night",
+          "image": "images/night.svg",
           "color": "#BFE2FF"
         },
         {
-          "word": "train",
-          "emoji": "🚆",
-          "slug": "train",
-          "image": "images/train.svg",
+          "word": "afternoon",
+          "emoji": "🌤️",
+          "slug": "afternoon",
+          "image": "images/afternoon.svg",
           "color": "#BFE2FF"
         }
       ],
       "sentences": [
-        "This is a school.",
-        "I like the school.",
-        "I can see the school.",
-        "This is a park.",
-        "I like the park.",
-        "I can see the park.",
-        "This is a shop.",
-        "I like the shop.",
-        "I can see the shop.",
-        "These are bus.",
-        "I like bus.",
-        "Can you see bus?",
-        "This is a car.",
-        "I like the car.",
-        "I can see the car.",
-        "This is a train.",
-        "I like the train.",
-        "I can see the train.",
-        "This is my school.",
-        "These are my parks.",
-        "Can you shop?"
+        "This is a yesterday.",
+        "I like the yesterday.",
+        "I can see the yesterday.",
+        "This is a today.",
+        "I like the today.",
+        "I can see the today.",
+        "This is a tomorrow.",
+        "I like the tomorrow.",
+        "I can see the tomorrow.",
+        "I am morning.",
+        "We are morning.",
+        "She is morning.",
+        "This is a night.",
+        "I like the night.",
+        "I can see the night.",
+        "This is an afternoon.",
+        "I like the afternoon.",
+        "I can see the afternoon.",
+        "This is my yesterday.",
+        "These are my todays.",
+        "Can you tomorrow?"
       ],
       "sentenceMap": {
-        "school": [
+        "yesterday": [
           0,
           1,
           2
         ],
-        "park": [
+        "today": [
           3,
           4,
           5
         ],
-        "shop": [
+        "tomorrow": [
           6,
           7,
           8
         ],
-        "bus": [
+        "morning": [
           9,
           10,
           11
         ],
-        "car": [
+        "night": [
           12,
           13,
           14
         ],
-        "train": [
+        "afternoon": [
           15,
           16,
           17
@@ -34938,13 +34366,13 @@ window.GAME_DATA = {
         "target": "Review",
         "gap": [
           {
-            "text": "This is ___ school.",
+            "text": "This is ___ yesterday.",
             "options": [
               "a",
               "an"
             ],
             "correct": 0,
-            "emoji": "🏫"
+            "emoji": "📅"
           },
           {
             "text": "I ___ happy.",
@@ -34967,12 +34395,12 @@ window.GAME_DATA = {
         ],
         "transform": [
           {
-            "prompt": "one school →",
-            "base": "school",
+            "prompt": "one yesterday →",
+            "base": "yesterday",
             "options": [
-              "schools",
-              "school",
-              "schools"
+              "yesterdays",
+              "yesterday",
+              "yesterdayes"
             ],
             "correct": 0
           },
@@ -34999,9 +34427,9 @@ window.GAME_DATA = {
         ],
         "fix": [
           {
-            "right": "This is a school.",
-            "wrong": "This is an school.",
-            "emoji": "🏫"
+            "right": "This is a yesterday.",
+            "wrong": "This is an yesterday.",
+            "emoji": "📅"
           },
           {
             "right": "She likes cake.",
@@ -35019,49 +34447,43 @@ window.GAME_DATA = {
           "binB": "were",
           "tokens": [
             {
-              "t": "There was a school",
+              "t": "There was a yesterday",
               "cat": "A",
-              "emoji": "🏫"
+              "emoji": "📅"
             },
             {
-              "t": "There were parks",
+              "t": "There were todays",
               "cat": "B",
-              "emoji": "🏞️"
+              "emoji": "🗓️"
             },
             {
-              "t": "There was a shop",
+              "t": "There was a tomorrow",
               "cat": "A",
-              "emoji": "🏪"
+              "emoji": "🗓️"
             },
             {
-              "t": "There were buses",
+              "t": "There were mornings",
               "cat": "B",
-              "emoji": "🚌"
+              "emoji": "🌅"
             },
             {
-              "t": "There was a car",
+              "t": "There was a night",
               "cat": "A",
-              "emoji": "🚗"
+              "emoji": "🌙"
             },
             {
-              "t": "There were trains",
+              "t": "There were afternoons",
               "cat": "B",
-              "emoji": "🚆"
+              "emoji": "🌤️"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -35075,98 +34497,98 @@ window.GAME_DATA = {
       "color": "#FFE0C4",
       "items": [
         {
-          "word": "school",
-          "emoji": "🏫",
-          "slug": "school",
-          "image": "images/school.svg",
+          "word": "hero",
+          "emoji": "🦸",
+          "slug": "hero",
+          "image": "images/hero.svg",
           "color": "#FFE0C4"
         },
         {
-          "word": "park",
-          "emoji": "🏞️",
-          "slug": "park",
-          "image": "images/park.svg",
+          "word": "robot",
+          "emoji": "🤖",
+          "slug": "robot",
+          "image": "images/robot.svg",
           "color": "#FFE0C4"
         },
         {
-          "word": "shop",
-          "emoji": "🏪",
-          "slug": "shop",
-          "image": "images/shop.svg",
+          "word": "alien",
+          "emoji": "👽",
+          "slug": "alien",
+          "image": "images/alien.svg",
           "color": "#FFE0C4"
         },
         {
-          "word": "bus",
-          "emoji": "🚌",
-          "slug": "bus",
-          "image": "images/bus.svg",
+          "word": "spaceship",
+          "emoji": "🛸",
+          "slug": "spaceship",
+          "image": "images/spaceship.svg",
           "color": "#FFE0C4"
         },
         {
-          "word": "car",
-          "emoji": "🚗",
-          "slug": "car",
-          "image": "images/car.svg",
+          "word": "planet",
+          "emoji": "🪐",
+          "slug": "planet",
+          "image": "images/planet.svg",
           "color": "#FFE0C4"
         },
         {
-          "word": "train",
-          "emoji": "🚆",
-          "slug": "train",
-          "image": "images/train.svg",
+          "word": "star",
+          "emoji": "⭐",
+          "slug": "star",
+          "image": "images/star.svg",
           "color": "#FFE0C4"
         }
       ],
       "sentences": [
-        "This is a school.",
-        "I like the school.",
-        "I can see the school.",
-        "This is a park.",
-        "I like the park.",
-        "I can see the park.",
-        "This is a shop.",
-        "I like the shop.",
-        "I can see the shop.",
-        "These are bus.",
-        "I like bus.",
-        "Can you see bus?",
-        "This is a car.",
-        "I like the car.",
-        "I can see the car.",
-        "This is a train.",
-        "I like the train.",
-        "I can see the train.",
-        "This is my school.",
-        "These are my parks.",
-        "Can you shop?"
+        "This is a hero.",
+        "I like the hero.",
+        "I can see the hero.",
+        "This is a robot.",
+        "I like the robot.",
+        "I can see the robot.",
+        "This is an alien.",
+        "I like the alien.",
+        "I can see the alien.",
+        "This is a spaceship.",
+        "I like the spaceship.",
+        "I can see the spaceship.",
+        "This is a planet.",
+        "I like the planet.",
+        "I can see the planet.",
+        "This is a star.",
+        "I like the star.",
+        "I can see the star.",
+        "This is my hero.",
+        "These are my robots.",
+        "Can you alien?"
       ],
       "sentenceMap": {
-        "school": [
+        "hero": [
           0,
           1,
           2
         ],
-        "park": [
+        "robot": [
           3,
           4,
           5
         ],
-        "shop": [
+        "alien": [
           6,
           7,
           8
         ],
-        "bus": [
+        "spaceship": [
           9,
           10,
           11
         ],
-        "car": [
+        "planet": [
           12,
           13,
           14
         ],
-        "train": [
+        "star": [
           15,
           16,
           17
@@ -35176,13 +34598,13 @@ window.GAME_DATA = {
         "target": "Review",
         "gap": [
           {
-            "text": "This is ___ school.",
+            "text": "This is ___ hero.",
             "options": [
               "a",
               "an"
             ],
             "correct": 0,
-            "emoji": "🏫"
+            "emoji": "🦸"
           },
           {
             "text": "I ___ happy.",
@@ -35205,12 +34627,12 @@ window.GAME_DATA = {
         ],
         "transform": [
           {
-            "prompt": "one school →",
-            "base": "school",
+            "prompt": "one hero →",
+            "base": "hero",
             "options": [
-              "schools",
-              "school",
-              "schools"
+              "heros",
+              "hero",
+              "heroes"
             ],
             "correct": 0
           },
@@ -35237,9 +34659,9 @@ window.GAME_DATA = {
         ],
         "fix": [
           {
-            "right": "This is a school.",
-            "wrong": "This is an school.",
-            "emoji": "🏫"
+            "right": "This is a hero.",
+            "wrong": "This is an hero.",
+            "emoji": "🦸"
           },
           {
             "right": "She likes cake.",
@@ -35257,49 +34679,43 @@ window.GAME_DATA = {
           "binB": "were",
           "tokens": [
             {
-              "t": "There was a school",
+              "t": "There was a hero",
               "cat": "A",
-              "emoji": "🏫"
+              "emoji": "🦸"
             },
             {
-              "t": "There were parks",
+              "t": "There were robots",
               "cat": "B",
-              "emoji": "🏞️"
+              "emoji": "🤖"
             },
             {
-              "t": "There was a shop",
+              "t": "There was a alien",
               "cat": "A",
-              "emoji": "🏪"
+              "emoji": "👽"
             },
             {
-              "t": "There were buses",
+              "t": "There were spaceships",
               "cat": "B",
-              "emoji": "🚌"
+              "emoji": "🛸"
             },
             {
-              "t": "There was a car",
+              "t": "There was a planet",
               "cat": "A",
-              "emoji": "🚗"
+              "emoji": "🪐"
             },
             {
-              "t": "There were trains",
+              "t": "There were stars",
               "cat": "B",
-              "emoji": "🚆"
+              "emoji": "⭐"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -35313,98 +34729,98 @@ window.GAME_DATA = {
       "color": "#CDEBFF",
       "items": [
         {
-          "word": "school",
-          "emoji": "🏫",
-          "slug": "school",
-          "image": "images/school.svg",
+          "word": "loud",
+          "emoji": "🔊",
+          "slug": "loud",
+          "image": "images/loud.svg",
           "color": "#CDEBFF"
         },
         {
-          "word": "park",
-          "emoji": "🏞️",
-          "slug": "park",
-          "image": "images/park.svg",
+          "word": "quiet",
+          "emoji": "🤫",
+          "slug": "quiet",
+          "image": "images/quiet.svg",
           "color": "#CDEBFF"
         },
         {
-          "word": "shop",
-          "emoji": "🏪",
-          "slug": "shop",
-          "image": "images/shop.svg",
+          "word": "music",
+          "emoji": "🎵",
+          "slug": "music",
+          "image": "images/music.svg",
           "color": "#CDEBFF"
         },
         {
-          "word": "bus",
-          "emoji": "🚌",
-          "slug": "bus",
-          "image": "images/bus.svg",
+          "word": "noise",
+          "emoji": "🔉",
+          "slug": "noise",
+          "image": "images/noise.svg",
           "color": "#CDEBFF"
         },
         {
-          "word": "car",
-          "emoji": "🚗",
-          "slug": "car",
-          "image": "images/car.svg",
+          "word": "song",
+          "emoji": "🎶",
+          "slug": "song",
+          "image": "images/song.svg",
           "color": "#CDEBFF"
         },
         {
-          "word": "train",
-          "emoji": "🚆",
-          "slug": "train",
-          "image": "images/train.svg",
+          "word": "sound",
+          "emoji": "🔈",
+          "slug": "sound",
+          "image": "images/sound.svg",
           "color": "#CDEBFF"
         }
       ],
       "sentences": [
-        "This is a school.",
-        "I like the school.",
-        "I can see the school.",
-        "This is a park.",
-        "I like the park.",
-        "I can see the park.",
-        "This is a shop.",
-        "I like the shop.",
-        "I can see the shop.",
-        "These are bus.",
-        "I like bus.",
-        "Can you see bus?",
-        "This is a car.",
-        "I like the car.",
-        "I can see the car.",
-        "This is a train.",
-        "I like the train.",
-        "I can see the train.",
-        "This is my school.",
-        "These are my parks.",
-        "Can you shop?"
+        "This is a loud.",
+        "I like the loud.",
+        "I can see the loud.",
+        "The quiet one is nice.",
+        "I like the quiet one.",
+        "It is quiet.",
+        "This is a music.",
+        "I like the music.",
+        "I can see the music.",
+        "This is a noise.",
+        "I like the noise.",
+        "I can see the noise.",
+        "This is a song.",
+        "I like the song.",
+        "I can see the song.",
+        "This is a sound.",
+        "I like the sound.",
+        "I can see the sound.",
+        "This is my loud.",
+        "These are my quiets.",
+        "Can you music?"
       ],
       "sentenceMap": {
-        "school": [
+        "loud": [
           0,
           1,
           2
         ],
-        "park": [
+        "quiet": [
           3,
           4,
           5
         ],
-        "shop": [
+        "music": [
           6,
           7,
           8
         ],
-        "bus": [
+        "noise": [
           9,
           10,
           11
         ],
-        "car": [
+        "song": [
           12,
           13,
           14
         ],
-        "train": [
+        "sound": [
           15,
           16,
           17
@@ -35414,13 +34830,13 @@ window.GAME_DATA = {
         "target": "Review",
         "gap": [
           {
-            "text": "This is ___ school.",
+            "text": "This is ___ loud.",
             "options": [
               "a",
               "an"
             ],
             "correct": 0,
-            "emoji": "🏫"
+            "emoji": "🔊"
           },
           {
             "text": "I ___ happy.",
@@ -35443,12 +34859,12 @@ window.GAME_DATA = {
         ],
         "transform": [
           {
-            "prompt": "one school →",
-            "base": "school",
+            "prompt": "one loud →",
+            "base": "loud",
             "options": [
-              "schools",
-              "school",
-              "schools"
+              "louds",
+              "loud",
+              "loudes"
             ],
             "correct": 0
           },
@@ -35475,9 +34891,9 @@ window.GAME_DATA = {
         ],
         "fix": [
           {
-            "right": "This is a school.",
-            "wrong": "This is an school.",
-            "emoji": "🏫"
+            "right": "This is a loud.",
+            "wrong": "This is an loud.",
+            "emoji": "🔊"
           },
           {
             "right": "She likes cake.",
@@ -35495,49 +34911,43 @@ window.GAME_DATA = {
           "binB": "were",
           "tokens": [
             {
-              "t": "There was a school",
+              "t": "There was a loud",
               "cat": "A",
-              "emoji": "🏫"
+              "emoji": "🔊"
             },
             {
-              "t": "There were parks",
+              "t": "There were quiets",
               "cat": "B",
-              "emoji": "🏞️"
+              "emoji": "🤫"
             },
             {
-              "t": "There was a shop",
+              "t": "There was a music",
               "cat": "A",
-              "emoji": "🏪"
+              "emoji": "🎵"
             },
             {
-              "t": "There were buses",
+              "t": "There were noises",
               "cat": "B",
-              "emoji": "🚌"
+              "emoji": "🔉"
             },
             {
-              "t": "There was a car",
+              "t": "There was a song",
               "cat": "A",
-              "emoji": "🚗"
+              "emoji": "🎶"
             },
             {
-              "t": "There were trains",
+              "t": "There were sounds",
               "cat": "B",
-              "emoji": "🚆"
+              "emoji": "🔈"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -35551,98 +34961,98 @@ window.GAME_DATA = {
       "color": "#CBF3E1",
       "items": [
         {
-          "word": "school",
-          "emoji": "🏫",
-          "slug": "school",
-          "image": "images/school.svg",
+          "word": "trophy",
+          "emoji": "🏆",
+          "slug": "trophy",
+          "image": "images/trophy.svg",
           "color": "#CBF3E1"
         },
         {
-          "word": "park",
-          "emoji": "🏞️",
-          "slug": "park",
-          "image": "images/park.svg",
+          "word": "medal",
+          "emoji": "🏅",
+          "slug": "medal",
+          "image": "images/medal.svg",
           "color": "#CBF3E1"
         },
         {
-          "word": "shop",
-          "emoji": "🏪",
-          "slug": "shop",
-          "image": "images/shop.svg",
+          "word": "party",
+          "emoji": "🥳",
+          "slug": "party",
+          "image": "images/party.svg",
           "color": "#CBF3E1"
         },
         {
-          "word": "bus",
-          "emoji": "🚌",
-          "slug": "bus",
-          "image": "images/bus.svg",
+          "word": "stage",
+          "emoji": "🎭",
+          "slug": "stage",
+          "image": "images/stage.svg",
           "color": "#CBF3E1"
         },
         {
-          "word": "car",
-          "emoji": "🚗",
-          "slug": "car",
-          "image": "images/car.svg",
+          "word": "spotlight",
+          "emoji": "🔦",
+          "slug": "spotlight",
+          "image": "images/spotlight.svg",
           "color": "#CBF3E1"
         },
         {
-          "word": "train",
-          "emoji": "🚆",
-          "slug": "train",
-          "image": "images/train.svg",
+          "word": "crowd",
+          "emoji": "👥",
+          "slug": "crowd",
+          "image": "images/crowd.svg",
           "color": "#CBF3E1"
         }
       ],
       "sentences": [
-        "This is a school.",
-        "I like the school.",
-        "I can see the school.",
-        "This is a park.",
-        "I like the park.",
-        "I can see the park.",
-        "This is a shop.",
-        "I like the shop.",
-        "I can see the shop.",
-        "These are bus.",
-        "I like bus.",
-        "Can you see bus?",
-        "This is a car.",
-        "I like the car.",
-        "I can see the car.",
-        "This is a train.",
-        "I like the train.",
-        "I can see the train.",
-        "This is my school.",
-        "These are my parks.",
-        "Can you shop?"
+        "This is a trophy.",
+        "I like the trophy.",
+        "I can see the trophy.",
+        "This is a medal.",
+        "I like the medal.",
+        "I can see the medal.",
+        "This is a party.",
+        "I like the party.",
+        "I can see the party.",
+        "This is a stage.",
+        "I like the stage.",
+        "I can see the stage.",
+        "This is a spotlight.",
+        "I like the spotlight.",
+        "I can see the spotlight.",
+        "This is a crowd.",
+        "I like the crowd.",
+        "I can see the crowd.",
+        "This is my trophy.",
+        "These are my medals.",
+        "Can you party?"
       ],
       "sentenceMap": {
-        "school": [
+        "trophy": [
           0,
           1,
           2
         ],
-        "park": [
+        "medal": [
           3,
           4,
           5
         ],
-        "shop": [
+        "party": [
           6,
           7,
           8
         ],
-        "bus": [
+        "stage": [
           9,
           10,
           11
         ],
-        "car": [
+        "spotlight": [
           12,
           13,
           14
         ],
-        "train": [
+        "crowd": [
           15,
           16,
           17
@@ -35652,13 +35062,13 @@ window.GAME_DATA = {
         "target": "Review",
         "gap": [
           {
-            "text": "This is ___ school.",
+            "text": "This is ___ trophy.",
             "options": [
               "a",
               "an"
             ],
             "correct": 0,
-            "emoji": "🏫"
+            "emoji": "🏆"
           },
           {
             "text": "I ___ happy.",
@@ -35681,12 +35091,12 @@ window.GAME_DATA = {
         ],
         "transform": [
           {
-            "prompt": "one school →",
-            "base": "school",
+            "prompt": "one trophy →",
+            "base": "trophy",
             "options": [
-              "schools",
-              "school",
-              "schools"
+              "trophies",
+              "trophy",
+              "trophys"
             ],
             "correct": 0
           },
@@ -35713,9 +35123,9 @@ window.GAME_DATA = {
         ],
         "fix": [
           {
-            "right": "This is a school.",
-            "wrong": "This is an school.",
-            "emoji": "🏫"
+            "right": "This is a trophy.",
+            "wrong": "This is an trophy.",
+            "emoji": "🏆"
           },
           {
             "right": "She likes cake.",
@@ -35733,49 +35143,43 @@ window.GAME_DATA = {
           "binB": "were",
           "tokens": [
             {
-              "t": "There was a school",
+              "t": "There was a trophy",
               "cat": "A",
-              "emoji": "🏫"
+              "emoji": "🏆"
             },
             {
-              "t": "There were parks",
+              "t": "There were medals",
               "cat": "B",
-              "emoji": "🏞️"
+              "emoji": "🏅"
             },
             {
-              "t": "There was a shop",
+              "t": "There was a party",
               "cat": "A",
-              "emoji": "🏪"
+              "emoji": "🥳"
             },
             {
-              "t": "There were buses",
+              "t": "There were stages",
               "cat": "B",
-              "emoji": "🚌"
+              "emoji": "🎭"
             },
             {
-              "t": "There was a car",
+              "t": "There was a spotlight",
               "cat": "A",
-              "emoji": "🚗"
+              "emoji": "🔦"
             },
             {
-              "t": "There were trains",
+              "t": "There were crowds",
               "cat": "B",
-              "emoji": "🚆"
+              "emoji": "👥"
             }
           ]
         }
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
         "pick_word_gap",
         "transform",
         "fix_sentence",
-        "sort_rule",
-        "build_sentence"
+        "sort_it"
       ]
     },
     {
@@ -35884,16 +35288,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -36002,16 +35400,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -36120,16 +35512,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -36238,16 +35624,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -36356,16 +35736,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -36395,8 +35769,8 @@ window.GAME_DATA = {
         {
           "word": "help",
           "emoji": "🤝",
-          "slug": "help",
-          "image": "images/help.svg",
+          "slug": "help-future-simple-with-will",
+          "image": "images/help-future-simple-with-will.svg",
           "color": "#D6F5C9"
         },
         {
@@ -36474,16 +35848,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -36592,16 +35960,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -36710,16 +36072,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -36763,8 +36119,8 @@ window.GAME_DATA = {
         {
           "word": "practicing",
           "emoji": "🎹",
-          "slug": "practicing",
-          "image": "images/practicing.svg",
+          "slug": "practicing-past-perfect-continuous",
+          "image": "images/practicing-past-perfect-continuous.svg",
           "color": "#FFE7A8"
         },
         {
@@ -36828,16 +36184,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -36888,8 +36238,8 @@ window.GAME_DATA = {
         {
           "word": "watching",
           "emoji": "🎬",
-          "slug": "watching",
-          "image": "images/watching.svg",
+          "slug": "watching-future-continuous-tense",
+          "image": "images/watching-future-continuous-tense.svg",
           "color": "#DCC9FF"
         }
       ],
@@ -36946,16 +36296,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -37064,16 +36408,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -37182,16 +36520,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -37300,16 +36632,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -37360,8 +36686,8 @@ window.GAME_DATA = {
         {
           "word": "learn",
           "emoji": "📘",
-          "slug": "learn",
-          "image": "images/learn.svg",
+          "slug": "learn-advice-should-ought-to",
+          "image": "images/learn-advice-should-ought-to.svg",
           "color": "#FFE0C4"
         }
       ],
@@ -37418,16 +36744,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -37478,8 +36798,8 @@ window.GAME_DATA = {
         {
           "word": "think",
           "emoji": "💭",
-          "slug": "think",
-          "image": "images/think.svg",
+          "slug": "think-habits-past-ability-would-used-to",
+          "image": "images/think-habits-past-ability-would-used-to.svg",
           "color": "#CDEBFF"
         }
       ],
@@ -37536,16 +36856,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -37589,15 +36903,15 @@ window.GAME_DATA = {
         {
           "word": "help",
           "emoji": "🤝",
-          "slug": "help",
-          "image": "images/help.svg",
+          "slug": "help-permission-and-request-phrases",
+          "image": "images/help-permission-and-request-phrases.svg",
           "color": "#CBF3E1"
         },
         {
           "word": "open",
           "emoji": "🔓",
-          "slug": "open",
-          "image": "images/open.svg",
+          "slug": "open-permission-and-request-phrases",
+          "image": "images/open-permission-and-request-phrases.svg",
           "color": "#CBF3E1"
         }
       ],
@@ -37654,16 +36968,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -37707,8 +37015,8 @@ window.GAME_DATA = {
         {
           "word": "skip",
           "emoji": "⏭️",
-          "slug": "skip",
-          "image": "images/skip.svg",
+          "slug": "skip-necessity-and-lack-of-necessity",
+          "image": "images/skip-necessity-and-lack-of-necessity.svg",
           "color": "#FFE0D5"
         },
         {
@@ -37772,16 +37080,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -37818,8 +37120,8 @@ window.GAME_DATA = {
         {
           "word": "wait",
           "emoji": "⏳",
-          "slug": "wait",
-          "image": "images/wait.svg",
+          "slug": "wait-polite-obligation-vs-orders",
+          "image": "images/wait-polite-obligation-vs-orders.svg",
           "color": "#E9DDFF"
         },
         {
@@ -37890,16 +37192,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -38008,16 +37304,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -38126,16 +37416,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -38244,16 +37528,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -38297,15 +37575,15 @@ window.GAME_DATA = {
         {
           "word": "help",
           "emoji": "🤝",
-          "slug": "help",
-          "image": "images/help.svg",
+          "slug": "help-first-conditional-real-future",
+          "image": "images/help-first-conditional-real-future.svg",
           "color": "#D6F5C9"
         },
         {
           "word": "wait",
           "emoji": "⏳",
-          "slug": "wait",
-          "image": "images/wait.svg",
+          "slug": "wait-first-conditional-real-future",
+          "image": "images/wait-first-conditional-real-future.svg",
           "color": "#D6F5C9"
         }
       ],
@@ -38362,16 +37640,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -38480,16 +37752,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -38598,16 +37864,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -38716,16 +37976,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -38769,8 +38023,8 @@ window.GAME_DATA = {
         {
           "word": "help",
           "emoji": "🤝",
-          "slug": "help",
-          "image": "images/help.svg",
+          "slug": "help-conditional-questions-and-advice",
+          "image": "images/help-conditional-questions-and-advice.svg",
           "color": "#DCC9FF"
         },
         {
@@ -38834,16 +38088,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -38952,16 +38200,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -39005,8 +38247,8 @@ window.GAME_DATA = {
         {
           "word": "talk",
           "emoji": "🗨️",
-          "slug": "talk",
-          "image": "images/talk.svg",
+          "slug": "talk-conditional-verbs-in-conversation",
+          "image": "images/talk-conditional-verbs-in-conversation.svg",
           "color": "#C6F0CE"
         },
         {
@@ -39070,16 +38312,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -39130,8 +38366,8 @@ window.GAME_DATA = {
         {
           "word": "learn",
           "emoji": "📘",
-          "slug": "learn",
-          "image": "images/learn.svg",
+          "slug": "learn-conditional-outcomes-and-consequences",
+          "image": "images/learn-conditional-outcomes-and-consequences.svg",
           "color": "#BFE2FF"
         }
       ],
@@ -39188,16 +38424,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -39306,16 +38536,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -39424,16 +38648,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -39542,16 +38760,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -39660,16 +38872,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -39778,16 +38984,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -39817,8 +39017,8 @@ window.GAME_DATA = {
         {
           "word": "open",
           "emoji": "🔓",
-          "slug": "open",
-          "image": "images/open.svg",
+          "slug": "open-passive-in-instructions-and-signs",
+          "image": "images/open-passive-in-instructions-and-signs.svg",
           "color": "#FDE2B3"
         },
         {
@@ -39838,8 +39038,8 @@ window.GAME_DATA = {
         {
           "word": "enter",
           "emoji": "🚪",
-          "slug": "enter",
-          "image": "images/enter.svg",
+          "slug": "enter-passive-in-instructions-and-signs",
+          "image": "images/enter-passive-in-instructions-and-signs.svg",
           "color": "#FDE2B3"
         }
       ],
@@ -39896,16 +39096,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -40014,16 +39208,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -40132,16 +39320,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -40250,16 +39432,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -40368,16 +39544,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -40486,16 +39656,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -40604,16 +39768,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -40722,16 +39880,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -40840,16 +39992,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -40958,16 +40104,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -41076,16 +40216,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -41194,16 +40328,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -41312,16 +40440,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -41365,8 +40487,8 @@ window.GAME_DATA = {
         {
           "word": "learn",
           "emoji": "📘",
-          "slug": "learn",
-          "image": "images/learn.svg",
+          "slug": "learn-gerunds-and-infinitives",
+          "image": "images/learn-gerunds-and-infinitives.svg",
           "color": "#CBF3E1"
         },
         {
@@ -41430,16 +40552,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -41548,16 +40664,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -41594,8 +40704,8 @@ window.GAME_DATA = {
         {
           "word": "decide",
           "emoji": "🧠",
-          "slug": "decide",
-          "image": "images/decide.svg",
+          "slug": "decide-verbs-followed-by-infinitives",
+          "image": "images/decide-verbs-followed-by-infinitives.svg",
           "color": "#E9DDFF"
         },
         {
@@ -41608,8 +40718,8 @@ window.GAME_DATA = {
         {
           "word": "learn",
           "emoji": "📘",
-          "slug": "learn",
-          "image": "images/learn.svg",
+          "slug": "learn-verbs-followed-by-infinitives",
+          "image": "images/learn-verbs-followed-by-infinitives.svg",
           "color": "#E9DDFF"
         }
       ],
@@ -41666,16 +40776,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -41784,16 +40888,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -41902,16 +41000,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -42020,16 +41112,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -42138,16 +41224,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -42256,16 +41336,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -42374,16 +41448,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -42492,16 +41560,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -42610,16 +41672,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -42649,8 +41705,8 @@ window.GAME_DATA = {
         {
           "word": "tomorrow",
           "emoji": "📅",
-          "slug": "tomorrow",
-          "image": "images/tomorrow.svg",
+          "slug": "tomorrow-time-expressions-practice",
+          "image": "images/tomorrow-time-expressions-practice.svg",
           "color": "#FFD0DE"
         },
         {
@@ -42728,16 +41784,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -42846,16 +41896,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -42964,16 +42008,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -43082,16 +42120,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -43128,8 +42160,8 @@ window.GAME_DATA = {
         {
           "word": "turn",
           "emoji": "↪️",
-          "slug": "turn-directions-and-giving-instructions",
-          "image": "images/turn-directions-and-giving-instructions.svg",
+          "slug": "turn",
+          "image": "images/turn.svg",
           "color": "#CDEBFF"
         },
         {
@@ -43200,16 +42232,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -43318,16 +42344,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -43436,16 +42456,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -43554,16 +42568,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -43672,16 +42680,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -43790,16 +42792,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -43908,16 +42904,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -44026,16 +43016,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -44144,16 +43128,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -44262,16 +43240,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -44380,16 +43352,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -44498,16 +43464,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -44616,16 +43576,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -44734,16 +43688,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -44852,16 +43800,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -44970,16 +43912,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -45088,16 +44024,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -45141,8 +44071,8 @@ window.GAME_DATA = {
         {
           "word": "help",
           "emoji": "🤝",
-          "slug": "help",
-          "image": "images/help.svg",
+          "slug": "help-giving-and-following-advice",
+          "image": "images/help-giving-and-following-advice.svg",
           "color": "#CBF3E1"
         },
         {
@@ -45206,16 +44136,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -45324,16 +44248,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -45349,8 +44267,8 @@ window.GAME_DATA = {
         {
           "word": "help",
           "emoji": "🤝",
-          "slug": "help",
-          "image": "images/help.svg",
+          "slug": "help-asking-for-help-and-assistance",
+          "image": "images/help-asking-for-help-and-assistance.svg",
           "color": "#E9DDFF"
         },
         {
@@ -45442,16 +44360,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -45560,16 +44472,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -45678,16 +44584,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -45796,16 +44696,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -45914,16 +44808,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -46032,16 +44920,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -46150,16 +45032,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -46268,16 +45144,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -46386,16 +45256,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -46504,16 +45368,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -46622,16 +45480,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -46740,16 +45592,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -46858,16 +45704,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -46883,8 +45723,8 @@ window.GAME_DATA = {
         {
           "word": "song",
           "emoji": "🎵",
-          "slug": "song",
-          "image": "images/song.svg",
+          "slug": "song-music-and-entertainment-vocabulary",
+          "image": "images/song-music-and-entertainment-vocabulary.svg",
           "color": "#CDEBFF"
         },
         {
@@ -46976,16 +45816,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -47094,16 +45928,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -47212,16 +46040,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -47330,16 +46152,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -47448,16 +46264,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     },
     {
@@ -47566,16 +46376,10 @@ window.GAME_DATA = {
         ]
       },
       "gameTypes": [
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false",
-        "look_pick_word",
-        "match_pairs",
-        "sort_it",
-        "build_sentence",
-        "true_false"
+        "pick_word_gap",
+        "transform",
+        "fix_sentence",
+        "sort_it"
       ]
     }
   ]

@@ -93,6 +93,18 @@ def plural_for(word):
     return w + "s"
 
 
+def naive_plural(word):
+    w = word.lower().rstrip()
+    if w.endswith(("s", "x", "z", "ch", "sh")):
+        return w + "s"
+    if w.endswith("y") and len(w) > 1 and w[-2] not in "aeiou":
+        return w[:-1] + "ys"
+    return w + "es"
+    if w.endswith("y") and len(w) > 1 and w[-2] not in "aeiou":
+        return w[:-1] + "ies"
+    return w + "s"
+
+
 ADJECTIVE_WORDS = {
     "red", "blue", "green", "yellow", "orange", "purple", "pink", "black",
     "brown", "white", "gray", "grey", "sunny", "rainy", "snowy", "cloudy",
@@ -357,9 +369,9 @@ def make_grammar(theme, items):
             {"text": "___ is %s %s." % (article_for(word3), word3), "options": ["This", "These"], "correct": 0, "emoji": items[2][1] if len(items) > 2 else "🎒"},
         ]
         transform = [
-            {"prompt": "one %s -> two…?" % word1, "base": word1, "options": [plural_for(word1), word1 + "es", word1], "correct": 0},
-            {"prompt": "one %s -> two…?" % word2, "base": word2, "options": [word2 + "s", plural_for(word2), word2], "correct": 1},
-            {"prompt": "one %s -> two…?" % word3, "base": word3, "options": [plural_for(word3), word3 + "s", word3], "correct": 0},
+            {"prompt": "one %s -> two…?" % word1, "base": word1, "options": [plural_for(word1), naive_plural(word1), word1], "correct": 0},
+            {"prompt": "one %s -> two…?" % word2, "base": word2, "options": [naive_plural(word2), plural_for(word2), word2], "correct": 1},
+            {"prompt": "one %s -> two…?" % word3, "base": word3, "options": [plural_for(word3), naive_plural(word3), word3], "correct": 0},
         ]
         fix = [
             {"right": "This is %s %s." % (article_for(word1), word1), "wrong": "This is %s %s." % ("an" if article_for(word1) == "a" else "a", word1), "emoji": items[0][1] if items else "🖊️"},
@@ -519,7 +531,7 @@ def make_grammar(theme, items):
             {"text": "She ___ cake.", "options": ["likes", "like"], "correct": 0, "emoji": "🍰"},
         ]
         transform = [
-            {"prompt": "one %s →" % word1, "base": word1, "options": [plural_for(word1), word1, word1 + "s"], "correct": 0},
+            {"prompt": "one %s →" % word1, "base": word1, "options": [plural_for(word1), word1, naive_plural(word1)], "correct": 0},
             {"prompt": "run →", "base": "run", "options": ["running", "runs", "run"], "correct": 0},
             {"prompt": "big →", "base": "big", "options": ["bigger", "big", "biggest"], "correct": 0},
         ]
@@ -546,7 +558,7 @@ WORLDS = [
         ("Pets", [("cat", "🐱"), ("dog", "🐶"), ("fish", "🐟"), ("rabbit", "🐰"), ("bird", "🐦"), ("mouse", "🐭")]),
         ("Farm Animals", [("cow", "🐮"), ("pig", "🐷"), ("horse", "🐴"), ("sheep", "🐑"), ("duck", "🦆"), ("hen", "🐔")]),
         ("My Body", [("hand", "✋"), ("eye", "👁️"), ("nose", "👃"), ("ear", "👂"), ("mouth", "👄"), ("foot", "🦶")]),
-        ("Fruit", [("apple", "🍎"), ("banana", "🍌"), ("orange", "🍊"), ("grapes", "🍇"), ("strawberry", "🍓"), ("melon", "🍉")]),
+        ("Fruit", [("apple", "🍎"), ("banana", "🍌"), ("orange", "🍊"), ("grapes", "🍇"), ("strawberry", "🍓"), ("watermelon", "🍉")]),
         ("Toys", [("ball", "⚽"), ("teddy", "🧸"), ("doll", "🪆"), ("car", "🚗"), ("kite", "🪁"), ("blocks", "🧱")]),
         ("Family", [("mom", "👩"), ("dad", "👨"), ("baby", "👶"), ("brother", "👦"), ("sister", "👧"), ("grandma", "👵"), ("grandpa", "👴")]),
         ("Faces", [("smile", "😊"), ("cry", "😭"), ("laugh", "😂"), ("wink", "😉"), ("yawn", "🥱"), ("angry", "😠")]),
@@ -675,8 +687,8 @@ GRAMMAR_WORLDS = [
         ("The Royal Boat", [("mom", "👩"), ("dad", "👨"), ("grandma", "👵"), ("grandpa", "👴"), ("sister", "👧"), ("brother", "👦")], "to-be"),
         ("The Whole Family", [("family", "👨‍👩‍👧"), ("grandma", "👵"), ("grandpa", "👴"), ("baby", "👶"), ("sister", "👧"), ("brother", "👦")], "to-be"),
         ("Not True!", [("happy", "😀"), ("sad", "😢"), ("angry", "😠"), ("scared", "😨"), ("tired", "😫"), ("excited", "🤩")], "to-be"),
-        ("The Giant Eagle", [("happy", "😀"), ("sad", "😢"), ("angry", "😠"), ("scared", "😨"), ("tired", "😫"), ("excited", "🤩")], "to-be"),
-        ("How do you feel?", [("happy", "😀"), ("sad", "😢"), ("angry", "😠"), ("scared", "😨"), ("tired", "😫"), ("excited", "🤩")], "to-be"),
+        ("The Giant Eagle", [("happy", "😀"), ("sad", "😢"), ("angry", "😠"), ("nervous", "😰"), ("proud", "😌"), ("brave", "🦸")], "to-be"),
+        ("How do you feel?", [("sleepy", "😪"), ("hungry", "😋"), ("thirsty", "🥤"), ("bored", "😐"), ("excited", "🤩"), ("surprised", "😮")], "to-be"),
         ("Grandma's Chip", [("man", "🧔"), ("woman", "👩"), ("child", "🧒"), ("foot", "🦶"), ("tooth", "🦷"), ("mouse", "🐭")], "to-be"),
         ("This is my family", [("mom", "👩"), ("dad", "👨"), ("brother", "👦"), ("sister", "👧"), ("baby", "👶"), ("grandma", "👵")], "to-be"),
         ("Sound Lab", [("bear", "🐻"), ("chair", "🪑"), ("clear", "🔦"), ("near", "🏠"), ("year", "📅"), ("hear", "👂")], "to-be"),
@@ -684,63 +696,63 @@ GRAMMAR_WORLDS = [
     ]),
     ("Activities", "Can / can't — Magic Academy Unit 3", [
         ("The Trampoline", [("run", "🏃"), ("jump", "🤸"), ("swim", "🏊"), ("dance", "💃"), ("sing", "🎤"), ("draw", "🎨")], "can"),
-        ("Astro Gets a Sticker", [("run", "🏃"), ("jump", "🤸"), ("swim", "🏊"), ("fly", "🦅"), ("climb", "🧗"), ("dance", "💃")], "can"),
-        ("Can you?", [("run", "🏃"), ("jump", "🤸"), ("swim", "🏊"), ("dance", "💃"), ("sing", "🎤"), ("draw", "🎨")], "can"),
-        ("Astro the Balloon", [("dance", "💃"), ("sing", "🎤"), ("draw", "🎨"), ("climb", "🧗"), ("jump", "🤸"), ("run", "🏃")], "can"),
-        ("Action Station", [("run", "🏃"), ("jump", "🤸"), ("swim", "🏊"), ("climb", "🧗"), ("dance", "💃"), ("draw", "🎨")], "can"),
-        ("Animal Powers", [("bird", "🐦"), ("fish", "🐟"), ("monkey", "🐵"), ("horse", "🐴"), ("duck", "🦆"), ("owl", "🦉")], "can"),
-        ("Can or Can't?", [("jump", "🤸"), ("fly", "🦅"), ("swim", "🏊"), ("climb", "🧗"), ("dance", "💃"), ("sing", "🎤")], "can"),
-        ("New Spell", [("draw", "🎨"), ("sing", "🎤"), ("dance", "💃"), ("swim", "🏊"), ("run", "🏃"), ("jump", "🤸")], "can"),
-        ("Sound Lab", [("bird", "🐦"), ("girl", "👧"), ("shirt", "👕"), ("turn", "🔄"), ("work", "🛠️"), ("word", "🗣️")], "can"),
-        ("Activity Champion", [("run", "🏃"), ("jump", "🤸"), ("swim", "🏊"), ("dance", "💃"), ("sing", "🎤"), ("draw", "🎨")], "can"),
+        ("Astro Gets a Sticker", [("paint", "🎨"), ("write", "✍️"), ("draw", "🖍️"), ("color", "🟨"), ("cut", "✂️"), ("glue", "🧴")], "can"),
+        ("Can you?", [("climb", "🧗"), ("skip", "🤾"), ("play", "🎮"), ("read", "📖"), ("write", "✍️"), ("help", "🆘")], "can"),
+        ("Astro the Balloon", [("float", "🎈"), ("burst", "💥"), ("fly", "🦅"), ("pop", "🎈"), ("ride", "🚲"), ("bounce", "🔵")], "can"),
+        ("Action Station", [("run", "🏃"), ("skip", "🤾"), ("jump", "🤸"), ("spin", "🌀"), ("lift", "🏋️"), ("throw", "🏀")], "can"),
+        ("Animal Powers", [("swim", "🏊"), ("fly", "🦅"), ("jump", "🤸"), ("climb", "🧗"), ("run", "🏃"), ("roar", "🦁")], "can"),
+        ("Can or Can't?", [("sing", "🎤"), ("dance", "💃"), ("jump", "🤸"), ("run", "🏃"), ("swim", "🏊"), ("read", "📖")], "can"),
+        ("New Spell", [("cast", "🪄"), ("say", "🗣️"), ("wave", "👋"), ("point", "☝️"), ("whisper", "🤫"), ("shout", "📢")], "can"),
+        ("Sound Lab", [("listen", "👂"), ("hear", "👂"), ("speak", "🗣️"), ("sing", "🎤"), ("shout", "📢"), ("whisper", "🤫")], "can"),
+        ("Activity Champion", [("write", "✍️"), ("read", "📖"), ("paint", "🎨"), ("draw", "🖍️"), ("dance", "💃"), ("play", "🎮")], "can"),
     ]),
     ("My Things, Your Things", "Have got — Magic Academy Unit 4", [
         ("Astro Gets Wings", [("kite", "🪁"), ("ball", "⚽"), ("bike", "🚲"), ("doll", "🧸"), ("robot", "🤖"), ("puzzle", "🧩")], "have-got"),
         ("Chewing Gum", [("kite", "🪁"), ("ball", "⚽"), ("bike", "🚲"), ("doll", "🧸"), ("robot", "🤖"), ("guitar", "🎸")], "have-got"),
-        ("Nothing Left", [("kite", "🪁"), ("ball", "⚽"), ("bike", "🚲"), ("doll", "🧸"), ("robot", "🤖"), ("puzzle", "🧩")], "have-got"),
+        ("Nothing Left", [("guitar", "🎸"), ("piano", "🎹"), ("drum", "🥁"), ("violin", "🎻"), ("microphone", "🎤"), ("speaker", "🔊")], "have-got"),
         ("Have you got?", [("ball", "⚽"), ("bike", "🚲"), ("doll", "🧸"), ("kite", "🪁"), ("robot", "🤖"), ("guitar", "🎸")], "have-got"),
         ("Whose is it?", [("robot", "🤖"), ("ball", "⚽"), ("bike", "🚲"), ("doll", "🧸"), ("kite", "🪁"), ("puzzle", "🧩")], "have-got"),
         ("Astro's Ball", [("ball", "⚽"), ("bike", "🚲"), ("doll", "🧸"), ("robot", "🤖"), ("guitar", "🎸"), ("puzzle", "🧩")], "have-got"),
-        ("Mine & Yours", [("kite", "🪁"), ("ball", "⚽"), ("bike", "🚲"), ("doll", "🧸"), ("robot", "🤖"), ("puzzle", "🧩")], "have-got"),
-        ("Toy Box", [("ball", "⚽"), ("bike", "🚲"), ("doll", "🧸"), ("kite", "🪁"), ("robot", "🤖"), ("guitar", "🎸")], "have-got"),
-        ("Sound Review", [("ball", "⚽"), ("bike", "🚲"), ("doll", "🧸"), ("kite", "🪁"), ("robot", "🤖"), ("puzzle", "🧩")], "have-got"),
-        ("Things Champion", [("ball", "⚽"), ("bike", "🚲"), ("doll", "🧸"), ("kite", "🪁"), ("robot", "🤖"), ("guitar", "🎸")], "have-got"),
+        ("Mine & Yours", [("guitar", "🎸"), ("book", "📚"), ("pen", "🖊️"), ("chair", "🪑"), ("tablet", "📱"), ("clock", "🕐")], "have-got"),
+        ("Toy Box", [("robot", "🤖"), ("ball", "⚽"), ("bike", "🚲"), ("doll", "🧸"), ("guitar", "🎸"), ("puzzle", "🧩")], "have-got"),
+        ("Sound Review", [("chair", "🪑"), ("table", "🪑"), ("lamp", "💡"), ("book", "📚"), ("cup", "☕"), ("phone", "📱")], "have-got"),
+        ("Things Champion", [("train", "🚆"), ("car", "🚗"), ("ship", "🚢"), ("plane", "✈️"), ("bus", "🚌"), ("bike", "🚲")], "have-got"),
     ]),
     ("Food I Like", "Like / likes — Magic Academy Unit 5", [
         ("A Yummy Mystery", [("pizza", "🍕"), ("apple", "🍎"), ("rice", "🍚"), ("fish", "🐟"), ("cheese", "🧀"), ("cake", "🍰")], "like"),
-        ("Do you like it?", [("pizza", "🍕"), ("apple", "🍎"), ("rice", "🍚"), ("fish", "🐟"), ("cheese", "🧀"), ("cake", "🍰")], "like"),
-        ("Mr Gluto Returns", [("pizza", "🍕"), ("apple", "🍎"), ("rice", "🍚"), ("fish", "🐟"), ("cheese", "🧀"), ("cake", "🍰")], "like"),
-        ("Nice Mr Gluto", [("pizza", "🍕"), ("apple", "🍎"), ("rice", "🍚"), ("fish", "🐟"), ("cheese", "🧀"), ("cake", "🍰")], "like"),
-        ("Does he?", [("pizza", "🍕"), ("apple", "🍎"), ("rice", "🍚"), ("fish", "🐟"), ("cheese", "🧀"), ("cake", "🍰")], "like"),
-        ("Me & Them", [("pizza", "🍕"), ("apple", "🍎"), ("rice", "🍚"), ("fish", "🐟"), ("cheese", "🧀"), ("cake", "🍰")], "like"),
-        ("Food Court", [("pizza", "🍕"), ("apple", "🍎"), ("rice", "🍚"), ("fish", "🐟"), ("cheese", "🧀"), ("cake", "🍰")], "like"),
-        ("Ludo's Doubts", [("pizza", "🍕"), ("apple", "🍎"), ("rice", "🍚"), ("fish", "🐟"), ("cheese", "🧀"), ("cake", "🍰")], "like"),
-        ("Sound Lab", [("pizza", "🍕"), ("apple", "🍎"), ("rice", "🍚"), ("fish", "🐟"), ("cheese", "🧀"), ("cake", "🍰")], "like"),
-        ("Food Champion", [("pizza", "🍕"), ("apple", "🍎"), ("rice", "🍚"), ("fish", "🐟"), ("cheese", "🧀"), ("cake", "🍰")], "like"),
+        ("Do you like it?", [("burger", "🍔"), ("salad", "🥗"), ("pasta", "🍝"), ("soup", "🍲"), ("ice cream", "🍦"), ("candy", "🍬")], "like"),
+        ("Mr Gluto Returns", [("banana", "🍌"), ("chocolate", "🍫"), ("cereal", "🥣"), ("toast", "🍞"), ("milkshake", "🥤"), ("yogurt", "🍦")], "like"),
+        ("Nice Mr Gluto", [("sandwich", "🥪"), ("fries", "🍟"), ("pizza", "🍕"), ("cake", "🍰"), ("apple", "🍎"), ("juice", "🧃")], "like"),
+        ("Does he?", [("cheese", "🧀"), ("fish", "🐟"), ("rice", "🍚"), ("bread", "🍞"), ("milk", "🥛"), ("water", "💧")], "like"),
+        ("Me & Them", [("eggs", "🥚"), ("yogurt", "🍦"), ("cereal", "🥣"), ("fruit", "🍇"), ("vegetables", "🥦"), ("chips", "🍟")], "like"),
+        ("Food Court", [("sushi", "🍣"), ("tacos", "🌮"), ("donut", "🍩"), ("soda", "🥤"), ("popcorn", "🍿"), ("stew", "🥘")], "like"),
+        ("Ludo's Doubts", [("cookie", "🍪"), ("ice cream", "🍦"), ("candy", "🍬"), ("fruit", "🍇"), ("milk", "🥛"), ("cake", "🍰")], "like"),
+        ("Sound Lab", [("tea", "🍵"), ("coffee", "☕"), ("juice", "🧃"), ("water", "💧"), ("milk", "🥛"), ("soda", "🥤")], "like"),
+        ("Food Champion", [("salad", "🥗"), ("soup", "🍲"), ("pizza", "🍕"), ("cheese", "🧀"), ("bread", "🍞"), ("pasta", "🍝")], "like"),
     ]),
     ("My Daily Routine", "Present simple routine — Magic Academy Unit 6", [
         ("Barsu Wakes Up", [("get up", "⏰"), ("wash", "🧼"), ("eat", "🍽️"), ("go", "🚶"), ("play", "🎮"), ("sleep", "😴")], "routine"),
-        ("My Day", [("get up", "⏰"), ("wash", "🧼"), ("eat", "🍽️"), ("go", "🚶"), ("play", "🎮"), ("sleep", "😴")], "routine"),
-        ("Students Are Not OK", [("get up", "⏰"), ("wash", "🧼"), ("eat", "🍽️"), ("go", "🚶"), ("play", "🎮"), ("sleep", "😴")], "routine"),
-        ("Ludo Has a Plan", [("get up", "⏰"), ("wash", "🧼"), ("eat", "🍽️"), ("go", "🚶"), ("play", "🎮"), ("sleep", "😴")], "routine"),
-        ("Not Every Day", [("get up", "⏰"), ("wash", "🧼"), ("eat", "🍽️"), ("go", "🚶"), ("play", "🎮"), ("sleep", "😴")], "routine"),
-        ("When do you…?", [("get up", "⏰"), ("wash", "🧼"), ("eat", "🍽️"), ("go", "🚶"), ("play", "🎮"), ("sleep", "😴")], "routine"),
-        ("Always & Never", [("get up", "⏰"), ("wash", "🧼"), ("eat", "🍽️"), ("go", "🚶"), ("play", "🎮"), ("sleep", "😴")], "routine"),
-        ("Slime Portal", [("get up", "⏰"), ("wash", "🧼"), ("eat", "🍽️"), ("go", "🚶"), ("play", "🎮"), ("sleep", "😴")], "routine"),
-        ("Sound Lab", [("get up", "⏰"), ("wash", "🧼"), ("eat", "🍽️"), ("go", "🚶"), ("play", "🎮"), ("sleep", "😴")], "routine"),
-        ("Routine Champion", [("get up", "⏰"), ("wash", "🧼"), ("eat", "🍽️"), ("go", "🚶"), ("play", "🎮"), ("sleep", "😴")], "routine"),
+        ("My Day", [("brush", "🪥"), ("learn", "🧠"), ("study", "📚"), ("read", "📖"), ("write", "✍️"), ("rest", "🛌")], "routine"),
+        ("Students Are Not OK", [("hurry", "🏃"), ("run", "🏃"), ("drink", "🥤"), ("think", "🤔"), ("write", "✍️"), ("sleep", "😴")], "routine"),
+        ("Ludo Has a Plan", [("plan", "🗓️"), ("decide", "🤔"), ("pack", "🎒"), ("leave", "🚶"), ("arrive", "🛬"), ("prepare", "🧰")], "routine"),
+        ("Not Every Day", [("cook", "🍳"), ("clean", "🧹"), ("shop", "🛍️"), ("visit", "🏃"), ("meet", "🤝"), ("relax", "🛋️")], "routine"),
+        ("When do you…?", [("wake", "⏰"), ("travel", "✈️"), ("meet", "🤝"), ("talk", "🗣️"), ("eat", "🍽️"), ("sleep", "😴")], "routine"),
+        ("Always & Never", [("wake", "⏰"), ("work", "💼"), ("walk", "🚶"), ("sleep", "😴"), ("study", "📚"), ("try", "🧪")], "routine"),
+        ("Slime Portal", [("open", "🚪"), ("close", "🔒"), ("enter", "🚶"), ("leave", "🚪"), ("wait", "⌛"), ("hurry", "🏃")], "routine"),
+        ("Sound Lab", [("listen", "👂"), ("speak", "🗣️"), ("hear", "👂"), ("say", "🗣️"), ("tell", "📣"), ("ask", "❓")], "routine"),
+        ("Routine Champion", [("walk", "🚶"), ("jog", "🏃"), ("run", "🏃"), ("jump", "🤸"), ("stretch", "🧘"), ("sleep", "😴")], "routine"),
     ]),
     ("Activities I Love", "Present continuous — Magic Academy Unit 7", [
         ("The Camping Trip", [("camping", "⛺"), ("running", "🏃"), ("swimming", "🏊"), ("riding", "🚲"), ("jumping", "🤸"), ("reading", "📖")], "present-cont"),
-        ("The Comet", [("camping", "⛺"), ("running", "🏃"), ("swimming", "🏊"), ("riding", "🚲"), ("jumping", "🤸"), ("reading", "📖")], "present-cont"),
-        ("Everyone's Busy", [("camping", "⛺"), ("running", "🏃"), ("swimming", "🏊"), ("riding", "🚲"), ("jumping", "🤸"), ("reading", "📖")], "present-cont"),
-        ("Not Now", [("camping", "⛺"), ("running", "🏃"), ("swimming", "🏊"), ("riding", "🚲"), ("jumping", "🤸"), ("reading", "📖")], "present-cont"),
-        ("What are you doing?", [("camping", "⛺"), ("running", "🏃"), ("swimming", "🏊"), ("riding", "🚲"), ("jumping", "🤸"), ("reading", "📖")], "present-cont"),
-        ("Sally's Lost Bag", [("running", "🏃"), ("riding", "🚲"), ("swimming", "🏊"), ("jumping", "🤸"), ("cooking", "🍳"), ("painting", "🎨")], "present-cont"),
-        ("Seasons & Months", [("summer", "☀️"), ("winter", "❄️"), ("spring", "🌷"), ("autumn", "🍂"), ("month", "📅"), ("holiday", "🎉")], "present-cont"),
-        ("Now vs Every Day", [("running", "🏃"), ("swimming", "🏊"), ("reading", "📖"), ("cooking", "🍳"), ("painting", "🎨"), ("sleeping", "😴")], "present-cont"),
-        ("Sound Lab", [("running", "🏃"), ("swimming", "🏊"), ("painting", "🎨"), ("cooking", "🍳"), ("riding", "🚲"), ("jumping", "🤸")], "present-cont"),
-        ("Action Champion", [("running", "🏃"), ("swimming", "🏊"), ("reading", "📖"), ("cooking", "🍳"), ("painting", "🎨"), ("jumping", "🤸")], "present-cont"),
+        ("The Comet", [("flying", "✈️"), ("sailing", "⛵"), ("dancing", "💃"), ("painting", "🎨"), ("drawing", "🖍️"), ("cooking", "🍳")], "present-cont"),
+        ("Everyone's Busy", [("studying", "📚"), ("cooking", "🍳"), ("cleaning", "🧹"), ("playing", "🎮"), ("singing", "🎤"), ("dancing", "💃")], "present-cont"),
+        ("Not Now", [("resting", "🛌"), ("sleeping", "😴"), ("walking", "🚶"), ("talking", "🗣️"), ("listening", "👂"), ("watching", "👀")], "present-cont"),
+        ("What are you doing?", [("dancing", "💃"), ("cooking", "🍳"), ("painting", "🎨"), ("building", "🏗️"), ("baking", "🧁"), ("gardening", "🌻")], "present-cont"),
+        ("Sally's Lost Bag", [("running", "🏃"), ("riding", "🚲"), ("swimming", "🏊"), ("cooking", "🍳"), ("painting", "🎨"), ("drawing", "🖍️")], "present-cont"),
+        ("Seasons & Months", [("skiing", "🎿"), ("skating", "⛸️"), ("fishing", "🎣"), ("camping", "⛺"), ("hiking", "🥾"), ("jogging", "🏃" )], "present-cont"),
+        ("Now vs Every Day", [("shopping", "🛍️"), ("cleaning", "🧹"), ("studying", "📚"), ("practicing", "🎾"), ("relaxing", "🛋️"), ("training", "🏋️")], "present-cont"),
+        ("Sound Lab", [("singing", "🎤"), ("playing", "🎮"), ("writing", "✍️"), ("reading", "📖"), ("drawing", "🖍️"), ("painting", "🎨")], "present-cont"),
+        ("Action Champion", [("running", "🏃"), ("jumping", "🤸"), ("swimming", "🏊"), ("dancing", "💃"), ("singing", "🎤"), ("playing", "🎮")], "present-cont"),
     ]),
     ("How Much, How Many", "Quantity — Magic Academy Unit 8", [
         ("The Plopster", [("bread", "🍞"), ("water", "💧"), ("apples", "🍎"), ("eggs", "🥚"), ("rice", "🍚"), ("juice", "🧃")], "quantity"),
@@ -756,27 +768,27 @@ GRAMMAR_WORLDS = [
     ]),
     ("Let's Compare", "Comparatives — Magic Academy Unit 9", [
         ("The Empty Zoo", [("lion", "🦁"), ("cat", "🐱"), ("rabbit", "🐰"), ("turtle", "🐢"), ("giraffe", "🦒"), ("mouse", "🐭")], "comparative"),
-        ("The Fireflies", [("lion", "🦁"), ("cat", "🐱"), ("rabbit", "🐰"), ("turtle", "🐢"), ("giraffe", "🦒"), ("mouse", "🐭")], "comparative"),
-        ("Bigger Than", [("lion", "🦁"), ("cat", "🐱"), ("rabbit", "🐰"), ("turtle", "🐢"), ("giraffe", "🦒"), ("mouse", "🐭")], "comparative"),
+        ("The Fireflies", [("butterfly", "🦋"), ("dragonfly", "🐉"), ("locust", "🦗"), ("grasshopper", "🦗"), ("cicada", "🎶"), ("firefly", "✨")], "comparative"),
+        ("Bigger Than", [("elephant", "🐘"), ("mouse", "🐭"), ("rabbit", "🐰"), ("giraffe", "🦒"), ("turtle", "🐢"), ("hippo", "🦛")], "comparative"),
         ("Spelling Rules", [("big", "🐘"), ("small", "🐜"), ("fast", "🚀"), ("slow", "🐌"), ("tall", "🌳"), ("short", "🧑")], "comparative"),
         ("Better or Worse", [("good", "👍"), ("bad", "👎"), ("big", "🐘"), ("small", "🐜"), ("long", "📏"), ("short", "🧑")], "comparative"),
         ("More Beautiful", [("beautiful", "🌸"), ("interesting", "🔍"), ("dangerous", "⚠️"), ("friendly", "🤝"), ("careful", "🧠"), ("noisy", "🔊")], "comparative"),
         ("Slime Maker", [("Spain", "🇪🇸"), ("France", "🇫🇷"), ("Israel", "🇮🇱"), ("Japan", "🇯🇵"), ("Brazil", "🇧🇷"), ("India", "🇮🇳")], "comparative"),
-        ("The Talking Bubbles", [("lion", "🦁"), ("cat", "🐱"), ("rabbit", "🐰"), ("turtle", "🐢"), ("giraffe", "🦒"), ("mouse", "🐭")], "comparative"),
+        ("The Talking Bubbles", [("shark", "🦈"), ("dolphin", "🐬"), ("whale", "🐳"), ("octopus", "🐙"), ("crab", "🦀"), ("starfish", "⭐")], "comparative"),
         ("Sound Lab", [("twins", "👯"), ("smile", "😊"), ("spark", "✨"), ("spoon", "🥄"), ("swim", "🏊"), ("train", "🚆")], "comparative"),
-        ("Compare Champion", [("lion", "🦁"), ("cat", "🐱"), ("rabbit", "🐰"), ("turtle", "🐢"), ("giraffe", "🦒"), ("mouse", "🐭")], "comparative"),
+        ("Compare Champion", [("fast", "🚀"), ("slow", "🐌"), ("tall", "🌳"), ("short", "🧍"), ("big", "🐘"), ("small", "🐜")], "comparative"),
     ]),
     ("Places & Past", "Was / were — Magic Academy Unit 10", [
         ("Don't Look at the Slime", [("school", "🏫"), ("park", "🏞️"), ("shop", "🏪"), ("bus", "🚌"), ("car", "🚗"), ("train", "🚆")], "was-were"),
-        ("The Shrinking Machine", [("school", "🏫"), ("park", "🏞️"), ("shop", "🏪"), ("bus", "🚌"), ("car", "🚗"), ("train", "🚆")], "was-were"),
-        ("Not There", [("school", "🏫"), ("park", "🏞️"), ("shop", "🏪"), ("bus", "🚌"), ("car", "🚗"), ("train", "🚆")], "was-were"),
-        ("The Slime Empire", [("school", "🏫"), ("park", "🏞️"), ("shop", "🏪"), ("bus", "🚌"), ("car", "🚗"), ("train", "🚆")], "was-were"),
-        ("There Was a Slime", [("school", "🏫"), ("park", "🏞️"), ("shop", "🏪"), ("bus", "🚌"), ("car", "🚗"), ("train", "🚆")], "was-were"),
+        ("The Shrinking Machine", [("barn", "🏚️"), ("castle", "🏰"), ("museum", "🏛️"), ("airport", "🛫"), ("hotel", "🏨"), ("stadium", "🏟️")], "was-were"),
+        ("Not There", [("kitchen", "🍳"), ("bedroom", "🛏️"), ("bathroom", "🛁"), ("garden", "🌳"), ("library", "📚"), ("garage", "🚗")], "was-were"),
+        ("The Slime Empire", [("king", "🤴"), ("queen", "👸"), ("castle", "🏰"), ("dragon", "🐉"), ("knight", "🛡️"), ("crown", "👑")], "was-were"),
+        ("There Was a Slime", [("rain", "🌧️"), ("snow", "❄️"), ("fog", "🌫️"), ("sun", "☀️"), ("wind", "🌬️"), ("storm", "⛈️")], "was-were"),
         ("Giving Directions", [("left", "⬅️"), ("right", "➡️"), ("next to", "➡️"), ("under", "🔽"), ("on", "📍"), ("in", "📦")], "was-were"),
-        ("Yesterday", [("school", "🏫"), ("park", "🏞️"), ("shop", "🏪"), ("bus", "🚌"), ("car", "🚗"), ("train", "🚆")], "was-were"),
-        ("Novus Comes to Help", [("school", "🏫"), ("park", "🏞️"), ("shop", "🏪"), ("bus", "🚌"), ("car", "🚗"), ("train", "🚆")], "was-were"),
-        ("Sound Lab", [("school", "🏫"), ("park", "🏞️"), ("shop", "🏪"), ("bus", "🚌"), ("car", "🚗"), ("train", "🚆")], "was-were"),
-        ("Grand Grammar Finale", [("school", "🏫"), ("park", "🏞️"), ("shop", "🏪"), ("bus", "🚌"), ("car", "🚗"), ("train", "🚆")], "was-were"),
+        ("Yesterday", [("yesterday", "📅"), ("today", "🗓️"), ("tomorrow", "🗓️"), ("morning", "🌅"), ("night", "🌙"), ("afternoon", "🌤️")], "was-were"),
+        ("Novus Comes to Help", [("hero", "🦸"), ("robot", "🤖"), ("alien", "👽"), ("spaceship", "🛸"), ("planet", "🪐"), ("star", "⭐")], "was-were"),
+        ("Sound Lab", [("loud", "🔊"), ("quiet", "🤫"), ("music", "🎵"), ("noise", "🔉"), ("song", "🎶"), ("sound", "🔈")], "was-were"),
+        ("Grand Grammar Finale", [("trophy", "🏆"), ("medal", "🏅"), ("party", "🥳"), ("stage", "🎭"), ("spotlight", "🔦"), ("crowd", "👥")], "was-were"),
     ]),
 ]
 
@@ -964,14 +976,10 @@ def build():
         "spell_it"
     ]
     grammar_game_types = [
-        "look_pick_word", "match_pairs", "sort_it", "build_sentence",
-        "true_false", "pick_word_gap", "transform", "fix_sentence",
-        "sort_rule", "build_sentence"
+        "pick_word_gap", "transform", "fix_sentence", "sort_it"
     ]
     advanced_game_types = [
-        "look_pick_word", "match_pairs", "sort_it", "build_sentence",
-        "true_false", "look_pick_word", "match_pairs", "sort_it",
-        "build_sentence", "true_false"
+        "pick_word_gap", "transform", "fix_sentence", "sort_it"
     ]
     for wi, (world_name, world_sub, topics) in enumerate(WORLDS):
         for ti, (topic, words) in enumerate(topics):
