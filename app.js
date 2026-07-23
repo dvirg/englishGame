@@ -963,12 +963,20 @@
       if (!api.level.grammar || !api.level.grammar.sort) return GAMES.sort_it(host, api);
       var sort = api.level.grammar.sort;
       api.setInstruction("📦 Put each one in the right box");
+      var nearFar = false;
+      if (sort.binA && sort.binB) {
+        var a = String(sort.binA).toLowerCase();
+        var b = String(sort.binB).toLowerCase();
+        if ((/this|these/.test(a) && /that|those/.test(b)) || (/\(here\)/.test(a) && /\(far\)/.test(b))) {
+          nearFar = true;
+        }
+      }
       var tokens = api.shuffle(sort.tokens.slice());
       var idx = 0;
       var current = el("div", { class: "sort-current" });
       var binsRow = el("div", { class: "sort-wrap" });
-      var binA = makeBin(sort.binA || "A", "A");
-      var binB = makeBin(sort.binB || "B", "B");
+      var binA = makeBin(nearFar ? "Near" : (sort.binA || "A"), "A");
+      var binB = makeBin(nearFar ? "Far" : (sort.binB || "B"), "B");
       binsRow.appendChild(binA.node); binsRow.appendChild(binB.node);
       host.appendChild(current); host.appendChild(binsRow);
 
