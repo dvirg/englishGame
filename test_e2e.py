@@ -314,7 +314,13 @@ def _play_session_dom(page, step, mistakes=0, validate=False):
                 page.wait_for_selector(src, timeout=4000)
                 before = page.evaluate("() => window.__utt.length")
                 page.click(src)
-                page.wait_for_timeout(1100)   # long enough to actually HEAR the word
+                try:
+                    page.wait_for_function(
+                        "(b) => window.__utt.length > b",
+                        arg=before,
+                        timeout=4000)
+                except Exception:
+                    pass
                 new = page.evaluate("(b) => window.__utt.slice(b)", before)
                 assert len(new) >= 1, "tapping %s produced no speech for %s" % (src, gtype)
                 assert all(u["lang"] == "en-US" for u in new), "speech for %s not en-US: %s" % (gtype, new)

@@ -2,7 +2,7 @@
 
 A colorful, fully-working web game that helps a young beginner (built for
 8-year-old **Tzofia**, Novakid **Level 2 – Starters**) practice English through
-**100 levels** of 10 different mini-games each. Inspired by the Novakid
+**300 levels** of 10 different mini-games each. Inspired by the Novakid
 "Magic Academy" screens and curriculum.
 
 Everything runs in the browser — **no build step, no server-side code, no
@@ -16,7 +16,7 @@ The game uses **cookies**, so it must be opened over `http://` (not by
 double-clicking the file). Start a tiny local server from this folder:
 
 ```bash
-cd Gilor
+cd englishGame
 python3 -m http.server 8000
 ```
 
@@ -67,19 +67,11 @@ A couple of kid-friendly touches:
 
 ---
 
-## 🗺️ 100 levels, worlds & unlocking
+## 🗺️ 300 levels, worlds & unlocking
 
-The 100 levels are grouped into six **worlds** that mirror the real Novakid
-ladder, each covering a topic extracted from the reference curriculum:
-
-| World | Feel | Example topics |
-|-------|------|----------------|
-| **Pre-K Planet** | first tiny words | Colors, Numbers, Shapes, Pets, Family |
-| **Juniors Jungle** | lots of first words | Wild/Sea animals, Food, Clothes, Weather |
-| **Starters Station** | Tzofia's Magic Academy | Classroom, Feelings, Daily routine, Transport, Opposites |
-| **Movers Mountain** | bigger ideas | Jobs, Sports, Space, House rooms, Shopping |
-| **Flyers Forest** | clever words | Reptiles, Technology, School subjects, Holidays |
-| **Explorers Galaxy** | master challenges | Tools, Deep space, Dinosaurs, Fantasy |
+The game now includes **300 levels** grouped into **26 worlds**. Each level has a
+topic, vocabulary items, and example sentences used by the sentence-builder
+and other games.
 
 **Unlocking:** every level starts **locked** except the first. Score **≥ 95**
 on a level to unlock the next one. You can replay any unlocked level to improve
@@ -97,7 +89,7 @@ highlighted, and the top three get 🥇🥈🥉.
 ## 🗂️ Project structure
 
 ```
-Gilor/
+englishGame/
 ├── index.html          # app shell
 ├── style.css           # all styling (the chunky cartoon look)
 ├── app.js              # game engine, auth, scoring, persistence, 10 games
@@ -110,13 +102,15 @@ Gilor/
 ├── build_audio.py      # regenerates audio/*.m4a + audio_manifest.js (macOS)
 ├── test_e2e.py         # Playwright end-to-end test
 ├── requirements.txt    # test dependencies
-├── levels/             # (your reference sketches — curriculum)
-└── screenshots examples/  # (your reference sketches — game screens)
+├── levels-101-200-grammar-design.md  # curriculum notes
+├── new_levels201_300.md             # curriculum notes
+├── new_topics201_300.md             # curriculum notes
+└── REVIEW-SUMMARY-levels-101-300.md  # curriculum review notes
 ```
 
 ### Curriculum / difficulty tiers
-`content.json` (and the identical `window.GAME_DATA` in `data.js`) holds **100
-levels** across six worlds (see the map above). Every level has a `world`,
+`content.json` (and the identical `window.GAME_DATA` in `data.js`) holds **300
+levels** across 26 worlds. Every level has a `world`,
 a global `index` (for unlock order), a `name` (its topic), a `color`, a list of
 vocabulary `items` (each with `word`, `emoji`, `slug`, `image`), and a few
 example `sentences` used by the sentence-builder game.
@@ -169,7 +163,7 @@ shows a broken asset** — while still meeting every requirement:
 ## ✅ End-to-end test (Playwright)
 
 `test_e2e.py` launches a **visible (headed)** Chromium, serves the folder, and
-plays the **entire game — all 100 levels, start to finish**. Every run
+plays the **entire game — all 300 levels, start to finish**. Every run
 registers a **brand-new user whose name contains the date & time**
 (`kid_YYYYMMDD_HHMMSS`), so runs never collide.
 
@@ -180,14 +174,14 @@ It verifies, for **every** level:
 * a **WRONG run** (deliberate wrong answers) scores **< 95**, loses stars, and
   the next level **stays locked**;
 * a **CORRECT run** scores **100** and **unlocks the next level** — then it
-  moves on, sweeping right through to Level 100.
+  moves on, sweeping right through to Level 300.
 
 Plus, on Level 1 in detail: pictures load, the **sound buttons speak in en-US**,
 and **"What is it?" answers on a word tap** (no ANSWER button). It finishes by
 checking the **rank board** ordering/highlight and that **all progress persists**
 across a page reload. A screenshot lands in `test-artifacts/e2e-summary.png`.
 
-> The sweep uses a hidden `fast` automation mode (skips animations/audio) so 200
+> The sweep uses a hidden `fast` automation mode (skips animations/audio) so 300
 > game sessions finish in a few minutes; Level 1's detailed pass runs at normal
 > speed so you can see and hear it.
 

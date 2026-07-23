@@ -130,6 +130,8 @@
     manifest: window.AUDIO_MANIFEST || {},
     current: null,              // currently-playing HTMLAudioElement
     voice: null, _ready: false, _token: 0, _ka: null,
+    _queue: [],
+    _playing: false,
 
     // Play a pre-recorded file if we have one for this text; otherwise fall back
     // to the browser's speech engine. Pre-recorded files (in ./audio) mean the
@@ -138,18 +140,42 @@
       opts = opts || {}; var done = opts.onend || function () { };
       if (FAST) { setTimeout(done, 0); return; }
       if (opts.mute) { setTimeout(done, 10); return; }
-      var file = this.manifest[normText(text)];
-      if (file) { this._playFile(file, done); return; }
-      this._speakSynth(text, opts, done);
+      this._queue.push({ text: String(text), opts: opts, done: done });
+      if (!this._playing) this._advanceQueue();
+    },
+    _advanceQueue: function () {
+      if (this._playing || !this._queue.length) return;
+      var next = this._queue.shift();
+      this._playing = true;
+      var file = this.manifest[normText(next.text)];
+      var self = this;
+      function complete() {
+        self._playing = false;
+        next.done();
+        self._advanceQueue();
+      }
+      if (file) { this._playFile(file, complete); return; }
+      this._speakSynth(next.text, next.opts, complete);
+    },
+    _stopCurrent: function () {
+      if (this.current) {
+        try { this.current.pause(); } catch (e) { }
+        try { this.current.onended = null; } catch (e) { }
+        this.current = null;
+      }
+      if (this.supported) {
+        try { window.speechSynthesis.cancel(); } catch (e) { }
+      }
     },
     _playFile: function (path, done) {
       var self = this, called = false;
       function fin() { if (!called) { called = true; done(); } }
       try {
-        if (this.current) { try { this.current.pause(); } catch (e) { } this.current.onended = null; this.current = null; }
+        this._stopCurrent();
         var a = new window.Audio(path);
         this.current = a;
-        a.onended = fin; a.onerror = fin;
+        a.onended = function () { fin(); };
+        a.onerror = function () { fin(); };
         var p = a.play();
         if (p && p.catch) p.catch(function () { fin(); });  // autoplay blocked -> resolve
         setTimeout(fin, 8000);
@@ -198,7 +224,7 @@
         u.onend = finish; u.onerror = finish;
         var token = ++this._token;
         function doSpeak() {
-          if (token !== self._token) { finish(); return; }   // superseded by a newer speak()
+          if (token !== self._token) { finish(); return; }
           if (!self.voice) { self._pickVoice(); if (self.voice) u.voice = self.voice; }
           try { synth.resume(); } catch (e) { }
           try { synth.speak(u); } catch (e) { finish(); }
@@ -206,13 +232,10 @@
         var busy = false;
         try { busy = synth.speaking || synth.pending; } catch (e) { }
         if (busy) {
-          // Interrupting speech: Chrome/Safari DROP an utterance if speak() runs in
-          // the same tick as cancel(), so cancel now and speak after a short gap.
+          // If the browser still considers speech busy, cancel stale audio first
           try { synth.cancel(); } catch (e) { }
           setTimeout(doSpeak, 60);
         } else {
-          // Idle: speak immediately so the call stays inside the user gesture
-          // (required to unlock audio) and no cancel/speak race can drop it.
           doSpeak();
         }
         setTimeout(finish, 6000);
