@@ -652,7 +652,11 @@
   function singleChoice(host, api, cfg) {
     if (cfg.promptNode) host.appendChild(cfg.promptNode);
     var instant = !!cfg.instant;   // instant: tap an option to answer (no ANSWER button)
-    var extraClass = cfg.twoUp ? " two" : cfg.options && cfg.options.length === 3 ? " three" : "";
+    // Pick a grid that keeps the options centered: 2 options -> 2 columns,
+    // 3 -> 3 columns, 4 -> 4 columns (never a half-empty 4-col row). `stack`
+    // forces a single readable column (used for full-sentence options).
+    var n = cfg.options ? cfg.options.length : 0;
+    var extraClass = cfg.stack ? " stack" : (cfg.twoUp || n === 2) ? " two" : n === 3 ? " three" : "";
     var grid = el("div", { class: "options" + extraClass });
     var nodes = [], selected = -1, solved = false;
 
@@ -955,6 +959,146 @@
       renderCurrent();
       api.registerSolver(function () { var g = 0; while (idx < tokens.length && g < 60) { binFor(tokens[idx].cat).node.click(); g++; } });
       api.registerWrongSolver(function () { if (idx < tokens.length) binFor(tokens[idx].cat === "A" ? "B" : "A").node.click(); });
+    },
+
+    // Find the Mistake — one sentence is shown with one wrong word; tap the wrong
+    // word. Derives from grammar.fix (needs a right/wrong pair that differs by
+    // exactly one word), so it needs no extra authored data. Falls back to
+    // fix_sentence if no clean single-word difference exists.
+    tap_word: function (host, api) {
+      var grammar = api.level.grammar || {};
+      var fixes = (grammar.fix || []).slice();
+      var chosen = null, badIdx = -1, rightWord = null, wrongWords = null;
+      // Find a right/wrong pair differing by exactly one word. Try a
+      // case-insensitive match first (grammar swaps like go/goes); if none, try
+      // case-sensitive so capitalisation errors (dan -> Dan) also work.
+      function findDiff(caseSensitive) {
+        return api.shuffle(fixes).some(function (f) {
+          var r = String(f.right).replace(/[.?!]+$/, "").split(/\s+/);
+          var w = String(f.wrong).replace(/[.?!]+$/, "").split(/\s+/);
+          if (r.length !== w.length) return false;
+          var diffs = [];
+          for (var i = 0; i < w.length; i++) {
+            var a = caseSensitive ? w[i] : w[i].toLowerCase();
+            var b = caseSensitive ? r[i] : r[i].toLowerCase();
+            if (a !== b) diffs.push(i);
+          }
+          if (diffs.length === 1) { chosen = f; badIdx = diffs[0]; rightWord = r[diffs[0]]; wrongWords = w; return true; }
+          return false;
+        });
+      }
+      if (!findDiff(false)) findDiff(true);
+      if (!chosen) { GAMES.fix_sentence(host, api); return; }
+
+      api.setInstruction("🔍 Tap the word that is wrong");
+      if (chosen.emoji) host.appendChild(el("div", { class: "flashcard" }, el("div", { class: "emoji-pic" }, chosen.emoji)));
+      host.appendChild(el("div", { class: "instruction" }, api.speakerPrompt(chosen.wrong), el("span", {}, " Listen — one word is wrong")));
+      var row = el("div", { class: "tile-row sentence-tiles" });
+      var nodes = [], solved = false;
+      wrongWords.forEach(function (wd, i) {
+        var chip = el("button", { class: "tile" }, wd);
+        chip.addEventListener("click", function () {
+          if (solved) return;
+          api.speak(wd);
+          if (i === badIdx) {
+            solved = true;
+            chip.classList.remove("used"); chip.classList.add("ok"); chip.textContent = rightWord;
+            api.speak(chosen.right);
+            setTimeout(function () { api.finish(); }, FAST ? 0 : 500);
+          } else {
+            chip.classList.add("bad"); api.addMistake(); api.wrong();
+            setTimeout(function () { chip.classList.remove("bad"); }, 450);
+          }
+        });
+        row.appendChild(chip); nodes.push(chip);
+      });
+      host.appendChild(row);
+      api.registerSolver(function () { nodes[badIdx].click(); });
+      api.registerWrongSolver(function () { nodes[badIdx === 0 ? nodes.length - 1 : 0].click(); });
+      api.speak(chosen.wrong);
+    },
+
+    // Question & Answer — match each spoken question/prompt to the correct reply.
+    // Teaches short answers, tag responses and everyday conversation.
+    phrase_pair: function (host, api) {
+      var grammar = api.level.grammar || {};
+      var pairs = (grammar.pairs || []).filter(function (p) { return p && p.q && p.a; });
+      // Keep only pairs with a UNIQUE question AND a unique answer, so a match is
+      // never ambiguous (two identical answers would be interchangeable).
+      var seenQ = {}, seenA = {}, uniq = [];
+      api.shuffle(pairs).forEach(function (p) {
+        if (!seenQ[p.q] && !seenA[p.a]) { seenQ[p.q] = 1; seenA[p.a] = 1; uniq.push(p); }
+      });
+      if (uniq.length < 2) { GAMES.fix_sentence(host, api); return; }
+      var chosen = uniq.slice(0, Math.min(4, uniq.length));
+      api.setInstruction("💬 Match each question to its answer");
+
+      var wrap = el("div", { class: "match-wrap" });
+      var colL = el("div", { class: "match-col" }), colR = el("div", { class: "match-col" });
+      wrap.appendChild(colL); wrap.appendChild(colR); host.appendChild(wrap);
+
+      var selected = null, matched = 0, leftNodes = {}, rightNodes = {};
+      function tryPair(a, b) {
+        if (a.id === b.id) {
+          a.el.classList.add("matched"); b.el.classList.add("matched"); matched++;
+          api.speak(chosen[a.id].a);
+          if (matched === chosen.length) setTimeout(function () { api.finish(); }, FAST ? 0 : 350);
+        } else {
+          a.el.classList.add("wrong"); b.el.classList.add("wrong"); api.addMistake(); api.wrong();
+          setTimeout(function () { a.el.classList.remove("wrong"); b.el.classList.remove("wrong"); }, 450);
+        }
+      }
+      function handler(entry) {
+        if (entry.el.classList.contains("matched")) return;
+        if (!selected) { selected = entry; entry.el.classList.add("selected"); return; }
+        if (selected.el === entry.el) { entry.el.classList.remove("selected"); selected = null; return; }
+        if (selected.col === entry.col) { selected.el.classList.remove("selected"); selected = entry; entry.el.classList.add("selected"); return; }
+        var a = selected, b = entry; selected.el.classList.remove("selected"); selected = null; tryPair(a, b);
+      }
+      api.shuffle(chosen.map(function (p, i) { return { p: p, id: i }; })).forEach(function (o) {
+        var node = el("div", { class: "match-item phrase", role: "button" }, el("span", {}, o.p.q));
+        var entry = { el: node, id: o.id, col: "L" };
+        node.addEventListener("click", function () { api.speak(o.p.q); handler(entry); });
+        colL.appendChild(node); leftNodes[o.id] = entry;
+      });
+      api.shuffle(chosen.map(function (p, i) { return { p: p, id: i }; })).forEach(function (o) {
+        var node = el("div", { class: "match-item phrase", role: "button" }, el("span", {}, o.p.a));
+        var entry = { el: node, id: o.id, col: "R" };
+        node.addEventListener("click", function () { api.speak(o.p.a); handler(entry); });
+        colR.appendChild(node); rightNodes[o.id] = entry;
+      });
+      api.registerSolver(function () { chosen.forEach(function (p, i) { leftNodes[i].el.click(); rightNodes[i].el.click(); }); });
+      api.registerWrongSolver(function () {
+        var n = chosen.length;
+        leftNodes[0].el.click(); rightNodes[(1) % n].el.click();
+      });
+    },
+
+    // Listen & Choose — hear a full sentence, then tap the sentence you heard
+    // (from this level's correct example sentences). Trains the ear to follow a
+    // whole grammatical sentence. No microphone needed.
+    listen_sentence: function (host, api) {
+      var uniq = [];
+      (api.sentences || []).forEach(function (s) { if (s && uniq.indexOf(s) < 0) uniq.push(s); });
+      if (uniq.length < 2) { GAMES.pick_word_gap(host, api); return; }
+      var chosen = api.sample(uniq, Math.min(3, uniq.length));
+      var target = api.pick(chosen);
+      api.setInstruction("🎧 Listen, then tap the sentence you hear");
+      var prompt = el("div", { class: "flashcard" });
+      prompt.appendChild(el("div", { class: "emoji-pic" }, "🎧"));
+      prompt.appendChild(api.speakerPrompt(target));
+      var options = api.shuffle(chosen.map(function (s) { return { text: s }; }));
+      var correct = options.findIndex(function (o) { return o.text === target; });
+      singleChoice(host, api, {
+        promptNode: prompt,
+        stack: true,
+        options: options,
+        correct: correct,
+        instant: true,
+        onSelect: function (d) { api.speak(d.text); },
+        renderOption: function (d) { return el("div", { class: "word-label" }, d.text); }
+      });
+      api.speak(target);
     },
 
     say_it: function (host, api) {

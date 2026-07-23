@@ -290,6 +290,16 @@ body::before {
   max-width: 720px;
 }
 
+/* Single readable column (e.g. full-sentence choices in Listen & Choose) */
+.options.stack {
+  grid-template-columns: 1fr;
+  max-width: 560px;
+}
+.options.stack .option {
+  min-height: clamp(56px, 9vw, 78px);
+  font-size: clamp(15px, 2.2vw, 22px);
+}
+
 @media (max-width: 640px) {
   .options {
     grid-template-columns: repeat(2, 1fr);
@@ -444,6 +454,30 @@ body::before {
 }
 
 .match-item.wrong {
+  animation: shake .35s;
+}
+
+/* Question & Answer: text phrases instead of pictures */
+.match-item.phrase {
+  min-height: clamp(52px, 8vw, 72px);
+  padding: 10px 12px;
+  font-size: clamp(13px, 2vw, 19px);
+  line-height: 1.15;
+  text-align: center;
+  white-space: normal;
+  word-break: break-word;
+}
+
+/* Find the Mistake: a tappable sentence made of word chips */
+.tile-row.sentence-tiles {
+  gap: 8px;
+}
+.tile.ok {
+  background: #c9f7cf;
+  border-color: var(--green-dark);
+}
+.tile.bad {
+  background: #ffd3d8;
   animation: shake .35s;
 }
 
