@@ -166,12 +166,24 @@
       if (this.supported) {
         try { window.speechSynthesis.cancel(); } catch (e) { }
       }
+      this._playing = false;
+      this._stopRequested = true;
+    },
+    clearQueue: function () {
+      this._queue = [];
+      this._stopCurrent();
     },
     _playFile: function (path, done) {
       var self = this, called = false;
-      function fin() { if (!called) { called = true; done(); } }
+      function fin() {
+        if (!called) {
+          called = true;
+          if (!self._stopRequested) done();
+        }
+      }
       try {
         this._stopCurrent();
+        this._stopRequested = false;
         var a = new window.Audio(path);
         this.current = a;
         a.onended = function () { fin(); };
@@ -238,7 +250,9 @@
         } else {
           doSpeak();
         }
-        setTimeout(finish, 6000);
+        setTimeout(function () {
+          if (!self._stopRequested) finish();
+        }, 6000);
       } catch (e) { setTimeout(done, 10); }
     }
   };
@@ -336,6 +350,11 @@
 
     start: function () {
       this.root = $("#app"); Audio.warm();
+      document.addEventListener("click", function (e) {
+        if (e.target.closest && e.target.closest("button")) {
+          Audio.clearQueue();
+        }
+      }, true);
       if (currentUsername() && currentProfile()) this.renderHome();
       else this.renderLogin();
       window.GilorTest.ready = true;
