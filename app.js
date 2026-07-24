@@ -296,9 +296,24 @@
 
   /* ==================== 5. Picture / prompt builders ================== */
   // A picture ALWAYS speaks its word when tapped (learning aid, everywhere).
+  // For ABC levels, display large letters instead of emoji/images.
   function picNode(item, opts) {
     opts = opts || {};
     var speak = opts.speak !== false;
+    var level = opts.level;
+
+    // ABC mode: render as a large letter
+    if (level && level.isABC) {
+      var letterDiv = el("div", { class: "abc-letter", style: { fontSize: "180px", fontWeight: "bold", color: level.color || "#333", textAlign: "center", lineHeight: "1" } }, item.word);
+      if (speak) {
+        letterDiv.style.cursor = "pointer";
+        letterDiv.title = "Tap to hear";
+        letterDiv.addEventListener("click", function () { Audio.speak(item.word); });
+      }
+      return letterDiv;
+    }
+
+    // Normal mode: image with emoji fallback
     var img = document.createElement("img");
     img.src = item.image; img.alt = item.word; img.draggable = false;
     if (speak) {
@@ -326,6 +341,7 @@
   }
   function flashcard(item, o) {
     o = o || {};
+    var level = o.level;
     var fc = el("div", { class: "flashcard" });
     var cardSpeak = o.speak !== false;
     var pictureSpeak = o.pictureSpeak !== false;
@@ -338,7 +354,7 @@
       sp.addEventListener("click", function (e) { e.stopPropagation(); Audio.speak(o.spokenText || item.word); });
       fc.appendChild(sp);
     }
-    fc.appendChild(picNode(item, { speak: pictureSpeak }));
+    fc.appendChild(picNode(item, { speak: pictureSpeak, level: level }));
     if (o.label) fc.appendChild(el("div", { class: "word-label" }, o.labelText || item.word));
     return fc;
   }
@@ -411,7 +427,7 @@
       var prof = currentProfile() || normalize({});
       var unlocked = prof.unlocked || 0;
       var current = Math.min(unlocked, TOTAL_LEVELS - 1);
-      var alwaysOpen = [100, 200];
+      var alwaysOpen = [5, 100];
 
       var top = el("div", { class: "topbar" },
         el("button", { class: "circle-btn", title: "Log out", "aria-label": "Log out", onclick: function () { self.logout(); } }, "⎋"),
@@ -515,7 +531,7 @@
         : DATA.levels.filter(function (l) { return l.id === ref; })[0];
       if (!level) return false;
       var prof = currentProfile() || normalize({});
-      var alwaysOpen = [100, 200];
+      var alwaysOpen = [5, 100];
       if (level.index > (prof.unlocked || 0) && alwaysOpen.indexOf(level.index) < 0) {
         Audio.speak("This level is locked. Score " + UNLOCK_SCORE + " to unlock it!");
         FX.banner("🔒 Locked! Score " + UNLOCK_SCORE + "+ first", false);
@@ -556,7 +572,9 @@
       var api = {
         pool: s.pool, sentences: s.sentences, level: s.level, allLevels: DATA.levels,
         el: el, pick: pick, shuffle: shuffle, sample: sample, distractors: distractors,
-        picNode: picNode, flashcard: flashcard, speakerPrompt: speakerPrompt,
+        picNode: function (item, opts) { opts = opts || {}; opts.level = s.level; return picNode(item, opts); },
+        flashcard: function (item, o) { o = o || {}; o.level = s.level; return flashcard(item, o); },
+        speakerPrompt: speakerPrompt,
         speak: function (t, o) { Audio.speak(t, o); },
         addMistake: function () { self._mistakes++; if (self.session) self.session.mistakes++; },
         wrong: function () { FX.banner(pick(DATA.tryAgain), false); Audio.speak(pick(DATA.tryAgain)); },
@@ -1091,7 +1109,6 @@
       function tryPair(a, b) {
         if (a.id === b.id) {
           a.el.classList.add("matched"); b.el.classList.add("matched"); matched++;
-          api.speak(chosen[a.id].a);
           if (matched === chosen.length) setTimeout(function () { api.finish(); }, FAST ? 0 : 350);
         } else {
           a.el.classList.add("wrong"); b.el.classList.add("wrong"); api.addMistake(); api.wrong();

@@ -271,6 +271,13 @@ def make_sentences(items, base=None):
 # (which needs 4 options / 4 pairs) always has enough material.
 # ---------------------------------------------------------------------------
 WORLDS = [
+    ("ABC Alphabet", "Letters, sounds and words", [
+        ("ABC A-F", [("A", "🔤"), ("B", "🔤"), ("C", "🔤"), ("D", "🔤"), ("E", "🔤"), ("F", "🔤")]),
+        ("ABC G-L", [("G", "🔤"), ("H", "🔤"), ("I", "🔤"), ("J", "🔤"), ("K", "🔤"), ("L", "🔤")]),
+        ("ABC M-R", [("M", "🔤"), ("N", "🔤"), ("O", "🔤"), ("P", "🔤"), ("Q", "🔤"), ("R", "🔤")]),
+        ("ABC S-X", [("S", "🔤"), ("T", "🔤"), ("U", "🔤"), ("V", "🔤"), ("W", "🔤"), ("X", "🔤")]),
+        ("ABC Y-Z + review", [("Y", "🔤"), ("Z", "🔤"), ("A", "🔤"), ("B", "🔤"), ("C", "🔤"), ("D", "🔤")]),
+    ]),
     ("Pre-K Planet", "First tiny words", [
         ("Colors", [("red", "🔴"), ("blue", "🔵"), ("green", "🟢"), ("yellow", "🟡"), ("orange", "🟠"), ("purple", "🟣"), ("pink", "🌸"), ("black", "⚫")]),
         ("Numbers 1-5", [("one", "1️⃣"), ("two", "2️⃣"), ("three", "3️⃣"), ("four", "4️⃣"), ("five", "5️⃣")]),
@@ -472,6 +479,7 @@ def build():
         "spell_it"
     ]
     for wi, (world_name, world_sub, topics) in enumerate(WORLDS):
+        is_abc_world = world_name == "ABC Alphabet"
         for ti, (topic, words) in enumerate(topics):
             color = PALETTE[index % len(PALETTE)]
             level_id = "L%02d" % index
@@ -487,7 +495,7 @@ def build():
                     "color": color,
                 })
             sentences, sentence_map = make_sentences([(it["word"], it["emoji"]) for it in items])
-            levels_out.append({
+            level_dict = {
                 "id": level_id,
                 "index": index,
                 "world": world_name,
@@ -500,7 +508,10 @@ def build():
                 "sentences": sentences,
                 "sentenceMap": sentence_map,
                 "gameTypes": default_game_types[:],
-            })
+            }
+            if is_abc_world:
+                level_dict["isABC"] = True
+            levels_out.append(level_dict)
             index += 1
 
     # ---- Grammar levels (indices 100+) ----

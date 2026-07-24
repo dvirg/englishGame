@@ -2,7 +2,7 @@
 
 A colorful, fully-working web game that helps a young beginner (built for
 8-year-old **Tzofia**, Novakid **Level 2 – Starters**) practice English through
-**300 levels** of 10 different mini-games each. Inspired by the Novakid
+**305 levels** of 10 different mini-games each. Inspired by the Novakid
 "Magic Academy" screens and curriculum.
 
 Everything runs in the browser — **no build step, no server-side code, no
@@ -67,9 +67,9 @@ A couple of kid-friendly touches:
 
 ---
 
-## 🗺️ 300 levels, worlds & unlocking
+## 🗺️ 305 levels, worlds & unlocking
 
-The game now includes **300 levels** grouped into **26 worlds**. Each level has a
+The game now includes **305 levels** grouped into **27 worlds**. Each level has a
 topic, vocabulary items, and example sentences used by the sentence-builder
 and other games.
 
@@ -109,8 +109,8 @@ englishGame/
 ```
 
 ### Curriculum / difficulty tiers
-`content.json` (and the identical `window.GAME_DATA` in `data.js`) holds **300
-levels** across 26 worlds. Every level has a `world`,
+`content.json` (and the identical `window.GAME_DATA` in `data.js`) holds **305
+levels** across 27 worlds. Every level has a `world`,
 a global `index` (for unlock order), a `name` (its topic), a `color`, a list of
 vocabulary `items` (each with `word`, `emoji`, `slug`, `image`), and a few
 example `sentences` used by the sentence-builder game.
@@ -163,7 +163,7 @@ shows a broken asset** — while still meeting every requirement:
 ## ✅ End-to-end test (Playwright)
 
 `test_e2e.py` launches a **visible (headed)** Chromium, serves the folder, and
-plays the **entire game — all 300 levels, start to finish**. Every run
+plays the **entire game — all 305 levels, start to finish**. Every run
 registers a **brand-new user whose name contains the date & time**
 (`kid_YYYYMMDD_HHMMSS`), so runs never collide.
 
@@ -174,7 +174,7 @@ It verifies, for **every** level:
 * a **WRONG run** (deliberate wrong answers) scores **< 95**, loses stars, and
   the next level **stays locked**;
 * a **CORRECT run** scores **100** and **unlocks the next level** — then it
-  moves on, sweeping right through to Level 300.
+  moves on, sweeping right through to Level 305.
 
 Plus, on Level 1 in detail: pictures load, the **sound buttons speak in en-US**,
 and **"What is it?" answers on a word tap** (no ANSWER button). It finishes by

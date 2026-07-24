@@ -248,6 +248,21 @@ body::before {
   line-height: 1;
 }
 
+/* ABC level large letter display */
+.abc-letter {
+  width: clamp(90px, 16vw, 150px);
+  height: clamp(90px, 16vw, 150px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  border-radius: 12px;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 3px solid var(--ink);
+  cursor: pointer;
+}
+
 /* Big speaker button (audio prompt) */
 .speaker-big {
   width: clamp(80px, 12vw, 120px);
@@ -295,6 +310,7 @@ body::before {
   grid-template-columns: 1fr;
   max-width: 560px;
 }
+
 .options.stack .option {
   min-height: clamp(56px, 9vw, 78px);
   font-size: clamp(15px, 2.2vw, 22px);
@@ -472,10 +488,12 @@ body::before {
 .tile-row.sentence-tiles {
   gap: 8px;
 }
+
 .tile.ok {
   background: #c9f7cf;
   border-color: var(--green-dark);
 }
+
 .tile.bad {
   background: #ffd3d8;
   animation: shake .35s;
