@@ -250,14 +250,14 @@ body::before {
 
 /* ABC level large letter display */
 .abc-letter {
-  width: clamp(90px, 16vw, 150px);
-  height: clamp(90px, 16vw, 150px);
+  width: clamp(45px, 8vw, 75px);
+  height: clamp(45px, 8vw, 75px);
   display: flex;
   align-items: center;
   justify-content: center;
   line-height: 1;
   border-radius: 12px;
-  padding: 8px;
+  padding: 4px;
   background: rgba(255, 255, 255, 0.9);
   border: 3px solid var(--ink);
   cursor: pointer;

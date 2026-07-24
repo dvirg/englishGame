@@ -304,7 +304,7 @@
 
     // ABC mode: render as a large letter
     if (level && level.isABC) {
-      var letterDiv = el("div", { class: "abc-letter", style: { fontSize: "180px", fontWeight: "bold", color: level.color || "#333", textAlign: "center", lineHeight: "1" } }, item.word);
+      var letterDiv = el("div", { class: "abc-letter", style: { fontSize: "90px", fontWeight: "bold", color: level.color || "#333", textAlign: "center", lineHeight: "1" } }, item.word);
       if (speak) {
         letterDiv.style.cursor = "pointer";
         letterDiv.title = "Tap to hear";
